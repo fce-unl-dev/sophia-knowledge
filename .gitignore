@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Trabajos en progreso (drafts no listos para publicar)
+/_drafts/
+
+# Notas locales del mantenedor (no entran al KB que consume Sophia)
+/_notas/

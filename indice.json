@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-05-17",
+  "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica.",
+  "items": []
+}
