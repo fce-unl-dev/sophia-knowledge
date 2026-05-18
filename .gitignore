@@ -13,3 +13,9 @@ Thumbs.db
 
 # Notas locales del mantenedor (no entran al KB que consume Sophia)
 /_notas/
+
+# Secrets locales del pipeline (GEMINI_API_KEY, etc.)
+.env
+.env.local
+.env.*.local
+tools/scraper/.env*

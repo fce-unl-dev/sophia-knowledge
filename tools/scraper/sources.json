@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada, workflow lo skipea). Los 22 cursos de formación profesional NO están aquí: el listado vive en un endpoint que requiere sesión (cursos_de_formacion/index.php?act=showCursos devuelve login) — los MDs en /cursos/ se mantienen manualmente hasta que la facultad provea endpoint scrapeable.",
+  "sensitive_sections": [
+    "Modalidad y duración",
+    "Aranceles e inscripción",
+    "Próxima cohorte",
+    "Contacto",
+    "Acreditación CONEAU",
+    "Requisitos de admisión"
+  ],
+  "sources": [
+    { "slug": "dap", "indice_path": "posgrados/dap.md", "url": "https://fce.unl.edu.ar/dap/", "strategy": "fce-microsite" },
+    { "slug": "mba", "indice_path": "posgrados/mba.md", "url": "https://fce.unl.edu.ar/mba/", "strategy": "fce-microsite" },
+    { "slug": "maf", "indice_path": "posgrados/maf.md", "url": "https://fce.unl.edu.ar/maf/", "strategy": "fce-microsite" },
+    { "slug": "map", "indice_path": "posgrados/map.md", "url": "https://fce.unl.edu.ar/magister/", "strategy": "fce-microsite" },
+    { "slug": "mcya", "indice_path": "posgrados/mcya.md", "url": "https://www.fce.unl.edu.ar/mcya/", "strategy": "fce-microsite" },
+    { "slug": "maea", "indice_path": "posgrados/maea.md", "url": "https://fce.unl.edu.ar/maea/", "strategy": "fce-microsite" },
+    { "slug": "mrso", "indice_path": "posgrados/mrso.md", "url": "https://fce.unl.edu.ar/mrso/", "strategy": "fce-microsite" },
+    { "slug": "ecyap", "indice_path": "posgrados/ecyap.md", "url": "https://fce.unl.edu.ar/ecyap/", "strategy": "fce-microsite" },
+    { "slug": "ecyge", "indice_path": "posgrados/ecyge.md", "url": "https://fce.unl.edu.ar/ecyge/", "strategy": "fce-microsite" },
+    { "slug": "edgop", "indice_path": "posgrados/edgop.md", "url": "https://fce.unl.edu.ar/edgop/", "strategy": "fce-microsite" },
+    { "slug": "sindicatura-concursal", "indice_path": "posgrados/sindicatura-concursal.md", "url": "https://fce.unl.edu.ar/sindicatura/", "strategy": "fce-microsite" },
+    { "slug": "tributacion", "indice_path": "posgrados/tributacion.md", "url": "https://fce.unl.edu.ar/tributacion/", "strategy": "fce-microsite" },
+
+    { "slug": "gfsp", "indice_path": "diplomaturas/gfsp.md", "url": "https://www.fce.unl.edu.ar/gfsp/", "strategy": "fce-microsite" },
+    { "slug": "gto", "indice_path": "diplomaturas/gto.md", "url": "https://www.fce.unl.edu.ar/gto/", "strategy": "fce-microsite" },
+    { "slug": "diplomercados", "indice_path": "diplomaturas/diplomercados.md", "url": "https://www.fce.unl.edu.ar/diplomercados/", "strategy": "fce-microsite" },
+    { "slug": "empresas-familiares", "indice_path": "diplomaturas/empresas-familiares.md", "url": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/", "strategy": "fce-wordpress" },
+
+    { "slug": "doctorado-estudios-sociales", "indice_path": "compartidos/doctorado-estudios-sociales.md", "url": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/", "strategy": "wordpress-homepage" },
+    { "slug": "negocios-agroalimentarios", "indice_path": "compartidos/negocios-agroalimentarios.md", "url": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/", "strategy": "wordpress-homepage" },
+    { "slug": "mdypp", "indice_path": "compartidos/mdypp.md", "url": "https://www.fcjs.unl.edu.ar/mdypp/", "strategy": "wordpress-homepage" },
+
+    { "slug": "regimen-de-ensenanza", "indice_path": "operativos/regimen-de-ensenanza.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/regimen/", "strategy": "fce-wordpress" },
+    { "slug": "aulas-virtuales", "indice_path": "operativos/aulas-virtuales.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/aulas/", "strategy": "fce-wordpress" },
+    { "slug": "ingreso-2026", "indice_path": "operativos/ingreso-2026.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/", "strategy": "fce-wordpress" },
+
+    { "slug": "posgrado-estudiantes", "indice_path": "posgrado-general/estudiantes.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-doctorados", "indice_path": "posgrado-general/doctorados-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-maestrias", "indice_path": "posgrado-general/maestrias-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-especializaciones", "indice_path": "posgrado-general/especializaciones-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-cursos", "indice_path": "posgrado-general/cursos-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-inscripciones-carreras", "indice_path": "posgrado-general/inscripciones-en-carreras.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-credito-fiscal", "indice_path": "posgrado-general/regimen-credito-fiscal.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-carreras-otras-unidades", "indice_path": "posgrado-general/carreras-otras-unidades-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-becas-docentes", "indice_path": "posgrado-general/becas-docentes.md", "url": "https://www.fce.unl.edu.ar/posgrado/2023/09/29/becas-de-posgrado-para-docentes/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-diplomaturas-overview", "indice_path": "posgrado-general/diplomaturas-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/", "strategy": "fce-wordpress" },
+    { "slug": "posgrado-beneficios-graduados", "indice_path": "posgrado-general/beneficios-graduados.md", "url": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/", "strategy": "fce-wordpress" }
+  ]
+}

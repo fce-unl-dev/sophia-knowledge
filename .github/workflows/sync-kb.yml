@@ -1,0 +1,199 @@
+name: Sync KB
+
+# Workflow disparable manualmente (UI de GH Actions o desde el dashboard admin
+# del agente Sophia via API). Sincroniza el KB con las fuentes web definidas en
+# tools/scraper/sources.json.
+#
+# Decisiones por slug (las toma run_pipeline.mjs):
+#   no_change          → solo actualiza state/{slug}.meta.json
+#   auto_merge         → cambios solo en secciones no sensibles, commit directo a main
+#   requires_review    → al menos una sección sensible cambió, abre PR
+#   rejected           → validación falló (estructura, prohibidos, placeholders) — NO commitea
+#   error              → fallo técnico, NO commitea, queda visible en el log
+#   skipped            → strategy=TBD, no se procesa
+#
+# Modo dry-run: corre todo pero no escribe al repo. Útil para validar antes de
+# hacer cambios reales o para inspeccionar qué decisión tomaría el pipeline.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Slug específico (ej. mba) o "all" para procesar todas las fuentes no-TBD.'
+        required: true
+        default: 'all'
+        type: string
+      mode:
+        description: 'Modo de ejecución'
+        required: true
+        default: 'refresh'
+        type: choice
+        options:
+          - refresh
+          - force
+          - dry-run
+      triggered_by:
+        description: 'Quién disparó este run (email o nombre para audit log).'
+        required: false
+        default: 'manual'
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  # Permite múltiples runs en paralelo pero serializa por slug (evita race con
+  # el mismo MD del KB siendo modificado dos veces a la vez).
+  group: sync-kb-${{ inputs.source }}
+  cancel-in-progress: false
+
+jobs:
+  list-slugs:
+    runs-on: ubuntu-latest
+    outputs:
+      slugs: ${{ steps.compute.outputs.slugs }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compute slug matrix
+        id: compute
+        run: |
+          if [ "${{ inputs.source }}" = "all" ]; then
+            slugs=$(jq -c '[.sources[] | select(.strategy != "TBD") | .slug]' tools/scraper/sources.json)
+          else
+            slugs=$(jq -c --arg s "${{ inputs.source }}" '[$s]')
+          fi
+          echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
+          echo "Slugs a procesar: $slugs"
+
+  sync:
+    needs: list-slugs
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        slug: ${{ fromJson(needs.list-slugs.outputs.slugs) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run pipeline for ${{ matrix.slug }}
+        id: pipeline
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        working-directory: tools/scraper
+        run: |
+          set +e
+          node run_pipeline.mjs --slug=${{ matrix.slug }} --mode=${{ inputs.mode }} > /tmp/report.json
+          exit_code=$?
+          echo "exit_code=$exit_code"
+          cat /tmp/report.json
+          decision=$(jq -r '.decision' /tmp/report.json)
+          echo "decision=$decision" >> "$GITHUB_OUTPUT"
+          # Errores y rejected NO bloquean al resto de la matrix; loguean y siguen
+          exit 0
+
+      - name: Apply auto_merge to main
+        if: inputs.mode != 'dry-run' && steps.pipeline.outputs.decision == 'auto_merge'
+        run: |
+          set -e
+          slug='${{ matrix.slug }}'
+          kb_path=$(jq -r --arg slug "$slug" '.sources[] | select(.slug==$slug) | .indice_path' tools/scraper/sources.json)
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          cp tools/scraper/state/$slug.candidate.md $kb_path
+          git add $kb_path tools/scraper/state/$slug.meta.json
+          if git diff --cached --quiet; then
+            echo "Nothing to commit for $slug"
+            exit 0
+          fi
+          git commit -m "chore(kb): auto-sync $slug — triggered by ${{ inputs.triggered_by }}"
+          # Retry con rebase para evitar race con otros jobs de la matrix
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then
+              echo "Pushed auto_merge for $slug (attempt $i)"
+              exit 0
+            fi
+            echo "Push failed (attempt $i), retrying..."
+            sleep $((RANDOM % 5 + 3))
+          done
+          echo "Failed to push after 5 retries"
+          exit 1
+
+      - name: Persist state meta on no_change
+        if: inputs.mode != 'dry-run' && steps.pipeline.outputs.decision == 'no_change'
+        run: |
+          set -e
+          slug='${{ matrix.slug }}'
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          git add tools/scraper/state/$slug.meta.json
+          if git diff --cached --quiet; then
+            echo "No state changes for $slug"
+            exit 0
+          fi
+          git commit -m "chore(kb): refresh last_checked for $slug"
+          for i in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main && git push origin HEAD:main; then
+              exit 0
+            fi
+            sleep $((RANDOM % 5 + 3))
+          done
+          exit 1
+
+      - name: Open PR (requires_review)
+        if: inputs.mode != 'dry-run' && steps.pipeline.outputs.decision == 'requires_review'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          slug='${{ matrix.slug }}'
+          kb_path=$(jq -r --arg slug "$slug" '.sources[] | select(.slug==$slug) | .indice_path' tools/scraper/sources.json)
+          sensitive=$(jq -r '.sensitive_changes | join(", ")' /tmp/report.json)
+          changed=$(jq -r '.changed_sections | join(", ")' /tmp/report.json)
+          branch="kb-sync/${slug}-$(date +%s)"
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          git checkout -b "$branch"
+          cp tools/scraper/state/$slug.candidate.md $kb_path
+          git add $kb_path tools/scraper/state/$slug.meta.json
+          git commit -m "chore(kb): sync $slug — secciones sensibles cambiaron"
+          git push origin "$branch"
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "KB sync: $slug — requiere review (secciones sensibles cambiaron)" \
+            --label needs-review \
+            --body "Pipeline automático de sync del KB de Sophia.
+
+          **Disparado por**: ${{ inputs.triggered_by }}
+          **Fuente**: \`$slug\`  ([$slug en sources.json](../blob/main/tools/scraper/sources.json))
+          **Secciones cambiadas**: $changed
+          **Secciones sensibles afectadas**: $sensitive
+
+          ## Por qué este PR existe
+
+          Las secciones sensibles incluyen fechas (inicio cursada, cierre inscripción), aranceles, contactos, modalidad, requisitos de admisión y acreditación CONEAU. Cambios en estas secciones impactan directamente lo que Sophia le responde a los usuarios y por eso requieren revisión humana antes de mergear.
+
+          ## Cómo revisar
+
+          1. Mirá el diff de \`$kb_path\` y validá que los cambios sean reales y correctos.
+          2. Si tenés dudas sobre un dato, verificá contra la fuente oficial: ver \`canonicalUrl\` en sources.json.
+          3. Si todo OK → aprobá y mergeá.
+          4. Si algo está mal → cerrá el PR sin mergear. El próximo run del pipeline volverá a intentarlo."
+
+      - name: Report rejected/error
+        if: steps.pipeline.outputs.decision == 'rejected' || steps.pipeline.outputs.decision == 'error'
+        run: |
+          slug='${{ matrix.slug }}'
+          decision='${{ steps.pipeline.outputs.decision }}'
+          echo "::warning::Pipeline para $slug terminó en $decision. Ver report en log anterior."
+          # No abortar la matrix; otros slugs deben poder seguir.

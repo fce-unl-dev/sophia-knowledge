@@ -1,0 +1,17 @@
+{
+  "name": "sophia-kb-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pipeline de scraping del KB de Sophia (FCE-UNL). Corre desde GitHub Actions o local.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "scrape": "node scrape.mjs",
+    "generate": "node generate_md.mjs",
+    "validate": "node validate.mjs",
+    "classify": "node classify_diff.mjs",
+    "test": "node --test 'tests/*.test.mjs'"
+  }
+}

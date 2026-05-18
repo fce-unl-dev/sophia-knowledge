@@ -1,0 +1,9 @@
+# Los raw.txt se regeneran en cada run y pesan ~100-500KB c/u.
+# Los candidate.md son output ephemeral del LLM, regenerable.
+# Los gen.meta.json registran tokens/timestamps por run — útil para debug pero
+# no aporta entre runs (ya queda en el log del workflow).
+# El workflow GH Actions los necesita dentro del job pero no los commitea.
+# Solo los meta.json del scrape (chicos, con hash) viajan en git para diff-first.
+*.raw.txt
+*.candidate.md
+*.gen.meta.json
