@@ -1,0 +1,17 @@
+{
+  "slug": "posgrado-inscripciones-carreras",
+  "url": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/",
+  "strategy": "fce-wordpress",
+  "content_hash": "d68be5c44480a3acdf18a22f7583621ff29db234cad89f8236b07dc06ee9a55a",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/",
+      "title": "Inscripciones a Carreras",
+      "length": 267
+    }
+  ],
+  "scraped_at": "2026-05-18T23:10:03.659Z",
+  "last_checked_at": "2026-05-18T23:10:03.659Z"
+}
