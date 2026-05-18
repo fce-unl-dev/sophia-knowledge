@@ -107,6 +107,7 @@ jobs:
           kb_path=$(jq -r --arg slug "$slug" '.sources[] | select(.slug==$slug) | .indice_path' tools/scraper/sources.json)
           git config user.name 'sophia-kb-bot'
           git config user.email 'bot@fce.unl.edu.ar'
+          mkdir -p "$(dirname "$kb_path")"
           cp tools/scraper/state/$slug.candidate.md $kb_path
           git add $kb_path tools/scraper/state/$slug.meta.json
           if git diff --cached --quiet; then
@@ -163,6 +164,7 @@ jobs:
           git config user.name 'sophia-kb-bot'
           git config user.email 'bot@fce.unl.edu.ar'
           git checkout -b "$branch"
+          mkdir -p "$(dirname "$kb_path")"
           cp tools/scraper/state/$slug.candidate.md $kb_path
           git add $kb_path tools/scraper/state/$slug.meta.json
           git commit -m "chore(kb): sync $slug — secciones sensibles cambiaron"
