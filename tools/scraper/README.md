@@ -89,7 +89,8 @@ state/
 
 ## Agregar una fuente nueva
 
-1. Editar `sources.json`:
+1. Verificar la URL real con `curl -sL "<url>" | grep blog-content` (o `act=showSubcategoria` para microsites).
+2. Editar `sources.json`:
    ```json
    {
      "slug": "nuevo-programa",
@@ -98,8 +99,26 @@ state/
      "strategy": "fce-microsite"
    }
    ```
-2. Crear entry en `/indice.json` del repo (para que el agente lo cargue).
-3. Disparar el workflow con `source=nuevo-programa` y `mode=force` para generar el MD inicial → abre PR para review (siempre review si no había MD previo).
+3. Disparar el workflow con `source=nuevo-programa` y `mode=force`. Como no hay MD previo, classify devuelve `requires_review` por `no_existing_md` → se abre PR con el MD nuevo.
+4. **Al mergear ese PR, también agregar entry en `/indice.json`** (raíz del repo KB) para que el agente Sophia lo cargue en runtime. Si no se agrega al indice, el MD existe en el repo pero el agente no lo ve. Ejemplo:
+   ```json
+   {
+     "path": "posgrados/nuevo-programa.md",
+     "title": "Nuevo Programa de Posgrado",
+     "category": "Maestría",
+     "programCode": "NP",
+     "canonicalUrl": "https://fce.unl.edu.ar/nuevo-programa/"
+   }
+   ```
+
+## Organización de carpetas en el KB
+
+- `posgrados/` — fichas de programas individuales (12 carreras de posgrado FCE)
+- `diplomaturas/` — fichas de diplomaturas individuales
+- `compartidos/` — fichas de programas compartidos con otras facultades UNL
+- `cursos/` — fichas de cursos de formación profesional
+- `operativos/` — páginas operativas del grado (régimen, aulas, ingreso)
+- `posgrado-general/` — páginas overview e info general de la sección Posgrado (estudiantes, becas, beneficios, índices de doctorados/maestrías/especializaciones, inscripciones, crédito fiscal). El sidebar real del posgrado en fce.unl.edu.ar/posgrado/ tiene estos items como categorías o posts; agregarlos al KB cubre preguntas comunes que las fichas individuales no responden (ej. trámite de diploma digital, beneficios para graduados, becas).
 
 ## Estrategias soportadas
 
