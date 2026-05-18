@@ -1,0 +1,17 @@
+{
+  "slug": "posgrado-carreras-otras-unidades",
+  "url": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/",
+  "strategy": "fce-wordpress",
+  "content_hash": "9313f229d9ac4c64d96346830298d46bc77258766d09746f0145775a6a0c9ed6",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/",
+      "title": "Carreras de Posgrado con otras Unidades Académicas",
+      "length": 1246
+    }
+  ],
+  "scraped_at": "2026-05-18T23:10:10.763Z",
+  "last_checked_at": "2026-05-18T23:10:10.763Z"
+}
