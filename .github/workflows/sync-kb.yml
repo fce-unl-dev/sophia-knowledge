@@ -61,7 +61,7 @@ jobs:
           if [ "${{ inputs.source }}" = "all" ]; then
             slugs=$(jq -c '[.sources[] | select(.strategy != "TBD") | .slug]' tools/scraper/sources.json)
           else
-            slugs=$(jq -c --arg s "${{ inputs.source }}" '[$s]')
+            slugs=$(jq -cn --arg s "${{ inputs.source }}" '[$s]')
           fi
           echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
           echo "Slugs a procesar: $slugs"
