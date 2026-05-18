@@ -1,0 +1,17 @@
+{
+  "slug": "posgrado-especializaciones",
+  "url": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/",
+  "strategy": "fce-wordpress",
+  "content_hash": "515f44017dc29d7ee904f91b4da49ce08663930049353b6b79896aae0f82d5c1",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/",
+      "title": "Especializaciones",
+      "length": 304
+    }
+  ],
+  "scraped_at": "2026-05-18T23:09:56.275Z",
+  "last_checked_at": "2026-05-18T23:09:56.275Z"
+}
