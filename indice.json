@@ -1,6 +1,154 @@
 {
-  "version": 1,
+  "version": 2,
   "lastUpdated": "2026-05-17",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica.",
-  "items": []
+  "items": [
+    {
+      "path": "posgrados/dap.md",
+      "title": "Doctorado en Administración Pública (DAP)",
+      "category": "Doctorado",
+      "programCode": "DAP",
+      "canonicalUrl": "https://fce.unl.edu.ar/dap/"
+    },
+    {
+      "path": "posgrados/mba.md",
+      "title": "Maestría en Administración de Empresas (MBA)",
+      "category": "Maestría",
+      "programCode": "MBA",
+      "canonicalUrl": "https://fce.unl.edu.ar/mba/"
+    },
+    {
+      "path": "posgrados/maf.md",
+      "title": "Maestría en Administración y Finanzas (MAF)",
+      "category": "Maestría",
+      "programCode": "MAF",
+      "canonicalUrl": "https://fce.unl.edu.ar/maf/"
+    },
+    {
+      "path": "posgrados/map.md",
+      "title": "Maestría en Administración Pública (MAP)",
+      "category": "Maestría",
+      "programCode": "MAP",
+      "canonicalUrl": "https://fce.unl.edu.ar/magister/"
+    },
+    {
+      "path": "posgrados/mcya.md",
+      "title": "Maestría en Contabilidad y Auditoría (MCYA)",
+      "category": "Maestría",
+      "programCode": "MCYA",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/mcya/"
+    },
+    {
+      "path": "posgrados/maea.md",
+      "title": "Maestría en Economía Aplicada (MEA, slug histórico 'maea')",
+      "category": "Maestría",
+      "programCode": "MEA",
+      "canonicalUrl": "https://fce.unl.edu.ar/maea/"
+    },
+    {
+      "path": "posgrados/mrso.md",
+      "title": "Maestría en Responsabilidad Social Organizacional (MRSO)",
+      "category": "Maestría",
+      "programCode": "MRSO",
+      "canonicalUrl": "https://fce.unl.edu.ar/mrso/"
+    },
+    {
+      "path": "posgrados/ecyap.md",
+      "title": "Especialización en Contabilidad y Auditoría para PyMEs (ECYAP)",
+      "category": "Especialización",
+      "programCode": "ECYAP",
+      "canonicalUrl": "https://fce.unl.edu.ar/ecyap/"
+    },
+    {
+      "path": "posgrados/ecyge.md",
+      "title": "Especialización en Costos y Gestión Empresarial (ECYGE)",
+      "category": "Especialización",
+      "programCode": "ECYGE",
+      "canonicalUrl": "https://fce.unl.edu.ar/ecyge/"
+    },
+    {
+      "path": "posgrados/edgop.md",
+      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Especialización",
+      "programCode": "EDGOP",
+      "canonicalUrl": "https://fce.unl.edu.ar/edgop/"
+    },
+    {
+      "path": "posgrados/sindicatura-concursal.md",
+      "title": "Especialización en Sindicatura Concursal",
+      "category": "Especialización",
+      "programCode": "SC",
+      "canonicalUrl": "https://fce.unl.edu.ar/sindicatura/"
+    },
+    {
+      "path": "posgrados/tributacion.md",
+      "title": "Especialización en Tributación",
+      "category": "Especialización",
+      "programCode": "TRIB",
+      "canonicalUrl": "https://fce.unl.edu.ar/tributacion/"
+    },
+    {
+      "path": "diplomaturas/gfsp.md",
+      "title": "Diplomatura en Gestión Financiera del Sector Público (GFSP)",
+      "category": "Diplomatura universitaria",
+      "programCode": "GFSP",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/gfsp/"
+    },
+    {
+      "path": "diplomaturas/gto.md",
+      "title": "Diplomatura en Gestión para el Trabajo en Organizaciones (GTO)",
+      "category": "Diplomatura universitaria",
+      "programCode": "GTO",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/gto/"
+    },
+    {
+      "path": "diplomaturas/diplomercados.md",
+      "title": "Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros (DIPMERC)",
+      "category": "Diplomatura universitaria superior",
+      "programCode": "DIPMERC",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/diplomercados/"
+    },
+    {
+      "path": "diplomaturas/empresas-familiares.md",
+      "title": "Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de las Empresas Familiares",
+      "category": "Diplomatura universitaria superior",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/"
+    },
+    {
+      "path": "compartidos/doctorado-estudios-sociales.md",
+      "title": "Doctorado en Estudios Sociales (compartido — sede FHUC)",
+      "category": "Posgrado compartido",
+      "canonicalUrl": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/"
+    },
+    {
+      "path": "compartidos/negocios-agroalimentarios.md",
+      "title": "Maestría en Negocios Agroalimentarios (FCE + FCA, sede FCA)",
+      "category": "Posgrado compartido",
+      "canonicalUrl": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/"
+    },
+    {
+      "path": "compartidos/mdypp.md",
+      "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
+      "category": "Posgrado compartido",
+      "canonicalUrl": "https://www.fcjs.unl.edu.ar/mdypp/"
+    },
+    {
+      "path": "operativos/regimen-de-ensenanza.md",
+      "title": "Régimen de Enseñanza FCE-UNL",
+      "category": "Operativo",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/regimen/"
+    },
+    {
+      "path": "operativos/aulas-virtuales.md",
+      "title": "Aulas Virtuales FCE-UNL",
+      "category": "Operativo",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/aulas/"
+    },
+    {
+      "path": "operativos/ingreso-2026.md",
+      "title": "Ingreso 2026 a carreras de grado",
+      "category": "Operativo",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/"
+    }
+  ]
 }
