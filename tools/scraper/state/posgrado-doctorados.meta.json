@@ -1,0 +1,17 @@
+{
+  "slug": "posgrado-doctorados",
+  "url": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/",
+  "strategy": "fce-wordpress",
+  "content_hash": "f90726e244b6e7997df84dc4f640aa4011ad347701c84f92848b3684af3b5d64",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/",
+      "title": "Doctorados",
+      "length": 858
+    }
+  ],
+  "scraped_at": "2026-05-18T23:09:46.267Z",
+  "last_checked_at": "2026-05-18T23:09:46.267Z"
+}
