@@ -265,6 +265,72 @@
       "title": "Cursos de Formación FCE — Inscripciones abiertas (actualizado automáticamente)",
       "category": "Curso de formación profesional",
       "canonicalUrl": "https://www.fce.unl.edu.ar/cursos-de-formacion/"
+    },
+    {
+      "path": "posgrado-general/estudiantes.md",
+      "title": "Información para Estudiantes de Posgrado (trámites, diplomas, becas, calendario)",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/"
+    },
+    {
+      "path": "posgrado-general/doctorados-overview.md",
+      "title": "Doctorados FCE — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/"
+    },
+    {
+      "path": "posgrado-general/maestrias-overview.md",
+      "title": "Maestrías FCE — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/"
+    },
+    {
+      "path": "posgrado-general/especializaciones-overview.md",
+      "title": "Especializaciones FCE — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/"
+    },
+    {
+      "path": "posgrado-general/cursos-overview.md",
+      "title": "Cursos de Posgrado — Información e inscripción",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/"
+    },
+    {
+      "path": "posgrado-general/inscripciones-en-carreras.md",
+      "title": "Inscripciones en Carreras de Posgrado FCE",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/"
+    },
+    {
+      "path": "posgrado-general/regimen-credito-fiscal.md",
+      "title": "Régimen de Crédito Fiscal para Capacitación",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/"
+    },
+    {
+      "path": "posgrado-general/carreras-otras-unidades-overview.md",
+      "title": "Carreras de Posgrado con Otras Unidades Académicas",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/"
+    },
+    {
+      "path": "posgrado-general/becas-docentes.md",
+      "title": "Becas de Posgrado para Docentes FCE UNL",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2023/09/29/becas-de-posgrado-para-docentes/"
+    },
+    {
+      "path": "posgrado-general/diplomaturas-overview.md",
+      "title": "Diplomaturas Nivel Superior — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/"
+    },
+    {
+      "path": "posgrado-general/beneficios-graduados.md",
+      "title": "Beneficios para Graduados FCE UNL",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/"
     }
   ]
 }
