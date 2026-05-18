@@ -259,6 +259,12 @@
       "path": "cursos/trading-profesional-basado-en-evidencia.md",
       "title": "Trading Profesional Basado en Evidencia",
       "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/cursos-de-formacion-activos.md",
+      "title": "Cursos de Formación FCE — Inscripciones abiertas (actualizado automáticamente)",
+      "category": "Curso de formación profesional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/cursos-de-formacion/"
     }
   ]
 }
