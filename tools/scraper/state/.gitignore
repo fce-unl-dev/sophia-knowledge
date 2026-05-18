@@ -1,0 +1,4 @@
+# Los raw.txt se regeneran en cada run y pesan ~100-500KB c/u.
+# El workflow GH Actions sí los necesita dentro del job pero no los commitea.
+# Solo los meta.json (chicos, con hash) viajan en git para diff-first runs.
+*.raw.txt
