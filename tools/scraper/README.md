@@ -104,11 +104,16 @@ state/
 ## Estrategias soportadas
 
 - `fce-microsite`: descubre menú lateral del template FCE (regex sobre `index.php?act=showSubcategoria|showCategoria|showNoticia`). Funciona para los 12 posgrados + 3 diplomaturas FCE.
-- `wordpress-homepage`: solo baja la home. Para sitios de otras facultades (FHUC, FCA, FCJS) que usan WordPress y no tienen el template FCE.
-- `TBD`: marcador. El workflow lo saltea con `decision: skipped`. Usado para fuentes cuya estrategia todavía no se implementó (operativos, empresas-familiares con URL larga). Implementarlas en Fase 1.2 o 2.
+- `fce-wordpress`: páginas internas del sitio FCE construidas sobre WordPress (theme Académica). Extrae solo el contenido de `<div class="blog-content">` descartando sidebar y footer. Aplica a operativos (regimen, aulas, ingreso) y a páginas de programa con URL larga (empresas-familiares).
+- `wordpress-homepage`: baja solo la home y extrae main content. Para sitios de otras facultades (FHUC, FCA, FCJS) que NO usan el template FCE.
+- `TBD`: marcador para estrategias todavía no implementadas. El workflow lo saltea con `decision: skipped`.
 
 ## Limitaciones conocidas
 
-- **Cursos de formación profesional** (~22) no están todavía en `sources.json`. Cada curso tiene su microsite con id propio, descubrirlos requiere parsear el iframe del listado `cursos_de_formacion/index.php?act=showCursos`. Fase 1.2.
+- **Cursos de formación profesional** (~22 cursos) NO están en `sources.json`. El endpoint del listado oficial (`cursos_de_formacion/index.php?act=showCursos`) requiere sesión — devuelve página de login si se accede sin cookie del iframe padre. Los MDs en `/cursos/` se siguen manteniendo manualmente hasta que la facultad provea un endpoint scrapeable (Fase 1.3 o pedido al equipo de Sistemas FCE).
+
+- **Mismatch template para páginas operativas**: el template canónico está pensado para programas académicos (con Plan de estudios, Cuerpo docente, etc.). Las páginas operativas (regimen, aulas, ingreso) son procesos, no programas — el LLM marca correctamente "no aplica" en secciones que no corresponden, pero el output tiene mucho "null". Aceptable porque siempre pasa por review humano (decisión `requires_review` por `structural_change` cuando el MD actual usa secciones diferentes a las del template). A futuro se puede agregar un campo `template_override` por source para usar un template más liviano en operativos.
+
 - **Drive** no se sincroniza en esta fase. Fase 2.
+
 - **Race condition** en push a `main` cuando varios jobs de la matrix terminan en `auto_merge` simultáneamente. Mitigado con retry + pull-rebase (5 intentos con backoff random); en la práctica es raro porque `max-parallel: 3` y la mayoría de fuentes da `no_change`.

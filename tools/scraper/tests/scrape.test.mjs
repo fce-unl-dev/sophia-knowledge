@@ -17,6 +17,7 @@ import {
   hashContent,
   scrapeBySource,
   runForSource,
+  extractWordpressBlogContent,
 } from '../scrape.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -145,6 +146,23 @@ describe('discoverFceMicrositeLinks', () => {
   });
 });
 
+describe('extractWordpressBlogContent', () => {
+  test('extrae sólo el contenido dentro de div.blog-content (HTML raw, sin decode)', async () => {
+    const html = await loadFixture('wordpress-page.html');
+    const out = extractWordpressBlogContent(html);
+    // El output es HTML crudo — entities sin decodificar (decode lo hace htmlToText después).
+    assert.ok(out.includes('Normas y Procedimientos'));
+    assert.ok(out.includes('Inscripci&oacute;n a materias'));
+    // Sidebar y footer quedan fuera por los end-markers
+    assert.ok(!out.includes('NO DEBE APARECER'));
+    assert.ok(!out.includes('TAMPOCO'));
+  });
+  test('si no hay div.blog-content, devuelve el html tal cual', () => {
+    const html = '<html><body><main>simple</main></body></html>';
+    assert.equal(extractWordpressBlogContent(html), html);
+  });
+});
+
 describe('processPage', () => {
   test('produce title + text + length sin widgets ni footer', async () => {
     const html = await loadFixture('microsite-home.html');
@@ -217,6 +235,21 @@ describe('scrapeBySource', () => {
       { fetchImpl: async () => { throw new Error('no debería llamarse'); } },
     );
     assert.equal(r.skipped, true);
+  });
+
+  test('fce-wordpress extrae solo blog-content y descarta sidebar/footer', async () => {
+    const html = await loadFixture('wordpress-page.html');
+    const fetchImpl = buildMockFetch({ 'https://www.fce.unl.edu.ar/academica/categorias/regimen/': html });
+    const r = await scrapeBySource(
+      { slug: 'regimen-de-ensenanza', url: 'https://www.fce.unl.edu.ar/academica/categorias/regimen/', strategy: 'fce-wordpress' },
+      { fetchImpl },
+    );
+    assert.equal(r.strategy, 'fce-wordpress');
+    assert.equal(r.pages.length, 1);
+    assert.match(r.pages[0].title, /Normas y Procedimientos/);
+    assert.ok(r.pages[0].text.includes('Inscripción a materias'));
+    assert.ok(!r.pages[0].text.includes('NO DEBE APARECER'));
+    assert.ok(!r.pages[0].text.includes('TAMPOCO'));
   });
 
   test('strategy desconocida tira', async () => {

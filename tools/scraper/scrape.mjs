@@ -208,9 +208,52 @@ export async function scrapeWordpressHomepage(rootUrl, { fetchImpl = fetch } = {
   return { strategy: 'wordpress-homepage', pages: [page] };
 }
 
+// Páginas internas del sitio FCE construidas sobre WordPress (theme Académica).
+// Se reconocen por el contenedor `<div class="blog-content">` que envuelve el
+// contenido principal. Aplica a categorías de /academica/categorias/X/ y a
+// posts individuales tipo /academica/{slug}/. Solo bajamos la URL pasada — no
+// descubrimos subpáginas porque las categorías hacen un listing con excerpts
+// suficientes, y los posts son auto-contenidos.
+export function extractWordpressBlogContent(html) {
+  // Busca el div.blog-content y devuelve solo ese subárbol. Si no aparece,
+  // devuelve el html original (defensivo).
+  const m = html.match(/<div[^>]*class=["'][^"']*\bblog-content\b[^"']*["'][^>]*>/i);
+  if (!m) return html;
+  const start = m.index + m[0].length;
+  // Encuentra el </div> de cierre balanceando — implementación simple sin DOM:
+  // aceptamos cualquier </div> a partir de un cierto offset. Esto puede cortar
+  // antes en estructuras profundas, pero funciona para el template FCE donde
+  // .blog-content envuelve los posts con secciones planas.
+  // Mejor: capturamos hasta el próximo <footer o <aside o <div class="sidebar
+  const tail = html.slice(start);
+  const endMarkers = [
+    /<footer\b/i,
+    /<aside\b/i,
+    /<div[^>]+class=["'][^"']*\bsidebar\b/i,
+    /<div[^>]+id=["']footer/i,
+  ];
+  let cut = tail.length;
+  for (const re of endMarkers) {
+    const mm = tail.match(re);
+    if (mm && mm.index !== undefined && mm.index < cut) cut = mm.index;
+  }
+  return tail.slice(0, cut);
+}
+
+export async function scrapeFceWordpress(rootUrl, { fetchImpl = fetch } = {}) {
+  const res = await fetchHtml(rootUrl, { fetchImpl });
+  const cropped = extractWordpressBlogContent(res.html);
+  const sectionTitle = extractSectionTitle(cropped);
+  const docTitle = extractTitle(res.html);
+  const text = htmlToText(cropped);
+  const page = { url: res.url, title: sectionTitle || docTitle, text, length: text.length };
+  return { strategy: 'fce-wordpress', pages: [page] };
+}
+
 export async function scrapeBySource(source, { fetchImpl = fetch } = {}) {
   if (source.strategy === 'fce-microsite') return scrapeFceMicrosite(source.url, { fetchImpl });
   if (source.strategy === 'wordpress-homepage') return scrapeWordpressHomepage(source.url, { fetchImpl });
+  if (source.strategy === 'fce-wordpress') return scrapeFceWordpress(source.url, { fetchImpl });
   if (source.strategy === 'TBD') {
     return { strategy: 'TBD', pages: [], skipped: true, reason: 'strategy not implemented yet' };
   }

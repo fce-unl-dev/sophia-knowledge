@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo. strategy: 'fce-microsite' (descubre menú lateral) | 'wordpress-homepage' (solo home) | 'TBD' (no implementada todavía, workflow lo skipea).",
+  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada, workflow lo skipea). Los 22 cursos de formación profesional NO están aquí: el listado vive en un endpoint que requiere sesión (cursos_de_formacion/index.php?act=showCursos devuelve login) — los MDs en /cursos/ se mantienen manualmente hasta que la facultad provea endpoint scrapeable.",
   "sensitive_sections": [
     "Modalidad y duración",
     "Aranceles e inscripción",
@@ -26,14 +26,14 @@
     { "slug": "gfsp", "indice_path": "diplomaturas/gfsp.md", "url": "https://www.fce.unl.edu.ar/gfsp/", "strategy": "fce-microsite" },
     { "slug": "gto", "indice_path": "diplomaturas/gto.md", "url": "https://www.fce.unl.edu.ar/gto/", "strategy": "fce-microsite" },
     { "slug": "diplomercados", "indice_path": "diplomaturas/diplomercados.md", "url": "https://www.fce.unl.edu.ar/diplomercados/", "strategy": "fce-microsite" },
-    { "slug": "empresas-familiares", "indice_path": "diplomaturas/empresas-familiares.md", "url": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/", "strategy": "TBD" },
+    { "slug": "empresas-familiares", "indice_path": "diplomaturas/empresas-familiares.md", "url": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/", "strategy": "fce-wordpress" },
 
     { "slug": "doctorado-estudios-sociales", "indice_path": "compartidos/doctorado-estudios-sociales.md", "url": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/", "strategy": "wordpress-homepage" },
     { "slug": "negocios-agroalimentarios", "indice_path": "compartidos/negocios-agroalimentarios.md", "url": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/", "strategy": "wordpress-homepage" },
     { "slug": "mdypp", "indice_path": "compartidos/mdypp.md", "url": "https://www.fcjs.unl.edu.ar/mdypp/", "strategy": "wordpress-homepage" },
 
-    { "slug": "regimen-de-ensenanza", "indice_path": "operativos/regimen-de-ensenanza.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/regimen/", "strategy": "TBD" },
-    { "slug": "aulas-virtuales", "indice_path": "operativos/aulas-virtuales.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/aulas/", "strategy": "TBD" },
-    { "slug": "ingreso-2026", "indice_path": "operativos/ingreso-2026.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/", "strategy": "TBD" }
+    { "slug": "regimen-de-ensenanza", "indice_path": "operativos/regimen-de-ensenanza.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/regimen/", "strategy": "fce-wordpress" },
+    { "slug": "aulas-virtuales", "indice_path": "operativos/aulas-virtuales.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/aulas/", "strategy": "fce-wordpress" },
+    { "slug": "ingreso-2026", "indice_path": "operativos/ingreso-2026.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/", "strategy": "fce-wordpress" }
   ]
 }
