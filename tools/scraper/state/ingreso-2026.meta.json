@@ -3,7 +3,7 @@
   "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/",
   "strategy": "fce-wordpress",
   "content_hash": "893492b273947e40ef0366e5711ad508330c007c5e7379c0d2537eb032ba84e4",
-  "previous_hash": null,
+  "previous_hash": "893492b273947e40ef0366e5711ad508330c007c5e7379c0d2537eb032ba84e4",
   "pages_count": 1,
   "pages": [
     {
@@ -12,6 +12,6 @@
       "length": 1946
     }
   ],
-  "scraped_at": "2026-05-18T16:40:13.106Z",
-  "last_checked_at": "2026-05-18T16:40:13.106Z"
+  "scraped_at": "2026-05-18T20:17:37.670Z",
+  "last_checked_at": "2026-05-18T20:17:37.670Z"
 }
