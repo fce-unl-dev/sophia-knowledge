@@ -120,7 +120,7 @@ async function main() {
       mode: { type: 'string', default: 'refresh' },
       source: { type: 'string', default: 'sources.json' },
       out: { type: 'string', default: 'state' },
-      'kb-root': { type: 'string', default: '..' },
+      'kb-root': { type: 'string', default: '../..' },
       model: { type: 'string' },
       help: { type: 'boolean', default: false },
     },

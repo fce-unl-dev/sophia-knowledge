@@ -193,7 +193,7 @@ async function main() {
       all: { type: 'boolean', default: false },
       source: { type: 'string', default: 'sources.json' },
       out: { type: 'string', default: 'state' },
-      'kb-root': { type: 'string', default: '..' }, // tools/scraper/.. = repo root
+      'kb-root': { type: 'string', default: '../..' }, // tools/scraper/../.. = repo root
       model: { type: 'string', default: DEFAULT_MODEL },
       'no-write': { type: 'boolean', default: false },
       help: { type: 'boolean', default: false },
