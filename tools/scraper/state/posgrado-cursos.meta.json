@@ -1,0 +1,17 @@
+{
+  "slug": "posgrado-cursos",
+  "url": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/",
+  "strategy": "fce-wordpress",
+  "content_hash": "24a6cb25fc9e66f031cf3ad21c34613a57fedd368e92481fc8c98e58157f9513",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/",
+      "title": "Cursos de Posgrado",
+      "length": 28
+    }
+  ],
+  "scraped_at": "2026-05-18T23:10:03.500Z",
+  "last_checked_at": "2026-05-18T23:10:03.500Z"
+}
