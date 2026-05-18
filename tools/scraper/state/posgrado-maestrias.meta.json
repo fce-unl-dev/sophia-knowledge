@@ -1,0 +1,17 @@
+{
+  "slug": "posgrado-maestrias",
+  "url": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/",
+  "strategy": "fce-wordpress",
+  "content_hash": "786e90ab64ff1ce1baecd0abf1f7d1bd5287ec1379605cd20ded80736196607c",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/",
+      "title": "Maestrías",
+      "length": 280
+    }
+  ],
+  "scraped_at": "2026-05-18T23:09:51.174Z",
+  "last_checked_at": "2026-05-18T23:09:51.174Z"
+}
