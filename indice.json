@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "lastUpdated": "2026-05-17",
+  "version": 3,
+  "lastUpdated": "2026-05-18",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica.",
   "items": [
     {
@@ -149,6 +149,116 @@
       "title": "Ingreso 2026 a carreras de grado",
       "category": "Operativo",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/"
+    },
+    {
+      "path": "cursos/atencion-al-cliente-y-oratoria.md",
+      "title": "Atención al Cliente y Oratoria",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md",
+      "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/formacion-de-gerentes-de-supermercado.md",
+      "title": "Formación de Gerentes de Supermercado",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/formacion-de-gerentes-para-retail.md",
+      "title": "Formación de Gerentes para Retail",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/formacion-de-repositores-para-supermercado.md",
+      "title": "Formación de Repositores para Supermercado",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/formacion-en-manipulacion-conservacion-y-venta-de-mercaderias-en-supermercados.md",
+      "title": "Formación en Manipulación, Conservación y Venta de Mercaderías en Supermercados",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md",
+      "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md",
+      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/gestion-financiera-para-emprendimientos.md",
+      "title": "Gestión Financiera para Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md",
+      "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/inteligencia-artificial-aplicada-a-la-gestion-y-productividad.md",
+      "title": "Inteligencia Artificial Aplicada a la Gestión y Productividad",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md",
+      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md",
+      "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/introduccion-al-diseno-de-modelos-de-negocios.md",
+      "title": "Introducción al Diseño de Modelos de Negocios",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/la-construccion-del-pensamiento-proporcional.md",
+      "title": "La Construcción del Pensamiento Proporcional",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/manejo-practico-de-cooperativas-y-asociaciones.md",
+      "title": "Manejo Práctico de Cooperativas y Asociaciones",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md",
+      "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/produccion-saludable-360-curso-integral-para-emprendedores.md",
+      "title": "Producción Saludable 360: Curso Integral para Emprendedores",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md",
+      "title": "Técnicas de Venta y Atención al Cliente para el Sector Electro y Textil",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones.md",
+      "title": "Teoría de Juegos: Fundamentos Matemáticos y Aplicaciones en Economía, Administración y Marketing",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md",
+      "title": "Tokenización de Activos de la Economía Real en Argentina",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/trading-profesional-basado-en-evidencia.md",
+      "title": "Trading Profesional Basado en Evidencia",
+      "category": "Curso de formación profesional"
     }
   ]
 }
