@@ -1,0 +1,17 @@
+{
+  "slug": "posgrado-credito-fiscal",
+  "url": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/",
+  "strategy": "fce-wordpress",
+  "content_hash": "ad90f54a923af97a7c3f0a31287dbaa0870a2d2a3cf6ef8b5497515c65e9b353",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/",
+      "title": "Régimen de Crédito Fiscal para Capacitación",
+      "length": 868
+    }
+  ],
+  "scraped_at": "2026-05-18T23:10:11.743Z",
+  "last_checked_at": "2026-05-18T23:10:11.743Z"
+}
