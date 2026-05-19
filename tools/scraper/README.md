@@ -42,15 +42,15 @@ Checks estables, sin red:
 
 ```bash
 node --check tools/scraper/*.mjs
-node tools/scraper/validate_index.mjs --kb-root=. --json
-node tools/scraper/validate_links.mjs --kb-root=. --json
+node tools/scraper/validate_index.mjs --kb-root=../.. --json
+node tools/scraper/validate_links.mjs --kb-root=../.. --json
 ```
 
 Checks opcionales con red, solo por `workflow_dispatch`:
 
 ```bash
-node tools/scraper/validate_links.mjs --kb-root=. --network --json
-node tools/scraper/validate_course_catalog.mjs --kb-root=. --run-scraper --json
+node tools/scraper/validate_links.mjs --kb-root=../.. --network --json
+node tools/scraper/validate_course_catalog.mjs --kb-root=../.. --run-scraper --json
 ```
 
 La separación evita que PRs fallen por problemas temporales de red, pero permite validar fuentes vivas antes de conectar automatizaciones más fuertes.
