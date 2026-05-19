@@ -32,6 +32,16 @@ const ALLOWED_TOP_LEVEL_DIRS = new Set([
   'estudiantes',
 ]);
 
+const COURSE_AGGREGATE_BASENAMES = new Set([
+  'cursos-de-formacion',
+  'cursos-de-formacion-activos',
+  'cursos-activos',
+  'listado-de-cursos',
+  'listado-cursos',
+  'overview',
+  'cursos-overview',
+]);
+
 export async function validateIndex({ kbRoot } = {}) {
   const errors = [];
   const warnings = [];
@@ -125,7 +135,7 @@ export async function validateIndex({ kbRoot } = {}) {
   const courseItems = items.filter((item) => item.path?.startsWith('cursos/') && item.path?.endsWith('.md'));
   for (const item of courseItems) {
     const basename = item.path.replace(/^cursos\//, '');
-    if (/cursos?-de-formacion|activos|listado|overview/i.test(basename)) {
+    if (isCourseAggregateBasename(basename)) {
       errors.push(`${item.path}: los cursos deben mantenerse como 1 MD por curso, no como agregado/listado`);
     }
   }
@@ -159,6 +169,11 @@ async function warnAboutUnindexedMarkdown({ kbRoot, indexedPaths, warnings }) {
       }
     }
   }
+}
+
+function isCourseAggregateBasename(basename) {
+  const stem = basename.replace(/\.md$/i, '').toLocaleLowerCase('es-AR');
+  return COURSE_AGGREGATE_BASENAMES.has(stem);
 }
 
 function normalizeTitle(value) {
