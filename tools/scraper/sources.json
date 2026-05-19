@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada, workflow lo skipea). El sistema de cursos (cursos_de_formacion/) es el mismo motor custom que los microsites de posgrado — no requiere cookies ni login, scrapeable con fce-microsite apuntando al listing de inscripciones abiertas.",
+  "version": 2,
+  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada, workflow lo skipea). La fuente de cursos_de_formacion queda aislada como discovery-only hasta implementar un scraper determinístico que genere un MD por curso, sin documento agregado duplicado.",
   "sensitive_sections": [
     "Modalidad y duración",
     "Aranceles e inscripción",
@@ -48,6 +48,12 @@
     { "slug": "posgrado-diplomaturas-overview", "indice_path": "posgrado-general/diplomaturas-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/", "strategy": "fce-wordpress" },
     { "slug": "posgrado-beneficios-graduados", "indice_path": "posgrado-general/beneficios-graduados.md", "url": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/", "strategy": "fce-wordpress" },
 
-    { "slug": "cursos-de-formacion", "indice_path": "cursos/cursos-de-formacion-activos.md", "url": "https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos", "strategy": "fce-microsite" }
+    {
+      "slug": "cursos-de-formacion",
+      "indice_path": "cursos/",
+      "url": "https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos",
+      "strategy": "TBD",
+      "note": "Discovery-only. Pendiente implementar scraper determinístico que genere/actualice un MD por curso; no generar cursos/cursos-de-formacion-activos.md porque duplica los 22 MD individuales."
+    }
   ]
 }
