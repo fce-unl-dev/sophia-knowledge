@@ -16,7 +16,11 @@ Pipeline de automatización del KB de Sophia. Disparable manualmente desde:
 | `classify_diff.mjs` | Decide candidato de bajo riesgo vs revisión humana comparando secciones contra `sensitive_sections`. | vigente |
 | `run_pipeline.mjs` | Orquestador para un slug single-output y produce un report JSON con `decision`. | vigente |
 | `scrape_courses.mjs` | Scraper determinístico multi-output para cursos de formación: listado activo + detalle + candidatos 1 MD por curso. | B.3 |
+| `validate_index.mjs` | Valida `indice.json`: estructura, paths existentes, duplicados y reglas anti-agregado de cursos. | B.4 |
+| `validate_links.mjs` | Valida formato de URLs del índice, sources y MDs; opcionalmente chequea red con `--network`. | B.4 |
+| `validate_course_catalog.mjs` | Valida catálogos generados por `scrape_courses.mjs` o ejecuta scraper vivo con `--run-scraper`. | B.4 |
 | `.github/workflows/sync-kb.yml` | Workflow manual. Bajo contrato B.2 abre PRs; no pushea contenido directo a `main`. | vigente |
+| `.github/workflows/validate-kb.yml` | Workflow automático de validación en PRs/push a main. | B.4 |
 
 ## Contrato B.2
 
@@ -29,6 +33,27 @@ Resumen:
 - `auto_merge` se interpreta como candidato de bajo riesgo y abre PR;
 - datos sensibles siempre requieren revisión;
 - Codex puede pre-revisar PRs automatizados y escalar al usuario solo si hay dudas o riesgo.
+
+## Validaciones automáticas (B.4)
+
+El workflow `Validate KB` corre automáticamente en PRs y pushes a `main`.
+
+Checks estables, sin red:
+
+```bash
+node --check tools/scraper/*.mjs
+node tools/scraper/validate_index.mjs --kb-root=../.. --json
+node tools/scraper/validate_links.mjs --kb-root=../.. --json
+```
+
+Checks opcionales con red, solo por `workflow_dispatch`:
+
+```bash
+node tools/scraper/validate_links.mjs --kb-root=../.. --network --json
+node tools/scraper/validate_course_catalog.mjs --kb-root=../.. --run-scraper --json
+```
+
+La separación evita que PRs fallen por problemas temporales de red, pero permite validar fuentes vivas antes de conectar automatizaciones más fuertes.
 
 ## Decisiones del pipeline genérico
 
@@ -127,6 +152,14 @@ node run_pipeline.mjs --slug=mba --mode=dry-run
 
 # Smoke test 3: cursos multi-output, sin LLM
 node scrape_courses.mjs --no-write
+
+# Validaciones B.4 sin red
+node validate_index.mjs --kb-root=../.. --json
+node validate_links.mjs --kb-root=../.. --json
+
+# Validaciones B.4 con red
+node validate_links.mjs --kb-root=../.. --network --json
+node validate_course_catalog.mjs --kb-root=../.. --run-scraper --json
 ```
 
 ## Estructura `state/`

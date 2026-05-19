@@ -1,0 +1,51 @@
+name: Validate KB
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+    inputs:
+      network:
+        description: 'Run network URL checks and live course scraper validation'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Syntax check scraper scripts
+        run: |
+          set -e
+          for file in tools/scraper/*.mjs; do
+            echo "Checking syntax: $file"
+            node --check "$file"
+          done
+
+      - name: Validate indice.json
+        run: node tools/scraper/validate_index.mjs --kb-root=../.. --json
+
+      - name: Validate URL formats
+        run: node tools/scraper/validate_links.mjs --kb-root=../.. --json
+
+      - name: Optional network URL validation
+        if: github.event_name == 'workflow_dispatch' && inputs.network == true
+        run: node tools/scraper/validate_links.mjs --kb-root=../.. --network --json
+
+      - name: Optional live course scraper validation
+        if: github.event_name == 'workflow_dispatch' && inputs.network == true
+        run: node tools/scraper/validate_course_catalog.mjs --kb-root=../.. --run-scraper --json
