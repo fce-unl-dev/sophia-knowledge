@@ -1,0 +1,109 @@
+name: Propose Courses KB
+
+# Genera un PR humano con cambios de cursos de formación profesional.
+# No mergea automáticamente y no escribe directo a main.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Modo de ejecución'
+        required: true
+        default: 'refresh'
+        type: choice
+        options:
+          - refresh
+          - force
+          - dry-run
+      triggered_by:
+        description: 'Quién disparó este run (email o nombre para audit log).'
+        required: false
+        default: 'manual'
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: propose-courses-kb
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate courses proposal
+        id: proposal
+        working-directory: tools/scraper
+        run: |
+          set -e
+          extra_args=""
+          if [ "${{ inputs.mode }}" = "force" ]; then
+            extra_args="$extra_args --force"
+          fi
+          if [ "${{ inputs.mode }}" = "dry-run" ]; then
+            extra_args="$extra_args --dry-run"
+          fi
+
+          node propose_courses_update.mjs \
+            --kb-root=../.. \
+            --pr-body=/tmp/courses-pr-body.md \
+            $extra_args > /tmp/courses-proposal.json
+
+          cat /tmp/courses-proposal.json
+          decision=$(jq -r '.decision' /tmp/courses-proposal.json)
+          echo "decision=$decision" >> "$GITHUB_OUTPUT"
+          echo "### Courses proposal" >> "$GITHUB_STEP_SUMMARY"
+          cat /tmp/courses-pr-body.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report no change
+        if: steps.proposal.outputs.decision == 'no_change'
+        run: |
+          echo "No hay cambios de cursos para proponer. No se abre PR."
+
+      - name: Stop on dry-run
+        if: inputs.mode == 'dry-run'
+        run: |
+          echo "Dry-run completado. No se abre PR ni se pushea ninguna rama."
+
+      - name: Open human-review PR
+        if: inputs.mode != 'dry-run' && steps.proposal.outputs.decision == 'changes_proposed'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          branch="kb-sync/cursos-de-formacion-$(date +%s)"
+
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          git checkout -b "$branch"
+
+          git add indice.json cursos tools/scraper/state/cursos-de-formacion/cursos-de-formacion.meta.json
+
+          if git diff --cached --quiet; then
+            echo "La propuesta no produjo diff commiteable. No se abre PR."
+            exit 0
+          fi
+
+          git commit -m "chore(kb): propose courses update"
+          git push origin "$branch"
+
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "KB sync: cursos de formación — revisión humana" \
+            --body-file /tmp/courses-pr-body.md
+
+      - name: Report rejected
+        if: steps.proposal.outputs.decision == 'rejected'
+        run: |
+          echo "::warning::La propuesta de cursos fue rechazada por validación defensiva. Revisar logs y summary."
