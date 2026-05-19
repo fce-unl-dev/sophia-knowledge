@@ -12,9 +12,9 @@
 //   node scrape_courses.mjs --url=https://... --out=state/cursos-de-formacion
 //
 // Outputs:
-//   state/cursos-de-formacion.meta.json      metadata diff-first
-//   state/cursos-de-formacion.catalog.json   catálogo normalizado de cursos activos
-//   state/cursos-de-formacion/{slug}.candidate.md  candidatos opcionales (--write-candidates)
+//   state/cursos-de-formacion/cursos-de-formacion.meta.json      metadata diff-first
+//   state/cursos-de-formacion/cursos-de-formacion.catalog.json   catálogo normalizado de cursos activos
+//   state/cursos-de-formacion/candidates/{slug}.candidate.md     candidatos opcionales (--write-candidates)
 
 import { createHash } from 'node:crypto';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
@@ -106,7 +106,9 @@ function todayIsoDate() {
 export function parseCourseList(html, baseUrl = DEFAULT_COURSES_URL) {
   const courses = [];
   const seen = new Set();
-  const detailRe = /<a\b[^>]*href\s*=\s*["']([^"']*index\.php\?act=showSubcategoria[^"']*)["'][^>]*>([\s\S]*?Más\s+informaci[oó]n[\s\S]*?)<\/a>/gi;
+  // No dependemos del texto visible del link porque puede venir como entidades HTML
+  // (Más información / M&aacute;s informaci&oacute;n). Filtramos por presencia de Inicio.
+  const detailRe = /<a\b[^>]*href\s*=\s*["']([^"']*index\.php\?act=showSubcategoria[^"']*)["'][^>]*>/gi;
   let match;
 
   while ((match = detailRe.exec(html)) !== null) {
@@ -118,8 +120,10 @@ export function parseCourseList(html, baseUrl = DEFAULT_COURSES_URL) {
     const beforeText = htmlToText(beforeWindow);
     const lines = beforeText.split('\n').map((line) => normalizeSpaces(line)).filter(Boolean);
     const inicioIndex = findLastIndex(lines, (line) => /^Inicio\s*:/i.test(line));
+    if (inicioIndex < 0) continue;
+
     const title = inferCourseTitle(lines, inicioIndex);
-    const startDate = inicioIndex >= 0 ? parseStartDate(lines[inicioIndex]) : null;
+    const startDate = parseStartDate(lines[inicioIndex]);
 
     const afterWindow = html.slice(match.index + match[0].length, match.index + match[0].length + 1400);
     const queryUrl = firstHref(afterWindow, baseUrl, /act=showConsulta/i);
