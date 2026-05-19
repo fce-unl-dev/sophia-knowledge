@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada, workflow lo skipea). La fuente de cursos_de_formacion queda aislada como discovery-only hasta implementar un scraper determinístico que genere un MD por curso, sin documento agregado duplicado.",
+  "version": 3,
+  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada en el workflow genérico, workflow lo skipea). La fuente de cursos_de_formacion se procesa con tools/scraper/scrape_courses.mjs porque genera múltiples MD candidatos, uno por curso, sin documento agregado duplicado.",
   "sensitive_sections": [
     "Modalidad y duración",
     "Aranceles e inscripción",
@@ -53,7 +53,8 @@
       "indice_path": "cursos/",
       "url": "https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos",
       "strategy": "TBD",
-      "note": "Discovery-only. Pendiente implementar scraper determinístico que genere/actualice un MD por curso; no generar cursos/cursos-de-formacion-activos.md porque duplica los 22 MD individuales."
+      "script": "tools/scraper/scrape_courses.mjs",
+      "note": "Fuente multi-output. Ejecutar scrape_courses.mjs para detectar altas/bajas/cambios y generar candidatos 1 MD por curso. Se mantiene strategy=TBD para que el workflow genérico no la procese hasta B.5."
     }
   ]
 }
