@@ -48,7 +48,8 @@ export async function proposeCoursesUpdate({
       reason: 'El scraper no detectó cursos activos; se bloquea la propuesta para evitar borrar o vaciar contenido por error.',
       ...summaryBase,
     };
-    await maybeWritePrBody(prBodyPath, buildPrBody(result));
+    result.pr_summary = buildPrBody(result);
+    await maybeWritePrBody(prBodyPath, result.pr_summary);
     return result;
   }
 
@@ -59,7 +60,8 @@ export async function proposeCoursesUpdate({
       reason: 'El hash estable del catálogo de cursos no cambió desde la última propuesta mergeada.',
       ...summaryBase,
     };
-    await maybeWritePrBody(prBodyPath, buildPrBody(result));
+    result.pr_summary = buildPrBody(result);
+    await maybeWritePrBody(prBodyPath, result.pr_summary);
     return result;
   }
 
@@ -108,6 +110,25 @@ export async function proposeCoursesUpdate({
     }
   }
 
+  if (unsafeSkipped.length > 0) {
+    const result = {
+      ok: false,
+      decision: 'rejected',
+      reason: 'Se detectaron paths inseguros o fuera de /cursos/. No se debe abrir PR automático hasta revisar el scraper.',
+      dry_run: dryRun,
+      force,
+      created_docs: createdDocs,
+      updated_docs: updatedDocs,
+      unchanged_docs_count: unchangedDocs.length,
+      added_index_entries: addedIndexEntries.map((entry) => entry.path),
+      unsafe_skipped: unsafeSkipped,
+      ...summaryBase,
+    };
+    result.pr_summary = buildPrBody(result);
+    await maybeWritePrBody(prBodyPath, result.pr_summary);
+    return result;
+  }
+
   const docsChanged = createdDocs.length > 0 || updatedDocs.length > 0;
   const indexChanged = addedIndexEntries.length > 0 || docsChanged;
   if (indexChanged && !dryRun) {
@@ -119,7 +140,7 @@ export async function proposeCoursesUpdate({
 
   const hasProposal = force || scraperReport.status !== 'unchanged' || docsChanged || addedIndexEntries.length > 0;
   const result = {
-    ok: unsafeSkipped.length === 0,
+    ok: true,
     decision: hasProposal ? 'changes_proposed' : 'no_change',
     reason: hasProposal
       ? 'Se generó una propuesta de actualización para revisión humana.'
@@ -307,7 +328,7 @@ async function main() {
   });
 
   console.log(JSON.stringify(result, null, 2));
-  process.exit(result.ok ? 0 : 1);
+  process.exit(0);
 }
 
 const invokedDirectly = import.meta.url === `file://${process.argv[1]}`;
