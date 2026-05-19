@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-05-18",
-  "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica.",
+  "version": 4,
+  "lastUpdated": "2026-05-19",
+  "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
       "path": "posgrados/dap.md",
@@ -259,12 +259,6 @@
       "path": "cursos/trading-profesional-basado-en-evidencia.md",
       "title": "Trading Profesional Basado en Evidencia",
       "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/cursos-de-formacion-activos.md",
-      "title": "Cursos de Formación FCE — Inscripciones abiertas (actualizado automáticamente)",
-      "category": "Curso de formación profesional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/cursos-de-formacion/"
     },
     {
       "path": "posgrado-general/estudiantes.md",
