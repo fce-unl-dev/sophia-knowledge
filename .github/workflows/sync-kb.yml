@@ -4,12 +4,17 @@ name: Sync KB
 # del agente Sophia via API). Sincroniza el KB con las fuentes web definidas en
 # tools/scraper/sources.json.
 #
+# Contrato vigente:
+#   - Detectar cambios y proponerlos por PR.
+#   - No pushear contenido directo a main.
+#   - No hacer merge automático.
+#
 # Decisiones por slug (las toma run_pipeline.mjs):
-#   no_change          → solo actualiza state/{slug}.meta.json
-#   auto_merge         → cambios solo en secciones no sensibles, commit directo a main
-#   requires_review    → al menos una sección sensible cambió, abre PR
-#   rejected           → validación falló (estructura, prohibidos, placeholders) — NO commitea
-#   error              → fallo técnico, NO commitea, queda visible en el log
+#   no_change          → no abre PR y no toca main
+#   auto_merge         → cambio de bajo riesgo; bajo este contrato abre PR igualmente
+#   requires_review    → abre PR con revisión requerida
+#   rejected           → validación falló; NO commitea
+#   error              → fallo técnico; NO commitea
 #   skipped            → strategy=TBD, no se procesa
 #
 # Modo dry-run: corre todo pero no escribe al repo. Útil para validar antes de
@@ -99,98 +104,81 @@ jobs:
           # Errores y rejected NO bloquean al resto de la matrix; loguean y siguen
           exit 0
 
-      - name: Apply auto_merge to main
-        if: inputs.mode != 'dry-run' && steps.pipeline.outputs.decision == 'auto_merge'
-        run: |
-          set -e
-          slug='${{ matrix.slug }}'
-          kb_path=$(jq -r --arg slug "$slug" '.sources[] | select(.slug==$slug) | .indice_path' tools/scraper/sources.json)
-          git config user.name 'sophia-kb-bot'
-          git config user.email 'bot@fce.unl.edu.ar'
-          mkdir -p "$(dirname "$kb_path")"
-          cp tools/scraper/state/$slug.candidate.md $kb_path
-          git add $kb_path tools/scraper/state/$slug.meta.json
-          if git diff --cached --quiet; then
-            echo "Nothing to commit for $slug"
-            exit 0
-          fi
-          git commit -m "chore(kb): auto-sync $slug — triggered by ${{ inputs.triggered_by }}"
-          # Retry con rebase para evitar race con otros jobs de la matrix
-          for i in 1 2 3 4 5; do
-            git fetch origin main
-            if git rebase origin/main && git push origin HEAD:main; then
-              echo "Pushed auto_merge for $slug (attempt $i)"
-              exit 0
-            fi
-            echo "Push failed (attempt $i), retrying..."
-            sleep $((RANDOM % 5 + 3))
-          done
-          echo "Failed to push after 5 retries"
-          exit 1
-
-      - name: Persist state meta on no_change
-        if: inputs.mode != 'dry-run' && steps.pipeline.outputs.decision == 'no_change'
-        run: |
-          set -e
-          slug='${{ matrix.slug }}'
-          git config user.name 'sophia-kb-bot'
-          git config user.email 'bot@fce.unl.edu.ar'
-          git add tools/scraper/state/$slug.meta.json
-          if git diff --cached --quiet; then
-            echo "No state changes for $slug"
-            exit 0
-          fi
-          git commit -m "chore(kb): refresh last_checked for $slug"
-          for i in 1 2 3 4 5; do
-            git fetch origin main
-            if git rebase origin/main && git push origin HEAD:main; then
-              exit 0
-            fi
-            sleep $((RANDOM % 5 + 3))
-          done
-          exit 1
-
-      - name: Open PR (requires_review)
-        if: inputs.mode != 'dry-run' && steps.pipeline.outputs.decision == 'requires_review'
+      - name: Open PR for generated candidate
+        if: inputs.mode != 'dry-run' && (steps.pipeline.outputs.decision == 'auto_merge' || steps.pipeline.outputs.decision == 'requires_review')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
           slug='${{ matrix.slug }}'
+          decision='${{ steps.pipeline.outputs.decision }}'
           kb_path=$(jq -r --arg slug "$slug" '.sources[] | select(.slug==$slug) | .indice_path' tools/scraper/sources.json)
-          sensitive=$(jq -r '.sensitive_changes | join(", ")' /tmp/report.json)
-          changed=$(jq -r '.changed_sections | join(", ")' /tmp/report.json)
-          branch="kb-sync/${slug}-$(date +%s)"
+          sensitive=$(jq -r '(.sensitive_changes // []) | join(", ")' /tmp/report.json)
+          changed=$(jq -r '(.changed_sections // []) | join(", ")' /tmp/report.json)
+          reason=$(jq -r '.reason // "sin motivo informado"' /tmp/report.json)
+          branch="kb-sync/${slug}-${decision}-$(date +%s)"
+
           git config user.name 'sophia-kb-bot'
           git config user.email 'bot@fce.unl.edu.ar'
           git checkout -b "$branch"
+
           mkdir -p "$(dirname "$kb_path")"
-          cp tools/scraper/state/$slug.candidate.md $kb_path
-          git add $kb_path tools/scraper/state/$slug.meta.json
-          git commit -m "chore(kb): sync $slug — secciones sensibles cambiaron"
+          cp "tools/scraper/state/$slug.candidate.md" "$kb_path"
+          git add "$kb_path" "tools/scraper/state/$slug.meta.json"
+
+          if git diff --cached --quiet; then
+            echo "No candidate diff for $slug"
+            exit 0
+          fi
+
+          if [ "$decision" = "requires_review" ]; then
+            title="KB sync: $slug — requiere revisión humana"
+            review_note="Este PR requiere revisión porque cambió al menos una sección sensible o el pipeline detectó riesgo."
+          else
+            title="KB sync: $slug — candidato de bajo riesgo"
+            review_note="El pipeline clasificó este cambio como bajo riesgo, pero bajo el contrato B.2 igual entra por PR y no se mergea automáticamente."
+          fi
+
+          git commit -m "chore(kb): propose sync for $slug ($decision)"
           git push origin "$branch"
-          gh pr create \
-            --base main \
-            --head "$branch" \
-            --title "KB sync: $slug — requiere review (secciones sensibles cambiaron)" \
-            --label needs-review \
-            --body "Pipeline automático de sync del KB de Sophia.
+
+          cat > /tmp/pr_body.md <<EOF
+          Pipeline automático de sync del KB de Sophia.
 
           **Disparado por**: ${{ inputs.triggered_by }}
-          **Fuente**: \`$slug\`  ([$slug en sources.json](../blob/main/tools/scraper/sources.json))
-          **Secciones cambiadas**: $changed
-          **Secciones sensibles afectadas**: $sensitive
+          **Fuente**: \`$slug\`
+          **Archivo KB**: \`$kb_path\`
+          **Decisión pipeline**: \`$decision\`
+          **Motivo**: $reason
+          **Secciones cambiadas**: ${changed:-N/D}
+          **Secciones sensibles afectadas**: ${sensitive:-N/D}
 
-          ## Por qué este PR existe
+          ## Política B.2
 
-          Las secciones sensibles incluyen fechas (inicio cursada, cierre inscripción), aranceles, contactos, modalidad, requisitos de admisión y acreditación CONEAU. Cambios en estas secciones impactan directamente lo que Sophia le responde a los usuarios y por eso requieren revisión humana antes de mergear.
+          $review_note
+
+          No hay merge automático ni push directo a producción. El cambio solo entra al KB si este PR se revisa y mergea manualmente.
 
           ## Cómo revisar
 
-          1. Mirá el diff de \`$kb_path\` y validá que los cambios sean reales y correctos.
-          2. Si tenés dudas sobre un dato, verificá contra la fuente oficial: ver \`canonicalUrl\` en sources.json.
-          3. Si todo OK → aprobá y mergeá.
-          4. Si algo está mal → cerrá el PR sin mergear. El próximo run del pipeline volverá a intentarlo."
+          1. Mirar el diff de \`$kb_path\`.
+          2. Verificar datos sensibles contra la fuente oficial declarada.
+          3. Si todo está correcto, aprobar y mergear.
+          4. Si hay dudas, dejar comentario o cerrar sin mergear.
+          EOF
+
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "$title" \
+            --body-file /tmp/pr_body.md
+
+      - name: Report no_change/skipped
+        if: steps.pipeline.outputs.decision == 'no_change' || steps.pipeline.outputs.decision == 'skipped'
+        run: |
+          slug='${{ matrix.slug }}'
+          decision='${{ steps.pipeline.outputs.decision }}'
+          echo "Pipeline para $slug terminó en $decision. No se abre PR ni se toca main."
 
       - name: Report rejected/error
         if: steps.pipeline.outputs.decision == 'rejected' || steps.pipeline.outputs.decision == 'error'

@@ -63,6 +63,8 @@ Principio rector: automatizar detección y propuesta, **no merge automático ni 
 
 Las herramientas de `/tools/scraper/` pueden usarse para detectar diferencias y generar candidatos, pero los cambios reales al KB deben entrar por PR con diff legible para revisión humana.
 
+El contrato operativo vigente está documentado en [`docs/automation/pipeline-contract.md`](docs/automation/pipeline-contract.md).
+
 ## Quién consume este repo
 
 El agente Sophia en producción lo lee al startup y al refresco de cache. Mirá `agente-sophia-v2/src/knowledge_base.js` (en el repo del agente) para ver el código exacto.
