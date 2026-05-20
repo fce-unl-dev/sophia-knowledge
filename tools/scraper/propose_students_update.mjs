@@ -1,0 +1,368 @@
+// Genera una propuesta de actualización de Estudiantes lista para PR humano.
+//
+// Contrato C.3:
+//   - Ejecuta el scraper determinístico de /estudiantes/ organizado por temas del menú.
+//   - Materializa candidatos como cambios en /estudiantes/ y entradas nuevas en indice.json.
+//   - NO borra documentos existentes si una fuente queda vacía o falla.
+//   - Produce un resumen Markdown legible para usar como cuerpo del PR.
+//
+// Uso:
+//   node propose_students_update.mjs --kb-root=../.. --pr-body=/tmp/pr_body.md
+//   node propose_students_update.mjs --kb-root=../.. --force
+//   node propose_students_update.mjs --kb-root=../.. --dry-run
+
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import { join, resolve, dirname, relative } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { parseArgs } from 'node:util';
+
+import { runStudentsScraper, STUDENT_TOPICS } from './scrape_students.mjs';
+
+const STUDENT_CATEGORY = 'Estudiantes';
+const DEFAULT_STATE_DIR = 'state/estudiantes';
+
+export async function proposeStudentsUpdate({
+  kbRoot,
+  stateDir,
+  force = false,
+  dryRun = false,
+  today = todayIsoDate(),
+  prBodyPath = null,
+} = {}) {
+  const scraperReport = await runStudentsScraper({
+    stateDir,
+    write: true,
+    writeCandidates: true,
+    today,
+  });
+
+  const catalog = JSON.parse(await readFile(scraperReport.catalog_path, 'utf8'));
+  const summaryBase = buildSummaryBase({ scraperReport, catalog, today });
+
+  if (catalog.candidates_count === 0) {
+    const result = {
+      ok: false,
+      decision: 'rejected',
+      reason: 'El scraper no generó candidatos de Estudiantes; se bloquea la propuesta para evitar vaciar o publicar contenido incompleto.',
+      ...summaryBase,
+    };
+    result.pr_summary = buildPrBody(result);
+    await maybeWritePrBody(prBodyPath, result.pr_summary);
+    return result;
+  }
+
+  if (scraperReport.status === 'unchanged' && !force) {
+    const result = {
+      ok: true,
+      decision: 'no_change',
+      reason: 'El hash estable del catálogo de Estudiantes no cambió desde la última propuesta mergeada.',
+      ...summaryBase,
+    };
+    result.pr_summary = buildPrBody(result);
+    await maybeWritePrBody(prBodyPath, result.pr_summary);
+    return result;
+  }
+
+  const indexPath = join(kbRoot, 'indice.json');
+  const index = JSON.parse(await readFile(indexPath, 'utf8'));
+  const existingIndexPaths = new Set((index.items || []).map((item) => item.path));
+
+  const createdDocs = [];
+  const updatedDocs = [];
+  const unchangedDocs = [];
+  const addedIndexEntries = [];
+  const unsafeSkipped = [];
+
+  const topicsByPath = new Map(STUDENT_TOPICS.map((topic) => [topic.path, topic]));
+
+  for (const candidate of catalog.candidates || []) {
+    const targetRelPath = normalizeStudentPath(candidate.path);
+    if (!targetRelPath) {
+      unsafeSkipped.push({ title: candidate.slug, path: candidate.path || null, reason: 'path inválido o fuera de /estudiantes/' });
+      continue;
+    }
+
+    const candidatePath = join(stateDir, 'candidates', candidate.candidate_file);
+    const candidateMarkdown = await readFile(candidatePath, 'utf8');
+    const targetAbsPath = join(kbRoot, targetRelPath);
+    const previousMarkdown = existsSync(targetAbsPath) ? await readFile(targetAbsPath, 'utf8') : null;
+
+    if (previousMarkdown === candidateMarkdown) {
+      unchangedDocs.push(targetRelPath);
+    } else {
+      if (!dryRun) {
+        await mkdir(dirname(targetAbsPath), { recursive: true });
+        await writeFile(targetAbsPath, candidateMarkdown, 'utf8');
+      }
+      if (previousMarkdown === null) createdDocs.push(targetRelPath);
+      else updatedDocs.push(targetRelPath);
+    }
+
+    if (!existingIndexPaths.has(targetRelPath)) {
+      const topic = topicsByPath.get(targetRelPath);
+      const entry = {
+        path: targetRelPath,
+        title: topic?.title || candidate.slug,
+        category: STUDENT_CATEGORY,
+      };
+      const canonicalUrl = topic?.pages?.[0]?.[1];
+      if (canonicalUrl) entry.canonicalUrl = canonicalUrl;
+      addedIndexEntries.push(entry);
+      existingIndexPaths.add(targetRelPath);
+    }
+  }
+
+  if (unsafeSkipped.length > 0) {
+    const result = {
+      ok: false,
+      decision: 'rejected',
+      reason: 'Se detectaron paths inseguros o fuera de /estudiantes/. No se debe abrir PR automático hasta revisar el extractor.',
+      dry_run: dryRun,
+      force,
+      created_docs: createdDocs,
+      updated_docs: updatedDocs,
+      unchanged_docs_count: unchangedDocs.length,
+      added_index_entries: addedIndexEntries.map((entry) => entry.path),
+      unsafe_skipped: unsafeSkipped,
+      ...summaryBase,
+    };
+    result.pr_summary = buildPrBody(result);
+    await maybeWritePrBody(prBodyPath, result.pr_summary);
+    return result;
+  }
+
+  const docsChanged = createdDocs.length > 0 || updatedDocs.length > 0;
+  const indexChanged = addedIndexEntries.length > 0 || docsChanged;
+  if (indexChanged && !dryRun) {
+    index.items = insertStudentEntries(index.items || [], addedIndexEntries);
+    index.lastUpdated = today;
+    if (Number.isInteger(index.version)) index.version += 1;
+    await writeFile(indexPath, JSON.stringify(index, null, 2) + '\n', 'utf8');
+  }
+
+  const hasProposal = force || scraperReport.status !== 'unchanged' || docsChanged || addedIndexEntries.length > 0;
+  const result = {
+    ok: true,
+    decision: hasProposal ? 'changes_proposed' : 'no_change',
+    reason: hasProposal
+      ? 'Se generó una propuesta de actualización para revisión humana.'
+      : 'No hay cambios materiales para proponer.',
+    dry_run: dryRun,
+    force,
+    created_docs: createdDocs,
+    updated_docs: updatedDocs,
+    unchanged_docs_count: unchangedDocs.length,
+    added_index_entries: addedIndexEntries.map((entry) => entry.path),
+    unsafe_skipped: unsafeSkipped,
+    commit_paths: [
+      'indice.json',
+      'estudiantes/',
+      relative(kbRoot, scraperReport.meta_path),
+    ],
+    ...summaryBase,
+  };
+
+  result.pr_summary = buildPrBody(result);
+  await maybeWritePrBody(prBodyPath, result.pr_summary);
+  return result;
+}
+
+function normalizeStudentPath(path) {
+  if (!path || typeof path !== 'string') return null;
+  const normalized = path.replace(/^\.\//, '').replace(/\\/g, '/');
+  if (!normalized.startsWith('estudiantes/') || !normalized.endsWith('.md')) return null;
+  if (normalized.includes('..') || normalized.includes('//')) return null;
+  return normalized;
+}
+
+function insertStudentEntries(items, newStudentEntries) {
+  if (!newStudentEntries.length) return items;
+  const sortedNewEntries = [...newStudentEntries].sort((a, b) => a.path.localeCompare(b.path, 'es-AR'));
+  const next = [...items];
+  let lastStudentIndex = -1;
+  let lastOperativeIndex = -1;
+  for (let i = 0; i < next.length; i++) {
+    if (next[i]?.path?.startsWith('estudiantes/')) lastStudentIndex = i;
+    if (next[i]?.path?.startsWith('operativos/')) lastOperativeIndex = i;
+  }
+  const insertionIndex = lastStudentIndex >= 0 ? lastStudentIndex + 1 : lastOperativeIndex + 1;
+  next.splice(insertionIndex, 0, ...sortedNewEntries);
+  return next;
+}
+
+function buildSummaryBase({ scraperReport, catalog, today }) {
+  const requiresReview = (catalog.candidates || []).filter((candidate) => candidate.requires_review);
+  const noContent = (catalog.processed || []).filter((topic) => topic.pages_with_content === 0);
+  return {
+    generated_on: today,
+    scraper_status: scraperReport.status,
+    topics_count: catalog.topics_count,
+    candidates_count: catalog.candidates_count,
+    excluded_count: catalog.excluded_count,
+    warnings_count: catalog.warnings_count,
+    requires_review_count: requiresReview.length,
+    no_content_count: noContent.length,
+    candidates_requiring_review: requiresReview,
+    no_content_topics: noContent,
+    excluded: catalog.excluded || [],
+    warnings: catalog.warnings || [],
+    content_hash: scraperReport.content_hash,
+    previous_hash: scraperReport.previous_hash,
+  };
+}
+
+function buildPrBody(result) {
+  const lines = [];
+  lines.push('## Resumen automático — Estudiantes FCE-UNL');
+  lines.push('');
+  lines.push('Este PR fue generado por el extractor determinístico de `/estudiantes/`, organizado por temas del menú. No se mergea automáticamente y debe revisarse antes de entrar a `main`.');
+  lines.push('');
+  lines.push(`- **Decisión**: \`${result.decision}\``);
+  lines.push(`- **Motivo**: ${result.reason}`);
+  lines.push(`- **Fecha de generación**: ${result.generated_on}`);
+  lines.push(`- **Estado del scraper**: \`${result.scraper_status || 'N/D'}\``);
+  lines.push(`- **Temas procesados**: ${result.topics_count ?? 0}`);
+  lines.push(`- **MD candidatos generados**: ${result.candidates_count ?? 0}`);
+  lines.push(`- **Temas excluidos explícitamente**: ${result.excluded_count ?? 0}`);
+  lines.push(`- **Candidatos con señales de revisión**: ${result.requires_review_count ?? 0}`);
+  lines.push(`- **Temas sin contenido útil detectado**: ${result.no_content_count ?? 0}`);
+  lines.push('');
+
+  if (Array.isArray(result.created_docs)) {
+    lines.push('## Cambios propuestos en archivos');
+    lines.push('');
+    pushList(lines, 'Documentos creados', result.created_docs);
+    pushList(lines, 'Documentos actualizados', result.updated_docs);
+    pushList(lines, 'Entradas agregadas a `indice.json`', result.added_index_entries);
+    lines.push(`- **Documentos sin cambios materiales**: ${result.unchanged_docs_count ?? 0}`);
+    lines.push('');
+  }
+
+  if (result.candidates_requiring_review?.length) {
+    lines.push('## Candidatos que requieren revisión especial');
+    lines.push('');
+    for (const candidate of result.candidates_requiring_review) {
+      lines.push(`- **${candidate.slug}** → \`${candidate.path}\``);
+      for (const reason of candidate.review_reasons || []) lines.push(`  - ${reason}`);
+    }
+    lines.push('');
+  }
+
+  if (result.no_content_topics?.length) {
+    lines.push('## Temas sin contenido útil detectado');
+    lines.push('');
+    lines.push('Estos temas no generan MD automáticamente. Revisar si la página está vacía, si cambió la URL o si conviene excluirla.');
+    lines.push('');
+    for (const topic of result.no_content_topics) lines.push(`- ${topic.title || topic.slug} → \`${topic.indice_path || 'sin path'}\``);
+    lines.push('');
+  }
+
+  if (result.excluded?.length) {
+    lines.push('## Exclusiones explícitas');
+    lines.push('');
+    for (const excluded of result.excluded) {
+      lines.push(`- ${excluded.title}: ${excluded.reason}`);
+      if (excluded.url) lines.push(`  - Fuente excluida: ${excluded.url}`);
+    }
+    lines.push('');
+  }
+
+  if (result.warnings?.length) {
+    lines.push('## Warnings del extractor');
+    lines.push('');
+    for (const warning of result.warnings) lines.push(`- ${warning}`);
+    lines.push('');
+  }
+
+  if (result.unsafe_skipped?.length) {
+    lines.push('## Elementos salteados por seguridad');
+    lines.push('');
+    for (const skipped of result.unsafe_skipped) {
+      lines.push(`- ${skipped.title || 'Sin título'} (${skipped.path || 'sin path'}): ${skipped.reason}`);
+    }
+    lines.push('');
+  }
+
+  lines.push('## Cómo revisar');
+  lines.push('');
+  lines.push('1. Revisar el diff de los archivos en `/estudiantes/`.');
+  lines.push('2. Confirmar que cada MD respete el criterio: un tema/título del menú por documento.');
+  lines.push('3. Revisar candidatos marcados por Google Sheets, iframes, sistemas externos o posibles datos personales.');
+  lines.push('4. Editar el PR si hay contenido vacío, repetido, obsoleto o sensible.');
+  lines.push('5. Verificar que `indice.json` solo agregue entradas necesarias y no duplique información de `operativos/` o `posgrado-general/`.');
+  lines.push('6. Si todo está correcto, merge manual. Si hay dudas, comentar el PR y no mergear.');
+  lines.push('');
+  lines.push('## Política vigente');
+  lines.push('');
+  lines.push('- Detección y propuesta automática vía PR.');
+  lines.push('- Sin merge automático.');
+  lines.push('- Sin push directo a producción.');
+  lines.push('- La sección Estudiantes se mantiene como **1 MD por tema/título del menú**.');
+  lines.push('- `Ingreso 2025` queda excluido por obsoleto.');
+  lines.push('');
+
+  return lines.join('\n');
+}
+
+function pushList(lines, title, values = []) {
+  lines.push(`### ${title}`);
+  lines.push('');
+  if (!values.length) {
+    lines.push('- Ninguno.');
+  } else {
+    for (const value of values) lines.push(`- \`${value}\``);
+  }
+  lines.push('');
+}
+
+async function maybeWritePrBody(path, body) {
+  if (!path) return;
+  await writeFile(path, body || '', 'utf8');
+}
+
+function todayIsoDate() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+async function main() {
+  const { values } = parseArgs({
+    options: {
+      'kb-root': { type: 'string', default: '../..' },
+      out: { type: 'string', default: DEFAULT_STATE_DIR },
+      force: { type: 'boolean', default: false },
+      'dry-run': { type: 'boolean', default: false },
+      'pr-body': { type: 'string' },
+      help: { type: 'boolean', default: false },
+    },
+  });
+
+  if (values.help) {
+    console.log(`Sophia students proposal generator\n\nUso:\n  node propose_students_update.mjs [--kb-root=../..] [--force] [--dry-run] [--pr-body=/tmp/pr.md]\n`);
+    process.exit(0);
+  }
+
+  const here = dirname(fileURLToPath(import.meta.url));
+  const kbRoot = values['kb-root'].startsWith('/') ? values['kb-root'] : resolve(here, values['kb-root']);
+  const stateDir = values.out.startsWith('/') ? values.out : resolve(here, values.out);
+  const prBodyPath = values['pr-body'] ? resolve(process.cwd(), values['pr-body']) : null;
+
+  const result = await proposeStudentsUpdate({
+    kbRoot,
+    stateDir,
+    force: values.force,
+    dryRun: values['dry-run'],
+    prBodyPath,
+  });
+
+  console.log(JSON.stringify(result, null, 2));
+  process.exit(0);
+}
+
+const invokedDirectly = import.meta.url === `file://${process.argv[1]}`;
+if (invokedDirectly) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}
