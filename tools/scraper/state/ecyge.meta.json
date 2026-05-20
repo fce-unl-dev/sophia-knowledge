@@ -1,0 +1,72 @@
+{
+  "slug": "ecyge",
+  "url": "https://fce.unl.edu.ar/ecyge/",
+  "strategy": "fce-microsite",
+  "content_hash": "236923ac0885c164e4241220519add220a7ed3967203e4137e6928d06e8de146",
+  "previous_hash": null,
+  "pages_count": 12,
+  "pages": [
+    {
+      "url": "https://fce.unl.edu.ar/ecyge/",
+      "title": "INFORMACIÓN DE INTERÉS",
+      "length": 841
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=178",
+      "title": "Presentación de la carrera",
+      "length": 2267
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=108",
+      "title": "Cursado y evaluación",
+      "length": 1842
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=106",
+      "title": "Duración de la carrera",
+      "length": 967
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191",
+      "title": "Informes e Inscripción",
+      "length": 1367
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=112",
+      "title": "Estructura del Plan de Estudios",
+      "length": 1836
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=116",
+      "title": "Asignaturas",
+      "length": 21633
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=179",
+      "title": "Objetivos curriculares",
+      "length": 2374
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114",
+      "title": "Conducción de la carrera",
+      "length": 3489
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=115",
+      "title": "Comité Académico",
+      "length": 1598
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=113",
+      "title": "Cuerpo Docente",
+      "length": 1692
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=243",
+      "title": "Novedades",
+      "length": 941
+    }
+  ],
+  "scraped_at": "2026-05-20T10:44:05.983Z",
+  "last_checked_at": "2026-05-20T10:44:05.983Z"
+}
