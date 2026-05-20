@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "lastUpdated": "2026-05-19",
+  "version": 5,
+  "lastUpdated": "2026-05-20",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -149,6 +149,90 @@
       "title": "Ingreso 2026 a carreras de grado",
       "category": "Operativo",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/"
+    },
+    {
+      "path": "estudiantes/beneficios-posgrados-fce-unl.md",
+      "title": "Beneficios para Posgrados FCE UNL",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/"
+    },
+    {
+      "path": "estudiantes/bienestar-estudiantil.md",
+      "title": "Bienestar Estudiantil",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/"
+    },
+    {
+      "path": "estudiantes/calendario-academico.md",
+      "title": "Calendario Académico",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/"
+    },
+    {
+      "path": "estudiantes/centro-estudiantes.md",
+      "title": "Centro de Estudiantes",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/"
+    },
+    {
+      "path": "estudiantes/clases-consultas.md",
+      "title": "Clases de Consultas",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/"
+    },
+    {
+      "path": "estudiantes/examenes.md",
+      "title": "Exámenes",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/examenes/"
+    },
+    {
+      "path": "estudiantes/horarios-atencion.md",
+      "title": "Horarios de Atención",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/"
+    },
+    {
+      "path": "estudiantes/ingreso-2026.md",
+      "title": "Ingreso 2026",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/"
+    },
+    {
+      "path": "estudiantes/inscripciones-cursado.md",
+      "title": "Info sobre inscripciones a cursado",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/"
+    },
+    {
+      "path": "estudiantes/pasantias-rentadas.md",
+      "title": "Pasantías rentadas",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/"
+    },
+    {
+      "path": "estudiantes/practicas-profesionales-supervisadas.md",
+      "title": "Prácticas Profesionales Supervisadas",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/pps/"
+    },
+    {
+      "path": "estudiantes/sica.md",
+      "title": "Sistema Informático de Consultas de Alumnos (SICA)",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/sica/"
+    },
+    {
+      "path": "estudiantes/siu-guarani.md",
+      "title": "SIU Guaraní",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/"
+    },
+    {
+      "path": "estudiantes/tramites-internos.md",
+      "title": "Trámites internos",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/"
     },
     {
       "path": "cursos/atencion-al-cliente-y-oratoria.md",
