@@ -1,0 +1,17 @@
+{
+  "slug": "aulas-virtuales",
+  "url": "https://www.fce.unl.edu.ar/academica/categorias/aulas/",
+  "strategy": "fce-wordpress",
+  "content_hash": "6c80b3555bc305821a066d0b755d297bb45cbb28c9013c28a3f34e87924dae8d",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/academica/categorias/aulas/",
+      "title": "Aulas Virtuales",
+      "length": 463
+    }
+  ],
+  "scraped_at": "2026-05-20T10:47:01.740Z",
+  "last_checked_at": "2026-05-20T10:47:01.740Z"
+}
