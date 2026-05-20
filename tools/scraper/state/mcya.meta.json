@@ -1,0 +1,82 @@
+{
+  "slug": "mcya",
+  "url": "https://www.fce.unl.edu.ar/mcya/",
+  "strategy": "fce-microsite",
+  "content_hash": "f8e4e6e6e17bf213a9ec704980e5402ef98fabfb8b4f5de88ae9985d5723c32c",
+  "previous_hash": null,
+  "pages_count": 14,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/",
+      "title": "INFORMACIÓN DE INTERÉS",
+      "length": 880
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199",
+      "title": "PRESENTACIÓN DE LA CARRERA",
+      "length": 2582
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201",
+      "title": "CURSADO Y EVALUACIÓN",
+      "length": 1737
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=202",
+      "title": "DIAS Y HORARIOS DE CURSADO",
+      "length": 1079
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=203",
+      "title": "DURACIÓN DE LA CARRERA",
+      "length": 1077
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197",
+      "title": "Informes e Inscripción",
+      "length": 1281
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=204",
+      "title": "TITULO QUE OTORGA",
+      "length": 942
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=205",
+      "title": "OBJETIVOS",
+      "length": 2148
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=206",
+      "title": "PERFIL DE EGRESADO",
+      "length": 2349
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=207",
+      "title": "ESTRUCTURA DEL PLAN DE ESTUDIO",
+      "length": 2052
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=208",
+      "title": "CONDUCCIÓN DE LA CARRERA",
+      "length": 2247
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=209",
+      "title": "COMITÉ ACADÉMICO",
+      "length": 1329
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=210",
+      "title": "CUERPO DOCENTE",
+      "length": 2013
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=716",
+      "title": "Novedades",
+      "length": 1170
+    }
+  ],
+  "scraped_at": "2026-05-20T10:42:49.978Z",
+  "last_checked_at": "2026-05-20T10:42:49.978Z"
+}
