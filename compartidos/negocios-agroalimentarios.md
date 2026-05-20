@@ -1,40 +1,37 @@
 # Maestría en Negocios Agroalimentarios
 
-Maestría profesional de **alta dirección** orientada a la gestión integral de organizaciones agroalimentarias. Es una carrera **conjunta entre la FCE y la Facultad de Ciencias Agrarias (FCA)** de la UNL, con sede administrativa en FCA. Acreditada por CONEAU **categoría A** (6 años). Modalidad presencial, plan semiestructurado de 720 horas (48 UCAs). Cuarta edición iniciada en marzo 2026.
-
 ---
 
 ## Identificación
 
 - **Nombre oficial**: Maestría en Negocios Agroalimentarios
+- **Código corto / sigla**: No publicado
 - **Tipo**: Maestría profesional
-- **Unidades académicas**: FCE-UNL + FCA-UNL (sede en FCA)
-- **Título que otorga**: A confirmar (en línea con denominación oficial)
-- **Acreditación CONEAU**: **Categoría A** (por 6 años) — Resolución RESFC-2025-294-APN-CONEAU#MCH
-- **Reconocimiento Oficial del Título**: Res. Ministerio de Educación N° 1305-20
-- **Modificación reciente del Plan de Estudios y Reglamento**: Res. CS UNL N° 237/24
+- **Título que otorga**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Acreditación CONEAU**: RESFC-2025-294-APN-CONEAU#MCH – Categoría: A (seis años)
+- **Unidad académica**: FCE-UNL
+- **Carreras compartidas con otras unidades**: Facultad de Ciencias Agrarias (FCA) de la Universidad Nacional del Litoral
 
 ## Modalidad y duración
 
-- **Modalidad**: **Presencial**
-- **Sede**: Facultad de Ciencias Agrarias UNL — R.P.Kreder 2805, Esperanza, Santa Fe
-- **Duración cursada + trabajo final**: A confirmar
-- **Carga horaria total**: **720 horas (48 UCAs)**
+- **Modalidad**: Presencial
+- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Lugar**: Facultad de Ciencias Agrarias (FCA) de la UNL, R.P.Kreder 2805, Esperanza, Santa Fe
+- **Idioma**: Español
+- **Duración cursada**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Duración trabajo final / tesis**: 135 horas (9 UCAs)
+- **Carga horaria total**: 720 horas (48 UCAs)
 
 ## Plan de estudios
 
 ### Estructura general
+El plan de estudios es semiestructurado, incluye diferentes instancias de formación que totalizan 720 horas (48 UCAs). Las mismas resultan de considerar 465 horas (31 UCAs) en cursos obligatorios, un mínimo de 120 horas (8 UCAs) de cursos optativos y 135 horas (9 UCAs) correspondientes al trabajo final.
 
-Plan **semiestructurado** que totaliza 720 horas (48 UCAs), distribuidas en:
-- **465 horas (31 UCAs)** en cursos obligatorios
-- **Mínimo 120 horas (8 UCAs)** en cursos optativos
-- **135 horas (9 UCAs)** correspondientes al trabajo final
+### Módulos / asignaturas
+No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
 
-### Plan completo
-Información detallada del plan disponible en: https://www.fca.unl.edu.ar/posgrado/plan-de-estudio-maestria-en-negocios-agroalimentarios/
-
-### Trabajo final
-9 UCAs (135 horas) — modalidad y requisitos en el reglamento oficial: https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/11/Res.-CS-237_24_FCA-1175699-23-Modif-Plan-Est-y-Reglam-Maestria-Negocios-Agroalim.pdf
+### Trabajo final / tesis
+El trabajo final corresponde a 135 horas (9 UCAs). El reglamento oficial de la Maestría detalla la modalidad y requisitos.
 
 ## Cuerpo docente
 
@@ -47,51 +44,51 @@ Información detallada del plan disponible en: https://www.fca.unl.edu.ar/posgra
   - Mg. MSc. Marta Suero
   - Mg. Noelia Rossler
 
-Plantel docente detallado por asignatura: consultar en la web oficial o en posgrado@fca.unl.edu.ar.
+Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fca.unl.edu.ar.
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título de grado universitario de las Facultades de Ciencias Agrarias y de Ciencias Económicas (UNL u otras universidades nacionales o extranjeras legalmente reconocidas), o carreras cuyos contenidos curriculares sean considerados adecuados por el Comité Académico.
-- **Destinatarios**: Profesionales y directivos interesados en la comprensión y aplicación de técnicas de gestión de empresas y organizaciones agroalimentarias.
-- **Reconocimiento de cursos previos**: posible según instructivo oficial (https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/08/MNA-Instructivo-reconocimientos-cursos-copia.doc).
+- **Título previo requerido**: Título de grado universitario de las Facultades de Ciencias Agrarias y de Ciencias Económicas o en carreras cuyos contenidos curriculares sean considerados adecuados por el Comité Académico, otorgado por Universidades nacionales públicas o privadas, legalmente reconocidas, o por Universidades Extranjeras.
+- **Idiomas**: No publicado
+- **Otros antecedentes**: Dirigida a profesionales y directivos interesados en la comprensión y aplicación de técnicas de gestión de empresas y organizaciones agroalimentarias, con una visión integral para actuar en un entorno globalizado. Es posible el reconocimiento de cursos previos según instructivo oficial.
+- **Documentación a presentar**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Proceso de admisión**: Pre-inscripción online.
 
 ## Aranceles e inscripción
 
-- **Crédito Fiscal**: el cursado permite acceder al **Régimen de Crédito Fiscal** para capacitación de personal en PyMEs del Ministerio de Producción de la Nación (reintegro parcial o total de costos).
-- **Aranceles específicos**: consultar con posgrado@fca.unl.edu.ar
-- **Pre-inscripción**: **https://forms.gle/WgYEp9WRcGnjRAE37**
-- **Estado de inscripción**: **INSCRIPCIÓN ABIERTA** (al momento del scraping)
+- **Matrícula**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Becas disponibles**: El cursado permite acceder al Régimen de Crédito Fiscal para capacitación de personal en PyMES del Ministerio de Producción de la Nación (reintegro parcial o total de los costos de capacitación).
+- **Estado actual de inscripción**: INSCRIPCION ABIERTA
+- **Link de pre-inscripción**: https://forms.gle/WgYEp9WRcGnjRAE37
 
 ## Próxima cohorte
 
-- **Fecha de inicio (cuarta edición)**: **Marzo 2026** (según homepage). Nota: esa fecha ya pasó al 2026-05-17; verificar con posgrado@fca.unl.edu.ar si la inscripción sigue abierta para esta cohorte o para la siguiente.
-- **Estado**: Inscripción abierta (al momento del scraping)
+- **Fecha de inicio**: Marzo 2026
+- **Estado**: Inscripción abierta
 - **Fuente del dato**: https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/
-- **Última actualización del dato**: 2026-05-17
+- **Última actualización del dato**: 2026-05-20
+
+> Nota: La fecha de inicio indicada (Marzo 2026) ya ha pasado. Por favor, contactar a posgrado@fca.unl.edu.ar para confirmar la próxima cohorte y el estado actual de la inscripción.
 
 ## Contacto
 
-- **Email principal**: posgrado@fca.unl.edu.ar
-- **Teléfono**: +54 3496 426400 / 421037 interno 161
-- **Sede**: Facultad de Ciencias Agrarias UNL — R.P.Kreder 2805, Esperanza, Santa Fe
-- **Email general FCA**: facagra@fca.unl.edu.ar
+- **Director/a académico/a**: Mg. María Isabel Castignani
+- **Email del programa**: posgrado@fca.unl.edu.ar
+- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+- **WhatsApp Posgrado**: 3425191199
+- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+- **Teléfono Secretaría Posgrado FCA**: +54 3496 426400 / 421037 interno 161
 
 ## Información adicional relevante
 
-- **Carrera conjunta FCE + FCA**: combina perspectivas de management y de ciencias agrarias.
-- **Acreditación máxima**: categoría A CONEAU, por 6 años.
-- **Régimen de Crédito Fiscal**: permite a empleadores deducir costos de capacitación.
-- **Cronograma Cursos 2026** disponible en la web oficial.
+La Maestría en Negocios Agroalimentarios es una carrera de tipo profesional de alta dirección, pensada para facilitar la comprensión e implementación de técnicas de gestión en organizaciones agroalimentarias que se desempeñan en entornos cambiantes, desde una visión integral para actuar en un entorno globalizado. Se dicta en forma conjunta entre la Facultad de Ciencias Económicas (FCE) y la Facultad de Ciencias Agrarias (FCA) de la UNL, con sede administrativa en la FCA. Cuenta con Reconocimiento Nacional oficial del título (Resolución Ministerio de Educación Nº 1305-20). El cursado permite acceder al Régimen de Crédito Fiscal para capacitación de personal en PyMES del Ministerio de Producción de la Nación. El cronograma de cursos 2026 está disponible en la web oficial.
 
 ## Fuentes consultadas
 
-- https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/ (homepage)
-- https://www.fca.unl.edu.ar/posgrado/plan-de-estudio-maestria-en-negocios-agroalimentarios/ (plan detallado)
-- https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/11/Resolución-RESFC-294-APN-CONEAUMCH-Maestría-en-Negocios-Agroalimentarios.pdf (Acreditación CONEAU)
-- https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/08/MNA-Res.ME-1305-20.pdf (Reconocimiento Min. Educación)
-- https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/11/Res.-CS-237_24_FCA-1175699-23-Modif-Plan-Est-y-Reglam-Maestria-Negocios-Agroalim.pdf (Reglamento)
-- https://forms.gle/WgYEp9WRcGnjRAE37 (Pre-inscripción)
+- https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17. Carrera compartida con FCA (sede): Sophia debe derivar consultas operativas a posgrado@fca.unl.edu.ar.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-20 por pipeline de scraping.
