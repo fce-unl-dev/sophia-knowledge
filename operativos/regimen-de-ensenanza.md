@@ -1,64 +1,91 @@
-# Régimen de Enseñanza FCE-UNL
-
-Conjunto de normas y procedimientos que regulan el proceso de enseñanza, aprendizaje y evaluación de las carreras de grado dictadas por la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral. Desde el 1° de enero de 2024 rige la nueva normativa "Normas y Procedimientos de Enseñanza", que reemplazó al anterior "Régimen de Enseñanza".
+# Normas y Procedimientos de Enseñanza
 
 ---
 
 ## Identificación
 
-- **Nombre oficial vigente**: Normas y Procedimientos de Enseñanza
-- **Vigencia**: Desde el 1° de enero de 2024 (con actualizaciones 2025 y 2026)
-- **Alcance**: Carreras de grado de la FCE-UNL (Contador Público Nacional, Licenciatura en Administración, Licenciatura en Economía)
-- **Reemplaza a**: Régimen de Enseñanza anterior (Res. CD Nº 955, última actualización julio 2017) — vigente hasta el 31 de diciembre de 2023
+- **Nombre oficial**: Normas y Procedimientos de Enseñanza
+- **Código corto / sigla**: No aplica
+- **Tipo**: Normativa académica de grado
+- **Título que otorga**: No aplica
+- **Acreditación CONEAU**: No aplica
+- **Unidad académica**: FCE-UNL
+- **Carreras compartidas con otras unidades**: No aplica
 
-## Normativa vigente
+## Modalidad y duración
 
-### Resoluciones activas (2024–2026)
+- **Modalidad**: No aplica
+- **Días y horarios de cursada**: No aplica
+- **Lugar**: No aplica
+- **Idioma**: Español
+- **Duración cursada**: No aplica
+- **Duración trabajo final / tesis**: No aplica
+- **Carga horaria total**: No aplica
 
-| Resolución | Alcance |
-|---|---|
-| **Res. CD 740/23** | Documento principal de las nuevas Normas y Procedimientos de Enseñanza |
-| **Res. CD 500/25** | Versión actualizada, vigente a partir de 2026 |
-| **Res. CD 640/25** | Amplía el alcance del Artículo 29 de la Res. CD 500/25 |
-| **Res. Decana 361/23** | Deroga las resoluciones previas (cierre formal del régimen anterior) |
+## Plan de estudios
 
-### Resolución previa (régimen 2017–2023)
+### Estructura general
+Las Normas y Procedimientos de Enseñanza son los lineamientos generales a los que se ajustan las actividades vinculadas a los procesos de enseñanza, aprendizaje y evaluación de las carreras de grado de la FCE-UNL. Fueron elaboradas mediante un esfuerzo colaborativo de una Comisión de Reforma del Régimen de Enseñanza, garantizando la representación de todos los claustros.
 
-- **Res. C.D. Nº 955** — Régimen de Enseñanza anterior, vigente hasta 31/12/2023 (última actualización julio 2017).
+### Módulos / asignaturas
+Las normas se estructuran a través de las siguientes resoluciones:
 
-## Contenido y alcance
+**Normativa vigente desde el 01/01/2024**
+- Res. CD 740/23 – Normas y procedimientos de Enseñanza
+- Res. CD 500/25 – Normas y procedimientos de Enseñanza (vigente a partir de 2026)
+- Res. CD 640/25 – Amplía alcance del artículo 29 de la Res. CD 500/25
+- Res. Decana 361/23 – Derogación resoluciones anteriores
 
-Las Normas y Procedimientos de Enseñanza regulan los procesos de enseñanza, aprendizaje y evaluación para las carreras de grado iniciadas desde 2024. Fueron elaboradas mediante un proceso colaborativo con representación de todos los claustros (docentes, no docentes, estudiantes, graduados).
+**Normativa vigente hasta el 31/12/2023**
+- RESOLUCIÓN C.D. Nº 955 – texto completo actualizado a Julio 2017 (Régimen de Enseñanza anterior)
 
-> NOTA AL REVISOR: el contenido específico (condiciones de regularidad, sistema de calificación, asistencia, recursado, equivalencias, condicionalidad, exámenes finales) figura **dentro de los PDFs de cada resolución**, descargables desde la sección de Asuntos Académicos de la web FCE. La página índice no expone ese contenido en texto plano. Para versión definitiva del KB, descargar los PDFs y extraer artículos clave (especialmente Arts. 1 a 35 de la Res. CD 500/25).
+### Trabajo final / tesis
+No aplica
 
-## Documentos descargables
+## Cuerpo docente
 
-Todos los documentos de la normativa están disponibles como PDFs descargables desde la sección "Asuntos Académicos" del sitio web institucional:
+Nómina docente no publicada en fuentes oficiales; consultar a alumnado@fce.unl.edu.ar.
 
-- Res. CD 740/23 (texto completo)
-- Res. CD 500/25 (vigente desde 2026)
-- Res. CD 640/25 (modificatoria)
-- Res. Decana 361/23
-- Res. CD 955 (régimen anterior, archivo histórico)
+## Requisitos de admisión
+
+- **Título previo requerido**: No aplica
+- **Idiomas**: No aplica
+- **Otros antecedentes**: No aplica
+- **Documentación a presentar**: No aplica
+- **Proceso de admisión**: No aplica
+
+## Aranceles e inscripción
+
+- **Matrícula**: No aplica
+- **Cuotas**: No aplica
+- **Modalidad de pago**: No aplica
+- **Becas disponibles**: No aplica
+- **Estado actual de inscripción**: No aplica
+- **Link de pre-inscripción**: No aplica
+
+## Próxima cohorte
+
+- **Fecha de inicio**: No aplica
+- **Estado**: No aplica
+- **Fuente del dato**: No aplica
+- **Última actualización del dato**: No aplica
 
 ## Contacto
 
-- **Asuntos Académicos FCE-UNL**: alumnado@fce.unl.edu.ar (verificar dirección exacta — el sitio publica el contacto general)
-- **Email de difusión**: difusion@fce.unl.edu.ar
+- **Director/a académico/a**: No publicado en fuentes oficiales — consultar con alumnado@fce.unl.edu.ar
+- **Email del programa**: alumnado@fce.unl.edu.ar (dato conservado de MD ACTUAL)
+- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+- **WhatsApp Posgrado**: 3425191199
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
-- **Estudiantes (WhatsApp)**: 3425818810
 
 ## Información adicional relevante
 
-- **Cambio normativo reciente**: 2024 marca un quiebre — quienes ingresaron antes de esa fecha pueden estar bajo régimen mixto. Es necesario consultar la transición específica con Bedelía/Asuntos Académicos.
-- **Aplicación únicamente a grado**: posgrado tiene normativa propia, distinta del Régimen de Enseñanza de grado.
-- **Actualización 2026**: la Res. CD 500/25 introduce cambios respecto a la 740/23; cualquier consulta sobre cómputos de asistencia, regularidad o condicionalidad debe basarse en la versión vigente al momento de la cursada.
+Estas normas rigen para las actividades vinculadas a los procesos de enseñanza, aprendizaje y evaluación de las carreras de grado que se impartan a partir del 2024. Quienes ingresaron antes de esa fecha pueden estar bajo un régimen de transición o el régimen anterior. Es necesario consultar la transición específica con Bedelía/Asuntos Académicos. La aplicación de esta normativa es únicamente para carreras de grado; los programas de posgrado tienen su propia normativa.
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/academica/categorias/regimen/ (página principal de Régimen)
+- https://www.fce.unl.edu.ar/academica/categorias/regimen/
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-20 por pipeline de scraping.
