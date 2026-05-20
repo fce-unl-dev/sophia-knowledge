@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada en el workflow genérico, workflow lo skipea). La fuente de cursos_de_formacion se procesa con tools/scraper/scrape_courses.mjs porque genera múltiples MD candidatos, uno por curso, sin documento agregado duplicado.",
+  "version": 4,
+  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada en el workflow genérico, workflow lo skipea). La fuente de cursos_de_formacion se procesa con tools/scraper/scrape_courses.mjs porque genera múltiples MD candidatos, uno por curso. Las fuentes de /estudiantes/ quedan registradas como TBD hasta implementar extractor y revisión de privacidad.",
   "sensitive_sections": [
     "Modalidad y duración",
     "Aranceles e inscripción",
@@ -49,12 +49,83 @@
     { "slug": "posgrado-beneficios-graduados", "indice_path": "posgrado-general/beneficios-graduados.md", "url": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/", "strategy": "fce-wordpress" },
 
     {
+      "slug": "estudiantes-home",
+      "indice_path": "estudiantes/overview.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Página índice; no procesar hasta definir extractor /estudiantes/ y evitar duplicación con páginas hijas."
+    },
+    {
+      "slug": "estudiantes-examenes",
+      "indice_path": "estudiantes/examenes.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/examenes/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Página web simple con reglas generales de exámenes."
+    },
+    {
+      "slug": "estudiantes-examenes-finales",
+      "indice_path": "estudiantes/examenes-finales.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-finales/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Puede enlazar Google Sheets de turnos; convertir planillas a snapshots MD antes de publicar respuestas sobre fechas."
+    },
+    {
+      "slug": "estudiantes-examenes-parciales",
+      "indice_path": "estudiantes/examenes-parciales.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-parciales/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Puede depender de iframe/datos embebidos; no publicar fechas sin snapshot validado."
+    },
+    {
+      "slug": "estudiantes-tramites",
+      "indice_path": "estudiantes/tramites.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/tramites-estudiantes/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Trámites internos, formularios y PDFs. Requiere separar instrucciones de formularios descargables."
+    },
+    {
+      "slug": "estudiantes-inscripciones-cursado",
+      "indice_path": "estudiantes/inscripciones-cursado.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Puede contener listados nominales; requiere filtro de privacidad antes de generar MD publicado."
+    },
+    {
+      "slug": "estudiantes-consultas",
+      "indice_path": "estudiantes/clases-consultas.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Incluye link a Bedelía Móvil; no scrapear sistemas externos autenticados."
+    },
+    {
+      "slug": "estudiantes-parciales-notas-muestras",
+      "indice_path": "estudiantes/parciales-notas-muestras.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Página dinámica; evaluar si los datos están en HTML público antes de automatizar."
+    },
+    {
+      "slug": "estudiantes-pai",
+      "indice_path": "estudiantes/practicas-academicas-internas.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/pai/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata. Bienestar estudiantil / Prácticas Académicas Internas."
+    },
+    {
+      "slug": "estudiantes-centro-estudiantes",
+      "indice_path": "estudiantes/centro-estudiantes.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/cece/",
+      "strategy": "TBD",
+      "note": "C.1 fuente candidata de menor prioridad; información institucional y contacto del Centro de Estudiantes."
+    },
+
+    {
       "slug": "cursos-de-formacion",
       "indice_path": "cursos/",
       "url": "https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos",
       "strategy": "TBD",
       "script": "tools/scraper/scrape_courses.mjs",
-      "note": "Fuente multi-output. Ejecutar scrape_courses.mjs para detectar altas/bajas/cambios y generar candidatos 1 MD por curso. Se mantiene strategy=TBD para que el workflow genérico no la procese hasta B.5."
+      "note": "Fuente multi-output. Ejecutar scrape_courses.mjs para detectar altas/bajas/cambios y generar candidatos 1 MD por curso. Se mantiene strategy=TBD para que el workflow genérico no la procese."
     }
   ]
 }
