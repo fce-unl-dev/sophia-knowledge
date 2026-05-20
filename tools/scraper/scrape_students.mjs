@@ -1,9 +1,10 @@
-// Extractor determinístico para páginas simples de /estudiantes/.
+// Extractor determinístico para /estudiantes/ organizado por temas del menú.
 //
-// Objetivo C.2:
-//   - Leer fuentes candidatas registradas en sources.json con slug estudiantes-*.
-//   - Generar candidatos Markdown solo para páginas simples y de bajo riesgo.
-//   - Detectar, pero NO publicar, fuentes con Sheets/iframes/datos nominales/dinámicas.
+// Objetivo C.2 corregido:
+//   - Respetar la estructura de la web de Estudiantes: 1 MD por título/tema.
+//   - Cada MD agrupa la página principal del tema y subpáginas relacionadas.
+//   - Excluir páginas obsoletas o sin contenido útil (ej. Ingreso 2025).
+//   - Detectar Sheets/iframes/sistemas externos/datos personales, pero no publicar.
 //   - NO modifica /estudiantes/ publicado ni indice.json; solo produce state + candidates.
 //
 // Uso:
@@ -13,8 +14,9 @@
 //   node scrape_students.mjs --no-write
 
 import { createHash } from 'node:crypto';
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { readFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
@@ -29,32 +31,147 @@ import {
 } from './scrape.mjs';
 
 const DEFAULT_STATE_DIR = 'state/estudiantes';
-const DEFAULT_SOURCES_PATH = 'sources.json';
 
-const SIMPLE_STUDENT_SLUGS = new Set([
-  'estudiantes-home',
-  'estudiantes-examenes',
-  'estudiantes-tramites',
-  'estudiantes-consultas',
-  'estudiantes-pai',
-  'estudiantes-centro-estudiantes',
-]);
+export const STUDENT_TOPICS = [
+  {
+    slug: 'estudiantes-ingreso-2026',
+    title: 'Ingreso 2026',
+    path: 'estudiantes/ingreso-2026.md',
+    pages: [
+      ['Ingreso 2026', 'https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-tramites-internos',
+    title: 'Trámites internos',
+    path: 'estudiantes/tramites-internos.md',
+    pages: [
+      ['Trámites internos', 'https://www.fce.unl.edu.ar/estudiantes/tramites-internos/'],
+      ['Ingresantes', 'https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/ingresantes/'],
+      ['Estudiantes', 'https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/estudiantes/'],
+      ['Graduados', 'https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/graduados/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-calendario-academico',
+    title: 'Calendario Académico',
+    path: 'estudiantes/calendario-academico.md',
+    pages: [
+      ['Calendario Académico', 'https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-bienestar-estudiantil',
+    title: 'Bienestar Estudiantil',
+    path: 'estudiantes/bienestar-estudiantil.md',
+    pages: [
+      ['Bienestar Estudiantil', 'https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/'],
+      ['BAPI', 'https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/bapi/'],
+      ['Becas ofrecidas por UNL', 'https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/becas-ofrecidas-por-unl/'],
+      ['Movilidad estudiantil', 'https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/movilidad-estudiantil/'],
+      ['Prácticas Académicas Internas', 'https://www.fce.unl.edu.ar/estudiantes/pai/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-pasantias-rentadas',
+    title: 'Pasantías rentadas',
+    path: 'estudiantes/pasantias-rentadas.md',
+    pages: [
+      ['Pasantías rentadas', 'https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-practicas-profesionales-supervisadas',
+    title: 'Prácticas Profesionales Supervisadas',
+    path: 'estudiantes/practicas-profesionales-supervisadas.md',
+    pages: [
+      ['Prácticas Profesionales Supervisadas', 'https://www.fce.unl.edu.ar/estudiantes/pps/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-inscripciones-cursado',
+    title: 'Info sobre inscripciones a cursado',
+    path: 'estudiantes/inscripciones-cursado.md',
+    pages: [
+      ['Info sobre inscripciones a cursado', 'https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-siu-guarani',
+    title: 'SIU Guaraní',
+    path: 'estudiantes/siu-guarani.md',
+    pages: [
+      ['SIU Guaraní', 'https://www.fce.unl.edu.ar/estudiantes/siu-guarani/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-sica',
+    title: 'Sistema Informático de Consultas de Alumnos (SICA)',
+    path: 'estudiantes/sica.md',
+    pages: [
+      ['Sistema Informático de Consultas de Alumnos (SICA)', 'https://www.fce.unl.edu.ar/estudiantes/sica/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-examenes',
+    title: 'Exámenes',
+    path: 'estudiantes/examenes.md',
+    pages: [
+      ['Exámenes', 'https://www.fce.unl.edu.ar/estudiantes/examenes/'],
+      ['Exámenes finales', 'https://www.fce.unl.edu.ar/estudiantes/examenes-finales/'],
+      ['Exámenes parciales', 'https://www.fce.unl.edu.ar/estudiantes/examenes-parciales/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-clases-consultas',
+    title: 'Clases de Consultas',
+    path: 'estudiantes/clases-consultas.md',
+    pages: [
+      ['Clases de Consultas', 'https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/'],
+      ['Consultas para exámenes', 'https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-para-examenes/'],
+      ['Consultas permanentes', 'https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-permanentes/'],
+      ['Parciales: entrega de notas y muestra de exámenes', 'https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/'],
+      ['Finales: entrega de notas y muestra de exámenes', 'https://www.fce.unl.edu.ar/estudiantes/finales-entrega-de-notas-y-muestra-de-examenes/'],
+      ['Avisos de asignaturas', 'https://www.fce.unl.edu.ar/estudiantes/avisos-de-asignaturas/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-centro-estudiantes',
+    title: 'Centro de Estudiantes',
+    path: 'estudiantes/centro-estudiantes.md',
+    pages: [
+      ['Centro de Estudiantes', 'https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-horarios-atencion',
+    title: 'Horarios de Atención',
+    path: 'estudiantes/horarios-atencion.md',
+    pages: [
+      ['Horarios de Atención', 'https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/'],
+    ],
+  },
+  {
+    slug: 'estudiantes-beneficios-posgrados',
+    title: 'Beneficios para Posgrados FCE UNL',
+    path: 'estudiantes/beneficios-posgrados-fce-unl.md',
+    pages: [
+      ['Beneficios para Posgrados FCE UNL', 'https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/'],
+    ],
+  },
+];
 
-const DEFERRED_STUDENT_SOURCES = {
-  'estudiantes-examenes-finales': 'contiene enlaces a planillas de turnos; requiere snapshot tabular antes de publicar fechas',
-  'estudiantes-examenes-parciales': 'contiene iframe/datos embebidos; requiere resolver fuente real y snapshot',
-  'estudiantes-inscripciones-cursado': 'puede contener listados nominales de estudiantes; requiere filtro de privacidad',
-  'estudiantes-parciales-notas-muestras': 'página dinámica; requiere evaluar si los datos están en HTML público o sistema externo',
-};
+export const EXCLUDED_STUDENT_TOPICS = [
+  {
+    title: 'Ingreso 2025',
+    url: 'https://www.fce.unl.edu.ar/estudiantes/ingreso-2025/',
+    reason: 'obsoleto: fue reemplazado por Ingreso 2026 y no debe incorporarse como fuente vigente',
+  },
+];
 
-const SYSTEM_HOSTS = new Set([
-  'servicios.unl.edu.ar',
-  'servicios.unl.edu.ar:443',
-  'www.siu.edu.ar',
-]);
+const SYSTEM_HOSTS = new Set(['servicios.unl.edu.ar', 'www.siu.edu.ar']);
 
 export async function runStudentsScraper({
-  sourcesPath,
   stateDir,
   slug = null,
   write = true,
@@ -62,75 +179,55 @@ export async function runStudentsScraper({
   fetchImpl = fetch,
   today = todayIsoDate(),
 } = {}) {
-  const sourcesData = JSON.parse(await readFile(sourcesPath, 'utf8'));
-  let sources = (sourcesData.sources || []).filter((source) => source.slug?.startsWith('estudiantes-'));
-  if (slug) sources = sources.filter((source) => source.slug === slug);
-  if (slug && sources.length === 0) {
-    return {
-      ok: false,
-      decision: 'error',
-      error: `No existe fuente estudiantes con slug ${slug}`,
-      processed: [],
-    };
+  let topics = STUDENT_TOPICS;
+  if (slug) topics = topics.filter((topic) => topic.slug === slug);
+  if (slug && topics.length === 0) {
+    return { ok: false, decision: 'error', error: `No existe tema de estudiantes con slug ${slug}` };
   }
 
   const processed = [];
   const candidates = [];
-  const deferred = [];
   const warnings = [];
 
-  for (const source of sources) {
-    if (!SIMPLE_STUDENT_SLUGS.has(source.slug)) {
-      const reason = DEFERRED_STUDENT_SOURCES[source.slug] || 'fuente no marcada como página simple en C.2';
-      deferred.push({ slug: source.slug, url: source.url, indice_path: source.indice_path, reason });
+  for (const topic of topics) {
+    const result = await scrapeStudentTopic(topic, { fetchImpl, today });
+    processed.push(result.summary);
+    if (result.summary.pages_with_content === 0) {
+      warnings.push(`${topic.slug}: sin páginas con contenido útil; no se genera candidato`);
       continue;
     }
+    if (result.summary.requires_review) {
+      warnings.push(`${topic.slug}: requiere revisión (${result.summary.review_reasons.join(', ')})`);
+    }
 
-    try {
-      const page = await scrapeStudentPage(source, { fetchImpl, today });
-      processed.push(page.summary);
+    const markdown = buildTopicMarkdown(result, { today });
+    candidates.push({
+      slug: topic.slug,
+      path: topic.path,
+      candidate_file: `${topic.slug}.candidate.md`,
+      pages_count: result.pages.length,
+      pages_with_content: result.summary.pages_with_content,
+      requires_review: result.summary.requires_review,
+      review_reasons: result.summary.review_reasons,
+    });
 
-      if (page.summary.requires_review) {
-        warnings.push(`${source.slug}: requiere revisión (${page.summary.review_reasons.join(', ')})`);
-      }
-
-      const candidateMarkdown = buildStudentMarkdown(page, { today });
-      candidates.push({
-        slug: source.slug,
-        path: source.indice_path,
-        candidate_file: `${source.slug}.candidate.md`,
-        requires_review: page.summary.requires_review,
-        review_reasons: page.summary.review_reasons,
-      });
-
-      if (write && writeCandidates) {
-        const candidatesDir = join(stateDir, 'candidates');
-        await mkdir(candidatesDir, { recursive: true });
-        await writeFile(join(candidatesDir, `${source.slug}.candidate.md`), candidateMarkdown, 'utf8');
-      }
-    } catch (err) {
-      warnings.push(`${source.slug}: error ${err.message || err}`);
-      processed.push({
-        slug: source.slug,
-        url: source.url,
-        status: 'error',
-        error: String(err.message || err),
-      });
+    if (write && writeCandidates) {
+      const candidatesDir = join(stateDir, 'candidates');
+      await mkdir(candidatesDir, { recursive: true });
+      await writeFile(join(candidatesDir, `${topic.slug}.candidate.md`), markdown, 'utf8');
     }
   }
 
-  const stablePayload = JSON.stringify({ processed, deferred, candidates }, null, 2);
+  const stablePayload = JSON.stringify({ processed, candidates, excluded: EXCLUDED_STUDENT_TOPICS }, null, 2);
   const contentHash = sha256(stablePayload);
   const metaPath = join(stateDir, 'estudiantes.meta.json');
   const catalogPath = join(stateDir, 'estudiantes.catalog.json');
   let previousHash = null;
   if (existsSync(metaPath)) {
     try {
-      const previous = JSON.parse(await readFile(metaPath, 'utf8'));
-      previousHash = previous.content_hash || null;
-    } catch { /* meta corrupto; se sobrescribe */ }
+      previousHash = JSON.parse(await readFile(metaPath, 'utf8')).content_hash || null;
+    } catch { /* ignore corrupt meta */ }
   }
-
   const status = previousHash && previousHash === contentHash ? 'unchanged' : (previousHash ? 'changed' : 'new');
   const report = {
     ok: true,
@@ -139,13 +236,13 @@ export async function runStudentsScraper({
     content_hash: contentHash,
     previous_hash: previousHash,
     generated_at: new Date().toISOString(),
-    simple_sources_count: processed.length,
+    topics_count: processed.length,
     candidates_count: candidates.length,
-    deferred_count: deferred.length,
+    excluded_count: EXCLUDED_STUDENT_TOPICS.length,
     warnings_count: warnings.length,
     processed,
     candidates,
-    deferred,
+    excluded: EXCLUDED_STUDENT_TOPICS,
     warnings,
   };
 
@@ -153,12 +250,13 @@ export async function runStudentsScraper({
     await mkdir(stateDir, { recursive: true });
     await writeFile(metaPath, JSON.stringify({
       slug: 'estudiantes',
-      strategy: 'fce-students-simple-pages',
+      strategy: 'fce-students-menu-topics',
       content_hash: contentHash,
       previous_hash: previousHash,
       status,
-      simple_sources_count: processed.length,
-      deferred_count: deferred.length,
+      topics_count: processed.length,
+      candidates_count: candidates.length,
+      excluded_count: EXCLUDED_STUDENT_TOPICS.length,
       warnings_count: warnings.length,
       scraped_at: new Date().toISOString(),
       last_checked_at: new Date().toISOString(),
@@ -169,38 +267,40 @@ export async function runStudentsScraper({
   return { ...report, meta_path: metaPath, catalog_path: catalogPath };
 }
 
-export async function scrapeStudentPage(source, { fetchImpl = fetch, today = todayIsoDate() } = {}) {
-  const res = await fetchHtml(source.url, { fetchImpl });
-  const contentHtml = extractWordpressBlogContent(res.html);
-  const title = extractSectionTitle(contentHtml) || sourceTitleFromSlug(source.slug) || extractTitle(res.html);
-  const bodyText = normalizeStudentText(htmlToText(contentHtml));
-  const links = extractLinks(contentHtml, res.url || source.url);
-  const signals = detectRiskSignals({ html: contentHtml, text: bodyText, links });
-  const reviewReasons = [];
+export async function scrapeStudentTopic(topic, { fetchImpl = fetch } = {}) {
+  const pages = [];
+  for (const [label, url] of topic.pages) {
+    try {
+      const page = await scrapeStudentPage({ label, url }, { fetchImpl });
+      pages.push(page);
+    } catch (err) {
+      pages.push({ label, url, error: String(err.message || err), text: '', links: [], signals: emptySignals() });
+    }
+  }
 
+  const allLinks = pages.flatMap((page) => page.links || []);
+  const signals = mergeSignals(pages.map((page) => page.signals || emptySignals()));
+  const reviewReasons = [];
   if (signals.has_iframe) reviewReasons.push('iframe detectado');
   if (signals.google_sheet_links.length) reviewReasons.push('links a Google Sheets detectados');
   if (signals.possible_personal_data) reviewReasons.push('posibles datos personales/listados nominales');
   if (signals.system_links.length) reviewReasons.push('links a sistemas externos');
-  if (bodyText.length < 80) reviewReasons.push('contenido textual muy corto');
+  if (pages.some((page) => page.error)) reviewReasons.push('una o más subpáginas no pudieron descargarse');
 
+  const pagesWithContent = pages.filter((page) => normalizeSpaces(page.text).length >= 80).length;
   return {
-    source,
-    title,
-    url: res.url || source.url,
-    bodyText,
-    links,
+    topic,
+    pages,
+    links: allLinks,
     signals,
-    today,
     summary: {
-      slug: source.slug,
-      url: res.url || source.url,
-      indice_path: source.indice_path,
-      title,
-      status: 'candidate_ready',
-      text_length: bodyText.length,
-      links_count: links.length,
-      pdf_links_count: links.filter((link) => link.kind === 'pdf').length,
+      slug: topic.slug,
+      title: topic.title,
+      indice_path: topic.path,
+      pages_count: topic.pages.length,
+      pages_with_content: pagesWithContent,
+      links_count: allLinks.length,
+      pdf_links_count: allLinks.filter((link) => link.kind === 'pdf').length,
       google_sheet_links_count: signals.google_sheet_links.length,
       system_links_count: signals.system_links.length,
       has_iframe: signals.has_iframe,
@@ -211,56 +311,72 @@ export async function scrapeStudentPage(source, { fetchImpl = fetch, today = tod
   };
 }
 
-export function buildStudentMarkdown(page, { today = todayIsoDate() } = {}) {
-  const lines = [];
-  const source = page.source;
-  const publicTitle = page.title || sourceTitleFromSlug(source.slug) || source.slug;
+export async function scrapeStudentPage({ label, url }, { fetchImpl = fetch } = {}) {
+  const res = await fetchHtml(url, { fetchImpl });
+  const contentHtml = extractWordpressBlogContent(res.html);
+  const title = extractSectionTitle(contentHtml) || label || extractTitle(res.html);
+  const text = normalizeStudentText(htmlToText(contentHtml));
+  const links = extractLinks(contentHtml, res.url || url);
+  const signals = detectRiskSignals({ html: contentHtml, text, links });
+  return { label, title, url: res.url || url, text, links, signals, error: null };
+}
 
-  lines.push(`# ${publicTitle}`);
+export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
+  const { topic, pages, signals, summary } = result;
+  const lines = [];
+  lines.push(`# ${topic.title}`);
   lines.push('');
   lines.push('## Para qué sirve');
   lines.push('');
-  lines.push(`- Esta página resume información publicada por FCE-UNL para estudiantes en la fuente oficial ${page.url}.`);
-  lines.push('- Es un candidato generado automáticamente y debe pasar por revisión humana antes de publicarse en `indice.json`.');
+  lines.push(`- Este documento agrupa la información vigente del tema **${topic.title}** publicada en la sección Estudiantes de FCE-UNL.`);
+  lines.push('- Incluye la página principal del tema y sus subpáginas relacionadas cuando existen.');
+  lines.push('- Es un candidato automático: debe pasar por revisión humana antes de agregarse a `indice.json`.');
   lines.push('');
 
   lines.push('## Información publicada');
   lines.push('');
-  appendTextAsBullets(lines, page.bodyText);
-  lines.push('');
+  for (const page of pages) {
+    lines.push(`### ${page.title || page.label}`);
+    lines.push('');
+    if (page.error) {
+      lines.push(`- No se pudo descargar esta subpágina durante la revisión automática: ${page.error}`);
+    } else if (normalizeSpaces(page.text).length < 80) {
+      lines.push('- No se detectó contenido textual suficiente en esta subpágina. Revisar manualmente si corresponde excluirla.');
+    } else {
+      appendTextAsBullets(lines, page.text);
+    }
+    lines.push('');
+  }
 
-  const pdfLinks = page.links.filter((link) => link.kind === 'pdf');
-  const systemLinks = page.signals.system_links;
-  const googleSheets = page.signals.google_sheet_links;
-  const otherLinks = page.links.filter((link) => link.kind === 'external' || link.kind === 'internal').slice(0, 20);
-
-  lines.push('## Sistemas relacionados y enlaces');
+  lines.push('## Enlaces y sistemas relacionados');
   lines.push('');
-  if (!pdfLinks.length && !systemLinks.length && !googleSheets.length && !otherLinks.length) {
+  const pdfLinks = result.links.filter((link) => link.kind === 'pdf');
+  const sheetLinks = signals.google_sheet_links;
+  const systemLinks = signals.system_links;
+  const otherLinks = result.links.filter((link) => ['internal', 'external'].includes(link.kind)).slice(0, 30);
+  if (!pdfLinks.length && !sheetLinks.length && !systemLinks.length && !otherLinks.length) {
     lines.push('- No se detectaron enlaces relevantes en el contenido principal.');
   }
   appendLinkGroup(lines, 'PDFs / formularios', pdfLinks);
-  appendLinkGroup(lines, 'Google Sheets detectados', googleSheets);
+  appendLinkGroup(lines, 'Google Sheets detectados', sheetLinks);
   appendLinkGroup(lines, 'Sistemas externos', systemLinks);
   appendLinkGroup(lines, 'Otros enlaces', otherLinks);
   lines.push('');
 
   lines.push('## Advertencias para Sophia');
   lines.push('');
-  if (page.summary.requires_review) {
-    for (const reason of page.summary.review_reasons) {
-      lines.push(`- Requiere revisión humana: ${reason}.`);
-    }
+  if (summary.requires_review) {
+    for (const reason of summary.review_reasons) lines.push(`- Requiere revisión humana: ${reason}.`);
   } else {
-    lines.push('- No se detectaron señales automáticas de iframe, Google Sheets ni datos nominales, pero la revisión humana sigue siendo obligatoria.');
+    lines.push('- No se detectaron señales automáticas de iframe, Google Sheets, sistemas externos ni datos nominales; la revisión humana sigue siendo obligatoria.');
   }
   lines.push('- No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.');
-  lines.push('- Si la fuente enlaza una planilla o iframe con fechas, responder solo si existe snapshot Markdown revisado.');
+  lines.push('- Si una subpágina enlaza una planilla o iframe con fechas, responder sobre esos datos solo si existe snapshot Markdown revisado.');
   lines.push('');
 
   lines.push('## Fuentes consultadas');
   lines.push('');
-  lines.push(`- Página oficial FCE-UNL: ${page.url}`);
+  for (const [label, url] of topic.pages) lines.push(`- ${label}: ${url}`);
   lines.push('');
   lines.push('---');
   lines.push('');
@@ -293,33 +409,47 @@ function classifyLink(url) {
   const href = url.toString().toLowerCase();
   if (url.hostname === 'docs.google.com' && href.includes('/spreadsheets/')) return 'google_sheet';
   if (href.endsWith('.pdf') || href.includes('.pdf?')) return 'pdf';
-  if (SYSTEM_HOSTS.has(url.host) || href.includes('/sica') || href.includes('/cup') || href.includes('guarani')) return 'system';
+  if (SYSTEM_HOSTS.has(url.hostname) || href.includes('/sica') || href.includes('/cup') || href.includes('guarani')) return 'system';
   if (url.hostname.endsWith('fce.unl.edu.ar') || url.hostname.endsWith('unl.edu.ar')) return 'internal';
   return 'external';
 }
 
 function detectRiskSignals({ html, text, links }) {
-  const googleSheetLinks = links.filter((link) => link.kind === 'google_sheet');
-  const systemLinks = links.filter((link) => link.kind === 'system');
-  const hasIframe = /<iframe\b/i.test(html);
-  const possiblePersonalData = detectPossiblePersonalData(text);
   return {
-    has_iframe: hasIframe,
-    google_sheet_links: googleSheetLinks,
-    system_links: systemLinks,
-    possible_personal_data: possiblePersonalData,
+    has_iframe: /<iframe\b/i.test(html),
+    google_sheet_links: links.filter((link) => link.kind === 'google_sheet'),
+    system_links: links.filter((link) => link.kind === 'system'),
+    possible_personal_data: detectPossiblePersonalData(text),
   };
+}
+
+function mergeSignals(items) {
+  return {
+    has_iframe: items.some((item) => item.has_iframe),
+    google_sheet_links: dedupeLinks(items.flatMap((item) => item.google_sheet_links || [])),
+    system_links: dedupeLinks(items.flatMap((item) => item.system_links || [])),
+    possible_personal_data: items.some((item) => item.possible_personal_data),
+  };
+}
+
+function emptySignals() {
+  return { has_iframe: false, google_sheet_links: [], system_links: [], possible_personal_data: false };
+}
+
+function dedupeLinks(links) {
+  const seen = new Set();
+  return links.filter((link) => {
+    if (seen.has(link.url)) return false;
+    seen.add(link.url);
+    return true;
+  });
 }
 
 function detectPossiblePersonalData(text) {
   const normalized = normalizeSpaces(text).toLocaleLowerCase('es-AR');
   if (/nombre\s+y\s+apellido/.test(normalized)) return true;
   if (/dni|documento/.test(normalized) && /(listado|lista|alumnos|estudiantes)/.test(normalized)) return true;
-  const likelyNameRows = normalized.split('\n').filter((line) => {
-    const words = line.trim().split(/\s+/);
-    return words.length >= 2 && /^[a-záéíóúñ]+\s+[a-záéíóúñ]+/.test(line.trim()) && /\|/.test(line);
-  });
-  return likelyNameRows.length >= 3;
+  return false;
 }
 
 function normalizeStudentText(text) {
@@ -349,9 +479,7 @@ function appendTextAsBullets(lines, text) {
 function appendLinkGroup(lines, title, links) {
   if (!links.length) return;
   lines.push(`- **${title}**:`);
-  for (const link of links) {
-    lines.push(`  - ${link.text}: ${link.url}`);
-  }
+  for (const link of links) lines.push(`  - ${link.text}: ${link.url}`);
 }
 
 function normalizeSpaces(value = '') {
@@ -361,18 +489,6 @@ function normalizeSpaces(value = '') {
     .replace(/\n[ \t]+/g, '\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
-}
-
-function sourceTitleFromSlug(slug) {
-  const map = {
-    'estudiantes-home': 'Estudiantes FCE-UNL',
-    'estudiantes-examenes': 'Exámenes',
-    'estudiantes-tramites': 'Trámites para estudiantes',
-    'estudiantes-consultas': 'Clases de consultas',
-    'estudiantes-pai': 'Prácticas Académicas Internas',
-    'estudiantes-centro-estudiantes': 'Centro de Estudiantes',
-  };
-  return map[slug] || slug;
 }
 
 function sha256(text) {
@@ -386,7 +502,6 @@ function todayIsoDate() {
 async function main() {
   const { values } = parseArgs({
     options: {
-      source: { type: 'string', default: DEFAULT_SOURCES_PATH },
       out: { type: 'string', default: DEFAULT_STATE_DIR },
       slug: { type: 'string' },
       'write-candidates': { type: 'boolean', default: false },
@@ -396,15 +511,13 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia students deterministic scraper\n\nUso:\n  node scrape_students.mjs [--write-candidates]\n  node scrape_students.mjs --slug=estudiantes-examenes --write-candidates\n\nOpciones:\n  --source=<path>       sources.json\n  --out=<dir>           directorio de salida\n  --slug=<slug>         procesa solo una fuente estudiantes-*\n  --write-candidates    escribe candidates/*.candidate.md\n  --no-write            solo imprime report JSON\n`);
+    console.log(`Sophia students topic scraper\n\nUso:\n  node scrape_students.mjs [--write-candidates]\n  node scrape_students.mjs --slug=estudiantes-examenes --write-candidates\n\nOpciones:\n  --out=<dir>           directorio de salida\n  --slug=<slug>         procesa solo un tema del menú estudiantes\n  --write-candidates    escribe candidates/*.candidate.md\n  --no-write            solo imprime report JSON\n`);
     process.exit(0);
   }
 
   const here = dirname(fileURLToPath(import.meta.url));
-  const sourcesPath = values.source.startsWith('/') ? values.source : resolve(here, values.source);
   const stateDir = values.out.startsWith('/') ? values.out : resolve(here, values.out);
   const report = await runStudentsScraper({
-    sourcesPath,
     stateDir,
     slug: values.slug || null,
     write: !values['no-write'],
