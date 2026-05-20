@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada en el workflow genérico, workflow lo skipea). La fuente de cursos_de_formacion se procesa con tools/scraper/scrape_courses.mjs porque genera múltiples MD candidatos, uno por curso. Las fuentes de /estudiantes/ quedan registradas como TBD hasta implementar extractor y revisión de privacidad.",
+  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada en el workflow genérico, workflow lo skipea). La fuente de cursos_de_formacion se procesa con tools/scraper/scrape_courses.mjs porque genera múltiples MD candidatos, uno por curso. Las fuentes de /estudiantes/ se agrupan por tema/título del menú y se procesan con tools/scraper/scrape_students.mjs como candidatos: un MD por tema, agrupando página principal y subpáginas relacionadas; no se publica ni se agrega a indice.json sin revisión humana.",
   "sensitive_sections": [
     "Modalidad y duración",
     "Aranceles e inscripción",
@@ -49,74 +49,172 @@
     { "slug": "posgrado-beneficios-graduados", "indice_path": "posgrado-general/beneficios-graduados.md", "url": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/", "strategy": "fce-wordpress" },
 
     {
-      "slug": "estudiantes-home",
-      "indice_path": "estudiantes/overview.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/",
+      "slug": "estudiantes-ingreso-2026",
+      "indice_path": "estudiantes/ingreso-2026.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata. Página índice; no procesar hasta definir extractor /estudiantes/ y evitar duplicación con páginas hijas."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Ingreso 2026", "url": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/" }
+      ],
+      "note": "Tema del menú /estudiantes/. Genera candidato 1 MD por tema. Ingreso 2025 queda excluido por obsoleto."
     },
     {
-      "slug": "estudiantes-examenes",
-      "indice_path": "estudiantes/examenes.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/examenes/",
+      "slug": "estudiantes-tramites-internos",
+      "indice_path": "estudiantes/tramites-internos.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata. Página web simple con reglas generales de exámenes."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Trámites internos", "url": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/" },
+        { "title": "Trámites para ingresantes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/ingresantes/" },
+        { "title": "Trámites para estudiantes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/estudiantes/" },
+        { "title": "Trámites para graduados", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/graduados/" }
+      ],
+      "note": "Agrupar página principal y subpáginas de trámites en un único MD candidato."
     },
     {
-      "slug": "estudiantes-examenes-finales",
-      "indice_path": "estudiantes/examenes-finales.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-finales/",
+      "slug": "estudiantes-calendario-academico",
+      "indice_path": "estudiantes/calendario-academico.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata. Puede enlazar Google Sheets de turnos; convertir planillas a snapshots MD antes de publicar respuestas sobre fechas."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Calendario Académico", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/" }
+      ],
+      "note": "Tema del menú /estudiantes/. Excluir si no hay contenido útil al momento de generar candidato."
     },
     {
-      "slug": "estudiantes-examenes-parciales",
-      "indice_path": "estudiantes/examenes-parciales.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-parciales/",
+      "slug": "estudiantes-bienestar-estudiantil",
+      "indice_path": "estudiantes/bienestar-estudiantil.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata. Puede depender de iframe/datos embebidos; no publicar fechas sin snapshot validado."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Bienestar Estudiantil", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/" },
+        { "title": "BAPI", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/bapi/" },
+        { "title": "Becas ofrecidas por UNL", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/becas-ofrecidas-por-unl/" },
+        { "title": "Movilidad estudiantil", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/movilidad-estudiantil/" },
+        { "title": "PAI", "url": "https://www.fce.unl.edu.ar/estudiantes/pai/" }
+      ],
+      "note": "Agrupar bienestar y subpáginas relacionadas en un único MD candidato."
     },
     {
-      "slug": "estudiantes-tramites",
-      "indice_path": "estudiantes/tramites.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/tramites-estudiantes/",
+      "slug": "estudiantes-pasantias-rentadas",
+      "indice_path": "estudiantes/pasantias-rentadas.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata. Trámites internos, formularios y PDFs. Requiere separar instrucciones de formularios descargables."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Pasantías rentadas", "url": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/" }
+      ],
+      "note": "Tema del menú /estudiantes/."
+    },
+    {
+      "slug": "estudiantes-practicas-profesionales-supervisadas",
+      "indice_path": "estudiantes/practicas-profesionales-supervisadas.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/pps/",
+      "strategy": "TBD",
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Prácticas Profesionales Supervisadas", "url": "https://www.fce.unl.edu.ar/estudiantes/pps/" }
+      ],
+      "note": "Tema del menú /estudiantes/."
     },
     {
       "slug": "estudiantes-inscripciones-cursado",
       "indice_path": "estudiantes/inscripciones-cursado.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata. Puede contener listados nominales; requiere filtro de privacidad antes de generar MD publicado."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Info sobre inscripciones a cursado", "url": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/" }
+      ],
+      "note": "Revisar privacidad si aparecen listados nominales o datos personales antes de publicar."
     },
     {
-      "slug": "estudiantes-consultas",
+      "slug": "estudiantes-siu-guarani",
+      "indice_path": "estudiantes/siu-guarani.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/",
+      "strategy": "TBD",
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "SIU Guaraní", "url": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/" }
+      ],
+      "note": "Documentar instrucciones públicas; no scrapear ni acceder a sistemas autenticados."
+    },
+    {
+      "slug": "estudiantes-sica",
+      "indice_path": "estudiantes/sica.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/sica/",
+      "strategy": "TBD",
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Sistema Informático de Consultas de Alumnos (SICA)", "url": "https://www.fce.unl.edu.ar/estudiantes/sica/" }
+      ],
+      "note": "Documentar instrucciones públicas; no scrapear ni acceder a sistemas autenticados."
+    },
+    {
+      "slug": "estudiantes-examenes",
+      "indice_path": "estudiantes/examenes.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/examenes/",
+      "strategy": "TBD",
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/examenes/" },
+        { "title": "Exámenes finales", "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-finales/" },
+        { "title": "Exámenes parciales", "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-parciales/" }
+      ],
+      "note": "Agrupar reglas generales y subpáginas de finales/parciales. Las planillas o iframes se convierten a snapshots MD antes de responder sobre fechas."
+    },
+    {
+      "slug": "estudiantes-clases-consultas",
       "indice_path": "estudiantes/clases-consultas.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata. Incluye link a Bedelía Móvil; no scrapear sistemas externos autenticados."
-    },
-    {
-      "slug": "estudiantes-parciales-notas-muestras",
-      "indice_path": "estudiantes/parciales-notas-muestras.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/",
-      "strategy": "TBD",
-      "note": "C.1 fuente candidata. Página dinámica; evaluar si los datos están en HTML público antes de automatizar."
-    },
-    {
-      "slug": "estudiantes-pai",
-      "indice_path": "estudiantes/practicas-academicas-internas.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/pai/",
-      "strategy": "TBD",
-      "note": "C.1 fuente candidata. Bienestar estudiantil / Prácticas Académicas Internas."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Clases de Consultas", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/" },
+        { "title": "Consultas para exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-para-examenes/" },
+        { "title": "Consultas permanentes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-permanentes/" },
+        { "title": "Parciales: entrega de notas y muestra de exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/" },
+        { "title": "Finales: entrega de notas y muestra de exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/finales-entrega-de-notas-y-muestra-de-examenes/" },
+        { "title": "Avisos de asignaturas", "url": "https://www.fce.unl.edu.ar/estudiantes/avisos-de-asignaturas/" }
+      ],
+      "note": "Agrupar consultas y páginas relacionadas. No scrapear sistemas externos autenticados; marcar para revisión si aparecen datos personales."
     },
     {
       "slug": "estudiantes-centro-estudiantes",
       "indice_path": "estudiantes/centro-estudiantes.md",
-      "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/cece/",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/",
       "strategy": "TBD",
-      "note": "C.1 fuente candidata de menor prioridad; información institucional y contacto del Centro de Estudiantes."
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Centro de Estudiantes", "url": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/" }
+      ],
+      "note": "Tema del menú /estudiantes/."
+    },
+    {
+      "slug": "estudiantes-horarios-atencion",
+      "indice_path": "estudiantes/horarios-atencion.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/",
+      "strategy": "TBD",
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Horarios de Atención", "url": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/" }
+      ],
+      "note": "Tema del menú /estudiantes/."
+    },
+    {
+      "slug": "estudiantes-beneficios-posgrados",
+      "indice_path": "estudiantes/beneficios-posgrados-fce-unl.md",
+      "url": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/",
+      "strategy": "TBD",
+      "script": "tools/scraper/scrape_students.mjs",
+      "pages": [
+        { "title": "Beneficios para Posgrados FCE UNL", "url": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/" }
+      ],
+      "note": "Tema del menú /estudiantes/."
     },
 
     {
