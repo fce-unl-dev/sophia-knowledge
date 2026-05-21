@@ -61,4 +61,4 @@ Nómina disponible en: https://www.fcjs.unl.edu.ar/mdypp/categorias/cuerpo-docen
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17. Es carrera de OTRA unidad académica (FCJS); Sophia debe derivar consultas operativas detalladas a maestriadypp@unl.edu.ar.
+**Última revisión humana**: 2026-05-21

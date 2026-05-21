@@ -65,4 +65,4 @@ Nómina docente no publicada en la ficha pública. Consultar con difusion@fce.un
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17. La ficha pública es muy escueta; conviene completar el plan de estudios consultando el microsite específico de la diplomatura (linkeado en la página) y/o pidiendo el folleto a la Secretaría de Posgrado.
+**Última revisión humana**: 2026-05-21

@@ -79,4 +79,4 @@ La información resumida sobre las Maestrías ofrecidas en la FCE-UNL se puede e
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-18 por pipeline de scraping.
+**Última revisión humana**: 2026-05-21

@@ -79,4 +79,4 @@ Beneficios exclusivos para recientes graduados de la FCE-UNL que deseen cursar u
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-18 por pipeline de scraping.
+**Última revisión humana**: 2026-05-21

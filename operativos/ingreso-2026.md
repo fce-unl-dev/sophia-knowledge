@@ -73,4 +73,4 @@ Instructivo oficial paso a paso de la UNL: https://www.unl.edu.ar/ingresounl/pas
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17
+**Última revisión humana**: 2026-05-21

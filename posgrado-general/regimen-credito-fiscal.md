@@ -86,4 +86,4 @@ Más información en el sitio oficial del programa: https://www.argentina.gob.ar
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-18 por pipeline de scraping.
+**Última revisión humana**: 2026-05-21

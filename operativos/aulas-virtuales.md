@@ -101,4 +101,4 @@ La Facultad de Ciencias Económicas de la UNL utiliza una plataforma virtual de 
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-20 por pipeline de scraping.
+**Última revisión humana**: 2026-05-21

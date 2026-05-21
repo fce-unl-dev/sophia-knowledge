@@ -176,4 +176,4 @@ El cuerpo docente estable se conforma con profesores de la UNL y otras universid
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17 con scraping completo del microsite.
+**Última revisión humana**: 2026-05-21

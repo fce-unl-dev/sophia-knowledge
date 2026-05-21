@@ -152,4 +152,4 @@ Podrán ser admitidos:
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17 con scraping completo del microsite.
+**Última revisión humana**: 2026-05-21

@@ -66,4 +66,4 @@ Consultar con doctoradoes@fhuc.unl.edu.ar o ver la sección de Pre-inscripción 
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17. Es carrera de OTRA unidad académica (FHUC); Sophia debe derivar consultas detalladas al contacto oficial del doctorado.
+**Última revisión humana**: 2026-05-21

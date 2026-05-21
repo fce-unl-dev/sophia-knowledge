@@ -98,4 +98,4 @@ El contenido específico de las normas (condiciones de regularidad, sistema de c
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-21
+**Última revisión humana**: 2026-05-21

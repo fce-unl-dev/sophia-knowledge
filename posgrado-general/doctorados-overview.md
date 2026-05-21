@@ -81,4 +81,4 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-18 por pipeline de scraping.
+**Última revisión humana**: 2026-05-21

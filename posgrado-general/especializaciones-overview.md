@@ -79,4 +79,4 @@ El scrape provisto corresponde a la página de categoría "Especializaciones" y 
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-18 por pipeline de scraping.
+**Última revisión humana**: 2026-05-21

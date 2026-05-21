@@ -94,4 +94,4 @@ Plantel docente detallado por asignatura: consultar en la web oficial o en posgr
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17. Carrera compartida con FCA (sede): Sophia debe derivar consultas operativas a posgrado@fca.unl.edu.ar.
+**Última revisión humana**: 2026-05-21
