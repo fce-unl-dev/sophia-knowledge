@@ -254,6 +254,9 @@ export async function scrapeBySource(source, { fetchImpl = fetch } = {}) {
   if (source.strategy === 'fce-microsite') return scrapeFceMicrosite(source.url, { fetchImpl });
   if (source.strategy === 'wordpress-homepage') return scrapeWordpressHomepage(source.url, { fetchImpl });
   if (source.strategy === 'fce-wordpress') return scrapeFceWordpress(source.url, { fetchImpl });
+  if (source.strategy === 'fce-students-menu-topics') {
+    return { strategy: 'fce-students-menu-topics', pages: [], skipped: true, reason: 'handled by propose_students_update.mjs' };
+  }
   if (source.strategy === 'TBD') {
     return { strategy: 'TBD', pages: [], skipped: true, reason: 'strategy not implemented yet' };
   }

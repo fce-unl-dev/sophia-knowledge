@@ -10,52 +10,215 @@
     "Requisitos de admisión"
   ],
   "sources": [
-    { "slug": "dap", "indice_path": "posgrados/dap.md", "url": "https://fce.unl.edu.ar/dap/", "strategy": "fce-microsite" },
-    { "slug": "mba", "indice_path": "posgrados/mba.md", "url": "https://fce.unl.edu.ar/mba/", "strategy": "fce-microsite" },
-    { "slug": "maf", "indice_path": "posgrados/maf.md", "url": "https://fce.unl.edu.ar/maf/", "strategy": "fce-microsite" },
-    { "slug": "map", "indice_path": "posgrados/map.md", "url": "https://fce.unl.edu.ar/magister/", "strategy": "fce-microsite" },
-    { "slug": "mcya", "indice_path": "posgrados/mcya.md", "url": "https://www.fce.unl.edu.ar/mcya/", "strategy": "fce-microsite" },
-    { "slug": "maea", "indice_path": "posgrados/maea.md", "url": "https://fce.unl.edu.ar/maea/", "strategy": "fce-microsite" },
-    { "slug": "mrso", "indice_path": "posgrados/mrso.md", "url": "https://fce.unl.edu.ar/mrso/", "strategy": "fce-microsite" },
-    { "slug": "ecyap", "indice_path": "posgrados/ecyap.md", "url": "https://fce.unl.edu.ar/ecyap/", "strategy": "fce-microsite" },
-    { "slug": "ecyge", "indice_path": "posgrados/ecyge.md", "url": "https://fce.unl.edu.ar/ecyge/", "strategy": "fce-microsite" },
-    { "slug": "edgop", "indice_path": "posgrados/edgop.md", "url": "https://fce.unl.edu.ar/edgop/", "strategy": "fce-microsite" },
-    { "slug": "sindicatura-concursal", "indice_path": "posgrados/sindicatura-concursal.md", "url": "https://fce.unl.edu.ar/sindicatura/", "strategy": "fce-microsite" },
-    { "slug": "tributacion", "indice_path": "posgrados/tributacion.md", "url": "https://fce.unl.edu.ar/tributacion/", "strategy": "fce-microsite" },
-
-    { "slug": "gfsp", "indice_path": "diplomaturas/gfsp.md", "url": "https://www.fce.unl.edu.ar/gfsp/", "strategy": "fce-microsite" },
-    { "slug": "gto", "indice_path": "diplomaturas/gto.md", "url": "https://www.fce.unl.edu.ar/gto/", "strategy": "fce-microsite" },
-    { "slug": "diplomercados", "indice_path": "diplomaturas/diplomercados.md", "url": "https://www.fce.unl.edu.ar/diplomercados/", "strategy": "fce-microsite" },
-    { "slug": "empresas-familiares", "indice_path": "diplomaturas/empresas-familiares.md", "url": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/", "strategy": "fce-wordpress" },
-
-    { "slug": "doctorado-estudios-sociales", "indice_path": "compartidos/doctorado-estudios-sociales.md", "url": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/", "strategy": "wordpress-homepage" },
-    { "slug": "negocios-agroalimentarios", "indice_path": "compartidos/negocios-agroalimentarios.md", "url": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/", "strategy": "wordpress-homepage" },
-    { "slug": "mdypp", "indice_path": "compartidos/mdypp.md", "url": "https://www.fcjs.unl.edu.ar/mdypp/", "strategy": "wordpress-homepage" },
-
-    { "slug": "regimen-de-ensenanza", "indice_path": "operativos/regimen-de-ensenanza.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/regimen/", "strategy": "fce-wordpress" },
-    { "slug": "aulas-virtuales", "indice_path": "operativos/aulas-virtuales.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/aulas/", "strategy": "fce-wordpress" },
-    { "slug": "ingreso-2026", "indice_path": "operativos/ingreso-2026.md", "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/", "strategy": "fce-wordpress" },
-
-    { "slug": "posgrado-estudiantes", "indice_path": "posgrado-general/estudiantes.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-doctorados", "indice_path": "posgrado-general/doctorados-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-maestrias", "indice_path": "posgrado-general/maestrias-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-especializaciones", "indice_path": "posgrado-general/especializaciones-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-cursos", "indice_path": "posgrado-general/cursos-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-inscripciones-carreras", "indice_path": "posgrado-general/inscripciones-en-carreras.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-credito-fiscal", "indice_path": "posgrado-general/regimen-credito-fiscal.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-carreras-otras-unidades", "indice_path": "posgrado-general/carreras-otras-unidades-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-becas-docentes", "indice_path": "posgrado-general/becas-docentes.md", "url": "https://www.fce.unl.edu.ar/posgrado/2023/09/29/becas-de-posgrado-para-docentes/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-diplomaturas-overview", "indice_path": "posgrado-general/diplomaturas-overview.md", "url": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/", "strategy": "fce-wordpress" },
-    { "slug": "posgrado-beneficios-graduados", "indice_path": "posgrado-general/beneficios-graduados.md", "url": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/", "strategy": "fce-wordpress" },
-
+    {
+      "slug": "dap",
+      "indice_path": "posgrados/dap.md",
+      "url": "https://fce.unl.edu.ar/dap/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "mba",
+      "indice_path": "posgrados/mba.md",
+      "url": "https://fce.unl.edu.ar/mba/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "maf",
+      "indice_path": "posgrados/maf.md",
+      "url": "https://fce.unl.edu.ar/maf/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "map",
+      "indice_path": "posgrados/map.md",
+      "url": "https://fce.unl.edu.ar/magister/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "mcya",
+      "indice_path": "posgrados/mcya.md",
+      "url": "https://www.fce.unl.edu.ar/mcya/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "maea",
+      "indice_path": "posgrados/maea.md",
+      "url": "https://fce.unl.edu.ar/maea/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "mrso",
+      "indice_path": "posgrados/mrso.md",
+      "url": "https://fce.unl.edu.ar/mrso/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "ecyap",
+      "indice_path": "posgrados/ecyap.md",
+      "url": "https://fce.unl.edu.ar/ecyap/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "ecyge",
+      "indice_path": "posgrados/ecyge.md",
+      "url": "https://fce.unl.edu.ar/ecyge/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "edgop",
+      "indice_path": "posgrados/edgop.md",
+      "url": "https://fce.unl.edu.ar/edgop/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "sindicatura-concursal",
+      "indice_path": "posgrados/sindicatura-concursal.md",
+      "url": "https://fce.unl.edu.ar/sindicatura/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "tributacion",
+      "indice_path": "posgrados/tributacion.md",
+      "url": "https://fce.unl.edu.ar/tributacion/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "gfsp",
+      "indice_path": "diplomaturas/gfsp.md",
+      "url": "https://www.fce.unl.edu.ar/gfsp/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "gto",
+      "indice_path": "diplomaturas/gto.md",
+      "url": "https://www.fce.unl.edu.ar/gto/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "diplomercados",
+      "indice_path": "diplomaturas/diplomercados.md",
+      "url": "https://www.fce.unl.edu.ar/diplomercados/",
+      "strategy": "fce-microsite"
+    },
+    {
+      "slug": "empresas-familiares",
+      "indice_path": "diplomaturas/empresas-familiares.md",
+      "url": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "doctorado-estudios-sociales",
+      "indice_path": "compartidos/doctorado-estudios-sociales.md",
+      "url": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/",
+      "strategy": "wordpress-homepage"
+    },
+    {
+      "slug": "negocios-agroalimentarios",
+      "indice_path": "compartidos/negocios-agroalimentarios.md",
+      "url": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/",
+      "strategy": "wordpress-homepage"
+    },
+    {
+      "slug": "mdypp",
+      "indice_path": "compartidos/mdypp.md",
+      "url": "https://www.fcjs.unl.edu.ar/mdypp/",
+      "strategy": "wordpress-homepage"
+    },
+    {
+      "slug": "regimen-de-ensenanza",
+      "indice_path": "operativos/regimen-de-ensenanza.md",
+      "url": "https://www.fce.unl.edu.ar/academica/categorias/regimen/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "aulas-virtuales",
+      "indice_path": "operativos/aulas-virtuales.md",
+      "url": "https://www.fce.unl.edu.ar/academica/categorias/aulas/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "ingreso-2026",
+      "indice_path": "operativos/ingreso-2026.md",
+      "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-estudiantes",
+      "indice_path": "posgrado-general/estudiantes.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-doctorados",
+      "indice_path": "posgrado-general/doctorados-overview.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-maestrias",
+      "indice_path": "posgrado-general/maestrias-overview.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-especializaciones",
+      "indice_path": "posgrado-general/especializaciones-overview.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-cursos",
+      "indice_path": "posgrado-general/cursos-overview.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-inscripciones-carreras",
+      "indice_path": "posgrado-general/inscripciones-en-carreras.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-credito-fiscal",
+      "indice_path": "posgrado-general/regimen-credito-fiscal.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-carreras-otras-unidades",
+      "indice_path": "posgrado-general/carreras-otras-unidades-overview.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-becas-docentes",
+      "indice_path": "posgrado-general/becas-docentes.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/2023/09/29/becas-de-posgrado-para-docentes/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-diplomaturas-overview",
+      "indice_path": "posgrado-general/diplomaturas-overview.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/",
+      "strategy": "fce-wordpress"
+    },
+    {
+      "slug": "posgrado-beneficios-graduados",
+      "indice_path": "posgrado-general/beneficios-graduados.md",
+      "url": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/",
+      "strategy": "fce-wordpress"
+    },
     {
       "slug": "estudiantes-ingreso-2026",
       "indice_path": "estudiantes/ingreso-2026.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Ingreso 2026", "url": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/" }
+        {
+          "title": "Ingreso 2026",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/"
+        }
       ],
       "note": "Tema del menú /estudiantes/. Genera candidato 1 MD por tema. Ingreso 2025 queda excluido por obsoleto."
     },
@@ -63,13 +226,25 @@
       "slug": "estudiantes-tramites-internos",
       "indice_path": "estudiantes/tramites-internos.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Trámites internos", "url": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/" },
-        { "title": "Trámites para ingresantes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/ingresantes/" },
-        { "title": "Trámites para estudiantes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/estudiantes/" },
-        { "title": "Trámites para graduados", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/graduados/" }
+        {
+          "title": "Trámites internos",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/"
+        },
+        {
+          "title": "Trámites para ingresantes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/ingresantes/"
+        },
+        {
+          "title": "Trámites para estudiantes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/estudiantes/"
+        },
+        {
+          "title": "Trámites para graduados",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/tramites/graduados/"
+        }
       ],
       "note": "Agrupar página principal y subpáginas de trámites en un único MD candidato."
     },
@@ -77,10 +252,13 @@
       "slug": "estudiantes-calendario-academico",
       "indice_path": "estudiantes/calendario-academico.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Calendario Académico", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/" }
+        {
+          "title": "Calendario Académico",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/"
+        }
       ],
       "note": "Tema del menú /estudiantes/. Excluir si no hay contenido útil al momento de generar candidato."
     },
@@ -88,14 +266,29 @@
       "slug": "estudiantes-bienestar-estudiantil",
       "indice_path": "estudiantes/bienestar-estudiantil.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Bienestar Estudiantil", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/" },
-        { "title": "BAPI", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/bapi/" },
-        { "title": "Becas ofrecidas por UNL", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/becas-ofrecidas-por-unl/" },
-        { "title": "Movilidad estudiantil", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/movilidad-estudiantil/" },
-        { "title": "PAI", "url": "https://www.fce.unl.edu.ar/estudiantes/pai/" }
+        {
+          "title": "Bienestar Estudiantil",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/"
+        },
+        {
+          "title": "BAPI",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/bapi/"
+        },
+        {
+          "title": "Becas ofrecidas por UNL",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/becas-ofrecidas-por-unl/"
+        },
+        {
+          "title": "Movilidad estudiantil",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/movilidad-estudiantil/"
+        },
+        {
+          "title": "PAI",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/pai/"
+        }
       ],
       "note": "Agrupar bienestar y subpáginas relacionadas en un único MD candidato."
     },
@@ -103,10 +296,13 @@
       "slug": "estudiantes-pasantias-rentadas",
       "indice_path": "estudiantes/pasantias-rentadas.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Pasantías rentadas", "url": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/" }
+        {
+          "title": "Pasantías rentadas",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/"
+        }
       ],
       "note": "Tema del menú /estudiantes/."
     },
@@ -114,10 +310,13 @@
       "slug": "estudiantes-practicas-profesionales-supervisadas",
       "indice_path": "estudiantes/practicas-profesionales-supervisadas.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/pps/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Prácticas Profesionales Supervisadas", "url": "https://www.fce.unl.edu.ar/estudiantes/pps/" }
+        {
+          "title": "Prácticas Profesionales Supervisadas",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/pps/"
+        }
       ],
       "note": "Tema del menú /estudiantes/."
     },
@@ -125,10 +324,13 @@
       "slug": "estudiantes-inscripciones-cursado",
       "indice_path": "estudiantes/inscripciones-cursado.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Info sobre inscripciones a cursado", "url": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/" }
+        {
+          "title": "Info sobre inscripciones a cursado",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/"
+        }
       ],
       "note": "Revisar privacidad si aparecen listados nominales o datos personales antes de publicar."
     },
@@ -136,10 +338,13 @@
       "slug": "estudiantes-siu-guarani",
       "indice_path": "estudiantes/siu-guarani.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "SIU Guaraní", "url": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/" }
+        {
+          "title": "SIU Guaraní",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/"
+        }
       ],
       "note": "Documentar instrucciones públicas; no scrapear ni acceder a sistemas autenticados."
     },
@@ -147,10 +352,13 @@
       "slug": "estudiantes-sica",
       "indice_path": "estudiantes/sica.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/sica/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Sistema Informático de Consultas de Alumnos (SICA)", "url": "https://www.fce.unl.edu.ar/estudiantes/sica/" }
+        {
+          "title": "Sistema Informático de Consultas de Alumnos (SICA)",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/sica/"
+        }
       ],
       "note": "Documentar instrucciones públicas; no scrapear ni acceder a sistemas autenticados."
     },
@@ -158,12 +366,21 @@
       "slug": "estudiantes-examenes",
       "indice_path": "estudiantes/examenes.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/examenes/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/examenes/" },
-        { "title": "Exámenes finales", "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-finales/" },
-        { "title": "Exámenes parciales", "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-parciales/" }
+        {
+          "title": "Exámenes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/examenes/"
+        },
+        {
+          "title": "Exámenes finales",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-finales/"
+        },
+        {
+          "title": "Exámenes parciales",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/examenes-parciales/"
+        }
       ],
       "note": "Agrupar reglas generales y subpáginas de finales/parciales. Las planillas o iframes se convierten a snapshots MD antes de responder sobre fechas."
     },
@@ -171,15 +388,33 @@
       "slug": "estudiantes-clases-consultas",
       "indice_path": "estudiantes/clases-consultas.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Clases de Consultas", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/" },
-        { "title": "Consultas para exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-para-examenes/" },
-        { "title": "Consultas permanentes", "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-permanentes/" },
-        { "title": "Parciales: entrega de notas y muestra de exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/" },
-        { "title": "Finales: entrega de notas y muestra de exámenes", "url": "https://www.fce.unl.edu.ar/estudiantes/finales-entrega-de-notas-y-muestra-de-examenes/" },
-        { "title": "Avisos de asignaturas", "url": "https://www.fce.unl.edu.ar/estudiantes/avisos-de-asignaturas/" }
+        {
+          "title": "Clases de Consultas",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/"
+        },
+        {
+          "title": "Consultas para exámenes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-para-examenes/"
+        },
+        {
+          "title": "Consultas permanentes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-permanentes/"
+        },
+        {
+          "title": "Parciales: entrega de notas y muestra de exámenes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/"
+        },
+        {
+          "title": "Finales: entrega de notas y muestra de exámenes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/finales-entrega-de-notas-y-muestra-de-examenes/"
+        },
+        {
+          "title": "Avisos de asignaturas",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/avisos-de-asignaturas/"
+        }
       ],
       "note": "Agrupar consultas y páginas relacionadas. No scrapear sistemas externos autenticados; marcar para revisión si aparecen datos personales."
     },
@@ -187,10 +422,13 @@
       "slug": "estudiantes-centro-estudiantes",
       "indice_path": "estudiantes/centro-estudiantes.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Centro de Estudiantes", "url": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/" }
+        {
+          "title": "Centro de Estudiantes",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/"
+        }
       ],
       "note": "Tema del menú /estudiantes/."
     },
@@ -198,10 +436,13 @@
       "slug": "estudiantes-horarios-atencion",
       "indice_path": "estudiantes/horarios-atencion.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Horarios de Atención", "url": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/" }
+        {
+          "title": "Horarios de Atención",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/"
+        }
       ],
       "note": "Tema del menú /estudiantes/."
     },
@@ -209,14 +450,16 @@
       "slug": "estudiantes-beneficios-posgrados",
       "indice_path": "estudiantes/beneficios-posgrados-fce-unl.md",
       "url": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/",
-      "strategy": "TBD",
+      "strategy": "fce-students-menu-topics",
       "script": "tools/scraper/scrape_students.mjs",
       "pages": [
-        { "title": "Beneficios para Posgrados FCE UNL", "url": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/" }
+        {
+          "title": "Beneficios para Posgrados FCE UNL",
+          "url": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/"
+        }
       ],
       "note": "Tema del menú /estudiantes/."
     },
-
     {
       "slug": "cursos-de-formacion",
       "indice_path": "cursos/",

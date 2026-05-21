@@ -36,9 +36,9 @@ export async function runPipelineForSource(source, {
   const report = { slug: source.slug, mode, steps: {} };
 
   // 1) scrape
-  if (source.strategy === 'TBD') {
+  if (source.strategy === 'TBD' || source.strategy === 'fce-students-menu-topics') {
     report.decision = 'skipped';
-    report.reason = 'strategy=TBD';
+    report.reason = `strategy=${source.strategy}`;
     return report;
   }
   try {

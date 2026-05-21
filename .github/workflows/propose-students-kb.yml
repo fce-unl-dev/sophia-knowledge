@@ -4,6 +4,10 @@ name: Propose Students KB
 # No mergea automáticamente y no escribe directo a main.
 
 on:
+  schedule:
+    # Martes y Viernes a las 08:00 UTC (05:00 ART). Detecta cambios
+    # en la sección estudiantes y propone PR para revisión humana.
+    - cron: '0 8 * * 2,5'
   workflow_dispatch:
     inputs:
       mode:
