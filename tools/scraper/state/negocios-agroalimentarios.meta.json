@@ -1,0 +1,17 @@
+{
+  "slug": "negocios-agroalimentarios",
+  "url": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/",
+  "strategy": "wordpress-homepage",
+  "content_hash": "b03614be3563f204489b7d38d1c79b5b40b8bf3906037e78552c94b8b93d3b06",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/",
+      "title": "Maestría en Negocios Agroalimentarios",
+      "length": 4068
+    }
+  ],
+  "scraped_at": "2026-05-21T11:08:11.884Z",
+  "last_checked_at": "2026-05-21T11:08:11.884Z"
+}
