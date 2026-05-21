@@ -1,82 +1,117 @@
-# Diplomaturas Nivel Superior
+# Diplomaturas Universitarias Superiores — FCE-UNL
+
+> Esta ficha describe las Diplomaturas Universitarias Superiores (nivel posgrado) de la FCE-UNL.
+> Son distintas a las diplomaturas de pregrado (GFSP y GTO) que se listan en la propuesta académica de grado.
 
 ---
 
-## Identificación
+## Listado de Diplomaturas Universitarias Superiores
 
-- **Nombre oficial**: Diplomaturas Nivel Superior
-- **Código corto / sigla**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Tipo**: Diplomatura
-- **Título que otorga**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Acreditación CONEAU**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+La FCE-UNL ofrece las siguientes Diplomaturas Universitarias Superiores (nivel posgrado):
+
+1. **Diplomatura Universitaria Superior en Empresas en Crisis y Procesos de Insolvencia** (DIPCRISIS / diploconcursos) — compartida con FCJS-UNL
+2. **Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de Empresas Familiares** (diplofamiliares)
+3. **Diplomatura Universitaria Superior en Mercados** (diplomercados)
+4. **Diplomatura Universitaria Superior en Tributos** (diplotributos)
+
+> Para consultar inscripciones abiertas: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
+
+---
+
+## Diplomatura en Empresas en Crisis y Procesos de Insolvencia
+
+- **Nombre oficial**: Diplomatura Universitaria Superior en Empresas en Crisis y Procesos de Insolvencia
+- **Sigla**: DIPCRISIS (o diploconcursos)
+- **Tipo**: Diplomatura Universitaria Superior (posgrado)
+- **Unidad académica**: FCE-UNL — **compartida con** Facultad de Ciencias Jurídicas y Sociales (FCJS-UNL)
+- **Destinada a**: Contadores y abogados con título de grado universitario
+- **Modalidad**: Presencial con opción zoom para residentes fuera de Santa Fe
+- **Días y horarios**: Jueves de 18 a 20:30 hs
+- **Duración**: 8 meses
+- **Estado actual**: Edición en curso (inició octubre 2025, finaliza julio 2026)
+
+### Descripción
+Vinculada a la incumbencia en Sindicatura Concursal (exclusiva de Contadores Públicos). Aborda contenidos del derecho concursal desde perspectiva interdisciplinaria. Puede complementarse luego con la Especialización en Sindicatura Concursal.
+
+### Requisitos
+- Título de grado universitario (orientado a Contadores y Abogados)
+
+### Más información
+- Web: https://www.fce.unl.edu.ar/diploconcursos/
+
+---
+
+## Diplomatura en Fortalecimiento y Desarrollo de Empresas Familiares
+
+- **Nombre oficial**: Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de las Empresas Familiares
+- **Sigla**: diplofamiliares
+- **Tipo**: Diplomatura Universitaria Superior (posgrado)
 - **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Modalidad**: Presencial con clases virtuales sincrónicas de 2 horas por zoom
+- **Estado actual**: Sin inscripciones abiertas en el ciclo actual (2026)
 
-## Modalidad y duración
+### Descripción
+Brinda herramientas para gestionar dinámicas familiares y empresariales. Foco en continuidad, competitividad y estrategias de convivencia entre sistemas familiar y empresarial.
 
-- **Modalidad**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Lugar**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Idioma**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Duración cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Duración trabajo final / tesis**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Carga horaria total**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+### Más información
+- Web: https://www.fce.unl.edu.ar/diplofamiliares/index.php
+- Inscripciones: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
-## Plan de estudios
+---
 
-### Estructura general
-No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+## Diplomatura en Mercados
 
-### Módulos / asignaturas
-No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Nombre oficial**: Diplomatura Universitaria Superior en Mercados
+- **Sigla**: diplomercados
+- **Tipo**: Diplomatura Universitaria Superior (posgrado)
+- **Unidad académica**: FCE-UNL
+- **Estado actual y detalles**: Consultar en https://www.fce.unl.edu.ar/diplomercados o a posgrado@fce.unl.edu.ar
 
-### Trabajo final / tesis
-No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+---
 
-## Cuerpo docente
+## Diplomatura en Tributos
 
-Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.edu.ar
+- **Nombre oficial**: Diplomatura Universitaria Superior en Tributos
+- **Sigla**: diplotributos
+- **Tipo**: Diplomatura Universitaria Superior (posgrado)
+- **Unidad académica**: FCE-UNL
+- **Estado actual y detalles**: Consultar en https://www.fce.unl.edu.ar/diplotributos o a posgrado@fce.unl.edu.ar
 
-## Requisitos de admisión
+---
 
-- **Título previo requerido**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Idiomas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Otros antecedentes**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Documentación a presentar**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Proceso de admisión**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+## Distinción importante: Pregrado vs Posgrado
 
-## Aranceles e inscripción
+| Tipo | Programas | Referencia |
+|------|-----------|------------|
+| Pregrado (NO son posgrado) | Diplomatura Gestión para el Trabajo en Organizaciones (GTO); Diplomatura Gestión Financiera del Sector Público (GFSP) | https://www.fce.unl.edu.ar/academica/propuesta-academica/ |
+| Posgrado (Diplomaturas Universitarias Superiores) | diploconcursos, diplofamiliares, diplomercados, diplotributos | https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ |
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Estado actual de inscripción**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+---
 
-## Próxima cohorte
+## Certificados de Diplomaturas
 
-- **Fecha de inicio**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Estado**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Fuente del dato**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Última actualización del dato**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+Para solicitar el certificado de diplomaturas universitarias superiores: seguir el instructivo en
+https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/FCE-DIP-FO-2.5-01-INSTRUCTIVO-SOLICITUD-DE-CERTIFICADO-DE-DIPLOMATURA-UNIVERSITARIAS.pdf
+
+---
 
 ## Contacto
 
-- **Director/a académico/a**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Email del programa**: posgrado@fce.unl.edu.ar
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+- **Email Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: 3425191199
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
-## Información adicional relevante
-
-No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+---
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/
+- https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar
+- https://www.fce.unl.edu.ar/diploconcursos/
+- https://www.fce.unl.edu.ar/diplofamiliares/index.php
+- https://www.fce.unl.edu.ar/diplomercados
+- https://www.fce.unl.edu.ar/diplotributos
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-18 por pipeline de scraping.
+**Última revisión humana**: 2026-05-21
+**Revisado por**: Pipeline automatizado + verificación con DatosParaCrawler

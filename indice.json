@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "lastUpdated": "2026-05-20",
+  "lastUpdated": "2026-05-21",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -403,6 +403,21 @@
       "title": "Diplomaturas Nivel Superior — Visión general",
       "category": "Información general de Posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/"
+    },
+    {
+      "path": "posgrado-general/datos-para-crawler.md",
+      "title": "Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL",
+      "description": "Procedimientos operativos verificados: pagos, comprobantes, exámenes, certificados, diplomas, contactos y trámites. Fuente: DatosParaCrawler oficial de Secretaría de Posgrado.",
+      "category": "posgrado-general",
+      "tags": [
+        "procedimientos",
+        "pagos",
+        "certificados",
+        "trámites",
+        "contactos",
+        "mercurio",
+        "exámenes"
+      ]
     },
     {
       "path": "posgrado-general/beneficios-graduados.md",
