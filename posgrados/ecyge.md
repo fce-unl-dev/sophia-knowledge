@@ -1,7 +1,5 @@
 # Especialización en Costos y Gestión Empresarial
 
-La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL consolida la formación profesional en Costos y Gestión Organizacional, formando expertos en planeamiento, determinación y control de costos e indicadores de gestión empresarial. Se ofrece en dos modalidades (presencial y a distancia) y se desarrolla en colaboración con el Instituto Argentino de Profesores Universitarios de Costos (IAPUCO).
-
 ---
 
 ## Identificación
@@ -17,83 +15,81 @@ La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL conso
 ## Modalidad y duración
 
 - **Modalidad**: Dos modalidades disponibles:
-  - **Presencial**: combinando asistencia presencial, online y mixta
-  - **A distancia**: con plataforma Moodle, encuentros sincrónicos, evaluación online
-- **Días y horarios de cursada**: No publicado en detalle en el microsite — consultar con posgrado@fce.unl.edu.ar
+  - **Presencial**: dictado de clases combinando asistencia presencial, online y mixta.
+  - **A distancia**: el dictado se realizará de forma tal que el estudiante podrá administrar sus propios tiempos de lectura, análisis de material multimedia y realización de actividades propuestas, complementado con encuentros sincrónicos con los docentes para profundizar algunos temas y atender consultas. Se trabajará con la plataforma Moodle y se utilizarán diversas herramientas tecnológicas para el desarrollo de los contenidos. La evaluación también se realizará de forma online.
+- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (modalidad presencial) / 100% online (modalidad a distancia)
 - **Idioma**: Español
-- **Duración cursada**: 3 cuatrimestres (año y medio)
-- **Duración trabajo final**: Plazo máximo 3 años desde la inscripción a la carrera
+- **Duración cursada**: Tres cuatrimestres – año y medio de cursado.
+- **Duración trabajo final / tesis**: Plazo de aprobación del Trabajo Final: 3 años desde la inscripción a la carrera.
 - **Carga horaria total**: 390 horas / 26 créditos
 
 ## Plan de estudios
 
 ### Estructura general
-
-10 asignaturas obligatorias + 1 Taller de Trabajo Final, con un total de 26 créditos (390 hs). Cierra con Evaluación Final Integradora / Trabajo Final Integrador.
+Está estructurado sobre la base de diez asignaturas obligatorias y un Taller de Trabajo Final, con un total de 26 (veintiséis) créditos, que corresponden a 390 (trescientas noventa) horas. La duración total del dictado de la carrera es de tres cuatrimestres, debiendo completarse al término de la aprobación de todas las asignaturas la Evaluación Final Integradora.
 
 ### Módulos / asignaturas
 
-**Primera Parte:**
-1. La Teoría General del Costo (45 hs / 3 créditos)
-2. Análisis Marginal (45 hs / 3 créditos)
-3. Visión crítica de las tendencias actuales (40 hs / 3 créditos)
-4. Métodos cuantitativos para los negocios (35 hs / 2 créditos)
-5. Gestión presupuestaria (35 hs / 2 créditos)
-6. Costos de la función comercial (40 hs / 3 créditos)
+**Primera Parte**
+- La Teoría General del Costo (45 hs / 3 UCAs)
+- Análisis Marginal (45 hs / 3 UCAs)
+- Visión crítica de las tendencias actuales (40 hs / 3 UCAs)
+- Métodos cuantitativos para los negocios (35 hs / 2 UCAs)
+- Gestión presupuestaria (35 hs / 2 UCAs)
+- Costos de la función comercial (40 hs / 3 UCAs)
 
-**Segunda Parte:**
-7. Gestión de empresas del sector primario (30 hs / 2 créditos)
-8. Gestión de empresas industriales (30 hs / 2 créditos)
-9. Gestión de empresas del sector servicios (30 hs / 2 créditos)
-10. Gestión de administraciones gubernamentales (30 hs / 2 créditos)
+**Segunda Parte**
+- Gestión de empresas del sector primario (30 hs / 2 UCAs)
+- Gestión de empresas industriales (30 hs / 2 UCAs)
+- Gestión de empresas del sector servicios (30 hs / 2 UCAs)
+- Gestión de administraciones Gubernamentales (30 hs / 2 UCAs)
 
-**Cierre:**
-- Taller de Trabajo Final (30 hs / 2 créditos)
+**Cierre**
+- Taller de Trabajo Final (30 hs / 2 UCAs)
 - Trabajo Final Integrador (60 hs adicionales)
 
-### Trabajo final integrador
-
-Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripción.
+### Trabajo final / tesis
+Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripción a la carrera.
 
 ## Cuerpo docente
 
-| Apellido y Nombre | Universidades |
+| Apellido y Nombre | Universidades a las que pertenece |
 |---|---|
 | Esp. Bergese, Melisa | Universidad Nacional del Litoral |
 | Mg. Canale, Sandra del Carmen | Universidad Nacional del Litoral |
-| Cr. Cartier, Enrique Nicolás | UNLu, UBA |
+| Cr. Cartier, Enrique Nicolás | Universidad Nacional de Luján, Universidad de Buenos Aires |
 | Mg. Demonte, Norberto Gabriel | Universidad Nacional del Litoral |
 | Cr. Farré, Daniel | Universidad de Buenos Aires |
 | Mg. Lugo, Walter Ariel | Universidad Nacional del Litoral |
 | Dr. Marchione, Julio César | UADE |
-| Mg. Podmoguilnye, Marcelo Gustavo | UNLZ, UBA |
+| Mg. Podmoguilnye, Marcelo Gustavo | Univ. Nacional de Lomas de Zamora, Universidad de Buenos Aires |
 | Mg. Puccio, José | Universidad Nacional del Litoral |
 | Mg. Rudi, Enrique Roberto | UTN Reconquista |
 | Dr. Smolje, Alejandro | Universidad de Buenos Aires |
 | Mg. Soriano, Diego Gustavo | Universidad Nacional del Litoral |
-| Mg. Zócola, Gerardo Enrique | Universidad Nacional del Litoral |
-| Mg. Zoff, Hernán Pablo | Universidad Nacional de Rosario |
+| Zócola, Gerardo Enrique | Universidad Nacional del Litoral |
+| Zoff, Hernán Pablo | Universidad Nacional de Rosario |
 
 ## Requisitos de admisión
 
-Podrán ser admitidos:
-- **a)** Graduados universitarios con titulación en áreas de Contabilidad, Administración o Economía
-- **b)** Graduados universitarios en distintas áreas de la Ingeniería, cuando su plan incluya contenidos suficientes en Contabilidad, Administración o Economía (a criterio del Comité de Admisión)
-- **c)** Graduados universitarios en otras áreas, en carreras de no menos de 4 años, **previa superación de una prueba de suficiencia**
-
-- **Idiomas**: No publicado — consultar
-- **Documentación a presentar**: No publicada en detalle — consultar
+- **Título previo requerido**: Podrán ser admitidos:
+  a) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía.
+  b) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes.
+  c) Graduados universitarios en otras áreas, en carreras de no menos de 4 (cuatro) años de duración, previa superación de una prueba de suficiencia.
+- **Idiomas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Otros antecedentes**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Documentación a presentar**: No publicada en detalle — consultar con posgrado@fce.unl.edu.ar
 - **Proceso de admisión**: Evaluación por el Comité de Admisión
 
 ## Aranceles e inscripción
 
 - **Matrícula**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Por confirmar — consultar
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+- **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Becas disponibles**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Estado actual de inscripción**: Por confirmar — consultar con posgrado@fce.unl.edu.ar
+- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 
 ## Próxima cohorte
 
@@ -106,50 +102,47 @@ Podrán ser admitidos:
 
 ## Contacto
 
-- **Director (modalidad PRESENCIAL)**: Mg. José Puccio
-- **Director (modalidad A DISTANCIA)**: Mg. Gerardo Zócola
-- **Coordinador Académico del área Administración, Finanzas y Negocios**: Mg. Walter Ariel Lugo
+- **Director/a académico/a**:
+  - Director (modalidad PRESENCIAL): Mg. José Puccio
+  - Director (modalidad A DISTANCIA): Mg. Gerardo Zocola
+  - Coordinador Académico del área Administración, Finanzas y Negocios: Mg. Walter Ariel Lugo
 - **Email del programa**: posgrado@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: 3425191199
-- **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+- **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
 
 ## Información adicional relevante
 
-- **Colaboración con IAPUCO**: Instituto Argentino de Profesores Universitarios de Costos — entidad que desde hace cuarenta años nuclea profesores universitarios de la disciplina de todo el país.
-- **Cursado y evaluación (Presencial)**: 75% de asistencia mínima + aprobación de evaluación final (modalidad dispuesta por cada profesor).
-- **Cursado y evaluación (A distancia)**: Plataforma Moodle, gestión autónoma del tiempo + encuentros sincrónicos con docentes + evaluación online.
 - **Comité Académico (Modalidad Presencial)**:
   - Director: Mg. José Puccio
-  - Mg. Marcela Andrea Martin (Secretaria Posgrado)
-  - Dra. Andrea María Pacífico (Secretaria Académica)
-  - Mg. Norberto Gabriel Demonte (Docente)
-  - Mg. Sandra del Carmen Canale (Docente)
-  - Mg. Luis Felipe Agramunt (Director Dpto. Administración)
-  - Mg. María Rut Azerrad (Graduada)
+  - Representante Decanato: Secretaria Posgrado Mg. Marcela Andrea Martin
+  - Representante Decanato: Secretaria Académica Dra. Andrea María Pacífico
+  - Docentes Carrera: Mg. Norberto Gabriel Demonte, Mg. Sandra del Carmen Canale
+  - Director del Departamento de Administración: Mg. Agramunt Luis Felipe
+  - Graduada: Mg. María Rut Azerrad
 - **Comité Académico (Modalidad a Distancia)**:
   - Director: Mg. Gerardo Zócola
-  - Coordinador: Mg. Walter Ariel Lugo
-  - Mg. Marcela Andrea Martin / Dra. Andrea María Pacífico (Decanato)
-  - Mg. Norberto Gabriel Demonte / Esp. Melisa Bergese (Docentes)
-  - Mg. Luis Felipe Agramunt (Director Dpto.)
-  - Esp. Marcelo Allignani (Graduada)
+  - Coordinador Académico: Mg. Walter Ariel Lugo
+  - Representante Decanato: Secretaria Posgrado Mg. Marcela Andrea Martin
+  - Representante Decanato: Secretaria Académica Dra. Andrea María Pacífico
+  - Docentes Carrera: Mg. Norberto Gabriel Demonte, Esp. Melisa Bergese
+  - Director del Departamento de Administración: Mg. Agramunt Luis Felipe
+  - Graduada: Esp. Marcelo Allignani
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/ecyge/ (homepage)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=178 (Presentación)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=108 (Cursado y evaluación)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=106 (Duración)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191 (Informes e Inscripción)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=112 (Estructura del Plan)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=116 (Asignaturas)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=179 (Objetivos curriculares)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114 (Conducción)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=115 (Comité Académico)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=113 (Cuerpo Docente)
+- https://fce.unl.edu.ar/ecyge/
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=178
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=108
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=106
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=112
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=116
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=115
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=113
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-17 con scraping completo del microsite.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-21 por pipeline de scraping.
