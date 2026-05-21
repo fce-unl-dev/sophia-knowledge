@@ -1,0 +1,72 @@
+{
+  "slug": "gfsp",
+  "url": "https://www.fce.unl.edu.ar/gfsp/",
+  "strategy": "fce-microsite",
+  "content_hash": "abf9a5afd43609db95d4190f99083e33df61787d40a7cd15578673cb2bbef68c",
+  "previous_hash": null,
+  "pages_count": 12,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/",
+      "title": "INFORMACIÓN DE INTERÉS",
+      "length": 799
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=226",
+      "title": "Objetivos",
+      "length": 1633
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=227",
+      "title": "Presentación de la carrera",
+      "length": 2217
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=229",
+      "title": "Requisitos de ingreso",
+      "length": 829
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=224",
+      "title": "Duración",
+      "length": 825
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=228",
+      "title": "Destinatarios/as",
+      "length": 912
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=225",
+      "title": "Modalidad de dictado",
+      "length": 863
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=232",
+      "title": "Requisitos para la obtención de la Certificación Académica",
+      "length": 903
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=230",
+      "title": "Estructura curricular",
+      "length": 1504
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=231",
+      "title": "Contenidos mínimos de las Asignaturas",
+      "length": 4756
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185",
+      "title": "Informes e Inscripción",
+      "length": 1457
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=233",
+      "title": "Conducción FCE",
+      "length": 1227
+    }
+  ],
+  "scraped_at": "2026-05-21T11:06:30.350Z",
+  "last_checked_at": "2026-05-21T11:06:30.350Z"
+}
