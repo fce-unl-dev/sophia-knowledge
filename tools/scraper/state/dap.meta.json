@@ -1,0 +1,87 @@
+{
+  "slug": "dap",
+  "url": "https://fce.unl.edu.ar/dap/",
+  "strategy": "fce-microsite",
+  "content_hash": "b2616e2f0e1af2757cd988b6bf1bb65380712cbdcfc4b1d14797fd82027fe7b0",
+  "previous_hash": null,
+  "pages_count": 15,
+  "pages": [
+    {
+      "url": "https://fce.unl.edu.ar/dap/",
+      "title": "INFORMACIÓN DE INTERÉS",
+      "length": 888
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173",
+      "title": "Presentación de la carrera",
+      "length": 1944
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134",
+      "title": "Sede Administrativa",
+      "length": 1196
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=133",
+      "title": "Título que otorga",
+      "length": 1085
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=129",
+      "title": "Cursado y evaluación",
+      "length": 1480
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128",
+      "title": "Duración de la carrera",
+      "length": 1156
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189",
+      "title": "Informes e inscripción",
+      "length": 1652
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=135",
+      "title": "Ciclos integrativos",
+      "length": 1932
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=132",
+      "title": "Diagrama del Plan de Estudios",
+      "length": 1819
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=140",
+      "title": "Contenidos Temáticos",
+      "length": 4475
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=139",
+      "title": "Distribución horaria",
+      "length": 1677
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=176",
+      "title": "Objetivos curriculares",
+      "length": 2188
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=136",
+      "title": "Conducción de la carrera",
+      "length": 3719
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=137",
+      "title": "Comité Académico",
+      "length": 1779
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=141",
+      "title": "Cuerpo Docente",
+      "length": 2000
+    }
+  ],
+  "scraped_at": "2026-05-21T11:03:35.561Z",
+  "last_checked_at": "2026-05-21T11:03:35.561Z"
+}
