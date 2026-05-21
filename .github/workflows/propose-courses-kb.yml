@@ -88,11 +88,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          branch="kb-sync/cursos-de-formacion-$(date +%s)"
+          branch="kb-sync/update-cursos-de-formacion"
 
           git config user.name 'sophia-kb-bot'
           git config user.email 'bot@fce.unl.edu.ar'
-          git checkout -b "$branch"
+          git checkout -B "$branch"
 
           git add indice.json cursos tools/scraper/state/cursos-de-formacion/cursos-de-formacion.meta.json
 
@@ -102,11 +102,14 @@ jobs:
           fi
 
           git commit -m "chore(kb): propose courses update"
-          git push origin "$branch"
+          git push -f origin "$branch"
 
           gh pr create \
             --base main \
             --head "$branch" \
+            --title "KB sync: cursos de formación — revisión humana" \
+            --body-file /tmp/courses-pr-body.md || \
+          gh pr edit "$branch" \
             --title "KB sync: cursos de formación — revisión humana" \
             --body-file /tmp/courses-pr-body.md
 

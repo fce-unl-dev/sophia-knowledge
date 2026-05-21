@@ -85,11 +85,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          branch="kb-sync/estudiantes-$(date +%s)"
+          branch="kb-sync/update-estudiantes"
 
           git config user.name 'sophia-kb-bot'
           git config user.email 'bot@fce.unl.edu.ar'
-          git checkout -b "$branch"
+          git checkout -B "$branch"
 
           git add indice.json estudiantes tools/scraper/state/estudiantes/estudiantes.meta.json
 
@@ -99,11 +99,14 @@ jobs:
           fi
 
           git commit -m "chore(kb): propose students update"
-          git push origin "$branch"
+          git push -f origin "$branch"
 
           gh pr create \
             --base main \
             --head "$branch" \
+            --title "KB sync: estudiantes — revisión humana" \
+            --body-file /tmp/students-pr-body.md || \
+          gh pr edit "$branch" \
             --title "KB sync: estudiantes — revisión humana" \
             --body-file /tmp/students-pr-body.md
 
