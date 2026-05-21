@@ -1,0 +1,17 @@
+{
+  "slug": "regimen-de-ensenanza",
+  "url": "https://www.fce.unl.edu.ar/academica/categorias/regimen/",
+  "strategy": "fce-wordpress",
+  "content_hash": "a111a23965e08f08018b7eb82f5ed1a05676106c168ba5007201d8f4ed639640",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/academica/categorias/regimen/",
+      "title": "Normas y Procedimientos de Enseñanza (ex Régimen de enseñanza)",
+      "length": 1180
+    }
+  ],
+  "scraped_at": "2026-05-21T11:08:51.491Z",
+  "last_checked_at": "2026-05-21T11:08:51.491Z"
+}
