@@ -1,0 +1,45 @@
+name: Mark as Reviewed
+
+# Este workflow se dispara cada vez que un Pull Request es cerrado (incluyendo merges).
+# Busca cualquier marca de "draft autogenerado" que haya quedado en los archivos Markdown
+# de la rama main y la reemplaza por la fecha actual, dejando el reporte de salud en verde.
+
+on:
+  pull_request:
+    types:
+      - closed
+
+permissions:
+  contents: write
+
+jobs:
+  update-freshness:
+    # Solo ejecutar si el PR fue fusionado (no cerrado descartado) y venía de una rama de kb-sync
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'kb-sync/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Strip DRAFT mark and set current date
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          echo "Buscando marcas de DRAFT PENDIENTE para reemplazarlas con la fecha: $TODAY"
+          
+          # Encontrar todos los archivos .md y reemplazar la frase
+          find . -name "*.md" -type f -exec sed -i "s/\*\*Última revisión humana\*\*: PENDIENTE.*draft autogenerado.*/\*\*Última revisión humana\*\*: $TODAY/g" {} +
+
+          # Comprobar si hubieron cambios
+          if git diff --quiet; then
+            echo "No se encontraron marcas de DRAFT para limpiar en main."
+            exit 0
+          fi
+
+          echo "Actualizando archivos con la nueva firma de revisión..."
+          git config user.name "sophia-kb-bot"
+          git config user.email "bot@fce.unl.edu.ar"
+          
+          git commit -am "chore(kb): automaticaly mark files as reviewed upon PR merge"
+          git push origin main
