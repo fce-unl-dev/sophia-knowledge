@@ -46,6 +46,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 concurrency:
   # Permite múltiples runs en paralelo pero serializa por slug (evita race con
@@ -133,14 +134,19 @@ jobs:
 
           if [ "$decision" = "requires_review" ]; then
             title="KB sync: $slug — requiere revisión humana"
+            label="needs-review"
             review_note="Este PR requiere revisión porque cambió al menos una sección sensible o el pipeline detectó riesgo."
           else
             title="KB sync: $slug — candidato de bajo riesgo"
+            label="auto-update"
             review_note="El pipeline clasificó este cambio como bajo riesgo, pero bajo el contrato B.2 igual entra por PR y no se mergea automáticamente."
           fi
 
           git commit -m "chore(kb): propose sync for $slug ($decision)"
           git push origin "$branch"
+
+          gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
+          gh label create auto-update --color 2563EB --description "Cambio KB de bajo riesgo propuesto por sync automático" || true
 
           cat > /tmp/pr_body.md <<EOF
           Pipeline automático de sync del KB de Sophia.
@@ -171,6 +177,7 @@ jobs:
             --base main \
             --head "$branch" \
             --title "$title" \
+            --label "$label" \
             --body-file /tmp/pr_body.md
 
       - name: Report no_change/skipped
