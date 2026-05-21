@@ -80,12 +80,13 @@ jobs:
           echo "Dry-run completado. No se abre PR ni se pushea ninguna rama."
 
       - name: Open human-review PR
-        if: inputs.mode != 'dry-run' && steps.proposal.outputs.decision == 'changes_proposed'
+        if: inputs.mode != 'dry-run' && (steps.proposal.outputs.decision == 'auto_merge' || steps.proposal.outputs.decision == 'requires_review')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
           branch="kb-sync/update-estudiantes"
+          decision='${{ steps.proposal.outputs.decision }}'
 
           git config user.name 'sophia-kb-bot'
           git config user.email 'bot@fce.unl.edu.ar'
@@ -98,17 +99,33 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore(kb): propose students update"
+          if [ "$decision" = "requires_review" ]; then
+            title="KB sync: estudiantes — requiere revisión humana"
+            label="needs-review"
+          else
+            title="KB sync: estudiantes — update automático"
+            label="auto-update"
+          fi
+
+          git commit -m "chore(kb): propose students update ($decision)"
           git push -f origin "$branch"
+
+          gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
+          gh label create auto-update --color 2563EB --description "Cambio KB de bajo riesgo propuesto por sync automático" || true
 
           gh pr create \
             --base main \
             --head "$branch" \
-            --title "KB sync: estudiantes — revisión humana" \
+            --title "$title" \
+            --label "$label" \
             --body-file /tmp/students-pr-body.md || \
           gh pr edit "$branch" \
-            --title "KB sync: estudiantes — revisión humana" \
+            --title "$title" \
             --body-file /tmp/students-pr-body.md
+
+          if [ "$decision" = "auto_merge" ]; then
+            gh pr merge "$branch" --squash --delete-branch || gh pr merge "$branch" --auto --squash || echo "No se pudo auto-mergear. Se requerirá merge manual o la repo no lo soporta."
+          fi
 
       - name: Report rejected
         if: steps.proposal.outputs.decision == 'rejected'

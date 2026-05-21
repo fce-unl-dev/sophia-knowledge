@@ -132,7 +132,7 @@ async function safeText(res) {
 // que no — defensivo.
 export function stripMarkdownFence(text) {
   const t = text.trim();
-  const m = t.match(/^```(?:markdown|md)?\s*\n([\s\S]*?)\n```\s*$/);
+  const m = t.match(/^```[a-zA-Z0-9_-]*\s*\n([\s\S]*?)\n```\s*$/);
   return m ? m[1].trim() : t;
 }
 

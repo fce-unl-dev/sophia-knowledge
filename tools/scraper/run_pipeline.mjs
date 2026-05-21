@@ -98,7 +98,12 @@ export async function runPipelineForSource(source, {
 
   // 4) classify
   const sensitiveSections = sourcesData?.sensitive_sections || [];
-  const classResult = classifyDiff(candidateMd, currentMd, { sensitiveSections });
+  const classResult = await classifyDiff(candidateMd, currentMd, {
+    sensitiveSections,
+    apiKey,
+    model,
+    fetchImpl,
+  });
   report.steps.classify = classResult;
   report.decision = classResult.decision;
   report.reason = classResult.reason;

@@ -1,4 +1,4 @@
-// Genera una propuesta de actualización de cursos lista para PR humano.
+// Genera una propuesta de actualización de cursos lista para PR humano o auto-merge.
 //
 // Contrato B.5:
 //   - Ejecuta el scraper determinístico de cursos.
@@ -18,6 +18,7 @@ import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 
 import { runCoursesScraper } from './scrape_courses.mjs';
+import { classifyDiff } from './classify_diff.mjs';
 
 const COURSE_CATEGORY = 'Curso de formación profesional';
 const DEFAULT_STATE_DIR = 'state/cursos-de-formacion';
@@ -29,6 +30,8 @@ export async function proposeCoursesUpdate({
   dryRun = false,
   today = todayIsoDate(),
   prBodyPath = null,
+  apiKey = process.env.GEMINI_API_KEY || '',
+  model = 'gemini-2.5-pro',
 } = {}) {
   const scraperReport = await runCoursesScraper({
     stateDir,
@@ -53,6 +56,11 @@ export async function proposeCoursesUpdate({
     return result;
   }
 
+  const here = dirname(fileURLToPath(import.meta.url));
+  const sourcesPath = join(here, 'sources.json');
+  const sourcesData = existsSync(sourcesPath) ? JSON.parse(await readFile(sourcesPath, 'utf8')) : {};
+  const sensitiveSections = sourcesData.sensitive_sections || [];
+
   if (scraperReport.status === 'unchanged' && !force) {
     const result = {
       ok: true,
@@ -74,6 +82,7 @@ export async function proposeCoursesUpdate({
   const unchangedDocs = [];
   const addedIndexEntries = [];
   const unsafeSkipped = [];
+  const classifications = [];
 
   for (const course of catalog.active) {
     const targetRelPath = normalizeCoursePath(course.index_path || `cursos/${course.slug}.md`);
@@ -96,6 +105,19 @@ export async function proposeCoursesUpdate({
       }
       if (previousMarkdown === null) createdDocs.push(targetRelPath);
       else updatedDocs.push(targetRelPath);
+
+      // Clasificación de diff por IA o reglas
+      const classification = await classifyDiff(candidateMarkdown, previousMarkdown, {
+        sensitiveSections,
+        apiKey,
+        model,
+      });
+      classifications.push({
+        path: targetRelPath,
+        decision: classification.decision,
+        reason: classification.reason,
+        detailed_analysis: classification.detailed_analysis || '',
+      });
     }
 
     if (!existingIndexPaths.has(targetRelPath)) {
@@ -122,6 +144,7 @@ export async function proposeCoursesUpdate({
       unchanged_docs_count: unchangedDocs.length,
       added_index_entries: addedIndexEntries.map((entry) => entry.path),
       unsafe_skipped: unsafeSkipped,
+      classifications,
       ...summaryBase,
     };
     result.pr_summary = buildPrBody(result);
@@ -139,12 +162,31 @@ export async function proposeCoursesUpdate({
   }
 
   const hasProposal = force || scraperReport.status !== 'unchanged' || docsChanged || addedIndexEntries.length > 0;
+  
+  let overallDecision = 'no_change';
+  let overallReason = 'No hay cambios materiales para proponer.';
+
+  if (hasProposal) {
+    overallDecision = 'auto_merge';
+    overallReason = 'Todos los cambios fueron clasificados como seguros para fusionar automáticamente.';
+
+    if (catalog.missing_from_active_source?.length > 0) {
+      overallDecision = 'requires_review';
+      overallReason = 'Se detectaron cursos eliminados en la fuente activa (bajas).';
+    }
+
+    const reviewRequiredDocs = classifications.filter((c) => c.decision === 'requires_review');
+    if (reviewRequiredDocs.length > 0) {
+      overallDecision = 'requires_review';
+      const paths = reviewRequiredDocs.map((d) => d.path).join(', ');
+      overallReason = `Los siguientes archivos requieren revisión: ${paths}`;
+    }
+  }
+
   const result = {
     ok: true,
-    decision: hasProposal ? 'changes_proposed' : 'no_change',
-    reason: hasProposal
-      ? 'Se generó una propuesta de actualización para revisión humana.'
-      : 'No hay cambios materiales para proponer.',
+    decision: overallDecision,
+    reason: overallReason,
     dry_run: dryRun,
     force,
     created_docs: createdDocs,
@@ -152,6 +194,7 @@ export async function proposeCoursesUpdate({
     unchanged_docs_count: unchangedDocs.length,
     added_index_entries: addedIndexEntries.map((entry) => entry.path),
     unsafe_skipped: unsafeSkipped,
+    classifications,
     commit_paths: [
       'indice.json',
       'cursos/',
@@ -205,7 +248,13 @@ function buildPrBody(result) {
   const lines = [];
   lines.push('## Resumen automático — cursos de formación profesional');
   lines.push('');
-  lines.push('Este PR fue generado por el scraper determinístico de cursos. No se mergea automáticamente y debe revisarse antes de entrar a `main`.');
+  if (result.decision === 'auto_merge') {
+    lines.push('✨ **Este PR contiene cambios seguros y se fusionará automáticamente.**');
+  } else if (result.decision === 'requires_review') {
+    lines.push('⚠️ **Este PR requiere revisión manual antes de ser fusionado.**');
+  } else {
+    lines.push('No hay cambios para aplicar.');
+  }
   lines.push('');
   lines.push(`- **Decisión**: \`${result.decision}\``);
   lines.push(`- **Motivo**: ${result.reason}`);
@@ -217,6 +266,21 @@ function buildPrBody(result) {
   lines.push(`- **Cursos nuevos no indexados**: ${result.new_unindexed_count ?? 0}`);
   lines.push(`- **Cursos indexados que no figuran activos en la fuente**: ${result.missing_from_active_source_count ?? 0}`);
   lines.push('');
+
+  if (result.classifications?.length > 0) {
+    lines.push('## Análisis de Cambios por IA');
+    lines.push('');
+    for (const c of result.classifications) {
+      const icon = c.decision === 'auto_merge' ? '✅' : '⚠️';
+      lines.push(`### ${icon} \`${c.path}\` — Decisión: \`${c.decision}\``);
+      lines.push(`- **Motivo**: ${c.reason}`);
+      if (c.detailed_analysis) {
+        lines.push(`- **Análisis detallado**:\n\n  ${c.detailed_analysis.replace(/\n/g, '\n  ')}`);
+      }
+      lines.push('');
+    }
+    lines.push('');
+  }
 
   if (Array.isArray(result.created_docs)) {
     lines.push('## Cambios propuestos en archivos');
@@ -264,14 +328,11 @@ function buildPrBody(result) {
   lines.push('2. Confirmar altas nuevas contra la fuente oficial.');
   lines.push('3. Revisar si los cursos listados como no activos deben mantenerse, archivarse o eliminarse en un PR posterior.');
   lines.push('4. Verificar que `indice.json` solo agregue entradas necesarias y no duplique cursos.');
-  lines.push('5. Si todo está correcto, merge manual. Si hay dudas, comentar el PR y no mergear.');
+  lines.push('5. Si todo está correcto y requiere revisión humana, merge manual. Si hay dudas, comentar el PR.');
   lines.push('');
-  lines.push('## Política vigente');
+  lines.push('## Política de Auto-Merge');
   lines.push('');
-  lines.push('- Detección y propuesta automática vía PR.');
-  lines.push('- Sin merge automático.');
-  lines.push('- Sin push directo a producción.');
-  lines.push('- Los cursos se mantienen como **1 MD por curso**.');
+  lines.push('Si la decisión general es `auto_merge`, este PR será fusionado automáticamente por GitHub Actions una vez superadas las validaciones.');
   lines.push('');
 
   return lines.join('\n');
@@ -305,12 +366,13 @@ async function main() {
       force: { type: 'boolean', default: false },
       'dry-run': { type: 'boolean', default: false },
       'pr-body': { type: 'string' },
+      model: { type: 'string', default: 'gemini-2.5-pro' },
       help: { type: 'boolean', default: false },
     },
   });
 
   if (values.help) {
-    console.log(`Sophia courses proposal generator\n\nUso:\n  node propose_courses_update.mjs [--kb-root=../..] [--force] [--dry-run] [--pr-body=/tmp/pr.md]\n`);
+    console.log(`Sophia courses proposal generator\n\nUso:\n  node propose_courses_update.mjs [--kb-root=../..] [--force] [--dry-run] [--pr-body=/tmp/pr.md] [--model=gemini-2.5-pro]\n`);
     process.exit(0);
   }
 
@@ -325,6 +387,8 @@ async function main() {
     force: values.force,
     dryRun: values['dry-run'],
     prBodyPath,
+    apiKey: process.env.GEMINI_API_KEY || '',
+    model: values.model,
   });
 
   console.log(JSON.stringify(result, null, 2));

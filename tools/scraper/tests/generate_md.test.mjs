@@ -75,6 +75,10 @@ describe('stripMarkdownFence', () => {
     const t = '```markdown\n# Hola\ncontenido\n```';
     assert.equal(stripMarkdownFence(t), '# Hola\ncontenido');
   });
+  test('quita fence ```json', () => {
+    const t = '```json\n{"key": "value"}\n```';
+    assert.equal(stripMarkdownFence(t), '{"key": "value"}');
+  });
   test('quita fence ``` simple', () => {
     const t = '```\n# Hola\n```';
     assert.equal(stripMarkdownFence(t), '# Hola');

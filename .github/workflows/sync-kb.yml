@@ -199,7 +199,7 @@ jobs:
             --body-file /tmp/pr_body.md
 
           if [ "$decision" = "auto_merge" ]; then
-            gh pr merge "$branch" --auto --squash || echo "No se pudo auto-mergear. Se requerirá merge manual o la repo no lo soporta."
+            gh pr merge "$branch" --squash --delete-branch || gh pr merge "$branch" --auto --squash || echo "No se pudo auto-mergear. Se requerirá merge manual o la repo no lo soporta."
           fi
 
       - name: Report no_change/skipped
