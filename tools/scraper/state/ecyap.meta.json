@@ -1,0 +1,82 @@
+{
+  "slug": "ecyap",
+  "url": "https://fce.unl.edu.ar/ecyap/",
+  "strategy": "fce-microsite",
+  "content_hash": "7f50bfea96961b21fdfdf9e0ebc391c7dc774e836f80a88a0b7d7bc9a0e0cd4d",
+  "previous_hash": null,
+  "pages_count": 14,
+  "pages": [
+    {
+      "url": "https://fce.unl.edu.ar/ecyap/",
+      "title": "INFORMACIÓN DE INTERÉS",
+      "length": 841
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=169",
+      "title": "Presentación de la carrera",
+      "length": 1969
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=94",
+      "title": "Cursado y evaluación",
+      "length": 1716
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=93",
+      "title": "Días y horarios de cursado",
+      "length": 980
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=92",
+      "title": "Duración de la carrera",
+      "length": 1078
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showCategoria&id=190",
+      "title": "Informes e inscripción",
+      "length": 1299
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=170",
+      "title": "Objetivos curriculares",
+      "length": 1408
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=98",
+      "title": "Estructura del Plan de Estudios",
+      "length": 2133
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=102",
+      "title": "Optativas",
+      "length": 5286
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=103",
+      "title": "Asignaturas",
+      "length": 11471
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=100",
+      "title": "Conducción de la carrera",
+      "length": 2149
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=101",
+      "title": "Comité Académico",
+      "length": 1354
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=99",
+      "title": "Cuerpo Docente",
+      "length": 2402
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=241",
+      "title": "Novedades",
+      "length": 1152
+    }
+  ],
+  "scraped_at": "2026-05-21T11:05:12.546Z",
+  "last_checked_at": "2026-05-21T11:05:12.546Z"
+}
