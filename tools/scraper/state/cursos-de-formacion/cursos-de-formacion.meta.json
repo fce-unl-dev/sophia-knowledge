@@ -1,0 +1,14 @@
+{
+  "slug": "cursos-de-formacion",
+  "strategy": "fce-courses-list",
+  "source_url": "https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos",
+  "content_hash": "7b38ead6f69daad53f6226b54b0dbffd8a73b41b409964680f28ef4410258031",
+  "previous_hash": null,
+  "status": "new",
+  "active_count": 16,
+  "matched_count": 16,
+  "new_unindexed_count": 0,
+  "missing_from_active_source_count": 7,
+  "scraped_at": "2026-05-21T11:03:38.623Z",
+  "last_checked_at": "2026-05-21T11:03:38.623Z"
+}
