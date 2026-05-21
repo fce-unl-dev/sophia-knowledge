@@ -1,6 +1,7 @@
 // Validador de MDs candidatos. Aplica reglas estructurales (secciones del
 // template, patrones prohibidos, placeholders, tamaño) y opcionalmente
-// chequea URLs con HEAD.
+// chequea URLs con HEAD. También corre validaciones semánticas ligeras
+// (fechas pasadas, draft sin revisar) que generan warnings sin bloquear el PR.
 //
 // Uso CLI:
 //   node validate.mjs --file=state/mba.candidate.md [--current=../posgrados/mba.md] [--skip-network]
@@ -99,6 +100,81 @@ export function checkClosing(md) {
   return errors;
 }
 
+// Validaciones semánticas ligeras: detecta fechas pasadas y drafts sin revisar.
+// Devuelve warnings (no errores bloqueantes).
+export function checkSemanticDates(md, { today = new Date() } = {}) {
+  const warnings = [];
+
+  // 1. Avisar si el candidato es un draft autogenerado pendiente de revisión.
+  if (/PENDIENTE — draft autogenerado/i.test(md)) {
+    warnings.push('El candidato está marcado como draft autogenerado. Requiere revisión humana antes de publicar.');
+  }
+
+  // 2. Buscar fechas de inicio de cohorte en formatos conocidos.
+  // Patrones cubiertos:
+  //   **Fecha de inicio**: 2024-03-01
+  //   **Fecha de inicio**: marzo de 2024
+  //   **Fecha de inicio publicada**: 15/03/2024
+  //   Próxima cohorte: 2024-03 (solo YYYY-MM)
+  const DATE_PATTERNS = [
+    // ISO: 2024-03-01 ó 2024-03
+    /(\d{4})-(\d{2})(?:-(\d{2}))?/g,
+    // DD/MM/YYYY
+    /(\d{2})\/(\d{2})\/(\d{4})/g,
+  ];
+
+  // Solo chequeamos dentro de las secciones críticas.
+  const CRITICAL_SECTIONS = ['Próxima cohorte', 'Aranceles e inscripción'];
+  for (const section of CRITICAL_SECTIONS) {
+    const sectionRe = new RegExp(`^##\\s+${escapeRegex(section)}\\s*$`, 'm');
+    const sectionStart = md.search(sectionRe);
+    if (sectionStart === -1) continue;
+    // Recortar hasta el siguiente ## o final del doc
+    const nextSectionMatch = /^##\s+/m.exec(md.slice(sectionStart + section.length + 3));
+    const sectionEnd = nextSectionMatch
+      ? sectionStart + section.length + 3 + nextSectionMatch.index
+      : md.length;
+    const sectionText = md.slice(sectionStart, sectionEnd);
+
+    // Ignorar si la sección dice "No publicado" o "consultar" o "cerrada"
+    if (/no publicado|consultar|cerrada|a confirmar|por confirmar/i.test(sectionText)) continue;
+
+    // Buscar fechas ISO (YYYY-MM-DD o YYYY-MM)
+    let isoMatch;
+    const isoRe = /(\d{4})-(\d{2})(?:-(\d{2}))?/g;
+    while ((isoMatch = isoRe.exec(sectionText)) !== null) {
+      const year = parseInt(isoMatch[1], 10);
+      const month = parseInt(isoMatch[2], 10) - 1;
+      const day = isoMatch[3] ? parseInt(isoMatch[3], 10) : 28; // fin de mes si no hay día
+      if (year < 2000 || year > 2100) continue; // descarto rangos inválidos
+      const found = new Date(year, month, day);
+      if (found < today) {
+        warnings.push(
+          `Fecha aparentemente vencida en «## ${section}»: ${isoMatch[0]}. Verificar si la cohorte fue actualizada.`,
+        );
+      }
+    }
+
+    // Buscar fechas DD/MM/YYYY
+    let dmyMatch;
+    const dmyRe = /(\d{2})\/(\d{2})\/(\d{4})/g;
+    while ((dmyMatch = dmyRe.exec(sectionText)) !== null) {
+      const day = parseInt(dmyMatch[1], 10);
+      const month = parseInt(dmyMatch[2], 10) - 1;
+      const year = parseInt(dmyMatch[3], 10);
+      if (year < 2000 || year > 2100) continue;
+      const found = new Date(year, month, day);
+      if (found < today) {
+        warnings.push(
+          `Fecha aparentemente vencida en «## ${section}»: ${dmyMatch[0]}. Verificar si la cohorte fue actualizada.`,
+        );
+      }
+    }
+  }
+
+  return warnings;
+}
+
 export function checkSize(candidateMd, currentMd, { minRatio = 0.3, maxRatio = 3.0 } = {}) {
   const warnings = [];
   const errors = [];
@@ -154,7 +230,7 @@ export async function checkUrls(urls, { fetchImpl = fetch, timeoutMs = 8000, con
 
 // ---------- Orchestrator ----------
 
-export async function validate(md, { currentMd = '', skipNetwork = false, fetchImpl = fetch } = {}) {
+export async function validate(md, { currentMd = '', skipNetwork = false, fetchImpl = fetch, today = new Date() } = {}) {
   const errors = [];
   const warnings = [];
 
@@ -162,6 +238,9 @@ export async function validate(md, { currentMd = '', skipNetwork = false, fetchI
   errors.push(...checkProhibited(md));
   errors.push(...checkPlaceholders(md));
   errors.push(...checkClosing(md));
+
+  // Validaciones semánticas: fechas pasadas y estado de draft
+  warnings.push(...checkSemanticDates(md, { today }));
 
   const size = checkSize(md, currentMd);
   errors.push(...size.errors);
@@ -189,6 +268,7 @@ export async function validate(md, { currentMd = '', skipNetwork = false, fetchI
       size_ratio: size.ratio,
       urls_checked: urlsChecked,
       urls_failed: failedUrls.length,
+      semantic_warnings: warnings.filter((w) => w.includes('vencida') || w.includes('draft')).length,
     },
   };
 }

@@ -1,9 +1,14 @@
 name: Propose Courses KB
 
 # Genera un PR humano con cambios de cursos de formación profesional.
+# Puede dispararse manualmente o automáticamente los viernes a las 07:00 UTC.
 # No mergea automáticamente y no escribe directo a main.
 
 on:
+  schedule:
+    # Viernes a las 07:00 UTC (04:00 ART). Detecta altas/bajas/cambios en
+    # el catálogo de cursos de formación y propone PR para revisión humana.
+    - cron: '0 7 * * 5'
   workflow_dispatch:
     inputs:
       mode:
@@ -47,10 +52,12 @@ jobs:
         run: |
           set -e
           extra_args=""
-          if [ "${{ inputs.mode }}" = "force" ]; then
+          # En triggers de schedule, inputs.mode está vacío → correr en modo refresh (default).
+          run_mode="${{ inputs.mode }}"
+          if [ "$run_mode" = "force" ]; then
             extra_args="$extra_args --force"
           fi
-          if [ "${{ inputs.mode }}" = "dry-run" ]; then
+          if [ "$run_mode" = "dry-run" ]; then
             extra_args="$extra_args --dry-run"
           fi
 

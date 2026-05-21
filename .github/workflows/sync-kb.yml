@@ -1,8 +1,8 @@
 name: Sync KB
 
-# Workflow disparable manualmente (UI de GH Actions o desde el dashboard admin
-# del agente Sophia via API). Sincroniza el KB con las fuentes web definidas en
-# tools/scraper/sources.json.
+# Sincroniza el KB con las fuentes web definidas en tools/scraper/sources.json.
+# Puede dispararse manualmente (UI de GH Actions o dashboard admin del agente)
+# o automáticamente los lunes y jueves a las 06:00 UTC.
 #
 # Contrato vigente:
 #   - Detectar cambios y proponerlos por PR.
@@ -21,6 +21,10 @@ name: Sync KB
 # hacer cambios reales o para inspeccionar qué decisión tomaría el pipeline.
 
 on:
+  schedule:
+    # Lunes y jueves a las 06:00 UTC (03:00 ART). Detecta cambios en la web FCE
+    # y propone PRs automáticamente sin intervención manual.
+    - cron: '0 6 * * 1,4'
   workflow_dispatch:
     inputs:
       source:
@@ -49,9 +53,9 @@ permissions:
   issues: write
 
 concurrency:
-  # Permite múltiples runs en paralelo pero serializa por slug (evita race con
-  # el mismo MD del KB siendo modificado dos veces a la vez).
-  group: sync-kb-${{ inputs.source }}
+  # Permite múltiples runs en paralelo pero serializa por slug.
+  # En triggers de schedule, inputs.source es vacío → usamos 'all' como group.
+  group: sync-kb-${{ inputs.source || 'all' }}
   cancel-in-progress: false
 
 jobs:
@@ -64,10 +68,12 @@ jobs:
       - name: Compute slug matrix
         id: compute
         run: |
-          if [ "${{ inputs.source }}" = "all" ]; then
+          # En triggers de schedule, inputs.source está vacío → procesar todas las fuentes.
+          source_input="${{ inputs.source }}"
+          if [ -z "$source_input" ] || [ "$source_input" = "all" ]; then
             slugs=$(jq -c '[.sources[] | select(.strategy != "TBD") | .slug]' tools/scraper/sources.json)
           else
-            slugs=$(jq -cn --arg s "${{ inputs.source }}" '[$s]')
+            slugs=$(jq -cn --arg s "$source_input" '[$s]')
           fi
           echo "slugs=$slugs" >> "$GITHUB_OUTPUT"
           echo "Slugs a procesar: $slugs"
@@ -96,7 +102,10 @@ jobs:
         working-directory: tools/scraper
         run: |
           set +e
-          node run_pipeline.mjs --slug=${{ matrix.slug }} --mode=${{ inputs.mode }} > /tmp/report.json
+          # En triggers de schedule, inputs.mode está vacío → usar 'refresh' como default seguro.
+          run_mode="${{ inputs.mode }}"
+          if [ -z "$run_mode" ]; then run_mode="refresh"; fi
+          node run_pipeline.mjs --slug=${{ matrix.slug }} --mode="$run_mode" > /tmp/report.json
           exit_code=$?
           echo "exit_code=$exit_code"
           cat /tmp/report.json
@@ -106,6 +115,7 @@ jobs:
           exit 0
 
       - name: Open PR for generated candidate
+        # En schedule, inputs.mode está vacío (no es 'dry-run') → la condición se evalúa correctamente.
         if: inputs.mode != 'dry-run' && (steps.pipeline.outputs.decision == 'auto_merge' || steps.pipeline.outputs.decision == 'requires_review')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -148,10 +158,13 @@ jobs:
           gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
           gh label create auto-update --color 2563EB --description "Cambio KB de bajo riesgo propuesto por sync automático" || true
 
+          triggered_by="${{ inputs.triggered_by }}"
+          if [ -z "$triggered_by" ]; then triggered_by="cron automático"; fi
+
           cat > /tmp/pr_body.md <<EOF
           Pipeline automático de sync del KB de Sophia.
 
-          **Disparado por**: ${{ inputs.triggered_by }}
+          **Disparado por**: $triggered_by
           **Fuente**: \`$slug\`
           **Archivo KB**: \`$kb_path\`
           **Decisión pipeline**: \`$decision\`
