@@ -8,7 +8,7 @@ Diplomatura universitaria **superior** (posgrado) de la FCE-UNL que brinda forma
 
 - **Nombre oficial**: Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros
 - **Código corto / sigla**: DIPMERC (slug histórico "diplomercados")
-- **Tipo**: Diplomatura Universitaria Superior (nivel posgrado)
+- **Tipo**: Diplomatura Universitaria Superior
 - **Título que otorga**: Diploma de aprobación de la Diplomatura
 - **Acreditación CONEAU**: No aplica
 - **Unidad académica**: FCE-UNL
@@ -16,21 +16,20 @@ Diplomatura universitaria **superior** (posgrado) de la FCE-UNL que brinda forma
 
 ## Modalidad y duración
 
-- **Modalidad**: Presencial mediante sistema de videoconferencia institucional (formato remoto sincrónico)
+- **Modalidad**: Presencial mediante sistema de videoconferencia institucional
 - **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Lugar**: 100% online (remoto sincrónico)
+- **Lugar**: 100% online (mediante sistema de videoconferencia institucional)
 - **Idioma**: Español
 - **Duración cursada**: 7 meses
-- **Duración trabajo final / tesis**: No aplica (no requiere trabajo final o tesis)
+- **Duración trabajo final / tesis**: No aplica
 - **Carga horaria total**: 120 horas reloj (8 UCAs)
 
 ## Plan de estudios
 
 ### Estructura general
-La Diplomatura se integra con **8 módulos secuenciales** que cubren desde fundamentos de análisis financiero hasta mercados alternativos (criptomonedas, oro). Todos los módulos son de asistencia obligatoria.
+La Diplomatura se integra con 8 módulos secuenciales de 15 horas cada uno, de asistencia obligatoria, que cubren desde fundamentos de análisis financiero hasta mercados alternativos (criptomonedas, oro).
 
 ### Módulos / asignaturas
-La Diplomatura se integra con 8 módulos de 15 horas (1 UCA) cada uno.
 
 **Módulo 1: Conceptos básicos para el análisis financiero** (15 hs / 1 UCA)
 - Interés simple y compuesto. Interés directo. Tasas nominales, efectivas periódicas y sub periódicas. Tasas vencidas y adelantadas. Interés continuo. Cálculo de tasas de rentabilidad a partir de precios. Sistemas de amortización. Indicadores financieros claves: valor actual neto (VAN) y tasa interna de retorno (TIR).
@@ -79,17 +78,18 @@ La Diplomatura se integra con 8 módulos de 15 horas (1 UCA) cada uno.
 - La inversión en oro. Razones para la inversión en oro. Tipos de inversión en oro: lingotes, monedas, ETFs, y plataforma Bullion Vault. La ley del oro. La seguridad, el almacenamiento y la fiscalidad de la inversión en oro. Los mercados del oro; los tipos de precios, las comisiones de compra y almacenamiento, la rentabilidad de las inversiones.
 
 ### Trabajo final / tesis
-No aplica (no requiere trabajo final o tesis). La certificación se obtiene con el 80% de asistencia a clases y la aprobación de todos los módulos.
+Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cumplir con un 80% de asistencia a clases y haber aprobado todos los módulos.
 
 ## Cuerpo docente
 
-Coordinación de la Diplomatura: **Mg. Rogelio Villanueva**. Nómina docente individualizada por módulo no publicada en fuentes oficiales; consultar con posgrado@fce.unl.edu.ar.
+- **Coordinador de la Diplomatura**: Mg. Rogelio Villanueva
+- Nómina docente individualizada por módulo no publicada en fuentes oficiales; consultar con posgrado@fce.unl.edu.ar.
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título de grado en carreras vinculadas a las Ciencias Económicas expedido por instituciones universitarias argentinas o extranjeras. Profesionales en otras áreas de conocimiento que acrediten trayectoria comprobable vinculada a actividades financieras.
+- **Título previo requerido**: Título de grado en carreras vinculadas a las Ciencias Económicas expedido por instituciones universitarias argentinas o extranjeras.
 - **Idiomas**: No publicado
-- **Otros antecedentes**: No publicado
+- **Otros antecedentes**: Profesionales en otras áreas de conocimiento que acrediten trayectoria comprobable vinculada a actividades financieras.
 - **Documentación a presentar**: Ver instructivo en la web oficial o folleto informativo PDF.
 - **Proceso de admisión**: No publicado
 
@@ -100,29 +100,32 @@ Coordinación de la Diplomatura: **Mg. Rogelio Villanueva**. Nómina docente ind
 - **Modalidad de pago**: A confirmar con posgrado@fce.unl.edu.ar
 - **Becas disponibles**: No publicado
 - **Estado actual de inscripción**: Por confirmar — consultar con posgrado@fce.unl.edu.ar
-- **Link de pre-inscripción**: No publicado
+- **Link de información sobre inscripción**: https://www.fce.unl.edu.ar/diplomercados/index.php?act=showCategoria&id=206
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: No publicada explícitamente en el microsite — consultar con posgrado@fce.unl.edu.ar
 - **Estado**: Por confirmar
-- **Fuente del dato**: No publicado en fuentes oficiales
-- **Última actualización del dato**: 2026-05-17
+- **Fuente del dato**: https://www.fce.unl.edu.ar/diplomercados/index.php?act=showCategoria&id=206
+- **Última actualización del dato**: 2026-05-22
+
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Coordinador académico**: Mg. Rogelio Villanueva
+- **Director/a académico/a**: Mg. Rogelio Villanueva
 - **Email del programa**: posgrado@fce.unl.edu.ar
+- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: 3425191199
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
 
-- **Marco normativo**: Creada por Res. CD 683/2023 y aprobada por Res. HCS 787/23.
+- **Marco normativo**: Creada por Resolución CD 683/2023 y aprobada por Resolución HCS 787/23.
 - **Distintiva del programa**: Cobertura amplia desde fundamentos hasta mercados alternativos (criptomonedas, oro) — pocas diplomaturas locales tratan estos temas integradamente.
-- **Apertura a no-economistas**: Profesionales de otras disciplinas pueden ingresar acreditando trayectoria en finanzas.
+- **Apertura a no-economistas**: Profesionales de otras disciplinas pueden ingresar acreditando trayectoria comprobable en actividades financieras.
 - **Folleto informativo en PDF**: https://www.fce.unl.edu.ar/diplomercados/uploads/folletos/13.pdf
 
 ## Fuentes consultadas
@@ -138,7 +141,8 @@ Coordinación de la Diplomatura: **Mg. Rogelio Villanueva**. Nómina docente ind
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=250 (Cursado)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=251 (Requisitos para la Obtención de la Certificación Académica)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=245 (Autoridades FCE y Posgrado)
-- https://www.fce.unl.edu.ar/diplomercados/index.php?act=showNoticia&id=728 (Novedades - Folleto informativo)
+- https://www.fce.unl.edu.ar/diplomercados/index.php?act=showNoticia&id=728 (Folleto informativo)
+- https://www.fce.unl.edu.ar/diplomercados/uploads/folletos/13.pdf (Folleto Informativo)
 
 ---
 

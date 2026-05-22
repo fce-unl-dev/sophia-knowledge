@@ -16,6 +16,7 @@ import { existsSync } from 'node:fs';
 import { join, resolve, dirname, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
+import { execSync } from 'node:child_process';
 
 import { runCoursesScraper } from './scrape_courses.mjs';
 import { classifyDiff } from './classify_diff.mjs';
@@ -159,6 +160,13 @@ export async function proposeCoursesUpdate({
     index.lastUpdated = today;
     if (Number.isInteger(index.version)) index.version += 1;
     await writeFile(indexPath, JSON.stringify(index, null, 2) + '\n', 'utf8');
+
+    try {
+      console.log('Regenerando routing_metadata.json por cambios en el índice...');
+      execSync(`node "${join(here, 'generate_routing_metadata.mjs')}"`, { stdio: 'inherit' });
+    } catch (err) {
+      console.error('Error al regenerar routing_metadata.json:', err.message);
+    }
   }
 
   const hasProposal = force || scraperReport.status !== 'unchanged' || docsChanged || addedIndexEntries.length > 0;

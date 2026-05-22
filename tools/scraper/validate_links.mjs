@@ -21,6 +21,7 @@ const DEFAULT_DIRS = [
   'cursos',
   'posgrado-general',
   'estudiantes',
+  'complementos',
 ];
 
 const URL_RE = /https?:\/\/[^\s)<>"'`]+[^\s)<>"'`.,;:]/g;

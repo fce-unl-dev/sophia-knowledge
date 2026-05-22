@@ -30,6 +30,13 @@ import {
   extractWordpressBlogContent,
 } from './scrape.mjs';
 
+import {
+  fetchExamSchedules,
+  fetchClassSchedules,
+  generateExamsMarkdownTable,
+  generateSchedulesMarkdownTables,
+} from './scrape_sheets.mjs';
+
 const DEFAULT_STATE_DIR = 'state/estudiantes';
 
 export const STUDENT_TOPICS = [
@@ -278,6 +285,25 @@ export async function scrapeStudentTopic(topic, { fetchImpl = fetch } = {}) {
     }
   }
 
+  // Descargar e integrar datos de planillas Google Sheets si corresponde
+  let examSchedules = null;
+  if (topic.slug === 'estudiantes-examenes') {
+    try {
+      examSchedules = await fetchExamSchedules(fetchImpl);
+    } catch (err) {
+      console.error(`Error descargando exámenes de la planilla: ${err.message}`);
+    }
+  }
+
+  let classSchedules = null;
+  if (topic.slug === 'estudiantes-inscripciones-cursado') {
+    try {
+      classSchedules = await fetchClassSchedules(fetchImpl);
+    } catch (err) {
+      console.error(`Error descargando horarios de cursado de la planilla: ${err.message}`);
+    }
+  }
+
   const allLinks = pages.flatMap((page) => page.links || []);
   const signals = mergeSignals(pages.map((page) => page.signals || emptySignals()));
   const reviewReasons = [];
@@ -293,6 +319,8 @@ export async function scrapeStudentTopic(topic, { fetchImpl = fetch } = {}) {
     pages,
     links: allLinks,
     signals,
+    examSchedules,
+    classSchedules,
     summary: {
       slug: topic.slug,
       title: topic.title,
@@ -322,7 +350,7 @@ export async function scrapeStudentPage({ label, url }, { fetchImpl = fetch } = 
 }
 
 export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
-  const { topic, pages, signals, summary } = result;
+  const { topic, pages, signals, summary, examSchedules, classSchedules } = result;
   const lines = [];
   lines.push(`# ${topic.title}`);
   lines.push('');
@@ -348,6 +376,40 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
     lines.push('');
   }
 
+  if (examSchedules && examSchedules.length > 0) {
+    lines.push('## Cronograma de Exámenes Finales (Snapshot Oficial)');
+    lines.push('');
+    lines.push(`**Última actualización de planilla**: ${today}`);
+    lines.push('');
+    for (const turn of examSchedules) {
+      lines.push(`### ${turn.turn}`);
+      lines.push('');
+      if (turn.ok) {
+        lines.push(generateExamsMarkdownTable(turn.exams));
+      } else {
+        lines.push(`_Error al descargar/parsear este turno: ${turn.error}_`);
+      }
+      lines.push('');
+    }
+  }
+
+  if (classSchedules && classSchedules.length > 0) {
+    lines.push('## Distribución de Comisiones y Horarios (Snapshot Oficial)');
+    lines.push('');
+    lines.push(`**Última actualización de planilla**: ${today}`);
+    lines.push('');
+    for (const tab of classSchedules) {
+      lines.push(`### ${tab.tab}`);
+      lines.push('');
+      if (tab.ok) {
+        lines.push(generateSchedulesMarkdownTables(tab.schedules));
+      } else {
+        lines.push(`_Error al descargar/parsear esta pestaña: ${tab.error}_`);
+      }
+      lines.push('');
+    }
+  }
+
   lines.push('## Enlaces y sistemas relacionados');
   lines.push('');
   const pdfLinks = result.links.filter((link) => link.kind === 'pdf');
@@ -371,7 +433,11 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
     lines.push('- No se detectaron señales automáticas de iframe, Google Sheets, sistemas externos ni datos nominales; la revisión humana sigue siendo obligatoria.');
   }
   lines.push('- No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.');
-  lines.push('- Si una subpágina enlaza una planilla o iframe con fechas, responder sobre esos datos solo si existe snapshot Markdown revisado.');
+  if (examSchedules || classSchedules) {
+    lines.push('- Sophia debe responder basándose en las tablas del "Snapshot Oficial" provistas en este documento. Si la materia o fecha buscada no figura en el snapshot, debe indicar al alumno que consulte la planilla oficial enlazada o sistema respectivo.');
+  } else {
+    lines.push('- Si una subpágina enlaza una planilla o iframe con fechas, responder sobre esos datos solo si existe snapshot Markdown revisado.');
+  }
   lines.push('');
 
   lines.push('## Fuentes consultadas');

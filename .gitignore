@@ -19,3 +19,9 @@ Thumbs.db
 .env.local
 .env.*.local
 tools/scraper/.env*
+
+# Scraper dependencies and state
+tools/scraper/node_modules/
+tools/scraper/state/
+tools/scraper/package-lock.json
+
