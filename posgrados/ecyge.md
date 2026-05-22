@@ -19,70 +19,67 @@ La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL conso
 - **Modalidad**: Dos modalidades disponibles:
   - **Presencial**: combinando asistencia presencial, online y mixta
   - **A distancia**: con plataforma Moodle, encuentros sincrónicos, evaluación online
-- **Días y horarios de cursada**: No publicado en detalle en el microsite — consultar con posgrado@fce.unl.edu.ar
+- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (modalidad presencial) / 100% online (modalidad a distancia)
 - **Idioma**: Español
 - **Duración cursada**: 3 cuatrimestres (año y medio)
-- **Duración trabajo final**: Plazo máximo 3 años desde la inscripción a la carrera
+- **Duración trabajo final / tesis**: Plazo máximo 3 años desde la inscripción a la carrera
 - **Carga horaria total**: 390 horas / 26 créditos
 
 ## Plan de estudios
 
 ### Estructura general
-
-10 asignaturas obligatorias + 1 Taller de Trabajo Final, con un total de 26 créditos (390 hs). Cierra con Evaluación Final Integradora / Trabajo Final Integrador.
+Está estructurado sobre la base de diez asignaturas obligatorias y un Taller de Trabajo Final, con un total de 26 (veintiséis) créditos, que corresponden a 390 (trescientas noventa) horas. La duración total del dictado de la carrera es de tres cuatrimestres, debiendo completarse al término de la aprobación de todas las asignaturas la Evaluación Final Integradora.
 
 ### Módulos / asignaturas
 
-**Primera Parte:**
-1. La Teoría General del Costo (45 hs / 3 créditos)
-2. Análisis Marginal (45 hs / 3 créditos)
-3. Visión crítica de las tendencias actuales (40 hs / 3 créditos)
-4. Métodos cuantitativos para los negocios (35 hs / 2 créditos)
-5. Gestión presupuestaria (35 hs / 2 créditos)
-6. Costos de la función comercial (40 hs / 3 créditos)
+**Primera Parte**
+- La Teoría General del Costo (45 hs / 3 UCAs)
+- Análisis Marginal (45 hs / 3 UCAs)
+- Visión crítica de las tendencias actuales (40 hs / 3 UCAs)
+- Métodos cuantitativos para los negocios (35 hs / 2 UCAs)
+- Gestión presupuestaria (35 hs / 2 UCAs)
+- Costos de la función comercial (40 hs / 3 UCAs)
 
-**Segunda Parte:**
-7. Gestión de empresas del sector primario (30 hs / 2 créditos)
-8. Gestión de empresas industriales (30 hs / 2 créditos)
-9. Gestión de empresas del sector servicios (30 hs / 2 créditos)
-10. Gestión de administraciones gubernamentales (30 hs / 2 créditos)
+**Segunda Parte**
+- Gestión de empresas del sector primario (30 hs / 2 UCAs)
+- Gestión de empresas industriales (30 hs / 2 UCAs)
+- Gestión de empresas del sector servicios (30 hs / 2 UCAs)
+- Gestión de administraciones Gubernamentales (30 hs / 2 UCAs)
 
-**Cierre:**
-- Taller de Trabajo Final (30 hs / 2 créditos)
-- Trabajo Final Integrador (60 hs adicionales)
+**Cierre**
+- Taller de Trabajo Final (30 hs / 2 UCAs)
 
-### Trabajo final integrador
-
-Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripción.
+### Trabajo final / tesis
+Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripción a la carrera. Carga horaria adicional: 60 horas (20 teóricas, 40 prácticas).
 
 ## Cuerpo docente
 
-| Apellido y Nombre | Universidades |
+| Apellido y Nombre | Universidades a las que pertenece |
 |---|---|
 | Esp. Bergese, Melisa | Universidad Nacional del Litoral |
 | Mg. Canale, Sandra del Carmen | Universidad Nacional del Litoral |
-| Cr. Cartier, Enrique Nicolás | UNLu, UBA |
+| Cr. Cartier, Enrique Nicolás | Universidad Nacional de Luján, Universidad de Buenos Aires |
 | Mg. Demonte, Norberto Gabriel | Universidad Nacional del Litoral |
 | Cr. Farré, Daniel | Universidad de Buenos Aires |
 | Mg. Lugo, Walter Ariel | Universidad Nacional del Litoral |
 | Dr. Marchione, Julio César | UADE |
-| Mg. Podmoguilnye, Marcelo Gustavo | UNLZ, UBA |
+| Mg. Podmoguilnye, Marcelo Gustavo | Univ. Nacional de Lomas de Zamora, Universidad de Buenos Aires |
 | Mg. Puccio, José | Universidad Nacional del Litoral |
 | Mg. Rudi, Enrique Roberto | UTN Reconquista |
 | Dr. Smolje, Alejandro | Universidad de Buenos Aires |
 | Mg. Soriano, Diego Gustavo | Universidad Nacional del Litoral |
-| Mg. Zócola, Gerardo Enrique | Universidad Nacional del Litoral |
-| Mg. Zoff, Hernán Pablo | Universidad Nacional de Rosario |
+| Zócola, Gerardo Enrique | Universidad Nacional del Litoral |
+| Zoff, Hernán Pablo | Universidad Nacional de Rosario |
 
 ## Requisitos de admisión
 
-Podrán ser admitidos:
-- **a)** Graduados universitarios con titulación en áreas de Contabilidad, Administración o Economía
-- **b)** Graduados universitarios en distintas áreas de la Ingeniería, cuando su plan incluya contenidos suficientes en Contabilidad, Administración o Economía (a criterio del Comité de Admisión)
-- **c)** Graduados universitarios en otras áreas, en carreras de no menos de 4 años, **previa superación de una prueba de suficiencia**
-
+- **Título previo requerido**: Podrán ser admitidos:
+    a) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía.
+    b) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes.
+    c) Graduados universitarios en otras áreas, en carreras de no menos de 4 (cuatro) años de duración, previa superación de una prueba de suficiencia.
 - **Idiomas**: No publicado — consultar
+- **Otros antecedentes**: No publicado.
 - **Documentación a presentar**: No publicada en detalle — consultar
 - **Proceso de admisión**: Evaluación por el Comité de Admisión
 
@@ -117,39 +114,48 @@ Podrán ser admitidos:
 
 ## Información adicional relevante
 
+- **Objetivos curriculares**: La Especialización en Costos y Gestión Empresarial persigue consolidar la formación Profesional en los campos de Costos y Gestión Organizacional.
+    Objetivos:
+    - Estudiar los elementos de la teoría general de los costos y los factores relevantes de carácter táctico y estratégico vinculados con la gestión empresarial.
+    - Propender a la formación de expertos en el planeamiento, determinación y control de los costos y otros indicadores de la gestión empresarial en el marco de una gestión estratégica que simultáneamente cuenten con conocimientos y aptitudes para adoptar decisiones de carácter táctico.
+    - Lograr un adecuado entrenamiento en las particularidades del manejo de empresas de todos los sectores de la economía, especialmente de aquellas relevantes en los ámbitos regional y nacional.
+    El “Especialista en Costos y Gestión Empresarial” debe:
+    - Estar capacitado en el planeamiento, determinación y control de los costos y otros indicadores de la gestión empresarial en el marco de una actividad que simultáneamente requiere conocimientos y aptitudes para adoptar decisiones de carácter estratégico y táctico.
+    - Poseer capacidad para diseñar, determinar y controlar los costos en el marco de la contabilidad de gestión, así como utilizar las informaciones vinculadas con distintas alternativas conforme a diferentes estrategias de competitividad y crecimiento empresarios.
+    - Tener una actitud crítica y flexible que le permite reconocer la necesidad de actualización permanente de los conocimientos e intervenir en equipos interdisciplinarios
 - **Colaboración con IAPUCO**: Instituto Argentino de Profesores Universitarios de Costos — entidad que desde hace cuarenta años nuclea profesores universitarios de la disciplina de todo el país.
-- **Cursado y evaluación (Presencial)**: 75% de asistencia mínima + aprobación de evaluación final (modalidad dispuesta por cada profesor).
-- **Cursado y evaluación (A distancia)**: Plataforma Moodle, gestión autónoma del tiempo + encuentros sincrónicos con docentes + evaluación online.
+- **Cursado y evaluación (Presencial)**: dictado de clases combinando asistencia presencial, on line y mixta. Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final. La promoción de cada asignatura será dispuesta por el profesor responsable, pudiendo consistir en exposición durante el cursado de los casos trabajados en clases, un examen individual teórico-práctico, desarrollo de casos, trabajo práctico grupal, evaluación a material abierto.
+- **Cursado y evaluación (A distancia)**: el dictado se realizará de forma tal que el estudiante podrá administrar sus propios tiempos de lectura, análisis de material multimedia y realización de actividades propuestas, complementado con encuentros sincrónicos con los docentes para profundizar algunos temas y atender consultas. Se trabajará con la plataforma Moodle y se utilizarán diversas herramientas tecnológicas para el desarrollo de los contenidos. La evaluación también se realizará de forma on line.
 - **Comité Académico (Modalidad Presencial)**:
-  - Director: Mg. José Puccio
-  - Mg. Marcela Andrea Martin (Secretaria Posgrado)
-  - Dra. Andrea María Pacífico (Secretaria Académica)
-  - Mg. Norberto Gabriel Demonte (Docente)
-  - Mg. Sandra del Carmen Canale (Docente)
-  - Mg. Luis Felipe Agramunt (Director Dpto. Administración)
-  - Mg. María Rut Azerrad (Graduada)
+    - Director: Mg. José Puccio
+    - Representante Decanato: Secretaria Posgrado Mg. Marcela Andrea Martin
+    - Representante Decanato: Secretaria Académica Dra. Andrea María Pacífico
+    - Docentes Carrera: Mg. Norberto Gabriel Demonte, Mg. Sandra del Carmen Canale
+    - Director del Departamento de Administración: Mg. Agramunt Luis Felipe
+    - Graduada: Mg. María Rut Azerrad
 - **Comité Académico (Modalidad a Distancia)**:
-  - Director: Mg. Gerardo Zócola
-  - Coordinador: Mg. Walter Ariel Lugo
-  - Mg. Marcela Andrea Martin / Dra. Andrea María Pacífico (Decanato)
-  - Mg. Norberto Gabriel Demonte / Esp. Melisa Bergese (Docentes)
-  - Mg. Luis Felipe Agramunt (Director Dpto.)
-  - Esp. Marcelo Allignani (Graduada)
+    - Director: Mg. Gerardo Zócola
+    - Coordinador Académico: Mg. Walter Ariel Lugo
+    - Representante Decanato: Secretaria Posgrado Mg. Marcela Andrea Martin
+    - Representante Decanato: Secretaria Académica Dra. Andrea María Pacífico
+    - Docentes Carrera: Mg. Norberto Gabriel Demonte, Esp. Melisa Bergese
+    - Director del Departamento de Administracion: Mg. Agramunt Luis Felipe
+    - Graduada: Esp. Marcelo Allignani
 
 ## Fuentes consultadas
 
 - https://fce.unl.edu.ar/ecyge/ (homepage)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=178 (Presentación)
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=178 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=108 (Cursado y evaluación)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=106 (Duración)
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=106 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191 (Informes e Inscripción)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=112 (Estructura del Plan)
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=112 (Estructura del Plan de Estudios)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=116 (Asignaturas)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=179 (Objetivos curriculares)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114 (Conducción)
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=115 (Comité Académico)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=113 (Cuerpo Docente)
 
 ---
 
-**Última revisión humana**: 2026-05-21
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-22 por pipeline de scraping.
