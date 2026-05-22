@@ -3,7 +3,7 @@
   "url": "https://www.fcjs.unl.edu.ar/mdypp/",
   "strategy": "wordpress-homepage",
   "content_hash": "c80b3388f2d46ba4ffd0cbd46ae94669cb19f8b7aef870713faf2c4a9bcf3922",
-  "previous_hash": null,
+  "previous_hash": "c80b3388f2d46ba4ffd0cbd46ae94669cb19f8b7aef870713faf2c4a9bcf3922",
   "pages_count": 1,
   "pages": [
     {
@@ -12,6 +12,6 @@
       "length": 1053
     }
   ],
-  "scraped_at": "2026-05-22T01:56:16.625Z",
-  "last_checked_at": "2026-05-22T01:56:16.625Z"
+  "scraped_at": "2026-05-22T01:34:40.395Z",
+  "last_checked_at": "2026-05-22T01:34:40.395Z"
 }

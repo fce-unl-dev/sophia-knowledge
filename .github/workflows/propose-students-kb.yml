@@ -92,7 +92,7 @@ jobs:
           git config user.email 'bot@fce.unl.edu.ar'
           git checkout -B "$branch"
 
-          git add indice.json estudiantes tools/scraper/state/estudiantes/estudiantes.meta.json
+          git add indice.json routing_metadata.json estudiantes tools/scraper/state/estudiantes/estudiantes.meta.json
 
           if git diff --cached --quiet; then
             echo "La propuesta no produjo diff commiteable. No se abre PR."
