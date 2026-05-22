@@ -1,0 +1,578 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-05-22",
+  "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
+  "stats": {
+    "posgrados_graduados": 43,
+    "grado": 19,
+    "posgrados_cursos_sin_titulo": 24,
+    "docentes": 3,
+    "tramites_bedelia": 5
+  },
+  "mappings": {
+    "posgrados/dap.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Doctorado en Administración Pública (DAP)",
+      "category": "Doctorado"
+    },
+    "posgrados/mba.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración de Empresas (MBA)",
+      "category": "Maestría"
+    },
+    "posgrados/maf.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración y Finanzas (MAF)",
+      "category": "Maestría"
+    },
+    "posgrados/map.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración Pública (MAP)",
+      "category": "Maestría"
+    },
+    "posgrados/mcya.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Contabilidad y Auditoría (MCYA)",
+      "category": "Maestría"
+    },
+    "posgrados/maea.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Economía Aplicada (MEA, slug histórico 'maea')",
+      "category": "Maestría"
+    },
+    "posgrados/mrso.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Responsabilidad Social Organizacional (MRSO)",
+      "category": "Maestría"
+    },
+    "posgrados/ecyap.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Contabilidad y Auditoría para PyMEs (ECYAP)",
+      "category": "Especialización"
+    },
+    "posgrados/ecyge.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Costos y Gestión Empresarial (ECYGE)",
+      "category": "Especialización"
+    },
+    "posgrados/edgop.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Especialización"
+    },
+    "posgrados/sindicatura-concursal.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Sindicatura Concursal",
+      "category": "Especialización"
+    },
+    "posgrados/tributacion.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Tributación",
+      "category": "Especialización"
+    },
+    "diplomaturas/gfsp.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Diplomatura en Gestión Financiera del Sector Público (GFSP)",
+      "category": "Diplomatura universitaria"
+    },
+    "diplomaturas/gto.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Diplomatura en Gestión para el Trabajo en Organizaciones (GTO)",
+      "category": "Diplomatura universitaria"
+    },
+    "diplomaturas/diplomercados.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros (DIPMERC)",
+      "category": "Diplomatura universitaria superior"
+    },
+    "diplomaturas/empresas-familiares.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de las Empresas Familiares",
+      "category": "Diplomatura universitaria superior"
+    },
+    "compartidos/doctorado-estudios-sociales.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Doctorado en Estudios Sociales (compartido — sede FHUC)",
+      "category": "Posgrado compartido"
+    },
+    "compartidos/negocios-agroalimentarios.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Negocios Agroalimentarios (FCE + FCA, sede FCA)",
+      "category": "Posgrado compartido"
+    },
+    "compartidos/mdypp.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
+      "category": "Posgrado compartido"
+    },
+    "operativos/regimen-de-ensenanza.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Régimen de Enseñanza FCE-UNL",
+      "category": "Operativo"
+    },
+    "operativos/aulas-virtuales.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Aulas Virtuales FCE-UNL",
+      "category": "Operativo"
+    },
+    "operativos/ingreso-2026.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Ingreso 2026 a carreras de grado",
+      "category": "Operativo"
+    },
+    "estudiantes/beneficios-posgrados-fce-unl.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Beneficios para Posgrados FCE UNL",
+      "category": "Estudiantes"
+    },
+    "estudiantes/bienestar-estudiantil.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Bienestar Estudiantil",
+      "category": "Estudiantes"
+    },
+    "estudiantes/calendario-academico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Calendario Académico",
+      "category": "Estudiantes"
+    },
+    "estudiantes/centro-estudiantes.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Centro de Estudiantes",
+      "category": "Estudiantes"
+    },
+    "estudiantes/clases-consultas.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Clases de Consultas",
+      "category": "Estudiantes"
+    },
+    "estudiantes/examenes.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Exámenes",
+      "category": "Estudiantes"
+    },
+    "estudiantes/horarios-atencion.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Horarios de Atención",
+      "category": "Estudiantes"
+    },
+    "estudiantes/ingreso-2026.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Ingreso 2026",
+      "category": "Estudiantes"
+    },
+    "estudiantes/inscripciones-cursado.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Info sobre inscripciones a cursado",
+      "category": "Estudiantes"
+    },
+    "estudiantes/pasantias-rentadas.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Pasantías rentadas",
+      "category": "Estudiantes"
+    },
+    "estudiantes/practicas-profesionales-supervisadas.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Prácticas Profesionales Supervisadas",
+      "category": "Estudiantes"
+    },
+    "estudiantes/sica.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Sistema Informático de Consultas de Alumnos (SICA)",
+      "category": "Estudiantes"
+    },
+    "estudiantes/siu-guarani.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "SIU Guaraní",
+      "category": "Estudiantes"
+    },
+    "estudiantes/tramites-internos.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Trámites internos",
+      "category": "Estudiantes"
+    },
+    "cursos/atencion-al-cliente-y-oratoria.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Atención al Cliente y Oratoria",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/formacion-de-gerentes-de-supermercado.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Formación de Gerentes de Supermercado",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/formacion-de-gerentes-para-retail.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Formación de Gerentes para Retail",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/formacion-de-repositores-para-supermercado.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Formación de Repositores para Supermercado",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/formacion-en-manipulacion-conservacion-y-venta-de-mercaderias-en-supermercados.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Formación en Manipulación, Conservación y Venta de Mercaderías en Supermercados",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/gestion-financiera-para-emprendimientos.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Gestión Financiera para Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/inteligencia-artificial-aplicada-a-la-gestion-y-productividad.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Inteligencia Artificial Aplicada a la Gestión y Productividad",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/introduccion-al-diseno-de-modelos-de-negocios.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Introducción al Diseño de Modelos de Negocios",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/la-construccion-del-pensamiento-proporcional.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "La Construcción del Pensamiento Proporcional",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/manejo-practico-de-cooperativas-y-asociaciones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Manejo Práctico de Cooperativas y Asociaciones",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/produccion-saludable-360-curso-integral-para-emprendedores.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Producción Saludable 360: Curso Integral para Emprendedores",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Técnicas de Venta y Atención al Cliente para el Sector Electro y Textil",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Teoría de Juegos: Fundamentos Matemáticos y Aplicaciones en Economía, Administración y Marketing",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Tokenización de Activos de la Economía Real en Argentina",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/trading-profesional-basado-en-evidencia.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "title": "Trading Profesional Basado en Evidencia",
+      "category": "Curso de formación profesional"
+    },
+    "posgrado-general/estudiantes.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Información para Estudiantes de Posgrado (trámites, diplomas, becas, calendario)",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/doctorados-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Doctorados FCE — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/maestrias-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestrías FCE — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/especializaciones-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especializaciones FCE — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/cursos-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Cursos de Posgrado — Información e inscripción",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/inscripciones-en-carreras.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Inscripciones en Carreras de Posgrado FCE",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/regimen-credito-fiscal.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Régimen de Crédito Fiscal para Capacitación",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/carreras-otras-unidades-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Carreras de Posgrado con Otras Unidades Académicas",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/becas-docentes.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Becas de Posgrado para Docentes FCE UNL",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/diplomaturas-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomaturas Nivel Superior — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/datos-para-crawler.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL",
+      "category": "posgrado-general"
+    },
+    "posgrado-general/beneficios-graduados.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Beneficios para Graduados FCE UNL",
+      "category": "Información general de Posgrado"
+    },
+    "complementos/pruebas-asistente-virtual-posgrado.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Posgrados y Trámites en la FCE-UNL",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Resolución que Deroga Resoluciones Anteriores",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Resolución CD 640/25",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-res-500-25.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Resolución C.D. Nº 500/25",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Normas y Procedimientos de Enseñanza FCE UNL",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-especializacion-tributacion.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Tributación - FCE UNL",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-especializacion-en-direccion-y-gestion-de-organizaciones-publicas.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-maestria-en-administracion-publica.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración Pública",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-maestria-en-contabilidad-y-auditoria.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Contabilidad y Auditoría",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-maestria-en-responsabilidad-social-organizacional.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Responsabilidad Social Organizacional",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-maestria-en-economia-aplicada.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Economía Aplicada",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-maestria-administracion-y-finanzas.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración y Finanzas",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-folleto-diplomatura-tributos-santa-fe.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomatura Universitaria Superior en Tributos de la Provincia de Santa Fe y Convenio Multilateral",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-ok-nota-baja.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Nota de Solicitud de Baja de Carrera de Posgrado",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Requisitos de Inscripción a Carreras de Posgrado para Estudiantes Nacionales",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-estudiantes-nacionales-requisitos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CURSOS DE POSGRADO",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-tutorial-reinscripcion-anual.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Tutorial Reinscripción Anual",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Resolución C.S. Nº 503/18: Correlatividades del Plan de Estudios de Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición de la carrera de Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Res. C.S. Nº 502 del 25-10-18 Modificación Plan de Estudios Contador Público",
+      "category": "Complementario"
+    }
+  }
+}

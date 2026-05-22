@@ -70,6 +70,19 @@ export async function validateIndex({ kbRoot } = {}) {
   }
 
   const items = Array.isArray(index.items) ? index.items : [];
+
+  const routingPath = join(kbRoot, 'routing_metadata.json');
+  let routingMetadata;
+  if (!existsSync(routingPath)) {
+    errors.push(`No existe routing_metadata.json en ${kbRoot}. Ejecute 'node tools/scraper/generate_routing_metadata.mjs'`);
+  } else {
+    try {
+      routingMetadata = JSON.parse(await readFile(routingPath, 'utf8'));
+    } catch (err) {
+      errors.push(`routing_metadata.json no parsea como JSON: ${err.message}`);
+    }
+  }
+
   const seenPaths = new Map();
   const seenTitles = new Map();
   const categoryCounts = new Map();
@@ -129,6 +142,24 @@ export async function validateIndex({ kbRoot } = {}) {
     if (item.canonicalUrl !== undefined) {
       if (typeof item.canonicalUrl !== 'string' || !isValidHttpUrl(item.canonicalUrl)) {
         errors.push(`${path}: canonicalUrl inválida`);
+      }
+    }
+
+    if (routingMetadata) {
+      const mapping = routingMetadata.mappings?.[path];
+      if (!mapping) {
+        errors.push(`${path}: no está mapeado en routing_metadata.json. Ejecute 'node tools/scraper/generate_routing_metadata.mjs'`);
+      } else {
+        const allowedSectors = new Set([
+          'posgrados_graduados',
+          'grado',
+          'posgrados_cursos_sin_titulo',
+          'docentes',
+          'tramites_bedelia'
+        ]);
+        if (!allowedSectors.has(mapping.sector)) {
+          errors.push(`${path}: tiene un sector de ruteo inválido: '${mapping.sector}'`);
+        }
       }
     }
   }
