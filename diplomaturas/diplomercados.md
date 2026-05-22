@@ -111,6 +111,8 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+
 ## Contacto
 
 - **Director/a académico/a**: Mg. Rogelio Villanueva
