@@ -157,4 +157,4 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-22 por pipeline de scraping.
+**Última revisión humana**: 2026-05-22

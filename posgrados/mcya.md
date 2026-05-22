@@ -153,4 +153,4 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-22 por pipeline de scraping.
+**Última revisión humana**: 2026-05-22

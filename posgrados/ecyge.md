@@ -148,4 +148,4 @@ Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripció
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-22 por pipeline de scraping.
+**Última revisión humana**: 2026-05-22

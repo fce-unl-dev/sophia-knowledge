@@ -157,4 +157,4 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-22 por pipeline de scraping.
+**Última revisión humana**: 2026-05-22
