@@ -1,6 +1,6 @@
 # {NOMBRE OFICIAL DEL PROGRAMA}
 
-{Breve párrafo introductorio/resumen descriptivo de la propuesta. Preservá la introducción narrativa del MD actual si no contradice el scrape.}
+{Breve párrafo introductorio/resumen descriptivo de la propuesta. Preservá la introducción narrativa si es correcta. IMPORTANTE PARA WHATSAPP: No uses títulos con "#" o "##" dentro de esta descripción ya que se mostrarán con los numerales literalmente en la pantalla del celular. Si necesitás destacar secciones internas, usá negrita simple en una sola línea (ej: **Información importante:**) seguido de un salto de línea}
 
 ---
 
@@ -56,19 +56,19 @@
 
 ## Aranceles e inscripción
 
-- **Matrícula**: {Monto en pesos o "consultar"}
-- **Cuotas**: {Cantidad y monto, o "consultar"}
-- **Modalidad de pago**: {Sistema Mercurio UNL, transferencia, etc.}
-- **Becas disponibles**: {Tipo, criterios, link si lo hay}
-- **Estado actual de inscripción**: {Abierta hasta {fecha} | Cerrada — próxima cohorte en {fecha} | Por confirmar}
-- **Link de pre-inscripción**: {URL exacta}
+- **Matrícula**: {Monto exacto en pesos. Ej: **$ 15.000**. Si no está definido o es del año pasado, escribir: **A confirmar para ciclo 2026/2027** para evitar que Sophia informe precios desactualizados como vigentes}
+- **Cuotas**: {Cantidad y monto. Ej: **10 cuotas de $ 20.000** (valor a mayo 2026) o **A consultar**}
+- **Modalidad de pago**: {Sistema Mercurio UNL, transferencia bancaria, etc.}
+- **Becas disponibles**: {Descuentos para graduados, docentes, convenios, etc., con su respectivo enlace si lo hubiera}
+- **Estado actual de inscripción**: {Abierta hasta el **15 de junio de 2026** | Cerrada — próxima cohorte en **2027** | Por confirmar}
+- **Link de pre-inscripción**: {URL completa y exacta al formulario de inscripción}
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: {YYYY-MM o YYYY-MM-DD}
+- **Fecha de inicio**: {Formato AAAA-MM-DD o AAAA-MM. Ej: **2026-08-15** o **2026-08**. Si no hay fecha firme, escribir **A confirmar**. Importante: Si la fecha que ponés aquí ya pasó en el calendario real, Sophia le dirá al usuario que la cohorte ya comenzó o finalizó}
 - **Estado**: {Abierta | Cerrada | Por confirmar}
-- **Fuente del dato**: {URL donde se verificó este dato}
-- **Última actualización del dato**: {YYYY-MM-DD}
+- **Fuente del dato**: {URL de la web de la FCE o número de resolución que aprueba esta cohorte}
+- **Última actualización del dato**: {AAAA-MM-DD de la última verificación humana. Ej: **2026-05-22**}
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
