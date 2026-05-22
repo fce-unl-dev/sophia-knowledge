@@ -1,7 +1,6 @@
 # {NOMBRE OFICIAL DEL PROGRAMA}
 
-> Plantilla canónica para fichas de propuestas académicas de la FCE-UNL.
-> Reemplazá el contenido entre `{}` con datos verificados. Si un campo no aplica, ponelo en `null` o aclará explícitamente "no publicado en fuentes oficiales".
+{Breve párrafo introductorio/resumen descriptivo de la propuesta. Preservá la introducción narrativa del MD actual si no contradice el scrape.}
 
 ---
 
@@ -12,7 +11,7 @@
 - **Tipo**: {Doctorado | Maestría | Especialización | Diplomatura | Curso de formación}
 - **Título que otorga**: {Texto exacto del título oficial}
 - **Acreditación CONEAU**: {Si aplica: número de resolución y categoría; o "no aplica" / "en trámite"}
-- **Unidad académica**: FCE-UNL
+- **Unidad académica**: {FCE-UNL o la unidad sede correspondiente si es una propuesta compartida}
 - **Carreras compartidas con otras unidades**: {Si aplica, indicar facultades/universidades}
 
 ## Modalidad y duración
@@ -77,9 +76,9 @@
 
 - **Director/a académico/a**: {Nombre, si está publicado}
 - **Email del programa**: {Email específico, no genérico de Posgrado}
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
-- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
+- **WhatsApp Posgrado**: 3425191199 {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
+- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181 {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
 
 ## Información adicional relevante
 
