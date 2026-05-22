@@ -484,6 +484,15 @@ Env:
     await writeFile(indexPath, JSON.stringify(indexData, null, 2) + '\n', 'utf8');
     console.log(`Actualizado indice.json (versión ${indexData.version})`);
 
+    // Regenerate routing metadata to include new files
+    try {
+      console.log('Regenerando routing_metadata.json por cambios en el índice (Drive sync)...');
+      const { execSync } = await import('node:child_process');
+      execSync(`node "${join(here, 'generate_routing_metadata.mjs')}"`, { stdio: 'inherit' });
+    } catch (err) {
+      console.error('Error al regenerar routing_metadata.json:', err.message);
+    }
+
     // Save state
     driveState.lastSynced = new Date().toISOString();
     await writeFile(statePath, JSON.stringify(driveState, null, 2) + '\n', 'utf8');
