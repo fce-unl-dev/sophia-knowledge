@@ -16,12 +16,12 @@ La Maestría en Responsabilidad Social Organizacional (MRSO) de la FCE-UNL brind
 
 ## Modalidad y duración
 
-- **Modalidad**: **A distancia**, en el marco del SIED-UNL (Sistema Institucional de Educación a Distancia)
+- **Modalidad**: A distancia, en el marco del SIED-UNL (Sistema Institucional de Educación a Distancia)
 - **Días y horarios de cursada**: Aula virtual asincrónica + actividades sincrónicas — sin franja horaria fija publicada
 - **Lugar**: 100% online (virtual)
 - **Idioma**: Español
 - **Duración cursada**: 2 años
-- **Duración trabajo final**: Plazo máximo 4 años desde la inscripción a la carrera
+- **Duración trabajo final / tesis**: Plazo máximo 4 años desde la inscripción a la carrera
 - **Carga horaria total**: ~705 horas / 47 UCAs (Introductorio 105 hs + Especializado 330 hs + Optativa 45 hs + Laboratorio TF 60 hs + Tutorías 165 hs)
 
 ## Plan de estudios
@@ -94,7 +94,7 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Graduados del campo de las ciencias económicas con título universitario de grado, de carreras de no menos de 4 años de duración, de universidades argentinas o extranjeras legalmente reconocidas. Graduados sin título de Contador Público, Licenciado en Administración, Licenciado en Economía o similar extranjero deberán aprobar un Curso de Nivelación o examen demostrativo.
+- **Título previo requerido**: Graduados del campo de las ciencias económicas que posean título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas. Los graduados que no cuenten con el título de Contador Público, Licenciado en Administración, Licenciado en Economía o similar extranjero deberán aprobar un Curso de Nivelación o en su lugar un examen en el que se demuestre el conocimiento de los contenidos del mismo.
 - **Idiomas**: No publicado — consultar
 - **Otros antecedentes**: No publicados — consultar
 - **Documentación a presentar**: No publicada en detalle — consultar
@@ -116,11 +116,11 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199
 - **Última actualización del dato**: 2026-05-17
 
-> Nota: Confirmar próxima cohorte con mrso@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director académico**: Dr. Juan Pablo Del Barco (CPN; Esp. en Tributación UNL; Doctor en "Economia Aziendale" por la Università Politecnica delle Marche, Italia)
+- **Director/a académico/a**: Dr. Juan Pablo Del Barco
 - **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos**: Mg. Julia Cristobal
 - **Email del programa**: mrso@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
@@ -129,33 +129,32 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 
 ## Información adicional relevante
 
-- **Cursado y evaluación**: Plan de trabajo en aula virtual con estudio de casos, ensayos analíticos, trabajos de indagación teórica. Dos instancias de aprobación: cursado virtual + trabajos prácticos/casos/monografía o evaluación final.
+- **Cursado y evaluación**: La modalidad de dictado es a distancia, en el marco del SIED-UNL. El cursado comprende el desarrollo del plan de trabajo en el aula virtual, el mismo consistirá en diversas propuestas de actividades para el aprendizaje tales como estudio de casos, ensayos analíticos, trabajos de indagación teórica, etc. La aprobación de los cursos se realiza constando de dos instancias, la primera es cumplimentar el cursado virtual de las clases programadas, y la segunda es la realización de trabajos prácticos, estudio de casos, prácticas o monografía como trabajo final, según se determine y/o la aprobación de una evaluación final.
 - **Comité Académico**:
-  - Dr. Juan Pablo Del Barco (Director)
-  - Dr. Sergio Miguel Hauque (Docente)
-  - Dr. José Mariano Moneva (Docente, España)
-  - Dra. Nieves García Casarejos (Docente, España)
-  - Mg. Andrea Pacífico (Secretaria Académica)
+  - Dr. Juan Pablo Del Barco (Director de la carrera)
+  - Dr. Sergio Miguel Hauque (Docente de la carrera)
+  - Dr. Jose Mariano Moneva (Docente de la carrera)
+  - Dra. Nieves García Casarejos (Docente de la carrera)
+  - Mg. Andrea Pacífico (Secretaria Académica y de Bienestar Estudiantil)
   - Mg. Marcela Andrea Martin (Secretaria de Posgrado)
-  - Mg. Darío Mejías (Secretario de Investigación y Vinculación)
-- **Perfil del egresado**: Formar profesionales que tomen decisiones considerando criterios éticos, sociales y medioambientales, evaluando el impacto positivo o negativo sobre todos los grupos de interés vinculados con las organizaciones.
+  - Mg. Dario Mejias (Secretario de Investigación y Vinculación)
+- **Perfil del egresado**: Formar profesionales que, a la hora de tomar decisiones, tengan en cuenta criterios éticos, sociales y medioambientales, y que evalúen el impacto, positivo o negativo, que sus decisiones tienen sobre todos los grupos de interés vinculados con las organizaciones.
 
 ## Fuentes consultadas
 
 - https://fce.unl.edu.ar/mrso/ (homepage)
-- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=187 (Presentación)
+- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=187 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=189 (Cursado y evaluación)
-- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=190 (Duración)
-- https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199 (Informes e inscripción)
-- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=191 (Objetivos)
-- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=192 (Estructura del plan)
+- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=190 (Duración de la carrera)
+- https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199 (Informes e inscripción, requisitos)
+- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=192 (Estructura del plan de estudio)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=193 (Correlatividades)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=194 (Asignaturas)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=195 (Optativas)
-- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=196 (Conducción)
+- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=196 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=197 (Comité Académico)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=198 (Cuerpo Docente)
 
 ---
 
-**Última revisión humana**: 2026-05-21
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-22 por pipeline de scraping.

@@ -1,0 +1,77 @@
+{
+  "slug": "mrso",
+  "url": "https://fce.unl.edu.ar/mrso/",
+  "strategy": "fce-microsite",
+  "content_hash": "ccab548c4334872a795b6ac4a01071710f0c75d38455a20dbd9dedbbb7ef7fcb",
+  "previous_hash": null,
+  "pages_count": 13,
+  "pages": [
+    {
+      "url": "https://fce.unl.edu.ar/mrso/",
+      "title": "INFORMACIÓN DE INTERÉS",
+      "length": 761
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=187",
+      "title": "PRESENTACIÓN DE LA CARRERA",
+      "length": 2206
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=189",
+      "title": "CURSADO Y EVALUACIÓN",
+      "length": 1506
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=190",
+      "title": "DURACIÓN DE LA CARRERA",
+      "length": 1052
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199",
+      "title": "INFORMES E INSCRIPCIÓN",
+      "length": 1421
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=191",
+      "title": "OBJETIVOS CURRICULARES",
+      "length": 1296
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=192",
+      "title": "ESTRUCTURA DEL PLAN DE ESTUDIO",
+      "length": 2345
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=193",
+      "title": "CORRELATIVIDADES",
+      "length": 1472
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=194",
+      "title": "ASIGNATURAS",
+      "length": 8834
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=195",
+      "title": "OPTATIVAS",
+      "length": 3910
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=196",
+      "title": "CONDUCCIÓN DE LA CARRERA",
+      "length": 2485
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=197",
+      "title": "COMITÉ ACADÉMICO",
+      "length": 1260
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=198",
+      "title": "CUERPO DOCENTE",
+      "length": 1399
+    }
+  ],
+  "scraped_at": "2026-05-22T01:47:47.233Z",
+  "last_checked_at": "2026-05-22T01:47:47.233Z"
+}
