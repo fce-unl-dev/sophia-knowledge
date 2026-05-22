@@ -1,0 +1,17 @@
+{
+  "slug": "doctorado-estudios-sociales",
+  "url": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/",
+  "strategy": "wordpress-homepage",
+  "content_hash": "1726ad2cfedc1390993e4c0d60c251267f3cc574b8b2cbe4f02920acf2ae34db",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/",
+      "title": "Doctorado en Estudios Sociales – Otro sitio más de FHUC Sites",
+      "length": 2007
+    }
+  ],
+  "scraped_at": "2026-05-22T01:55:52.704Z",
+  "last_checked_at": "2026-05-22T01:55:52.704Z"
+}
