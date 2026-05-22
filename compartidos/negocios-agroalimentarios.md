@@ -93,4 +93,4 @@ Nómina docente por asignatura no publicada en fuentes oficiales; consultar a po
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-21 por pipeline de scraping.
+**Última revisión humana**: 2026-05-22
