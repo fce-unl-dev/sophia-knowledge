@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "lastUpdated": "2026-05-22",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
@@ -424,6 +424,150 @@
       "title": "Beneficios para Graduados FCE UNL",
       "category": "Información general de Posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/"
+    },
+    {
+      "path": "complementos/pruebas-asistente-virtual-posgrado.md",
+      "title": "Posgrados y Trámites en la FCE-UNL",
+      "category": "Complementario",
+      "canonicalUrl": "https://docs.google.com/document/d/1UA36aOsnN0QcrT21gcUIFGFPNfYo4xL1/edit?usp=drivesdk&ouid=103512193092256901428&rtpof=true&sd=true"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md",
+      "title": "Resolución que Deroga Resoluciones Anteriores",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1aKJB4nFR59N6tJvPKcYUhFK8X-G-lcFE/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md",
+      "title": "Resolución CD 640/25",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1c6t6L6fggKeeQ_cPRiUBYMpt6vRymCmn/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-res-500-25.md",
+      "title": "Resolución C.D. Nº 500/25",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1puDqQTkSqyYn2bh70wVpJ7d2iKQfespY/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md",
+      "title": "Normas y Procedimientos de Enseñanza FCE UNL",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/17GYzsySZi_t_Y588ralPRLs_c8Tzf3I_/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-especializacion-tributacion.md",
+      "title": "Especialización en Tributación - FCE UNL",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/14QMiHqfpbRyqWKL-_xNpjl5-JJn6l8nE/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-especializacion-en-direccion-y-gestion-de-organizaciones-publicas.md",
+      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1XnCMpVqZ559FHdM7ktbnM_MTLaLTrwBE/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-maestria-en-administracion-publica.md",
+      "title": "Maestría en Administración Pública",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1slaD5TOuh7KU6i27yABL8biQOnQWeSC8/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-maestria-en-contabilidad-y-auditoria.md",
+      "title": "Maestría en Contabilidad y Auditoría",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1S4_U2Cj8KZL1qJz8dnjjORC0BT5-8yoh/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-maestria-en-responsabilidad-social-organizacional.md",
+      "title": "Maestría en Responsabilidad Social Organizacional",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1IfR3GClUgj7rBARhr1PyUCF9G0TW9Q-r/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-maestria-en-economia-aplicada.md",
+      "title": "Maestría en Economía Aplicada",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/17luBOd2yaSEDVYGObko3r7uSrfao_W11/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-maestria-administracion-y-finanzas.md",
+      "title": "Maestría en Administración y Finanzas",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1EulJw5AtZWWLDxV0VeCswH6kd9pqaFrf/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-folleto-diplomatura-tributos-santa-fe.md",
+      "title": "Diplomatura Universitaria Superior en Tributos de la Provincia de Santa Fe y Convenio Multilateral",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1m-8lkuEP8x6Yfvz6Fa_6JXsdD8k76Ukj/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md",
+      "title": "PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO",
+      "category": "Complementario",
+      "canonicalUrl": "https://docs.google.com/document/d/1erMHK3YNHUZKPWFGO3V06eeVZUXu67Wo/edit?usp=drivesdk&ouid=103512193092256901428&rtpof=true&sd=true"
+    },
+    {
+      "path": "complementos/04-posgrado-ok-nota-baja.md",
+      "title": "Nota de Solicitud de Baja de Carrera de Posgrado",
+      "category": "Complementario",
+      "canonicalUrl": "https://docs.google.com/document/d/1bssjbLAnMSdoX9bts4hqlcT308LBty6e/edit?usp=drivesdk&ouid=103512193092256901428&rtpof=true&sd=true"
+    },
+    {
+      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md",
+      "title": "Requisitos de Inscripción a Carreras de Posgrado para Estudiantes Nacionales",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1meB5GESj_wIAyX77bTUrqQhCGEk3rtrO/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos.md",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1CLv1sY8CA3AGg89_XxK00ZxD_T77XpFg/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1ZCEh7oVYUu5J2tPHhCn0EqF0Bq3Tgi4C/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md",
+      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CURSOS DE POSGRADO",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1iU4k_yBRu2ucL0IJ0MQq5RCJt3wpQ038/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-tutorial-reinscripcion-anual.md",
+      "title": "Tutorial Reinscripción Anual",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1-msRLE3mdatTjFfRAVPgnveXZcDe03Q5/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md",
+      "title": "Resolución C.S. Nº 503/18: Correlatividades del Plan de Estudios de Contador Público",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1bYKx8A1fQ8gmxi4naPOa_tvvXCdCHjbx/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md",
+      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1hUDpfopNnoalWlKOwCSwOA7JEcLARQcJ/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md",
+      "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición de la carrera de Contador Público",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/17k4mSNdGSNQ6HHU06caf414FLBNtG9Q7/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md",
+      "title": "Res. C.S. Nº 502 del 25-10-18 Modificación Plan de Estudios Contador Público",
+      "category": "Complementario",
+      "canonicalUrl": "https://drive.google.com/file/d/1yNjC8ftJevwC4e4E1PmbUXIWVUfVrCOv/view?usp=drivesdk"
     }
   ]
 }

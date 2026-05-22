@@ -31,6 +31,12 @@ export const REQUIRED_SECTIONS = [
   'Fuentes consultadas',
 ];
 
+export const REQUIRED_COMPLEMENT_SECTIONS = [
+  'Contenido',
+  'Metadatos del Documento',
+  'Fuentes consultadas',
+];
+
 export const PROHIBITED_PHRASES = [
   'Muchas gracias por tu interés',
   'Muchas gracias por su interés',
@@ -40,6 +46,12 @@ export const PROHIBITED_PHRASES = [
   'Es un placer informarte',
   'Reciba un cordial saludo',
 ];
+
+// ---------- Helpers ----------
+
+export function isComplement(md) {
+  return md.includes('## Contenido');
+}
 
 // ---------- Checks (funciones puras) ----------
 
@@ -53,9 +65,11 @@ export function checkStructure(md) {
     errors.push('Falta H1 al inicio del documento');
   }
 
+  const sections = isComplement(md) ? REQUIRED_COMPLEMENT_SECTIONS : REQUIRED_SECTIONS;
+
   // Secciones presentes y en orden
   let cursor = 0;
-  for (const section of REQUIRED_SECTIONS) {
+  for (const section of sections) {
     const re = new RegExp(`^##\\s+${escapeRegex(section)}\\s*$`, 'm');
     const m = re.exec(md.slice(cursor));
     if (!m) {
@@ -94,6 +108,9 @@ export function checkPlaceholders(md) {
 
 export function checkClosing(md) {
   const errors = [];
+  if (isComplement(md)) {
+    return errors;
+  }
   if (!/\*\*Última revisión humana\*\*/.test(md)) {
     errors.push('Falta línea de cierre "**Última revisión humana**:"');
   }

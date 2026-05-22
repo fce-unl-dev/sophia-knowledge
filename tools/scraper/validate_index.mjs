@@ -30,6 +30,7 @@ const ALLOWED_TOP_LEVEL_DIRS = new Set([
   'cursos',
   'posgrado-general',
   'estudiantes',
+  'complementos',
 ]);
 
 const COURSE_AGGREGATE_BASENAMES = new Set([
