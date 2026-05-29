@@ -3,12 +3,12 @@
   "lastUpdated": "2026-05-29",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
-    "academica": 0,
-    "institucional": 0,
-    "ciencia": 0,
-    "extension": 0,
-    "internacionales": 0,
-    "docentes": 2,
+    "academica": 19,
+    "institucional": 22,
+    "ciencia": 22,
+    "extension": 6,
+    "internacionales": 7,
+    "docentes": 3,
     "posgrados_graduados": 43,
     "posgrados_cursos_sin_titulo": 24,
     "grado": 23,
@@ -596,6 +596,468 @@
       "displayName": "Estudiantes de Grado",
       "title": "Resolución 2598/2023",
       "category": "Complementario"
+    },
+    "academica/academica.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "academica",
+      "category": "Académica"
+    },
+    "academica/adscripciones.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Adscripciones",
+      "category": "Académica"
+    },
+    "academica/asignaturas-del-plan-de-estudios-2019-la.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Asignaturas del Plan de Estudios 2019 LA",
+      "category": "Académica"
+    },
+    "academica/asignaturas-del-plan-de-estudios-2019-le.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Asignaturas del Plan de Estudios 2019 LE",
+      "category": "Académica"
+    },
+    "academica/asignaturas-plan-2019-cp.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Asignaturas del Plan de Estudios 2019 CP",
+      "category": "Académica"
+    },
+    "academica/aulas-virtuales.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Aulas Virtuales",
+      "category": "Académica"
+    },
+    "academica/calendario-academico.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Calendario Académico",
+      "category": "Académica"
+    },
+    "academica/cambio-2026-de-planes-de-estudio.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Cambio 2026 de Planes de Estudio",
+      "category": "Académica"
+    },
+    "academica/contador-publico-nacional.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Contador Público/ Contador Público Nacional",
+      "category": "Académica"
+    },
+    "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
+      "category": "Académica"
+    },
+    "academica/ingreso-grado.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "INGRESO A CARRERAS DE GRADO",
+      "category": "Académica"
+    },
+    "academica/licenciado-en-administracion.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Licenciado en Administración",
+      "category": "Académica"
+    },
+    "academica/licenciado-en-economia.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Licenciado en Economía",
+      "category": "Académica"
+    },
+    "academica/practicas-academicas-internas.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Prácticas Académicas Internas",
+      "category": "Académica"
+    },
+    "academica/propuesta-academica.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Propuesta Académica",
+      "category": "Académica"
+    },
+    "academica/regimen-de-ensenanza.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Normas y Procedimientos de Enseñanza (ex Régimen de enseñanza)",
+      "category": "Académica"
+    },
+    "academica/reglamentaciones.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Reglamentaciones",
+      "category": "Académica"
+    },
+    "academica/tecnicatura-en-administracion-y-gestion-publica.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Tecnicatura en Administración y Gestión Pública",
+      "category": "Académica"
+    },
+    "academica/tecnicatura-universitaria-en-control-y-auditoria-gubernamental.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Tecnicatura Universitaria en Control y Auditoría Gubernamental",
+      "category": "Académica"
+    },
+    "docentes/docentes.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Docentes",
+      "category": "Docentes"
+    },
+    "institucional/biblioteca-biblioteca.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Biblioteca",
+      "category": "Institucional"
+    },
+    "institucional/concursos-docentes-abiertos-abiertos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Abiertos",
+      "category": "Institucional"
+    },
+    "institucional/concursos-docentes-concursos-docentes.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Concursos Docentes",
+      "category": "Institucional"
+    },
+    "institucional/concursos-docentes-renovaciones-renovaciones.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Renovaciones",
+      "category": "Institucional"
+    },
+    "institucional/cooperadora-cooperadora.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Cooperadora",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-administracion.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Administración y Humanidades",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-contabilidad-e-impuestos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Contabilidad e Impuestos",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-economia.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Economía",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-matematica.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Matemática",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-juridico.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento Jurídico",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamentos",
+      "category": "Institucional"
+    },
+    "institucional/estructura-estructura-academica.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Estructura Académica",
+      "category": "Institucional"
+    },
+    "institucional/gobierno-consejo-directivo-actas-del-consejo-directivo.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Actas del Consejo Directivo",
+      "category": "Institucional"
+    },
+    "institucional/gobierno-consejo-directivo-reglamento-interno.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Reglamento interno",
+      "category": "Institucional"
+    },
+    "institucional/gobierno-gobierno.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Gobierno",
+      "category": "Institucional"
+    },
+    "institucional/himno-himno-unl.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Himno UNL",
+      "category": "Institucional"
+    },
+    "institucional/historia-historia.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Historia",
+      "category": "Institucional"
+    },
+    "institucional/institucional.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Institucional",
+      "category": "Institucional"
+    },
+    "institucional/repositorio-python-repositorio-python.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Repositorio Python",
+      "category": "Institucional"
+    },
+    "institucional/sin-categoria-avances-en-lineamientos-de-gestion.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Avances en los Lineamientos de Gestión",
+      "category": "Institucional"
+    },
+    "institucional/sin-categoria-calidad-institucional.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Calidad Institucional",
+      "category": "Institucional"
+    },
+    "institucional/ubicacion-ubicacion.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Ubicación",
+      "category": "Institucional"
+    },
+    "ciencia/actividades-de-investigacion.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Actividades de investigación",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/banco-de-datos-docentes-con-posgrados-y-formacion-en-lenguas.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Banco de datos docentes con posgrados y formación en lenguas",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/calendario-de-eventos.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Calendario de Eventos",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/centro-de-estudios-del-trabajo-y-la-economia-informal.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Centro de Estudios del Trabajo y la Economía Informal (CETEI)",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/centro-para-el-desarrollo-sostenible-cedes.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Centro para el Desarrollo Sostenible (CEDES)",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/ciencia.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "ciencia",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/concurso-jovenes-investigadores.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Concurso de Jóvenes Investigadores",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/convocatoria-2009.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Convocatoria 2009",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/convocatoria-2010.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Convocatoria 2010",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/convocatoria-2011.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Convocatoria 2011",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/convocatoria-2016.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Convocatoria 2016",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/convocatoria-2020.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Convocatoria 2020",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/iniciacion-a-la-investigacion.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Iniciación a la investigación",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/instituto-de-procesos-curriculares-y-formacion-profesional-en-las-ciencias-economicas-ifce.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Instituto de procesos curriculares y formación profesional en las ciencias económicas (IFCE)",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/numeros-anteriores-rce.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Números anteriores",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/programa-de-incentivos.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Programa de Incentivos",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/propiedad-intelectual.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Propiedad Intelectual",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/proyectos-de-investigacion.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Proyectos de Investigación",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/publicaciones-y-bases-de-datos.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Publicaciones y Bases de Datos",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/revista-ciencias-economicas.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Revista Ciencias Económicas",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/revista-documentos-y-aportes.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "Revista Documentos y Aportes en Administración Pública y Gestión Estatal",
+      "category": "Ciencia y Técnica"
+    },
+    "ciencia/xvi-jornadas-de-investigacion-de-la-fce.md": {
+      "sector": "ciencia",
+      "displayName": "Ciencia y Técnica",
+      "title": "XVI Jornadas de Investigación de la FCE",
+      "category": "Ciencia y Técnica"
+    },
+    "extension/actividades-abiertas-a-la-comunidad.md": {
+      "sector": "extension",
+      "displayName": "Extensión",
+      "title": "Actividades abiertas a la comunidad",
+      "category": "Extensión"
+    },
+    "extension/actividades-de-extension.md": {
+      "sector": "extension",
+      "displayName": "Extensión",
+      "title": "Actividades de Extensión",
+      "category": "Extensión"
+    },
+    "extension/emprendedores.md": {
+      "sector": "extension",
+      "displayName": "Extensión",
+      "title": "Emprendedores",
+      "category": "Extensión"
+    },
+    "extension/extension.md": {
+      "sector": "extension",
+      "displayName": "Extensión",
+      "title": "Extensión",
+      "category": "Extensión"
+    },
+    "extension/gabinete-de-emprendedores.md": {
+      "sector": "extension",
+      "displayName": "Extensión",
+      "title": "Gabinete de Emprendedores",
+      "category": "Extensión"
+    },
+    "extension/visitas-a-empresas-e-instituciones.md": {
+      "sector": "extension",
+      "displayName": "Extensión",
+      "title": "Visitas a empresas e instituciones",
+      "category": "Extensión"
+    },
+    "internacionales/2022-edition.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "2022 Edition",
+      "category": "Relaciones Internacionales"
+    },
+    "internacionales/2023-edition.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "2023 Edition",
+      "category": "Relaciones Internacionales"
+    },
+    "internacionales/2024-edition.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "2024 Edition",
+      "category": "Relaciones Internacionales"
+    },
+    "internacionales/comunidad-graduada-fce-por-el-mundo.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "Comunidad Graduada FCE por el mundo",
+      "category": "Relaciones Internacionales"
+    },
+    "internacionales/internacionales.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "Internacionales",
+      "category": "Relaciones Internacionales"
+    },
+    "internacionales/programa-competitividad-global.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "Programa Competitividad Global",
+      "category": "Relaciones Internacionales"
+    },
+    "internacionales/redes.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "Redes",
+      "category": "Relaciones Internacionales"
     }
   }
 }

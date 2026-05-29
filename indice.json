@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "lastUpdated": "2026-05-29",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
@@ -612,6 +612,468 @@
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/1bIMjp96BgyQvs_mInElLkHSO-be_-xNn/view?usp=drivesdk"
+    },
+    {
+      "path": "academica/academica.md",
+      "title": "academica",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/"
+    },
+    {
+      "path": "academica/adscripciones.md",
+      "title": "Adscripciones",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/adscripciones/"
+    },
+    {
+      "path": "academica/asignaturas-del-plan-de-estudios-2019-la.md",
+      "title": "Asignaturas del Plan de Estudios 2019 LA",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/asignaturas-del-plan-de-estudios-2019-la/"
+    },
+    {
+      "path": "academica/asignaturas-del-plan-de-estudios-2019-le.md",
+      "title": "Asignaturas del Plan de Estudios 2019 LE",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/asignaturas-del-plan-de-estudios-2019-le/"
+    },
+    {
+      "path": "academica/asignaturas-plan-2019-cp.md",
+      "title": "Asignaturas del Plan de Estudios 2019 CP",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/asignaturas-plan-2019-cp/"
+    },
+    {
+      "path": "academica/aulas-virtuales.md",
+      "title": "Aulas Virtuales",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/aulas-virtuales/"
+    },
+    {
+      "path": "academica/calendario-academico.md",
+      "title": "Calendario Académico",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/calendario-academico/"
+    },
+    {
+      "path": "academica/cambio-2026-de-planes-de-estudio.md",
+      "title": "Cambio 2026 de Planes de Estudio",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/cambio-2026-de-planes-de-estudio/"
+    },
+    {
+      "path": "academica/contador-publico-nacional.md",
+      "title": "Contador Público/ Contador Público Nacional",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/contador-publico-nacional/"
+    },
+    {
+      "path": "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md",
+      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/"
+    },
+    {
+      "path": "academica/ingreso-grado.md",
+      "title": "INGRESO A CARRERAS DE GRADO",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/ingreso-grado/"
+    },
+    {
+      "path": "academica/licenciado-en-administracion.md",
+      "title": "Licenciado en Administración",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/licenciado-en-administracion/"
+    },
+    {
+      "path": "academica/licenciado-en-economia.md",
+      "title": "Licenciado en Economía",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/licenciado-en-economia/"
+    },
+    {
+      "path": "academica/practicas-academicas-internas.md",
+      "title": "Prácticas Académicas Internas",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/practicas-academicas-internas/"
+    },
+    {
+      "path": "academica/propuesta-academica.md",
+      "title": "Propuesta Académica",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/propuesta-academica/"
+    },
+    {
+      "path": "academica/regimen-de-ensenanza.md",
+      "title": "Normas y Procedimientos de Enseñanza (ex Régimen de enseñanza)",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/regimen-de-ensenanza/"
+    },
+    {
+      "path": "academica/reglamentaciones.md",
+      "title": "Reglamentaciones",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/reglamentaciones/"
+    },
+    {
+      "path": "academica/tecnicatura-en-administracion-y-gestion-publica.md",
+      "title": "Tecnicatura en Administración y Gestión Pública",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/tecnicatura-en-administracion-y-gestion-publica/"
+    },
+    {
+      "path": "academica/tecnicatura-universitaria-en-control-y-auditoria-gubernamental.md",
+      "title": "Tecnicatura Universitaria en Control y Auditoría Gubernamental",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/tecnicatura-universitaria-en-control-y-auditoria-gubernamental/"
+    },
+    {
+      "path": "docentes/docentes.md",
+      "title": "Docentes",
+      "category": "Docentes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/docentes/"
+    },
+    {
+      "path": "institucional/biblioteca-biblioteca.md",
+      "title": "Biblioteca",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/biblioteca/biblioteca/"
+    },
+    {
+      "path": "institucional/concursos-docentes-abiertos-abiertos.md",
+      "title": "Abiertos",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/abiertos/abiertos/"
+    },
+    {
+      "path": "institucional/concursos-docentes-concursos-docentes.md",
+      "title": "Concursos Docentes",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/concursos-docentes/"
+    },
+    {
+      "path": "institucional/concursos-docentes-renovaciones-renovaciones.md",
+      "title": "Renovaciones",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/renovaciones/renovaciones/"
+    },
+    {
+      "path": "institucional/cooperadora-cooperadora.md",
+      "title": "Cooperadora",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/cooperadora/cooperadora/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-administracion.md",
+      "title": "Departamento de Administración y Humanidades",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-administracion/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-contabilidad-e-impuestos.md",
+      "title": "Departamento de Contabilidad e Impuestos",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-contabilidad-e-impuestos/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-economia.md",
+      "title": "Departamento de Economía",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-economia/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-matematica.md",
+      "title": "Departamento de Matemática",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-matematica/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-juridico.md",
+      "title": "Departamento Jurídico",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-juridico/"
+    },
+    {
+      "path": "institucional/estructura-departamentos.md",
+      "title": "Departamentos",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/"
+    },
+    {
+      "path": "institucional/estructura-estructura-academica.md",
+      "title": "Estructura Académica",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/estructura-academica/"
+    },
+    {
+      "path": "institucional/gobierno-consejo-directivo-actas-del-consejo-directivo.md",
+      "title": "Actas del Consejo Directivo",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/consejo-directivo/actas-del-consejo-directivo/"
+    },
+    {
+      "path": "institucional/gobierno-consejo-directivo-reglamento-interno.md",
+      "title": "Reglamento interno",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/consejo-directivo/reglamento-interno/"
+    },
+    {
+      "path": "institucional/gobierno-gobierno.md",
+      "title": "Gobierno",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/gobierno/"
+    },
+    {
+      "path": "institucional/himno-himno-unl.md",
+      "title": "Himno UNL",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/himno/himno-unl/"
+    },
+    {
+      "path": "institucional/historia-historia.md",
+      "title": "Historia",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/historia/historia/"
+    },
+    {
+      "path": "institucional/institucional.md",
+      "title": "Institucional",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/"
+    },
+    {
+      "path": "institucional/repositorio-python-repositorio-python.md",
+      "title": "Repositorio Python",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/repositorio-python/repositorio-python/"
+    },
+    {
+      "path": "institucional/sin-categoria-avances-en-lineamientos-de-gestion.md",
+      "title": "Avances en los Lineamientos de Gestión",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/sin-categoria/avances-en-lineamientos-de-gestion/"
+    },
+    {
+      "path": "institucional/sin-categoria-calidad-institucional.md",
+      "title": "Calidad Institucional",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/sin-categoria/calidad-institucional/"
+    },
+    {
+      "path": "institucional/ubicacion-ubicacion.md",
+      "title": "Ubicación",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/ubicacion/ubicacion/"
+    },
+    {
+      "path": "ciencia/actividades-de-investigacion.md",
+      "title": "Actividades de investigación",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/actividades-de-investigacion/"
+    },
+    {
+      "path": "ciencia/banco-de-datos-docentes-con-posgrados-y-formacion-en-lenguas.md",
+      "title": "Banco de datos docentes con posgrados y formación en lenguas",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/banco-de-datos-docentes-con-posgrados-y-formacion-en-lenguas/"
+    },
+    {
+      "path": "ciencia/calendario-de-eventos.md",
+      "title": "Calendario de Eventos",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/calendario-de-eventos/"
+    },
+    {
+      "path": "ciencia/centro-de-estudios-del-trabajo-y-la-economia-informal.md",
+      "title": "Centro de Estudios del Trabajo y la Economía Informal (CETEI)",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/centro-de-estudios-del-trabajo-y-la-economia-informal/"
+    },
+    {
+      "path": "ciencia/centro-para-el-desarrollo-sostenible-cedes.md",
+      "title": "Centro para el Desarrollo Sostenible (CEDES)",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/centro-para-el-desarrollo-sostenible-cedes/"
+    },
+    {
+      "path": "ciencia/ciencia.md",
+      "title": "ciencia",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/"
+    },
+    {
+      "path": "ciencia/concurso-jovenes-investigadores.md",
+      "title": "Concurso de Jóvenes Investigadores",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/concurso-jovenes-investigadores/"
+    },
+    {
+      "path": "ciencia/convocatoria-2009.md",
+      "title": "Convocatoria 2009",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/convocatoria-2009/"
+    },
+    {
+      "path": "ciencia/convocatoria-2010.md",
+      "title": "Convocatoria 2010",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/convocatoria-2010/"
+    },
+    {
+      "path": "ciencia/convocatoria-2011.md",
+      "title": "Convocatoria 2011",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/convocatoria-2011/"
+    },
+    {
+      "path": "ciencia/convocatoria-2016.md",
+      "title": "Convocatoria 2016",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/convocatoria-2016/"
+    },
+    {
+      "path": "ciencia/convocatoria-2020.md",
+      "title": "Convocatoria 2020",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/convocatoria-2020/"
+    },
+    {
+      "path": "ciencia/iniciacion-a-la-investigacion.md",
+      "title": "Iniciación a la investigación",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/iniciacion-a-la-investigacion/"
+    },
+    {
+      "path": "ciencia/instituto-de-procesos-curriculares-y-formacion-profesional-en-las-ciencias-economicas-ifce.md",
+      "title": "Instituto de procesos curriculares y formación profesional en las ciencias económicas (IFCE)",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/instituto-de-procesos-curriculares-y-formacion-profesional-en-las-ciencias-economicas-ifce/"
+    },
+    {
+      "path": "ciencia/numeros-anteriores-rce.md",
+      "title": "Números anteriores",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/numeros-anteriores-rce/"
+    },
+    {
+      "path": "ciencia/programa-de-incentivos.md",
+      "title": "Programa de Incentivos",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/programa-de-incentivos/"
+    },
+    {
+      "path": "ciencia/propiedad-intelectual.md",
+      "title": "Propiedad Intelectual",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/propiedad-intelectual/"
+    },
+    {
+      "path": "ciencia/proyectos-de-investigacion.md",
+      "title": "Proyectos de Investigación",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/proyectos-de-investigacion/"
+    },
+    {
+      "path": "ciencia/publicaciones-y-bases-de-datos.md",
+      "title": "Publicaciones y Bases de Datos",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/publicaciones-y-bases-de-datos/"
+    },
+    {
+      "path": "ciencia/revista-ciencias-economicas.md",
+      "title": "Revista Ciencias Económicas",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/revista-ciencias-economicas/"
+    },
+    {
+      "path": "ciencia/revista-documentos-y-aportes.md",
+      "title": "Revista Documentos y Aportes en Administración Pública y Gestión Estatal",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/revista-documentos-y-aportes/"
+    },
+    {
+      "path": "ciencia/xvi-jornadas-de-investigacion-de-la-fce.md",
+      "title": "XVI Jornadas de Investigación de la FCE",
+      "category": "Ciencia y Técnica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/xvi-jornadas-de-investigacion-de-la-fce/"
+    },
+    {
+      "path": "extension/actividades-abiertas-a-la-comunidad.md",
+      "title": "Actividades abiertas a la comunidad",
+      "category": "Extensión",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/extension/actividades-abiertas-a-la-comunidad/"
+    },
+    {
+      "path": "extension/actividades-de-extension.md",
+      "title": "Actividades de Extensión",
+      "category": "Extensión",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/extension/actividades-de-extension/"
+    },
+    {
+      "path": "extension/emprendedores.md",
+      "title": "Emprendedores",
+      "category": "Extensión",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/extension/emprendedores/"
+    },
+    {
+      "path": "extension/extension.md",
+      "title": "Extensión",
+      "category": "Extensión",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/extension/"
+    },
+    {
+      "path": "extension/gabinete-de-emprendedores.md",
+      "title": "Gabinete de Emprendedores",
+      "category": "Extensión",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/extension/gabinete-de-emprendedores/"
+    },
+    {
+      "path": "extension/visitas-a-empresas-e-instituciones.md",
+      "title": "Visitas a empresas e instituciones",
+      "category": "Extensión",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/extension/visitas-a-empresas-e-instituciones/"
+    },
+    {
+      "path": "internacionales/2022-edition.md",
+      "title": "2022 Edition",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/2022-edition/"
+    },
+    {
+      "path": "internacionales/2023-edition.md",
+      "title": "2023 Edition",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/2023-edition/"
+    },
+    {
+      "path": "internacionales/2024-edition.md",
+      "title": "2024 Edition",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/2024-edition/"
+    },
+    {
+      "path": "internacionales/comunidad-graduada-fce-por-el-mundo.md",
+      "title": "Comunidad Graduada FCE por el mundo",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/comunidad-graduada-fce-por-el-mundo/"
+    },
+    {
+      "path": "internacionales/internacionales.md",
+      "title": "Internacionales",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/"
+    },
+    {
+      "path": "internacionales/programa-competitividad-global.md",
+      "title": "Programa Competitividad Global",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/programa-competitividad-global/"
+    },
+    {
+      "path": "internacionales/redes.md",
+      "title": "Redes",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/redes/"
     }
   ]
 }
