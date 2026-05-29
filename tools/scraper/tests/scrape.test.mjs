@@ -75,6 +75,29 @@ describe('htmlToText', () => {
     const out = htmlToText('<p>Administraci&oacute;n</p>');
     assert.equal(out.trim(), 'Administración');
   });
+  test('elimina comentarios HTML (no filtra el marcador -->)', () => {
+    const out = htmlToText('<p>antes</p><!-- comentario oculto --><p>despues</p>');
+    assert.equal(out.includes('comentario'), false);
+    assert.equal(out.includes('-->'), false);
+    assert.equal(out.includes('antes'), true);
+    assert.equal(out.includes('despues'), true);
+  });
+  test('elimina nav, header, footer y aside con su contenido', () => {
+    const html = [
+      '<header>logo webmail</header>',
+      '<nav class="collapse navbar-collapse"><ul id="menu-standard-navigation-5"><li>Institucional</li><li>Gobierno</li></ul></nav>',
+      '<p>La FCE integra diversas redes internacionales.</p>',
+      '<aside class="sidebar"><li>widget</li></aside>',
+      '<footer class="inverse-wrapper">© 2026 FCE difusion@fce.unl.edu.ar</footer>',
+    ].join('');
+    const out = htmlToText(html);
+    assert.equal(out.includes('La FCE integra diversas redes internacionales.'), true);
+    assert.equal(out.includes('Institucional'), false);
+    assert.equal(out.includes('Gobierno'), false);
+    assert.equal(out.includes('webmail'), false);
+    assert.equal(out.includes('widget'), false);
+    assert.equal(out.includes('difusion@fce.unl.edu.ar'), false);
+  });
 });
 
 describe('extractTitle', () => {

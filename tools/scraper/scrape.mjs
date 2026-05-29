@@ -81,10 +81,21 @@ export function decodeEntities(s) {
 // Strip tags conservando texto, normalizando whitespace.
 export function htmlToText(html) {
   let s = html;
+  // Eliminar comentarios HTML completos: si no, los marcadores `-->` se filtran
+  // como texto suelto en el contenido extraído.
+  s = s.replace(/<!--[\s\S]*?-->/g, '');
   // Eliminar script, style, noscript completos
   s = s.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, '');
   s = s.replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, '');
   s = s.replace(/<noscript\b[^>]*>[\s\S]*?<\/noscript>/gi, '');
+  // Eliminar contenedores de chrome (nav/header/footer/aside): nunca son
+  // contenido. Sin esto, los landings de sección WordPress (que no tienen
+  // div.blog-content) vuelcan el menú global completo como "información",
+  // mezclando ítems de otros sectores en las respuestas de Sophia.
+  s = s.replace(/<nav\b[^>]*>[\s\S]*?<\/nav>/gi, '');
+  s = s.replace(/<header\b[^>]*>[\s\S]*?<\/header>/gi, '');
+  s = s.replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/gi, '');
+  s = s.replace(/<aside\b[^>]*>[\s\S]*?<\/aside>/gi, '');
   // Convertir <br>, </p>, </li>, </h*> a newlines
   s = s.replace(/<br\s*\/?\s*>/gi, '\n');
   s = s.replace(/<\/(p|div|li|h[1-6]|tr|article|section)>/gi, '\n');

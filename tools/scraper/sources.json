@@ -512,7 +512,7 @@
       "sectionId": "ciencia",
       "sectionPrefix": "/ciencia",
       "maxPages": 100,
-      "maxDepth": 3,
+      "maxDepth": 4,
       "script": "tools/scraper/propose_sections_update.mjs",
       "note": "Rama WordPress completa. Multi-output: un MD por subpágina importante. Procesar con propose_sections_update.mjs."
     },
