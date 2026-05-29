@@ -71,7 +71,9 @@ jobs:
           # En triggers de schedule, inputs.source está vacío → procesar todas las fuentes.
           source_input="${{ inputs.source }}"
           if [ -z "$source_input" ] || [ "$source_input" = "all" ]; then
-            slugs=$(jq -c '[.sources[] | select(.strategy != "TBD") | .slug]' tools/scraper/sources.json)
+            # Excluye TBD (no implementada) y fce-wordpress-section (multi-output:
+            # la procesa el workflow dedicado propose-sections-kb.yml, no run_pipeline).
+            slugs=$(jq -c '[.sources[] | select(.strategy != "TBD" and .strategy != "fce-wordpress-section") | .slug]' tools/scraper/sources.json)
           else
             slugs=$(jq -cn --arg s "$source_input" '[$s]')
           fi

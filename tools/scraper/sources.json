@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada en el workflow genérico, workflow lo skipea). La fuente de cursos_de_formacion se procesa con tools/scraper/scrape_courses.mjs porque genera múltiples MD candidatos, uno por curso. Las fuentes de /estudiantes/ se agrupan por tema/título del menú y se procesan con tools/scraper/scrape_students.mjs como candidatos: un MD por tema, agrupando página principal y subpáginas relacionadas; no se publica ni se agrega a indice.json sin revisión humana.",
+  "description": "Inventario de fuentes web del KB de Sophia. Consumido por scrape.mjs + workflow sync-kb.yml. Mantener slug estable: matchea el basename del MD en el repo cuando la fuente genera un único MD. strategy: 'fce-microsite' (descubre menú lateral en microsites con index.php?act=show...) | 'wordpress-homepage' (solo home, sitios externos tipo FHUC/FCA/FCJS) | 'fce-wordpress' (páginas internas del sitio FCE construidas sobre WordPress, extrae .blog-content) | 'TBD' (no implementada en el workflow genérico, workflow lo skipea). La fuente de cursos_de_formacion se procesa con tools/scraper/scrape_courses.mjs porque genera múltiples MD candidatos, uno por curso. Las fuentes de /estudiantes/ se agrupan por tema/título del menú y se procesan con tools/scraper/scrape_students.mjs como candidatos: un MD por tema, agrupando página principal y subpáginas relacionadas; no se publica ni se agrega a indice.json sin revisión humana. strategy 'fce-wordpress-section' (slugs seccion-*): crawlea una rama WordPress completa acotada al sectionPrefix y genera multi-output (un MD por subpágina importante) vía tools/scraper/propose_sections_update.mjs; requiere sectionId (key de taxonomy.json), sectionPrefix, maxPages/maxDepth; la strategy es ignorada por el sync-kb.yml genérico.",
   "sensitive_sections": [
     "Modalidad y duración",
     "Aranceles e inscripción",
@@ -467,6 +467,78 @@
       "strategy": "TBD",
       "script": "tools/scraper/scrape_courses.mjs",
       "note": "Fuente multi-output. Ejecutar scrape_courses.mjs para detectar altas/bajas/cambios y generar candidatos 1 MD por curso. Se mantiene strategy=TBD para que el workflow genérico no la procese."
+    },
+    {
+      "slug": "seccion-academica",
+      "indice_path": "academica/",
+      "url": "https://www.fce.unl.edu.ar/academica/",
+      "strategy": "fce-wordpress-section",
+      "sectionId": "academica",
+      "sectionPrefix": "/academica",
+      "maxPages": 200,
+      "maxDepth": 4,
+      "script": "tools/scraper/propose_sections_update.mjs",
+      "note": "Rama WordPress completa. Multi-output: un MD por subpágina importante. Procesar con propose_sections_update.mjs; strategy ignorada por sync-kb.yml genérico. Rama grande y anidada (categorias/propuesta/...), cap alto + aviso de truncación."
+    },
+    {
+      "slug": "seccion-docentes",
+      "indice_path": "docentes/",
+      "url": "https://www.fce.unl.edu.ar/docentes/",
+      "strategy": "fce-wordpress-section",
+      "sectionId": "docentes",
+      "sectionPrefix": "/docentes",
+      "maxPages": 100,
+      "maxDepth": 3,
+      "script": "tools/scraper/propose_sections_update.mjs",
+      "note": "Rama WordPress completa. Multi-output: un MD por subpágina importante. Procesar con propose_sections_update.mjs."
+    },
+    {
+      "slug": "seccion-institucional",
+      "indice_path": "institucional/",
+      "url": "https://www.fce.unl.edu.ar/institucional/",
+      "strategy": "fce-wordpress-section",
+      "sectionId": "institucional",
+      "sectionPrefix": "/institucional",
+      "maxPages": 100,
+      "maxDepth": 3,
+      "script": "tools/scraper/propose_sections_update.mjs",
+      "note": "Rama WordPress completa. Multi-output: un MD por subpágina importante. Procesar con propose_sections_update.mjs."
+    },
+    {
+      "slug": "seccion-ciencia",
+      "indice_path": "ciencia/",
+      "url": "https://www.fce.unl.edu.ar/ciencia/",
+      "strategy": "fce-wordpress-section",
+      "sectionId": "ciencia",
+      "sectionPrefix": "/ciencia",
+      "maxPages": 100,
+      "maxDepth": 3,
+      "script": "tools/scraper/propose_sections_update.mjs",
+      "note": "Rama WordPress completa. Multi-output: un MD por subpágina importante. Procesar con propose_sections_update.mjs."
+    },
+    {
+      "slug": "seccion-extension",
+      "indice_path": "extension/",
+      "url": "https://www.fce.unl.edu.ar/extension/",
+      "strategy": "fce-wordpress-section",
+      "sectionId": "extension",
+      "sectionPrefix": "/extension",
+      "maxPages": 100,
+      "maxDepth": 3,
+      "script": "tools/scraper/propose_sections_update.mjs",
+      "note": "Rama WordPress completa. Multi-output: un MD por subpágina importante. Procesar con propose_sections_update.mjs."
+    },
+    {
+      "slug": "seccion-internacionales",
+      "indice_path": "internacionales/",
+      "url": "https://www.fce.unl.edu.ar/internacionales/",
+      "strategy": "fce-wordpress-section",
+      "sectionId": "internacionales",
+      "sectionPrefix": "/internacionales",
+      "maxPages": 100,
+      "maxDepth": 3,
+      "script": "tools/scraper/propose_sections_update.mjs",
+      "note": "Rama WordPress completa. Multi-output: un MD por subpágina importante. Procesar con propose_sections_update.mjs."
     }
   ]
 }
