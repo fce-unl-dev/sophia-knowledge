@@ -108,6 +108,7 @@ export async function proposeSectionsUpdate({
       important_count: built.important_count,
       low_content_count: built.low_content_count,
       errored_count: built.errored_count,
+      category_archive_count: built.category_archive_count,
       truncated: built.truncated,
       pending_links: built.pending_links,
       document_links: built.document_links,
@@ -338,7 +339,7 @@ function buildPrBody(result) {
         continue;
       }
       lines.push(`### \`${s.slug}\` (${s.section})`);
-      lines.push(`- Importantes: ${s.important_count ?? 0} · Flacas: ${s.low_content_count ?? 0} · Con error: ${s.errored_count ?? 0}`);
+      lines.push(`- Importantes: ${s.important_count ?? 0} · Flacas: ${s.low_content_count ?? 0} · Con error: ${s.errored_count ?? 0} · Archivos de categoría excluidos: ${s.category_archive_count ?? 0}`);
       lines.push(`- Documentos link-only: ${s.document_links?.length ?? 0}`);
       if (s.truncated) lines.push(`- ⚠️ Truncado: ${s.pending_links?.length ?? 0} links sin bajar (ampliar maxPages/maxDepth si hay contenido útil).`);
       if (s.path_collisions?.length) lines.push(`- ⚠️ Colisiones de ruta: ${s.path_collisions.length}`);

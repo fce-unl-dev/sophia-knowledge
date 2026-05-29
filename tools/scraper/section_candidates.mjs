@@ -62,6 +62,21 @@ export function deriveSectionDoc(url, { sectionId, sector, prefix }) {
   };
 }
 
+// Detecta páginas de ARCHIVE de categoría del theme WordPress: URL con el
+// segmento `categorias` (ej. /academica/categorias/X/). Son listados
+// autogenerados de posts (body.class "archive category"), no contenido
+// institucional propio. No deben generar MD: el post real se ingiere por su URL
+// canónica (/academica/X/) y los documentos quedan en documentLinks del crawl.
+export function isCategoryArchiveUrl(url, { prefix, sectionId, sector } = {}) {
+  let path;
+  try { path = new URL(url).pathname; } catch { path = String(url || ''); }
+  path = path.replace(/\/+$/, '');
+  const pfx = (prefix || sector?.webPathPrefixes?.[0] || `/${sectionId}`).replace(/\/+$/, '');
+  let rest = path.toLowerCase().startsWith(pfx.toLowerCase()) ? path.slice(pfx.length) : path;
+  rest = rest.replace(/^\/+/, '');
+  return rest.split('/').filter(Boolean).some((s) => s.toLowerCase() === 'categorias');
+}
+
 function appendTextAsBullets(lines, text) {
   const paragraphs = String(text ?? '')
     .split('\n')
@@ -185,8 +200,10 @@ export function buildSectionCandidates(sectionResult, { sectionId, taxonomy, thr
   const important = [];
   const lowContent = [];
   const errored = [];
+  const categoryArchives = [];
   for (const p of pages) {
     if (p.error) errored.push(p);
+    else if (isCategoryArchiveUrl(p.url, { prefix, sectionId, sector })) categoryArchives.push(p);
     else if (cleanTextLength(p.text) >= threshold) important.push(p);
     else lowContent.push(p);
   }
@@ -243,6 +260,7 @@ export function buildSectionCandidates(sectionResult, { sectionId, taxonomy, thr
     important_count: important.length,
     low_content_count: lowContent.length,
     errored_count: errored.length,
+    category_archive_count: categoryArchives.length,
     path_collisions: pathCollisions,
   };
 }

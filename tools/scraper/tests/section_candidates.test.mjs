@@ -6,6 +6,7 @@ import {
   cleanTextLength,
   detectPossiblePersonalData,
   deriveSectionDoc,
+  isCategoryArchiveUrl,
   buildSectionCandidateMarkdown,
   buildSectionLandingMarkdown,
   buildSectionCandidates,
@@ -98,6 +99,24 @@ describe('deriveSectionDoc', () => {
   test('subpágina anidada une segmentos con guion', () => {
     const out = deriveSectionDoc('https://fce.unl.edu.ar/academica/propuesta/grado', opts);
     assert.equal(out.indice_path, 'academica/propuesta-grado.md');
+  });
+});
+
+describe('isCategoryArchiveUrl', () => {
+  const sector = TAXONOMY.sectors.academica;
+  const opts = { sectionId: 'academica', sector, prefix: '/academica' };
+
+  test('detecta URL con segmento /categorias/', () => {
+    assert.equal(isCategoryArchiveUrl('https://fce.unl.edu.ar/academica/categorias/reglamentaciones/', opts), true);
+  });
+  test('el índice de categorías también es archive', () => {
+    assert.equal(isCategoryArchiveUrl('https://fce.unl.edu.ar/academica/categorias/', opts), true);
+  });
+  test('post real (sin /categorias/) NO es archive', () => {
+    assert.equal(isCategoryArchiveUrl('https://fce.unl.edu.ar/academica/reglamentaciones/', opts), false);
+  });
+  test('raíz de la rama NO es archive', () => {
+    assert.equal(isCategoryArchiveUrl('https://fce.unl.edu.ar/academica/', opts), false);
   });
 });
 
@@ -210,12 +229,44 @@ describe('buildSectionCandidates', () => {
     assert.match(c.review_reasons.join(' '), /datos personales/);
   });
 
-  test('colisión de ruta → requires_review y se registra', () => {
-    // dos subpáginas distintas que derivan el mismo indice_path (categorias se filtra).
+  test('páginas de categoría (/categorias/) se excluyen: no generan MD ni colisionan', () => {
+    // El archive de categoría comparte slug con el post real; antes colisionaban
+    // y el listado pisaba al contenido. Ahora el archive se excluye del set.
     const result = {
       pages: [
-        page('https://fce.unl.edu.ar/academica/propuesta', { title: 'A', text: LONG }),
-        page('https://fce.unl.edu.ar/academica/categorias/propuesta', { title: 'B', text: LONG }),
+        page('https://fce.unl.edu.ar/academica/reglamentaciones', { title: 'A', text: LONG }),
+        page('https://fce.unl.edu.ar/academica/categorias/reglamentaciones', { title: 'B', text: LONG }),
+      ],
+    };
+    const out = buildSectionCandidates(result, baseOpts);
+    assert.equal(out.category_archive_count, 1);
+    assert.equal(out.important_count, 1);
+    assert.equal(out.path_collisions.length, 0);
+    assert.equal(out.candidates.length, 1);
+    assert.equal(out.candidates[0].indice_path, 'academica/reglamentaciones.md');
+  });
+
+  test('document_links se preservan aunque la subpágina sea de categoría', () => {
+    const result = {
+      pages: [
+        page('https://fce.unl.edu.ar/academica', { title: 'Académica', text: LONG }),
+        page('https://fce.unl.edu.ar/academica/categorias/x', { title: 'Cat', text: LONG }),
+      ],
+      documentLinks: ['https://fce.unl.edu.ar/reg.pdf'],
+    };
+    const out = buildSectionCandidates(result, baseOpts);
+    assert.equal(out.category_archive_count, 1);
+    assert.deepEqual(out.document_links, ['https://fce.unl.edu.ar/reg.pdf']);
+    assert.equal(out.candidates.length, 1); // sólo el root
+  });
+
+  test('colisión de ruta genuina → requires_review y se registra', () => {
+    // Dos subpáginas reales distintas que derivan el mismo indice_path:
+    // /propuesta-grado y /propuesta/grado → ambos 'propuesta-grado.md'.
+    const result = {
+      pages: [
+        page('https://fce.unl.edu.ar/academica/propuesta-grado', { title: 'A', text: LONG }),
+        page('https://fce.unl.edu.ar/academica/propuesta/grado', { title: 'B', text: LONG }),
       ],
     };
     const out = buildSectionCandidates(result, baseOpts);
