@@ -3,6 +3,7 @@ import pdf from 'pdf-parse';
 import mammoth from 'mammoth';
 import { parseCsv } from './scrape_sheets.mjs';
 import { callGemini, stripMarkdownFence } from './generate_md.mjs';
+import { resolveSectorFromDrivePath } from './generate_routing_metadata.mjs';
 import { readFile, writeFile, mkdir, unlink } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
@@ -446,6 +447,7 @@ Env:
           path: relPath,
           title,
           category: 'Complementario',
+          sector: file.sector || undefined,
           canonicalUrl: file.webViewLink || undefined
         });
 
@@ -566,6 +568,7 @@ Env:
 
   for (const file of driveFiles) {
     const slug = slugify(file.path.replace(/\.[^/.]+$/, ""));
+    const sector = resolveSectorFromDrivePath(file.path) || undefined;
     const prevFile = driveState.files[file.id];
     
     // Check if unchanged
@@ -688,6 +691,7 @@ Env:
           modifiedTime: file.modifiedTime,
           path: file.path,
           slug,
+          sector,
           status: 'candidate',
           hash: textHash,
           webViewLink: file.webViewLink,
@@ -702,6 +706,7 @@ Env:
           modifiedTime: file.modifiedTime,
           path: file.path,
           slug,
+          sector,
           status: 'pending-write',
           hash: textHash,
           webViewLink: file.webViewLink,
