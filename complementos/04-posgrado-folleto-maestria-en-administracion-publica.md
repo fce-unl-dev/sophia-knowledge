@@ -1,54 +1,44 @@
 # Maestría en Administración Pública
 
-Este documento describe la Maestría en Administración Pública de la UNL, su propósito, el título que otorga, a quién está dirigida, los requisitos de admisión y obtención del grado, su perfil de graduado, cuerpo docente y aspectos de internacionalización.
+Este documento describe la Maestría en Administración Pública de la UNL, creada por Resolución Nº 112 del H. Consejo Superior en mayo de 1997. Su propósito es ofrecer una alta calificación y especialización en administración pública y/o gubernamental, formando profesionales capaces de liderar y transformar el sector público con una visión estratégica e interdisciplinaria.
 
 ---
 
 ## Contenido
 
-### Propósito y Título
+### Propósito y Objetivos
 
-La Maestría en Administración Pública fue creada por Resolución Nº 112 del H. Consejo Superior de la Universidad Nacional del Litoral en mayo de 1997.
+La Maestría en Administración Pública busca obtener una alta calificación y especialización en Administración Pública y/o gubernamental para graduados/as de diferentes disciplinas. Abarca la comprensión de la problemática de lo público inserto en lo socioeconómico y cultural, desde una cosmovisión aplicable al conocimiento del Sector Público con una perspectiva multidimensional e interdisciplinaria.
 
-*   **Propósito**: Obtener una alta calificación y especialización en Administración Pública y/o gubernamental para graduados/as de diferentes disciplinas. Busca la comprensión de la problemática de lo público inserto en lo socioeconómico y cultural, desde una cosmovisión aplicable al conocimiento del Sector Público con una perspectiva multidimensional e interdisciplinaria.
-*   **Título que otorga**: Magister en Administración Pública.
-*   **Formación**: Forma profesionales capaces de liderar y transformar el sector público, integrando una sólida formación teórico-metodológica con una visión estratégica, interdisciplinaria y comprometida con los desafíos contemporáneos de la gestión estatal.
+Este posgrado otorga el título de Magister en Administración Pública y forma profesionales capaces de liderar y transformar el sector público, integrando una sólida formación teórico-metodológica con una visión estratégica, interdisciplinaria y comprometida con los desafíos contemporáneos de la gestión estatal.
 
-### Dirigido a
+### Destinatarios
 
-La Maestría en Administración Pública de la UNL está dirigida a graduados universitarios que se desempeñen como:
-
-*   Funcionarios o agentes de las Administraciones públicas.
+La Maestría en Administración Pública de la UNL está dirigida a:
+*   Graduados universitarios que se desempeñen como funcionarios o agentes de las Administraciones públicas.
 *   Docentes universitarios e investigadores en administración y políticas públicas.
 *   Profesionales que trabajen o aspiren a trabajar en empresas u organizaciones del sector público.
 *   Organizaciones no gubernamentales o unidades de responsabilidad social corporativa que interactúen con el Estado.
 
-### Requisitos de Admisión e Inscripción
+### Requisitos de Admisión
 
-*   **Requisito de admisión**: Poseer título universitario de grado.
-*   **Requisitos de Inscripción**: No publicados en este documento.
+*   Poseer título universitario de grado.
 
-### Grado Académico y Requisitos de Obtención
+### Convenio de Doble Titulación
 
-*   **Grado académico**: Magister en Administración Pública.
-*   **Para su obtención, los alumnos deben**:
-    *   Cumplimentar 51.20 créditos académicos (UCAs).
-    *   Aprobar un trabajo final (tesis de posgrado).
-    *   El cursado de las asignaturas demanda dos años.
+Existe un convenio de Doble Titulación con la Universidad de Brasilia (UnB). Su principal objetivo es ofrecer a los estudiantes de la UNB y de la UNL que participen del programa de intercambio, la posibilidad de obtener, al mismo tiempo, el título de Maestría en Administración de la UnB y el de Magister en Administración Pública de la UNL.
 
-### Internacionalización
+### Obtención del Título
 
-*   **Convenio de Doble Titulación**: Su principal objetivo es ofrecer a los estudiantes de la UNB (Universidad de Brasilia) y de la UNL que participen del programa de intercambio, la posibilidad de obtener, al mismo tiempo, el título de Maestría en Administración de la UnB y el de Magister en Administración Pública de la UNL.
+La carrera otorga el grado académico de Magister en Administración Pública. Para su obtención, los alumnos deben cumplimentar 51.20 créditos académicos (UCAs) y aprobar un trabajo final (tesis de posgrado). El cursado de las asignaturas demanda dos años.
 
 ### Cuerpo Docente
 
-*   Integrado por profesores e investigadores de la UNL y de universidades de prestigio nacional e internacional.
-*   Cuentan con amplia trayectoria en docencia, investigación y gestión pública.
+El cuerpo docente está integrado por profesores e investigadores de la UNL y de universidades de prestigio nacional e internacional, con amplia trayectoria en docencia, investigación y gestión pública.
 
 ### Perfil del Graduado
 
 El/la Magíster en Administración Pública podrá:
-
 *   Dirigir, asesorar y evaluar organizaciones y políticas públicas.
 *   Desarrollar investigación aplicada en gestión y administración estatal.
 *   Liderar equipos en el diseño, ejecución y evaluación de políticas públicas.

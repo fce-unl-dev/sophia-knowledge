@@ -1,98 +1,79 @@
 # Maestría en Responsabilidad Social Organizacional
 
-Este documento describe la Maestría en Responsabilidad Social Organizacional, una carrera de posgrado profesional, semiestructurada y a distancia, que forma profesionales en el diagnóstico, planificación, gestión y medición de la responsabilidad social en las organizaciones.
+La Maestría en Responsabilidad Social Organizacional de la FCE-UNL es una carrera de posgrado profesional, semiestructurada y a distancia, que forma profesionales para el diagnóstico, planificación, gestión y medición de la responsabilidad social en las organizaciones, considerando criterios éticos, sociales y medioambientales en la toma de decisiones.
 
 ---
 
 ## Contenido
 
 ### Presentación
+La Maestría en Responsabilidad Social Organizacional brinda una formación de posgrado orientada a desarrollar conocimientos y habilidades para el diagnóstico, planificación, gestión y medición de la responsabilidad social en las organizaciones. Es una carrera de posgrado profesional, semiestructurada y a distancia.
 
-La Maestría en Responsabilidad Social Organizacional (MRSO) ofrece una formación de posgrado para desarrollar conocimientos y habilidades en el diagnóstico, planificación, gestión y medición de la responsabilidad social en las organizaciones. Es una carrera profesional, semiestructurada y a distancia, que busca formar profesionales con criterios éticos, sociales y medioambientales en la toma de decisiones, evaluando el impacto sobre los grupos de interés.
+Se busca formar profesionales que, a la hora de tomar decisiones, tengan en cuenta criterios éticos, sociales y medioambientales, y que evalúen el impacto, positivo o negativo, que sus decisiones tienen sobre todos los grupos de interés vinculados con las organizaciones.
 
-La carrera fue creada por Res. N° 30/20 del Consejo Directivo de la Facultad de Ciencias Económicas y aprobada por Res. N° 207/20 del Honorable Consejo Superior de la Universidad Nacional del Litoral. Cuenta con dictamen favorable de CONEAU para reconocimiento provisorio del Título, Sesión N° 551, según Acta N° 551-21 (Expediente EX-2020-29766614-APN-DAC#CONEAU).
+**Aprobaciones:**
+*   **Creación:** Res. N° 30/20 del Consejo Directivo de la Facultad de Ciencias Económicas y Res. N° 207/20 del Honorable Consejo Superior de la Universidad Nacional del Litoral.
+*   **Dictamen CONEAU:** Favorable para reconocimiento provisorio del Título, Sesión N° 551, según Acta N° 551-21. Expediente EX-2020-29766614-APN-DAC#CONEAU.
 
 ### Objetivos
-
-Proporcionar formación teórica y práctica para desarrollar conocimientos y habilidades en recursos humanos que se desempeñen en diversos ámbitos y sectores organizacionales, con un enfoque en Responsabilidad Social aplicado a las disciplinas contables, la administración y la economía.
+Proporcionar la formación teórica y práctica que permita, a través del desarrollo de conocimientos y habilidades, formar recursos humanos que se desempeñen, en los diversos ámbitos y sectores organizacionales, con un enfoque en Responsabilidad Social en los aspectos ligados con las disciplinas contables, la administración y la economía.
 
 ### Modalidad de Cursado y Evaluación
-
-*   **Modalidad de dictado**: A distancia, en el marco del SIED-UNL.
-*   **Cursado**: Desarrollo del plan de trabajo en el aula virtual, incluyendo estudio de casos, ensayos analíticos, trabajos de indagación teórica, entre otros.
-*   **Aprobación**: Consta de dos instancias:
+*   **Modalidad de dictado:** A distancia, en el marco del SIED-UNL.
+*   **Cursado:** Comprende el desarrollo del plan de trabajo en el aula virtual, el cual consistirá en diversas propuestas de actividades para el aprendizaje tales como estudio de casos, ensayos analíticos, trabajos de indagación teórica, etc.
+*   **Aprobación de cursos:** Se realiza en dos instancias:
     1.  Cumplimentar el cursado virtual de las clases programadas.
-    2.  Realización de trabajos prácticos, estudio de casos, prácticas o monografía como trabajo final, según se determine, y/o la aprobación de una evaluación final.
+    2.  Realización de trabajos prácticos, estudio de casos, prácticas o monografía como trabajo final, según se determine y/o la aprobación de una evaluación final.
 
 ### Perfil de Egresado
-
 El graduado estará capacitado para:
 *   Identificar y gestionar grupos de interés que trabajan con la organización.
 *   Interpretar y aplicar en las organizaciones los sistemas normativos de Responsabilidad Social.
-*   Desarrollar, planificar e implementar estrategias de Responsabilidad Social, sistemas de medición, gestión, auditoría y evaluación ajustados a las realidades de las organizaciones.
+*   Desarrollar, planificar e implementar: estrategias de Responsabilidad Social, sistemas de medición, gestión, auditoría y evaluación ajustados a las realidades de las organizaciones.
 
-La formación se adapta a profesionales que se desempeñan en empresas, organizaciones sin fines de lucro, universidades o en la administración pública, ya sea como parte de las mismas o como profesional independiente.
+La formación que se brinda en esta Maestría tiene un perfil que se adapta a los profesionales que se desempeñan en empresas, organizaciones sin fines de lucro, universidades o en la administración pública, ya sea como parte de las mismas o como profesional independiente.
 
 ### Duración
-
-*   **Cursado de asignaturas**: Dos (2) años.
-*   **Plazo máximo para aprobación del Trabajo Final**: Cuatro (4) años a partir de la inscripción a la carrera.
+*   **Cursado de asignaturas:** Dos (2) años.
+*   **Plazo máximo para la aprobación del Trabajo Final:** Cuatro (4) años a partir de la inscripción a la carrera.
 
 ### Cuerpo Docente
-
-Los docentes propuestos para este posgrado poseen formación académica de tercer nivel y destacada experiencia en investigación (demostrada a través de publicaciones indexadas internacionales y nacionales) y en la actividad profesional.
+Los docentes propuestos para este posgrado tienen formación académica de tercer nivel, así como destacada experiencia en investigación en sus áreas, demostrada a través de publicaciones indexadas internacionales y nacionales, y en la actividad profesional.
 
 ### Informes e Inscripción
-
-*   **Facultad de Ciencias Económicas**
-    Moreno 2557 - Santa Fe, República Argentina.
-*   **Sitio web**: [https://www.fce.unl.edu.ar/posgrado/](https://www.fce.unl.edu.ar/posgrado/)
-*   **Teléfono**: +54 9 342 519-1199
+*   **Facultad de Ciencias Económicas:** Moreno 2557 - Santa Fe, República Argentina.
+*   **Sitio web:** [https://www.fce.unl.edu.ar/posgrado/](https://www.fce.unl.edu.ar/posgrado/)
+*   **Teléfono:** +54 9 342 519-1199
 
 ### Plan de Estudios
+El Plan de Estudios está compuesto por:
+*   **Ciclo de Formación Introductorio:** Con 105 horas (7 UCAs), proveerá el conocimiento teórico y metodológico básico imprescindible.
+*   **Ciclo de Formación Especializado:** Con ocho módulos y una afectación horaria total de 330 horas (22 UCAs). En cada uno de estos módulos se presentan temáticas que profundizan aspectos de la Responsabilidad Social de las Organizaciones enfocados especialmente a las disciplinas de administración, contabilidad y economía.
+*   **Módulo de Optativas:** Se requerirá el cursado y la aprobación de un curso optativo con un total de 45 horas (3 UCAs). Sobre una estructura de optativas que se ofrecerá cada año académico. A fin de evaluar el proyecto de Maestría se proponen como ejemplo tres optativas.
+*   **Laboratorio de Diseño de Trabajo Final:** Con 60 horas (4 UCAs), enfocado en lograr conocimiento sobre el proceso de investigación y la elaboración del proyecto final. Asimismo, se asignará un total de 165 horas (11 UCAs) para las tutorías y escritura del trabajo final.
+*   **Curso de Nivelación:** Debido a que se aceptarán graduados de otras disciplinas, se prevé un Curso de Nivelación de 30 horas de cursado, el que deberá aprobarse con un examen integrador, según se establece en el art. 11 del Reglamento.
 
-El Plan de Estudios se compone de:
-*   **Ciclo de Formación Introductorio**: 105 horas (7 UCAs), para proveer el conocimiento teórico y metodológico básico.
-*   **Ciclo de Formación Especializado**: Ocho módulos, 330 horas (22 UCAs), profundizando aspectos de la Responsabilidad Social de las Organizaciones enfocados en administración, contabilidad y economía.
-*   **Módulo de Optativas**: Un curso optativo, 45 horas (3 UCAs), para reforzar la formación especializada. Se ofrecerá una estructura de optativas cada año académico (ejemplos: Responsabilidad Social Universitaria, Responsabilidad Social de la Administración Pública, Responsabilidad Social de las Entidades sin fines de lucro).
-*   **Laboratorio de Diseño de Trabajo Final**: 60 horas (4 UCAs), enfocado en el proceso de investigación y elaboración del proyecto final.
-*   **Tutorías y escritura del Trabajo Final**: 165 horas (11 UCAs).
-*   **Curso de Nivelación**: 30 horas de cursado, con examen integrador, para graduados de otras disciplinas (según Art. 11 del Reglamento).
+#### Módulos y Asignaturas
 
-#### Ciclo Introductorio
-1.  Introducción al campo de la Responsabilidad Social
-2.  Teorías y enfoques de la Responsabilidad Social
-3.  Gestión de los Grupos de Interés
-
-#### Formación Especializada
-4.  Gobierno de las organizaciones y Responsabilidad Social
-5.  Administración Estratégica de la Responsabilidad Social
-6.  Gestión de la Responsabilidad Social de las Organizaciones
-7.  Márketing de Sostenibilidad
-8.  Transparencia y Rendición de Cuentas - Accountability
-9.  Informes de Rendición de Cuentas en Responsabilidad Social
-10. Finanzas e Inversión Sostenible
-11. Economía Sostenible
-
-#### Módulos y Carga Horaria
-
-| Módulo / Asignatura                                                                                             | Teórica | Práctica | Total |
-| :-------------------------------------------------------------------------------------------------------------- | :------ | :------- | :---- |
-| 1. Introducción al campo de la Responsabilidad Social                                                           | 30      | 15       | 45    |
-| 2. Teorías y enfoques de la Responsabilidad Social                                                              | 20      | 10       | 30    |
-| 3. Gestión de los Grupos de Interés                                                                             | 10      | 20       | 30    |
-| 4. Gobierno de las organizaciones y Responsabilidad Social                                                      | 15      | 15       | 30    |
-| 5. Administración Estratégica de la Responsabilidad Social                                                      | 12      | 18       | 30    |
-| 6. Gestión de la Responsabilidad Social de las Organizaciones                                                   | 25      | 35       | 60    |
-| 7. Márketing de Sostenibilidad                                                                                  | 10      | 20       | 30    |
-| 8. Transparencia y Rendición de Cuentas - Accountability                                                        | 15      | 15       | 30    |
-| 9. Informes de Rendición de Cuentas en Responsabilidad Social                                                   | 20      | 40       | 60    |
-| 10. Finanzas e Inversión Sostenible                                                                             | 10      | 20       | 30    |
-| 11. Economía Sostenible                                                                                         | 20      | 40       | 60    |
-| 12. Optativas: Responsabilidad Social Universitaria / Responsabilidad Social de la Administración Pública / Responsabilidad Social de las Entidades sin fines de lucro | 15      | 30       | 45    |
-| 13. Laboratorio de Diseño de Trabajo Final                                                                      | 25      | 35       | 60    |
-| 14. Trabajo Final                                                                                               | -       | -        | 165   |
-| **TOTAL**                                                                                                       | **227** | **313**  | **705** |
+| Módulo / Asignatura                                                  | Carga Horaria Teórica | Carga Horaria Práctica | Carga Horaria Total |
+| :------------------------------------------------------------------- | :-------------------- | :--------------------- | :------------------ |
+| **Ciclo Introductorio**                                              |                       |                        |                     |
+| 1. Introducción al campo de la Responsabilidad Social                | 30                    | 15                     | 45                  |
+| 2. Teorías y enfoques de la Responsabilidad Social                   | 20                    | 10                     | 30                  |
+| 3. Gestión de los Grupos de Interés                                  | 10                    | 20                     | 30                  |
+| **Formación Especializada**                                          |                       |                        |                     |
+| 4. Gobierno de las organizaciones y Responsabilidad Social           | 15                    | 15                     | 30                  |
+| 5. Administración Estratégica de la Responsabilidad Social           | 12                    | 18                     | 30                  |
+| 6. Gestión de la Responsabilidad Social de las Organizaciones        | 25                    | 35                     | 60                  |
+| 7. Márketing de Sostenibilidad                                       | 10                    | 20                     | 30                  |
+| 8. Transparencia y Rendición de Cuentas - Accountability             | 15                    | 15                     | 30                  |
+| 9. Informes de Rendición de Cuentas en Responsabilidad Social        | 20                    | 40                     | 60                  |
+| 10. Finanzas e Inversión Sostenible                                  | 10                    | 20                     | 30                  |
+| 11. Economía Sostenible                                              | 20                    | 40                     | 60                  |
+| 12. Optativas (ej: RSU / RSA Pública / RS Entidades sin fines de lucro) | 15                    | 30                     | 45                  |
+| 13. Laboratorio de Diseño de Trabajo Final                           | 25                    | 35                     | 60                  |
+| 14. Trabajo Final                                                    |                       | 165                    | 165                 |
+| **TOTAL**                                                            | **227**               | **313**                | **705**             |
 
 ---
 

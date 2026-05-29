@@ -1,79 +1,70 @@
 # Maestría en Contabilidad y Auditoría
 
-Este documento describe la Maestría en Contabilidad y Auditoría de la Facultad de Ciencias Económicas (FCE) de la UNL, detallando su presentación, objetivos, plan de estudios, modalidad y requisitos para la obtención del título.
+La Maestría en Contabilidad y Auditoría de la FCE UNL es una carrera de posgrado profesional, semiestructurada y presencial, que busca perfeccionar a profesionales en los aspectos teóricos y prácticos de la información organizacional. Su objetivo es formar recursos humanos capaces de resolver situaciones problemáticas complejas en contabilidad y auditoría, interpretando y analizando críticamente la información contable para apoyar la toma de decisiones y el control en un contexto globalizado.
 
 ---
 
 ## Contenido
 
-### Presentación
+### Información General
 
-La Maestría en Contabilidad y Auditoría ofrece una formación de posgrado orientada a brindar un perfeccionamiento de alto nivel, vinculado con los aspectos teóricos y prácticos en el campo de la información de las organizaciones, tanto para dar cumplimiento a la normativa profesional en materia de contabilidad y auditoría como para que resulte adecuada y oportuna a la toma de decisiones.
+*   **Creación:** Creada por Res. N° 1023/19 del Consejo Directivo de la FCE y aprobada por Res. N° 65/20 del Honorable Consejo Superior de la UNL.
+*   **Propósito:** Profundizar conocimientos teóricos y metodológicos inherentes al campo de la Contabilidad y la Auditoría en sus diversas aplicaciones.
+*   **Duración del Cursado:** 2 años.
+*   **Plazo Máximo para Trabajo Final:** 4 años a partir de la inscripción a la carrera.
+*   **Modalidad:** Presencial, con dictado de clases combinando asistencia presencial, online y mixta.
+*   **Promoción de Asignaturas:** Cumplimiento de una asistencia mínima del 75% a las clases y aprobación de la evaluación final.
+*   **Metodología de Evaluación:** Dispuestas por el profesor responsable, pudiendo consistir en trabajos individuales, resolución de casos, trabajos de campo o propuestas de solución a planteos teóricos o prácticos. Todas las asignaturas deben contar con al menos una instancia de evaluación individual al finalizar su dictado.
+*   **Requisito para Obtener el Título:** Elaborar y defender un Trabajo Final de carácter individual, sobre una temática particular del plan de estudio, bajo la supervisión de un Director/a y, si corresponde, un Co-Director/a.
 
-Es una carrera de posgrado profesional, semiestructurada y presencial, que tiene como objetivo proporcionar la formación teórica y práctica que permita, a través del desarrollo de conocimientos y habilidades, formar recursos humanos que se desempeñen en diversos espacios y sectores organizacionales, capaces de resolver situaciones problemáticas complejas en los ámbitos propios de la contabilidad y auditoría.
+### Perfil del Egresado
 
-Se busca formar profesionales competentes para interpretar y analizar en forma crítica y reflexiva la información contable generada por las organizaciones, con vistas a apoyar la toma de decisiones y el control de los distintos grupos de interés vinculados a la misma, aplicando los conocimientos teóricos e instrumentales para la resolución de problemas vinculados con la información contable interna y externa de las entidades en un contexto globalizado y para el desarrollo de procesos de auditoría efectivos.
-
-Carrera creada por Res. N° 1023/19 del Consejo Directivo de la Facultad de Ciencias Económicas y aprobada por Res. N° 65/20 del Honorable Consejo Superior de la Universidad Nacional del Litoral.
-
-### Duración y Modalidad
-
-*   El cursado de las asignaturas es de dos (2) años.
-*   El plazo máximo para la aprobación del Trabajo Final será de cuatro (4) años a partir de la inscripción a la carrera.
-*   La carrera es presencial con dictado de sus clases combinando asistencia presencial, online y mixta.
-*   Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75% a las clases y mediante la aprobación de la evaluación final.
-*   La metodología de evaluación de asignaturas será dispuesta por el profesor responsable, pudiendo consistir en la ejecución de trabajos individuales, la resolución de casos, la realización de trabajos de campo o las propuestas de solución a planteos teóricos o prácticos.
-*   Todas las asignaturas deben contar, al menos, con una instancia de evaluación individual al finalizar su dictado.
-*   Para obtener el título el estudiante deberá elaborar y defender un Trabajo Final, de carácter individual, sobre una temática en particular de las desarrolladas en el Plan de Estudio, bajo la supervisión de un Director/a y si correspondiese de un Codirector/a.
-
-### Objetivos
-
-El Máster en Contabilidad y Auditoría está capacitado para:
+El Máster en Contabilidad y Auditoría estará capacitado para:
 
 *   Aplicar los conocimientos teóricos e instrumentales en la resolución de problemas vinculados con la información contable interna y externa de las organizaciones en un contexto globalizado.
 *   Analizar y aplicar las normativas contables en un contexto cambiante y contribuir en el diseño de las mismas a través de su participación en organismos de regulación contable.
-*   Intervenir, con visión amplia y crítica, en la planificación, el desarrollo e implementación de sistemas contables de las organizaciones.
+*   Intervenir, con visión amplia y crítica, en la planificación, el desarrollo y la implementación de sistemas contables de las organizaciones.
 *   Interpretar y analizar en forma crítica y reflexiva la información contable generada por las organizaciones con vistas a apoyar la toma de decisiones de los distintos agentes sociales interesados en la misma.
 *   Profundizar en conocimientos y aplicaciones prácticas que posibiliten una mejor comprensión de los procesos de planificación y control de gestión para la realización de procesos de auditoría efectivos.
 *   Participar en investigaciones contables con métodos científicos.
-*   Planificar y conducir procesos relacionados con la prospectiva de información contable con vistas a pronosticar escenarios futuros.
+*   Planificar y conducir procesos relacionados con la prospección de información contable con vistas a pronosticar escenarios futuros.
 *   Poseer una actitud crítica y flexible que le permita reconocer la necesidad de actualización permanente de los conocimientos e intervenir en equipos interdisciplinarios.
-
-### Información de Contacto
-
-*   **Facultad de Ciencias Económicas**
-*   Moreno 2557 - Santa Fe, Argentina
-*   [https://www.fce.unl.edu.ar/posgrado/](https://www.fce.unl.edu.ar/posgrado/)
-*   Teléfono: 0342-4571180/81/82
 
 ### Plan de Estudios
 
-| Asignaturas                                             | Carga Horaria (horas) |
-| :------------------------------------------------------ | :-------------------- |
-| 1. Teoría Contable Patrimonial                          | 30                    |
-| 2. Confección y Análisis de Estados Contables           | 40                    |
-| 3. Auditoría Externa de Estados Contables               | 30                    |
-| 4. Sistemas Contables y Auditoría de Entes Especiales   | 20                    |
-| 5. Teoría Contable de Gestión                           | 20                    |
-| 6. Auditoría Interna                                    | 25                    |
-| 7. Sistemas de Información para la Planificación y Control de Gestión | 25                    |
-| 8. Finanzas de Empresas                                 | 20                    |
-| 9. Gobierno Corporativo y Responsabilidad Social Organizacional | 20                    |
-| Optativa 1                                              | 30                    |
-| Optativa 2                                              | 30                    |
-| Metodología de la Investigación                         | 30                    |
-| Taller de Trabajo Final                                 | 40                    |
-| **Total**                                               | **360**               |
+El plan de estudios está estructurado sobre la base de 9 asignaturas obligatorias, 2 optativas sobre una oferta flexible, 1 asignatura de Metodología de la Investigación y 1 Taller de Trabajo Final, con un total de **36 créditos**, que corresponden a **540 horas**.
 
-### Estructura del Plan de Estudios
+| N° | Asignatura | Unidades de Crédito | Horas Totales |
+|:---|:---|:---:|:---:|
+| **Asignaturas Obligatorias** | | | |
+| 1 | La Contabilidad Patrimonial | 30 | 30 |
+| 2 | Confección y Análisis de Estados Contables | 20 | 40 |
+| 3 | Auditoría Externa de Estados Contables | 30 | 30 |
+| 4 | Sistemas Contables y Auditoría de Entes Especiales | 10 | 20 |
+| 5 | La Contabilidad de Gestión | 20 | 25 |
+| 6 | Auditoría Interna | 15 | 30 |
+| 7 | Sistemas de Información para la Planificación y Control de Gestión | 15 | 30 |
+| 8 | Finanzas de Empresas | 10 | 20 |
+| 9 | Gobierno Corporativo y Responsabilidad Social Organizacional | 10 | 20 |
+| **Subtotal Obligatorias** | | **160** | **245** |
+| **Asignaturas Optativas** | | | |
+| 10 | Optativa 1 | 10 | 15 |
+| 11 | Optativa 2 | 10 | 15 |
+| **Subtotal Optativas** | | **20** | **30** |
+| **Trabajo Final** | | | |
+| 12 | Metodología de la Investigación | 20 | 30 |
+| 13 | Taller de Trabajo Final | 160 | 235 |
+| **Subtotal Trabajo Final** | | **180** | **265** |
+| **Total General** | | **360** | **540** |
 
-Está estructurado sobre la base de 9 (nueve) asignaturas obligatorias, 2 (dos) optativas sobre una oferta flexible, 1 (una) asignatura de Metodología de la Investigación y 1 (un) Taller de Trabajo Final, con un total de 36 (treinta y seis) créditos, que corresponden a 540 (quinientas cuarenta) horas.
+*Nota:* El total de 360 Unidades de Crédito equivale a 36 Créditos (10 Unidades de Crédito = 1 Crédito).
 
-### Asignaturas Optativas
+### Materias Optativas
 
-Las dos optativas se seleccionarán dentro de la siguiente oferta:
+Las materias optativas se seleccionarán dentro de la siguiente oferta:
 
-*   Teoría Contable y Normas Contables Comparadas
+*   Teoría Contable
+*   Normas Contables Comparadas
 *   Auditoría Forense
 *   Contabilidad Pública
 *   Auditoría del Sector Público

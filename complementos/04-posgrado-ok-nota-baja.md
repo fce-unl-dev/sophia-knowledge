@@ -1,6 +1,6 @@
-# Nota de Solicitud de Baja de Carrera de Posgrado
+# Modelo de Solicitud de Baja a Carrera de Posgrado
 
-Este documento proporciona un modelo de nota para solicitar la baja de una carrera de posgrado en la Facultad de Ciencias Económicas (FCE) de la UNL.
+Este documento proporciona un modelo de nota para solicitar la baja de una carrera de posgrado dictada en la Facultad de Ciencias Económicas (FCE) de la UNL.
 
 ---
 
@@ -8,29 +8,26 @@ Este documento proporciona un modelo de nota para solicitar la baja de una carre
 
 ### Modelo de Nota de Solicitud de Baja
 
-**Lugar y Fecha:**
-Santa Fe, [Fecha de la solicitud]
+```
+Santa Fe, [Fecha]
 
-**Destinatario:**
-Al/la Director/a de la [Área/Departamento correspondiente, si aplica]
+Al/la Director/a de la [Nombre de la Carrera de Posgrado]
 De la Facultad de Ciencias Económicas de la UNL.
-
-**Asunto:** Solicitud de Baja de Carrera de Posgrado
-
-**Cuerpo de la Nota:**
 
 De mi mayor consideración:
 
-[Nombre y apellido], DNI N° [Número de DNI], alumno/a regular de la carrera de posgrado [Nombre de la carrera de posgrado] que se dicta en la FCE de la UNL, se dirige a Usted a fin de solicitar la baja a la carrera, en virtud de [Motivo de la solicitud de baja].
+Quien suscribe, **[Nombre y apellido]**, DNI N° **[Número de DNI]**, alumno/a regular de la carrera de posgrado **[Nombre de la carrera de posgrado]** que se dicta en la FCE de la UNL, se dirige a Usted a fin de solicitar la baja a la carrera, en virtud de **[Motivo de la solicitud de baja]**.
 
 A la espera de una respuesta favorable, la saludo atentamente.
 
-**Datos del Solicitante:**
+FIRMA (digital u holográfica)
+**[Nombre y apellido del solicitante]**
+```
 
-*   **Firma:** (digital u holográfica)
-*   **Nombre y Apellido:** [Nombre y apellido del solicitante]
-*   **Celular:** [Número de celular]
-*   **Mail:** [Dirección de correo electrónico]
+### Datos de Contacto del Solicitante
+
+*   **Celular:** **[Número de celular]**
+*   **Mail:** **[Dirección de correo electrónico]**
 
 ---
 
@@ -43,4 +40,4 @@ A la espera de una respuesta favorable, la saludo atentamente.
 
 ## Fuentes consultadas
 
-- [ok Nota baja.doc](https://docs.google.com/document/d/1bssjbLAnMSdoX9bts4hqlcT308LBty6e/edit?usp=drivesdk&ouid=103512193092256901428&rtpof=true&sd=true)
+- [ok Nota baja.doc](https://docs.google.com/document/d/1bssjbLAnMSdoX9bts4hqlcT308LBty6e/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true)

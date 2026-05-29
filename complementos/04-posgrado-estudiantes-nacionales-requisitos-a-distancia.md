@@ -1,27 +1,30 @@
-# Requisitos de Inscripción a Carreras de Posgrado para Estudiantes Nacionales
+# Requisitos de Inscripción a Carreras de Posgrado - Estudiantes Nacionales
 
-Este documento detalla los requisitos y la documentación necesaria para la inscripción de estudiantes nacionales a las carreras de posgrado ofrecidas por la Facultad de Ciencias Económicas de la UNL.
+Este documento detalla los requisitos y la documentación necesaria para la inscripción de estudiantes nacionales a las carreras de posgrado ofrecidas por la Facultad de Ciencias Económicas de la UNL, incluyendo las particularidades para graduados de la UNL y de otras universidades.
 
 ---
 
 ## Contenido
 
-### Requisitos para la Inscripción a Carreras de Posgrado
+### Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales
+
+Para inscribirse a una carrera de posgrado, los estudiantes nacionales deben presentar la siguiente documentación:
 
 *   Ficha de inscripción.
 *   Subir en formato digital la siguiente documentación:
-    *   **1. Documento Nacional de Identidad** (Frente y Dorso).
-    *   **2. Constancia de CUIL.**
-    *   **3. Título de grado.**
+    *   Documento Nacional de Identidad (Frente y Dorso).
+    *   Constancia de CUIL.
+    *   Título de grado.
         *   En caso de no contar con el título de grado al momento de la inscripción, se aceptará una constancia de título en trámite con carácter provisorio.
-        *   **3.1 Graduados/das de la UNL:**
+
+        *   **Para Graduados/as de la UNL:**
             *   Imagen del anverso y reverso del diploma impreso o digital.
-        *   **3.2 Graduados/das de otras Universidades Nacionales Públicas o Privadas:**
+
+        *   **Para Graduados/as de otras Universidades Nacionales Públicas o Privadas:**
             *   Remitir imagen del anverso y reverso del diploma impreso o digital a la Dirección de Diplomas y Legalizaciones de la UNL al mail: diplomas@rectorado.unl.edu.ar
-            *   **3.2.1 Luego, pagar la tasa correspondiente ingresando a:**
-                *   [https://www.unl.edu.ar/institucional/diplomas-y-legalizaciones/](https://www.unl.edu.ar/institucional/diplomas-y-legalizaciones/)
-                *   Buscar legalización de fotocopias.
-            *   **3.2.2 Una vez culminado el proceso de legalización, incorporar el documento legalizado al legajo digital.**
+            *   Luego, pagar la tasa correspondiente ingresando a: [https://www.unl.edu.ar/institucional/diplomas-y-legalizaciones/](https://www.unl.edu.ar/institucional/diplomas-y-legalizaciones/)
+                *   Buscar la opción de "legalización de fotocopias".
+            *   Una vez culminado el proceso de legalización, incorporar el documento legalizado al legajo digital.
 
 ---
 
