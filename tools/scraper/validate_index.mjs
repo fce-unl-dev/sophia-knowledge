@@ -18,18 +18,25 @@ import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 
+const HERE = dirname(fileURLToPath(import.meta.url));
+
+// Sectores de ruteo válidos derivados de la taxonomía canónica (fuente de verdad
+// única). No duplicar la lista a mano: agregar un sector a taxonomy.json basta
+// para que el validador lo acepte, igual que generate_routing_metadata.mjs.
+const TAXONOMY = JSON.parse(await readFile(join(HERE, 'taxonomy.json'), 'utf8'));
+const ALLOWED_SECTORS = new Set(TAXONOMY.matchOrder);
+
 const FORBIDDEN_INDEX_PATHS = new Set([
   'cursos/cursos-de-formacion-activos.md',
 ]);
 
+// Carpetas kbFolder de cada sector (derivadas de la taxonomía) más las
+// estructurales que no pertenecen a un sector puntual.
 const ALLOWED_TOP_LEVEL_DIRS = new Set([
-  'posgrados',
-  'diplomaturas',
+  ...Object.values(TAXONOMY.sectors).map((s) => s.kbFolder),
   'compartidos',
-  'operativos',
   'cursos',
   'posgrado-general',
-  'estudiantes',
   'complementos',
 ]);
 
@@ -150,14 +157,7 @@ export async function validateIndex({ kbRoot } = {}) {
       if (!mapping) {
         errors.push(`${path}: no está mapeado en routing_metadata.json. Ejecute 'node tools/scraper/generate_routing_metadata.mjs'`);
       } else {
-        const allowedSectors = new Set([
-          'posgrados_graduados',
-          'grado',
-          'posgrados_cursos_sin_titulo',
-          'docentes',
-          'tramites_bedelia'
-        ]);
-        if (!allowedSectors.has(mapping.sector)) {
+        if (!ALLOWED_SECTORS.has(mapping.sector)) {
           errors.push(`${path}: tiene un sector de ruteo inválido: '${mapping.sector}'`);
         }
       }
@@ -241,8 +241,7 @@ async function main() {
     process.exit(0);
   }
 
-  const here = dirname(fileURLToPath(import.meta.url));
-  const kbRoot = values['kb-root'].startsWith('/') ? values['kb-root'] : resolve(here, values['kb-root']);
+  const kbRoot = values['kb-root'].startsWith('/') ? values['kb-root'] : resolve(HERE, values['kb-root']);
   const result = await validateIndex({ kbRoot });
 
   if (values.json) {
