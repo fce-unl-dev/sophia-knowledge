@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Taxonomía canónica de sectores de Sophia. Fuente de verdad única para clasificar contenido web (por URL/carpeta) y de Google Drive (por carpeta del admin). La consume generate_routing_metadata.mjs (classifyItem), el scraper web fce-wordpress-section y el scraper de Drive. Mantener alineado con inferDomain() en el repo agente-sophia-v2.",
+  "description": "Taxonomía canónica de sectores de Sophia. Fuente de verdad única para clasificar contenido web (por URL/carpeta) y de Google Drive (por carpeta del admin). La consume generate_routing_metadata.mjs (classifyItem), el scraper web fce-wordpress-section y el scraper de Drive. Mantener alineado con inferDomain() en el repo agente-sophia-v2. Convención driveFolderAliases: usar nombres limpios sin prefijo ordinal (ej. 'docentes', no '01-docentes'); resolveSectorFromDrivePath quita el prefijo NN- antes de matchear, así que carpetas numeradas igual resuelven, pero el alias canónico es el nombre limpio.",
   "matchOrder": [
     "academica",
     "institucional",
@@ -19,14 +19,14 @@
       "displayName": "Académica",
       "kbFolder": "academica",
       "webPathPrefixes": ["/academica"],
-      "driveFolderAliases": ["academica", "03-academica"],
+      "driveFolderAliases": ["academica"],
       "match": { "pathPrefix": ["academica/"] }
     },
     "institucional": {
       "displayName": "Institucional",
       "kbFolder": "institucional",
       "webPathPrefixes": ["/institucional"],
-      "driveFolderAliases": ["institucional", "05-institucional"],
+      "driveFolderAliases": ["institucional"],
       "match": { "pathPrefix": ["institucional/"] }
     },
     "ciencia": {
@@ -54,7 +54,7 @@
       "displayName": "Docentes",
       "kbFolder": "docentes",
       "webPathPrefixes": ["/docentes"],
-      "driveFolderAliases": ["docentes", "01-docentes"],
+      "driveFolderAliases": ["docentes"],
       "match": {
         "pathPrefix": ["docentes/"],
         "pathIncludes": ["docente", "profesor", "jurado", "regimen-de-ensenanza", "normas-y-procedimientos-de-ensenanza"],
@@ -65,7 +65,7 @@
       "displayName": "Posgrados (Graduados)",
       "kbFolder": "posgrados",
       "webPathPrefixes": ["/posgrado"],
-      "driveFolderAliases": ["04-posgrado", "posgrado"],
+      "driveFolderAliases": ["posgrado"],
       "match": {
         "pathPrefix": ["posgrados/", "posgrado-general/", "compartidos/"],
         "pathIncludes": ["04-posgrado"],
@@ -89,7 +89,7 @@
       "displayName": "Estudiantes de Grado",
       "kbFolder": "estudiantes",
       "webPathPrefixes": ["/academica/categorias/propuesta/carreras-de-grado"],
-      "driveFolderAliases": ["02-grado", "grado"],
+      "driveFolderAliases": ["grado"],
       "match": {
         "pathPrefix": ["estudiantes/"],
         "pathIncludes": ["02-grado", "ingreso-2026"],
@@ -100,7 +100,7 @@
       "displayName": "Trámites (No docentes y Bedelía)",
       "kbFolder": "operativos",
       "webPathPrefixes": ["/academica/categorias/aulas", "/academica/categorias/ingreso", "/academica/categorias/regimen"],
-      "driveFolderAliases": ["06-reglamentos-y-normas", "bedelia", "tramites"],
+      "driveFolderAliases": ["reglamentos-y-normas", "bedelia", "tramites"],
       "match": {
         "pathIncludes": ["aulas-virtuales", "bedelia", "06-reglamentos"],
         "titleIncludes": ["resolución", "resolucion", "norma", "procedimiento"]
