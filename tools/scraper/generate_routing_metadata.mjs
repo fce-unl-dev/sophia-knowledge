@@ -70,6 +70,29 @@ export function resolveSectorFromDrivePath(drivePath) {
   return null;
 }
 
+// Parsea la respuesta del fallback IA de clasificación de sector. Espera un
+// JSON { sector, confidence } (opcionalmente envuelto en un fence markdown).
+// Devuelve el sectorId solo si es un sector válido de la taxonomía y la
+// confianza alcanza el umbral; en cualquier otro caso devuelve fallbackSector.
+export function parseSectorResponse(text, { minConfidence = 0.6 } = {}) {
+  const fallback = TAXONOMY.fallbackSector;
+  const raw = String(text ?? '').replace(/^```(?:json)?\s*/i, '').replace(/\s*```\s*$/i, '').trim();
+  if (!raw) return fallback;
+
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch {
+    return fallback;
+  }
+
+  const sector = parsed?.sector;
+  const confidence = Number(parsed?.confidence);
+  if (!sector || !TAXONOMY.sectors[sector]) return fallback;
+  if (!Number.isFinite(confidence) || confidence < minConfidence) return fallback;
+  return sector;
+}
+
 export function classifyItem(item) {
   // Sector explícito y autoritativo (p. ej. resuelto desde la carpeta de Drive)
   // gana sobre las reglas heurísticas de path/title/category.

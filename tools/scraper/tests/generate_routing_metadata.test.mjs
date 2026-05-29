@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import {
   classifyItem,
   resolveSectorFromDrivePath,
+  parseSectorResponse,
 } from '../generate_routing_metadata.mjs';
 
 describe('resolveSectorFromDrivePath', () => {
@@ -70,5 +71,38 @@ describe('classifyItem honra item.sector explícito', () => {
   test('item web sin sector se clasifica por reglas (sin regresión)', () => {
     const item = { path: 'academica/plan.md', title: 'Plan', category: '' };
     assert.equal(classifyItem(item), 'academica');
+  });
+});
+
+describe('parseSectorResponse (fallback IA)', () => {
+  test('JSON válido con confianza alta → sector elegido', () => {
+    const out = parseSectorResponse('{"sector":"docentes","confidence":0.9}');
+    assert.equal(out, 'docentes');
+  });
+
+  test('respuesta envuelta en fence ```json se desenvuelve', () => {
+    const text = '```json\n{"sector":"ciencia","confidence":0.8}\n```';
+    assert.equal(parseSectorResponse(text), 'ciencia');
+  });
+
+  test('confianza por debajo del umbral → fallbackSector', () => {
+    const out = parseSectorResponse('{"sector":"docentes","confidence":0.3}');
+    assert.equal(out, 'tramites_bedelia');
+  });
+
+  test('sector inexistente en la taxonomía → fallbackSector', () => {
+    const out = parseSectorResponse('{"sector":"marketing","confidence":0.99}');
+    assert.equal(out, 'tramites_bedelia');
+  });
+
+  test('texto no parseable → fallbackSector', () => {
+    assert.equal(parseSectorResponse('no soy json'), 'tramites_bedelia');
+    assert.equal(parseSectorResponse(''), 'tramites_bedelia');
+    assert.equal(parseSectorResponse(null), 'tramites_bedelia');
+  });
+
+  test('umbral configurable via minConfidence', () => {
+    const out = parseSectorResponse('{"sector":"docentes","confidence":0.5}', { minConfidence: 0.4 });
+    assert.equal(out, 'docentes');
   });
 });

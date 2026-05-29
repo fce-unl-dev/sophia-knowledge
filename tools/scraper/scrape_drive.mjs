@@ -3,7 +3,7 @@ import pdf from 'pdf-parse';
 import mammoth from 'mammoth';
 import { parseCsv } from './scrape_sheets.mjs';
 import { callGemini, stripMarkdownFence } from './generate_md.mjs';
-import { resolveSectorFromDrivePath } from './generate_routing_metadata.mjs';
+import { resolveSectorFromDrivePath, parseSectorResponse, SECTOR_NAMES } from './generate_routing_metadata.mjs';
 import { readFile, writeFile, mkdir, unlink } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, dirname, resolve } from 'node:path';
@@ -161,6 +161,45 @@ Compara el nuevo documento con los existentes y responde en el formato JSON requ
       explanation: `Error checking duplicates: ${err.message}`,
       hasComplementaryInfo: true,
     };
+  }
+}
+
+// Fallback IA: cuando la carpeta de Drive no matchea ningún alias de la
+// taxonomía, le pedimos a Gemini que elija el sector canónico más apropiado.
+const SECTOR_CLASSIFY_SYSTEM_PROMPT = `Sos un clasificador de contenido para la base de conocimientos de Sophia, asistente virtual de la Facultad de Ciencias Económicas (FCE) de la UNL.
+Un responsable de la facultad subió un documento a Google Drive. Tu tarea es elegir el SECTOR canónico al que pertenece, de la lista provista.
+Respondé ÚNICAMENTE con JSON crudo (sin bloques markdown), con esta estructura:
+{ "sector": "<id-del-sector>", "confidence": <número entre 0 y 1> }
+Si ningún sector encaja claramente, devolvé el más cercano con confianza baja (< 0.6).`;
+
+async function classifySectorWithGemini({ apiKey, drivePath, fileName, textSnippet, model }) {
+  const sectorList = Object.entries(SECTOR_NAMES)
+    .map(([id, name]) => `- ${id}: ${name}`)
+    .join('\n');
+
+  const userPrompt = `SECTORES DISPONIBLES (devolvé el id, no el nombre):
+${sectorList}
+
+DOCUMENTO A CLASIFICAR:
+- Carpeta de Drive: ${drivePath}
+- Nombre de archivo: ${fileName}
+- Extracto del contenido:
+${(textSnippet || '').slice(0, 2000)}
+
+Elegí el sector más apropiado.`;
+
+  try {
+    const { text } = await callGemini({
+      apiKey,
+      systemInstruction: SECTOR_CLASSIFY_SYSTEM_PROMPT,
+      userPrompt,
+      model,
+      temperature: 0.1,
+    });
+    return parseSectorResponse(text);
+  } catch (err) {
+    console.warn(`  [Sector] Fallback IA falló para ${fileName}: ${err.message}`);
+    return undefined;
   }
 }
 
@@ -568,7 +607,7 @@ Env:
 
   for (const file of driveFiles) {
     const slug = slugify(file.path.replace(/\.[^/.]+$/, ""));
-    const sector = resolveSectorFromDrivePath(file.path) || undefined;
+    let sector = resolveSectorFromDrivePath(file.path) || undefined;
     const prevFile = driveState.files[file.id];
     
     // Check if unchanged
@@ -587,6 +626,20 @@ Env:
       const extractedText = await extractTextFromFile(drive, file);
       if (!extractedText || extractedText.trim().length === 0) {
         throw new Error('El texto extraído está vacío.');
+      }
+
+      // La carpeta no matcheó ningún alias: resolvemos el sector con IA.
+      if (!sector) {
+        sector = await classifySectorWithGemini({
+          apiKey,
+          drivePath: file.path,
+          fileName: file.name,
+          textSnippet: extractedText,
+          model: values['model'],
+        });
+        if (sector) {
+          console.log(`  [Sector] Resuelto por IA: ${sector} (carpeta sin alias en taxonomía)`);
+        }
       }
 
       // 2. Hash check
