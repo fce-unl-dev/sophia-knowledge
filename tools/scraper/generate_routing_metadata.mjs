@@ -27,7 +27,54 @@ function matchesSector(rules, { pathLower, title, category }) {
   return false;
 }
 
+// Normaliza un nombre de carpeta de Drive: sin acentos, minúsculas, sin espacios
+// al borde. NO saca el prefijo numérico (eso lo hace stripNumPrefix aparte).
+function normalizeFolderName(value) {
+  return String(value ?? '')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
+// Saca un prefijo ordinal tipo "01-", "03_", "12 - " del nombre de carpeta.
+function stripNumPrefix(value) {
+  return value.replace(/^\d+\s*[-_]\s*/, '');
+}
+
+// Resuelve el sector a partir de la carpeta TOP-LEVEL de un path de Drive,
+// matcheando contra driveFolderAliases de la taxonomía. Match EXACTO (tras
+// normalizar y quitar prefijo numérico) para evitar el ruteo frágil por
+// substring. Devuelve el sectorId o null si ninguna carpeta matchea.
+export function resolveSectorFromDrivePath(drivePath) {
+  const segments = String(drivePath ?? '').split('/').filter(Boolean);
+  if (segments.length === 0) return null;
+
+  const norm = normalizeFolderName(segments[0]);
+  const candidates = new Set([norm, stripNumPrefix(norm)]);
+
+  const order = TAXONOMY.matchOrder?.length
+    ? TAXONOMY.matchOrder
+    : Object.keys(TAXONOMY.sectors);
+
+  for (const sectorId of order) {
+    const aliases = TAXONOMY.sectors[sectorId]?.driveFolderAliases || [];
+    for (const alias of aliases) {
+      const na = normalizeFolderName(alias);
+      if (candidates.has(na) || candidates.has(stripNumPrefix(na))) {
+        return sectorId;
+      }
+    }
+  }
+
+  return null;
+}
+
 export function classifyItem(item) {
+  // Sector explícito y autoritativo (p. ej. resuelto desde la carpeta de Drive)
+  // gana sobre las reglas heurísticas de path/title/category.
+  if (item.sector && TAXONOMY.sectors[item.sector]) return item.sector;
+
   const path = item.path || '';
   const ctx = {
     pathLower: path.toLowerCase(),
