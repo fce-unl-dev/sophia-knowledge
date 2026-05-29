@@ -262,6 +262,13 @@ export async function scrapeFceWordpress(rootUrl, { fetchImpl = fetch } = {}) {
 // ante error del proceso.
 const DOCUMENT_EXTENSIONS = /\.(pdf|docx?|xlsx?|pptx?|odt|ods|odp|csv|zip|rar|7z)$/i;
 
+// Imágenes y media: no son páginas crawleables ni documentos útiles para la KB.
+// WordPress las sirve desde /wp-content/uploads/. Si no se filtran, las URLs de
+// imagen entran como "páginas HTML" (no matchean DOCUMENT_EXTENSIONS), generan
+// docs basura y consumen el cupo de maxPages truncando el crawl real.
+const ASSET_EXTENSIONS = /\.(jpe?g|png|gif|webp|svg|bmp|tiff?|ico|avif|mp4|webm|mov|avi|mp3|wav|ogg)$/i;
+const MEDIA_UPLOAD_PATH = /\/wp-content\/uploads\//i;
+
 // Normaliza una URL para deduplicar páginas: descarta query/hash y la barra
 // final, de modo que /academica/ y /academica sean la misma visita.
 export function normalizeSectionUrl(url) {
@@ -306,7 +313,12 @@ export function discoverSectionLinks(html, baseUrl, { sectionPrefix }) {
     if (!inSection) continue;
 
     if (DOCUMENT_EXTENSIONS.test(u.pathname)) {
+      // Los PDFs/planillas viven en /wp-content/uploads/: el chequeo de documento
+      // va primero para no descartarlos junto con la media.
       if (!seenDoc.has(abs)) { seenDoc.add(abs); docLinks.push(abs); }
+    } else if (ASSET_EXTENSIONS.test(u.pathname) || MEDIA_UPLOAD_PATH.test(u.pathname)) {
+      // Imagen/video/audio o upload sin extensión de documento → no es contenido.
+      continue;
     } else {
       const clean = normalizeSectionUrl(abs);
       if (!seenHtml.has(clean)) { seenHtml.add(clean); htmlLinks.push(clean); }

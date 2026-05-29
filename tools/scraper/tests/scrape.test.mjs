@@ -397,6 +397,32 @@ describe('discoverSectionLinks', () => {
     const { htmlLinks } = discoverSectionLinks(html, base, { sectionPrefix: '/academica' });
     assert.equal(htmlLinks.length, 1);
   });
+
+  test('excluye imágenes y media: no se crawlean como página ni cuentan como documento', () => {
+    const html = sectionPage('c', [
+      '/academica/foto.jpg',
+      '/academica/banner.JPEG',
+      '/academica/logo.png',
+      '/academica/icono.svg',
+      '/academica/animacion.gif',
+      '/academica/imagen.webp',
+      '/academica/pagina-real/',
+    ]);
+    const { htmlLinks, docLinks } = discoverSectionLinks(html, base, { sectionPrefix: '/academica' });
+    assert.deepEqual(htmlLinks, ['https://www.fce.unl.edu.ar/academica/pagina-real']);
+    assert.deepEqual(docLinks, []);
+  });
+
+  test('excluye uploads de wp-content (media) aunque la extensión no se reconozca', () => {
+    const html = sectionPage('c', [
+      '/academica/wp-content/uploads/sites/10/2024/08/img-2493.jpg',
+      '/academica/wp-content/uploads/2024/algo',
+      '/academica/contenido-real/',
+    ]);
+    const { htmlLinks, docLinks } = discoverSectionLinks(html, base, { sectionPrefix: '/academica' });
+    assert.deepEqual(htmlLinks, ['https://www.fce.unl.edu.ar/academica/contenido-real']);
+    assert.deepEqual(docLinks, []);
+  });
 });
 
 describe('scrapeFceWordpressSection', () => {
