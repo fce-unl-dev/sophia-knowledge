@@ -64,7 +64,7 @@ jobs:
     outputs:
       slugs: ${{ steps.compute.outputs.slugs }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Compute slug matrix
         id: compute
         run: |
@@ -89,11 +89,11 @@ jobs:
       matrix:
         slug: ${{ fromJson(needs.list-slugs.outputs.slugs) }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '22'
 
