@@ -16,10 +16,23 @@ Pipeline de automatización del KB de Sophia. Disparable manualmente desde:
 | `classify_diff.mjs` | Decide candidato de bajo riesgo vs revisión humana comparando secciones contra `sensitive_sections`. | vigente |
 | `run_pipeline.mjs` | Orquestador para un slug single-output y produce un report JSON con `decision`. | vigente |
 | `scrape_courses.mjs` | Scraper determinístico multi-output para cursos de formación: listado activo + detalle + candidatos 1 MD por curso. | B.3 |
+| `scrape_students.mjs` | Scraper determinístico de `/estudiantes/`: 1 MD por tema del menú, agrupando página principal + subpáginas. Ver `docs/automation/students-simple-extractor.md`. | vigente |
+| `scrape_sheets.mjs` | Helper: descarga una pestaña de Google Sheet pública como CSV y la parsea (RFC 4180). Usado por otros scrapers. | vigente |
+| `scrape_drive.mjs` | Ingesta de complementos desde Google Drive (PDF, docx, Sheets); resuelve el sector de cada archivo vía taxonomía canónica + fallback Gemini. | vigente |
+| `section_candidates.mjs` | Funciones puras: convierten el crawl de una rama WordPress completa en candidatos (1 MD por subpágina importante; páginas flacas y documentos quedan como enlaces en el MD landing). Sin red ni I/O. | vigente |
+| `generate_routing_metadata.mjs` | Taxonomía canónica (`taxonomy.json`): única fuente de verdad de sectores/carpetas para web y Drive. Resuelve a qué sector y carpeta del KB va cada doc. | vigente |
+| `propose_courses_update.mjs` | Orquestador (contrato B.5): corre `scrape_courses`, materializa candidatos en `/cursos/` + `indice.json` y arma el cuerpo del PR. No borra cursos dados de baja; los reporta. | vigente |
+| `propose_students_update.mjs` | Orquestador (contrato C.3): corre `scrape_students`, materializa candidatos en `/estudiantes/` + `indice.json` y arma el PR. No borra docs existentes. | vigente |
+| `propose_sections_update.mjs` | Orquestador multi-sección WordPress (`/academica/`, `/docentes/`, `/institucional/`, `/ciencia/`, `/extension/`, `/internacionales/`): crawlea, genera 1 MD por subpágina vía `section_candidates`, clasifica diff y arma el PR. No borra docs existentes. | vigente |
+| `freshness_report.mjs` | Reporta antigüedad de los docs del KB comparando draft autogenerado vs última revisión humana. | vigente |
 | `validate_index.mjs` | Valida `indice.json`: estructura, paths existentes, duplicados y reglas anti-agregado de cursos. | B.4 |
 | `validate_links.mjs` | Valida formato de URLs del índice, sources y MDs; opcionalmente chequea red con `--network`. | B.4 |
 | `validate_course_catalog.mjs` | Valida catálogos generados por `scrape_courses.mjs` o ejecuta scraper vivo con `--run-scraper`. | B.4 |
-| `.github/workflows/sync-kb.yml` | Workflow manual. Bajo contrato B.2 abre PRs; no pushea contenido directo a `main`. | vigente |
+| `.github/workflows/sync-kb.yml` | Workflow manual genérico (single-output vía `run_pipeline.mjs`). Bajo contrato B.2 abre PRs; no pushea contenido directo a `main`. | vigente |
+| `.github/workflows/propose-courses-kb.yml` | Workflow manual "Propose Courses KB": corre `propose_courses_update.mjs` y abre PR de cursos. Ver `docs/automation/course-proposals.md`. | vigente (B.5) |
+| `.github/workflows/propose-students-kb.yml` | Workflow manual: corre `propose_students_update.mjs` y abre PR de `/estudiantes/`. | vigente |
+| `.github/workflows/propose-sections-kb.yml` | Workflow manual: corre `propose_sections_update.mjs` y abre PR de las ramas WordPress del sitio. | vigente |
+| `.github/workflows/mark-as-reviewed.yml` | Workflow de soporte: marca documentos como revisados por humano (actualiza metadatos de freshness). | vigente |
 | `.github/workflows/validate-kb.yml` | Workflow automático de validación en PRs/push a main. | B.4 |
 
 ## Contrato B.2
@@ -206,6 +219,7 @@ state/
 
 ## Limitaciones conocidas
 
-- `scrape_courses.mjs` todavía no está conectado al workflow `Sync KB`; B.5 debe crear PR automático con diff humano para altas/bajas/cambios de cursos.
+- `scrape_courses.mjs` no corre por el workflow genérico `Sync KB`, sino por su propio workflow **Propose Courses KB** (`propose-courses-kb.yml`) vía `propose_courses_update.mjs`. Mismo criterio para estudiantes y secciones (workflows `propose-students-kb.yml` y `propose-sections-kb.yml`).
+- Ningún proponente da de baja contenido automáticamente: los cursos/páginas que dejan de aparecer en la fuente se reportan en el cuerpo del PR para decisión humana.
 - Las páginas operativas pueden requerir `template_override` porque el template académico no siempre aplica.
-- Drive/Google Sheets para estudiantes se incorporará como snapshots Markdown en fases posteriores.
+- La ingesta de Drive/Google Sheets (`scrape_drive.mjs`, `scrape_sheets.mjs`) se corre manualmente/local; todavía no tiene workflow propio en GitHub Actions.

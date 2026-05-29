@@ -31,7 +31,7 @@ Para ver el paso a paso detallado, cómo dar de alta nuevos cursos, cómo usar p
 Esta sección describe la arquitectura de la base de conocimiento, su integración con el agente y los mecanismos de validación automatizados.
 
 ### Consumo en Runtime
-El agente de producción (bajo la arquitectura consolidada `USE_SIMPLE_AGENT=true`) consume este repositorio de manera dinámica:
+El agente de producción (arquitectura consolidada: KB completa inyectada en el contexto del modelo, sin RAG) consume este repositorio de manera dinámica:
 1. Al iniciar o expirar el TTL de la caché, el agente descarga [indice.json](indice.json).
 2. El archivo `indice.json` actúa como el manifiesto de la base de conocimiento, mapeando los archivos Markdown (`.md`) permitidos, sus categorías y descripciones.
 3. El agente realiza peticiones HTTP a `raw.githubusercontent.com` para descargar cada uno de los archivos declarados en el índice.
