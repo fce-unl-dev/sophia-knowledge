@@ -335,6 +335,7 @@ export async function scrapeFceWordpressSection(rootUrl, {
 
   const visited = new Set();
   const docLinksAll = new Set();
+  const pending = new Set(); // links descubiertos dentro del prefijo aún no visitados
   const pages = [];
 
   const rootNorm = normalizeSectionUrl(rootUrl);
@@ -344,6 +345,8 @@ export async function scrapeFceWordpressSection(rootUrl, {
   for (let depth = 0; depth <= maxDepth && frontier.length > 0 && pages.length < maxPages; depth++) {
     const remaining = maxPages - pages.length;
     const batch = frontier.slice(0, remaining);
+    // Lo que quedó fuera del batch por el cap de páginas sigue pendiente.
+    for (const u of frontier.slice(remaining)) pending.add(u);
 
     const results = await mapWithConcurrency(batch, concurrency, async (pageUrl) => {
       try {
@@ -361,16 +364,29 @@ export async function scrapeFceWordpressSection(rootUrl, {
       pages.push(r.page);
       for (const d of r.docLinks) docLinksAll.add(d);
       for (const l of r.htmlLinks) {
-        if (!visited.has(l) && (pages.length + next.length) < maxPages) {
+        if (visited.has(l)) continue;
+        if ((pages.length + next.length) < maxPages) {
           visited.add(l);
           next.push(l);
+        } else {
+          // No hay cupo en este nivel: queda pendiente (se reporta como truncado).
+          pending.add(l);
         }
       }
     }
     frontier = next;
   }
 
-  return { strategy: 'fce-wordpress-section', pages, documentLinks: [...docLinksAll] };
+  // Frontera que quedó sin procesar al salir del loop (por agotar maxDepth o
+  // maxPages) es contenido descubierto pero no bajado.
+  for (const u of frontier) pending.add(u);
+
+  // pending no debe incluir páginas ya bajadas.
+  const fetchedUrls = new Set(pages.map((p) => normalizeSectionUrl(p.url)));
+  const pendingLinks = [...pending].filter((u) => !fetchedUrls.has(normalizeSectionUrl(u)));
+  const truncated = pendingLinks.length > 0;
+
+  return { strategy: 'fce-wordpress-section', pages, documentLinks: [...docLinksAll], truncated, pendingLinks };
 }
 
 export async function scrapeBySource(source, { fetchImpl = fetch } = {}) {

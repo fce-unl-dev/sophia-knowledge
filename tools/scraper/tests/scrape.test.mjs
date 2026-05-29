@@ -438,6 +438,21 @@ describe('scrapeFceWordpressSection', () => {
     assert.equal(r.pages.length, 2);
   });
 
+  test('crawl completo no marca truncated y no deja pendientes', async () => {
+    const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl: exactMockFetch(map), maxDepth: 3, maxPages: 50 });
+    assert.equal(r.truncated, false);
+    assert.deepEqual(r.pendingLinks, []);
+  });
+
+  test('al topar maxPages marca truncated y expone los links no bajados', async () => {
+    const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl: exactMockFetch(map), maxDepth: 3, maxPages: 2 });
+    assert.equal(r.truncated, true);
+    assert.ok(r.pendingLinks.length > 0);
+    // Ningún pendiente está entre las páginas ya bajadas
+    const fetched = new Set(r.pages.map((p) => normalizeSectionUrl(p.url)));
+    assert.ok(r.pendingLinks.every((u) => !fetched.has(normalizeSectionUrl(u))));
+  });
+
   test('una subpágina caída no rompe el resto', async () => {
     const broken = exactMockFetch({ [ROOT]: map[ROOT], [`${ROOT}/categorias/aulas`]: map[`${ROOT}/categorias/aulas`] });
     const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl: broken, maxDepth: 3, maxPages: 10 });
