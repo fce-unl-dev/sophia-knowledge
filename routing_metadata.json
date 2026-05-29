@@ -1,12 +1,17 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-22",
+  "lastUpdated": "2026-05-29",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
-    "posgrados_graduados": 43,
-    "grado": 19,
-    "posgrados_cursos_sin_titulo": 24,
+    "academica": 0,
+    "institucional": 0,
+    "ciencia": 0,
+    "extension": 0,
+    "internacionales": 0,
     "docentes": 3,
+    "posgrados_graduados": 43,
+    "posgrados_cursos_sin_titulo": 24,
+    "grado": 19,
     "tramites_bedelia": 5
   },
   "mappings": {

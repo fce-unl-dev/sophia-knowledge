@@ -2,104 +2,48 @@ import { readFile, writeFile } from 'node:fs/promises';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-// 5 Sectors Taxonomy
-const SECTORS = {
-  POSGRADOS_GRADUADOS: 'posgrados_graduados',
-  GRADO: 'grado',
-  POSGRADOS_CURSOS_SIN_TITULO: 'posgrados_cursos_sin_titulo',
-  DOCENTES: 'docentes',
-  TRAMITES_BEDELIA: 'tramites_bedelia',
-};
+const here = dirname(fileURLToPath(import.meta.url));
 
-const SECTOR_NAMES = {
-  [SECTORS.POSGRADOS_GRADUADOS]: 'Posgrados (Graduados)',
-  [SECTORS.GRADO]: 'Estudiantes de Grado',
-  [SECTORS.POSGRADOS_CURSOS_SIN_TITULO]: 'Posgrados y Cursos sin título de grado',
-  [SECTORS.DOCENTES]: 'Docentes',
-  [SECTORS.TRAMITES_BEDELIA]: 'Trámites (No docentes y Bedelía)',
-};
+// Taxonomía canónica: fuente de verdad única para web + Drive.
+const TAXONOMY = JSON.parse(
+  await readFile(join(here, 'taxonomy.json'), 'utf8'),
+);
+
+export const SECTOR_NAMES = Object.fromEntries(
+  Object.entries(TAXONOMY.sectors).map(([id, s]) => [id, s.displayName]),
+);
+
+// Evalúa las reglas de match de un sector contra un item del índice.
+// Reproduce la semántica del clasificador original: toLowerCase sin normalizar
+// acentos; pathPrefix usa startsWith; el resto usa includes (o igualdad exacta
+// para categoryEquals).
+function matchesSector(rules, { pathLower, title, category }) {
+  if (!rules) return false;
+  if (rules.pathPrefix?.some(p => pathLower.startsWith(p.toLowerCase()))) return true;
+  if (rules.pathIncludes?.some(p => pathLower.includes(p.toLowerCase()))) return true;
+  if (rules.titleIncludes?.some(t => title.includes(t.toLowerCase()))) return true;
+  if (rules.categoryIncludes?.some(c => category.includes(c.toLowerCase()))) return true;
+  if (rules.categoryEquals?.some(c => category === c.toLowerCase())) return true;
+  return false;
+}
 
 export function classifyItem(item) {
   const path = item.path || '';
-  const title = (item.title || '').toLowerCase();
-  const category = (item.category || '').toLowerCase();
-  const pathLower = path.toLowerCase();
+  const ctx = {
+    pathLower: path.toLowerCase(),
+    title: (item.title || '').toLowerCase(),
+    category: (item.category || '').toLowerCase(),
+  };
 
-  // 1. DOCENTES (Prioridad alta para palabras clave de personal docente)
-  if (
-    pathLower.includes('docente') ||
-    pathLower.includes('profesor') ||
-    pathLower.includes('jurado') ||
-    title.includes('docente') ||
-    title.includes('profesor') ||
-    title.includes('enseñanza') ||
-    title.includes('ensenanza') ||
-    pathLower.includes('regimen-de-ensenanza') ||
-    pathLower.includes('normas-y-procedimientos-de-ensenanza')
-  ) {
-    return SECTORS.DOCENTES;
+  for (const sectorId of TAXONOMY.matchOrder) {
+    const sector = TAXONOMY.sectors[sectorId];
+    if (matchesSector(sector?.match, ctx)) return sectorId;
   }
 
-  // 2. POSGRADOS (Graduados) - Directorios de Posgrado y Diplomaturas Superiores (título de grado)
-  if (
-    pathLower.startsWith('posgrados/') ||
-    pathLower.startsWith('posgrado-general/') ||
-    pathLower.startsWith('compartidos/') ||
-    category.includes('doctorado') ||
-    category.includes('maestría') ||
-    category.includes('maestria') ||
-    category.includes('especialización') ||
-    category.includes('especializacion') ||
-    category.includes('diplomatura universitaria superior') ||
-    title.includes('diplomatura universitaria superior') ||
-    pathLower.includes('04-posgrado')
-  ) {
-    return SECTORS.POSGRADOS_GRADUADOS;
-  }
-
-  // 3. POSGRADOS Y CURSOS SIN TÍTULO DE GRADO (Diplomaturas de pregrado y cursos libres)
-  if (
-    pathLower.startsWith('diplomaturas/') ||
-    pathLower.startsWith('cursos/') ||
-    category.includes('diplomatura') ||
-    category.includes('formación profesional') ||
-    category.includes('formacion profesional') ||
-    pathLower.includes('diplomatura') ||
-    title.includes('diplomatura')
-  ) {
-    // Como las diplomaturas superiores se filtraron arriba, aquí solo entran las de pregrado y cursos
-    return SECTORS.POSGRADOS_CURSOS_SIN_TITULO;
-  }
-
-  // 4. ESTUDIANTES DE GRADO
-  if (
-    pathLower.startsWith('estudiantes/') ||
-    pathLower.includes('02-grado') ||
-    category === 'estudiantes' ||
-    pathLower.includes('ingreso-2026')
-  ) {
-    return SECTORS.GRADO;
-  }
-
-  // 5. TRÁMITES (No docentes y Bedelía) - Fallback para resoluciones generales o aulas
-  if (
-    pathLower.includes('aulas-virtuales') ||
-    pathLower.includes('bedelia') ||
-    pathLower.includes('06-reglamentos') ||
-    title.includes('resolución') ||
-    title.includes('resolucion') ||
-    title.includes('norma') ||
-    title.includes('procedimiento')
-  ) {
-    return SECTORS.TRAMITES_BEDELIA;
-  }
-
-  // Fallback / Default
-  return SECTORS.TRAMITES_BEDELIA;
+  return TAXONOMY.fallbackSector;
 }
 
 async function main() {
-  const here = dirname(fileURLToPath(import.meta.url));
   const kbRoot = resolve(here, '../..');
   const indexPath = join(kbRoot, 'indice.json');
   const outputPath = join(kbRoot, 'routing_metadata.json');
@@ -108,13 +52,9 @@ async function main() {
   const index = JSON.parse(await readFile(indexPath, 'utf8'));
 
   const mappings = {};
-  const stats = {
-    [SECTORS.POSGRADOS_GRADUADOS]: 0,
-    [SECTORS.GRADO]: 0,
-    [SECTORS.POSGRADOS_CURSOS_SIN_TITULO]: 0,
-    [SECTORS.DOCENTES]: 0,
-    [SECTORS.TRAMITES_BEDELIA]: 0,
-  };
+  const stats = Object.fromEntries(
+    Object.keys(TAXONOMY.sectors).map(id => [id, 0]),
+  );
 
   for (const item of index.items) {
     const sector = classifyItem(item);

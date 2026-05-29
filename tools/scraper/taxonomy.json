@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "description": "Taxonomía canónica de sectores de Sophia. Fuente de verdad única para clasificar contenido web (por URL/carpeta) y de Google Drive (por carpeta del admin). La consume generate_routing_metadata.mjs (classifyItem), el scraper web fce-wordpress-section y el scraper de Drive. Mantener alineado con inferDomain() en el repo agente-sophia-v2.",
+  "matchOrder": [
+    "academica",
+    "institucional",
+    "ciencia",
+    "extension",
+    "internacionales",
+    "docentes",
+    "posgrados_graduados",
+    "posgrados_cursos_sin_titulo",
+    "grado",
+    "tramites_bedelia"
+  ],
+  "fallbackSector": "tramites_bedelia",
+  "sectors": {
+    "academica": {
+      "displayName": "Académica",
+      "kbFolder": "academica",
+      "webPathPrefixes": ["/academica"],
+      "driveFolderAliases": ["academica", "03-academica"],
+      "match": { "pathPrefix": ["academica/"] }
+    },
+    "institucional": {
+      "displayName": "Institucional",
+      "kbFolder": "institucional",
+      "webPathPrefixes": ["/institucional"],
+      "driveFolderAliases": ["institucional", "05-institucional"],
+      "match": { "pathPrefix": ["institucional/"] }
+    },
+    "ciencia": {
+      "displayName": "Ciencia y Técnica",
+      "kbFolder": "ciencia",
+      "webPathPrefixes": ["/ciencia"],
+      "driveFolderAliases": ["ciencia", "investigacion", "cyt"],
+      "match": { "pathPrefix": ["ciencia/"] }
+    },
+    "extension": {
+      "displayName": "Extensión",
+      "kbFolder": "extension",
+      "webPathPrefixes": ["/extension"],
+      "driveFolderAliases": ["extension", "vinculacion"],
+      "match": { "pathPrefix": ["extension/"] }
+    },
+    "internacionales": {
+      "displayName": "Relaciones Internacionales",
+      "kbFolder": "internacionales",
+      "webPathPrefixes": ["/internacionales"],
+      "driveFolderAliases": ["internacionales", "relaciones-internacionales"],
+      "match": { "pathPrefix": ["internacionales/"] }
+    },
+    "docentes": {
+      "displayName": "Docentes",
+      "kbFolder": "docentes",
+      "webPathPrefixes": ["/docentes"],
+      "driveFolderAliases": ["docentes", "01-docentes"],
+      "match": {
+        "pathPrefix": ["docentes/"],
+        "pathIncludes": ["docente", "profesor", "jurado", "regimen-de-ensenanza", "normas-y-procedimientos-de-ensenanza"],
+        "titleIncludes": ["docente", "profesor", "enseñanza", "ensenanza"]
+      }
+    },
+    "posgrados_graduados": {
+      "displayName": "Posgrados (Graduados)",
+      "kbFolder": "posgrados",
+      "webPathPrefixes": ["/posgrado"],
+      "driveFolderAliases": ["04-posgrado", "posgrado"],
+      "match": {
+        "pathPrefix": ["posgrados/", "posgrado-general/", "compartidos/"],
+        "pathIncludes": ["04-posgrado"],
+        "categoryIncludes": ["doctorado", "maestría", "maestria", "especialización", "especializacion", "diplomatura universitaria superior"],
+        "titleIncludes": ["diplomatura universitaria superior"]
+      }
+    },
+    "posgrados_cursos_sin_titulo": {
+      "displayName": "Posgrados y Cursos sin título de grado",
+      "kbFolder": "diplomaturas",
+      "webPathPrefixes": ["/diplomaturas"],
+      "driveFolderAliases": ["diplomaturas", "cursos"],
+      "match": {
+        "pathPrefix": ["diplomaturas/", "cursos/"],
+        "pathIncludes": ["diplomatura"],
+        "categoryIncludes": ["diplomatura", "formación profesional", "formacion profesional"],
+        "titleIncludes": ["diplomatura"]
+      }
+    },
+    "grado": {
+      "displayName": "Estudiantes de Grado",
+      "kbFolder": "estudiantes",
+      "webPathPrefixes": ["/academica/categorias/propuesta/carreras-de-grado"],
+      "driveFolderAliases": ["02-grado", "grado"],
+      "match": {
+        "pathPrefix": ["estudiantes/"],
+        "pathIncludes": ["02-grado", "ingreso-2026"],
+        "categoryEquals": ["estudiantes"]
+      }
+    },
+    "tramites_bedelia": {
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "kbFolder": "operativos",
+      "webPathPrefixes": ["/academica/categorias/aulas", "/academica/categorias/ingreso", "/academica/categorias/regimen"],
+      "driveFolderAliases": ["06-reglamentos-y-normas", "bedelia", "tramites"],
+      "match": {
+        "pathIncludes": ["aulas-virtuales", "bedelia", "06-reglamentos"],
+        "titleIncludes": ["resolución", "resolucion", "norma", "procedimiento"]
+      }
+    }
+  }
+}
