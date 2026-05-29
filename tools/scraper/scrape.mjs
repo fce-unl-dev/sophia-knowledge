@@ -240,20 +240,151 @@ export function extractWordpressBlogContent(html) {
   return tail.slice(0, cut);
 }
 
+// Procesa una página WordPress del sitio FCE: recorta a .blog-content, deriva
+// el título de la sección (h1/h2) y extrae el texto plano.
+export function processWordpressPage({ url, html }) {
+  const cropped = extractWordpressBlogContent(html);
+  const sectionTitle = extractSectionTitle(cropped);
+  const docTitle = extractTitle(html);
+  const text = htmlToText(cropped);
+  return { url, title: sectionTitle || docTitle, text, length: text.length };
+}
+
 export async function scrapeFceWordpress(rootUrl, { fetchImpl = fetch } = {}) {
   const res = await fetchHtml(rootUrl, { fetchImpl });
-  const cropped = extractWordpressBlogContent(res.html);
-  const sectionTitle = extractSectionTitle(cropped);
-  const docTitle = extractTitle(res.html);
-  const text = htmlToText(cropped);
-  const page = { url: res.url, title: sectionTitle || docTitle, text, length: text.length };
+  const page = processWordpressPage({ url: res.url, html: res.html });
   return { strategy: 'fce-wordpress', pages: [page] };
+}
+
+// Extensiones que tratamos como DOCUMENTOS: no se ingiere su cuerpo (pueden
+// contener datos personales en planillas/PDF). Sophia entrega el link y el
+// usuario lo abre. Política: toda la info es pública, autorización manual solo
+// ante error del proceso.
+const DOCUMENT_EXTENSIONS = /\.(pdf|docx?|xlsx?|pptx?|odt|ods|odp|csv|zip|rar|7z)$/i;
+
+// Normaliza una URL para deduplicar páginas: descarta query/hash y la barra
+// final, de modo que /academica/ y /academica sean la misma visita.
+export function normalizeSectionUrl(url) {
+  try {
+    const u = new URL(url);
+    let path = u.pathname.replace(/\/+$/, '');
+    if (path === '') path = '/';
+    return u.origin + path;
+  } catch {
+    return url;
+  }
+}
+
+// Descubre links internos de una sección WordPress (theme hygge/Académica).
+// Separa páginas HTML crawleables (mismo host, dentro del prefijo de sección)
+// de documentos (PDF/planillas/etc.) que se listan link-only. Excluye anchors,
+// mailto/tel/javascript y cualquier host externo.
+export function discoverSectionLinks(html, baseUrl, { sectionPrefix }) {
+  const prefix = sectionPrefix.toLowerCase().replace(/\/+$/, '') || '/';
+  let host;
+  try { host = new URL(baseUrl).host; } catch { return { htmlLinks: [], docLinks: [] }; }
+
+  const htmlLinks = [];
+  const docLinks = [];
+  const seenHtml = new Set();
+  const seenDoc = new Set();
+
+  const re = /<a\b[^>]*href\s*=\s*["']([^"']+)["']/gi;
+  let m;
+  while ((m = re.exec(html)) !== null) {
+    let href = m[1].replace(/&amp;/g, '&').trim();
+    if (!href || /^(#|mailto:|tel:|javascript:)/i.test(href)) continue;
+
+    const abs = absolutizeUrl(href, baseUrl);
+    if (!abs) continue;
+    let u;
+    try { u = new URL(abs); } catch { continue; }
+    if (u.host !== host) continue;
+
+    const path = u.pathname.toLowerCase();
+    const inSection = path === prefix || path.startsWith(`${prefix}/`);
+    if (!inSection) continue;
+
+    if (DOCUMENT_EXTENSIONS.test(u.pathname)) {
+      if (!seenDoc.has(abs)) { seenDoc.add(abs); docLinks.push(abs); }
+    } else {
+      const clean = normalizeSectionUrl(abs);
+      if (!seenHtml.has(clean)) { seenHtml.add(clean); htmlLinks.push(clean); }
+    }
+  }
+
+  return { htmlLinks, docLinks };
+}
+
+// Estrategia 'fce-wordpress-section': crawl BFS de una rama WordPress completa
+// (ej. /academica/), acotado al prefijo de la sección, hasta maxDepth niveles y
+// maxPages páginas. Cada página HTML se procesa como blog-content; los enlaces a
+// documentos se acumulan y se listan link-only (no se baja el cuerpo).
+export async function scrapeFceWordpressSection(rootUrl, {
+  fetchImpl = fetch,
+  maxDepth = 3,
+  maxPages = 80,
+  concurrency = CONCURRENCY,
+  sectionPrefix,
+} = {}) {
+  let prefix = sectionPrefix;
+  if (!prefix) {
+    try { prefix = new URL(rootUrl).pathname.replace(/\/+$/, '') || '/'; }
+    catch { prefix = '/'; }
+  }
+
+  const visited = new Set();
+  const docLinksAll = new Set();
+  const pages = [];
+
+  const rootNorm = normalizeSectionUrl(rootUrl);
+  visited.add(rootNorm);
+  let frontier = [rootNorm];
+
+  for (let depth = 0; depth <= maxDepth && frontier.length > 0 && pages.length < maxPages; depth++) {
+    const remaining = maxPages - pages.length;
+    const batch = frontier.slice(0, remaining);
+
+    const results = await mapWithConcurrency(batch, concurrency, async (pageUrl) => {
+      try {
+        const res = await fetchHtml(pageUrl, { fetchImpl });
+        const page = processWordpressPage({ url: res.url, html: res.html });
+        const { htmlLinks, docLinks } = discoverSectionLinks(res.html, res.url, { sectionPrefix: prefix });
+        return { page, htmlLinks, docLinks };
+      } catch (err) {
+        return { page: { url: pageUrl, title: '', text: '', length: 0, error: String(err.message || err) }, htmlLinks: [], docLinks: [] };
+      }
+    });
+
+    const next = [];
+    for (const r of results) {
+      pages.push(r.page);
+      for (const d of r.docLinks) docLinksAll.add(d);
+      for (const l of r.htmlLinks) {
+        if (!visited.has(l) && (pages.length + next.length) < maxPages) {
+          visited.add(l);
+          next.push(l);
+        }
+      }
+    }
+    frontier = next;
+  }
+
+  return { strategy: 'fce-wordpress-section', pages, documentLinks: [...docLinksAll] };
 }
 
 export async function scrapeBySource(source, { fetchImpl = fetch } = {}) {
   if (source.strategy === 'fce-microsite') return scrapeFceMicrosite(source.url, { fetchImpl });
   if (source.strategy === 'wordpress-homepage') return scrapeWordpressHomepage(source.url, { fetchImpl });
   if (source.strategy === 'fce-wordpress') return scrapeFceWordpress(source.url, { fetchImpl });
+  if (source.strategy === 'fce-wordpress-section') {
+    return scrapeFceWordpressSection(source.url, {
+      fetchImpl,
+      maxDepth: source.maxDepth ?? 3,
+      maxPages: source.maxPages ?? 80,
+      sectionPrefix: source.sectionPrefix,
+    });
+  }
   if (source.strategy === 'fce-students-menu-topics') {
     return { strategy: 'fce-students-menu-topics', pages: [], skipped: true, reason: 'handled by propose_students_update.mjs' };
   }
@@ -265,7 +396,7 @@ export async function scrapeBySource(source, { fetchImpl = fetch } = {}) {
 
 // ---------- Output formatting ----------
 
-export function formatRawText({ pages }) {
+export function formatRawText({ pages, documentLinks = [] }) {
   const parts = [];
   for (const p of pages) {
     if (p.error) {
@@ -275,6 +406,11 @@ export function formatRawText({ pages }) {
     parts.push(`--- INICIO: ${p.title || '(sin título)'} :: ${p.url} ---`);
     parts.push(p.text);
     parts.push(`--- FIN: ${p.url} ---\n`);
+  }
+  if (documentLinks.length > 0) {
+    parts.push('--- DOCUMENTOS VINCULADOS (link-only, no se ingiere el contenido) ---');
+    parts.push(documentLinks.map((u) => `- ${u}`).join('\n'));
+    parts.push('--- FIN DOCUMENTOS ---\n');
   }
   return parts.join('\n\n');
 }

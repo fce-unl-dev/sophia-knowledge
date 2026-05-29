@@ -18,6 +18,10 @@ import {
   scrapeBySource,
   runForSource,
   extractWordpressBlogContent,
+  processWordpressPage,
+  discoverSectionLinks,
+  normalizeSectionUrl,
+  scrapeFceWordpressSection,
 } from '../scrape.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -316,5 +320,163 @@ describe('runForSource', () => {
     } finally {
       await rm(stateDir, { recursive: true, force: true });
     }
+  });
+});
+
+// ---------- fce-wordpress-section ----------
+
+function sectionPage(blogHtml, links = []) {
+  const anchors = links.map((href) => `<a href="${href}">x</a>`).join('');
+  return `<!doctype html><html><head><title>FCE</title></head><body>
+    <header><nav>${anchors}</nav></header>
+    <div class="blog-content">${blogHtml}</div>
+    <div class="sidebar-unl"><p>NO DEBE APARECER</p></div>
+    <footer>TAMPOCO</footer></body></html>`;
+}
+
+// Mock fetch que matchea por URL exacta, normalizando barra final.
+function exactMockFetch(map) {
+  const norm = (u) => u.replace(/\/+$/, '');
+  return async (url) => {
+    const key = Object.keys(map).find((k) => norm(k) === norm(url));
+    if (!key) throw new Error(`exactMockFetch: no entry for ${url}`);
+    return { ok: true, status: 200, url, async text() { return map[key]; } };
+  };
+}
+
+describe('normalizeSectionUrl', () => {
+  test('descarta barra final, query y hash', () => {
+    assert.equal(normalizeSectionUrl('https://w.fce.edu/academica/'), 'https://w.fce.edu/academica');
+    assert.equal(normalizeSectionUrl('https://w.fce.edu/academica?x=1#y'), 'https://w.fce.edu/academica');
+    assert.equal(normalizeSectionUrl('https://w.fce.edu/'), 'https://w.fce.edu/');
+  });
+});
+
+describe('discoverSectionLinks', () => {
+  const base = 'https://www.fce.unl.edu.ar/academica/';
+  test('separa páginas HTML de documentos, ambos dentro del prefijo', () => {
+    const html = sectionPage('contenido', [
+      '/academica/categorias/propuesta/',
+      '/academica/reglamento.pdf',
+      '/academica/planilla.xlsx',
+    ]);
+    const { htmlLinks, docLinks } = discoverSectionLinks(html, base, { sectionPrefix: '/academica' });
+    assert.deepEqual(htmlLinks, ['https://www.fce.unl.edu.ar/academica/categorias/propuesta']);
+    assert.deepEqual(docLinks, [
+      'https://www.fce.unl.edu.ar/academica/reglamento.pdf',
+      'https://www.fce.unl.edu.ar/academica/planilla.xlsx',
+    ]);
+  });
+
+  test('excluye host externo, mailto/tel/anchor y otras secciones', () => {
+    const html = sectionPage('c', [
+      'https://otro.com/academica/x/',
+      'mailto:a@b.com',
+      'tel:+54',
+      '#top',
+      '/docentes/algo/',
+      'javascript:void(0)',
+    ]);
+    const { htmlLinks, docLinks } = discoverSectionLinks(html, base, { sectionPrefix: '/academica' });
+    assert.deepEqual(htmlLinks, []);
+    assert.deepEqual(docLinks, []);
+  });
+
+  test('respeta el límite exacto del prefijo (no matchea /academica-foo)', () => {
+    const html = sectionPage('c', ['/academica-foo/bar/', '/academica']);
+    const { htmlLinks } = discoverSectionLinks(html, base, { sectionPrefix: '/academica' });
+    assert.deepEqual(htmlLinks, ['https://www.fce.unl.edu.ar/academica']);
+  });
+
+  test('deduplica la misma página con y sin barra/query', () => {
+    const html = sectionPage('c', [
+      '/academica/x/',
+      '/academica/x',
+      '/academica/x?ref=menu',
+    ]);
+    const { htmlLinks } = discoverSectionLinks(html, base, { sectionPrefix: '/academica' });
+    assert.equal(htmlLinks.length, 1);
+  });
+});
+
+describe('scrapeFceWordpressSection', () => {
+  const ROOT = 'https://www.fce.unl.edu.ar/academica';
+  const map = {
+    [ROOT]: sectionPage('<h1>Académica</h1><p>home</p>', [
+      '/academica/categorias/propuesta/',
+      '/academica/categorias/aulas/',
+      '/academica/reglamento.pdf',
+      'https://externo.com/x/',
+    ]),
+    [`${ROOT}/categorias/propuesta`]: sectionPage('<h1>Propuesta</h1>', [
+      '/academica/categorias/propuesta/carreras-de-grado/',
+      '/academica/',
+    ]),
+    [`${ROOT}/categorias/aulas`]: sectionPage('<h1>Aulas</h1>', []),
+    [`${ROOT}/categorias/propuesta/carreras-de-grado`]: sectionPage('<h1>Grado</h1>', []),
+  };
+
+  test('crawlea BFS toda la rama acotada al prefijo y junta documentos link-only', async () => {
+    const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl: exactMockFetch(map), maxDepth: 3 });
+    assert.equal(r.strategy, 'fce-wordpress-section');
+    const titles = r.pages.map((p) => p.title).sort();
+    assert.deepEqual(titles, ['Académica', 'Aulas', 'Grado', 'Propuesta']);
+    assert.deepEqual(r.documentLinks, ['https://www.fce.unl.edu.ar/academica/reglamento.pdf']);
+    // No se cuela el host externo
+    assert.ok(!r.pages.some((p) => p.url.includes('externo.com')));
+  });
+
+  test('respeta maxDepth: con 1 solo baja root + nivel 1', async () => {
+    const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl: exactMockFetch(map), maxDepth: 1 });
+    const titles = r.pages.map((p) => p.title).sort();
+    assert.deepEqual(titles, ['Académica', 'Aulas', 'Propuesta']);
+    assert.ok(!titles.includes('Grado'));
+  });
+
+  test('respeta maxPages cap', async () => {
+    const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl: exactMockFetch(map), maxDepth: 3, maxPages: 2 });
+    assert.equal(r.pages.length, 2);
+  });
+
+  test('una subpágina caída no rompe el resto', async () => {
+    const broken = exactMockFetch({ [ROOT]: map[ROOT], [`${ROOT}/categorias/aulas`]: map[`${ROOT}/categorias/aulas`] });
+    const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl: broken, maxDepth: 3, maxPages: 10 });
+    assert.ok(r.pages.some((p) => p.error)); // propuesta falla
+    assert.ok(r.pages.some((p) => p.title === 'Aulas')); // aulas sigue ok
+  });
+
+  test('via scrapeBySource con strategy fce-wordpress-section', async () => {
+    const r = await scrapeBySource(
+      { slug: 'academica', url: `${ROOT}/`, strategy: 'fce-wordpress-section', maxDepth: 1 },
+      { fetchImpl: exactMockFetch(map) },
+    );
+    assert.equal(r.strategy, 'fce-wordpress-section');
+    assert.ok(r.pages.length >= 1);
+  });
+});
+
+describe('formatRawText con documentos', () => {
+  test('agrega bloque DOCUMENTOS VINCULADOS cuando hay documentLinks', () => {
+    const raw = formatRawText({
+      pages: [{ url: 'https://x/1', title: 'Uno', text: 'a', length: 1 }],
+      documentLinks: ['https://x/doc.pdf'],
+    });
+    assert.match(raw, /DOCUMENTOS VINCULADOS \(link-only/);
+    assert.match(raw, /- https:\/\/x\/doc\.pdf/);
+  });
+  test('sin documentLinks no agrega bloque (backwards-compatible)', () => {
+    const raw = formatRawText({ pages: [{ url: 'https://x/1', title: 'Uno', text: 'a', length: 1 }] });
+    assert.ok(!raw.includes('DOCUMENTOS VINCULADOS'));
+  });
+});
+
+describe('processWordpressPage', () => {
+  test('recorta a blog-content y prioriza el h1 de sección', () => {
+    const html = sectionPage('<h1>Mi Sección</h1><p>cuerpo real</p>');
+    const page = processWordpressPage({ url: 'https://x/s', html });
+    assert.equal(page.title, 'Mi Sección');
+    assert.ok(page.text.includes('cuerpo real'));
+    assert.ok(!page.text.includes('NO DEBE APARECER'));
+    assert.ok(!page.text.includes('TAMPOCO'));
   });
 });
