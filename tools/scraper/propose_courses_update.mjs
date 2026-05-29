@@ -374,6 +374,7 @@ async function main() {
       force: { type: 'boolean', default: false },
       'dry-run': { type: 'boolean', default: false },
       'pr-body': { type: 'string' },
+      'report-out': { type: 'string' },
       model: { type: 'string', default: 'gemini-2.5-pro' },
       help: { type: 'boolean', default: false },
     },
@@ -388,6 +389,7 @@ async function main() {
   const kbRoot = values['kb-root'].startsWith('/') ? values['kb-root'] : resolve(here, values['kb-root']);
   const stateDir = values.out.startsWith('/') ? values.out : resolve(here, values.out);
   const prBodyPath = values['pr-body'] ? resolve(process.cwd(), values['pr-body']) : null;
+  const reportOutPath = values['report-out'] ? resolve(process.cwd(), values['report-out']) : null;
 
   const result = await proposeCoursesUpdate({
     kbRoot,
@@ -399,7 +401,13 @@ async function main() {
     model: values.model,
   });
 
-  console.log(JSON.stringify(result, null, 2));
+  // El reporte JSON va a un archivo dedicado (consumido por el workflow con jq).
+  // No depende de la pureza del stdout, que puede tener logs de progreso.
+  const reportJson = JSON.stringify(result, null, 2);
+  if (reportOutPath) {
+    await writeFile(reportOutPath, reportJson, 'utf8');
+  }
+  console.log(reportJson);
   process.exit(0);
 }
 

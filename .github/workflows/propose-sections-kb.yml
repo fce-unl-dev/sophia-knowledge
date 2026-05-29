@@ -74,7 +74,8 @@ jobs:
           node propose_sections_update.mjs \
             --kb-root=../.. \
             --pr-body=/tmp/sections-pr-body.md \
-            $extra_args > /tmp/sections-proposal.json
+            --report-out=/tmp/sections-proposal.json \
+            $extra_args
           # ok:false (rejected) sale con exit 1; no debe abortar el reporte.
           set -e
 

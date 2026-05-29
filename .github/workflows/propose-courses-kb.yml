@@ -64,7 +64,8 @@ jobs:
           node propose_courses_update.mjs \
             --kb-root=../.. \
             --pr-body=/tmp/courses-pr-body.md \
-            $extra_args > /tmp/courses-proposal.json
+            --report-out=/tmp/courses-proposal.json \
+            $extra_args
 
           cat /tmp/courses-proposal.json
           decision=$(jq -r '.decision' /tmp/courses-proposal.json)

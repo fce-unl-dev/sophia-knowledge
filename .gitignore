@@ -22,6 +22,10 @@ tools/scraper/.env*
 
 # Scraper dependencies and state
 tools/scraper/node_modules/
-tools/scraper/state/
 tools/scraper/package-lock.json
+# NOTA: NO ignorar tools/scraper/state/ en bloque. El .gitignore interno
+# (tools/scraper/state/.gitignore) ignora los regenerables (raw.txt, candidate.md,
+# gen.meta.json, catalog.json, candidates/) pero permite los *.meta.json chicos
+# con hash, que DEBEN viajar en git para el diff-first del pipeline. Un blanket
+# acá rompía `git add <slug>.meta.json` para slugs nuevos en los workflows.
 
