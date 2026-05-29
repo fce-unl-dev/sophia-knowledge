@@ -27,14 +27,17 @@ function matchesSector(rules, { pathLower, title, category }) {
   return false;
 }
 
-// Normaliza un nombre de carpeta de Drive: sin acentos, minúsculas, sin espacios
-// al borde. NO saca el prefijo numérico (eso lo hace stripNumPrefix aparte).
+// Normaliza un nombre de carpeta de Drive: sin acentos, minúsculas, y unifica
+// separadores (espacios, '_' y '-') en un único '-'. Esto hace que carpetas con
+// guion bajo (07_AULAS_VIRTUALES) matcheen aliases con guion (aulas-virtuales).
+// NO saca el prefijo numérico (eso lo hace stripNumPrefix aparte).
 function normalizeFolderName(value) {
   return String(value ?? '')
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
-    .trim();
+    .trim()
+    .replace(/[\s_-]+/g, '-');
 }
 
 // Saca un prefijo ordinal tipo "01-", "03_", "12 - " del nombre de carpeta.

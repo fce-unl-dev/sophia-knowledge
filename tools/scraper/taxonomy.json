@@ -19,7 +19,7 @@
       "displayName": "Académica",
       "kbFolder": "academica",
       "webPathPrefixes": ["/academica"],
-      "driveFolderAliases": ["academica"],
+      "driveFolderAliases": ["academica", "aulas-virtuales", "calendarios-y-cronogramas"],
       "match": { "pathPrefix": ["academica/"] }
     },
     "institucional": {
@@ -77,7 +77,7 @@
       "displayName": "Posgrados y Cursos sin título de grado",
       "kbFolder": "diplomaturas",
       "webPathPrefixes": ["/diplomaturas"],
-      "driveFolderAliases": ["diplomaturas", "cursos"],
+      "driveFolderAliases": ["diplomaturas", "cursos", "pregrado"],
       "match": {
         "pathPrefix": ["diplomaturas/", "cursos/"],
         "pathIncludes": ["diplomatura"],
@@ -89,7 +89,7 @@
       "displayName": "Estudiantes de Grado",
       "kbFolder": "estudiantes",
       "webPathPrefixes": ["/academica/categorias/propuesta/carreras-de-grado"],
-      "driveFolderAliases": ["grado"],
+      "driveFolderAliases": ["grado", "ingreso"],
       "match": {
         "pathPrefix": ["estudiantes/"],
         "pathIncludes": ["02-grado", "ingreso-2026"],

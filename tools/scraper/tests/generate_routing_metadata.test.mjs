@@ -45,6 +45,28 @@ describe('resolveSectorFromDrivePath', () => {
     // top-level "docentes" gana aunque haya subcarpeta con otro alias
     assert.equal(resolveSectorFromDrivePath('01-docentes/internacionales/x.pdf'), 'docentes');
   });
+
+  test('guion bajo matchea alias con guion (07_AULAS_VIRTUALES → academica)', () => {
+    assert.equal(resolveSectorFromDrivePath('07_AULAS_VIRTUALES/manual.pdf'), 'academica');
+  });
+
+  test('separadores mixtos y prefijo numérico (08_CALENDARIOS_Y_CRONOGRAMAS → academica)', () => {
+    assert.equal(
+      resolveSectorFromDrivePath('08_CALENDARIOS_Y_CRONOGRAMAS/2026.pdf'),
+      'academica',
+    );
+  });
+
+  test('ingreso resuelve a grado (01_INGRESO → grado)', () => {
+    assert.equal(resolveSectorFromDrivePath('01_INGRESO/instructivo.pdf'), 'grado');
+  });
+
+  test('pregrado resuelve a posgrados_cursos_sin_titulo (03_PREGRADO → ...)', () => {
+    assert.equal(
+      resolveSectorFromDrivePath('03_PREGRADO/tecnicatura.pdf'),
+      'posgrados_cursos_sin_titulo',
+    );
+  });
 });
 
 describe('classifyItem honra item.sector explícito', () => {
