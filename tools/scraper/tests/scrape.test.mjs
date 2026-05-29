@@ -460,6 +460,29 @@ describe('scrapeFceWordpressSection', () => {
     assert.ok(r.pages.some((p) => p.title === 'Aulas')); // aulas sigue ok
   });
 
+  test('dedupe por URL final: variantes que redirigen a la misma página se bajan una vez', async () => {
+    // El root linkea dos variantes (mayúscula y minúscula) del mismo destino;
+    // ambas redirigen a la canónica /academica/contador/. Sin dedupe entraría 2x.
+    const rootHtml = sectionPage('<h1>Académica</h1>', [
+      '/academica/Contador/',
+      '/academica/contador/',
+    ]);
+    const canonical = sectionPage('<h1>Contador</h1>', []);
+    const fetchImpl = async (url) => {
+      const norm = url.replace(/\/+$/, '');
+      if (norm === ROOT) return { ok: true, status: 200, url, async text() { return rootHtml; } };
+      // Cualquier variante de "contador" resuelve a la misma URL final canónica.
+      if (/\/academica\/contador$/i.test(norm)) {
+        return { ok: true, status: 200, url: `${ROOT}/contador/`, async text() { return canonical; } };
+      }
+      throw new Error(`no entry for ${url}`);
+    };
+    const r = await scrapeFceWordpressSection(`${ROOT}/`, { fetchImpl, maxDepth: 3, maxPages: 50 });
+    const contadores = r.pages.filter((p) => /\/contador\/?$/i.test(p.url));
+    assert.equal(contadores.length, 1);
+    assert.equal(r.pages.length, 2); // root + contador (una sola vez)
+  });
+
   test('via scrapeBySource con strategy fce-wordpress-section', async () => {
     const r = await scrapeBySource(
       { slug: 'academica', url: `${ROOT}/`, strategy: 'fce-wordpress-section', maxDepth: 1 },

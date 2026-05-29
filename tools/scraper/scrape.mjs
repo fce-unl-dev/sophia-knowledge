@@ -337,6 +337,7 @@ export async function scrapeFceWordpressSection(rootUrl, {
   const docLinksAll = new Set();
   const pending = new Set(); // links descubiertos dentro del prefijo aún no visitados
   const pages = [];
+  const fetchedFinal = new Set(); // URLs finales (tras redirect) ya incorporadas a pages
 
   const rootNorm = normalizeSectionUrl(rootUrl);
   visited.add(rootNorm);
@@ -361,7 +362,19 @@ export async function scrapeFceWordpressSection(rootUrl, {
 
     const next = [];
     for (const r of results) {
-      pages.push(r.page);
+      if (r.page.error) {
+        pages.push(r.page);
+      } else {
+        // Distintas URLs descubiertas (variantes de caso, alias o slugs viejos)
+        // pueden redirigir a la misma página canónica. Deduplicamos por la URL
+        // final tras el redirect: sin esto la misma página entra dos veces y
+        // dispara una falsa colisión de ruta aguas abajo.
+        const finalNorm = normalizeSectionUrl(r.page.url);
+        if (fetchedFinal.has(finalNorm)) continue;
+        fetchedFinal.add(finalNorm);
+        visited.add(finalNorm); // la variante canónica tampoco debe re-encolarse
+        pages.push(r.page);
+      }
       for (const d of r.docLinks) docLinksAll.add(d);
       for (const l of r.htmlLinks) {
         if (visited.has(l)) continue;
