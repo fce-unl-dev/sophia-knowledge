@@ -1,5 +1,7 @@
 # Maestría en Negocios Agroalimentarios
 
+La Maestría en Negocios Agroalimentarios es una carrera de tipo profesional de alta dirección pensada para facilitar la comprensión e implementación de técnicas de gestión en organizaciones agroalimentarias que se desempeñan en entornos cambiantes, desde una visión integral. Se dicta en forma conjunta entre las Facultades de Ciencias Económicas y de Ciencias Agrarias de la Universidad Nacional del Litoral, con sede en la última institución mencionada, con modalidad presencial.
+
 ---
 
 ## Identificación
@@ -9,8 +11,8 @@
 - **Tipo**: Maestría profesional
 - **Título que otorga**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
 - **Acreditación CONEAU**: RESFC-2025-294-APN-CONEAU#MCH – Categoría: A (seis años)
-- **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: Facultad de Ciencias Agrarias (FCA-UNL)
+- **Unidad académica**: FCA-UNL
+- **Carreras compartidas con otras unidades**: Facultad de Ciencias Agrarias (FCA-UNL) y Facultad de Ciencias Económicas (FCE-UNL)
 
 ## Modalidad y duración
 
@@ -76,21 +78,23 @@ Nómina docente por asignatura no publicada en fuentes oficiales; consultar a po
 
 - **Director/a académico/a**: Mg. María Isabel Castignani
 - **Email del programa**: posgrado@fca.unl.edu.ar
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
-- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 - **Teléfono del programa**: +54 3496 426400/421037 interno 161
 
 ## Información adicional relevante
 
-- Carrera de tipo profesional de alta dirección pensada para facilitar la comprensión e implementación de técnicas de gestión en organizaciones agroalimentarias que se desempeñan en entornos cambiantes, desde una visión integral.
+- Carrera con Reconocimiento Nacional oficial del título (Resolución Ministerio de Educación Nº 1305-20).
+- Dirigida a profesionales y directivos interesados en la comprensión y aplicación de técnicas de gestión de empresas y organizaciones agroalimentarias, con una visión integral para actuar en un entorno globalizado.
 - Permite acceder al Régimen de Crédito Fiscal para capacitación de personal en PyMES del Ministerio de Producción de la Nación, que ofrece un reintegro parcial o total de los costos de capacitación mediante un certificado de Crédito Fiscal utilizable para la cancelación de impuestos nacionales.
 - Cronograma Cursos 2026 disponible en la web oficial.
+- Descarga Nota elevación Decano e Instructivo para el reconocimiento de cursos.
+- Descarga Reglamento.
+- Acceso a Biblioteca de Tesis.
+- Acceso a Trámites Académicos.
 
 ## Fuentes consultadas
 
-- https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/
+- https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/ (Información general, acreditación, requisitos, plan de estudios, contacto, inscripción, cohorte, cuerpo docente)
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
