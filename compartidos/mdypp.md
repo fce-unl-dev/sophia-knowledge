@@ -28,8 +28,6 @@ Maestría interdisciplinaria de la **Facultad de Ciencias Jurídicas y Sociales 
 - **Duración trabajo final / tesis**: No publicado en fuentes oficiales — consultar con maestriadypp@unl.edu.ar
 - **Carga horaria total**: No publicado en fuentes oficiales — consultar con maestriadypp@unl.edu.ar
 
-Detalles específicos (modalidad, duración, carga horaria) disponibles en el sitio oficial: https://www.fcjs.unl.edu.ar/mdypp/informacion-general/
-
 ## Plan de estudios
 
 ### Estructura general
@@ -40,10 +38,6 @@ No publicado en fuentes oficiales — consultar con maestriadypp@unl.edu.ar
 
 ### Trabajo final / tesis
 No publicado en fuentes oficiales — consultar con maestriadypp@unl.edu.ar
-
-Plan de estudios y menciones disponibles en:
-- **Gestión Pública del Desarrollo**: https://www.fcjs.unl.edu.ar/mdypp/categorias/plan-de-estudios/mencion-en-gestion-publica-del-desarrollo/
-- **Teorías y Políticas del Desarrollo**: https://www.fcjs.unl.edu.ar/mdypp/categorias/plan-de-estudios/teorias-y-politicas-del-desarrollo/
 
 ## Cuerpo docente
 
@@ -93,10 +87,11 @@ Nómina disponible en: https://www.fcjs.unl.edu.ar/mdypp/categorias/cuerpo-docen
 - Para consultas detalladas (plan, docentes específicos, aranceles, fechas concretas), la fuente oficial es la **FCJS**, que es la unidad sede.
 - **Gestión Académica**: https://www.fcjs.unl.edu.ar/mdypp/gestion-academica/
 - **SIU Guaraní Posgrado FCJS**: https://servicios.unl.edu.ar/fcjs_posgrado/
+- **Suscripción al Boletín de la Maestría**: No publicado
 
 ## Fuentes consultadas
 
-- https://www.fcjs.unl.edu.ar/mdypp/ (homepage)
+- https://www.fcjs.unl.edu.ar/mdypp/ (homepage y descripción general)
 - https://www.fcjs.unl.edu.ar/mdypp/informacion-general/ (información general)
 - https://www.fcjs.unl.edu.ar/mdypp/categorias/plan-de-estudios/mencion-en-gestion-publica-del-desarrollo/ (plan de estudios)
 - https://www.fcjs.unl.edu.ar/mdypp/categorias/plan-de-estudios/teorias-y-politicas-del-desarrollo/ (plan de estudios)
@@ -108,4 +103,4 @@ Nómina disponible en: https://www.fcjs.unl.edu.ar/mdypp/categorias/cuerpo-docen
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
