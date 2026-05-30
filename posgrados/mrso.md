@@ -21,39 +21,40 @@ La Maestría en Responsabilidad Social Organizacional (MRSO) de la FCE-UNL brind
 - **Lugar**: 100% online (virtual)
 - **Idioma**: Español
 - **Duración cursada**: 2 años
-- **Duración trabajo final / tesis**: Plazo máximo 4 años desde la inscripción a la carrera
+- **Duración trabajo final / tesis**: Plazo máximo 4 años a partir de la inscripción a la carrera
 - **Carga horaria total**: ~705 horas / 47 UCAs (Introductorio 105 hs + Especializado 330 hs + Optativa 45 hs + Laboratorio TF 60 hs + Tutorías 165 hs)
 
 ## Plan de estudios
 
 ### Estructura general
 
-- **Ciclo de Formación Introductorio**: 105 horas / 7 UCAs (3 materias)
-- **Ciclo de Formación Especializado**: 8 módulos, 330 horas / 22 UCAs
-- **Módulo de Optativas**: 1 optativa a elección, 45 horas / 3 UCAs
-- **Laboratorio de Diseño de Trabajo Final**: 60 horas / 4 UCAs
-- **Tutorías y escritura del trabajo final**: 165 horas / 11 UCAs
-- **Curso de Nivelación** (para graduados de otras disciplinas): 30 hs con examen integrador
+El Plan de Estudios está compuesto por:
+- **Ciclo de Formación Introductorio**: 105 horas (7 UCAs), que proveerá el conocimiento teórico y metodológico básico imprescindible para proceder posteriormente a la formación especializada del tema.
+- **Ciclo de Formación Especializado**: ocho módulos y con una afectación horaria total de 330 horas (22 UCAs). En cada uno de estos ocho módulos se presentan temáticas que profundizan aspectos de la Responsabilidad Social de las Organizaciones enfocados especialmente a las disciplinas de administración, contabilidad y economía.
+- **Módulo de Optativas**: Se requerirá el cursado y la aprobación de un curso optativo con un total de 45 horas (3 UCAs).
+- **Laboratorio de Diseño de Trabajo Final**: 60 horas (4 UCAs), enfocado en lograr conocimiento sobre el proceso de investigación y la elaboración del proyecto final.
+- **Tutorías y escritura del trabajo final**: 165 horas (11 UCAs).
+- **Curso de Nivelación**: Para graduados de otras disciplinas, de 30 horas de cursado, el que deberá aprobarse con un examen integrador.
 
 ### Módulos / asignaturas
 
-**Ciclo Introductorio:**
-1. Introducción al campo de la Responsabilidad Social
-2. Teorías y enfoques de la Responsabilidad Social
-3. Gestión de los Grupos de Interés
+**Ciclo de Formación Introductorio:**
+- Introducción al campo de la Responsabilidad Social
+- Teorías y enfoques de la Responsabilidad Social
+- Gestión de los Grupos de Interés
 
-**Ciclo Especializado (8 módulos):**
-4. Gobierno de las Organizaciones y Responsabilidad Social
-5. Administración estratégica de la Responsabilidad Social
-6. Gestión de la Responsabilidad Social de las Organizaciones
-7. Marketing de Sostenibilidad
-8. Transparencia y rendición de cuentas - Accountability
-9. Informes de Rendición de Cuentas en Responsabilidad Social
-10. Finanzas e Inversión Sostenible
-11. Economía Sostenible
+**Ciclo de Formación Especializado (8 módulos):**
+- Gobierno de las Organizaciones y Responsabilidad Social
+- Administración estratégica de la Responsabilidad Social
+- Gestión de la Responsabilidad Social de las Organizaciones
+- Marketing de Sostenibilidad
+- Transparencia y rendición de cuentas - Accountability
+- Informes de Rendición de Cuentas en Responsabilidad Social
+- Finanzas e Inversión Sostenible
+- Economía Sostenible
 
 **Laboratorio:**
-12. Laboratorio de Diseño del Trabajo Final
+- Laboratorio de diseño del trabajo final
 
 **Asignaturas Optativas (1 a elegir):**
 - Entes especiales. Responsabilidad Social Universitaria
@@ -61,36 +62,36 @@ La Maestría en Responsabilidad Social Organizacional (MRSO) de la FCE-UNL brind
 - Responsabilidad Social en Entidades sin fines de lucro
 
 **Correlatividades:**
-- Para acceder al Ciclo Especializado: aprobar las 3 materias del Introductorio.
-- Para cursar "Gestión de la Responsabilidad Social" y "Marketing de Sostenibilidad": aprobar "Administración Estratégica de la Responsabilidad Social".
-- Para cursar "Informes de Rendición de Cuentas en Responsabilidad Social" y "Finanzas e Inversión Sostenible": aprobar "Transparencia y Rendición de Cuentas – Accountability".
+- Para acceder al Ciclo de Formación Especializada es necesario tener aprobadas las tres materias del ciclo Introductorio.
+- Para cursar “Gestión de la Responsabilidad Social” y “Marketing de Sostenibilidad” es necesario tener aprobado el módulo “Administración Estratégica de la Responsabilidad Social”.
+- Para cursar “Informes de Rendición de Cuentas en Responsabilidad Social” y “Finanzas e Inversión Sostenible” es necesario tener aprobado el módulo “Transparencia y Rendición de Cuentas – Accountability”.
 
-### Trabajo final
+### Trabajo final / tesis
 
-Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años desde la inscripción.
+Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años a partir de la inscripción a la carrera.
 
 ## Cuerpo docente
 
 **Docentes UNL:**
-- Juan Pablo Del Barco
-- Leila Di Russo
-- Sergio Miguel Hauque
-- Susana Marcipar Katz
-- Marcela Andrea Martin
-- Ma. Laura Rabasedas
-- Norma Zandomeni
+- DEL BARCO Juan Pablo
+- DI RUSSO Leila
+- HAUQUE Sergio Miguel
+- MARCIPAR KATZ, Susana
+- MARTIN, Marcela Andrea
+- RABASEDAS, Ma. Laura
+- ZANDOMENI, Norma
 
 **Docentes Externos:**
-- Enrique Carlos Bianchi (UCC, Argentina)
-- Miguel Marco Fondevila (España)
-- Nieves García Casarejos (España)
-- Inés García Fronti (UBA, Argentina)
-- José Mariano Moneva (España)
-- Julio Hernández Pajares (Perú)
-- Luis Jara Sarrúa (Chile)
-- François Vallaeys (Perú)
-- Carmen Stella Verón (UNR, Argentina)
-- Adrián Zicari (Francia)
+- BIANCHI, Enrique Carlos (UCC -Argentina)
+- FONDEVILA, Miguel Marco (España)
+- GARCIA CASAREJOS, Nieves (España)
+- GARCIA FRONTI, Inés (UBA- Argentina)
+- MONEVA, José Mariano (España)
+- HERNÁNDEZ PAJARES, Julio (Perú)
+- JARA SARRUA, Luis (Chile)
+- VALLAEYS, Francois (Perú)
+- VERÓN, Carmen Stella (UNR- Argentina)
+- ZICARI, Adrián (Francia)
 
 ## Requisitos de admisión
 
@@ -114,7 +115,7 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199
-- **Última actualización del dato**: 2026-05-17
+- **Última actualización del dato**: 2026-05-30
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -147,6 +148,7 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=189 (Cursado y evaluación)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=190 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199 (Informes e inscripción, requisitos)
+- https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=191 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=192 (Estructura del plan de estudio)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=193 (Correlatividades)
 - https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=194 (Asignaturas)
@@ -157,4 +159,4 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
