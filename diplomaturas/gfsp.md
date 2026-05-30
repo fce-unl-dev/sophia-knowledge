@@ -6,23 +6,23 @@ La GFSP es una diplomatura universitaria de pregrado de la FCE-UNL dirigida a pe
 
 ## Identificación
 
-- **Nombre oficial**: Diplomatura en Gestión Financiera del Sector Público
-- **Código corto / sigla**: GFSP
-- **Tipo**: Diplomatura universitaria (pregrado)
-- **Título que otorga**: Certificación Académica en Gestión Financiera del Sector Público
-- **Acreditación CONEAU**: Aprobada por la UNL — no requiere acreditación CONEAU por no ser carrera de posgrado
-- **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: "Munigestión" (Universidad Nacional del Litoral + Universidad Nacional de Rosario)
+-   **Nombre oficial**: Diplomatura en Gestión Financiera del Sector Público
+-   **Código corto / sigla**: GFSP
+-   **Tipo**: Diplomatura universitaria (pregrado)
+-   **Título que otorga**: Certificación Académica en Gestión Financiera del Sector Público
+-   **Acreditación CONEAU**: Aprobada por la UNL — no requiere acreditación CONEAU por no ser carrera de pregrado
+-   **Unidad académica**: FCE-UNL
+-   **Carreras compartidas con otras unidades**: "Munigestión" (Universidad Nacional del Litoral + Universidad Nacional de Rosario)
 
 ## Modalidad y duración
 
-- **Modalidad**: Mixta — entorno virtual + plataformas tipo Zoom / Meet
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con diplomaturas@fce.unl.edu.ar
-- **Lugar**: Online (no requiere presencialidad en sede)
-- **Idioma**: Español
-- **Duración cursada**: 2 cuatrimestres
-- **Duración trabajo final / tesis**: No aplica (el Taller de Integración es parte de la cursada)
-- **Carga horaria total**: 600 horas (40 UCAs)
+-   **Modalidad**: Mixta — entorno virtual + plataformas tipo Zoom / Meet
+-   **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con diplomaturas@fce.unl.edu.ar
+-   **Lugar**: Online (no requiere presencialidad en sede)
+-   **Idioma**: Español
+-   **Duración cursada**: 2 cuatrimestres
+-   **Duración trabajo final / tesis**: No aplica (el Taller de Integración es parte de la cursada)
+-   **Carga horaria total**: 600 horas (40 UCAs)
 
 ## Plan de estudios
 
@@ -70,58 +70,64 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título de formación secundaria
-- **Idiomas**: No publicado
-- **Otros antecedentes**: Destinatarios: Personal de la administración pública en todos sus niveles y poderes que se desempeñe en áreas de gestión financiera.
-- **Documentación a presentar**: Ver instructivo en la web oficial
-- **Proceso de admisión**: Inscripción online a través del sistema oficial de la FCE-UNL
+-   **Título previo requerido**: Título de formación secundaria
+-   **Idiomas**: No publicado
+-   **Otros antecedentes**: Destinatarios: Personal de la administración pública en todos sus niveles y poderes que se desempeñe en áreas de gestión financiera.
+-   **Documentación a presentar**: Ver instructivo en la web oficial
+-   **Proceso de admisión**: Inscripción online a través del sistema oficial de la FCE-UNL
 
 ## Aranceles e inscripción
 
-- **Matrícula**: Consultar en el "Dossier Informativo Completo" descargable desde la página oficial o escribir a diplomaturas@fce.unl.edu.ar
-- **Cuotas**: Consultar en el "Dossier Informativo Completo" descargable desde la página oficial o escribir a diplomaturas@fce.unl.edu.ar
-- **Modalidad de pago**: A confirmar con diplomaturas@fce.unl.edu.ar
-- **Becas disponibles**: No publicado en fuentes oficiales
-- **Estado actual de inscripción**: Cerrada para el ciclo actual (cierre el 31 de marzo). Próxima cohorte en abril de 2027 (por confirmar).
-- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185
+-   **Matrícula**: Consultar en el "Dossier Informativo Completo" descargable desde la página oficial o escribir a diplomaturas@fce.unl.edu.ar
+-   **Cuotas**: Consultar en el "Dossier Informativo Completo" descargable desde la página oficial o escribir a diplomaturas@fce.unl.edu.ar
+-   **Modalidad de pago**: A confirmar con diplomaturas@fce.unl.edu.ar
+-   **Becas disponibles**: No publicado en fuentes oficiales
+-   **Estado actual de inscripción**: Cerrada para el ciclo 2026 (cierre el 31 de marzo). Próxima cohorte en **abril de 2027** (por confirmar).
+-   **Link de pre-inscripción**: https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: Abril (típicamente)
-- **Estado**: Por confirmar para el ciclo 2027. Las inscripciones para el ciclo 2026 cerraron el 31 de marzo.
-- **Fuente del dato**: https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185
-- **Última actualización del dato**: 2026-05-22
+-   **Fecha de inicio**: **2027-04**
+-   **Estado**: Por confirmar
+-   **Fuente del dato**: https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185
+-   **Última actualización del dato**: **2026-05-30**
 
-> Nota: La página oficial indica cierre de inscripción el 31 de marzo; si la consulta se hace después de esa fecha, verificar si abrieron una segunda cohorte o si la inscripción siguiente es para el año próximo.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director/a académico/a**: No publicado en fuentes oficiales
-- **Email del programa**: diplomaturas@fce.unl.edu.ar
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
-- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
-- **Dirección**: Moreno 2557, S3000CVE Santa Fe
+-   **Director/a académico/a**: No publicado en fuentes oficiales
+-   **Email del programa**: diplomaturas@fce.unl.edu.ar
+-   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+-   **WhatsApp Posgrado**: 3425191199
+-   **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+-   **Dirección**: Moreno 2557, S3000CVE Santa Fe
 
 ## Información adicional relevante
 
-- **Inserción en el Programa Munigestión**: convenio UNL-UNR con alcance territorial provincial; orientado a fortalecer capacidades de gestión en municipios y comunas.
-- **Existencia de Dossier Informativo**: la web oficial provee un PDF completo para descarga con todos los detalles (costo, instructivos, etc.).
-- **Inscripción online disponible** con instructivo paso a paso desde la web oficial.
+-   **Inserción en el Programa Munigestión**: convenio UNL-UNR con alcance territorial provincial; orientado a fortalecer capacidades de gestión en municipios y comunas.
+-   **Existencia de Dossier Informativo**: la web oficial provee un PDF completo para descarga con todos los detalles (costo, instructivos, etc.).
+-   **Inscripción online disponible** con instructivo paso a paso desde la web oficial.
+-   **Objetivos de la diplomatura**:
+    *   Promover conocimientos sobre el Estado en sus diferentes niveles: Su organización institucional y administrativa, específicamente sobre el sistema de administración financiera y control interno.
+    *   Conocer los sistemas de apoyo vinculados a la Administración Financiera del Sector Público entendiendo su relevancia en la instrumentación de una gestión pública eficiente.
+    *   Desarrollar aptitudes de gestión efectivas y eficaces, consolidando los conocimientos sobre los diferentes subsistemas que conforman la administración financiera del sector público.
+    *   Fomentar el continuo análisis crítico de las organizaciones y sus estructuras, tendiente a generar una gestión responsable, con las nuevas demandas internas y externas.
+    *   Complementar el saber teórico con los saberes prácticos necesarios para generar un círculo virtuoso de mejora continua.
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=226 (Objetivos)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=227 (Presentación de la carrera)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=229 (Requisitos de ingreso)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=224 (Duración)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=228 (Destinatarios/as)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=225 (Modalidad de dictado)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=232 (Requisitos para la obtención de la Certificación Académica)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=230 (Estructura curricular)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=231 (Contenidos mínimos de las Asignaturas)
-- https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185 (Informes e Inscripción)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=226 (Objetivos)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=227 (Presentación de la carrera)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=229 (Requisitos de ingreso)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=224 (Duración)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=228 (Destinatarios/as)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=225 (Modalidad de dictado)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=232 (Requisitos para la obtención de la Certificación Académica)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=230 (Estructura curricular)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=231 (Contenidos mínimos de las Asignaturas)
+-   https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185 (Informes e Inscripción)
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
