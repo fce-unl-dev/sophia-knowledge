@@ -88,10 +88,10 @@ Cuerpo conformado por profesores estables e invitados, con participación de aca
 
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189
-- **Última actualización del dato**: 2026-05-22
+- **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción)
+- **Última actualización del dato**: 2026-05-30
 
-> Nota: Las fechas de la próxima cohorte deben confirmarse con dap@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
@@ -137,4 +137,4 @@ Cuerpo conformado por profesores estables e invitados, con participación de aca
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
