@@ -32,23 +32,23 @@ Se estructura sobre la base de seis asignaturas obligatorias y dos grupos de opt
 ### Módulos / asignaturas
 
 **Asignaturas obligatorias:**
-- La Contabilidad Patrimonial (60 hs / 4 créditos)
-- Confección y Análisis de Estados Contables (60 hs / 4 créditos)
-- Auditoría Externa de Estados Contables (60 hs / 4 créditos)
-- Sistemas Contables y Auditoría en Entes Especiales (50 hs / 3 créditos)
-- La Contabilidad de Gestión (30 hs / 2 créditos)
-- Auditoría Interna (40 hs / 3 créditos)
+- La Contabilidad Patrimonial (30 hs Teoria + 30 hs Práctica = 60 hs / 4 créditos)
+- Confección y Análisis de Estados Contables (20 hs Teoria + 40 hs Práctica = 60 hs / 4 créditos)
+- Auditoría Externa de Estados Contables (30 hs Teoria + 30 hs Práctica = 60 hs / 4 créditos)
+- Sistemas Contables y Auditoría en Entes Especiales (20 hs Teoria + 30 hs Práctica = 50 hs / 3 créditos)
+- La Contabilidad de Gestión (10 hs Teoria + 20 hs Práctica = 30 hs / 2 créditos)
+- Auditoría Interna (20 hs Teoria + 20 hs Práctica = 40 hs / 3 créditos)
 
 **Grupo 1 de Optativas — Aspectos Financieros y Fiscales de las Organizaciones:**
-- El Manejo Financiero de la Empresa (30 hs / 2 créditos)
-- La Planificación y Auditoría Fiscal Empresaria (30 hs / 2 créditos)
+- El Manejo Financiero de la Empresa (10 hs Teoria + 20 hs Práctica = 30 hs / 2 créditos)
+- La Planificación y Auditoría Fiscal Empresaria (10 hs Teoria + 20 hs Práctica = 30 hs / 2 créditos)
 
 **Grupo 2 de Optativas — Cuestiones Específicas de Contabilidad y Auditoría:**
-- Cuestiones Especiales del Proceso de Auditoría (30 hs / 2 créditos)
-- Ajustes Contables por Cambios en el Valor de la Moneda (30 hs / 2 créditos)
+- Cuestiones Especiales del Proceso de Auditoría (10 hs Teoria + 20 hs Práctica = 30 hs / 2 créditos)
+- Ajustes Contables por Cambios en el Valor de la Moneda (10 hs Teoria + 20 hs Práctica = 30 hs / 2 créditos)
 
 **Seminario:**
-- Seminario de Síntesis Disciplinar (30 hs / 2 créditos)
+- Seminario de Síntesis Disciplinar (0 hs Teoria + 30 hs Práctica = 30 hs / 2 créditos)
 
 ### Trabajo final / tesis
 Trabajo Final Integrador de carácter individual sobre una temática en particular de las desarrolladas en el Plan de Estudio, bajo la supervisión de un tutor. Plazo máximo para la aprobación: tres años desde la inscripción a la carrera.
@@ -109,7 +109,7 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyap/index.php?act=showCategoria&id=190
-- **Última actualización del dato**: 2026-05-17
+- **Última actualización del dato**: 2026-05-30
 
 > Nota: Confirmar próxima cohorte con esp_cont_auditoria@fce.unl.edu.ar.
 
@@ -145,7 +145,7 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=94 (Cursado y evaluación)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=93 (Días y horarios de cursado)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=92 (Duración de la carrera)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showCategoria&id=190 (Informes e inscripción)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showCategoria&id=190 (Informes e inscripción / Requisitos de inscripción)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=170 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=98 (Estructura del Plan de Estudios)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=102 (Optativas)
@@ -157,4 +157,4 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
