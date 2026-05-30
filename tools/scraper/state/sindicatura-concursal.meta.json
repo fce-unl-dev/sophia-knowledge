@@ -2,76 +2,76 @@
   "slug": "sindicatura-concursal",
   "url": "https://fce.unl.edu.ar/sindicatura/",
   "strategy": "fce-microsite",
-  "content_hash": "565b855a5d6bec05c757d3d7f9048ea8354d3a0b22aa2b5cd264e93a3a60e46c",
-  "previous_hash": null,
+  "content_hash": "5f02e0908e43d667a180b0251fefe0214db243a04850b890c98a86772c54c3d5",
+  "previous_hash": "565b855a5d6bec05c757d3d7f9048ea8354d3a0b22aa2b5cd264e93a3a60e46c",
   "pages_count": 13,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/sindicatura/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 768
+      "length": 26
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174",
       "title": "Presentación de la carrera",
-      "length": 2099
+      "length": 1357
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=154",
       "title": "Duración de la carrera",
-      "length": 1105
+      "length": 363
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=155",
       "title": "Dias y horarios",
-      "length": 956
+      "length": 214
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=156",
       "title": "Cursado y promoción",
-      "length": 1534
+      "length": 792
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=160",
       "title": "Título que otorga",
-      "length": 991
+      "length": 249
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showCategoria&id=193",
       "title": "Informes e Inscripción",
-      "length": 1532
+      "length": 790
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=177",
       "title": "Objetivos generales de la carrera",
-      "length": 1278
+      "length": 536
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=159",
       "title": "Diagrama",
-      "length": 1847
+      "length": 1105
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=165",
       "title": "Contenidos Temáticos",
-      "length": 12994
+      "length": 12252
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=163",
       "title": "Conducción de la carrera",
-      "length": 1810
+      "length": 1068
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=164",
       "title": "Comité Académico",
-      "length": 1272
+      "length": 530
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=162",
       "title": "Cuerpo Docente",
-      "length": 1468
+      "length": 726
     }
   ],
-  "scraped_at": "2026-05-22T01:49:39.066Z",
-  "last_checked_at": "2026-05-22T01:49:39.066Z"
+  "scraped_at": "2026-05-30T16:31:02.451Z",
+  "last_checked_at": "2026-05-30T16:31:02.451Z"
 }

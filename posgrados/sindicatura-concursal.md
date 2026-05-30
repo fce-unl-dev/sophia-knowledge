@@ -76,7 +76,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título universitario de grado de Contador Público, otorgado por universidades argentinas nacionales o provinciales, públicas o privadas, legalmente reconocidas. Graduados de otras disciplinas afines a las Ciencias Económicas podrán postularse — el Comité Académico evaluará admisión y podrá requerir instancia de nivelación previa en Concursos y Quiebras.
+- **Título previo requerido**: Título universitario de grado de Contador Público, otorgado por universidades argentinas nacionales o provinciales, públicas o privadas, legalmente reconocidas. Graduados de otras disciplinas afines a las Ciencias Económicas podrán postularse — el Comité Académico evaluará su admisión y en algunos casos, se prevé una instancia de nivelación, previa al inicio de la carrera, a los efectos de asegurar y homogeneizar una plataforma mínima de conocimientos en Concursos y Quiebras que estos aspirantes no posean.
 - **Idiomas**: No publicado — consultar
 - **Otros antecedentes**: No publicados — consultar
 - **Documentación a presentar**: No publicada en detalle — consultar
@@ -96,9 +96,9 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/sindicatura/index.php?act=showCategoria&id=193 (Informes e Inscripción)
-- **Última actualización del dato**: 2026-05-22
+- **Última actualización del dato**: 2026-05-30
 
-> Nota: Confirmar próxima cohorte con especsindicatura@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
@@ -115,7 +115,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 
 - **Cursado y promoción**: El cursado es presencial y por sistema de videoconferencia. Para la aprobación y consecuente promoción de las asignaturas se requiere la asistencia a un mínimo del setenta y cinco por ciento (75%) de las horas de dictado efectivo de clases, teóricas y prácticas, complementándose las horas no presenciales con los trabajos bibliográficos y de estudio que los profesores envían a los alumnos a través del aula virtual de la carrera. Además se evaluará con exámenes finales orales (para las materias teóricas) y escritos (para los exámenes prácticos). Al aprobar todas las asignaturas se realiza un trabajo final integrador.
 - **Comité Académico**:
-  - Dra. Lucila Prono (Directora)
+  - Dr. Lucila Prono (Directora)
   - Mg. Mariano Prono (Coordinador Académico)
   - Mg. Marcela Martin (Secretaria de Posgrado)
   - Mg. Andrea Pacífico (Secretaria Académica y de Bienestar Estudiantil)
@@ -124,6 +124,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
   - Dra. María Cristina de Césaris (Docente de la Carrera)
 - **Marco normativo**: Ley 24.522 de Concursos y Quiebras (Argentina).
 - **Incumbencia profesional**: Actuación del Contador Público como Síndico Concursal en concurso preventivo y quiebra.
+- **Objetivos generales**: Capacitar al contador público en los conocimientos relacionados con el Derecho de las crisis e insolvencias patrimoniales, en sus aspectos jurídicos y económicos sustanciales y formales, teóricos y prácticos, para el ejercicio de una actividad profesional que es de su exclusiva incumbencia: la sindicatura en los concursos preventivos y en las quiebras.
 
 ## Fuentes consultadas
 
@@ -136,11 +137,10 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 - https://www.fce.unl.edu.ar/sindicatura/index.php?act=showCategoria&id=193 (Informes e Inscripción)
 - https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=177 (Objetivos generales de la carrera)
 - https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=159 (Diagrama del Plan de Estudios)
-- https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=165 (Contenidos Temáticos)
 - https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=163 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=164 (Comité Académico)
 - https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=162 (Cuerpo Docente)
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
