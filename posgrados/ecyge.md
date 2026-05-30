@@ -17,8 +17,8 @@ La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL conso
 ## Modalidad y duración
 
 - **Modalidad**: Dos modalidades disponibles:
-  - **Presencial**: combinando asistencia presencial, online y mixta
-  - **A distancia**: con plataforma Moodle, encuentros sincrónicos, evaluación online
+  - **Presencial**: dictado de clases combinando asistencia presencial, online y mixta. Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final. La promoción de cada asignatura será dispuesta por el profesor responsable, pudiendo consistir en exposición durante el cursado de los casos trabajados en clases, un examen individual teórico-práctico, desarrollo de casos, trabajo práctico grupal, evaluación a material abierto.
+  - **A distancia**: el dictado se realizará de forma tal que el estudiante podrá administrar sus propios tiempos de lectura, análisis de material multimedia y realización de actividades propuestas, complementado con encuentros sincrónicos con los docentes para profundizar algunos temas y atender consultas. Se trabajará con la plataforma Moodle y se utilizarán diversas herramientas tecnológicas para el desarrollo de los contenidos. La evaluación también se realizará de forma online.
 - **Días y horarios de cursada**: No publicado en detalle en el microsite — consultar con posgrado@fce.unl.edu.ar
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (modalidad presencial) / 100% online (modalidad a distancia)
 - **Idioma**: Español
@@ -29,7 +29,7 @@ La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL conso
 ## Plan de estudios
 
 ### Estructura general
-10 asignaturas obligatorias + 1 Taller de Trabajo Final, con un total de 26 créditos (390 hs). Cierra con Evaluación Final Integradora / Trabajo Final Integrador.
+Está estructurado sobre la base de diez asignaturas obligatorias y un Taller de Trabajo Final, con un total de 26 créditos (390 hs). La duración total del dictado de la carrera es de tres cuatrimestres, debiendo completarse al término de la aprobación de todas las asignaturas la Evaluación Final Integradora.
 
 ### Módulos / asignaturas
 
@@ -51,7 +51,7 @@ La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL conso
 - Taller de Trabajo Final (30 hs / 2 UCAs)
 
 ### Trabajo final / tesis
-Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripción.
+Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la inscripción a la carrera. Se completa al término de la aprobación de todas las asignaturas.
 
 ## Cuerpo docente
 
@@ -97,7 +97,7 @@ Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripció
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191 (Informes e Inscripción)
-- **Última actualización del dato**: 2026-05-17
+- **Última actualización del dato**: 2026-05-30
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -115,8 +115,6 @@ Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripció
 ## Información adicional relevante
 
 - **Colaboración con IAPUCO**: Instituto Argentino de Profesores Universitarios de Costos — entidad que desde hace cuarenta años nuclea profesores universitarios de la disciplina de todo el país.
-- **Cursado y evaluación (Presencial)**: 75% de asistencia mínima + aprobación de evaluación final (modalidad dispuesta por cada profesor).
-- **Cursado y evaluación (A distancia)**: Plataforma Moodle, gestión autónoma del tiempo + encuentros sincrónicos con docentes + evaluación online.
 - **Comité Académico (Modalidad Presencial)**:
   - Director: Mg. José Puccio
   - Representante Decanato: Secretaria Posgrado Mg. Marcela Andrea Martin
@@ -141,11 +139,10 @@ Trabajo Final Integrador individual. Plazo máximo: 3 años desde la inscripció
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=106 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191 (Informes e Inscripción)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=112 (Estructura del Plan de Estudios)
-- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=116 (Asignaturas)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=115 (Comité Académico)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=113 (Cuerpo Docente)
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
