@@ -99,9 +99,9 @@ Nómina docente individualizada no publicada en el microsite oficial — consult
 - **Fecha de inicio**: 2026
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
-- **Última actualización del dato**: 2026-05-22
+- **Última actualización del dato**: 2026-05-30
 
-> Nota: La sección "Informes e Inscripción" del microsite oficial no publica fechas concretas. Confirmar con maf@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
@@ -141,7 +141,8 @@ Nómina docente individualizada no publicada en el microsite oficial — consult
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85 (Comité académico)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Novedades - Doble titulación con Alemania)
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.

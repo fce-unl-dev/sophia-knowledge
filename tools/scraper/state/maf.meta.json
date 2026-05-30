@@ -2,106 +2,106 @@
   "slug": "maf",
   "url": "https://fce.unl.edu.ar/maf/",
   "strategy": "fce-microsite",
-  "content_hash": "4ab8d30fc200d6c8b93f979f457ff15972b32c358c637ad49f0f1a951f789fca",
-  "previous_hash": null,
+  "content_hash": "ce89d51a1d97501c270749aa4cac780d353d505e13023f5590d77c09192ce6bb",
+  "previous_hash": "4ab8d30fc200d6c8b93f979f457ff15972b32c358c637ad49f0f1a951f789fca",
   "pages_count": 19,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/maf/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 1109
+      "length": 391
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=290",
       "title": "Presentación de la carrera",
-      "length": 2757
+      "length": 2039
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=80",
       "title": "Modalidad y duración",
-      "length": 1146
+      "length": 428
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=86",
       "title": "Metodología",
-      "length": 1960
+      "length": 1242
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=87",
       "title": "Encuadre Normativo",
-      "length": 1119
+      "length": 401
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=90",
       "title": "Antecedentes",
-      "length": 1448
+      "length": 730
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=75",
       "title": "Perfil",
-      "length": 1647
+      "length": 929
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=84",
       "title": "Título",
-      "length": 1338
+      "length": 620
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=76",
       "title": "Estructura curricular",
-      "length": 2266
+      "length": 1548
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=77",
       "title": "Trabajo Final",
-      "length": 1118
+      "length": 400
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showCategoria&id=196",
       "title": "Informes e Inscripción",
-      "length": 888
+      "length": 170
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=78",
       "title": "Conducción FCE",
-      "length": 1276
+      "length": 558
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=79",
       "title": "Dirección Académica",
-      "length": 1077
+      "length": 359
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85",
       "title": "Comité académico",
-      "length": 1828
+      "length": 1110
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82",
       "title": "Cuerpo docente",
-      "length": 1519
+      "length": 801
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=727",
       "title": "Novedades",
-      "length": 989
+      "length": 271
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717",
       "title": "Novedades",
-      "length": 1296
+      "length": 578
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=562",
       "title": "Novedades",
-      "length": 7889
+      "length": 7171
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143",
       "title": "Novedades",
-      "length": 2673
+      "length": 1955
     }
   ],
-  "scraped_at": "2026-05-22T01:46:16.679Z",
-  "last_checked_at": "2026-05-22T01:46:16.679Z"
+  "scraped_at": "2026-05-30T16:27:54.709Z",
+  "last_checked_at": "2026-05-30T16:27:54.709Z"
 }
