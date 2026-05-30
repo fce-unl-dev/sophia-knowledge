@@ -10,7 +10,7 @@ Doctorado de carácter interdisciplinario dictado por la **Facultad de Humanidad
 - **Código corto / sigla**: No publicado
 - **Tipo**: Doctorado
 - **Título que otorga**: Doctor en Estudios Sociales
-- **Acreditación CONEAU**: **Categoría A** (por 6 años). Resolución: RESOL 2025-99536075-APN-CONEAU#MCH. Recomendación favorable original de CONEAU según Dictamen del 22.5.2017 (Acta de Sesión Nº 462).
+- **Acreditación CONEAU**: Categoría A por 6 años (RESOL 2025-99536075-APN-CONEAU#MCH). Recomendación favorable de CONEAU para el reconocimiento provisorio del título según Dictamen del 22.5.2017 (Acta de Sesión Nº 462).
 - **Unidad académica**: Facultad de Humanidades y Ciencias (FHUC) — UNL
 - **Carreras compartidas con otras unidades**: La FCE participa en la oferta como facultad colaboradora
 - **Marco normativo**: Aprobado por Res. H. Consejo Superior UNL N° 149/16
@@ -86,7 +86,7 @@ https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32
 
 ## Fuentes consultadas
 
-- https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/ (homepage, acreditación, modalidad, objetivos, plan, cursos, reglamento, pre-inscripción)
+- https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/ (homepage, acreditación, título, modalidad, marco normativo)
 - https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32 (cuerpo docente)
 - https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=35 (pre-inscripción)
 - https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/categorias/plan-de-estudios/ (plan de estudios)
@@ -95,4 +95,4 @@ https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
