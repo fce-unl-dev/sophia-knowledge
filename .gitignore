@@ -22,7 +22,8 @@ tools/scraper/.env*
 
 # Scraper dependencies and state
 tools/scraper/node_modules/
-tools/scraper/package-lock.json
+# package-lock.json SÍ se trackea: ingest-drive.yml corre `npm ci`, que lo exige,
+# y pinnea versiones exactas para builds reproducibles en CI.
 # NOTA: NO ignorar tools/scraper/state/ en bloque. El .gitignore interno
 # (tools/scraper/state/.gitignore) ignora los regenerables (raw.txt, candidate.md,
 # gen.meta.json, catalog.json, candidates/) pero permite los *.meta.json chicos
