@@ -143,4 +143,4 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
+**Última revisión humana**: 2026-05-30

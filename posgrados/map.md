@@ -177,4 +177,4 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
+**Última revisión humana**: 2026-05-30
