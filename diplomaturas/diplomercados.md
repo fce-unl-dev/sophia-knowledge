@@ -107,9 +107,7 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - **Fecha de inicio**: No publicada explícitamente en el microsite — consultar con posgrado@fce.unl.edu.ar
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/diplomercados/index.php?act=showCategoria&id=206
-- **Última actualización del dato**: 2026-05-22
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+- **Última actualización del dato**: 2026-05-30
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -130,7 +128,6 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/diplomercados/ (homepage)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=246 (Presentación de la Diplomatura)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=247 (Objetivos)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=249 (Destinatarios/as)
@@ -141,9 +138,8 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=250 (Cursado)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=251 (Requisitos para la Obtención de la Certificación Académica)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=245 (Autoridades FCE y Posgrado)
-- https://www.fce.unl.edu.ar/diplomercados/index.php?act=showNoticia&id=728 (Folleto informativo)
 - https://www.fce.unl.edu.ar/diplomercados/uploads/folletos/13.pdf (Folleto Informativo)
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.

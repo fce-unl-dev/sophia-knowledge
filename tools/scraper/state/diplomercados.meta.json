@@ -2,71 +2,71 @@
   "slug": "diplomercados",
   "url": "https://www.fce.unl.edu.ar/diplomercados/",
   "strategy": "fce-microsite",
-  "content_hash": "e3f6c6c8dd9cdddd2a3d6ff827fa1a08eaf529c6bf39bd97b6e446cc916d46c9",
-  "previous_hash": null,
+  "content_hash": "efc65d62db6cc15cff915db16b72143a459921b9dc795b202400e3505136ae85",
+  "previous_hash": "e3f6c6c8dd9cdddd2a3d6ff827fa1a08eaf529c6bf39bd97b6e446cc916d46c9",
   "pages_count": 12,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 860
+      "length": 108
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=246",
       "title": "PRESENTACIÓN DE LA DIPLOMATURA",
-      "length": 1777
+      "length": 1025
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=247",
       "title": "OBJETIVOS",
-      "length": 2125
+      "length": 1373
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=249",
       "title": "DESTINATORIOS/AS",
-      "length": 1143
+      "length": 391
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=252",
       "title": "DURACIÓN DE LA DIPLOMATURA",
-      "length": 947
+      "length": 195
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showCategoria&id=206",
       "title": "INFORMES E INSCRIPCIÓN",
-      "length": 878
+      "length": 126
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=253",
       "title": "DETALLE MODULOS",
-      "length": 1442
+      "length": 690
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=254",
       "title": "CONTENIDOS MINIMOS DE LOS MODULOS",
-      "length": 10169
+      "length": 9417
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=250",
       "title": "CURSADO",
-      "length": 953
+      "length": 201
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=251",
       "title": "REQUISITOS PARA LA OBTENCIÓN DE LA CERTIFICACIÓN ACADÉMICA",
-      "length": 1075
+      "length": 323
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=245",
       "title": "Autoridades FCE y Posgrado",
-      "length": 1008
+      "length": 256
     },
     {
       "url": "https://www.fce.unl.edu.ar/diplomercados/index.php?act=showNoticia&id=728",
       "title": "Novedades",
-      "length": 979
+      "length": 227
     }
   ],
-  "scraped_at": "2026-05-22T01:50:49.992Z",
-  "last_checked_at": "2026-05-22T01:50:49.992Z"
+  "scraped_at": "2026-05-30T16:32:14.556Z",
+  "last_checked_at": "2026-05-30T16:32:14.556Z"
 }
