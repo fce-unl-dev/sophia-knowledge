@@ -67,8 +67,8 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 - **Cuotas**: Consultar en el "Dossier Informativo Completo" descargable desde la web oficial o escribir a diplomaturas@fce.unl.edu.ar
 - **Modalidad de pago**: A confirmar con diplomaturas@fce.unl.edu.ar
 - **Becas disponibles**: No publicado
-- **Estado actual de inscripción**: Las inscripciones cierran el 31 de marzo de cada año; el cursado comienza en abril. Para el ciclo en curso, verificar disponibilidad por email.
-- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/gto/index.php?act=showCategoria&id=182 (página donde se encuentra el enlace de inscripción online)
+- **Estado actual de inscripción**: Cerrada para 2026 — próxima cohorte en abril 2027 (por confirmar)
+- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/gto/index.php?act=showCategoria&id=182
 
 ## Próxima cohorte
 
@@ -77,7 +77,7 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 - **Fuente del dato**: https://www.fce.unl.edu.ar/gto/index.php?act=showCategoria&id=182
 - **Última actualización del dato**: 2026-05-22
 
-> Nota: La fecha de inicio indicada (abril) ya ha pasado respecto a la fecha actual (2026-05-22). Por favor, consultar con diplomaturas@fce.unl.edu.ar para confirmar la próxima cohorte.
+> Nota: La fecha de inicio indicada (abril) ya ha pasado respecto a la fecha actual (2026-05-30). Por favor, consultar con diplomaturas@fce.unl.edu.ar para confirmar la próxima cohorte.
 
 ## Contacto
 
@@ -97,6 +97,7 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 
 ## Fuentes consultadas
 
+- https://www.fce.unl.edu.ar/gto/ (Información general del programa)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=212 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=217 (Objetivos)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=220 (Requisitos de ingreso)
@@ -110,4 +111,4 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
