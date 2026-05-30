@@ -1,0 +1,159 @@
+name: Ingest Drive
+
+# Ingesta los complementos cargados en la carpeta de Google Drive de la facultad
+# al KB de Sophia (carpeta complementos/). Dos fases del mismo script:
+#   1. scrape_drive.mjs --write-candidates  → baja archivos de Drive, dedup con
+#      Gemini, genera candidatos + state/complementos/drive.meta.json.
+#   2. scrape_drive.mjs --apply              → mueve candidatos a complementos/,
+#      actualiza indice.json y regenera routing_metadata.json.
+#
+# Contrato (igual que sync-kb / propose-sections):
+#   - No pushea contenido directo a main.
+#   - Abre un PR humano (label needs-review) para que se revise antes de mergear.
+#
+# Modo dry-run: corre solo la fase de scrape (sin --apply) y no commitea nada.
+# Útil para ver qué archivos nuevos/cambiados detectaría en Drive.
+#
+# Requiere secrets en el repo:
+#   GEMINI_API_KEY       → ya configurado (compartido con sync-kb).
+#   SOPHIA_DRIVE_SA_KEY  → JSON de la cuenta de servicio con acceso de LECTURA a
+#                          la carpeta de Drive. SIN este secret el workflow falla
+#                          en la fase de scrape (auth de Drive).
+# Variable opcional:
+#   SOPHIA_DRIVE_FOLDER_ID → ID de carpeta raíz. Si falta, el script usa su default.
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Modo de ejecución'
+        required: true
+        default: 'refresh'
+        type: choice
+        options:
+          - refresh
+          - force
+          - dry-run
+      triggered_by:
+        description: 'Quién disparó este run (email o nombre para audit log).'
+        required: false
+        default: 'manual'
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ingest-drive
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Scrape Drive (write candidates)
+        id: scrape
+        working-directory: tools/scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SOPHIA_DRIVE_SA_KEY: ${{ secrets.SOPHIA_DRIVE_SA_KEY }}
+          SOPHIA_DRIVE_FOLDER_ID: ${{ secrets.SOPHIA_DRIVE_FOLDER_ID }}
+        run: |
+          set -e
+          if [ -z "$SOPHIA_DRIVE_SA_KEY" ]; then
+            echo "::error::Falta el secret SOPHIA_DRIVE_SA_KEY (JSON de la cuenta de servicio con acceso a Drive). Configurarlo en el repo antes de correr la ingesta de Drive."
+            exit 1
+          fi
+          extra_args=""
+          if [ "${{ inputs.mode }}" = "force" ]; then
+            extra_args="--force"
+          fi
+          node scrape_drive.mjs --write-candidates $extra_args
+
+      - name: Stop on dry-run
+        if: inputs.mode == 'dry-run'
+        run: |
+          echo "Dry-run completado. Se detectaron candidatos pero NO se aplicaron al KB ni se abrió PR."
+
+      - name: Apply candidates to KB
+        if: inputs.mode != 'dry-run'
+        working-directory: tools/scraper
+        run: |
+          set -e
+          node scrape_drive.mjs --apply
+
+      - name: Open human-review PR
+        if: inputs.mode != 'dry-run'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          branch="kb-sync/update-drive"
+
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          git checkout -B "$branch"
+
+          git add complementos indice.json routing_metadata.json \
+            tools/scraper/state/complementos/drive.meta.json
+
+          if git diff --cached --quiet; then
+            echo "Sin cambios de Drive para proponer. No se abre PR ni se toca main."
+            exit 0
+          fi
+
+          triggered_by="${{ inputs.triggered_by }}"
+          if [ -z "$triggered_by" ]; then triggered_by="manual"; fi
+
+          title="KB sync: complementos de Drive — requiere revisión humana"
+
+          cat > /tmp/drive-pr-body.md <<EOF
+          Ingesta automática de complementos desde Google Drive al KB de Sophia.
+
+          **Disparado por**: $triggered_by
+          **Carpeta destino**: \`complementos/\`
+          **Decisión**: requiere revisión humana
+
+          ## Qué cambió
+
+          Documentos nuevos o modificados detectados en la carpeta de Drive de la
+          facultad, clasificados por sector e ingeridos como complementos. Mirá el
+          diff de \`complementos/\`, \`indice.json\` y \`routing_metadata.json\`.
+
+          ## Política B.2
+
+          Los complementos son documentos institucionales que no están en la web
+          pública. No hay merge automático: este PR solo entra al KB si se revisa y
+          mergea manualmente.
+
+          ## Cómo revisar
+
+          1. Mirar el diff de cada archivo nuevo/modificado en \`complementos/\`.
+          2. Verificar que el contenido y el sector asignado sean correctos.
+          3. Confirmar que no haya datos personales sensibles que no deban indexarse.
+          4. Si todo está bien, aprobar y mergear. Si hay dudas, comentar o cerrar.
+          EOF
+
+          git commit -m "chore(kb): ingest Drive complements (requires_review)"
+          git push -f origin "$branch"
+
+          gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
+
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "$title" \
+            --label "needs-review" \
+            --body-file /tmp/drive-pr-body.md || \
+          gh pr edit "$branch" \
+            --title "$title" \
+            --body-file /tmp/drive-pr-body.md
