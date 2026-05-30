@@ -111,9 +111,9 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/maea/index.php?act=showCategoria&id=198
-- **Última actualización del dato**: 2026-05-17
+- **Última actualización del dato**: 2026-05-30
 
-> Nota: Confirmar próxima cohorte con maea@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
@@ -121,8 +121,8 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 - **Email del programa**: maea@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: 3425191199
-- **Teléfono específico del programa**: +54 (0342) 4571180 int. 142 / 4571245
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+- **Teléfono específico del programa**: +54 (0342) 4571180 int. 142 / 4571245
 
 ## Información adicional relevante
 
@@ -148,7 +148,9 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=67 (Trabajo Final y Aprobación)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=69 (Dirección Académica)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=70 (Cuerpo de Profesores)
+- https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=303 (Novedades - Publicación docente)
+- https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=296 (Novedades - Publicación alumno)
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
