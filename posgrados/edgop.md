@@ -27,7 +27,7 @@ La Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)
 ## Plan de estudios
 
 ### Estructura general
-La carrera está estructurada sobre la base de nueve (9) asignaturas obligatorias más un (1) Taller de Diseño del Trabajo Final Integrador y dos (2) asignaturas optativas sobre una oferta de seis (6) asignaturas, con un total de veintiocho (28) unidades de crédito académico (UCAs), que corresponden a cuatrocientos veinte (420) horas. Adicionalmente, se contempla un período de elaboración del Trabajo Final Integrador que demanda ciento ochenta (180) horas.
+La carrera está estructurada sobre la base de nueve (9) asignaturas obligatorias más un (1) Taller de Diseño del Trabajo Final Integrador y dos (2) asignaturas optativas sobre una oferta de seis (6) asignaturas, con un total de veintiocho (28) unidades de crédito académico (UCAs), que corresponden a cuatrocientos veinte (420) horas. Adicionalmente, se contempla un período de elaboración del Trabajo Final Integrador que demanda ciento ochenta (180) horas lo que hace un total de seiscientas (600) horas equivalentes a cuarenta (40) unidades de crédito académico (UCAs). La duración del dictado de la carrera es de tres cuatrimestres consecutivos, debiendo completarse al término de aprobación de todas las asignaturas, el Trabajo Final Integrador.
 
 ### Módulos / asignaturas
 
@@ -43,15 +43,15 @@ La carrera está estructurada sobre la base de nueve (9) asignaturas obligatoria
 - Compliance y Anticorrupción en la Gestión Pública (30 hs / 2 UCAs)
 - Taller de Diseño del Trabajo Final Integrador (30 hs / 2 UCAs)
 
-**Nivel Formativo Especializado — Optativas (elegir 2 sobre una oferta de 8):**
-- Gestión de la Calidad de Ámbitos Públicos
-- Gestión de la Participación Ciudadana
-- Gestión de Políticas Ambientales
-- Género y Equidad en la Gestión Pública
-- Gestión por Proyectos en Ámbitos Públicos
-- Gestión de Redes Institucionales
-- Gestión de Políticas Públicas
-- Gestión de los Políticas Sociales
+**Nivel Formativo Especializado — Optativas (elegir 2 sobre una oferta de 7):**
+- Gestión de la Calidad de Ámbitos Públicos (30 hs / 2 UCAs)
+- Gestión de la Participación Ciudadana (30 hs / 2 UCAs)
+- Gestión de Políticas Ambientales (30 hs / 2 UCAs)
+- Género y Equidad en la Gestión Pública (No publicado el detalle de horas/UCAs)
+- Gestión por Proyectos en Ámbitos Públicos (30 hs / 2 UCAs)
+- Gestión de Redes Institucionales (30 hs / 2 UCAs)
+- Gestión de Políticas Públicas (No publicado el detalle de horas/UCAs)
+- Gestión de los Políticas Sociales (No publicado el detalle de horas/UCAs)
 
 ### Trabajo final / tesis
 Trabajo Final Integrador individual basado en el análisis de una Organización Pública seleccionada por el estudiante (con identificación de disfuncionalidades, marco jurídico-institucional, propuestas de mejora). Cumple con Normas APA. Demanda 180 hs / 12 UCAs.
@@ -92,7 +92,7 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 - **Matrícula**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 - **Cuotas**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 - **Modalidad de pago**: No publicada en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
-- **Becas disponibles**: Convenio Específico de colaboración con la Unión del Personal Civil de la Nación (UPCN) - Seccional Santa Fe, que otorga un descuento del 20% sobre el costo total de la carrera a los profesionales que la entidad gremial informe.
+- **Becas disponibles**: Convenio Específico de colaboración con la Unión del Personal Civil de la Nación (UPCN) - Seccional Santa Fe, que otorga un descuento del 20% sobre el costo total de la carrera a los profesionales que la entidad gremial informe a las autoridades de la EDGOP y a las autoridades de la Facultad de Ciencias Económicas de la UNL.
 - **Estado actual de inscripción**: Por confirmar — consultar con edgop@fce.unl.edu.ar
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 
@@ -101,15 +101,16 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192
-- **Última actualización del dato**: 2026-05-17
+- **Última actualización del dato**: 2026-05-30
 
-> Nota: Confirmar próxima cohorte con edgop@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
 - **Director/a académico/a**: Mg. Néstor Darío Mejías
 - **Codirector académico**: Lic. Jorge Orlando Hintze
 - **Coordinador Académico del Área de Administración Pública**: Mg. Luciano Russo
+- **Coordinadora Técnica**: Mg. Analía Amelia Damevin
 - **Email del programa**: edgop@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: 3425191199
@@ -131,17 +132,29 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 - **Nota sobre Conducción**: El microsite presenta una posible inconsistencia entre "Conducción de la carrera" (Mg. Néstor Darío Mejías) y "Comité Académico" (Cont. Oscar Alberto Costa figura como Director). Confirmar con edgop@fce.unl.edu.ar.
 - **Articulación con MAP y DAP**: La EDGOP virtualiza la oferta del área de Administración Pública FCE-UNL, complementando la Maestría en Administración Pública (MAP) y el Doctorado en Administración Pública (DAP), ambos presenciales.
 
+### Objetivos curriculares
+
+**Generales**
+La Carrera de Especialización en Dirección y Gestión de Organizaciones Públicas tiene el objetivo general de proporcionar a los cursantes una sólida formación académica de posgrado orientada a integrar los conocimientos y experiencias con la aplicación de tecnologías de gestión orientadas a la producción de valor público en cuanto al análisis de políticas públicas, planificación, organización, gerencia, control y evaluación de gestión y resultados y desarrollo de los recursos humanos. En base a estos ejes orientadores de la carrera, se busca realizar aportes a la articulación de la racionalidad política democrática con la racionalidad técnica moderna en la gestión pública.
+
+**Específicos**
+- Proporcionar conocimientos sobre la dinámica de las relaciones entre estado y sociedad, el marco internacional globalizado en el que actualmente se desenvuelven los procesos económicos y políticos, incidencia de los factores sociales y sus modalidades de organización y acción, con particular énfasis en la experiencia de América Latina.
+- Familiarizar a los participantes en el manejo de métodos y técnicas gerenciales, administrativas y económicas, relevantes para la investigación sobre el sector público, el análisis, la aplicación y evaluación de políticas estatales.
+- Desarrollar actividades que promuevan la capacidad analítica, crítica y creativa de los participantes, tratando de integrar sus conocimientos teórico-metodológicos con la apreciación de circunstancias fácticas y contextuales.
+- Promover valores que fortalezcan la gobernabilidad democrática, a partir de la revalorización de lo público y la responsabilización frente a la sociedad.
+
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/edgop/ (homepage)
+- https://fce.unl.edu.ar/edgop/ (Información de interés, convenio UPCN)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Cursado y evaluación)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=122 (Título que otorga)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192 (Informes e inscripción)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121 (Estructura del Plan de Estudios)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126 (Asignaturas)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=127 (Optativas)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192 (Informes e inscripción, requisitos de admisión)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121 (Estructura del Plan de Estudios, carga horaria)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126 (Asignaturas obligatorias)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=127 (Asignaturas optativas)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=181 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=124 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125 (Comité Académico)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123 (Cuerpo Docente)
@@ -149,4 +162,4 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
