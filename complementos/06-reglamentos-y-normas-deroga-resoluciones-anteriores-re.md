@@ -6,16 +6,14 @@ Este documento establece la derogación de las Resoluciones de Decano/a Nº 275/
 
 ## Contenido
 
-### Visto
+### Antecedentes y Consideraciones
 
-La Resolución del Consejo Directivo Nº 740/23, de fecha 28 de septiembre de 2023, mediante la cual se aprueban las Normas y Procedimientos de Enseñanza que rigen para las carreras de grado que se dictan en la Facultad de Ciencias Económicas.
+*   **VISTO:** La Resolución del Consejo Directivo Nº 740/23, de fecha 28 de septiembre de 2023, que aprueba las Normas y Procedimientos de Enseñanza para las carreras de grado de la Facultad de Ciencias Económicas.
+*   **CONSIDERANDO:**
+    *   El artículo 4º de la Resolución CD Nº 740/23 establece la derogación de toda norma que se oponga a la misma, a partir de su entrada en vigencia.
+    *   Las Resoluciones de Decano Nº 275/11 y su modificatoria Nº 213/22, que aprobaron la creación y reglamentaron el funcionamiento de la Comisión de Análisis de Justificaciones para horarios especiales de cursado, se encuentran ahora incluidas en las nuevas Normas y Procedimientos de Enseñanza.
 
-### Considerando
-
-*   Que, según lo establecido en el artículo 4º de la mencionada Resolución, corresponde derogar toda norma que se oponga a la misma, a partir de la fecha de su entrada en vigencia.
-*   Que, oportunamente, mediante Resolución del Decano Nº 275/11 y su modificatoria, Resolución de la Decana Nº 213/22, se aprobó la creación y se reglamentó el funcionamiento de la Comisión de Análisis de Justificaciones para horarios especiales de cursado, normativa que se encuentra incluida en las nuevas Normas y Procedimientos de Enseñanza.
-
-### La Decana de la Facultad de Ciencias Económicas Resuelve
+### Resolución de la Decana
 
 **ARTÍCULO 1º.-** Derogar las Resoluciones de Decano/a Nº 275/11 y Nº 213/22, a partir del 28 de septiembre de 2023, en consonancia con lo dispuesto en el artículo 4º de la Resolución del Consejo Directivo Nº 740/23.
 

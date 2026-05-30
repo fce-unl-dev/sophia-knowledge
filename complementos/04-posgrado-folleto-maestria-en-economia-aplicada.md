@@ -1,6 +1,6 @@
 # Maestría en Economía Aplicada
 
-Este documento describe la Maestría en Economía Aplicada ofrecida por la Facultad de Ciencias Económicas de la UNL, incluyendo su presentación, requisitos de ingreso, duración, perfil del egresado, plan de estudios y cuerpo docente.
+Este documento describe la Maestría en Economía Aplicada, incluyendo su presentación, requisitos de ingreso, duración, perfil del egresado, plan de estudios, información de contacto y el cuerpo docente.
 
 ---
 
@@ -8,22 +8,19 @@ Este documento describe la Maestría en Economía Aplicada ofrecida por la Facul
 
 ### Presentación
 
-La Maestría en Economía Aplicada ofrece estudios de posgrado de alto nivel académico a graduados universitarios que busquen extender y complementar su formación económica con conocimientos teóricos y metodológicos para interpretar y evaluar cuantitativamente fenómenos económicos reales.
-
-*   **Dictamen favorable CONEAU**: Sesión N° 497, según consta en el Acta N° 497.
-*   **Reconocimiento oficial provisorio del Título**: Res. ME. N° 573/21.
+La Maestría en Economía Aplicada ofrece estudios de posgrado de alto nivel académico para graduados universitarios que buscan extender y complementar su formación económica con conocimientos teóricos y metodológicos para interpretar y evaluar cuantitativamente fenómenos económicos reales. Cuenta con dictamen favorable de CONEAU (Sesión N° 497, Acta N° 497) y reconocimiento oficial provisorio del Título (Res. ME. N° 573/21).
 
 ### Requisitos de Ingreso
 
-*   Poseer título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas.
-*   Los graduados que no cuenten con el título de Licenciado en Economía deberán aprobar un **Curso de Nivelación** previo al comienzo de las clases formales.
+*   Graduados que posean título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas.
+*   Los graduados que no cuenten con el título de Licenciado en Economía deberán aprobar un Curso de Nivelación. Dicho Curso se realizará previo al comienzo de las clases formales.
 *   El Comité Académico evaluará todos los antecedentes y las condiciones del postulante, llevando a cabo una entrevista personal.
 
 ### Duración, Cursado y Aprobación
 
 *   **Duración**: Dos (2) años.
 *   **Cursado**: Combina clases presenciales y virtuales.
-*   **Aprobación**: Para obtener el título de Magíster, el alumno debe elaborar y aprobar un **Trabajo Final** de carácter individual, bajo la supervisión de un Director. Este trabajo será defendido de manera oral ante un tribunal y debe mostrar solidez en el manejo de destrezas y perspectivas innovadoras para el abordaje de la problemática elegida y su resolución.
+*   **Aprobación**: Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Trabajo Final, de carácter individual, bajo la supervisión de un Director que será defendido de manera oral ante un tribunal. El trabajo desarrollado por los alumnos debe mostrar solidez en el manejo de destrezas y perspectivas innovadoras para el abordaje de la problemática elegida y su resolución.
 
 ### Perfil de Egresado
 
@@ -36,31 +33,46 @@ Los graduados de la Maestría en Economía Aplicada podrán desempeñarse en el 
 
 ### Plan de Estudios
 
-*   **Formación Básica** (Total: 16 créditos. Cada curso: 60 horas = 4 créditos)
-    1.  Microeconomía Aplicada
-    2.  Macroeconomía Aplicada
-    3.  Análisis de Datos
-    4.  Econometría
-*   **Formación Específica** (Total: 16 créditos. Cada curso: 30 horas = 2 créditos)
-    *   **Módulo de Análisis de Mercado**
-        *   Análisis de Consumo y Demanda
-        *   Análisis de Mercados y Defensa de la Competencia
-        *   Tópicos de Comercio Internacional
-    *   **Módulo de Análisis del Sector Público**
-        *   Análisis de Series Económicas
-        *   Técnicas de Evaluación de Impacto de Políticas Públicas
-        *   Tópicos en Distribución
-    *   **Módulo de Complementación Metodológica**
-        *   Elección de 2 materias optativas de formación cuantitativa.
-*   **Taller de Investigación y Tesis I y II** (4 créditos)
-*   **Tutorías y Desarrollo de Tesis** (11 créditos)
+#### Formación Básica
+
+*Total: 16 créditos. Cada curso consta de 60 horas = 4 créditos.*
+
+1.  Microeconomía Aplicada
+2.  Macroeconomía Aplicada
+3.  Análisis de Datos
+4.  Econometría
+
+#### Formación Específica
+
+*Total: 16 créditos. Cada curso consta de 30 horas = 2 créditos.*
+
+##### Módulo de Análisis de Mercado
+
+*   Análisis de Consumo y Demanda
+*   Análisis de Mercados y Defensa de la Competencia
+*   Tópicos de Comercio Internacional
+
+##### Módulo de Análisis del Sector Público
+
+*   Análisis de Series Económicas
+*   Técnicas de Evaluación de Impacto de Políticas Públicas
+*   Tópicos en Distribución
+
+##### Módulo de Complementación Metodológica
+
+*   Elección de 2 materias optativas de formación cuantitativa.
+
+#### Taller de Investigación y Tesis
+
+*   Taller de Investigación y Tesis I y II (4 créditos)
+*   Tutorías y Desarrollo de Tesis (11 créditos)
 
 ### Informes e Inscripción
 
 *   **Facultad de Ciencias Económicas**
-    *   **Dirección**: Moreno 2557 - Santa Fe, República Argentina.
-    *   **Sitio web**: https://www.fce.unl.edu.ar/posgrado/
-    *   **Teléfono/WhatsApp**: +54 9 342 519-1199
+*   Moreno 2557 - Santa Fe, República Argentina.
+*   **Web**: [https://www.fce.unl.edu.ar/posgrado/](https://www.fce.unl.edu.ar/posgrado/)
+*   **Teléfono**: +54 9 342 519-1199
 
 ### Cuerpo de Profesores
 

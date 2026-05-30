@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "lastUpdated": "2026-05-29",
+  "version": 11,
+  "lastUpdated": "2026-05-30",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -434,7 +434,7 @@
     },
     {
       "path": "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md",
-      "title": "Resolución CD 640/25",
+      "title": "RESOLUCIÓN C.D. Nº 640/25",
       "category": "Complementario",
       "sector": "tramites_bedelia",
       "canonicalUrl": "https://drive.google.com/file/d/1c6t6L6fggKeeQ_cPRiUBYMpt6vRymCmn/view?usp=drivesdk"
@@ -448,14 +448,14 @@
     },
     {
       "path": "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md",
-      "title": "Resolución C.D. Nº 740/23: Normas y Procedimientos de Enseñanza FCE UNL",
+      "title": "Normas y Procedimientos de Enseñanza FCE UNL",
       "category": "Complementario",
       "sector": "tramites_bedelia",
       "canonicalUrl": "https://drive.google.com/file/d/17GYzsySZi_t_Y588ralPRLs_c8Tzf3I_/view?usp=drivesdk"
     },
     {
       "path": "complementos/04-posgrado-folleto-especializacion-tributacion.md",
-      "title": "Especialización en Tributación",
+      "title": "Folleto Especialización en Tributación",
       "category": "Complementario",
       "sector": "posgrados_graduados",
       "canonicalUrl": "https://drive.google.com/file/d/14QMiHqfpbRyqWKL-_xNpjl5-JJn6l8nE/view?usp=drivesdk"
@@ -499,6 +499,7 @@
       "path": "complementos/04-posgrado-folleto-maestria-administracion-y-finanzas.md",
       "title": "Maestría en Administración y Finanzas",
       "category": "Complementario",
+      "sector": "posgrados_graduados",
       "canonicalUrl": "https://drive.google.com/file/d/1EulJw5AtZWWLDxV0VeCswH6kd9pqaFrf/view?usp=drivesdk"
     },
     {
@@ -517,14 +518,14 @@
     },
     {
       "path": "complementos/04-posgrado-ok-nota-baja.md",
-      "title": "Modelo de Solicitud de Baja a Carrera de Posgrado",
+      "title": "Nota de Solicitud de Baja",
       "category": "Complementario",
       "sector": "posgrados_graduados",
       "canonicalUrl": "https://docs.google.com/document/d/1bssjbLAnMSdoX9bts4hqlcT308LBty6e/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
     },
     {
       "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md",
-      "title": "Requisitos de Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
+      "title": "Estudiantes Nacionales, Requisitos - a distancia",
       "category": "Complementario",
       "sector": "posgrados_graduados",
       "canonicalUrl": "https://drive.google.com/file/d/1meB5GESj_wIAyX77bTUrqQhCGEk3rtrO/view?usp=drivesdk"
@@ -559,14 +560,14 @@
     },
     {
       "path": "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md",
-      "title": "Res_ C_S_ Nº 503 del 25-10-18 Expte_ Nº FCE-0941908-18 Aprueba Correlatividades Contador Publico",
+      "title": "Resolución C.S. Nº 503/18: Régimen de Correlatividades de la carrera de Contador Público",
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/1bYKx8A1fQ8gmxi4naPOa_tvvXCdCHjbx/view?usp=drivesdk"
     },
     {
       "path": "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md",
-      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
+      "title": "Res 785 - Reglamento de Practicas Profesionales Supervisadas (PPS) - Contador Publico",
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/1hUDpfopNnoalWlKOwCSwOA7JEcLARQcJ/view?usp=drivesdk"
@@ -587,21 +588,21 @@
     },
     {
       "path": "complementos/02-grado-dialogo-sobre-los-procesos-y-cambios-de-planes-de-estudios-cplale-con-link.md",
-      "title": "Diálogo sobre los procesos y cambios de planes de estudios",
+      "title": "Diálogo sobre Procesos y Cambios de Planes de Estudios",
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/179WXlM3_qygTyu0xfl6TsM6A6S5EhN-N/view?usp=drivesdk"
     },
     {
       "path": "complementos/02-grado-jornada-de-sensibilizacion-17-11.md",
-      "title": "JORNADA DE SENSIBILIZACIÓN DIÁLOGO ABIERTO A LA COMUNIDAD FCE SOBRE PROPUESTA ACADÉMICA",
+      "title": "JORNADA DE SENSIBILIZACIÓN",
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/1WFMjlpzL9OTUzOjHXQj801-JyWt7-tyo/view?usp=drivesdk"
     },
     {
       "path": "complementos/02-grado-mch-rse-556-2025.md",
-      "title": "Resolución 556/2025 del Ministerio de Capital Humano",
+      "title": "Resolución 556/2025 - Ministerio de Capital Humano",
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/1wxRD3KzBpfugPv3cIlczg2Un3z38YvZV/view?usp=drivesdk"
@@ -1074,6 +1075,55 @@
       "title": "Redes",
       "category": "Relaciones Internacionales",
       "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/redes/"
+    },
+    {
+      "path": "complementos/04-posgrado-guia-entorno-virtual-para-generar-usuario.md",
+      "title": "CREACIÓN DE CUENTAS DE USUARIO EN EL ENTORNO VIRTUAL FCE UNL",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1PhXHC56SnX8A54yh4Fa4u4iwKGUbQB5l/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-ok-nota-equivalencias.md",
+      "title": "Nota Modelo para Solicitud de Equivalencias de Posgrado",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://docs.google.com/document/d/1X_5tJT6jyQanFMdSB1b5uEgWWAMwkAE0/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
+    },
+    {
+      "path": "complementos/04-posgrado-fce-dip-fo-2-5-01-instructivo-solicitud-de-certificado-de-diplomatura-universitarias.md",
+      "title": "FCE-DIP-FO 2.5-01 INSTRUCTIVO SOLICITUD DE CERTIFICADO DE DIPLOMATURA UNIVERSITARIAS",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1aLhjk07M2pIM2yAqK8m9PyTcjh1dnVLy/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-instructivo-de-pago-cuota-unl-para-alumnos.md",
+      "title": "Instructivo de Pago Cuota UNL para Alumnos",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1MV5rnY5u1Ybj_jKpxLVi8dU5MOvCqWl9/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md",
+      "title": "TRÁMITE DE SOLICITUD DE DIPLOMA DIGITAL",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1f0yZNV2_2y5_-kPJDvxF93D9BIyDlcHa/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md",
+      "title": "Manual alumnos - carga de comprobantes de pago",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-generacion-de-contrasena-sistema-de-gestion-del-estudiante.md",
+      "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1d1Lw8fU4oG6CDUHEsPr9q1b7_lzEON80/view?usp=drivesdk"
     }
   ]
 }
