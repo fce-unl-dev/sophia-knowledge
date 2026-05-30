@@ -1,14 +1,14 @@
 # Requisitos para la Inscripción a Cursos de Posgrado
 
-Este documento detalla los requisitos necesarios para la inscripción a cursos de posgrado, aplicables tanto a la modalidad presencial como a distancia, para egresados de la UNL y de otras universidades.
+Este documento detalla los requisitos necesarios para la inscripción a cursos de posgrado, tanto en modalidad presencial como a distancia, dirigidos a egresados de carreras de grado de la UNL o de otras universidades.
 
 ---
 
 ## Contenido
 
-### Requisitos para Egresados de Carrera de Grado (UNL o de otra Universidad)
+### Requisitos para Egresados de Carreras de Grado (UNL u otras Universidades)
 
-Para la inscripción a cursos de posgrado, los egresados de carreras de grado de la UNL o de otras universidades deben presentar la siguiente documentación:
+Para inscribirse a cursos de posgrado (modalidad presencial y a distancia), los egresados de carreras de grado de la UNL o de otras universidades deben presentar la siguiente documentación:
 
 *   Ficha de preinscripción online.
 *   Fotocopia simple del Título de grado.

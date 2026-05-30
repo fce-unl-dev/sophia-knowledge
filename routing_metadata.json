@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-05-30",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 19,
@@ -9,7 +9,7 @@
     "extension": 6,
     "internacionales": 7,
     "docentes": 3,
-    "posgrados_graduados": 43,
+    "posgrados_graduados": 50,
     "posgrados_cursos_sin_titulo": 24,
     "grado": 23,
     "tramites_bedelia": 5
@@ -444,7 +444,7 @@
     "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md": {
       "sector": "tramites_bedelia",
       "displayName": "Trámites (No docentes y Bedelía)",
-      "title": "Resolución CD 640/25",
+      "title": "RESOLUCIÓN C.D. Nº 640/25",
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-res-500-25.md": {
@@ -456,13 +456,13 @@
     "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md": {
       "sector": "tramites_bedelia",
       "displayName": "Trámites (No docentes y Bedelía)",
-      "title": "Resolución C.D. Nº 740/23: Normas y Procedimientos de Enseñanza FCE UNL",
+      "title": "Normas y Procedimientos de Enseñanza FCE UNL",
       "category": "Complementario"
     },
     "complementos/04-posgrado-folleto-especializacion-tributacion.md": {
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
-      "title": "Especialización en Tributación",
+      "title": "Folleto Especialización en Tributación",
       "category": "Complementario"
     },
     "complementos/04-posgrado-folleto-especializacion-en-direccion-y-gestion-de-organizaciones-publicas.md": {
@@ -516,13 +516,13 @@
     "complementos/04-posgrado-ok-nota-baja.md": {
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
-      "title": "Modelo de Solicitud de Baja a Carrera de Posgrado",
+      "title": "Nota de Solicitud de Baja",
       "category": "Complementario"
     },
     "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md": {
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
-      "title": "Requisitos de Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
+      "title": "Estudiantes Nacionales, Requisitos - a distancia",
       "category": "Complementario"
     },
     "complementos/04-posgrado-estudiantes-nacionales-requisitos.md": {
@@ -552,13 +552,13 @@
     "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "Res_ C_S_ Nº 503 del 25-10-18 Expte_ Nº FCE-0941908-18 Aprueba Correlatividades Contador Publico",
+      "title": "Resolución C.S. Nº 503/18: Régimen de Correlatividades de la carrera de Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
+      "title": "Res 785 - Reglamento de Practicas Profesionales Supervisadas (PPS) - Contador Publico",
       "category": "Complementario"
     },
     "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md": {
@@ -576,19 +576,19 @@
     "complementos/02-grado-dialogo-sobre-los-procesos-y-cambios-de-planes-de-estudios-cplale-con-link.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "Diálogo sobre los procesos y cambios de planes de estudios",
+      "title": "Diálogo sobre Procesos y Cambios de Planes de Estudios",
       "category": "Complementario"
     },
     "complementos/02-grado-jornada-de-sensibilizacion-17-11.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "JORNADA DE SENSIBILIZACIÓN DIÁLOGO ABIERTO A LA COMUNIDAD FCE SOBRE PROPUESTA ACADÉMICA",
+      "title": "JORNADA DE SENSIBILIZACIÓN",
       "category": "Complementario"
     },
     "complementos/02-grado-mch-rse-556-2025.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "Resolución 556/2025 del Ministerio de Capital Humano",
+      "title": "Resolución 556/2025 - Ministerio de Capital Humano",
       "category": "Complementario"
     },
     "complementos/02-grado-resolucion2598-2023.md": {
@@ -1058,6 +1058,48 @@
       "displayName": "Relaciones Internacionales",
       "title": "Redes",
       "category": "Relaciones Internacionales"
+    },
+    "complementos/04-posgrado-guia-entorno-virtual-para-generar-usuario.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "CREACIÓN DE CUENTAS DE USUARIO EN EL ENTORNO VIRTUAL FCE UNL",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-ok-nota-equivalencias.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Nota Modelo para Solicitud de Equivalencias de Posgrado",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-fce-dip-fo-2-5-01-instructivo-solicitud-de-certificado-de-diplomatura-universitarias.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "FCE-DIP-FO 2.5-01 INSTRUCTIVO SOLICITUD DE CERTIFICADO DE DIPLOMATURA UNIVERSITARIAS",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-instructivo-de-pago-cuota-unl-para-alumnos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Instructivo de Pago Cuota UNL para Alumnos",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "TRÁMITE DE SOLICITUD DE DIPLOMA DIGITAL",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Manual alumnos - carga de comprobantes de pago",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-generacion-de-contrasena-sistema-de-gestion-del-estudiante.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
+      "category": "Complementario"
     }
   }
 }

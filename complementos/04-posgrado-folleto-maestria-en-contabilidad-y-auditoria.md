@@ -1,67 +1,68 @@
 # Maestría en Contabilidad y Auditoría
 
-La Maestría en Contabilidad y Auditoría de la FCE UNL es una carrera de posgrado profesional, semiestructurada y presencial, que busca perfeccionar a profesionales en los aspectos teóricos y prácticos de la información organizacional. Su objetivo es formar recursos humanos capaces de resolver situaciones problemáticas complejas en contabilidad y auditoría, interpretando y analizando críticamente la información contable para apoyar la toma de decisiones y el control en un contexto globalizado.
+La Maestría en Contabilidad y Auditoría de la Facultad de Ciencias Económicas (FCE) de la UNL es una carrera de posgrado profesional, semiestructurada y presencial. Ofrece una formación de alto nivel en aspectos teóricos y prácticos de la información organizacional, buscando el perfeccionamiento en contabilidad y auditoría para el cumplimiento normativo y la toma de decisiones. Fue creada por Res. N° 1023/19 del Consejo Directivo de la FCE y aprobada por Res. N° 65/20 del Honorable Consejo Superior de la UNL.
 
 ---
 
 ## Contenido
 
-### Información General
+### Presentación de la Carrera
 
-*   **Creación:** Creada por Res. N° 1023/19 del Consejo Directivo de la FCE y aprobada por Res. N° 65/20 del Honorable Consejo Superior de la UNL.
-*   **Propósito:** Profundizar conocimientos teóricos y metodológicos inherentes al campo de la Contabilidad y la Auditoría en sus diversas aplicaciones.
-*   **Duración del Cursado:** 2 años.
-*   **Plazo Máximo para Trabajo Final:** 4 años a partir de la inscripción a la carrera.
-*   **Modalidad:** Presencial, con dictado de clases combinando asistencia presencial, online y mixta.
-*   **Promoción de Asignaturas:** Cumplimiento de una asistencia mínima del 75% a las clases y aprobación de la evaluación final.
-*   **Metodología de Evaluación:** Dispuestas por el profesor responsable, pudiendo consistir en trabajos individuales, resolución de casos, trabajos de campo o propuestas de solución a planteos teóricos o prácticos. Todas las asignaturas deben contar con al menos una instancia de evaluación individual al finalizar su dictado.
-*   **Requisito para Obtener el Título:** Elaborar y defender un Trabajo Final de carácter individual, sobre una temática particular del plan de estudio, bajo la supervisión de un Director/a y, si corresponde, un Co-Director/a.
+La Maestría en Contabilidad y Auditoría tiene como objetivo principal proporcionar la formación teórica y práctica necesaria para desarrollar conocimientos y habilidades en recursos humanos. Estos profesionales estarán capacitados para desempeñarse en diversos espacios y sectores organizacionales, resolviendo situaciones problemáticas complejas en los ámbitos de la contabilidad y la auditoría. Se busca formar profesionales competentes para interpretar y analizar críticamente la información contable, apoyar la toma de decisiones y el control de los grupos de interés, aplicando conocimientos teóricos e instrumentales en un contexto globalizado y desarrollando procesos de auditoría efectivos.
 
-### Perfil del Egresado
+### Objetivos y Perfil del Egresado
+
+El propósito de la Maestría es profundizar conocimientos teóricos y metodológicos inherentes al campo de la Contabilidad y la Auditoría en sus diversas aplicaciones.
 
 El Máster en Contabilidad y Auditoría estará capacitado para:
 
 *   Aplicar los conocimientos teóricos e instrumentales en la resolución de problemas vinculados con la información contable interna y externa de las organizaciones en un contexto globalizado.
 *   Analizar y aplicar las normativas contables en un contexto cambiante y contribuir en el diseño de las mismas a través de su participación en organismos de regulación contable.
-*   Intervenir, con visión amplia y crítica, en la planificación, el desarrollo y la implementación de sistemas contables de las organizaciones.
+*   Intervenir, con visión amplia y crítica, en la planificación, el desarrollo e implementación de sistemas contables de las organizaciones.
 *   Interpretar y analizar en forma crítica y reflexiva la información contable generada por las organizaciones con vistas a apoyar la toma de decisiones de los distintos agentes sociales interesados en la misma.
 *   Profundizar en conocimientos y aplicaciones prácticas que posibiliten una mejor comprensión de los procesos de planificación y control de gestión para la realización de procesos de auditoría efectivos.
 *   Participar en investigaciones contables con métodos científicos.
-*   Planificar y conducir procesos relacionados con la prospección de información contable con vistas a pronosticar escenarios futuros.
-*   Poseer una actitud crítica y flexible que le permita reconocer la necesidad de actualización permanente de los conocimientos e intervenir en equipos interdisciplinarios.
+*   Planificar y conducir procesos relacionados con la prospectiva de información contable con vistas a pronosticar escenarios futuros.
+*   Poseer una actitud crítica y flexible que permita reconocer la necesidad de actualización permanente de los conocimientos e intervenir en equipos interdisciplinarios.
+
+### Estructura y Modalidad
+
+#### Duración y Plazos
+El cursado de las asignaturas es de **dos (2) años**. El plazo máximo para la aprobación del Trabajo Final será de **cuatro (4) años** a partir de la inscripción a la carrera.
+
+#### Modalidad
+La carrera es **presencial** con dictado de sus clases combinando asistencia presencial, online y mixta.
+
+#### Evaluación
+Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del **75%** a las clases y mediante la aprobación de una evaluación final. La metodología de evaluación de asignaturas será dispuesta por el profesor responsable, pudiendo consistir en la ejecución de trabajos individuales, la resolución de casos, la realización de trabajos de campo o las propuestas de solución a planteos teóricos o prácticos. Todas las asignaturas deben contar, al menos, con una instancia de evaluación individual al finalizar su dictado.
+
+#### Requisitos para la Obtención del Título
+Para obtener el título, el estudiante deberá elaborar y defender un Trabajo Final, de carácter individual, sobre una temática en particular de las desarrolladas en el plan de estudio, bajo la supervisión de un Director/a y, si correspondiese, de un Codirector/a.
 
 ### Plan de Estudios
 
-El plan de estudios está estructurado sobre la base de 9 asignaturas obligatorias, 2 optativas sobre una oferta flexible, 1 asignatura de Metodología de la Investigación y 1 Taller de Trabajo Final, con un total de **36 créditos**, que corresponden a **540 horas**.
+El plan de estudios está estructurado sobre la base de 9 (nueve) asignaturas obligatorias, 2 (dos) optativas sobre una oferta flexible, 1 (una) asignatura de Metodología de la Investigación y 1 (un) Taller de Trabajo Final, con un total de **36 (treinta y seis) créditos**, que corresponden a **540 (quinientas cuarenta) horas**.
 
-| N° | Asignatura | Unidades de Crédito | Horas Totales |
-|:---|:---|:---:|:---:|
-| **Asignaturas Obligatorias** | | | |
-| 1 | La Contabilidad Patrimonial | 30 | 30 |
-| 2 | Confección y Análisis de Estados Contables | 20 | 40 |
-| 3 | Auditoría Externa de Estados Contables | 30 | 30 |
-| 4 | Sistemas Contables y Auditoría de Entes Especiales | 10 | 20 |
-| 5 | La Contabilidad de Gestión | 20 | 25 |
-| 6 | Auditoría Interna | 15 | 30 |
-| 7 | Sistemas de Información para la Planificación y Control de Gestión | 15 | 30 |
-| 8 | Finanzas de Empresas | 10 | 20 |
-| 9 | Gobierno Corporativo y Responsabilidad Social Organizacional | 10 | 20 |
-| **Subtotal Obligatorias** | | **160** | **245** |
-| **Asignaturas Optativas** | | | |
-| 10 | Optativa 1 | 10 | 15 |
-| 11 | Optativa 2 | 10 | 15 |
-| **Subtotal Optativas** | | **20** | **30** |
-| **Trabajo Final** | | | |
-| 12 | Metodología de la Investigación | 20 | 30 |
-| 13 | Taller de Trabajo Final | 160 | 235 |
-| **Subtotal Trabajo Final** | | **180** | **265** |
-| **Total General** | | **360** | **540** |
+| Asignaturas                                                     | Carga Horaria |
+| :-------------------------------------------------------------- | :------------ |
+| 1. Contabilidad Patrimonial                                     | 30            |
+| 2. Confección y Análisis de Estados Contables                   | 40            |
+| 3. Auditoría Externa de Estados Contables                       | 30            |
+| 4. Sistemas Contables y Auditoría de Entes Especiales           | 20            |
+| 5. Contabilidad de Gestión                                      | 25            |
+| 6. Auditoría Interna                                            | 30            |
+| 7. Sistemas de Información para la Planificación y Control de Gestión | 30            |
+| 8. Finanzas de Empresas                                         | 20            |
+| 9. Gobierno Corporativo y Responsabilidad Social Organizacional | 30            |
+| 10. Optativa 1                                                  | 30            |
+| 11. Optativa 2                                                  | 30            |
+| 12. Metodología de la Investigación                             | 30            |
+| 13. Taller de Trabajo Final                                     | 195           |
+| **Total**                                                       | **540**       |
 
-*Nota:* El total de 360 Unidades de Crédito equivale a 36 Créditos (10 Unidades de Crédito = 1 Crédito).
+### Asignaturas Optativas
 
-### Materias Optativas
-
-Las materias optativas se seleccionarán dentro de la siguiente oferta:
+Las asignaturas optativas se seleccionarán dentro de la siguiente oferta:
 
 *   Teoría Contable
 *   Normas Contables Comparadas
@@ -73,6 +74,13 @@ Las materias optativas se seleccionarán dentro de la siguiente oferta:
 *   Evaluación y Análisis de Riesgos de Proyectos de Inversión
 *   Alternativas de Inversión Financiera
 *   Prevención de Lavado de Activos
+
+### Información de Contacto
+
+*   **Facultad**: Facultad de Ciencias Económicas
+*   **Dirección**: Moreno 2557 - Santa Fe, Capital, Argentina
+*   **Sitio Web**: https://www.fce.unl.edu.ar/posgrado/
+*   **Teléfonos**: 342 4571180 - 4571177
 
 ---
 

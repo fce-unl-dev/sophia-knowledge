@@ -1,6 +1,6 @@
 # Tutorial Reinscripción Anual
 
-Este documento describe los pasos para realizar la reinscripción anual en el sistema SIU Guaraní, incluyendo el proceso de identificación y la confirmación de la operación.
+Este documento complementario describe los pasos para realizar la reinscripción anual en el sistema SIU, incluyendo el proceso de identificación, navegación y confirmación de la operación.
 
 ---
 
@@ -8,21 +8,23 @@ Este documento describe los pasos para realizar la reinscripción anual en el si
 
 ### Proceso de Reinscripción Anual
 
-Para realizar la reinscripción anual, siga los siguientes pasos:
+Para realizar la reinscripción anual en el sistema SIU, sigue los siguientes pasos:
 
-1.  **Identificación en el SIU:**
-    *   Ingrese al sistema SIU Guaraní utilizando su DNI (sin puntos) y la contraseña correspondiente.
-2.  **Acceso a la Reinscripción Anual:**
-    *   Una vez identificado, acceda al enlace de "Reinscripción Anual".
-3.  **Confirmación de la Reinscripción:**
-    *   Presione el botón "Reinscribirse".
-4.  **Mensaje de Confirmación:**
-    *   El sistema informará que la reinscripción ha sido realizada.
+1.  **Identificación**:
+    *   Ingresa al sistema SIU utilizando tu **DNI** (sin puntos) y tu **contraseña**.
+2.  **Acceso a la Reinscripción**:
+    *   Una vez identificado, navega hasta el enlace de **"Reinscripción Anual"**.
+3.  **Confirmación**:
+    *   Presiona el botón **"Reinscribirse"**.
 
-### Consideraciones Importantes
+### Mensaje de Confirmación
 
-*   **Número de Transacción:** No se otorga un número de transacción al completar este proceso.
-*   **Verificación:** Si vuelve a ingresar a la sección de Reinscripción Anual, el sistema mostrará nuevamente el mensaje de que ya se ha reinscripto, confirmando la operación.
+Una vez completado el proceso, el sistema informará que la reinscripción se ha realizado correctamente.
+
+**Consideraciones importantes:**
+
+*   El sistema **no otorga un número de transacción** para esta operación.
+*   Si vuelves a ingresar a la sección de "Reinscripción Anual", verás el mismo mensaje de confirmación indicando que ya te has reinscripto.
 
 ---
 

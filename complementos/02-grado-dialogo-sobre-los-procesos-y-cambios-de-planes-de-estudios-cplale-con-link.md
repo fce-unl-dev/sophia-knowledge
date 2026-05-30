@@ -1,6 +1,6 @@
-# Diálogo sobre los procesos y cambios de planes de estudios
+# Diálogo sobre Procesos y Cambios de Planes de Estudios
 
-Este documento describe una jornada de sensibilización, el propósito y los pasos a seguir para el cambio de planes de estudios en la FCE, incluyendo los recursos disponibles y una propuesta de consulta a la comunidad educativa.
+Este documento describe la jornada de sensibilización, el planteo del problema y el propósito del cambio de planes de estudio en la FCE, detallando los pasos a seguir, los recursos disponibles y una propuesta de consulta a la comunidad educativa.
 
 ---
 
@@ -8,37 +8,34 @@ Este documento describe una jornada de sensibilización, el propósito y los pas
 
 ### Jornada de Sensibilización y Propósito
 
-*   **Fecha de la Jornada de Sensibilización:** 18/11/2025
+*   **Jornada de sensibilización:** 18/11/2025
 *   **Planteo del problema:** SACAU (4 años), estándares de 2da generación
 *   **Propósito:** Cambio de planes de estudio
 
 ### Pasos a Seguir para el Cambio de Planes de Estudio
 
-1.  **Comisión ad-hoc:** Aprobada por CD (directores de carreras, de departamentos y comisiones de interpretación y enseñanza del CD), SAYBE (marzo).
-2.  **Aprobación de Cronograma y Actividades por la Comisión:** Incluye encuestas, entrevistas a estudiantes, docentes, no docentes, graduados y organizaciones que reciben a nuestros graduados, ateneos en torno a tesis y/o resultados de proyectos de investigación cuyos objetos de estudios refieran al curriculum (abril y mayo).
-3.  **Debates internos y propuestas:** A partir de los datos (junio/julio).
-4.  **Borrador de nuevos planes:** Agosto.
-5.  **Aprobación de planes por CD:** (septiembre/octubre).
+1.  **Comisión ad-hoc:** Aprobada por el Consejo Directivo (directores de carreras, de departamentos y comisiones de interpretación y enseñanza del CD), SAYBE (marzo).
+2.  **Aprobación de Cronograma y Actividades:** La comisión aprueba cronograma y actividades (encuestas, entrevistas a estudiantes, docentes, no docentes, graduados y organizaciones que reciben a nuestros graduados, ateneos en torno a tesis y/o resultados de proyectos de investigación cuyos objetos de estudios refieran al currículum) (abril y mayo).
+3.  **Debates Internos y Propuestas:** A partir de los datos obtenidos (junio/julio).
+4.  **Borrador de Nuevos Planes:** Agosto.
+5.  **Aprobación de Planes por CD:** (septiembre/octubre).
 
-### Recursos y Próximos Pasos
+### Recursos Disponibles
 
-*   **¿Qué se viene?**
-    *   Comisión ad hoc aprobada por CD (directores de carreras, de departamentos y comisiones de interpretación y enseñanza del CD), SAYBE (marzo).
-*   **¿Con qué contamos?**
-    *   Observatorio Académico
-    *   Encuestas estudiantiles
-    *   Resultados de CAID educación
+*   **Observatorio Académico**
+*   **Encuestas estudiantiles**
+*   **Resultados de CAID educación**
 
 ### Propuesta de Consulta a la Comunidad Educativa de FCE
 
-Esta propuesta busca explorar las valoraciones de la comunidad educativa de FCE en torno a los planes de estudios vigentes y sus posibles cambios.
+Esta propuesta busca explorar las valoraciones de la comunidad educativa de FCE en torno a los planes de estudios vigentes y sus posibles cambios, y luego identificar puntos de acuerdo para avanzar en el diseño de los nuevos planes.
 
 #### Primera Etapa (abril 2026)
 
 *   **Objetivo:** Explorar las valoraciones de la comunidad educativa de FCE en torno a los planes de estudios vigentes y sus posibles cambios.
 *   **Actividades:**
     *   Grupos focales con los distintos claustros: docentes, no docentes y estudiantes.
-    *   **Criterios de armado de los grupos:** Distintas carreras y distintos momentos de la carrera (BUCE, ciclo superior).
+    *   Criterios de armado de los grupos: distintas carreras y distintos momentos de la carrera (BUCE, ciclo superior).
 
 #### Segunda Etapa (mayo-junio)
 
