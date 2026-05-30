@@ -1,5 +1,7 @@
 # Estudiantes
 
+Aquí encontrará información destinada a los ALUMNOS DE POSGRADO. Esta página es un centro de recursos para alumnos de posgrado de la FCE-UNL.
+
 ---
 
 ## Identificación
@@ -105,8 +107,8 @@ Esta página es un centro de recursos para alumnos de posgrado de la FCE-UNL, in
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/
+- https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/ (Página de recursos para estudiantes de posgrado)
 
 ---
 
-**Última revisión humana**: 2026-05-21
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
