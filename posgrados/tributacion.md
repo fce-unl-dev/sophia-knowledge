@@ -16,13 +16,13 @@ La Especialización en Tributación de la FCE-UNL es un posgrado con muchos año
 
 ## Modalidad y duración
 
-- **Modalidad**: Presencial con dictado de clases combinando asistencia presencial, online y mixta
-- **Días y horarios de cursada**: Viernes de 16:30 a 20:30 hs y sábados de 8:30 a 12:30 hs
+- **Modalidad**: Presencial con dictado de sus clases combinando asistencia presencial, on line y mixta
+- **Días y horarios de cursada**: Viernes de 16.30 a 20.30 hs. y sábados de 8.30 a 12.30 hs.
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción mixta)
 - **Idioma**: Español
-- **Duración cursada**: 2 años (4 cuatrimestres)
+- **Duración cursada**: 2 años (Cuatro cuatrimestres)
 - **Duración trabajo final / tesis**: Plazo máximo 3 años desde la admisión a la carrera
-- **Carga horaria total**: 420 horas / 28 créditos académicos (UCAs)
+- **Carga horaria total**: 420 horas / 28 unidades de créditos académicos (UCAs)
 
 ## Plan de estudios
 
@@ -92,7 +92,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showCategoria&id=194 (Informes e Inscripción)
-- **Última actualización del dato**: 2026-05-22
+- **Última actualización del dato**: 2026-05-30
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -117,6 +117,12 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
   - Docentes de la Carrera: Esp. Pablo Passamonti y Esp. Julio Yodice
   - Graduada de la Carrera: Esp. Maria Dolores Barissi
 - **Cursos de Posgrado**: Las asignaturas de la Especialización en Tributación pueden realizarse de forma independiente, en carácter de “Cursos de Posgrado”. Esta alternativa brinda una opción de actualización académica sobre una temática en concreto. En caso de iniciar la Carrera en la siguiente cohorte, el alumno puede solicitar la homologación de las asignaturas aprobadas en caracter de cursos de posgrado.
+- **Objetivos curriculares**:
+    - Profundizar la formación del profesional en ciencias económicas, en el área tributaria a través de un entrenamiento intensivo, brindando herramientas teóricas y prácticas tanto para el asesoramiento a los contribuyentes como para la actuación ante o en los organismos públicos.
+    - Brindar los recursos para que el alumno profundice sus conocimientos acerca de los principios del derecho tributario y pueda aplicarlo en su desempeño profesional, sea éste privado o en organismos de recaudación u otro dentro del ámbito público.
+    - Promover un profundo conocimiento de la ley y de las normas reglamentarias, que permita al alumno tener un juicio crítico respecto de la posición del fisco sobre aspectos controvertidos, en relación a las opiniones doctrinarias y los principales pronunciamientos.
+    - Entrenar al alumno en el análisis de jurisprudencia administrativa y judicial para que pueda emitir una opinión fundamentada, sobre los temas que se le planteen en el desarrollo de su profesión.
+    - Integrar los contenidos abordados en el transcurso de la Especialización en un seminario de síntesis disciplinar, desarrollado como taller práctico con el fin de aplicar los conocimientos a ejercitaciones equivalentes a los desafíos que se presentan en el ejercicio profesional diario.
 
 ## Fuentes consultadas
 
@@ -136,4 +142,4 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
