@@ -122,12 +122,12 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=195
 - **Última actualización del dato**: 2026-05-17
 
-> Nota: Confirmar próxima cohorte con magadpub@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
 - **Directora académica**: Dra Rodríguez, Stella Maris
-- **Coordinador Académico del Área de Administración Pública**: Mg. Russo Luciano
+- **Coordinador Académico del Área de Administración Pública del Área de Gestión de Posgrado**: Mg. Russo Luciano
 - **Email del programa**: magadpub@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: 3425191199
@@ -177,4 +177,4 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 
 ---
 
-**Última revisión humana**: 2026-05-22
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-05-30 por pipeline de scraping.
