@@ -13,7 +13,8 @@
 - Normativa
 - Resolución 2598/2023 Ministerio de Educación
 - Resolución 556/2025 Ministerio de Capital Humano, Secretaría de Educación
-- Presentaciones en Jornadas
+- Presentaciones en Jornadas y Encuentros
+- Ciclo de talleres en marco del CRE (mayo 2026, brindado para docentes de todos los departamentos)
 - Jornada de Sensibilización
 - Diálogo sobre los procesos y cambios de planes de estudios CP,LA,LE
 
@@ -28,5 +29,5 @@
 
 ---
 
-**Última revisión automática**: 2026-06-01 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-06-04 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

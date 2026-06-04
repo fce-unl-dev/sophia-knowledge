@@ -29,6 +29,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/plan-la2026.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/plan-le2026.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-701-Calendario-Acad%C3%A9mico-2025-grado.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Normas-y-Procedimientos-de-Ense%C3%B1anza.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/res-500-25.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/resolucion-cd640-25.pdf
@@ -125,5 +126,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-06-01 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-06-04 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

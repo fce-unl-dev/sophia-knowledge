@@ -705,6 +705,12 @@
       "title": "Tecnicatura Universitaria en Control y Auditoría Gubernamental",
       "category": "Académica"
     },
+    "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
+      "category": "Académica"
+    },
     "docentes/docentes.md": {
       "sector": "docentes",
       "displayName": "Docentes",
