@@ -137,6 +137,7 @@ async function main() {
   const stats = Object.fromEntries(
     Object.keys(TAXONOMY.sectors).map(id => [id, 0]),
   );
+  const coreDocs = new Set(TAXONOMY.coreDocs || []);
 
   for (const item of index.items) {
     const sector = classifyItem(item);
@@ -145,6 +146,9 @@ async function main() {
       displayName: SECTOR_NAMES[sector],
       title: item.title,
       category: item.category,
+      // `core: true` → el runtime lo carga SIEMPRE (núcleo común), sin importar el
+      // sector que el clasificador elija. Para datos transversales (autoridades, contactos).
+      ...(coreDocs.has(item.path) ? { core: true } : {}),
     };
     stats[sector]++;
   }

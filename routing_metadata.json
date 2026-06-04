@@ -4,7 +4,7 @@
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 16,
-    "institucional": 22,
+    "institucional": 24,
     "ciencia": 22,
     "extension": 6,
     "internacionales": 7,
@@ -1094,6 +1094,20 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
       "category": "Complementario"
+    },
+    "institucional/gobierno-autoridades.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Autoridades y Organización de Gestión FCE-UNL",
+      "category": "Institucional",
+      "core": true
+    },
+    "institucional/contactos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Contactos y Canales Oficiales FCE-UNL",
+      "category": "Institucional",
+      "core": true
     }
   }
 }

@@ -14,6 +14,10 @@
     "tramites_bedelia"
   ],
   "fallbackSector": "tramites_bedelia",
+  "coreDocs": [
+    "institucional/gobierno-autoridades.md",
+    "institucional/contactos.md"
+  ],
   "overrides": [
     {
       "description": "Tecnicaturas: son pregrado, NO exigen título de grado. Van con la oferta sin título aunque la web las publique bajo /academica/. Sin este override, classifyItem las clasifica como 'academica' por la carpeta. Se evalúa ANTES del matchOrder.",
