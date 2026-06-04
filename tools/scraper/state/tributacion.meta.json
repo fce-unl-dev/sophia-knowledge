@@ -2,14 +2,14 @@
   "slug": "tributacion",
   "url": "https://fce.unl.edu.ar/tributacion/",
   "strategy": "fce-microsite",
-  "content_hash": "456d7374d579cac7bb7be84c54dbcee7456bf97b2922455b15ef488569b629e8",
-  "previous_hash": "f2e5f0f3329327b40d45438b5e891403acf452aa7a41b420acbe061b1bbf95be",
-  "pages_count": 13,
+  "content_hash": "cb3d47105d7af5425b6522f300d5abe32b7daa2032cf1db02e9307a8aff13d1e",
+  "previous_hash": "456d7374d579cac7bb7be84c54dbcee7456bf97b2922455b15ef488569b629e8",
+  "pages_count": 14,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/tributacion/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 25
+      "length": 61
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=172",
@@ -70,8 +70,13 @@
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=149",
       "title": "Docentes de la carrera",
       "length": 1378
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781",
+      "title": "Novedades",
+      "length": 464
     }
   ],
-  "scraped_at": "2026-05-30T16:31:13.048Z",
-  "last_checked_at": "2026-05-30T16:31:13.048Z"
+  "scraped_at": "2026-06-04T09:48:23.738Z",
+  "last_checked_at": "2026-06-04T09:48:23.738Z"
 }
