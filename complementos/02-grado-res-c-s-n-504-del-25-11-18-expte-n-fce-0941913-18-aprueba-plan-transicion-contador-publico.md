@@ -18,7 +18,7 @@ La **Resolución C.S. Nº 504**, emitida el 25 de octubre de 2018, aprueba el Pl
 #### 1. Régimen de Equivalencias de Asignaturas (Plan Res. C.S. Nº 128/06 al Nuevo Plan)
 
 | Año | Asignaturas Nuevo Plan de Estudios | HOMOLOGACIÓN con asignaturas Plan Res. C.S. Nº 128/06 |
-| :-- | :--------------------------------- | :---------------------------------------------------- |
+| :-- | :--- | :--- |
 | **1° AÑO** | | |
 | | Administración I | Administración General |
 | | Introducción a la Economía | Introducción a la Economía |
@@ -64,7 +64,7 @@ La **Resolución C.S. Nº 504**, emitida el 25 de octubre de 2018, aprueba el Pl
 Los alumnos que soliciten equivalencias para las siguientes asignaturas las obtendrán luego de la aprobación de los contenidos detallados. Se brindará apoyo a través de horarios de consulta con los docentes responsables.
 
 | Nombre asignatura plan anterior | Nombre Asignaturas Nuevo Plan | Contenidos a Aprobar |
-| :------------------------------ | :---------------------------- | :------------------- |
+| :--- | :--- | :--- |
 | Comercio Exterior | Administración IV | La Función Comercial. Administración de la comercialización: fundamentos de comercialización. La Responsabilidad Social en el marketing. El planeamiento en Comercialización: comercialización estratégica y operativa. El sistema de información comercial. Análisis del Sistema Comercial. Competencia. Demanda. Mercados. |
 | Comercialización | Administración IV | Particularidades en la comercialización internacional. Efectos de los procesos de integración en las decisiones de comercio exterior. Políticas comerciales de los Estados vinculadas al sector externo. Aspectos legales, financieros, tributarios y logísticos de operaciones de comercio exterior. |
 

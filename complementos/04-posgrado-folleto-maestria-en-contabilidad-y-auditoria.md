@@ -44,7 +44,7 @@ Para obtener el título, el estudiante deberá elaborar y defender un Trabajo Fi
 El plan de estudios está estructurado sobre la base de 9 (nueve) asignaturas obligatorias, 2 (dos) optativas sobre una oferta flexible, 1 (una) asignatura de Metodología de la Investigación y 1 (un) Taller de Trabajo Final, con un total de **36 (treinta y seis) créditos**, que corresponden a **540 (quinientas cuarenta) horas**.
 
 | Asignaturas                                                     | Carga Horaria |
-| :-------------------------------------------------------------- | :------------ |
+| :--- | :--- |
 | 1. Contabilidad Patrimonial                                     | 30            |
 | 2. Confección y Análisis de Estados Contables                   | 40            |
 | 3. Auditoría Externa de Estados Contables                       | 30            |

@@ -82,7 +82,7 @@ Brinda herramientas para gestionar dinámicas familiares y empresariales. Foco e
 ## Distinción importante: Pregrado vs Posgrado
 
 | Tipo | Programas | Referencia |
-|------|-----------|------------|
+|---|---|---|
 | Pregrado (NO son posgrado) | Diplomatura Gestión para el Trabajo en Organizaciones (GTO); Diplomatura Gestión Financiera del Sector Público (GFSP) | https://www.fce.unl.edu.ar/academica/propuesta-academica/ |
 | Posgrado (Diplomaturas Universitarias Superiores) | diploconcursos, diplofamiliares, diplomercados, diplotributos | https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ |
 

@@ -27,18 +27,18 @@ Brindar a profesionales herramientas sólidas para analizar y comprender la legi
 
 La Diplomatura se integra con 9 (nueve) módulos de asistencia obligatoria.
 
-| Módulo / Temática a desarrollar                                                                                             | Carga horaria |
-| :-------------------------------------------------------------------------------------------------------------------------- | :------------ |
-| 1. Derecho Tributario.                                                                                                      | 15            |
-| 2. Administración Tributaria.                                                                                               | 15            |
-| 3. Impuesto sobre los Ingresos Brutos.                                                                                      | 15            |
-| 4. Convenio Multilateral.                                                                                                   | 15            |
-| 5. Impuesto de Sellos.                                                                                                      | 15            |
+| Módulo / Temática a desarrollar | Carga horaria |
+| :--- | :--- |
+| 1. Derecho Tributario. | 15            |
+| 2. Administración Tributaria. | 15            |
+| 3. Impuesto sobre los Ingresos Brutos. | 15            |
+| 4. Convenio Multilateral. | 15            |
+| 5. Impuesto de Sellos. | 15            |
 | 6. Otros Tributos: Tasas Retributivas de Servicios. Impuesto Inmobiliario. Patente Automotor.                               | 15            |
 | 7. Regímenes de Promoción y Estabilidad Fiscal.                                                                            | 15            |
 | 8. Procedimiento Tributario en la Provincia de Santa Fe, ante los Órganos del Convenio Multilateral y ante la Comisión Federal de Impuestos. | 15            |
-| 9. Seminario de integración.                                                                                                | 15            |
-| **Horas totales de dictado**                                                                                                | **135**       |
+| 9. Seminario de integración. | 15            |
+| **Horas totales de dictado** | **135**       |
 
 ### Aprobación y Certificaciones
 

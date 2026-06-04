@@ -79,23 +79,23 @@ El Plan de Estudios está compuesto por los siguientes ciclos y módulos:
 
 #### Detalle de Carga Horaria por Módulo/Asignatura
 
-| Módulo / Asignatura                                                                                             | Teórica (hs) | Práctica (hs) | Total (hs) |
-| :-------------------------------------------------------------------------------------------------------------- | :----------- | :------------ | :--------- |
+| Módulo / Asignatura | Teórica (hs) | Práctica (hs) | Total (hs) |
+| :--- | :--- | :--- | :--- |
 | 1. Introducción al campo de la Responsabilidad Social                                                           | 30           | 15            | 45         |
 | 2. Teorías y enfoques de la Responsabilidad Social                                                              | 20           | 10            | 30         |
 | 3. Gestión de los Grupos de Interés                                                                             | 10           | 20            | 30         |
 | 4. Gobierno de las organizaciones y Responsabilidad Social                                                      | 15           | 15            | 30         |
 | 5. Administración Estratégica de la Responsabilidad Social                                                      | 12           | 18            | 30         |
 | 6. Gestión de la Responsabilidad Social de las Organizaciones                                                   | 25           | 35            | 60         |
-| 7. Márketing de Sostenibilidad                                                                                  | 10           | 20            | 30         |
+| 7. Márketing de Sostenibilidad | 10           | 20            | 30         |
 | 8. Transparencia y Rendición de Cuentas - Accountability                                                        | 15           | 15            | 30         |
 | 9. Informes de Rendición de Cuentas en Responsabilidad Social                                                   | 20           | 40            | 60         |
 | 10. Finanzas e Inversión Sostenible                                                                             | 10           | 20            | 30         |
-| 11. Economía Sostenible                                                                                         | 20           | 40            | 60         |
+| 11. Economía Sostenible | 20           | 40            | 60         |
 | 12. Optativas (ej. RSU / RSA Pública / RS Entidades sin fines de lucro)                                         | 15           | 30            | 45         |
 | 13. Laboratorio de Diseño de Trabajo Final                                                                      | 25           | 35            | 60         |
 | 14. Trabajo Final (Tutorías y escritura)                                                                        |              |               | 165        |
-| **TOTAL**                                                                                                       | **227**      | **313**       | **705**    |
+| **TOTAL** | **227**      | **313**       | **705**    |
 
 ---
 

@@ -82,7 +82,7 @@ El **Crédito de Referencia del/la estudiante (CRE)** es la unidad de tiempo tot
 La carga horaria mínima total es de 2600 horas.
 
 | Actividad educativa                  | Horas reloj totales (*) | Horas de práctica (**) |
-| :----------------------------------- | :---------------------- | :--------------------- |
+| :--- | :--- | :--- |
 | Formación básica                     | 600                     |                        |
 | **Formación profesional**            | **1800**                | **600**                |
 | Actividad reservada 1                | 300                     | 90                     |

@@ -203,6 +203,24 @@ Elegí el sector más apropiado.`;
   }
 }
 
+// Colapsa runs anómalos de caracteres de relleno que algunos PDFs (vía Gemini)
+// generan como separadores gigantes y que inflan la KB sin aportar contenido.
+// Caso real: una fila separadora de tabla con ~214.000 guiones (~67K tokens) en
+// una sola línea. Determinista y seguro: una fila separadora legítima usa 3
+// guiones, así que colapsar runs de 4+ no rompe ninguna tabla ni contenido.
+export function sanitizeKbMarkdown(md) {
+  if (typeof md !== 'string' || !md) return md;
+  return md
+    .split('\n')
+    .map((line) => line
+      .replace(/:-{4,}/g, ':---')   // celda separadora de tabla alineada izq.
+      .replace(/-{4,}/g, '---')     // runs de guiones (separadores/hr inflados)
+      .replace(/={4,}/g, '===')     // runs de '='
+      .replace(/_{4,}/g, '___')     // runs de '_'
+      .replace(/ {80,}/g, ' '))     // relleno de espacios anómalo
+    .join('\n');
+}
+
 // Convert CSV to Markdown table
 function csvToMarkdownTable(csvText) {
   const rows = parseCsv(csvText);
@@ -697,7 +715,7 @@ Env:
       } else {
         const geminiContent = await formatComplementWithGemini(apiKey, file, extractedText, templateContent, values['model']);
         
-        let cleanedGeminiContent = geminiContent.trim();
+        let cleanedGeminiContent = sanitizeKbMarkdown(geminiContent.trim());
         // Remove any trailing lines like "---" or "## Metadatos del Documento" / "## Fuentes consultadas" if Gemini generated them anyway
         const metadataIdx = cleanedGeminiContent.search(/^##\s+Metadatos del Documento/mi);
         if (metadataIdx !== -1) {
