@@ -11,7 +11,7 @@ La Maestría en Administración y Finanzas (MAF) es una carrera binacional argen
 - **Tipo**: Maestría profesional binacional con doble titulación
 - **Título que otorga**: Doble titulación:
   - "Magíster en Administración y Finanzas" de la UNL
-  - "Master of Arts in Management and Finance" de la FHKL
+  - "Master of Arts “International Master in Management and Finance”" de la FHKL
 - **Acreditación CONEAU**: Acreditada por CONEAU en 2020 — Res. N° 171. Reconocimiento Oficial Provisorio del Título por Res. ME N° 2929/21. (Primera acreditación CONEAU original: diciembre 2013.)
 - **Unidad académica**: FCE-UNL
 - **Carreras compartidas con otras unidades**: Sí — Universidad de Ciencias Aplicadas de Kaiserslautern (Alemania). Convenio en el marco del Centro Universitario Argentino-Alemán (CUAA).
@@ -19,7 +19,7 @@ La Maestría en Administración y Finanzas (MAF) es una carrera binacional argen
 ## Modalidad y duración
 
 - **Modalidad**: Presencial. Dictado en inglés.
-- **Días y horarios de cursada**: Específicos según cada materia — consultar con maf@fce.unl.edu.ar
+- **Días y horarios de cursada**: Lunes a jueves por la tarde.
 - **Lugar**: Parte en FCE-UNL (Moreno 2557, Santa Fe) y parte presencial en la Universidad de Ciencias Aplicadas de Kaiserslautern (Alemania).
 - **Idioma**: Inglés (asignaturas) + curso de idioma y cultura alemana durante la estadía.
 - **Duración cursada**: 2 años (incluye estadía mínima de ~7 meses en Alemania)
@@ -75,11 +75,11 @@ Las asignaturas son dictadas por especialistas del ámbito nacional e internacio
 - Universidad Nacional de Rosario
 - Otras
 
-Nómina docente individualizada no publicada en el microsite oficial — consultar con maf@fce.unl.edu.ar.
+Nómina docente individualizada no publicada en fuentes oficiales; consultar con maf@fce.unl.edu.ar.
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título universitario de grado (no especificado en detalle en el microsite) — consultar con maf@fce.unl.edu.ar
+- **Título previo requerido**: Título universitario de grado (no especificado en detalle en fuentes oficiales) — consultar con maf@fce.unl.edu.ar
 - **Idiomas**: Inglés (las asignaturas se dictan en inglés)
 - **Otros antecedentes**: No publicado en detalle — consultar
 - **Documentación a presentar**: No publicada en detalle — consultar
@@ -87,19 +87,19 @@ Nómina docente individualizada no publicada en el microsite oficial — consult
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con maf@fce.unl.edu.ar
+- **Matrícula**: No publicado en fuentes oficiales — consultar con el Director de la Carrera
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentino-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios.
-- **Estado actual de inscripción**: Por confirmar — consultar con maf@fce.unl.edu.ar
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+- **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentario-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios.
+- **Estado actual de inscripción**: Abierta a mediados de Junio de 2026 para nueva edición en el 2do cuatrimestre.
+- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: 2026
+- **Fecha de inicio**: 2do cuatrimestre de 2026
 - **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
-- **Última actualización del dato**: 2026-05-30
+- **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES A LA CARRERA) y https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
+- **Última actualización del dato**: 2026-06-04
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -141,8 +141,11 @@ Nómina docente individualizada no publicada en el microsite oficial — consult
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85 (Comité académico)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES A LA CARRERA)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Novedades - Doble titulación con Alemania)
+- https://www.hs-kl.de/ (Universidad socia)
+- http://www.cuaa-dahz.org/es/ (CUAA)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: 2026-06-04

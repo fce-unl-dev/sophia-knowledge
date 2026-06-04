@@ -1124,6 +1124,18 @@
       "category": "Complementario",
       "sector": "posgrados_graduados",
       "canonicalUrl": "https://drive.google.com/file/d/1d1Lw8fU4oG6CDUHEsPr9q1b7_lzEON80/view?usp=drivesdk"
+    },
+    {
+      "path": "institucional/gobierno-autoridades.md",
+      "title": "Autoridades y Organización de Gestión FCE-UNL",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/categorias/gobierno/autoridades/"
+    },
+    {
+      "path": "institucional/contactos.md",
+      "title": "Contactos y Canales Oficiales FCE-UNL",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/organizacion-de-gestion"
     }
   ]
 }

@@ -18,7 +18,6 @@ La Maestría en Administración de Empresas (MBA) de la FCE-UNL es una carrera d
 
 - **Modalidad**: Presencial y virtual sincrónica
 - **Días y horarios de cursada**: Viernes 17 a 21 hs y sábados 9 a 13 hs
-- **Período de cursado**: Abril a noviembre (con receso por vacaciones de invierno)
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción virtual sincrónica)
 - **Idioma**: Español. Asignaturas optativas dictadas en idioma inglés y/o portugués.
 - **Duración cursada**: 2 años
@@ -148,15 +147,15 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: La inscripción se realiza entre diciembre y marzo. Cohorte 2026 ya iniciada — consultar próxima edición.
+- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
 - **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: 2026-04
-- **Estado**: Cerrada — próxima cohorte en **2027** (consultar con mba@fce.unl.edu.ar)
+- **Estado**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mba/index.php?act=showCategoria&id=188 (Informes e Inscripción)
-- **Última actualización del dato**: 2026-05-30
+- **Última actualización del dato**: 2026-06-04
 
 > Nota: La fecha de inicio indicada ya pasó. Para información sobre la próxima cohorte (2027), se recomienda consultar con mba@fce.unl.edu.ar.
 
@@ -176,7 +175,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Doble Titulación con Italia**: Convenio desde 2014 con la Università Politecnica delle Marche (Ancona). Los alumnos pueden obtener una doble titulación: “Magister en Administración de Empresas – Mención Comercialización Internacional” de la UNL y “Laurea Magistrale in International Economics and Commerce” de la Universidad Politecnica delle Marche. Incluye una estadía de 6 meses en la universidad extranjera, con cursado de asignaturas específicas, pasantía en una empresa europea y un Trabajo Final o Tesis codirigida por profesores de ambas universidades. Este acuerdo busca desarrollar la formación global, internacional e intercultural del alumno, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas. El vínculo se ha consolidado con un intenso intercambio de docentes y alumnos, incluyendo visitas de profesores italianos y estancias académicas de maestrandos en Ancona para desarrollar proyectos de internacionalización.
 - **Movilidad internacional**: Los alumnos del MBA pueden participar en actividades de internacionalización bajo diferentes modalidades y duración: Programa de Competitividad Global, Movilidad de Posgrado con universidades latinoamericanas y Movilidad de Posgrado con universidades europeas. También tienen la posibilidad de acceder a instancias de internacionalización “en casa” con la participación en cursos optativos dictados por profesores visitantes extranjeros.
 - **PROCIT (Programa para la Consolidación de la Investigación y Transferencia)**: Dirige: Dra. María Rosa Sánchez Rossi; Coordina: Dr. Oscar Quiroga. El equipo PROCIT, integrado por la Directora de la carrera, Dra. María Rosa Sánchez Rossi, el Dr. Oscar Quiroga, la Mg. Verónica Paula Echavarría y la Mg. María Florencia Modesto, organiza el Taller de Formulación del Proyecto de Trabajo Final para alumnos de segundo año.
-- **Programa Graduados MBA** (Res. C.D. N°442/19): Responsable: Mg. Verónica Echavarría. Tiene como objeto promover la relación con los profesionales graduados de la carrera, con el propósito de consolidar las actividades de vinculación y transferencia al sector productivo. Sus objetivos incluyen promover programas de actualización, identificar demandas de capacitación, fortalecer la red de graduados, potenciar la transferencia de conocimientos, emplear nuevas tecnologías para la comunicación y fomentar la iniciativa empresarial. Cuenta con un Consejo Consultivo integrado por cinco graduados de diferentes menciones y cohortes.
+- **Programa Graduados MBA** (Res. C.D. N°442/19): Responsable: Mg. Verónica Echavarría. Tiene como objeto promover la relación con los profesionales graduados de la carrera, con el propósito de consolidar las actividades de vinculación y transferencia al sector productivo. Sus objetivos incluyen promover programas de actualización, identificar demandas de capacitación, identificar demandas de capacitación, fortalecer la red de graduados, potenciar la transferencia de conocimientos, emplear nuevas tecnologías para la comunicación y fomentar la iniciativa empresarial. Cuenta con un Consejo Consultivo integrado por cinco graduados de diferentes menciones y cohortes.
 - **Convenios institucionales**: Durante el año 2020, se firmaron convenios de colaboración con la Aceleradora Litoral y el Parque Tecnológico Litoral Centro para establecer un marco de cooperación con la Maestría. Estos convenios incluyen la organización conjunta de actividades de formación práctica, jornadas, congresos, seminarios, formación gerencial, coordinación de trabajos finales, inclusión de empresas como casos de estudio, generación de pasantías y colaboración en asistencia técnica.
 - **Comité Académico**: Es el órgano asesor del Consejo Directivo de la Facultad. Está integrado por la Directora de la Carrera, dos representantes de la carrera, la Secretaria Académica, la Secretaria de Posgrado, la Secretaria de Investigación y la Directora del Departamento de Administración de la Facultad. Interviene en el proceso de admisión, análisis de contenidos, evaluación de trabajos finales y actividades de investigación, extensión y vinculación.
 - **Acerca del cuerpo estudiantil**: Desde la creación de la Maestría han participado más de cuatrocientos profesionales. Actualmente cursan aproximadamente 30 alumnos.
@@ -200,11 +199,14 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=45 (Convenio de Doble Titulación (Italia))
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=42 (Movilidad internacional)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=62 (Programa Graduados)
+- https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=166 (Consejo Consultivo de Graduados)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=168 (Convenios con el sistema de innovación local)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=742 (Novedades - MBA Edición 2026)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=731 (Novedades - MBA Edición 2026)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=711 (Novedades - Defensas de Proyectos de Trabajo Final)
+- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=766 (Novedades - Cursos de Nivelación Cohorte 2026)
+- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=765 (Novedades - Inicio primeras asignaturas obligatorias)
+- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=751 (Novedades - Últimas vacantes cohorte 2026)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: 2026-06-04
