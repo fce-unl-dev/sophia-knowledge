@@ -84,15 +84,15 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Por confirmar — consultar
+- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027**
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
+- **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showCategoria&id=194 (Informes e Inscripción)
-- **Última actualización del dato**: 2026-05-30
+- **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
+- **Última actualización del dato**: **2026-06-04**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -139,7 +139,8 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=151 (Comité Académico)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=167 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=149 (Docentes de la carrera)
+- https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-04 por pipeline de scraping.
