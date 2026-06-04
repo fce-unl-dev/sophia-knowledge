@@ -9,9 +9,9 @@
     "extension": 6,
     "internacionales": 7,
     "docentes": 3,
-    "posgrados_graduados": 50,
+    "posgrados_graduados": 42,
     "posgrados_cursos_sin_titulo": 26,
-    "grado": 23,
+    "grado": 24,
     "tramites_bedelia": 5
   },
   "mappings": {
@@ -457,54 +457,6 @@
       "sector": "tramites_bedelia",
       "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Normas y Procedimientos de Enseñanza FCE UNL",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-especializacion-tributacion.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Folleto Especialización en Tributación",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-especializacion-en-direccion-y-gestion-de-organizaciones-publicas.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-maestria-en-administracion-publica.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Administración Pública",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-maestria-en-contabilidad-y-auditoria.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Contabilidad y Auditoría",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-maestria-en-responsabilidad-social-organizacional.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Responsabilidad Social Organizacional",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-maestria-en-economia-aplicada.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Economía Aplicada",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-maestria-administracion-y-finanzas.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Administración y Finanzas",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-folleto-diplomatura-tributos-santa-fe.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Diplomatura Universitaria Superior en Tributos de la Provincia de Santa Fe y Convenio Multilateral",
       "category": "Complementario"
     },
     "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md": {
@@ -1114,6 +1066,12 @@
       "title": "Contactos y Canales Oficiales FCE-UNL",
       "category": "Institucional",
       "core": true
+    },
+    "complementos/02-grado-powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Talleres para Docentes: Ciclo CRE - Mayo 2026",
+      "category": "Complementario"
     }
   }
 }
