@@ -6,23 +6,23 @@ Doctorado de cuarto nivel orientado a formar investigadores y profesionales de a
 
 ## Identificación
 
-- **Nombre oficial**: Doctorado en Administración Pública
-- **Código corto / sigla**: DAP
-- **Tipo**: Doctorado
-- **Título que otorga**: Doctor en Administración Pública
-- **Acreditación CONEAU**: Acreditada y categorizada B por CONEAU — Res. CONEAU 615/2019
-- **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: Sí — Facultad de Ciencias Jurídicas y Sociales (UNL). Creada por Resolución Nº 703/07 del Consejo Directivo y aprobada por Resolución 257/2009 del Honorable Consejo Superior de la Universidad Nacional del Litoral.
+-   **Nombre oficial**: Doctorado en Administración Pública
+-   **Código corto / sigla**: DAP
+-   **Tipo**: Doctorado
+-   **Título que otorga**: Doctor en Administración Pública
+-   **Acreditación CONEAU**: Acreditada y categorizada B por CONEAU — Res. CONEAU 615/2019
+-   **Unidad académica**: FCE-UNL
+-   **Carreras compartidas con otras unidades**: Sí — Facultad de Ciencias Jurídicas y Sociales (UNL). Creada por Resolución Nº 703/07 del Consejo Directivo y aprobada por Resolución 257/2009 del Honorable Consejo Superior de la Universidad Nacional del Litoral.
 
 ## Modalidad y duración
 
-- **Modalidad**: Presencial con dictado de clases por sistema de videoconferencia
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
-- **Lugar**: FCE-UNL, Moreno 2557, Santa Fe
-- **Idioma**: Español
-- **Duración cursada**: 18 meses (tres semestres)
-- **Duración trabajo final / tesis**: Plazo máximo de 6 años desde la inscripción a la carrera para la aprobación de la tesis
-- **Carga horaria total**: 1.500 horas / 100 UCAs (créditos académicos)
+-   **Modalidad**: Presencial con dictado de clases por sistema de videoconferencia
+-   **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Lugar**: FCE-UNL, Moreno 2557, Santa Fe
+-   **Idioma**: Español
+-   **Duración cursada**: 18 meses (tres semestres)
+-   **Duración trabajo final / tesis**: Plazo máximo de 6 años desde la inscripción a la carrera para la aprobación de la tesis
+-   **Carga horaria total**: 1.500 horas / 100 UCAs (créditos académicos)
 
 ## Plan de estudios
 
@@ -67,74 +67,75 @@ Cuerpo conformado por profesores estables e invitados, con participación de aca
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas.
-- **Idiomas**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
-- **Otros antecedentes**: Currículum Vitae para evaluar sus antecedentes y condiciones; entrevista personal.
-- **Documentación a presentar**: Currículum Vitae
-- **Proceso de admisión**: El Comité Académico verificará los requisitos de admisión y sus antecedentes. Las situaciones de admisión son:
-  - Ingreso Directo: para quienes posean Maestría en Administración Pública o Políticas Públicas.
-  - Ingreso condicionado: a la satisfacción de créditos adicionales.
+-   **Título previo requerido**: Título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas.
+-   **Idiomas**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Otros antecedentes**: Currículum Vitae para evaluar sus antecedentes y condiciones; entrevista personal.
+-   **Documentación a presentar**: Currículum Vitae
+-   **Proceso de admisión**: El Comité Académico verificará los requisitos de admisión y sus antecedentes. Las situaciones de admisión son:
+    - Ingreso Directo: para quienes posean Maestría en Administración Pública o Políticas Públicas.
+    - Ingreso condicionado: a la satisfacción de créditos adicionales.
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
-- **Modalidad de pago**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
-- **Estado actual de inscripción**: Por confirmar — consultar con dap@fce.unl.edu.ar
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Matrícula**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Cuotas**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Modalidad de pago**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Becas disponibles**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Estado actual de inscripción**: Cerrada
+-   **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción)
-- **Última actualización del dato**: 2026-05-30
+-   **Fecha de inicio**: Segundo cuatrimestre de 2026
+-   **Estado**: Por confirmar
+-   **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera)
+-   **Última actualización del dato**: 2026-06-04
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director/a académico/a**: Directora: Dra. Stella Maris Rodríguez. Co-director: Dr. Fernando Martín Jaime. Coordinador Académico del Área de Administración Pública: Mg. Luciano Russo.
-- **Email del programa**: dap@fce.unl.edu.ar
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
-- **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
-- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+-   **Director/a académico/a**: Directora: Dra. Stella Maris Rodríguez. Co-director: Dr. Fernando Martín Jaime. Coordinador Académico del Área de Administración Pública: Mg. Luciano Russo.
+-   **Email del programa**: dap@fce.unl.edu.ar
+-   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+-   **WhatsApp Posgrado**: 3425191199
+-   **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
+-   **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
 
-- **Comité Académico**:
-  - Dra. Stella Maris Rodríguez (Directora)
-  - Mg. Marcela Martin (Secretaria de Posgrado de la Facultad de Ciencias Económicas de la UNL)
-  - Dra. Andrea María Pacífico (Secretaria Académica y de Bienestar Estudiantil de la Facultad de Ciencias Económicas de la UNL)
-  - Dr. Roberto Meyer (Docente de la Facultad de Ciencias Económicas)
-  - Dra. María Rosa Sánchez Rossi (Docente de la Facultad de Ciencias Económicas)
-  - Abog. Alejandro Héctor Pivetta (Secretario de Posgrado de la Facultad de Ciencias Jurídicas y Sociales de la UNL)
-  - Abog. Justo José Reyna (Facultad de Ciencias Jurídicas y Sociales de la UNL)
-  - Abog. Federico José Lisa (Docente de la Facultad de Ciencias Jurídicas y Sociales de la UNL)
-  - Dr. Luciano Carlos Rezzoagli (Docente Facultad de Ciencias Jurídicas y Sociales de la UNL)
-- **Promoción de asignaturas**: Las asignaturas se promocionan con el cumplimiento de una asistencia mínima del ochenta por ciento (80%) a las clases, y a través de los procedimientos de evaluación aprobados por el Consejo Directivo. Todos los cursos deben contar, al menos, con una instancia de evaluación individual y la presentación de artículos con los requisitos de aceptación de revistas especializadas con referato.
-- **Perfil del egresado**: Académicos de rango superior aptos para docencia de grado y posgrado, formación de recursos humanos de alta calidad para la docencia y la transmisión de conocimientos, así como estudiosos destinados a producir, reproducir y aumentar el conocimiento existente a través de la investigación y la formación de recursos humanos para la investigación. El egresado deberá conocer en amplitud y profundidad el “estado del arte” del campo abarcado por la Carrera, y demostrar sus aportaciones y percepciones originales sobre el mismo.
+-   **Comité Académico**:
+    - Dra. Stella Maris Rodríguez (Directora)
+    - Mg. Marcela Martin (Secretaria de Posgrado de la Facultad de Ciencias Económicas de la UNL)
+    - Dra. Andrea María Pacífico (Secretaria Académica y de Bienestar Estudiantil de la Facultad de Ciencias Económicas de la UNL)
+    - Dr. Roberto Meyer (Docente de la Facultad de Ciencias Económicas)
+    - Dra. María Rosa Sánchez Rossi (Docente de la Facultad de Ciencias Económicas)
+    - Abog. Alejandro Héctor Pivetta (Secretario de Posgrado de la Facultad de Ciencias Jurídicas y Sociales de la UNL)
+    - Abog. Justo José Reyna (Facultad de Ciencias Jurídicas y Sociales de la UNL)
+    - Abog. Federico José Lisa (Docente de la Facultad de Ciencias Jurídicas y Sociales de la UNL)
+    - Dr. Luciano Carlos Rezzoagli (Docente Facultad de Ciencias Jurídicas y Sociales de la UNL)
+-   **Promoción de asignaturas**: Las asignaturas se promocionan con el cumplimiento de una asistencia mínima del ochenta por ciento (80%) a las clases, y a través de los procedimientos de evaluación aprobados por el Consejo Directivo. Todos los cursos deben contar, al menos, con una instancia de evaluación individual y la presentación de artículos con los requisitos de aceptación de revistas especializadas con referato.
+-   **Perfil del egresado**: Académicos de rango superior aptos para docencia de grado y posgrado, formación de recursos humanos de alta calidad para la docencia y la transmisión de conocimientos, así como estudiosos destinados a producir, reproducir y aumentar el conocimiento existente a través de la investigación y la formación de recursos humanos para la investigación. El egresado deberá conocer en amplitud y profundidad el “estado del arte” del campo abarcado por la Carrera, y demostrar sus aportaciones y percepciones originales sobre el mismo.
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/dap/ (homepage)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173 (Presentación de la carrera)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134 (Sede Administrativa)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=133 (Título que otorga)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=129 (Cursado y evaluación)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128 (Duración de la carrera)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción / Requisitos de inscripción)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=135 (Ciclos integrativos)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=132 (Diagrama del Plan de Estudios)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=140 (Contenidos Temáticos)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=139 (Distribución horaria)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=176 (Objetivos curriculares)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=136 (Conducción de la carrera)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=137 (Comité Académico)
-- https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=141 (Cuerpo Docente)
+-   https://fce.unl.edu.ar/dap/ (Información de interés general)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173 (Presentación de la carrera, Acreditación CONEAU)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134 (Sede Administrativa)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=133 (Título que otorga)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=129 (Cursado y evaluación, Modalidad)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128 (Duración de la carrera)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción, Requisitos de inscripción)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=135 (Ciclos integrativos, Estructura general)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=132 (Diagrama del Plan de Estudios)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=140 (Contenidos Temáticos)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=139 (Distribución horaria)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=176 (Objetivos curriculares - Perfil del egresado)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=136 (Conducción de la carrera - Director/a)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=137 (Comité Académico)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=141 (Cuerpo Docente)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera, próxima cohorte, aranceles)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-04 por pipeline de scraping.
