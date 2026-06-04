@@ -91,15 +91,15 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Por confirmar — consultar con mcya@fce.unl.edu.ar
+- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027**
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
+- **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197
-- **Última actualización del dato**: 2026-05-22
+- **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
+- **Última actualización del dato**: 2026-06-04
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -123,7 +123,6 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
     - Secretario de Investigación y Vinculación: Mg. Dario Mejias
   - Directora del Departamento de Contabilidad e Impuestos: Mg. María Luz Casabianca
 - **Cursado y evaluación**: La carrera es presencial con dictado de sus clases combinando asistencia presencial, on line y mixta. Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final. La metodología de evaluación de asignatura será dispuesta por el profesor responsable, pudiendo consistir en la ejecución de trabajos individuales, la resolución de casos, la realización de trabajos de campo o las propuestas de solución a planteos teóricos o prácticos.
-- **Primera egresada**: Ana Lisa Tévez, quien defendió su trabajo final titulado “La estrategia empresarial: el aporte de los indicadores contables y financieros en una pyme comercial de la provincia de Santa Fe”.
 - **Perfil del egresado**: El Máster en Contabilidad y Auditoría es un posgraduado con una sólida formación en el área de la Contabilidad y Auditoría, capacitado para:
   - Aplicar los conocimientos teóricos e instrumentales en la resolución de problemas vinculados con la información contable interna y externa de las organizaciones en un contexto globalizado.
   - Analizar y aplicar las normativas contables en un contexto cambiante y contribuir en el diseño de las mismas a través de su participación en organismos de regulación contable.
@@ -138,19 +137,19 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 - https://www.fce.unl.edu.ar/mcya/ (Información de interés)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199 (Presentación de la carrera)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201 (Cursado y evaluación)
+- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201 (Cursado y evaluación, Trabajo Final)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=202 (Días y horarios de cursado)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=203 (Duración de la carrera)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197 (Informes e Inscripción)
+- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=203 (Duración de la carrera, Trabajo Final)
+- https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197 (Requisitos de inscripción)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=204 (Título que otorga)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=205 (Objetivos)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=206 (Perfil de egresado)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=207 (Estructura del plan de estudio)
+- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=207 (Estructura del plan de estudio, Asignaturas optativas)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=208 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=209 (Comité Académico)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=210 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=716 (Novedades - Primera egresada)
+- https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778 (Novedades - Próxima cohorte)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-04 por pipeline de scraping.
