@@ -2,14 +2,14 @@
   "slug": "mcya",
   "url": "https://www.fce.unl.edu.ar/mcya/",
   "strategy": "fce-microsite",
-  "content_hash": "938570d68abc987eba6780d61aba624f5e4fbfd4b5da969404b551cd2bfb0686",
-  "previous_hash": "f8e4e6e6e17bf213a9ec704980e5402ef98fabfb8b4f5de88ae9985d5723c32c",
+  "content_hash": "1d51d0138f7659901eb98e842ca2cc966ea91ae063d8528d57d3ffecc0faf651",
+  "previous_hash": "938570d68abc987eba6780d61aba624f5e4fbfd4b5da969404b551cd2bfb0686",
   "pages_count": 14,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/mcya/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 122
+      "length": 63
     },
     {
       "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199",
@@ -72,11 +72,11 @@
       "length": 1275
     },
     {
-      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=716",
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778",
       "title": "Novedades",
-      "length": 432
+      "length": 464
     }
   ],
-  "scraped_at": "2026-05-30T16:28:53.847Z",
-  "last_checked_at": "2026-05-30T16:28:53.847Z"
+  "scraped_at": "2026-06-04T09:46:24.421Z",
+  "last_checked_at": "2026-06-04T09:46:24.421Z"
 }
