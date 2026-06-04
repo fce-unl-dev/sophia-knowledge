@@ -2,14 +2,14 @@
   "slug": "map",
   "url": "https://fce.unl.edu.ar/magister/",
   "strategy": "fce-microsite",
-  "content_hash": "c5334b4883cebb63bacb60345f7db346e9c108591b8625904208bea949365127",
-  "previous_hash": "401e3663067a6f22c827193496d04ec973d92cc7729a16edffb94b93d531c031",
-  "pages_count": 15,
+  "content_hash": "6a483a023de86d1394bdc758f5d7623d858d60c1d09ffe8f869db2e39bc8671f",
+  "previous_hash": "c5334b4883cebb63bacb60345f7db346e9c108591b8625904208bea949365127",
+  "pages_count": 16,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/magister/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 26
+      "length": 62
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=47",
@@ -80,8 +80,13 @@
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=36",
       "title": "Internacionalización",
       "length": 969
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776",
+      "title": "Novedades",
+      "length": 333
     }
   ],
-  "scraped_at": "2026-05-30T16:28:51.492Z",
-  "last_checked_at": "2026-05-30T16:28:51.492Z"
+  "scraped_at": "2026-06-04T09:46:14.390Z",
+  "last_checked_at": "2026-06-04T09:46:14.390Z"
 }

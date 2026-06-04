@@ -16,12 +16,12 @@ La Maestría en Administración Pública (MAP) de la FCE-UNL es un posgrado de e
 
 ## Modalidad y duración
 
-- **Modalidad**: Presencial con clases combinando asistencia presencial y por Zoom
+- **Modalidad**: Presencial con dictado de sus clases combinando asistencia presencial o por Zoom
 - **Días y horarios de cursada**: Viernes por la tarde y sábados por la mañana (encuentros semanales de hasta 8 hs)
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe
 - **Idioma**: Español
 - **Duración cursada**: 2 años
-- **Duración trabajo final / tesis**: Plazo máximo 24 meses a contar desde la finalización de las actividades curriculares previstas
+- **Duración trabajo final / tesis**: Plazo máximo de presentación es de 24 meses a contar desde la finalización de las actividades curriculares previstas.
 - **Carga horaria total**: Comprende 610 horas reales (40.60 créditos académicos) dictadas por docentes y 160 de tutorías y actividades de investigación (10.60 créditos). Total: 770 hs / 51.2 UCAs
 
 ## Plan de estudios
@@ -112,15 +112,15 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Por confirmar — consultar con magadpub@fce.unl.edu.ar
+- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2028**
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=195
-- **Última actualización del dato**: 2026-05-17
+- **Fecha de inicio**: **2028**
+- **Estado**: Cerrada
+- **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776
+- **Última actualización del dato**: 2026-06-04
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -140,7 +140,7 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - **Biblioteca especializada**: La Maestría en Administración Pública cuenta con una biblioteca especializada en administración, gestión y políticas públicas. Actualmente dispone de 13.928 volúmenes vinculados con la temática del posgrado y 12 suscripciones a revistas especializadas. Asimismo, la FCE pone a disposición de los alumnos de la Maestría en Administración Pública la Biblioteca central ubicada en el ala oeste del edificio antiguo de la Facultad, alcanzando una extensión de 180 metros cuadrados.
 - **Revista**: "Documentos y Aportes en Administración Pública y Gestión Estatal” es una publicación periódica semestral de la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral (Santa Fe). La revista es un espacio de difusión científica sobre la temática vinculada al estudio y la formulación de las políticas públicas y la gestión y administración estatal. Acceder a la revista: https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DocumentosyAportes/about
 - **Comité Académico**:
-  - Directora de la carrera: Mg. Rodriguez Stella
+  - Directora de la carrera: Dra. Rodriguez Stella
   - Secretaria Académica: Mg. Andrea Pacífico
   - Secretaria de Posgrado: Mg. Marcela Martin
   - Secretario de Investigación y Vinculación: Mg. Dario Mejias
@@ -174,7 +174,8 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=91 (Revista)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=58 (Principales ejes temáticos)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=36 (Internacionalización - Doble Titulación UnB)
+- https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776 (Novedades - Inscripciones)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-04 por pipeline de scraping.
