@@ -2,14 +2,14 @@
   "slug": "ecyge",
   "url": "https://fce.unl.edu.ar/ecyge/",
   "strategy": "fce-microsite",
-  "content_hash": "0c973044ba2d82f3a11c267eca6e25eee11629917e5d89dd0ed4e56926bd7eea",
-  "previous_hash": "236923ac0885c164e4241220519add220a7ed3967203e4137e6928d06e8de146",
-  "pages_count": 12,
+  "content_hash": "214ee347cd38f9cde3226b9d75fb47f15d65df2c24e0f741513916cf3317e7b9",
+  "previous_hash": "0c973044ba2d82f3a11c267eca6e25eee11629917e5d89dd0ed4e56926bd7eea",
+  "pages_count": 13,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/ecyge/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 167
+      "length": 190
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=178",
@@ -65,8 +65,13 @@
       "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=243",
       "title": "Novedades",
       "length": 267
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=775",
+      "title": "Novedades",
+      "length": 261
     }
   ],
-  "scraped_at": "2026-05-30T16:30:07.706Z",
-  "last_checked_at": "2026-05-30T16:30:07.706Z"
+  "scraped_at": "2026-06-04T09:47:27.553Z",
+  "last_checked_at": "2026-06-04T09:47:27.553Z"
 }
