@@ -3,7 +3,7 @@
   "lastUpdated": "2026-06-04",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
-    "academica": 16,
+    "academica": 17,
     "institucional": 22,
     "ciencia": 22,
     "extension": 6,
@@ -703,6 +703,12 @@
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Tecnicatura Universitaria en Control y Auditoría Gubernamental",
+      "category": "Académica"
+    },
+    "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
       "category": "Académica"
     },
     "docentes/docentes.md": {
