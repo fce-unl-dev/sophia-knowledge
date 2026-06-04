@@ -309,6 +309,48 @@ export function parseScheduleCsv(csvContent, yearName) {
   return scheduleEntries;
 }
 
+const DIAS_SEMANA = ['lunes', 'martes', 'miércoles', 'miercoles', 'jueves', 'viernes', 'sábado', 'sabado', 'domingo'];
+
+// Separa "Lunes 8 hs" → { dia: 'Lunes', horario: '8 hs' }. Si no arranca con
+// un día de semana, deja el texto completo como horario.
+function splitDiaHorario(text) {
+  const clean = String(text || '').replace(/\s+/g, ' ').trim();
+  if (!clean) return { dia: 'N/D', horario: 'N/D' };
+  const [first, ...rest] = clean.split(' ');
+  if (DIAS_SEMANA.includes(first.toLowerCase())) {
+    return { dia: first, horario: rest.join(' ').trim() || 'N/D' };
+  }
+  return { dia: 'N/D', horario: clean };
+}
+
+// Parser DEFENSIVO de comisiones embebidas en el texto libre de horarios de
+// optativas. Solo separa cuando hay un patrón inequívoco de >=2 comisiones
+// "Cn: <horario> [Profesor/a Nombre]" (ej. Liderazgo de las organizaciones
+// complejas). Si el patrón no aparece, devuelve [] y el llamador deja la
+// optativa como una sola entry (comportamiento original, sin riesgo).
+export function parseComisionesFromText(text) {
+  if (!text) return [];
+  const normalized = String(text).replace(/<br\s*\/?>/gi, '\n');
+  const matches = [...normalized.matchAll(/C\s*(\d+)\s*:\s*([\s\S]*?)(?=C\s*\d+\s*:|$)/g)];
+  if (matches.length < 2) return []; // necesita al menos 2 comisiones explícitas
+
+  const docenteRe = /\b(?:Profesor(?:a|es|as)?|Prof\.?|Docentes?|a cargo de)\s+(.+)$/i;
+  const result = [];
+  for (const m of matches) {
+    const comision = `C${m[1]}`;
+    let rest = m[2].replace(/\s+/g, ' ').trim().replace(/[.;]+$/, '').trim();
+    let docente = '';
+    const dm = rest.match(docenteRe);
+    if (dm) {
+      docente = dm[1].replace(/[.;]+$/, '').trim();
+      rest = rest.slice(0, dm.index).trim();
+    }
+    const { dia, horario } = splitDiaHorario(rest);
+    result.push({ comision, dia, horario, docente });
+  }
+  return result;
+}
+
 // Función auxiliar para parsear Optativas
 function parseOptativasCsv(rows, yearName) {
   const header = rows[0].map(cell => (cell || '').trim().toLowerCase());
@@ -331,10 +373,29 @@ function parseOptativasCsv(rows, yearName) {
 
     const docente = docIdx !== -1 ? row[docIdx] : 'N/D';
     const horario = scheduleIdx !== -1 ? row[scheduleIdx] : 'N/D';
+    const materia = cleanSubjectName(subject);
+
+    // Si el horario trae varias comisiones explícitas (Cn: ... Prof X),
+    // las desdoblamos en una entry limpia por comisión. Cada comisión usa
+    // su docente embebido; si no lo tiene, cae al docente de la columna.
+    const comisiones = parseComisionesFromText(horario);
+    if (comisiones.length > 0) {
+      for (const com of comisiones) {
+        scheduleEntries.push({
+          anio: yearName,
+          materia,
+          comision: com.comision,
+          dia: com.dia,
+          horario: com.horario,
+          docente: com.docente || docente || 'N/D',
+        });
+      }
+      continue;
+    }
 
     scheduleEntries.push({
       anio: yearName,
-      materia: cleanSubjectName(subject),
+      materia,
       comision: 'Única',
       dia: 'Ver horarios',
       horario: horario,
@@ -457,4 +518,113 @@ export function generateSchedulesMarkdownTables(schedules) {
   }
 
   return sections.join('\n');
+}
+
+// Separa una celda de docente que puede contener varios nombres.
+// La planilla usa saltos de línea o <br> para separar co-docentes
+// (ej. "Claudia Zanabria<br> Lujan Alvarez"). NO separamos por coma
+// para no romper nombres en formato "Apellido, Nombre".
+export function splitDocentes(raw) {
+  if (!raw) return [];
+  return String(raw)
+    .replace(/<br\s*\/?>/gi, '\n')
+    .split(/[\n;]+/)
+    .map((name) => name.replace(/^[-\s]+/, '').trim()) // limpia guiones iniciales de la planilla
+    .filter((name) => name && name.toUpperCase() !== 'N/D');
+}
+
+// Saneo de celda para tabla Markdown: colapsa saltos de línea y escapa
+// pipes, para que un dato sucio de la planilla (ej. optativas con varias
+// comisiones en una celda) no rompa la tabla partiéndola en filas.
+function sanitizeCell(value) {
+  return String(value || '')
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/[\r\n]+/g, ' ')
+    .replace(/\|/g, '/')
+    .replace(/\s+/g, ' ')
+    .trim() || 'N/D';
+}
+
+// Clave de agrupación para un docente: minúsculas, sin tildes,
+// espacios colapsados. Solo se usa para agrupar/deduplicar, nunca
+// para mostrar (mostramos el nombre tal cual la primera aparición).
+export function normalizeTeacherKey(name) {
+  return String(name || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Combina día y horario en una sola celda legible. En optativas el día
+// suele venir como "Ver horarios" (placeholder), así que mostramos solo
+// el horario cuando el día no aporta información.
+function formatDiaHorario(dia, horario) {
+  const d = (dia || '').trim();
+  const h = (horario || '').trim();
+  const diaUtil = d && !/^ver horarios$/i.test(d) && d.toUpperCase() !== 'N/D';
+  const horaUtil = h && h.toUpperCase() !== 'N/D';
+  if (diaUtil && horaUtil) return `${d} — ${h}`;
+  if (diaUtil) return d;
+  if (horaUtil) return h;
+  return 'N/D';
+}
+
+// Genera un índice inverso Docente → Materias a partir de TODAS las
+// pestañas de horarios. Resuelve el patrón de consulta "¿qué materia
+// dicta X?" / "soy docente, ¿qué doy?", que falla cuando el modelo tiene
+// que escanear tablas organizadas por materia. Acepta el formato de
+// fetchClassSchedules: [{ tab, schedules, ok }].
+export function generateScheduleByTeacherTable(allSchedules) {
+  if (!allSchedules || allSchedules.length === 0) {
+    return '_No hay horarios registrados en la planilla._';
+  }
+
+  // Agrupar filas por docente normalizado, preservando el nombre original.
+  const byTeacher = new Map();
+  for (const tab of allSchedules) {
+    if (!tab || tab.ok === false || !Array.isArray(tab.schedules)) continue;
+    for (const entry of tab.schedules) {
+      for (const docente of splitDocentes(entry.docente)) {
+        const key = normalizeTeacherKey(docente);
+        if (!key) continue;
+        if (!byTeacher.has(key)) {
+          byTeacher.set(key, { display: docente, rows: [] });
+        }
+        byTeacher.get(key).rows.push({
+          materia: sanitizeCell(entry.materia),
+          comision: sanitizeCell(entry.comision),
+          diaHorario: sanitizeCell(formatDiaHorario(entry.dia, entry.horario)),
+        });
+      }
+    }
+  }
+
+  if (byTeacher.size === 0) {
+    return '_No hay docentes registrados en la planilla._';
+  }
+
+  // Ordenar docentes alfabéticamente por su clave normalizada.
+  const teachers = [...byTeacher.entries()].sort((a, b) => a[0].localeCompare(b[0], 'es'));
+
+  const headers = ['Docente', 'Materia', 'Comisión', 'Día y Horario'];
+  const separator = [':---', ':---', ':---', ':---'];
+  const tableLines = [
+    `| ${headers.join(' | ')} |`,
+    `| ${separator.join(' | ')} |`,
+  ];
+
+  for (const [, { display, rows }] of teachers) {
+    // Deduplicar filas idénticas (materia+comisión+día/horario) del mismo docente.
+    const seen = new Set();
+    for (const row of rows) {
+      const dedupeKey = `${row.materia}||${row.comision}||${row.diaHorario}`;
+      if (seen.has(dedupeKey)) continue;
+      seen.add(dedupeKey);
+      tableLines.push(`| ${display} | ${row.materia} | ${row.comision} | ${row.diaHorario} |`);
+    }
+  }
+
+  return tableLines.join('\n');
 }

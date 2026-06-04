@@ -35,6 +35,7 @@ import {
   fetchClassSchedules,
   generateExamsMarkdownTable,
   generateSchedulesMarkdownTables,
+  generateScheduleByTeacherTable,
 } from './scrape_sheets.mjs';
 
 const DEFAULT_STATE_DIR = 'state/estudiantes';
@@ -216,6 +217,12 @@ export async function runStudentsScraper({
       pages_with_content: result.summary.pages_with_content,
       requires_review: result.summary.requires_review,
       review_reasons: result.summary.review_reasons,
+      // Hash del contenido REAL del candidato (markdown), con la fecha de hoy
+      // neutralizada para no disparar cambios espurios día a día. Esto hace que
+      // el content_hash global detecte cambios que vienen SOLO de las planillas
+      // Google Sheets (exámenes/comisiones), que antes no entraban al hash y
+      // dejaban el status en 'unchanged' bloqueando el auto-merge.
+      content_hash: sha256(neutralizeDate(markdown, today)),
     });
 
     if (write && writeCandidates) {
@@ -408,6 +415,18 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
       }
       lines.push('');
     }
+
+    // Índice inverso Docente → Materias, construido desde TODAS las pestañas.
+    // Resuelve consultas del tipo "¿qué materia dicta X?" sin obligar al modelo
+    // a escanear tablas organizadas por materia.
+    lines.push('## Índice por Docente (Snapshot Oficial)');
+    lines.push('');
+    lines.push(`**Última actualización de planilla**: ${today}`);
+    lines.push('');
+    lines.push('- Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.');
+    lines.push('');
+    lines.push(generateScheduleByTeacherTable(classSchedules));
+    lines.push('');
   }
 
   lines.push('## Enlaces y sistemas relacionados');
@@ -559,6 +578,14 @@ function normalizeSpaces(value = '') {
 
 function sha256(text) {
   return createHash('sha256').update(text, 'utf8').digest('hex');
+}
+
+// Reemplaza la fecha de hoy (formato ISO) por un placeholder estable, para que
+// el hash de contenido no cambie solo porque el scraper corre otro día. Así un
+// cambio en el hash refleja un cambio REAL de contenido (planilla o web).
+export function neutralizeDate(text, today) {
+  if (!text || !today) return text || '';
+  return String(text).split(today).join('{DATE}');
 }
 
 function todayIsoDate() {
