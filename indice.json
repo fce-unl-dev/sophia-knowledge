@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "lastUpdated": "2026-06-04",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
@@ -452,62 +452,6 @@
       "category": "Complementario",
       "sector": "tramites_bedelia",
       "canonicalUrl": "https://drive.google.com/file/d/17GYzsySZi_t_Y588ralPRLs_c8Tzf3I_/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-especializacion-tributacion.md",
-      "title": "Folleto Especialización en Tributación",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/14QMiHqfpbRyqWKL-_xNpjl5-JJn6l8nE/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-especializacion-en-direccion-y-gestion-de-organizaciones-publicas.md",
-      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1XnCMpVqZ559FHdM7ktbnM_MTLaLTrwBE/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-maestria-en-administracion-publica.md",
-      "title": "Maestría en Administración Pública",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1slaD5TOuh7KU6i27yABL8biQOnQWeSC8/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-maestria-en-contabilidad-y-auditoria.md",
-      "title": "Maestría en Contabilidad y Auditoría",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1S4_U2Cj8KZL1qJz8dnjjORC0BT5-8yoh/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-maestria-en-responsabilidad-social-organizacional.md",
-      "title": "Maestría en Responsabilidad Social Organizacional",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1IfR3GClUgj7rBARhr1PyUCF9G0TW9Q-r/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-maestria-en-economia-aplicada.md",
-      "title": "Maestría en Economía Aplicada",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/17luBOd2yaSEDVYGObko3r7uSrfao_W11/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-maestria-administracion-y-finanzas.md",
-      "title": "Maestría en Administración y Finanzas",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1EulJw5AtZWWLDxV0VeCswH6kd9pqaFrf/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-folleto-diplomatura-tributos-santa-fe.md",
-      "title": "Diplomatura Universitaria Superior en Tributos de la Provincia de Santa Fe y Convenio Multilateral",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1m-8lkuEP8x6Yfvz6Fa_6JXsdD8k76Ukj/view?usp=drivesdk"
     },
     {
       "path": "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md",
@@ -1136,6 +1080,13 @@
       "title": "Contactos y Canales Oficiales FCE-UNL",
       "category": "Institucional",
       "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/organizacion-de-gestion"
+    },
+    {
+      "path": "complementos/02-grado-powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.md",
+      "title": "Talleres para Docentes: Ciclo CRE - Mayo 2026",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1lr3YL2_ua2F_fRlPCokpeV6Hcrl-gWgr/view?usp=drivesdk"
     }
   ]
 }
