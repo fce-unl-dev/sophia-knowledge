@@ -138,4 +138,4 @@ Cuerpo conformado por profesores estables e invitados, con participación de aca
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-04 por pipeline de scraping.
+**Última revisión humana**: 2026-06-04
