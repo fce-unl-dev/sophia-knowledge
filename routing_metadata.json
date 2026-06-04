@@ -3,7 +3,7 @@
   "lastUpdated": "2026-06-04",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
-    "academica": 16,
+    "academica": 17,
     "institucional": 24,
     "ciencia": 22,
     "extension": 6,
