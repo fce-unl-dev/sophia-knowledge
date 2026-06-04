@@ -10,7 +10,7 @@ La Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)
 - **Código corto / sigla**: EDGOP
 - **Tipo**: Especialización
 - **Título que otorga**: Especialista en Dirección y Gestión de Organizaciones Públicas
-- **Acreditación CONEAU**: Acreditada por CONEAU; detalles específicos no publicados en web. (Creada por Res. CD N° 1019/13 y aprobada por Res. HCS UNL N° 139/14.)
+- **Acreditación CONEAU**: Creada por Res. CD N° 1019/13 y aprobada por Res. HCS UNL N° 139/14. Detalles específicos de acreditación CONEAU no publicados en web.
 - **Unidad académica**: FCE-UNL
 - **Carreras compartidas con otras unidades**: Convenio con el Centro de Desarrollo y Asistencia Técnica en Tecnología para la Organización Pública (Asociación Civil) TOP.
 
@@ -43,15 +43,13 @@ La carrera está estructurada sobre la base de nueve (9) asignaturas obligatoria
 - Compliance y Anticorrupción en la Gestión Pública (30 hs / 2 UCAs)
 - Taller de Diseño del Trabajo Final Integrador (30 hs / 2 UCAs)
 
-**Nivel Formativo Especializado — Optativas (elegir 2 sobre una oferta de 7):**
+**Nivel Formativo Especializado — Optativas (elegir 2 sobre una oferta de 6):**
 - Gestión de la Calidad de Ámbitos Públicos (30 hs / 2 UCAs)
 - Gestión de la Participación Ciudadana (30 hs / 2 UCAs)
 - Gestión de Políticas Ambientales (30 hs / 2 UCAs)
-- Género y Equidad en la Gestión Pública (No publicado el detalle de horas/UCAs)
+- Género y Equidad en la Gestión Pública (30 hs / 2 UCAs)
 - Gestión por Proyectos en Ámbitos Públicos (30 hs / 2 UCAs)
 - Gestión de Redes Institucionales (30 hs / 2 UCAs)
-- Gestión de Políticas Públicas (No publicado el detalle de horas/UCAs)
-- Gestión de los Políticas Sociales (No publicado el detalle de horas/UCAs)
 
 ### Trabajo final / tesis
 Trabajo Final Integrador individual basado en el análisis de una Organización Pública seleccionada por el estudiante (con identificación de disfuncionalidades, marco jurídico-institucional, propuestas de mejora). Cumple con Normas APA. Demanda 180 hs / 12 UCAs.
@@ -93,15 +91,15 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 - **Cuotas**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 - **Modalidad de pago**: No publicada en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 - **Becas disponibles**: Convenio Específico de colaboración con la Unión del Personal Civil de la Nación (UPCN) - Seccional Santa Fe, que otorga un descuento del 20% sobre el costo total de la carrera a los profesionales que la entidad gremial informe a las autoridades de la EDGOP y a las autoridades de la Facultad de Ciencias Económicas de la UNL.
-- **Estado actual de inscripción**: Por confirmar — consultar con edgop@fce.unl.edu.ar
+- **Estado actual de inscripción**: Abierta para 2do cuatrimestre 2026
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192
-- **Última actualización del dato**: 2026-05-30
+- **Fecha de inicio**: 2026-08 (2do cuatrimestre 2026)
+- **Estado**: Abierta
+- **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779
+- **Última actualización del dato**: 2026-06-04
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -150,16 +148,16 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Cursado y evaluación)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=122 (Título que otorga)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192 (Informes e inscripción, requisitos de admisión)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192 (Requisitos de admisión)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121 (Estructura del Plan de Estudios, carga horaria)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126 (Asignaturas obligatorias)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=127 (Asignaturas optativas)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126 (Asignaturas obligatorias y optativas)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=181 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=124 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125 (Comité Académico)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123 (Cuerpo Docente)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=246 (Convenio UPCN)
+- https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Inscripciones a la carrera)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-04 por pipeline de scraping.
