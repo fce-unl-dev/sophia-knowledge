@@ -1,16 +1,16 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-04",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
-    "academica": 19,
+    "academica": 16,
     "institucional": 22,
     "ciencia": 22,
     "extension": 6,
     "internacionales": 7,
     "docentes": 3,
     "posgrados_graduados": 50,
-    "posgrados_cursos_sin_titulo": 24,
+    "posgrados_cursos_sin_titulo": 26,
     "grado": 23,
     "tramites_bedelia": 5
   },
@@ -89,13 +89,13 @@
     },
     "diplomaturas/gfsp.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Diplomatura en Gestión Financiera del Sector Público (GFSP)",
       "category": "Diplomatura universitaria"
     },
     "diplomaturas/gto.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Diplomatura en Gestión para el Trabajo en Organizaciones (GTO)",
       "category": "Diplomatura universitaria"
     },
@@ -233,133 +233,133 @@
     },
     "cursos/atencion-al-cliente-y-oratoria.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Atención al Cliente y Oratoria",
       "category": "Curso de formación profesional"
     },
     "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
       "category": "Curso de formación profesional"
     },
     "cursos/formacion-de-gerentes-de-supermercado.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Formación de Gerentes de Supermercado",
       "category": "Curso de formación profesional"
     },
     "cursos/formacion-de-gerentes-para-retail.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Formación de Gerentes para Retail",
       "category": "Curso de formación profesional"
     },
     "cursos/formacion-de-repositores-para-supermercado.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Formación de Repositores para Supermercado",
       "category": "Curso de formación profesional"
     },
     "cursos/formacion-en-manipulacion-conservacion-y-venta-de-mercaderias-en-supermercados.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Formación en Manipulación, Conservación y Venta de Mercaderías en Supermercados",
       "category": "Curso de formación profesional"
     },
     "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
       "category": "Curso de formación profesional"
     },
     "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
       "category": "Curso de formación profesional"
     },
     "cursos/gestion-financiera-para-emprendimientos.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Gestión Financiera para Emprendimientos",
       "category": "Curso de formación profesional"
     },
     "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
       "category": "Curso de formación profesional"
     },
     "cursos/inteligencia-artificial-aplicada-a-la-gestion-y-productividad.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Inteligencia Artificial Aplicada a la Gestión y Productividad",
       "category": "Curso de formación profesional"
     },
     "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
       "category": "Curso de formación profesional"
     },
     "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
       "category": "Curso de formación profesional"
     },
     "cursos/introduccion-al-diseno-de-modelos-de-negocios.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Introducción al Diseño de Modelos de Negocios",
       "category": "Curso de formación profesional"
     },
     "cursos/la-construccion-del-pensamiento-proporcional.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "La Construcción del Pensamiento Proporcional",
       "category": "Curso de formación profesional"
     },
     "cursos/manejo-practico-de-cooperativas-y-asociaciones.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Manejo Práctico de Cooperativas y Asociaciones",
       "category": "Curso de formación profesional"
     },
     "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
       "category": "Curso de formación profesional"
     },
     "cursos/produccion-saludable-360-curso-integral-para-emprendedores.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Producción Saludable 360: Curso Integral para Emprendedores",
       "category": "Curso de formación profesional"
     },
     "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Técnicas de Venta y Atención al Cliente para el Sector Electro y Textil",
       "category": "Curso de formación profesional"
     },
     "cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Teoría de Juegos: Fundamentos Matemáticos y Aplicaciones en Economía, Administración y Marketing",
       "category": "Curso de formación profesional"
     },
     "cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Tokenización de Activos de la Economía Real en Argentina",
       "category": "Curso de formación profesional"
     },
     "cursos/trading-profesional-basado-en-evidencia.md": {
       "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Trading Profesional Basado en Evidencia",
       "category": "Curso de formación profesional"
     },
@@ -651,12 +651,6 @@
       "title": "Contador Público/ Contador Público Nacional",
       "category": "Académica"
     },
-    "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md": {
-      "sector": "academica",
-      "displayName": "Académica",
-      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
-      "category": "Académica"
-    },
     "academica/ingreso-grado.md": {
       "sector": "academica",
       "displayName": "Académica",
@@ -700,14 +694,14 @@
       "category": "Académica"
     },
     "academica/tecnicatura-en-administracion-y-gestion-publica.md": {
-      "sector": "academica",
-      "displayName": "Académica",
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Tecnicatura en Administración y Gestión Pública",
       "category": "Académica"
     },
     "academica/tecnicatura-universitaria-en-control-y-auditoria-gubernamental.md": {
-      "sector": "academica",
-      "displayName": "Académica",
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Tecnicatura Universitaria en Control y Auditoría Gubernamental",
       "category": "Académica"
     },

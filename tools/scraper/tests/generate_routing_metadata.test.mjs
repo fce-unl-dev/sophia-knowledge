@@ -96,6 +96,38 @@ describe('classifyItem honra item.sector explícito', () => {
   });
 });
 
+describe('overrides de taxonomía (alta prioridad sobre matchOrder)', () => {
+  test('tecnicatura bajo academica/ va a oferta sin título (no a academica)', () => {
+    // La web publica tecnicaturas bajo /academica/, pero son pregrado SIN título
+    // de grado → el override las reasigna antes de la clasificación por carpeta.
+    const item = {
+      path: 'academica/tecnicatura-en-administracion-y-gestion-publica.md',
+      title: 'Tecnicatura en Administración y Gestión Pública',
+      category: 'Académica',
+    };
+    assert.equal(classifyItem(item), 'posgrados_cursos_sin_titulo');
+  });
+
+  test('doc académico sin "tecnicatura" sigue en academica (sin regresión)', () => {
+    const item = {
+      path: 'academica/contador-publico-nacional.md',
+      title: 'Contador Público/ Contador Público Nacional',
+      category: 'Académica',
+    };
+    assert.equal(classifyItem(item), 'academica');
+  });
+
+  test('item.sector explícito (Drive) gana sobre el override', () => {
+    const item = {
+      path: 'academica/tecnicatura-x.md',
+      title: 'Tecnicatura en X',
+      category: 'Académica',
+      sector: 'academica',
+    };
+    assert.equal(classifyItem(item), 'academica');
+  });
+});
+
 describe('parseSectorResponse (fallback IA)', () => {
   test('JSON válido con confianza alta → sector elegido', () => {
     const out = parseSectorResponse('{"sector":"docentes","confidence":0.9}');

@@ -108,6 +108,15 @@ export function classifyItem(item) {
     category: (item.category || '').toLowerCase(),
   };
 
+  // Overrides de alta prioridad: capturan casos que cruzan la clasificación por
+  // carpeta (ej. tecnicaturas publicadas bajo /academica/ que en realidad son
+  // oferta de pregrado sin título de grado). Se evalúan ANTES del matchOrder.
+  for (const ov of TAXONOMY.overrides || []) {
+    if (ov.sector && TAXONOMY.sectors[ov.sector] && matchesSector(ov.match, ctx)) {
+      return ov.sector;
+    }
+  }
+
   for (const sectorId of TAXONOMY.matchOrder) {
     const sector = TAXONOMY.sectors[sectorId];
     if (matchesSector(sector?.match, ctx)) return sectorId;

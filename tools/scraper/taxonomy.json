@@ -14,6 +14,13 @@
     "tramites_bedelia"
   ],
   "fallbackSector": "tramites_bedelia",
+  "overrides": [
+    {
+      "description": "Tecnicaturas: son pregrado, NO exigen título de grado. Van con la oferta sin título aunque la web las publique bajo /academica/. Sin este override, classifyItem las clasifica como 'academica' por la carpeta. Se evalúa ANTES del matchOrder.",
+      "match": { "titleIncludes": ["tecnicatura"] },
+      "sector": "posgrados_cursos_sin_titulo"
+    }
+  ],
   "sectors": {
     "academica": {
       "displayName": "Académica",
@@ -74,7 +81,7 @@
       }
     },
     "posgrados_cursos_sin_titulo": {
-      "displayName": "Posgrados y Cursos sin título de grado",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "kbFolder": "diplomaturas",
       "webPathPrefixes": ["/diplomaturas"],
       "driveFolderAliases": ["diplomaturas", "cursos", "pregrado"],
