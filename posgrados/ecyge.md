@@ -29,7 +29,7 @@ La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL conso
 ## Plan de estudios
 
 ### Estructura general
-Está estructurado sobre la base de diez asignaturas obligatorias y un Taller de Trabajo Final, con un total de 26 créditos (390 hs). La duración total del dictado de la carrera es de tres cuatrimestres, debiendo completarse al término de la aprobación de todas las asignaturas la Evaluación Final Integradora.
+Está estructurado sobre la base de diez asignaturas obligatorias y un Taller de Trabajo Final, con un total de 26 (veintiséis) créditos, que corresponden a 390 (trescientas noventa) horas. La duración total del dictado de la carrera es de tres cuatrimestres, debiendo completarse al término de la aprobación de todas las asignaturas la Evaluación Final Integradora.
 
 ### Módulos / asignaturas
 
@@ -45,7 +45,7 @@ Está estructurado sobre la base de diez asignaturas obligatorias y un Taller de
 - Gestión de empresas del sector primario (30 hs / 2 UCAs)
 - Gestión de empresas industriales (30 hs / 2 UCAs)
 - Gestión de empresas del sector servicios (30 hs / 2 UCAs)
-- Gestión de administraciones gubernamentales (30 hs / 2 UCAs)
+- Gestión de administraciones Gubernamentales (30 hs / 2 UCAs)
 
 **Cierre:**
 - Taller de Trabajo Final (30 hs / 2 UCAs)
@@ -89,15 +89,15 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Por confirmar — consultar
+- **Estado actual de inscripción**: Cerrada — próxima apertura en **diciembre 2026** para cohorte **2027**
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
+- **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191 (Informes e Inscripción)
-- **Última actualización del dato**: 2026-05-30
+- **Fuente del dato**: https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=775 (Novedades)
+- **Última actualización del dato**: 2026-06-04
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -142,7 +142,8 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=115 (Comité Académico)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=113 (Cuerpo Docente)
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=775 (Novedades - Inscripciones)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-04 por pipeline de scraping.
