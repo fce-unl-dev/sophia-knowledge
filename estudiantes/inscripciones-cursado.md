@@ -142,7 +142,7 @@
 
 ## Distribución de Comisiones y Horarios (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-06-04
+**Última actualización de planilla**: 2026-06-05
 
 ### Ingresantes
 
@@ -689,7 +689,7 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 
 ## Índice por Docente (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-06-04
+**Última actualización de planilla**: 2026-06-05
 
 - Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.
 
@@ -1119,5 +1119,5 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 
 ---
 
-**Última revisión automática**: 2026-06-04 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-06-05 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
