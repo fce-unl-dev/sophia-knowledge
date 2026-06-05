@@ -8,36 +8,36 @@ Este instructivo detalla los pasos y requisitos para solicitar el certificado de
 
 ### Presentación de la Solicitud
 
-El/la solicitante deberá enviar una nota en formato PDF a la dirección de correo de Mesa de Entradas (mesadeentradas@fce.unl.edu.ar), solicitando la emisión del Certificado de la Diplomatura.
+El/la solicitante deberá remitir una nota en formato PDF a la dirección de correo de Mesa de Entradas (mesadeentradas@fce.unl.edu.ar), solicitando la emisión del Certificado de la Diplomatura.
 
 ### Datos a Incluir en la Nota
 
 La nota debe contener la siguiente información:
 
-*   **Nombre completo:** (debe coincidir con el nombre que figurará en el certificado)
-*   **DNI**
-*   **Fecha de nacimiento**
-*   **Domicilio:** (debe coincidir con el registrado en el DNI)
-*   **Localidad y provincia**
-*   **Teléfono de contacto**
-*   **Correo electrónico**
-*   **Información del Título Grado/Secundario** (según corresponda):
+*   Nombre completo (tener presente que dicho nombre es el que figura en el certificado)
+*   DNI
+*   Fecha de nacimiento
+*   Domicilio (debe coincidir con el registrado en el DNI)
+*   Localidad y provincia
+*   Teléfono de contacto
+*   Correo electrónico
+*   Información el Título Grado/Secundario según corresponda:
     *   Nombre de la institución educativa
     *   Título obtenido
     *   Año de egreso
 
-### Documentación a Adjuntar
+### Documentación a adjuntar
 
 Incluir en el correo los siguientes documentos en formato digital:
 
-*   Imagen del frente y reverso del **DNI**
-*   **Constancia de Pago de Tasas**
-*   **Partida de nacimiento**
+*   Imagen del frente y reverso del DNI
+*   Constancia de Pago de Tasas.
+*   Partida de nacimiento.
 
-### Instrucciones para Efectuar el Pago de la Tasa
+### Instrucciones para efectuar el pago de la tasa
 
-1.  Ingresar a: [https://www.unl.edu.ar/diplomasylegalizaciones/2024/07/01/tramites-excepcionales-que-se-solicitan-en-cada-unidad-academica/](https://www.unl.edu.ar/diplomasylegalizaciones/2024/07/01/tramites-excepcionales-que-se-solicitan-en-cada-unidad-academica/)
-2.  Hacer click en: **TASAS - Título intermedio de Bachiller Universitario**
+*   Ingresar a: [https://www.unl.edu.ar/diplomasylegalizaciones/2024/07/01/tramites-excepcionales-que-se-solicitan-en-cada-unidad-academica/](https://www.unl.edu.ar/diplomasylegalizaciones/2024/07/01/tramites-excepcionales-que-se-solicitan-en-cada-unidad-academica/)
+*   Hacer click en: TASAS - Título intermedio de Bachiller Universitario
 
 ---
 

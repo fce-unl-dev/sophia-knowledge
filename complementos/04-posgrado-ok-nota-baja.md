@@ -1,29 +1,35 @@
-# Nota de Solicitud de Baja
+# Nota de Solicitud de Baja a Carrera de Posgrado
 
-Este documento proporciona un modelo de nota para solicitar la baja de una carrera de posgrado en la Facultad de Ciencias Económicas (FCE) de la UNL.
+Este documento contiene un modelo de nota para solicitar la baja de una carrera de posgrado dictada en la Facultad de Ciencias Económicas (FCE) de la UNL. Incluye los campos necesarios para completar la información personal del estudiante y el motivo de la solicitud.
 
 ---
 
 ## Contenido
 
-A continuación, se presenta el modelo de nota para solicitar la baja de una carrera de posgrado. Los campos entre corchetes `[ ]` deben ser completados con la información correspondiente del solicitante.
-
 ### Modelo de Nota de Solicitud de Baja
 
-Santa Fe, [Fecha]
+**Lugar y Fecha:**
+Santa Fe, [Día] de [Mes] de [Año]
 
-**Al/la directora/a de la Facultad de Ciencias Económicas de la UNL.**
+**Destinatario:**
+Al/la Director/a de la [Nombre de la Carrera de Posgrado]
+De la Facultad de Ciencias Económicas de la UNL.
+
+**Asunto:** Solicitud de Baja a Carrera de Posgrado
 
 De mi mayor consideración:
 
-Yo, **[Nombre y apellido]**, DNI N° **[Número de DNI]**, alumno/a regular de la carrera de posgrado **[Nombre de la carrera de posgrado]** que se dicta en la FCE de la UNL, me dirijo a Usted a fin de solicitar la baja a la carrera, en virtud de **[Motivo de la solicitud de baja]**.
+Yo, **[Nombre y Apellido del Alumno/a]**, DNI N° **[Número de DNI]**, alumno/a regular de la carrera de posgrado **[Nombre de la Carrera de Posgrado]** que se dicta en la FCE de la UNL, me dirijo a Usted a fin de solicitar la baja a la mencionada carrera, en virtud de **[Explicar el motivo de la solicitud de baja]**.
 
 A la espera de una respuesta favorable, la saludo atentamente.
 
-**FIRMA** (digital u holográfica)
-**[Nombre, apellido]**
-**[Celular]**
-**[Mail]**
+**Firma:**
+(digital u holográfica)
+
+**Datos de Contacto del Solicitante:**
+*   **Nombre y Apellido:** [Nombre y Apellido del Alumno/a]
+*   **Celular:** [Número de Celular]
+*   **Mail:** [Dirección de Correo Electrónico]
 
 ---
 

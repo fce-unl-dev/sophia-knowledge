@@ -1,94 +1,50 @@
-# Instructivo de Pago Cuota UNL para Alumnos
+# Instructivo de Pago UNL
 
-Este instructivo detalla los pasos para que agentes externos a la UNL, incluyendo alumnos, realicen pagos a través del sistema Mercurio. Se describen los diferentes medios de cobranza disponibles y sus respectivos procedimientos.
+Este instructivo detalla los pasos para que agentes externos a la UNL realicen pagos a través del sistema Mercurio, incluyendo los diferentes medios de cobranza disponibles.
 
 ---
 
 ## Contenido
 
-Este instructivo describe el proceso para realizar pagos a la Universidad Nacional del Litoral (UNL) utilizando el sistema Mercurio, dirigido a agentes externos y alumnos. Es importante tener en cuenta que no todos los medios de cobranza pueden estar habilitados en todos los casos.
+Este instructivo describe el proceso para realizar pagos a la Universidad Nacional del Litoral (UNL) utilizando el sistema Mercurio.
 
-### Acceso al Sistema de Pagos
+### Acceso al Sistema Mercurio
 
-1.  **URL Pública**: Para iniciar el pago, ingrese a la siguiente dirección: [https://servicios.unl.edu.ar/mdcobro/](https://servicios.unl.edu.ar/mdcobro/).
-2.  **Identificación**: Ingrese su número de DNI.
-3.  **Visualización**: Una vez dentro, podrá ver su información personal y los conceptos de pago cargados por la UNL.
-4.  **Detalle de Conceptos**: Presionando el botón de detalle (indicado con un ícono de lupa o similar en el documento original), podrá ver la información particular de cada concepto y los medios de cobranza disponibles.
+Para iniciar el proceso de pago, siga estos pasos:
+1.  Ingrese a la URL pública: [https://servicios.unl.edu.ar/mdcobro/](https://servicios.unl.edu.ar/mdcobro/)
+2.  Introduzca su número de DNI en el campo correspondiente.
+3.  Complete el reCAPTCHA y haga clic en "Buscar".
 
-### Medios de Cobranza Disponibles
+Una vez que acceda, podrá visualizar su información personal y los conceptos a pagar cargados por la UNL.
 
-A continuación, se detallan los procedimientos para cada medio de pago (la disponibilidad puede variar):
+#### Información Personal (Ejemplo)
 
-#### Link Pagos – Red Link
+| Nombre    | Turri, Jose Ignacio         |
+| :--- | :--- |
+| Documento | DNI 38896488                |
+| Email     | jturri@rectorado.unl.edu.ar |
 
-1.  Presione el botón **PAGAR** (lo derivará a la web de RedLink).
-2.  Seleccione la opción deseada: **Pago WEB**, **Home Banking** o **Banca Empresa**.
-3.  Dentro de la plataforma, ingrese a la opción **PAGOS DE IMPUESTOS Y SERVICIOS** o **NUEVOS PAGOS**.
-4.  **Seleccione e ingrese los datos para el pago**:
-    *   **Rubro**: Instituciones Educativas
-    *   **Institución**: Universidad Nacional del Litoral-ON LINE
-    *   **Código de Pago Electrónico (CPE)**: Su número de documento sin puntos ni espacios.
-5.  Seleccione el importe a abonar.
-6.  Confirme la operación ingresando el factor de autorización de su banco (Clave, Tarjeta de coordenadas o Token).
-7.  El sistema mostrará una constancia válida como comprobante de pago.
-    *Una vez que el servicio quede vinculado o adherido, los distintos vencimientos próximos aparecerán automáticamente.*
+#### Conceptos a Pagar (Ejemplo)
 
-#### Pago mis Cuentas – Red Banelco
+| Entidad      | Servicio    | Período | Cuota | Emisión    | Vencimiento | Importe     |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| DEPORTES UNL | Fútbol Liga | 05/2023 | 0     | 23/05/2023 | 12/07/2023  | $ 650,00    |
+| FHUC         | 2019 - LEPI | 05/2023 | 0     | 23/05/2023 | 12/07/2023  | $ 20.000,00 |
 
-Su concepto a abonar estará disponible a partir de las 48 horas hábiles del inicio de su trámite.
+Al seleccionar un concepto, se mostrará la información detallada del mismo y los medios de cobranza disponibles.
 
-1.  Acceda al Home Banking del banco donde posea cuenta de la Red Banelco o a Pago Mis Cuentas ([www.pagomiscuentas.com](http://www.pagomiscuentas.com)).
-2.  Si ingresó a "Pago Mis Cuentas", seleccione la Entidad Bancaria adherida al sistema.
-3.  Ingrese su usuario y clave de Homebanking.
-4.  Ingrese a la opción **"Pagos > Pago de Servicios"** en el menú principal.
-5.  **Selección e ingreso de datos para el pago**:
-    *   **Rubro**: Establecimientos educativos
-    *   **Institución**: Univ Nac del Litoral
-    *   **Código de Pago Electrónico (CPE)**: Número de documento del alumno sin puntos ni espacios.
-6.  Seleccione o ingrese el importe a abonar.
-7.  **Confirmación del pago**: Confirme la operación ingresando nuevamente su clave de homebanking o el segundo factor de autenticación (Tarjeta de coordenadas o Token).
-8.  El sistema mostrará una constancia válida como comprobante de pago que puede ser impreso.
-    *Una vez que el servicio quede vinculado o adherido, los distintos vencimientos próximos aparecerán automáticamente.*
+#### Detalle del Concepto (Ejemplo)
 
-#### Pago Tic
+| Nombre    | Turri, Jose Ignacio         | Cuota       | 0           |
+| :--- | :--- | :--- | :--- |
+| Documento | DNI 38896488                | Período     | 05/2023     |
+| Email     | jturri@rectorado.unl.edu.ar | Emisión     | 23/05/2023  |
+|           |                             | Vencimiento | 12/07/2023  |
+|           |                             | Importe:    | $ 650,00    |
 
-Esta opción permite registrar su pago en tiempo real.
+### Medios de Pago Disponibles
 
-1.  Seleccione la opción **Pago Tic**.
-2.  Complete la información del formulario.
-3.  Se puede abonar con tarjeta de crédito o débito.
-
-#### Rapipago
-
-Permite realizar el pago en efectivo o débito en cualquier boca de cobro de Rapipago.
-
-1.  Imprima el cupón de pago desde el link provisto en el sistema.
-2.  Diríjase con el cupón de pago a cualquier punto RapiPago.
-3.  Una vez realizado el pago, deberá esperar 72 horas hábiles para que se acredite en los sistemas.
-
-#### Banco Nación
-
-Permite realizar el pago en efectivo en cualquier sucursal del Banco Nación.
-
-1.  Imprima el cupón de pago desde el link provisto en el sistema.
-2.  Diríjase con el cupón de pago a cualquier sucursal de Banco Nación.
-3.  Una vez realizado el pago, deberá esperar 72 horas hábiles para que se acredite en los sistemas.
-
-#### Plus Pagos
-
-Esta opción permite registrar su pago en tiempo real.
-
-1.  Acceda a **PLUSPAGO** desde el sistema.
-2.  Complete la información del formulario.
-3.  Se puede pagar con tarjeta de crédito, débito o billetera electrónica.
-
-#### Modo
-
-Permite pagar escaneando un QR o eligiendo una app de pago.
-
-1.  Use el botón **"Pagar con MODO"**.
-2.  Aparecerá una ventana para escanear un QR (en computadora de escritorio) o elegir una app para realizar el pago (en celular).
-3.  **Importante para celulares**: En su navegador web, debe tener desactivada la opción "Vista de Escritorio" para que el pago se realice correctamente.
+El sistema ofrece diversas opciones de pago, que pueden variar según el concepto
 
 ---
 

@@ -1,30 +1,30 @@
 # Tutorial Reinscripción Anual
 
-Este documento complementario describe los pasos para realizar la reinscripción anual en el sistema SIU, incluyendo el proceso de identificación, navegación y confirmación de la operación.
+Este documento describe los pasos para realizar la reinscripción anual a la carrera a través del sistema SIU Guaraní de la Facultad de Ciencias Económicas (FCE) de la UNL.
 
 ---
 
 ## Contenido
 
-### Proceso de Reinscripción Anual
+### Proceso de Reinscripción Anual en SIU Guaraní
 
-Para realizar la reinscripción anual en el sistema SIU, sigue los siguientes pasos:
+Para realizar la reinscripción anual a tu carrera, sigue los siguientes pasos:
 
-1.  **Identificación**:
-    *   Ingresa al sistema SIU utilizando tu **DNI** (sin puntos) y tu **contraseña**.
-2.  **Acceso a la Reinscripción**:
-    *   Una vez identificado, navega hasta el enlace de **"Reinscripción Anual"**.
-3.  **Confirmación**:
-    *   Presiona el botón **"Reinscribirse"**.
+1.  **Acceso al SIU Guaraní:**
+    *   Identifícate correctamente en el sistema con tu DNI (sin puntos) y contraseña.
+2.  **Navegación a la sección de Reinscripción Anual:**
+    *   Una vez dentro del sistema, busca y haz clic en el enlace de "Reinscripción Anual".
+    *   Esta opción se encuentra generalmente bajo la sección "Trámites" o similar, y se identifica con un período lectivo de tipo "ANUAL".
+3.  **Confirmación de Reinscripción:**
+    *   Dentro de la sección de Reinscripción, verás un mensaje indicando la acción a realizar.
+    *   Presiona el botón "Reinscribirse".
+4.  **Mensaje de Confirmación:**
+    *   El sistema te informará con el mensaje: "Ya estás reinscripto a tu carrera".
 
-### Mensaje de Confirmación
+**Consideraciones Importantes:**
 
-Una vez completado el proceso, el sistema informará que la reinscripción se ha realizado correctamente.
-
-**Consideraciones importantes:**
-
-*   El sistema **no otorga un número de transacción** para esta operación.
-*   Si vuelves a ingresar a la sección de "Reinscripción Anual", verás el mismo mensaje de confirmación indicando que ya te has reinscripto.
+*   El sistema **no otorga un número de transacción** al finalizar el proceso.
+*   Si vuelves a ingresar a la sección de Reinscripción Anual después de haberte reinscripto, verás nuevamente el mensaje de confirmación de que ya estás reinscripto.
 
 ---
 

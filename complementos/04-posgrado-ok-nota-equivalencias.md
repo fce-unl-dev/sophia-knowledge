@@ -1,35 +1,36 @@
-# Nota Modelo para Solicitud de Equivalencias de Posgrado
+# Nota de Solicitud de Equivalencias para Posgrado
 
-Este documento proporciona un modelo de nota para que los alumnos de posgrado de la FCE UNL puedan solicitar equivalencias de asignaturas. Incluye los datos requeridos y la estructura formal de la solicitud.
+Este documento es una plantilla para la nota de solicitud de equivalencias de asignaturas para alumnos/as de carreras de posgrado en la Facultad de Ciencias Económicas (FCE) de la UNL.
 
 ---
 
 ## Contenido
 
-### Modelo de Nota de Solicitud de Equivalencia
+### Modelo de Nota de Solicitud de Equivalencias
 
-A continuación, se presenta el formato estándar para la solicitud de equivalencias de asignaturas en carreras de posgrado de la Facultad de Ciencias Económicas de la UNL.
+**Fecha:** Santa Fe, **[Día]** de **[Mes]** de **[Año]**
 
-```
-Santa Fe, [Fecha]
+**Destinatario:**
+Al/la directora/a de la Facultad de Ciencias Económicas de la UNL.
 
-Al/la Director/a de la [Nombre de la Carrera de Posgrado]
-Facultad de Ciencias Económicas de la UNL
+**Asunto:** Solicitud de Equivalencia de Asignaturas
+
+**Cuerpo de la nota:**
 De mi mayor consideración:
 
-Por medio de la presente, yo, **[Nombre y Apellido]**, DNI N° **[Número de DNI]**, alumno/a regular de la carrera de posgrado **[Nombre de la Carrera de Posgrado]** que se dicta en la FCE de la UNL, me dirijo a Usted a fin de solicitar la equivalencia entre **[Nombre de la asignatura aprobada en otra institución/carrera]** y la/s asignatura/s **[Nombre/s de la asignatura/s de la carrera actual para la/s que se solicita equivalencia]** de la carrera que me encuentro cursando.
+**[Nombre y apellido]**, DNI N° **[Número de DNI]**, alumno/a regular de la carrera de posgrado **[Nombre de la carrera de posgrado]** que se dicta en la FCE de la UNL, se dirige a Usted a fin de solicitar la equivalencia entre **[Nombre de la asignatura a reconocer]** y las asignaturas de la carrera que me encuentro cursando.
 
-Se adjunta la siguiente documentación (para los casos que corresponda incluir):
-*   Programa de la asignatura aprobada.
-*   Certificado de aprobación de la asignatura.
+**Documentación adjunta (para los casos que corresponda incluir):**
+*   Programa de la asignatura a reconocer.
+*   Certificado de aprobación de la asignatura a reconocer.
 
 A la espera de una respuesta favorable, la saludo atentamente.
 
+**Firma:**
 **[FIRMA (digital u holográfica)]**
-**[Nombre y Apellido del Solicitante]**
+**[Nombre y apellido del/la solicitante]**
 **[Número de Celular]**
 **[Dirección de Correo Electrónico]**
-```
 
 ---
 

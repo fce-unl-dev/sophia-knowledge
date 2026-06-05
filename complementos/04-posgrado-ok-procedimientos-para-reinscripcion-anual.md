@@ -1,49 +1,49 @@
-# Procedimiento para Reinscripción Anual para Alumnos de Carreras de Posgrado
+# PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO
 
-Este documento detalla el procedimiento para la reinscripción anual obligatoria de los estudiantes de carreras de posgrado de la FCE UNL, incluyendo los plazos establecidos y los pasos a seguir en caso de no cumplir con la fecha límite.
+Este documento detalla el procedimiento para la reinscripción anual de estudiantes de carreras de posgrado en la FCE UNL, incluyendo el plazo establecido y los pasos a seguir en caso de no cumplir con la fecha límite.
 
 ---
 
 ## Contenido
 
-### Plazo y Requisitos Generales
+### Plazo de Reinscripción Anual
 
-*   **Plazo de reinscripción anual:** Hasta el 31 de marzo de cada año.
-*   **Estudiantes alcanzados:** Quienes sean estudiantes regulares (que no tengan vencidos los plazos según Reglamento).
-*   **Plataforma:** La reinscripción debe realizarse en el SIU Guaraní.
-*   **Carácter del trámite:** Personal.
+El plazo para la reinscripción anual es **HASTA EL 31 DE MARZO DE CADA AÑO**.
 
-### Control y Recordatorio
+### Procedimiento General para Estudiantes Regulares
 
-*   Antes del vencimiento del plazo, la Secretaría de Posgrado efectúa un control de las reinscripciones realizadas.
-*   Se recuerda a los/las estudiantes que no hayan cumplimentado el trámite.
+La Secretaría de Posgrado comunica a los/las estudiantes regulares (quienes no tengan vencidos los plazos según Reglamento) que deben realizar la reinscripción anual en el SIU Guaraní. El trámite es de carácter personal.
 
-### Procedimiento en caso de Vencimiento del Plazo
+Antes del vencimiento del plazo, se efectúa un control de las reinscripciones realizadas y se recuerda realizar el trámite a los/las estudiantes que no la hayan cumplimentado.
 
-Si el/la estudiante no ha completado la reinscripción anual dentro del plazo establecido, deberá seguir los siguientes pasos:
+### Procedimiento para Reinscripción Fuera de Término
+
+Vencido el plazo para el trámite, el/la estudiante que no haya completado la reinscripción anual deberá seguir los siguientes pasos:
 
 1.  **Presentación de Nota:**
-    *   Enviar una nota por correo electrónico a [mesadeentrada@fce.unl.edu.ar](mailto:mesadeentrada@fce.unl.edu.ar).
-    *   La nota debe estar dirigida al/la Decano/a, solicitando autorización para realizar la reinscripción.
-    *   Debe incluir los siguientes datos personales: nombre, apellido, celular, mail.
-    *   Debe contar con la firma del/la estudiante (digital u holográfica).
+    *   El/la estudiante debe presentar una nota dirigida al/la Decano/a solicitando autorización para realizar la reinscripción.
+    *   La nota debe ser enviada por mail a: [mesadeentrada@fce.unl.edu.ar](mailto:mesadeentrada@fce.unl.edu.ar).
+    *   Debe incluir los siguientes **datos personales**:
+        *   Nombre
+        *   Apellido
+        *   Celular
+        *   Mail
+    *   Debe incluir la **firma** del/la estudiante (digital u holográfica).
 
-2.  **Inicio del Expediente:**
+2.  **Inicio de Expediente:**
     *   La nota presentada por el/la estudiante inicia un expediente por Mesa de Entrada.
 
-3.  **Intervención de Alumnado:**
+3.  **Intervención de Alumnado (1ra instancia):**
     *   El expediente es enviado a Alumnado para que incluya la ficha académica del/la estudiante.
 
-4.  **Paso a Secretaría de Posgrado:**
-    *   Una vez cumplido el paso anterior, el expediente pasa a la Secretaría de Posgrado.
+4.  **Intervención de Secretaría de Posgrado (1ra instancia):**
+    *   La Secretaría de Posgrado toma conocimiento del expediente.
+    *   De corresponder, solicita a Alumnado proceder a la reinscripción del/la estudiante en SIU Guaraní.
 
-5.  **Solicitud de Reinscripción:**
-    *   La Secretaría de Posgrado, al tomar conocimiento del expediente y de corresponder, solicita a Alumnado que proceda a la reinscripción del/la estudiante en SIU Guaraní.
-
-6.  **Realización de la Reinscripción:**
+5.  **Intervención de Alumnado (2da instancia):**
     *   Alumnado realiza el pedido de reinscripción anual.
 
-7.  **Archivo del Expediente:**
+6.  **Intervención de Secretaría de Posgrado (2da instancia):**
     *   El expediente pasa nuevamente a Secretaría de Posgrado, quien solicita su archivo.
 
 ---

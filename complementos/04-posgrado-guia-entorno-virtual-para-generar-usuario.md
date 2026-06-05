@@ -1,40 +1,43 @@
-# CREACIÓN DE CUENTAS DE USUARIO EN EL ENTORNO VIRTUAL FCE UNL
+# Guía para la Creación de Cuentas de Usuario en el Entorno Virtual FCE UNL
 
-Este instructivo detalla el proceso paso a paso para la creación de cuentas de usuario en el entorno virtual de la Facultad de Ciencias Económicas (FCE) de la Universidad Nacional del Litoral (UNL).
+Este instructivo ofrece un paso a paso para la creación de cuentas de usuario en el entorno virtual de la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral.
 
 ---
 
 ## Contenido
 
-### Acceso al Entorno Virtual
+### 1. Acceso al Entorno Virtual
 
-1.  Dirigirse al sitio web del entorno virtual de la FCE UNL: [https://servicios.unl.edu.ar/aulavirtual/fce](https://servicios.unl.edu.ar/aulavirtual/fce)
-2.  En la página de inicio, hacer clic en **"Entrar"**.
+Para ingresar al sitio web del entorno virtual, dirígete a:
+[https://servicios.unl.edu.ar/aulavirtual/fce](https://servicios.unl.edu.ar/aulavirtual/fce)
 
-### Registro de Nueva Cuenta
+Una vez en la página de inicio, haz clic en "**Entrar**".
 
-1.  La página siguiente presentará dos opciones: "Usuarios Registrados" y "Registrarse como usuario".
-2.  Seleccionar la opción **"CREAR NUEVA CUENTA"**.
+### 2. Registro de Nuevo Usuario
 
-### Completar el Formulario de Registro
+Serás dirigido a una página donde encontrarás dos opciones: "Usuarios Registrados" y "Registrarse como usuario".
+Como es la primera vez que ingresas al sitio, debes seleccionar la opción "**CREAR NUEVA CUENTA**".
 
-Se debe completar el formulario con la siguiente información:
+### 3. Completar el Formulario de Registro
 
-*   **Nombre de usuario**: Colocar la inicial del nombre y el apellido completo.
-*   **Nombre completo**: Ingresar el nombre completo.
-*   **Apellido**: Ingresar el apellido.
-*   **Ciudad de residencia**: Ingresar la ciudad de residencia.
-*   **Dirección de correo electrónico**: Es crucial escribir correctamente la dirección de correo electrónico, ya que se recibirá un mail para confirmar la cuenta. Esta dirección debe ser introducida en el campo **"dirección de correo"** y repetida en el campo **"Correo (de nuevo)"**.
+A continuación, debes completar el formulario de registro con los siguientes datos:
 
-### Finalizar el Registro
+*   **Nombre de usuario**: Coloca la inicial de tu nombre y tu apellido completo.
+*   **Contraseña**: La contraseña debe tener al menos 8 caracteres, incluyendo al menos 1 dígito y al menos 1 minúscula.
+*   **Dirección de correo**: Es muy importante cerciorarse de escribir correctamente la dirección de correo electrónico, ya que recibirás en la misma un mail para confirmar la cuenta. Esta dirección debe ser introducida tanto en el campo "Dirección de correo" como en el de abajo, llamado "Correo (de nuevo)".
+*   **Nombre**
+*   **Apellido(s)**
+*   **Ciudad de residencia**
 
-1.  Hacer clic en **"Crear cuenta"**.
-2.  Aparecerá una notificación indicando que se ha enviado un correo electrónico con las instrucciones para completar el proceso de registro a la dirección declarada.
+### 4. Finalizar la Creación de Cuenta
 
-### Confirmación de la Cuenta por Correo Electrónico
+Para finalizar este paso, haz clic en "**Crear cuenta**".
+Inmediatamente, aparecerá una notificación avisando que se ha enviado un correo electrónico con las instrucciones para completar el proceso de registro a la dirección declarada.
 
-1.  Revisar la casilla de correo electrónico. El mail de confirmación tendrá el asunto **"Confirmación de la cuenta..."**.
-2.  Para confirmar la cuenta, hacer clic en el enlace provisto dentro de dicho correo electrónico.
+### 5. Confirmación de la Cuenta por Correo Electrónico
+
+En tu casilla de correo, busca un email con el asunto "**Confirmación de la cuenta...**".
+Para confirmar tu cuenta, debes hacer clic en el enlace que se señala dentro de dicho correo.
 
 ---
 
