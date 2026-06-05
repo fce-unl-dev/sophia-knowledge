@@ -1,7 +1,7 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { extractPdfText } from '../scrape_drive.mjs';
+import { extractPdfText, PDF_EXTRACTION_SYSTEM } from '../scrape_drive.mjs';
 
 const buffer = Buffer.from('%PDF-1.7 fake bytes');
 const silentLog = { warn() {} };
@@ -63,5 +63,19 @@ describe('extractPdfText (PDF multimodal-first)', () => {
       logImpl: silentLog,
     });
     assert.equal(out, 'rescatado por multimodal');
+  });
+});
+
+describe('PDF_EXTRACTION_SYSTEM (guard anti-PII)', () => {
+  test('instruye NO transcribir datos personales de ejemplos/capturas', () => {
+    assert.match(PDF_EXTRACTION_SYSTEM, /PRIVACIDAD/i);
+    assert.match(PDF_EXTRACTION_SYSTEM, /DNI|documento/i);
+    assert.match(PDF_EXTRACTION_SYSTEM, /captura|ejemplo/i);
+    assert.match(PDF_EXTRACTION_SYSTEM, /reemplaz/i);
+  });
+
+  test('preserva datos institucionales (no es un borrado ciego de todo dato)', () => {
+    assert.match(PDF_EXTRACTION_SYSTEM, /institucional/i);
+    assert.match(PDF_EXTRACTION_SYSTEM, /autoridades|secretar/i);
   });
 });
