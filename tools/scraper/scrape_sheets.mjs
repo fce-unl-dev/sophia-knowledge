@@ -157,68 +157,65 @@ export function parseScheduleCsv(csvContent, yearName) {
     return parseOptativasCsv(rows, yearName);
   }
 
-  // 2. Manejo especial de "Inglés" u otras que no tengan cabeceras explícitas de comisiones
-  // pero que tengan comisiones reales (ej. "Com. N° 1") en la columna 0.
-  let hasComisionesHeader = false;
-  let headerRowIndex = -1;
-  let subjectRowIndex = -1;
-
+  // 2. Detectar TODAS las filas de cabecera "Comisiones". La planilla apila varias
+  // materias por pestaña: en VERTICAL (años: una materia debajo de otra, cada una con
+  // su propia fila "Comisiones,Días,Horario,Docente") y en HORIZONTAL (Ingresantes:
+  // varias materias lado a lado, una sola fila de cabeceras con múltiples bloques
+  // "Comisiones"). Hay que procesar CADA cabecera, no solo la primera, o todas las
+  // materias caen bajo la primera (bug de atribución docente↔materia).
+  const headerRowIndices = [];
   for (let i = 0; i < rows.length; i++) {
-    const row = rows[i];
-    if (row.some(cell => (cell || '').trim().toLowerCase().startsWith('comision'))) {
-      headerRowIndex = i;
-      subjectRowIndex = Math.max(0, i - 2);
-      hasComisionesHeader = true;
-      break;
+    if (rows[i].some(cell => (cell || '').trim().toLowerCase().startsWith('comision'))) {
+      headerRowIndices.push(i);
     }
   }
 
-  if (!hasComisionesHeader) {
-    // Si no tiene cabeceras pero tiene comisiones en la fila 3 (ej. Inglés)
-    // Busquemos una fila que empiece con "Com. N°" o "Com. 1"
-    let firstComisionRow = -1;
-    for (let i = 0; i < rows.length; i++) {
-      const cell0 = (rows[i][0] || '').trim();
-      if (/^com\.?\s*(n°|nº)?\s*\d+/i.test(cell0)) {
-        firstComisionRow = i;
-        break;
+  // 3. Sin cabeceras explícitas (ej. "Inglés"): comisiones en col 0, una sola materia.
+  if (headerRowIndices.length === 0) {
+    return parseSchedulesNoHeader(rows, yearName);
+  }
+
+  const scheduleEntries = [];
+
+  // 4. Procesar cada bloque de cabecera con su propio rango de filas [cabecera, próxima cabecera).
+  for (let h = 0; h < headerRowIndices.length; h++) {
+    const headerRowIndex = headerRowIndices[h];
+    const rangeEnd = h + 1 < headerRowIndices.length ? headerRowIndices[h + 1] : rows.length;
+    const headerRow = rows[headerRowIndex].map(cell => (cell || '').trim());
+
+    // Detectar los bloques (columnas que arrancan con "Comisiones") y el nombre de la
+    // materia de cada uno (en alguna fila por encima de esta cabecera).
+    const blocks = [];
+    for (let c = 0; c < headerRow.length; c++) {
+      if (headerRow[c].toLowerCase().startsWith('comision')) {
+        blocks.push({
+          startIndex: c,
+          subject: cleanSubjectName(findSubjectAbove(rows, headerRowIndex, c)) || 'Materia sin nombre',
+          lastComision: '',
+          lastDocente: '',
+        });
       }
     }
 
-    if (firstComisionRow !== -1) {
-      // Intentamos inferir la materia en las filas superiores (típicamente fila 1 col 0)
-      let inferredSubject = 'Materia sin nombre';
-      for (let r = 0; r < firstComisionRow; r++) {
-        const val = (rows[r][0] || '').trim();
-        if (val && !val.startsWith('"') && val.length > 5) {
-          inferredSubject = val;
-          break;
-        }
-      }
+    for (let i = headerRowIndex + 1; i < rangeEnd; i++) {
+      const row = rows[i].map(cell => (cell || '').trim());
+      if (row.length === 0 || row.every(cell => cell === '')) continue;
 
-      // Estructuramos un bloque por defecto de 4 columnas en col 0
-      const blocks = [{
-        startIndex: 0,
-        subject: cleanSubjectName(inferredSubject),
-        lastComision: '',
-        lastDocente: ''
-      }];
+      for (const block of blocks) {
+        const c = block.startIndex;
+        if (c >= row.length) continue;
 
-      const scheduleEntries = [];
-      for (let i = firstComisionRow; i < rows.length; i++) {
-        const row = rows[i].map(cell => (cell || '').trim());
-        if (row.length === 0 || row.every(cell => cell === '')) continue;
-        
-        // Evitar líneas informativas como "80% de asistencia obligatoria"
-        if (row[0] && !/^com\.?\s*(n°|nº)?\s*\d+/i.test(row[0]) && !row[1] && !row[2]) {
-          continue;
-        }
+        const comision = row[c];
+        const dia = row[c + 1];
+        const horario = row[c + 2];
+        const docente = row[c + 3];
 
-        const block = blocks[0];
-        const comision = row[0];
-        const dia = row[1];
-        const horario = row[2];
-        const docente = row[3];
+        if (!comision && !dia && !horario && !docente) continue;
+
+        // Si la celda de comisión trae texto que NO es "Com. N° X", es una nota
+        // ("- Anual -"), el nombre de la materia siguiente o una tabla ajena que cayó
+        // en el rango: no la tomamos como comisión (evita arrastrar materia equivocada).
+        if (comision && !/^com\.?\s*(n°|nº|nro)?\s*\d+/i.test(comision)) continue;
 
         if (comision) block.lastComision = comision;
         if (docente) block.lastDocente = docente;
@@ -230,82 +227,76 @@ export function parseScheduleCsv(csvContent, yearName) {
             comision: block.lastComision || 'N/D',
             dia: dia || 'N/D',
             horario: horario || 'N/D',
-            docente: block.lastDocente || 'N/D'
+            docente: block.lastDocente || 'N/D',
           });
         }
       }
-      return scheduleEntries;
     }
-    
-    return [];
   }
 
-  // 3. Estructura estándar con cabecera "Comisiones"
-  const subjectRow = rows[subjectRowIndex].map(cell => (cell || '').trim());
-  const headerRow = rows[headerRowIndex].map(cell => (cell || '').trim());
+  return scheduleEntries;
+}
 
-  // Detectar bloques dinámicamente
-  const blocks = [];
-  for (let c = 0; c < headerRow.length; c++) {
-    const colName = headerRow[c].toLowerCase();
-    if (colName.startsWith('comision')) {
-      let subjectName = '';
-      for (let offset = 0; offset < 5; offset++) {
-        if (subjectRow[c + offset]) {
-          subjectName = subjectRow[c + offset];
-          break;
-        }
-      }
-      blocks.push({
-        startIndex: c,
-        subject: cleanSubjectName(subjectName) || 'Materia sin nombre',
-        lastComision: '',
-        lastDocente: ''
+// Busca el nombre de materia por encima de una cabecera "Comisiones", en la columna
+// del bloque (tolerando hasta 5 columnas a la derecha por celdas combinadas). Mira
+// hasta 3 filas hacia arriba; ignora celdas vacías y la propia cabecera.
+function findSubjectAbove(rows, headerRowIndex, startCol) {
+  for (let up = 1; up <= 3; up++) {
+    const r = headerRowIndex - up;
+    if (r < 0) break;
+    const row = rows[r] || [];
+    for (let offset = 0; offset < 5; offset++) {
+      const val = (row[startCol + offset] || '').trim();
+      if (val && !val.toLowerCase().startsWith('comision')) return val;
+    }
+  }
+  return '';
+}
+
+// Parser para pestañas sin cabecera "Comisiones" explícita (ej. "Inglés"): las
+// comisiones aparecen como "Com. N° X" en la columna 0 y la materia se infiere de las
+// filas superiores. Una sola materia por pestaña.
+function parseSchedulesNoHeader(rows, yearName) {
+  let firstComisionRow = -1;
+  for (let i = 0; i < rows.length; i++) {
+    const cell0 = (rows[i][0] || '').trim();
+    if (/^com\.?\s*(n°|nº)?\s*\d+/i.test(cell0)) {
+      firstComisionRow = i;
+      break;
+    }
+  }
+  if (firstComisionRow === -1) return [];
+
+  let inferredSubject = 'Materia sin nombre';
+  for (let r = 0; r < firstComisionRow; r++) {
+    const val = (rows[r][0] || '').trim();
+    if (val && !val.startsWith('"') && val.length > 5) {
+      inferredSubject = val;
+      break;
+    }
+  }
+
+  const block = { subject: cleanSubjectName(inferredSubject), lastComision: '', lastDocente: '' };
+  const scheduleEntries = [];
+  for (let i = firstComisionRow; i < rows.length; i++) {
+    const row = rows[i].map(cell => (cell || '').trim());
+    if (row.length === 0 || row.every(cell => cell === '')) continue;
+    if (row[0] && !/^com\.?\s*(n°|nº)?\s*\d+/i.test(row[0]) && !row[1] && !row[2]) continue;
+
+    const comision = row[0], dia = row[1], horario = row[2], docente = row[3];
+    if (comision) block.lastComision = comision;
+    if (docente) block.lastDocente = docente;
+    if (dia || horario) {
+      scheduleEntries.push({
+        anio: yearName,
+        materia: block.subject,
+        comision: block.lastComision || 'N/D',
+        dia: dia || 'N/D',
+        horario: horario || 'N/D',
+        docente: block.lastDocente || 'N/D',
       });
     }
   }
-
-  const scheduleEntries = [];
-
-  for (let i = headerRowIndex + 1; i < rows.length; i++) {
-    const row = rows[i].map(cell => (cell || '').trim());
-    if (row.length === 0 || row.every(cell => cell === '')) {
-      continue;
-    }
-
-    for (const block of blocks) {
-      const c = block.startIndex;
-      if (c >= row.length) continue;
-
-      const comision = row[c];
-      const dia = row[c + 1];
-      const horario = row[c + 2];
-      const docente = row[c + 3];
-
-      if (!comision && !dia && !horario && !docente) {
-        continue;
-      }
-
-      if (comision) {
-        block.lastComision = comision;
-      }
-      if (docente) {
-        block.lastDocente = docente;
-      }
-
-      if (dia || horario) {
-        scheduleEntries.push({
-          anio: yearName,
-          materia: block.subject,
-          comision: block.lastComision || 'N/D',
-          dia: dia || 'N/D',
-          horario: horario || 'N/D',
-          docente: block.lastDocente || 'N/D'
-        });
-      }
-    }
-  }
-
   return scheduleEntries;
 }
 
