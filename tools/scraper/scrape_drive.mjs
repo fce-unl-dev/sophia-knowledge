@@ -317,8 +317,55 @@ Generá el archivo markdown estructurado según la plantilla hasta la sección "
   return stripMarkdownFence(text);
 }
 
+// Prompt de extracción multimodal fiel. Gemini lee el PDF nativo (texto +
+// tablas + imágenes), resolviendo el caso de tablas embebidas COMO IMAGEN que
+// pdf-parse (solo texto) deja vacías — ej. el cuadro de correlatividades de la
+// Res. 503 quedó sin filas porque venía escaneado.
+const PDF_EXTRACTION_SYSTEM = 'Sos un extractor de texto fiel de documentos institucionales. Te paso un PDF. Devolvé TODO su contenido textual en texto plano o markdown, SIN resumir, interpretar ni omitir nada. Reproducí las TABLAS completas en markdown, con TODAS sus filas y columnas (incluí celdas vacías como "—"). No agregues comentarios tuyos: solo el contenido del documento.';
+
+// Extrae el texto de un PDF. Estrategia multimodal-first: si hay apiKey, Gemini
+// lee el PDF completo (incluye tablas como imagen); si no hay apiKey (dev/test)
+// o el modelo falla, cae a pdf-parse (solo texto). Con temperatura 0 el output
+// es estable entre corridas, así que el hash incremental sigue funcionando.
+// Deps inyectables para test (callGeminiImpl, pdfParseImpl, logImpl).
+export async function extractPdfText(buffer, {
+  apiKey = null,
+  model = 'gemini-2.5-flash',
+  callGeminiImpl = callGemini,
+  pdfParseImpl = pdf,
+  logImpl = console,
+} = {}) {
+  let parsedText = '';
+  try {
+    const data = await pdfParseImpl(buffer);
+    parsedText = (data?.text || '').trim();
+  } catch (err) {
+    logImpl.warn?.(`[PDF] pdf-parse falló: ${err.message}`);
+  }
+
+  if (!apiKey) return parsedText; // sin credenciales (dev/test) → solo pdf-parse
+
+  try {
+    const { text } = await callGeminiImpl({
+      apiKey,
+      model,
+      systemInstruction: PDF_EXTRACTION_SYSTEM,
+      userPrompt: 'Extraé el contenido completo de este PDF (texto y tablas) en markdown.',
+      fileParts: [{ inlineData: { mimeType: 'application/pdf', data: buffer.toString('base64') } }],
+      temperature: 0,
+    });
+    const ocr = (text || '').trim();
+    // Nos quedamos con el multimodal salvo que, por alguna anomalía, venga más
+    // pobre que pdf-parse (en cuyo caso preservamos el texto plano).
+    return ocr.length >= parsedText.length ? ocr : parsedText;
+  } catch (err) {
+    logImpl.warn?.(`[PDF] extracción multimodal falló, uso pdf-parse: ${err.message}`);
+    return parsedText;
+  }
+}
+
 // Extractor function based on MIME type
-async function extractTextFromFile(drive, file) {
+async function extractTextFromFile(drive, file, { apiKey = null, model = 'gemini-2.5-flash' } = {}) {
   const mimeType = file.mimeType;
   const fileId = file.id;
 
@@ -348,8 +395,7 @@ async function extractTextFromFile(drive, file) {
   const buffer = Buffer.from(res.data);
 
   if (mimeType === 'application/pdf') {
-    const data = await pdf(buffer);
-    return data.text;
+    return extractPdfText(buffer, { apiKey, model });
   }
 
   if (mimeType === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document') {
@@ -640,8 +686,8 @@ Env:
 
     console.log(`[Procesando] ${file.path} (${file.mimeType})...`);
     try {
-      // 1. Extract text
-      const extractedText = await extractTextFromFile(drive, file);
+      // 1. Extract text (PDFs: multimodal-first con Gemini para captar tablas como imagen)
+      const extractedText = await extractTextFromFile(drive, file, { apiKey, model: values['model'] });
       if (!extractedText || extractedText.trim().length === 0) {
         throw new Error('El texto extraído está vacío.');
       }

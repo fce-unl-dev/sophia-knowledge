@@ -81,12 +81,16 @@ export function buildUserPrompt({ template, currentMd, rawText, sourceUrl, today
 
 // ---------- Gemini call ----------
 
-export async function callGemini({ apiKey, systemInstruction, userPrompt, model = DEFAULT_MODEL, fetchImpl = fetch, temperature = 0.2, maxOutputTokens = 16384 } = {}) {
+export async function callGemini({ apiKey, systemInstruction, userPrompt, model = DEFAULT_MODEL, fetchImpl = fetch, temperature = 0.2, maxOutputTokens = 16384, fileParts = [] } = {}) {
   if (!apiKey) throw new Error('callGemini: missing apiKey (set GEMINI_API_KEY)');
 
+  // fileParts: partes multimodales opcionales (ej. { inlineData: { mimeType, data } })
+  // que se adjuntan al turno del usuario. Permite pasarle a Gemini un PDF/imagen
+  // para que lea tablas embebidas como imagen que pdf-parse (solo texto) no captura.
+  const userParts = [{ text: userPrompt }, ...(Array.isArray(fileParts) ? fileParts : [])];
   const body = {
     systemInstruction: { parts: [{ text: systemInstruction }] },
-    contents: [{ role: 'user', parts: [{ text: userPrompt }] }],
+    contents: [{ role: 'user', parts: userParts }],
     generationConfig: { temperature, maxOutputTokens, responseMimeType: 'text/plain' },
   };
 

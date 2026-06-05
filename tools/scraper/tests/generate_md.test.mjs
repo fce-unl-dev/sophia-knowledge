@@ -161,6 +161,32 @@ describe('callGemini', () => {
       /sin texto/,
     );
   });
+
+  test('adjunta fileParts (inlineData) al turno del usuario para multimodal', async () => {
+    let captured;
+    const fetchImpl = async (url, init) => {
+      captured = JSON.parse(init.body);
+      return makeFetchOk('texto + tablas extraídas')(url, init);
+    };
+    const fileParts = [{ inlineData: { mimeType: 'application/pdf', data: 'QkFTRTY0' } }];
+    const r = await callGemini({ apiKey: 'k', systemInstruction: 's', userPrompt: 'extraé', fileParts, fetchImpl });
+    assert.equal(r.text, 'texto + tablas extraídas');
+    const parts = captured.contents[0].parts;
+    assert.equal(parts[0].text, 'extraé');               // el prompt va primero
+    assert.equal(parts[1].inlineData.mimeType, 'application/pdf');
+    assert.equal(parts[1].inlineData.data, 'QkFTRTY0');
+  });
+
+  test('sin fileParts el body no cambia (retrocompatible)', async () => {
+    let captured;
+    const fetchImpl = async (url, init) => {
+      captured = JSON.parse(init.body);
+      return makeFetchOk('ok')(url, init);
+    };
+    await callGemini({ apiKey: 'k', systemInstruction: 's', userPrompt: 'u', fetchImpl });
+    assert.equal(captured.contents[0].parts.length, 1);
+    assert.equal(captured.contents[0].parts[0].text, 'u');
+  });
 });
 
 describe('generateForSource', () => {
