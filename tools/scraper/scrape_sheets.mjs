@@ -528,8 +528,15 @@ export function splitDocentes(raw) {
   if (!raw) return [];
   return String(raw)
     .replace(/<br\s*\/?>/gi, '\n')
-    .split(/[\n;]+/)
-    .map((name) => name.replace(/^[-\s]+/, '').trim()) // limpia guiones iniciales de la planilla
+    // Separadores de co-docentes: salto de línea, punto y coma, y " - " (guion
+    // RODEADO de espacios). El guion entre espacios es cómo la planilla mete
+    // varios docentes en una celda. Exigir espacios a ambos lados evita partir
+    // apellidos compuestos con guion pegado a letras (ej. "Sánchez-Rossi").
+    .split(/[\n;]+|\s+-\s+/)
+    .map((name) => name
+      .replace(/^[-\s]+/, '')   // guion/espacios iniciales de la planilla
+      .replace(/[-\s]+$/, '')   // guion/espacios finales sueltos (ej. "Etchevarria -")
+      .trim())
     .filter((name) => name && name.toUpperCase() !== 'N/D');
 }
 

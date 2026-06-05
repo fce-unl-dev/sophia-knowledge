@@ -36,6 +36,48 @@ describe('splitDocentes', () => {
     assert.deepEqual(splitDocentes('- Emir Gabriel, Espinoza'), ['Emir Gabriel, Espinoza']);
     assert.deepEqual(splitDocentes('-Marcela, Bayones'), ['Marcela, Bayones']);
   });
+
+  // ── Co-docentes pegados con " - " (guion entre espacios) ──────────────────
+  // La planilla mete varios docentes en una celda separados por " - ". Sin
+  // separarlos, cada co-docente queda escondido pegado a otro en el Índice por
+  // Docente (ej. "Laura, Garcia" no aparece como entrada propia). Casos REALES.
+  describe('separa co-docentes pegados por " - "', () => {
+    test('dos docentes', () => {
+      assert.deepEqual(
+        splitDocentes('Walter, Lugo - Laura, Garcia'),
+        ['Walter, Lugo', 'Laura, Garcia']
+      );
+      assert.deepEqual(
+        splitDocentes('Ma. Eugenia, Gutiérrez - Natalia Soledad, Riaño'),
+        ['Ma. Eugenia, Gutiérrez', 'Natalia Soledad, Riaño']
+      );
+      assert.deepEqual(
+        splitDocentes('Stella, Rodriguez  - Dario, Mejías'), // doble espacio antes del guion
+        ['Stella, Rodriguez', 'Dario, Mejías']
+      );
+    });
+
+    test('tres docentes en una celda', () => {
+      assert.deepEqual(
+        splitDocentes('Guillermo, Munne  - Adriana, Bonaparte - Francisco, Dallo'),
+        ['Guillermo, Munne', 'Adriana, Bonaparte', 'Francisco, Dallo']
+      );
+    });
+
+    test('guion final suelto NO genera entrada vacía', () => {
+      assert.deepEqual(splitDocentes('Belen, Etchevarria -'), ['Belen, Etchevarria']);
+      assert.deepEqual(splitDocentes('Angeles,del Barco-'), ['Angeles,del Barco']);
+    });
+  });
+
+  describe('NO parte apellidos/nombres por guion pegado a letra', () => {
+    test('apellido compuesto con guion sin espacios queda entero', () => {
+      // Defensa: si algún día aparece un apellido tipo "Sánchez-Rossi", el guion
+      // pegado a letras (sin espacios) NO debe separarse.
+      assert.deepEqual(splitDocentes('María Sánchez-Rossi'), ['María Sánchez-Rossi']);
+      assert.deepEqual(splitDocentes('Dutto-Giolongo, Martín'), ['Dutto-Giolongo, Martín']);
+    });
+  });
 });
 
 describe('normalizeTeacherKey', () => {
