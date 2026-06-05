@@ -1,51 +1,44 @@
-# Diálogo sobre Procesos y Cambios de Planes de Estudios
+# Diálogo sobre los procesos y cambios de Planes de Estudios CP, LA y LE
 
-Este documento describe la jornada de sensibilización, el planteo del problema y el propósito del cambio de planes de estudio en la FCE, detallando los pasos a seguir, los recursos disponibles y una propuesta de consulta a la comunidad educativa.
+Este documento describe la jornada de sensibilización y los pasos propuestos para el proceso de cambio de los planes de estudios de las carreras de Contador Público (CP), Licenciatura en Administración (LA) y Licenciatura en Economía (LE) en la FCE UNL, incluyendo la propuesta de consulta a la comunidad educativa.
 
 ---
 
 ## Contenido
 
-### Jornada de Sensibilización y Propósito
+### Jornada de Sensibilización
 
-*   **Jornada de sensibilización:** 18/11/2025
-*   **Planteo del problema:** SACAU (4 años), estándares de 2da generación
-*   **Propósito:** Cambio de planes de estudio
+*   **Fecha**: 18/11/2025
+*   **Planteo del problema**: SACAU (4 años), estándares de 2da generación.
+*   **Propósito**: Cambio de planes de estudio.
 
 ### Pasos a Seguir para el Cambio de Planes de Estudio
 
-1.  **Comisión ad-hoc:** Aprobada por el Consejo Directivo (directores de carreras, de departamentos y comisiones de interpretación y enseñanza del CD), SAYBE (marzo).
-2.  **Aprobación de Cronograma y Actividades:** La comisión aprueba cronograma y actividades (encuestas, entrevistas a estudiantes, docentes, no docentes, graduados y organizaciones que reciben a nuestros graduados, ateneos en torno a tesis y/o resultados de proyectos de investigación cuyos objetos de estudios refieran al currículum) (abril y mayo).
-3.  **Debates Internos y Propuestas:** A partir de los datos obtenidos (junio/julio).
-4.  **Borrador de Nuevos Planes:** Agosto.
-5.  **Aprobación de Planes por CD:** (septiembre/octubre).
+1.  **Comisión ad-hoc aprobada por CD (marzo)**: Integrada por directores de carreras, de departamentos y comisiones de interpretación y enseñanza del CD, SAYBE.
+2.  **Aprobación de Cronograma y actividades por la Comisión (abril y mayo)**: Incluye encuestas, entrevistas a estudiantes, docentes, no docentes, graduados y organizaciones, así como ateneos sobre tesis o resultados de proyectos de investigación relacionados con el currículum.
+3.  **Debates internos y propuestas a partir de los datos (junio / julio)**.
+4.  **Borrador de nuevos planes (agosto)**.
+5.  **Aprobación de planes por CD (septiembre / octubre)**.
 
 ### Recursos Disponibles
 
-*   **Observatorio Académico**
-*   **Encuestas estudiantiles**
-*   **Resultados de CAID educación**
+La Facultad cuenta con los siguientes recursos para este proceso:
+
+*   Observatorio Académico
+*   Encuestas estudiantiles
+*   Resultados de CAID educación
 
 ### Propuesta de Consulta a la Comunidad Educativa de FCE
 
-Esta propuesta busca explorar las valoraciones de la comunidad educativa de FCE en torno a los planes de estudios vigentes y sus posibles cambios, y luego identificar puntos de acuerdo para avanzar en el diseño de los nuevos planes.
+Esta consulta busca explorar valoraciones e identificar puntos de acuerdo para el diseño de los nuevos planes de estudios.
 
-#### Primera Etapa (abril 2026)
+*   **Primera Etapa (abril 2026): Exploración de valoraciones**
+    *   **Actividad**: Grupos focales con los distintos claustros (docentes, no docentes y estudiantes).
+    *   **Criterios de armado de grupos**: Distintas carreras y distintos momentos de la carrera (BUCE, ciclo superior).
+*   **Segunda Etapa (mayo-junio): Identificación de puntos de acuerdo**
+    *   **Actividad**: Formulario autoadministrado enviado a todos los docentes y estudiantes de las tres carreras de FCE.
 
-*   **Objetivo:** Explorar las valoraciones de la comunidad educativa de FCE en torno a los planes de estudios vigentes y sus posibles cambios.
-*   **Actividades:**
-    *   Grupos focales con los distintos claustros: docentes, no docentes y estudiantes.
-    *   Criterios de armado de los grupos: distintas carreras y distintos momentos de la carrera (BUCE, ciclo superior).
-
-#### Segunda Etapa (mayo-junio)
-
-*   **Objetivo:** Identificar puntos de acuerdo para avanzar en el diseño de los nuevos planes de estudios.
-*   **Actividades:**
-    *   Formulario autoadministrado enviado a todos los docentes y estudiantes de las tres carreras de FCE.
-
-#### Análisis e Informe Final
-
-*   **Fecha:** Julio 2026
+*   **Análisis e Informe Final**: Julio 2026
 
 ---
 
