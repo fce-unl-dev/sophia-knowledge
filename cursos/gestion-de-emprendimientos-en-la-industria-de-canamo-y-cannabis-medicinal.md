@@ -14,11 +14,11 @@
 - Modalidad: Virtual (combinación asincrónica con encuentros sincrónicos)
 - Duración total: 48 horas (28 horas de cursado virtual + 20 horas de trabajo autónomo)
 - Duración del cursado: 11 semanas (aprox. 3 meses)
-- Fecha estimada de inicio: Junio 2026
+- Fecha estimada de inicio: 30 Junio 2026
 - Día y horario de encuentros sincrónicos: Martes de 18:00 a 20:00 horas
 - Encuentros sincrónicos: Cuatro (apertura, dos de seguimiento y cierre)
 - Entorno de cursado: Aula Virtual FCE – Zoom / Meet o similar
-- **Fecha de inicio publicada en listado**: 2026-06-01
+- **Fecha de inicio publicada en listado**: 2026-06-30
 
 ## Plan de estudios / Contenidos
 
@@ -84,7 +84,7 @@
 
 - **Costo**:
   - Consultar a cursosdeformacion@fce.unl.edu.ar
-- **Estado (al 2026-05-22)**: Inscripción abierta según listado oficial.
+- **Estado (al 2026-06-05)**: Inscripción abierta según listado oficial.
 - **Sistema de inscripción**: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1197#superior
 
 ## Contacto
@@ -111,5 +111,5 @@
 
 ---
 
-**Última revisión automática**: 2026-05-22 (candidato generado por scraper determinístico de cursos)
+**Última revisión automática**: 2026-06-05 (candidato generado por scraper determinístico de cursos)
 **Revisión humana**: pendiente
