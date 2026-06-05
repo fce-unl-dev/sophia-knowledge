@@ -41,7 +41,66 @@ describe('splitDocentes', () => {
 describe('normalizeTeacherKey', () => {
   test('colapsa tildes, mayúsculas y espacios para agrupar', () => {
     assert.equal(normalizeTeacherKey('Pía Chiapero'), normalizeTeacherKey('PIA  CHIAPERO'));
-    assert.equal(normalizeTeacherKey('  María   José  '), 'maria jose');
+    // La clave es un token-set ordenado: 'maria jose' canoniza a 'jose maria'.
+    assert.equal(normalizeTeacherKey('  María   José  '), 'jose maria');
+  });
+
+  // ── Golden set: VERDADEROS POSITIVOS ──────────────────────────────────────
+  // Mismo docente escrito de formas distintas en las planillas → MISMA clave.
+  // Extraídos de casos REALES del Índice por Docente (inscripciones-cursado.md).
+  describe('agrupa el mismo docente pese a la suciedad de la planilla', () => {
+    const samePairs = [
+      // Coma vs sin coma
+      ['Andrea Nessier', 'Andrea, Nessier'],
+      ['Gerardo Dagametti', 'Gerardo, Dagametti'],
+      ['Silvana Grisetti', 'Silvana, Grisetti'],
+      ['Carla Lauría', 'Carla, Lauría'],
+      // Coma sin espacio
+      ['Rogelio, Villanueva', 'Rogelio,Villanueva'],
+      // Orden invertido (Nombre Apellido ↔ Apellido, Nombre)
+      ['Andrea, Pacifico', 'Pacifico, Andrea'],
+      ['Veronica, Valetti', 'Valetti, Veronica'],
+      // Título + orden invertido + mayúsculas (EL CASO ESTRELLA)
+      ['Andrea, Pacifico', 'Dra. PACIFICO, Andrea'],
+      ['Veronica, Valetti', 'VALETTI VERONICA'],
+      ['Fatima, Quinteros', 'QUINTEROS FATIMA'],
+      ['Andrés Katz', 'Prof. Andrés Katz'],
+      ['Mg. LOPEZ CUESTA, Soledad', 'Soledad Lopez Cuesta'],
+    ];
+    for (const [a, b] of samePairs) {
+      test(`"${a}" === "${b}"`, () => {
+        assert.equal(normalizeTeacherKey(a), normalizeTeacherKey(b));
+      });
+    }
+  });
+
+  // ── Golden set: VERDADEROS NEGATIVOS ──────────────────────────────────────
+  // Docentes DISTINTOS que NO deben fusionarse (token-set exacto los preserva).
+  // Si alguno de estos colapsara, estaríamos mezclando dos personas reales.
+  describe('NO fusiona docentes distintos', () => {
+    const diffPairs = [
+      // Mismo apellido, distinto nombre
+      ['Paula, Gallo', 'GALLO ANDREA'],
+      ['Soriano, Angel', 'Diego Soriano'],
+      ['Andrea Nessier', 'Andrea, Pacifico'],
+      // Typo en la fuente: sin fuzzy matching NO los unimos (riesgo de falso positivo)
+      ['Renzo Barreta', 'Renzo Barretta'],
+      // Subconjunto de nombre: distinto número de tokens → conservador, no fusiona
+      ['Rut Azerrad', 'Mg. María Rut Azerrad'],
+      ['Lujan Alvarez', 'ALVAREZ, MARIA LUJAN'],
+    ];
+    for (const [a, b] of diffPairs) {
+      test(`"${a}" !== "${b}"`, () => {
+        assert.notEqual(normalizeTeacherKey(a), normalizeTeacherKey(b));
+      });
+    }
+  });
+
+  test('descarta títulos sueltos pero no se queda vacío con nombres reales', () => {
+    assert.equal(normalizeTeacherKey('Dra. Andrea Pacifico'), 'andrea pacifico');
+    assert.equal(normalizeTeacherKey('Mg.'), '');
+    assert.equal(normalizeTeacherKey(''), '');
+    assert.equal(normalizeTeacherKey(null), '');
   });
 });
 

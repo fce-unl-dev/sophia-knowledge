@@ -545,16 +545,42 @@ function sanitizeCell(value) {
     .trim() || 'N/D';
 }
 
-// Clave de agrupación para un docente: minúsculas, sin tildes,
-// espacios colapsados. Solo se usa para agrupar/deduplicar, nunca
-// para mostrar (mostramos el nombre tal cual la primera aparición).
+// Títulos académicos/honoríficos que la planilla antepone de forma inconsistente
+// ("Dra. PACIFICO, Andrea" vs "Andrea, Pacifico"). Se descartan para la clave de
+// agrupación: NO forman parte de la identidad del docente. En minúsculas y sin
+// puntuación, igual que los tokens contra los que se comparan.
+const TEACHER_TITLES = new Set([
+  'dr', 'dra', 'dres', 'lic', 'mg', 'mgtr', 'esp', 'cr', 'cra', 'cp', 'cpn',
+  'c', 'p', 'n', 'prof', 'ing', 'arq', 'ph', 'phd', 'msc',
+]);
+
+// Clave de agrupación CANÓNICA para un docente. El mismo docente aparece en las
+// planillas con formatos incompatibles (orden Nombre/Apellido invertido, con o sin
+// coma, en mayúsculas, con título antepuesto). Para que el "Índice por Docente" no
+// lo fragmente en varias entradas, la clave normaliza agresivamente:
+//   1. minúsculas + sin tildes
+//   2. puntuación (. , /) → espacio
+//   3. descarta títulos académicos (Dr./Dra./Lic./Mg./...)
+//   4. token-set ORDENADO: ordena los nombres alfabéticamente y deduplica, de modo
+//      que "andrea pacifico" === "pacifico andrea". El orden Nombre/Apellido deja de importar.
+// Solo se usa para agrupar/deduplicar, nunca para mostrar (se muestra el nombre
+// tal cual su primera aparición). Token-set EXACTO: no hace fuzzy matching, así que
+// typos en la fuente ("Barreta" vs "Barretta") y subconjuntos ("Rut Azerrad" vs
+// "María Rut Azerrad") quedan separados a propósito — preferimos no fusionar de más.
 export function normalizeTeacherKey(name) {
-  return String(name || '')
+  const cleaned = String(name || '')
     .toLowerCase()
     .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
+    .replace(/[̀-ͯ]/g, '')   // diacríticos
+    .replace(/[.,/]/g, ' ')   // puntuación que separa apellido/nombre o título
     .replace(/\s+/g, ' ')
     .trim();
+  if (!cleaned) return '';
+  const tokens = cleaned
+    .split(' ')
+    .filter((t) => t && !TEACHER_TITLES.has(t));
+  if (tokens.length === 0) return '';
+  return [...new Set(tokens)].sort().join(' ');
 }
 
 // Combina día y horario en una sola celda legible. En optativas el día
