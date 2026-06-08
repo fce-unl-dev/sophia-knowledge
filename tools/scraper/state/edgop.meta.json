@@ -2,8 +2,8 @@
   "slug": "edgop",
   "url": "https://fce.unl.edu.ar/edgop/",
   "strategy": "fce-microsite",
-  "content_hash": "d37336451bef8e1b53c8491c8b1718fdf589d67de63024f33262dde2ad84e2ad",
-  "previous_hash": "d3a7400fcf9e98895d24c3dc29eddd768aadd06d1c4e828b04b4b7af6e1cf113",
+  "content_hash": "6a30f02aff12e1cd9e1924e7faad5e9266e26e3ee9e8d10a2449b795be185beb",
+  "previous_hash": "d37336451bef8e1b53c8491c8b1718fdf589d67de63024f33262dde2ad84e2ad",
   "pages_count": 15,
   "pages": [
     {
@@ -64,7 +64,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125",
       "title": "Comité Académico",
-      "length": 541
+      "length": 468
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123",
@@ -82,6 +82,6 @@
       "length": 179
     }
   ],
-  "scraped_at": "2026-06-04T09:47:42.423Z",
-  "last_checked_at": "2026-06-04T09:47:42.423Z"
+  "scraped_at": "2026-06-08T10:22:13.969Z",
+  "last_checked_at": "2026-06-08T10:22:13.969Z"
 }
