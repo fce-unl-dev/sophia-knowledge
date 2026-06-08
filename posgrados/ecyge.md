@@ -97,7 +97,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=775 (Novedades)
-- **Última actualización del dato**: 2026-06-04
+- **Última actualización del dato**: **2026-06-08**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -120,7 +120,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
   - Representante Decanato: Secretaria Posgrado Mg. Marcela Andrea Martin
   - Representante Decanato: Secretaria Académica Dra. Andrea María Pacífico
   - Docentes: Carrera Mg. Norberto Gabriel Demonte, Mg. Sandra del Carmen Canale
-  - Director del Departamento de Administración Mg. Agramunt Luis Felipe
+  - Director del Departamento de Administración Mg. Walter Ariel Lugo
   - Graduada: Mg. María Rut Azerrad
 - **Comité Académico (Modalidad a Distancia)**:
   - Director: Mg. Gerardo Zócola
@@ -128,7 +128,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
   - Representante Decanato: Secretaria Posgrado Mg. Marcela Andrea Martin
   - Representante Decanato: Secretaria Académica Dra. Andrea María Pacífico
   - Docentes: Carrera Mg. Norberto Gabriel Demonte. Esp. Melisa Bergese
-  - Director del Departamento de Administracion Mg. Agramunt Luis Felipe
+  - Director del Departamento de Administracion Mg. Walter Ariel Lugo
   - Graduada: Esp. Marcelo Allignani
 
 ## Fuentes consultadas
@@ -146,4 +146,4 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
