@@ -2,8 +2,8 @@
   "slug": "dap",
   "url": "https://fce.unl.edu.ar/dap/",
   "strategy": "fce-microsite",
-  "content_hash": "8297349c89d6f458d10e4b21a87ca8854ff3712cb12ec5bc0f93aba771f0ace9",
-  "previous_hash": "1ff9eedd2232da012746585126f4073cf3d733996a357f86e45509d0270fc047",
+  "content_hash": "a2f30696ab406c914ff6e7e85b76379b0b9a66246cbcd09d88174fdcd8da84f0",
+  "previous_hash": "8297349c89d6f458d10e4b21a87ca8854ff3712cb12ec5bc0f93aba771f0ace9",
   "pages_count": 17,
   "pages": [
     {
@@ -74,7 +74,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=137",
       "title": "Comité Académico",
-      "length": 917
+      "length": 918
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=141",
@@ -92,6 +92,6 @@
       "length": 563
     }
   ],
-  "scraped_at": "2026-06-04T09:45:06.625Z",
-  "last_checked_at": "2026-06-04T09:45:06.625Z"
+  "scraped_at": "2026-06-08T10:20:48.046Z",
+  "last_checked_at": "2026-06-08T10:20:48.046Z"
 }
