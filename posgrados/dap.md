@@ -50,7 +50,7 @@ Tesis doctoral individual, elaborada bajo la orientación de un/a Director/a. La
 
 ## Cuerpo docente
 
-Cuerpo conformado por profesores estables e invitados, con participación de académicos de la UNL y de otras instituciones nacionales. Han participado en ese carácter algunos destacados académicos, como ser:
+Comprende tanto profesores estables como invitados, contemplando una importante participación de académicos de la Casa, en conjunto con otros de larga trayectoria de colaboración e integración con la misma. Han participado en ese carácter algunos destacados académicos, como ser:
 - Dr. Asensio, Miguel Angel — Nacional del Litoral
 - Dra. Carrió, Cintia Valeria — Nacional del Litoral
 - Dra. Cardoso, María Mercedes — Nacional del Litoral
@@ -77,8 +77,8 @@ Cuerpo conformado por profesores estables e invitados, con participación de aca
 
 ## Aranceles e inscripción
 
--   **Matrícula**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
--   **Cuotas**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+-   **Matrícula**: A confirmar para ciclo 2026/2027
+-   **Cuotas**: A confirmar para ciclo 2026/2027
 -   **Modalidad de pago**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
 -   **Becas disponibles**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
 -   **Estado actual de inscripción**: Cerrada
@@ -105,10 +105,10 @@ Cuerpo conformado por profesores estables e invitados, con participación de aca
 ## Información adicional relevante
 
 -   **Comité Académico**:
-    - Dra. Stella Maris Rodríguez (Directora)
-    - Mg. Marcela Martin (Secretaria de Posgrado de la Facultad de Ciencias Económicas de la UNL)
+    - Dr. Stella Maris Rodriguez (Directora)
+    - Mg Marcela Martin (Secretaria de Posgrado de la Facultad de Ciencias Económicas de la UNL)
     - Dra. Andrea María Pacífico (Secretaria Académica y de Bienestar Estudiantil de la Facultad de Ciencias Económicas de la UNL)
-    - Dr. Roberto Meyer (Docente de la Facultad de Ciencias Económicas)
+    - Dr. Fernando Jaime (Docente de la Facultad de Ciencias Económicas)
     - Dra. María Rosa Sánchez Rossi (Docente de la Facultad de Ciencias Económicas)
     - Abog. Alejandro Héctor Pivetta (Secretario de Posgrado de la Facultad de Ciencias Jurídicas y Sociales de la UNL)
     - Abog. Justo José Reyna (Facultad de Ciencias Jurídicas y Sociales de la UNL)
@@ -138,4 +138,4 @@ Cuerpo conformado por profesores estables e invitados, con participación de aca
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
