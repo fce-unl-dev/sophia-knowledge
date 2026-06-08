@@ -2,8 +2,8 @@
   "slug": "mcya",
   "url": "https://www.fce.unl.edu.ar/mcya/",
   "strategy": "fce-microsite",
-  "content_hash": "1d51d0138f7659901eb98e842ca2cc966ea91ae063d8528d57d3ffecc0faf651",
-  "previous_hash": "938570d68abc987eba6780d61aba624f5e4fbfd4b5da969404b551cd2bfb0686",
+  "content_hash": "24c6a66547b38001c3642b8a713f08b76e25e0f2e01966e29007fc27b9a60e88",
+  "previous_hash": "1d51d0138f7659901eb98e842ca2cc966ea91ae063d8528d57d3ffecc0faf651",
   "pages_count": 14,
   "pages": [
     {
@@ -64,7 +64,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=209",
       "title": "COMITÉ ACADÉMICO",
-      "length": 591
+      "length": 587
     },
     {
       "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=210",
@@ -77,6 +77,6 @@
       "length": 464
     }
   ],
-  "scraped_at": "2026-06-04T09:46:24.421Z",
-  "last_checked_at": "2026-06-04T09:46:24.421Z"
+  "scraped_at": "2026-06-08T10:21:05.041Z",
+  "last_checked_at": "2026-06-08T10:21:05.041Z"
 }
