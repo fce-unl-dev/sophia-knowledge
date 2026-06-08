@@ -2,16 +2,16 @@
   "slug": "posgrado-estudiantes",
   "url": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/",
   "strategy": "fce-wordpress",
-  "content_hash": "4dc07d8cda4793927bf76e001e4d117a69a9cb7fb0c241412be3cd48c21f698a",
-  "previous_hash": "6bf0660aedd8c2d335819a0b1f4ccd049c41330aad4630dd725e48f8a280c97c",
+  "content_hash": "1ee5074957c925b6bd2c8ed47d7e2bae4fbd2e6feab8be2fb84049f429f4297d",
+  "previous_hash": "4dc07d8cda4793927bf76e001e4d117a69a9cb7fb0c241412be3cd48c21f698a",
   "pages_count": 1,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/",
       "title": "Estudiantes",
-      "length": 2343
+      "length": 2403
     }
   ],
-  "scraped_at": "2026-05-30T16:34:21.142Z",
-  "last_checked_at": "2026-05-30T16:34:21.142Z"
+  "scraped_at": "2026-06-08T10:24:32.983Z",
+  "last_checked_at": "2026-06-08T10:24:32.983Z"
 }
