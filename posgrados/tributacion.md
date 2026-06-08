@@ -1,6 +1,6 @@
 # Especialización en Tributación
 
-La Especialización en Tributación de la FCE-UNL es un posgrado con muchos años de trayectoria, diseñado para conocer en profundidad el complejo panorama fiscal argentino, actualizar el conocimiento de la normativa legal y adquirir las habilidades estratégicas necesarias para la optimización tributaria. Complementa la formación de profesionales en ciencias económicas en el área tributaria mediante entrenamiento intensivo.
+La Especialización en Tributación es una carrera de posgrado con muchos años de trayectoria en la FCE-UNL. Es un programa diseñado para conocer en profundidad el complejo panorama fiscal de nuestro país; así como actualizar el conocimiento de la normativa legal y adquirir las habilidades estratégicas necesarias para la optimización tributaria. Está orientada a complementar la formación de los profesionales en ciencias económicas en el área tributaria, a través de un entrenamiento intensivo que brinda herramientas teóricas y prácticas tanto para el asesoramiento a los contribuyentes como para la actuación del profesional ante o en los organismos públicos.
 
 ---
 
@@ -72,7 +72,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título universitario de grado de Contador Público, otorgado por Universidades argentinas nacionales o provinciales, públicas o privadas, legalmente reconocidas. En el caso que se postulen graduados provenientes de otras disciplinas afines a las Ciencias Económicas se evaluará su admisión, pudiendo solicitarse una instancia de nivelación, previa al inicio de la carrera, a los efectos de asegurar y homogeneizar una plataforma mínima de conocimientos en los aspectos tributarios que estos aspirantes no posean. También se admitirán los graduados que posean título universitario vinculado a las Ciencias Económicas, provenientes de Universidades Extranjeras, oficialmente reconocidas en sus respectivos países.
+- **Título previo requerido**: Título universitario de grado de Contador Público, otorgado por Universidades argentinas nacionales o provinciales, públicas o privadas, legalmente reconocidas. En el caso que se postulen graduados provenientes de otras disciplinas afines a las Ciencias Económicas se evaluará su admisión, pudiendo solicitarse una instancia de nivelación, previa al inicio de la carrera, a los efectos de asegurar y homogeneizar una plataforma mínima de conocimientos en los aspectos tributarios que estos aspirantes no posean. También se admitirán los graduados que posean título universitario vinculado a las Ciencias Económicas, provenientes de Universidades Extranjeras, oficialmente reconocidas en sus respectivos paises.
 - **Idiomas**: No publicado — consultar
 - **Otros antecedentes**: No publicados — consultar
 - **Documentación a presentar**: No publicada en detalle — consultar con tributacion@fce.unl.edu.ar
@@ -92,7 +92,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
-- **Última actualización del dato**: **2026-06-04**
+- **Última actualización del dato**: **2026-06-08**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -113,7 +113,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
   - Directora de la Carrera: Esp. Flavia Sanchez
   - Representante de Decano: Mg. Dario Mejias
   - Representante Secretaria de Posgrado: Mg. Marcela Martin
-  - Directora de Departamento de Contabilidad e Impuestos: Mg. María Luz Casabianca
+  - Directora de Departamento de Contabilidad e Impuestos: Esp. Waldo Raul Finos
   - Docentes de la Carrera: Esp. Pablo Passamonti y Esp. Julio Yodice
   - Graduada de la Carrera: Esp. Maria Dolores Barissi
 - **Cursos de Posgrado**: Las asignaturas de la Especialización en Tributación pueden realizarse de forma independiente, en carácter de “Cursos de Posgrado”. Esta alternativa brinda una opción de actualización académica sobre una temática en concreto. En caso de iniciar la Carrera en la siguiente cohorte, el alumno puede solicitar la homologación de las asignaturas aprobadas en caracter de cursos de posgrado.
@@ -143,4 +143,4 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
