@@ -2,8 +2,8 @@
   "slug": "sindicatura-concursal",
   "url": "https://fce.unl.edu.ar/sindicatura/",
   "strategy": "fce-microsite",
-  "content_hash": "5f02e0908e43d667a180b0251fefe0214db243a04850b890c98a86772c54c3d5",
-  "previous_hash": "565b855a5d6bec05c757d3d7f9048ea8354d3a0b22aa2b5cd264e93a3a60e46c",
+  "content_hash": "10d7d8f7241b99c38837c1996aa0a7b6642f965bf6d526afe32cf10cce531007",
+  "previous_hash": "5f02e0908e43d667a180b0251fefe0214db243a04850b890c98a86772c54c3d5",
   "pages_count": 13,
   "pages": [
     {
@@ -64,7 +64,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=164",
       "title": "Comité Académico",
-      "length": 530
+      "length": 452
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=162",
@@ -72,6 +72,6 @@
       "length": 726
     }
   ],
-  "scraped_at": "2026-05-30T16:31:02.451Z",
-  "last_checked_at": "2026-05-30T16:31:02.451Z"
+  "scraped_at": "2026-06-08T10:22:48.534Z",
+  "last_checked_at": "2026-06-08T10:22:48.534Z"
 }
