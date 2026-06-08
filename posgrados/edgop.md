@@ -31,7 +31,7 @@ La carrera está estructurada sobre la base de nueve (9) asignaturas obligatoria
 
 ### Módulos / asignaturas
 
-**Nivel Formativo General — Obligatorias:**
+**Nivel Formativo General — Obligatorias**
 - Modelos Organizativos Públicos (30 hs / 2 UCAs)
 - Gestión Estratégica de Recursos Humanos en Organizaciones Públicas (45 hs / 3 UCAs)
 - Administración Financiera Pública (30 hs / 2 UCAs)
@@ -43,7 +43,7 @@ La carrera está estructurada sobre la base de nueve (9) asignaturas obligatoria
 - Compliance y Anticorrupción en la Gestión Pública (30 hs / 2 UCAs)
 - Taller de Diseño del Trabajo Final Integrador (30 hs / 2 UCAs)
 
-**Nivel Formativo Especializado — Optativas (elegir 2 sobre una oferta de 6):**
+**Nivel Formativo Especializado — Optativas (elegir 2 sobre una oferta de 6)**
 - Gestión de la Calidad de Ámbitos Públicos (30 hs / 2 UCAs)
 - Gestión de la Participación Ciudadana (30 hs / 2 UCAs)
 - Gestión de Políticas Ambientales (30 hs / 2 UCAs)
@@ -96,10 +96,10 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: 2026-08 (2do cuatrimestre 2026)
+- **Fecha de inicio**: **2026-08** (2do cuatrimestre 2026)
 - **Estado**: Abierta
 - **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779
-- **Última actualización del dato**: 2026-06-04
+- **Última actualización del dato**: 2026-06-08
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -119,15 +119,14 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 
 - **Centro TOP**: Asociación Civil "Tecnología para la Organización Pública", líder en la temática en América Latina. La carrera es una extensión natural de los cursos de posgrado virtuales en Estado y Administración Pública dictados desde hace casi una década en el marco del convenio UNL-TOP.
 - **Comité Académico**:
-  - Cont. Oscar Alberto COSTA (Director EDGOP)
-  - Lic. Jorge HINTZE (Codirector EDGOP)
+  - Mg. Dario MEJIAS (Director)
+  - Lic. Jorge HINTZE (Codirector)
   - Mg. Andrea Pacífico (Secretaría Académica y de Bienestar Estudiantil FCE-UNL)
   - Mg. Marcela Andrea MARTIN (Secretaria Posgrado FCE-UNL)
   - Mg. Stella Maris RODRIGUEZ (Docente EDGOP)
   - Dr. Bruno Ariel REZZOAGLI (Docente EDGOP)
-  - Mg. Agramunt Luis Felipe (Director Departamento de Administración)
+  - Mg. Ariel LUGO (Director Departamento de Administración)
   - Esp. Diego Gabriel ARMELINI (Graduado de la Carrera)
-- **Nota sobre Conducción**: El microsite presenta una posible inconsistencia entre "Conducción de la carrera" (Mg. Néstor Darío Mejías) y "Comité Académico" (Cont. Oscar Alberto Costa figura como Director). Confirmar con edgop@fce.unl.edu.ar.
 - **Articulación con MAP y DAP**: La EDGOP virtualiza la oferta del área de Administración Pública FCE-UNL, complementando la Maestría en Administración Pública (MAP) y el Doctorado en Administración Pública (DAP), ambos presenciales.
 
 ### Objetivos curriculares
@@ -143,7 +142,7 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/edgop/ (Información de interés, convenio UPCN)
+- https://fce.unl.edu.ar/edgop/ (Información de interés, convenio UPCN, inscripciones)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Cursado y evaluación)
@@ -160,4 +159,4 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
