@@ -75,14 +75,18 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 
 Esta página es un centro de recursos para alumnos de posgrado de la FCE-UNL, incluyendo:
 
+**Teléfonos útiles:**
+- Tesorería (Sec. Económico Financiera): 0342 4511179 int 145
+- Alumnado y Bedelía: 3425818810
+
 **Trámites frecuentes:**
-- Certificados de exámenes: El alumno deberá imprimir el archivo disponible en la página (click aquí para descargar el archivo), completarlo (nombre completo, DNI, materia rendida y fecha del examen final/parcial) y enviarlo a posgrado@fce.unl.edu.ar
-- Trámite de solicitud de diploma digital: Instructivo disponible en la página.
-- Instructivo para el trámite de solicitud de certificado de Diplomaturas Universitarias: Instructivo disponible en la página.
+- Certificados de exámenes: Imprimir el archivo disponible en la página, completar con datos (nombre completo, DNI, asignatura y fecha del examen final/parcial) y enviarlo a posgrado@fce.unl.edu.ar para gestionar firmas.
+- Trámite de solicitud de diploma digital: Instructivo disponible en la página que explica el trámite a seguir para la solicitud.
+- Instructivo para el trámite de solicitud de certificado de Diplomaturas Universitarias: Instructivo disponible en la página que explica el trámite para solicitar el certificado.
 
 **Sistemas de utilidad para alumnos de posgrado:**
-- SISTEMA DE POSGRADO: https://www.fce.unl.edu.ar/posgrados (Consultas carreras y cursos. Compromisos de pago carreras. Certificados cursos.)
-- SISTEMA DE GESTION DEL ESTUDIANTE UNL: Inscripciones 2025, ingresar a: https://servicios.unl.edu.ar/bienestar/inscripcion/4698
+- SISTEMA DE POSGRADO: https://www.fce.unl.edu.ar/posgrados (Para realizar consultas de carreras y cursos de posgrado. Preinscripciones. Descarga de certificados de cursos.)
+- SISTEMA DE GESTION DEL ESTUDIANTE UNL: Inscripciones 2026, ingresar a: https://servicios.unl.edu.ar/bienestar/inscripcion/4749
 - SIU GUARANÍ POSGRADO: https://servicios.unl.edu.ar/guarani3/autogestion/ (Inscripción a exámenes. Historia Académica. Certificado Alumno Regular.)
 - SISTEMA MERCURIO: https://servicios.unl.edu.ar/mdcobro/ (Para efectuar pagos CUOTAS carreras, pagos cursos de posgrado.)
 - SISTEMA ASISTENCIA: wwww.fce.unl.edu.ar/miasistencia (Registro de asistencia a clases)
@@ -99,11 +103,9 @@ Esta página es un centro de recursos para alumnos de posgrado de la FCE-UNL, in
 
 **Links útiles:**
 - DIPLOMAS Y LEGALIZACIONES: https://www.unl.edu.ar/institucional/diplomas-y-legalizaciones/
+- DIPLOMAS Y LEGALIZACIONES UNL: https://www.unl.edu.ar/diplomasylegalizaciones/
 - BIBLIOTECA FCE: https://www.fce.unl.edu.ar/biblioteca/
-
-**Otros teléfonos útiles:**
-- Tesorería (Sec. Económico Financiera): 0342 4511179 int 145
-- Alumnado y Bedelía: 3425818810
+- SISTEMA DE EVENTOS: https://www.fce.unl.edu.ar/eventos/
 
 ## Fuentes consultadas
 
@@ -111,4 +113,4 @@ Esta página es un centro de recursos para alumnos de posgrado de la FCE-UNL, in
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
