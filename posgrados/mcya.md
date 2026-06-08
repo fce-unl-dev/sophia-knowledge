@@ -99,7 +99,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
-- **Última actualización del dato**: 2026-06-04
+- **Última actualización del dato**: **2026-06-08**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -121,7 +121,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
     - Secretaria Académica y Bienestar Estudiantil: Mg. Andrea PACÍFICO
     - Secretaria de Posgrado: Mg. Marcela Andrea MARTIN
     - Secretario de Investigación y Vinculación: Mg. Dario Mejias
-  - Directora del Departamento de Contabilidad e Impuestos: Mg. María Luz Casabianca
+  - Director del Departamento de Contabilidad e Impuestos: Esp. Waldo Raul Finos
 - **Cursado y evaluación**: La carrera es presencial con dictado de sus clases combinando asistencia presencial, on line y mixta. Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final. La metodología de evaluación de asignatura será dispuesta por el profesor responsable, pudiendo consistir en la ejecución de trabajos individuales, la resolución de casos, la realización de trabajos de campo o las propuestas de solución a planteos teóricos o prácticos.
 - **Perfil del egresado**: El Máster en Contabilidad y Auditoría es un posgraduado con una sólida formación en el área de la Contabilidad y Auditoría, capacitado para:
   - Aplicar los conocimientos teóricos e instrumentales en la resolución de problemas vinculados con la información contable interna y externa de las organizaciones en un contexto globalizado.
@@ -152,4 +152,4 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
