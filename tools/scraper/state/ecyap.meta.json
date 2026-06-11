@@ -2,8 +2,8 @@
   "slug": "ecyap",
   "url": "https://fce.unl.edu.ar/ecyap/",
   "strategy": "fce-microsite",
-  "content_hash": "65a13a19345ffbe685cda10fae11e84e41b32e69ffb571dfb7ad374a04ca5cea",
-  "previous_hash": "57847644729c977467f6e8c9c14e0ed02998eb39ca37210fa55e49a912e621ff",
+  "content_hash": "e040488ab745d6fb96f4dd400df56ff66bd4cabc4b721aaa58c85b9a5062881a",
+  "previous_hash": "65a13a19345ffbe685cda10fae11e84e41b32e69ffb571dfb7ad374a04ca5cea",
   "pages_count": 15,
   "pages": [
     {
@@ -64,7 +64,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=101",
       "title": "Comité Académico",
-      "length": 598
+      "length": 543
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=99",
@@ -82,6 +82,6 @@
       "length": 465
     }
   ],
-  "scraped_at": "2026-06-04T09:46:56.861Z",
-  "last_checked_at": "2026-06-04T09:46:56.861Z"
+  "scraped_at": "2026-06-11T10:10:06.026Z",
+  "last_checked_at": "2026-06-11T10:10:06.026Z"
 }
