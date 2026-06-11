@@ -17,10 +17,10 @@ La Especialización en Contabilidad y Auditoría para PyMEs (ECyAP) de la FCE-UN
 ## Modalidad y duración
 
 - **Modalidad**: Presencial con dictado de sus clases combinando asistencia presencial, online y mixta
-- **Días y horarios de cursada**: Viernes de 17 a 21 hs y sábados de 9 a 13 hs
+- **Días y horarios de cursada**: Viernes de 17 a 21 hs. y sábados de 9 a 13.00 hs.
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción mixta)
 - **Idioma**: Español
-- **Duración cursada**: 3 cuatrimestres (año y medio)
+- **Duración cursada**: Tres cuatrimestres (año y medio de cursado)
 - **Duración trabajo final / tesis**: Plazo máximo 3 años desde la inscripción a la carrera
 - **Carga horaria total**: 390 horas / 26 créditos
 
@@ -32,23 +32,23 @@ Se estructura sobre la base de seis asignaturas obligatorias y dos grupos de opt
 ### Módulos / asignaturas
 
 **Asignaturas obligatorias:**
-- La Contabilidad Patrimonial (60 hs / 4 créditos)
-- Confección y Análisis de Estados Contables (60 hs / 4 créditos)
-- Auditoría Externa de Estados Contables (60 hs / 4 créditos)
-- Sistemas Contables y Auditoría en Entes Especiales (50 hs / 3 créditos)
-- La Contabilidad de Gestión (30 hs / 2 créditos)
-- Auditoría Interna (40 hs / 3 créditos)
+- Asignatura: La Contabilidad Patrimonial (30 hs. teoría, 30 hs. práctica, 4 créditos)
+- Asignatura: Confección y Análisis de Estados Contables (20 hs. teoría, 40 hs. práctica, 4 créditos)
+- Asignatura: Auditoría Externa de Estados Contables (30 hs. teoría, 30 hs. práctica, 4 créditos)
+- Asignatura: Sistemas Contables y Auditoría en Entes Especiales (20 hs. teoría, 30 hs. práctica, 3 créditos)
+- Asignatura: La Contabilidad de Gestión (10 hs. teoría, 20 hs. práctica, 2 créditos)
+- Asignatura: Auditoría Interna (20 hs. teoría, 20 hs. práctica, 3 créditos)
 
 **Grupo 1 de Optativas — Aspectos Financieros y Fiscales de las Organizaciones:**
-- El Manejo Financiero de la Empresa (30 hs / 2 créditos)
-- La Planificación y Auditoría Fiscal Empresaria (30 hs / 2 créditos)
+- Asignatura: El Manejo Financiero de la Empresa (10 hs. teoría, 20 hs. práctica, 2 créditos)
+- Asignatura: La Planificación y Auditoría Fiscal Empresaria (10 hs. teoría, 20 hs. práctica, 2 créditos)
 
 **Grupo 2 de Optativas — Cuestiones Específicas de Contabilidad y Auditoría:**
-- Cuestiones Especiales del Proceso de Auditoría (30 hs / 2 créditos)
-- Ajustes Contables por Cambios en el Valor de la Moneda (30 hs / 2 créditos)
+- Asignatura: Cuestiones Especiales del Proceso de Auditoría (10 hs. teoría, 20 hs. práctica, 2 créditos)
+- Asignatura: Ajustes Contables por Cambios en el Valor de la Moneda (10 hs. teoría, 20 hs. práctica, 2 créditos)
 
 **Seminario:**
-- Seminario de Síntesis Disciplinar (30 hs / 2 créditos)
+- Asignatura: Seminario de Síntesis Disciplinar (0 hs. teoría, 30 hs. práctica, 2 créditos)
 
 ### Trabajo final / tesis
 Trabajo Final Integrador de carácter individual sobre una temática en particular de las desarrolladas en el Plan de Estudio, bajo la supervisión de un tutor. Plazo máximo para la aprobación: tres años desde la inscripción a la carrera.
@@ -109,14 +109,14 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780
-- **Última actualización del dato**: 2026-06-04
+- **Última actualización del dato**: 2026-06-11
 
-> Nota: Confirmar próxima cohorte con esp_cont_auditoria@fce.unl.edu.ar.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
 - **Director académico**: Mg. Ricardo Melini
-- **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos**: Mg. Julia Cristobal
+- **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos del Área de Gestión de Posgrado**: Mg. Julia Cristobal
 - **Email del programa**: esp_cont_auditoria@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: 3425191199
@@ -128,28 +128,25 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - **Promoción de asignaturas**: Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final.
 - **Convenio**: Convenio Marco de Asistencia Técnico-Profesional entre el Instituto de Auditores Internos de Argentina y la Universidad Nacional del Litoral, Facultad de Ciencias Económicas.
 - **Comité Académico**:
-  - Mg. Ricardo Melini (Director ECAP)
-  - Mg. Julia Cristobal (Coordinadora Académica ECAP)
+  - Mg. Ricardo Melini (Director)
+  - Mg. Julia Cristobal (Coordinadora Académica)
   - Mg. Marcela A. Martin (Representante del Decanato)
   - Mg. Andrea Pacífico (Representante del Decanato)
-  - Mg. María Luz Casabianca (Directora Dpto. Contabilidad e Impuestos)
-  - Cr. Carlos Torres (Docente de la Carrera)
-  - Mg. Gabriel Demonte (Docente de la Carrera)
-  - Esp. María Agustina Pautasso (Graduada de la Carrera)
-  - Cra. Dora Benito (Profesional Externo)
+  - Esp. Waldo Raul Finos (Director Dpto. Contabilidad e Impuestos)
+  - Cr. Carlos Torres (Docente)
+  - Mg. Gabriel Demonte (Docente)
+  - Esp. Antonella Maria Busso (Graduada)
+  - Cra. Daniela Perren (Profesional Externo)
 
 ## Fuentes consultadas
 
 - https://fce.unl.edu.ar/ecyap/ (homepage, convenio)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=169 (Presentación de la carrera, acreditación)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=94 (Cursado y evaluación, trabajo final)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=94 (Cursado y evaluación, promoción de asignaturas, trabajo final)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=93 (Días y horarios de cursado)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=92 (Duración de la carrera, plazo trabajo final)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showCategoria&id=190 (Informes e inscripción, requisitos)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=170 (Objetivos curriculares)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=98 (Estructura del Plan de Estudios, carga horaria)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=102 (Optativas - contenidos)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=103 (Asignaturas - contenidos)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=98 (Estructura del Plan de Estudios, carga horaria, asignaturas)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=100 (Conducción de la carrera - Director, Coordinadora)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=101 (Comité Académico)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=99 (Cuerpo Docente)
@@ -158,4 +155,4 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-11 por pipeline de scraping.
