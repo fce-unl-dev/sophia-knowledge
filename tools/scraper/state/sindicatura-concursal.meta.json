@@ -2,19 +2,19 @@
   "slug": "sindicatura-concursal",
   "url": "https://fce.unl.edu.ar/sindicatura/",
   "strategy": "fce-microsite",
-  "content_hash": "10d7d8f7241b99c38837c1996aa0a7b6642f965bf6d526afe32cf10cce531007",
-  "previous_hash": "5f02e0908e43d667a180b0251fefe0214db243a04850b890c98a86772c54c3d5",
+  "content_hash": "62af14522ff98fbfb893b7399008d704381ff39ffacf8bf68dedf290b0bc577f",
+  "previous_hash": "10d7d8f7241b99c38837c1996aa0a7b6642f965bf6d526afe32cf10cce531007",
   "pages_count": 13,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/sindicatura/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 26
+      "length": 62
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174",
       "title": "Presentación de la carrera",
-      "length": 1357
+      "length": 1300
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=154",
@@ -22,14 +22,9 @@
       "length": 363
     },
     {
-      "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=155",
-      "title": "Dias y horarios",
-      "length": 214
-    },
-    {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=156",
       "title": "Cursado y promoción",
-      "length": 792
+      "length": 1206
     },
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=160",
@@ -70,8 +65,13 @@
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=162",
       "title": "Cuerpo Docente",
       "length": 726
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784",
+      "title": "Novedades",
+      "length": 456
     }
   ],
-  "scraped_at": "2026-06-08T10:22:48.534Z",
-  "last_checked_at": "2026-06-08T10:22:48.534Z"
+  "scraped_at": "2026-06-15T11:50:16.931Z",
+  "last_checked_at": "2026-06-15T11:50:16.931Z"
 }
