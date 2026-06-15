@@ -6,23 +6,23 @@ La Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)
 
 ## Identificación
 
-- **Nombre oficial**: Especialización en Dirección y Gestión de Organizaciones Públicas
-- **Código corto / sigla**: EDGOP
-- **Tipo**: Especialización
-- **Título que otorga**: Especialista en Dirección y Gestión de Organizaciones Públicas
-- **Acreditación CONEAU**: Creada por Res. CD N° 1019/13 y aprobada por Res. HCS UNL N° 139/14. Detalles específicos de acreditación CONEAU no publicados en web.
-- **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: Convenio con el Centro de Desarrollo y Asistencia Técnica en Tecnología para la Organización Pública (Asociación Civil) TOP.
+-   **Nombre oficial**: Especialización en Dirección y Gestión de Organizaciones Públicas
+-   **Código corto / sigla**: EDGOP
+-   **Tipo**: Especialización
+-   **Título que otorga**: Especialista en Dirección y Gestión de Organizaciones Públicas
+-   **Acreditación CONEAU**: Creada por Res. CD N° 1019/13 y aprobada por Res. HCS UNL N° 139/14. Detalles específicos de acreditación CONEAU no publicados en web.
+-   **Unidad académica**: FCE-UNL
+-   **Carreras compartidas con otras unidades**: Convenio con el Centro de Desarrollo y Asistencia Técnica en Tecnología para la Organización Pública (Asociación Civil) TOP.
 
 ## Modalidad y duración
 
-- **Modalidad**: A distancia (virtual) — actividades sincrónicas y asincrónicas
-- **Días y horarios de cursada**: Sin franja fija — actividades virtuales según calendario académico
-- **Lugar**: 100% online (virtual)
-- **Idioma**: Español
-- **Duración cursada**: 3 cuatrimestres consecutivos (admite cursado en mayor tiempo)
-- **Duración trabajo final / tesis**: 180 hs de elaboración del Trabajo Final Integrador (12 UCAs)
-- **Carga horaria total**: 600 horas / 40 UCAs
+-   **Modalidad**: A distancia (virtual) — actividades sincrónicas y asincrónicas
+-   **Días y horarios de cursada**: Sin franja fija — actividades virtuales según calendario académico
+-   **Lugar**: 100% online (virtual)
+-   **Idioma**: Español
+-   **Duración cursada**: 3 cuatrimestres consecutivos (admite cursado en mayor tiempo)
+-   **Duración trabajo final / tesis**: 180 hs de elaboración del Trabajo Final Integrador (12 UCAs)
+-   **Carga horaria total**: 600 horas / 40 UCAs
 
 ## Plan de estudios
 
@@ -79,55 +79,55 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título de grado universitario otorgado por Universidades argentinas o extranjeras o títulos de nivel superior no universitario de carreras de al menos cuatro (4) años de duración.
-- **Idiomas**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
-- **Otros antecedentes**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
-- **Documentación a presentar**: No publicada en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
-- **Proceso de admisión**: Evaluación por el Comité Académico
+-   **Título previo requerido**: Título de grado universitario otorgado por Universidades argentinas o extranjeras o títulos de nivel superior no universitario de carreras de al menos cuatro (4) años de duración.
+-   **Idiomas**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Otros antecedentes**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Documentación a presentar**: No publicada en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Proceso de admisión**: Evaluación por el Comité Académico
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
-- **Modalidad de pago**: No publicada en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
-- **Becas disponibles**: Convenio Específico de colaboración con la Unión del Personal Civil de la Nación (UPCN) - Seccional Santa Fe, que otorga un descuento del 20% sobre el costo total de la carrera a los profesionales que la entidad gremial informe a las autoridades de la EDGOP y a las autoridades de la Facultad de Ciencias Económicas de la UNL.
-- **Estado actual de inscripción**: Abierta para 2do cuatrimestre 2026
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Matrícula**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Cuotas**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Modalidad de pago**: No publicada en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Becas disponibles**: Convenio Específico de colaboración con la Unión del Personal Civil de la Nación (UPCN) - Seccional Santa Fe, que otorga un descuento del 20% (Veinte por ciento) sobre el costo total de la Carrera a todos/as los/as profesionales que la entidad gremial informe a las autoridades de la EDGOP y a las autoridades de la Facultad de Ciencias Económicas de la UNL.
+-   **Estado actual de inscripción**: Abierta — se prevé la apertura de inscripciones a mediados de junio de 2026.
+-   **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (consultar con edgop@fce.unl.edu.ar para link directo una vez abiertas)
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: **2026-08** (2do cuatrimestre 2026)
-- **Estado**: Abierta
-- **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779
-- **Última actualización del dato**: 2026-06-08
+-   **Fecha de inicio**: **2026-08**
+-   **Estado**: Abierta
+-   **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779
+-   **Última actualización del dato**: **2026-06-15**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director/a académico/a**: Mg. Néstor Darío Mejías
-- **Codirector académico**: Lic. Jorge Orlando Hintze
-- **Coordinador Académico del Área de Administración Pública**: Mg. Luciano Russo
-- **Coordinadora Técnica**: Mg. Analía Amelia Damevin
-- **Email del programa**: edgop@fce.unl.edu.ar
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
-- **Teléfono específico del programa**: (0342) 4571180 int. 125
-- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+-   **Director/a académico/a**: Mg. Néstor Darío Mejías
+-   **Codirector académico**: Lic. Jorge Orlando Hintze
+-   **Coordinador Académico del Área de Administración Pública**: Mg. Luciano Russo
+-   **Coordinadora Técnica**: Mg. Analía Amelia Damevin
+-   **Email del programa**: edgop@fce.unl.edu.ar
+-   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+-   **WhatsApp Posgrado**: 3425191199
+-   **Teléfono específico del programa**: (0342) 4571180 int. 125
+-   **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
 
-- **Centro TOP**: Asociación Civil "Tecnología para la Organización Pública", líder en la temática en América Latina. La carrera es una extensión natural de los cursos de posgrado virtuales en Estado y Administración Pública dictados desde hace casi una década en el marco del convenio UNL-TOP.
-- **Comité Académico**:
-  - Mg. Dario MEJIAS (Director)
-  - Lic. Jorge HINTZE (Codirector)
-  - Mg. Andrea Pacífico (Secretaría Académica y de Bienestar Estudiantil FCE-UNL)
-  - Mg. Marcela Andrea MARTIN (Secretaria Posgrado FCE-UNL)
-  - Mg. Stella Maris RODRIGUEZ (Docente EDGOP)
-  - Dr. Bruno Ariel REZZOAGLI (Docente EDGOP)
-  - Mg. Ariel LUGO (Director Departamento de Administración)
-  - Esp. Diego Gabriel ARMELINI (Graduado de la Carrera)
-- **Articulación con MAP y DAP**: La EDGOP virtualiza la oferta del área de Administración Pública FCE-UNL, complementando la Maestría en Administración Pública (MAP) y el Doctorado en Administración Pública (DAP), ambos presenciales.
+-   **Centro TOP**: Asociación Civil "Tecnología para la Organización Pública", líder en la temática en América Latina. La carrera es una extensión natural de los cursos de posgrado virtuales en Estado y Administración Pública dictados desde hace casi una década en el marco del convenio UNL-TOP.
+-   **Comité Académico**:
+    -   Mg. Dario MEJIAS (Director)
+    -   Lic. Jorge HINTZE (Codirector)
+    -   Mg. Andrea Pacífico (Secretaría Académica y de Bienestar Estudiantil FCE-UNL)
+    -   Mg. Marcela Andrea MARTIN (Secretaria Posgrado FCE-UNL)
+    -   Mg. Stella Maris RODRIGUEZ (Docente EDGOP)
+    -   Dr. Bruno Ariel REZZOAGLI (Docente EDGOP)
+    -   Mg. Ariel LUGO (Director Departamento de Administración)
+    -   Esp. Diego Gabriel ARMELINI (Graduado de la Carrera)
+-   **Articulación con MAP y DAP**: La EDGOP virtualiza la oferta del área de Administración Pública FCE-UNL, complementando la Maestría en Administración Pública (MAP) y el Doctorado en Administración Pública (DAP), ambos presenciales.
 
 ### Objetivos curriculares
 
@@ -142,21 +142,21 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/edgop/ (Información de interés, convenio UPCN, inscripciones)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Cursado y evaluación)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=122 (Título que otorga)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192 (Requisitos de admisión)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121 (Estructura del Plan de Estudios, carga horaria)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126 (Asignaturas obligatorias y optativas)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=181 (Objetivos curriculares)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=124 (Conducción de la carrera)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125 (Comité Académico)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123 (Cuerpo Docente)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=246 (Convenio UPCN)
-- https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Inscripciones a la carrera)
+-   https://fce.unl.edu.ar/edgop/ (Información de interés)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Cursado y evaluación)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=122 (Título que otorga)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192 (Requisitos de admisión)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121 (Estructura del Plan de Estudios, carga horaria)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126 (Asignaturas obligatorias y optativas)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=181 (Objetivos curriculares)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=124 (Conducción de la carrera)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125 (Comité Académico)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123 (Cuerpo Docente)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=246 (Convenio UPCN)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Inscripciones a la carrera)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-15 por pipeline de scraping.
