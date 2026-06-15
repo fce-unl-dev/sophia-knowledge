@@ -2,8 +2,8 @@
   "slug": "edgop",
   "url": "https://fce.unl.edu.ar/edgop/",
   "strategy": "fce-microsite",
-  "content_hash": "6a30f02aff12e1cd9e1924e7faad5e9266e26e3ee9e8d10a2449b795be185beb",
-  "previous_hash": "d37336451bef8e1b53c8491c8b1718fdf589d67de63024f33262dde2ad84e2ad",
+  "content_hash": "68b46aad617624bd32df3a90612f0efd19e3a90a61e46dc8368f5030b4f528ab",
+  "previous_hash": "6a30f02aff12e1cd9e1924e7faad5e9266e26e3ee9e8d10a2449b795be185beb",
   "pages_count": 15,
   "pages": [
     {
@@ -79,9 +79,9 @@
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779",
       "title": "Novedades",
-      "length": 179
+      "length": 360
     }
   ],
-  "scraped_at": "2026-06-08T10:22:13.969Z",
-  "last_checked_at": "2026-06-08T10:22:13.969Z"
+  "scraped_at": "2026-06-15T11:49:53.732Z",
+  "last_checked_at": "2026-06-15T11:49:53.732Z"
 }
