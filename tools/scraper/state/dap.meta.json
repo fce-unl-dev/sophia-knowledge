@@ -2,14 +2,14 @@
   "slug": "dap",
   "url": "https://fce.unl.edu.ar/dap/",
   "strategy": "fce-microsite",
-  "content_hash": "a2f30696ab406c914ff6e7e85b76379b0b9a66246cbcd09d88174fdcd8da84f0",
-  "previous_hash": "8297349c89d6f458d10e4b21a87ca8854ff3712cb12ec5bc0f93aba771f0ace9",
+  "content_hash": "cadb47e533a8721e130f3cfc39b5fb5979ab3a172fc11603d71e2180deae1442",
+  "previous_hash": "a2f30696ab406c914ff6e7e85b76379b0b9a66246cbcd09d88174fdcd8da84f0",
   "pages_count": 17,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/dap/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 132
+      "length": 131
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173",
@@ -82,16 +82,16 @@
       "length": 1138
     },
     {
-      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=782",
+      "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=783",
       "title": "Novedades",
-      "length": 439
+      "length": 380
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540",
       "title": "Novedades",
-      "length": 563
+      "length": 333
     }
   ],
-  "scraped_at": "2026-06-08T10:20:48.046Z",
-  "last_checked_at": "2026-06-08T10:20:48.046Z"
+  "scraped_at": "2026-06-15T11:49:06.370Z",
+  "last_checked_at": "2026-06-15T11:49:06.370Z"
 }

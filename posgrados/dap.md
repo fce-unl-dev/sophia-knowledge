@@ -77,8 +77,8 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ## Aranceles e inscripción
 
--   **Matrícula**: A confirmar para ciclo 2026/2027
--   **Cuotas**: A confirmar para ciclo 2026/2027
+-   **Matrícula**: A confirmar para ciclo 2027
+-   **Cuotas**: A confirmar para ciclo 2027
 -   **Modalidad de pago**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
 -   **Becas disponibles**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
 -   **Estado actual de inscripción**: Cerrada
@@ -86,10 +86,10 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ## Próxima cohorte
 
--   **Fecha de inicio**: Segundo cuatrimestre de 2026
--   **Estado**: Por confirmar
+-   **Fecha de inicio**: **2027-04**
+-   **Estado**: Confirmada
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera)
--   **Última actualización del dato**: 2026-06-04
+-   **Última actualización del dato**: **2026-06-15**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -138,4 +138,4 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-15 por pipeline de scraping.
