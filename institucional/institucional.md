@@ -33,6 +33,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Plan-de-Gesti%C3%B3n-para-la-FCE-2022-2026.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/TUTORIAL-2-Bidi.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/res-505-24-departamentos-carreras-procesos-eleccionarios.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/RDCD_FCE-1241375-25_302.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Res_330-Reglamento_de_Organizacion_y_Funcionamiento_de_Centros_-1.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Memoria-2024.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Memoria-2023-FCE.pdf
@@ -46,6 +47,8 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Informe-cierre-incripciones-Ingl%C3%A9s-II.docx.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Res-230-Modifica-Reglamento-de-Funcionamiento-Interno-del-Consejo-Directivo-Suscripci%C3%B3n-de-actas.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/res-756-22.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoFsWyF_firmadoqAxJf_estampado_Acta-sesi%C3%B3n-27-05-26.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadonIhxY_firmadoqkFkj_estampado_Anexo-Acta-27-05-26.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoBAmkl_firmadoifoOY_estampado_Acta-sesi%C3%B3n-13-05-26.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoOzuvX_firmadoajkxt_estampado_Anexo-Acta-13-05-26.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadohqZyU_firmadooMZks_estampado_Acta-sesi%C3%B3n-22-04-26.pdf
@@ -191,5 +194,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-06-11 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-06-15 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
