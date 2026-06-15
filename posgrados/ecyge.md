@@ -89,15 +89,15 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Cerrada — próxima apertura en **diciembre 2026** para cohorte **2027**
+- **Estado actual de inscripción**: Cerrada — próxima cohorte en **Abril 2027**
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: **2027**
+- **Fecha de inicio**: **2027-04**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=775 (Novedades)
-- **Última actualización del dato**: **2026-06-08**
+- **Última actualización del dato**: **2026-06-15**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -139,6 +139,8 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=106 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showCategoria&id=191 (Informes e Inscripción)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=112 (Estructura del Plan de Estudios)
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=116 (Asignaturas)
+- https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=179 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=114 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=115 (Comité Académico)
 - https://www.fce.unl.edu.ar/ecyge/index.php?act=showSubcategoria&id=113 (Cuerpo Docente)
@@ -146,4 +148,4 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-08 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-15 por pipeline de scraping.
