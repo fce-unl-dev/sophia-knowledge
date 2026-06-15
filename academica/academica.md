@@ -40,6 +40,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/res-287-25.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Modelo-Convenio-Marco-para-estudiantes.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Solicitud-PAI-profesores.docx
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/22-Res-CD-770-18-Reglamento-de-Pr%C3%A1cticas-Acad%C3%A9micas-Internas-de-la-FCE-PAI.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Nota-Seguros-Decana-Dillon.docx
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-705-Aprueba-programa-ADMINISTRACI%C3%93N-I-%E2%80%93-CP-LA-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-735-Aprueba-programa-INTRODUCCI%C3%93N-A-LA-ECONOM%C3%8DA-%E2%80%93-CP-LA-LE.pdf
@@ -126,5 +127,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-06-11 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-06-15 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
