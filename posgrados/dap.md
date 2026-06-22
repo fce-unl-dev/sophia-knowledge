@@ -87,9 +87,9 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 ## Próxima cohorte
 
 -   **Fecha de inicio**: **2027-04**
--   **Estado**: Confirmada
+-   **Estado**: Por confirmar
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera)
--   **Última actualización del dato**: **2026-06-15**
+-   **Última actualización del dato**: **2026-06-22**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -134,8 +134,8 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=136 (Conducción de la carrera - Director/a)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=137 (Comité Académico)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=141 (Cuerpo Docente)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera, próxima cohorte, aranceles)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera, próxima cohorte)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-15 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-22 por pipeline de scraping.
