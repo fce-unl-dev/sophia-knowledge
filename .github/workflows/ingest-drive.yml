@@ -7,9 +7,12 @@ name: Ingest Drive
 #   2. scrape_drive.mjs --apply              → mueve candidatos a complementos/,
 #      actualiza indice.json y regenera routing_metadata.json.
 #
-# Contrato (igual que sync-kb / propose-sections):
+# Contrato:
 #   - No pushea contenido directo a main.
 #   - Abre un PR humano (label needs-review) para que se revise antes de mergear.
+#   - La DETECCIÓN corre automáticamente todos los días (cron); la REVISIÓN sigue
+#     siendo humana a propósito: el Drive admite archivos arbitrarios que pueden
+#     traer datos personales, así que no se auto-mergea aunque otros flujos sí.
 #
 # Modo dry-run: corre solo la fase de scrape (sin --apply) y no commitea nada.
 # Útil para ver qué archivos nuevos/cambiados detectaría en Drive.
@@ -23,6 +26,11 @@ name: Ingest Drive
 #   SOPHIA_DRIVE_FOLDER_ID → ID de carpeta raíz. Si falta, el script usa su default.
 
 on:
+  schedule:
+    # Todos los días a las 09:00 UTC (06:00 ART). Detecta archivos nuevos o
+    # modificados en el Drive de la facultad y abre PR para revisión humana.
+    # En triggers de schedule, inputs.mode queda vacío → se comporta como 'refresh'.
+    - cron: '0 9 * * *'
   workflow_dispatch:
     inputs:
       mode:
