@@ -23,6 +23,11 @@
       "description": "Tecnicaturas: son pregrado, NO exigen título de grado. Van con la oferta sin título aunque la web las publique bajo /academica/. Sin este override, classifyItem las clasifica como 'academica' por la carpeta. Se evalúa ANTES del matchOrder.",
       "match": { "titleIncludes": ["tecnicatura"] },
       "sector": "posgrados_cursos_sin_titulo"
+    },
+    {
+      "description": "Cursos de posgrado (carpeta cursos-posgrado/): la carpeta manda sobre el título. Sin este override, un curso como 'Prácticas de Enseñanza…' cae en 'docentes' por el token 'enseñanza' del título. Se evalúa ANTES del matchOrder.",
+      "match": { "pathPrefix": ["cursos-posgrado/"] },
+      "sector": "posgrados_cursos_sin_titulo"
     }
   ],
   "sectors": {
@@ -88,11 +93,11 @@
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "kbFolder": "diplomaturas",
       "webPathPrefixes": ["/diplomaturas"],
-      "driveFolderAliases": ["diplomaturas", "cursos", "pregrado"],
+      "driveFolderAliases": ["diplomaturas", "cursos", "cursos-posgrado", "pregrado"],
       "match": {
-        "pathPrefix": ["diplomaturas/", "cursos/"],
+        "pathPrefix": ["diplomaturas/", "cursos/", "cursos-posgrado/"],
         "pathIncludes": ["diplomatura"],
-        "categoryIncludes": ["diplomatura", "formación profesional", "formacion profesional"],
+        "categoryIncludes": ["diplomatura", "formación profesional", "formacion profesional", "curso de posgrado"],
         "titleIncludes": ["diplomatura"]
       }
     },

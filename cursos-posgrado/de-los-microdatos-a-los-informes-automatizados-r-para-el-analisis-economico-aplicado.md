@@ -59,12 +59,12 @@ Curso de posgrado de la Facultad de Ciencias Económicas (FCE-UNL) que introduce
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: A confirmar (no publicada en la fuente disponible).
-- **Estado**: Por confirmar.
-- **Fuente del dato**: Resolución C.D. Nº 799/25 (FCE-1266735-25).
+- **Fecha de inicio**: 2026-10-06 (según el catálogo oficial de cursos de posgrado).
+- **Estado**: Por confirmar la apertura de inscripción.
+- **Fuente del dato**: Catálogo oficial de cursos de posgrado FCE-UNL y Resolución C.D. Nº 799/25 (FCE-1266735-25).
 - **Última actualización del dato**: 2026-06-23
 
-> Nota: La fecha de inicio no figura en la resolución. Para confirmar la próxima cohorte y la apertura de inscripción, escribí a posgrado@fce.unl.edu.ar.
+> Nota: Para confirmar la próxima cohorte y la apertura de inscripción, escribí a posgrado@fce.unl.edu.ar.
 
 ## Contacto
 
