@@ -15,7 +15,6 @@
 - Carga horaria total: 21 horas
 - Duración: 7 semanas
 - Fecha estimada de inicio: viernes 22 mayo de 2026 de 19:30 a 21:00
-- **Fecha de inicio publicada en listado**: 2026-05-22
 
 ## Plan de estudios / Contenidos
 
@@ -65,8 +64,7 @@
 
 - **Costo**:
   - Consultar a cursosdeformacion@fce.unl.edu.ar
-- **Estado (al 2026-05-22)**: Inscripción abierta según listado oficial.
-- **Sistema de inscripción**: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1190#superior
+- **Estado (al 2026-06-23)**: Inscripción abierta según listado oficial.
 
 ## Contacto
 
@@ -89,9 +87,8 @@
 
 - Listado oficial de inscripciones abiertas: https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos
 - Página oficial del curso: https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=305
-- Sistema de inscripción: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1190#superior
 
 ---
 
-**Última revisión automática**: 2026-05-22 (candidato generado por scraper determinístico de cursos)
+**Última revisión automática**: 2026-06-23 (candidato generado por scraper determinístico de cursos)
 **Revisión humana**: pendiente
