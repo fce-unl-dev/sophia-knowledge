@@ -1,0 +1,146 @@
+name: Propose Posgrado Courses KB
+
+# Sincroniza los CURSOS DE POSGRADO desde el catálogo oficial
+# (cursos_posgrado/index.php?act=showCursos, embebido en la web de la facultad).
+# Agrega automáticamente los cursos NUEVOS (no pisa fichas existentes) y reporta
+# bajas y cambios de fecha para revisión humana.
+#
+# El clasificador IA (Gemini, requiere GEMINI_API_KEY) decide: altas de bajo
+# riesgo se auto-mergean tras pasar el gate de validación; lo dudoso queda como PR.
+
+on:
+  schedule:
+    # Viernes a las 07:30 UTC (04:30 ART), apenas después de los cursos de formación.
+    - cron: '30 7 * * 5'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Modo de ejecución'
+        required: true
+        default: 'refresh'
+        type: choice
+        options:
+          - refresh
+          - force
+          - dry-run
+      triggered_by:
+        description: 'Quién disparó este run (email o nombre para audit log).'
+        required: false
+        default: 'manual'
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: propose-posgrado-courses-kb
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Install scraper deps
+        working-directory: tools/scraper
+        run: npm ci
+
+      - name: Generate posgrado courses proposal
+        id: proposal
+        working-directory: tools/scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -e
+          extra_args=""
+          run_mode="${{ inputs.mode }}"
+          if [ "$run_mode" = "force" ]; then extra_args="$extra_args --force"; fi
+          if [ "$run_mode" = "dry-run" ]; then extra_args="$extra_args --dry-run"; fi
+
+          node propose_posgrado_courses_update.mjs \
+            --kb-root=../.. \
+            --pr-body=/tmp/posgrado-pr-body.md \
+            --report-out=/tmp/posgrado-proposal.json \
+            $extra_args
+
+          cat /tmp/posgrado-proposal.json
+          decision=$(jq -r '.decision' /tmp/posgrado-proposal.json)
+          echo "decision=$decision" >> "$GITHUB_OUTPUT"
+          echo "### Posgrado courses proposal" >> "$GITHUB_STEP_SUMMARY"
+          cat /tmp/posgrado-pr-body.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Report no change
+        if: steps.proposal.outputs.decision == 'no_change'
+        run: echo "No hay cursos de posgrado nuevos para proponer. No se abre PR."
+
+      - name: Stop on dry-run
+        if: inputs.mode == 'dry-run'
+        run: echo "Dry-run completado. No se abre PR ni se pushea ninguna rama."
+
+      - name: Open PR
+        if: inputs.mode != 'dry-run' && (steps.proposal.outputs.decision == 'auto_merge' || steps.proposal.outputs.decision == 'requires_review')
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          branch="kb-sync/update-cursos-posgrado"
+          decision='${{ steps.proposal.outputs.decision }}'
+
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          git checkout -B "$branch"
+
+          git add indice.json routing_metadata.json cursos-posgrado tools/scraper/state/cursos-posgrado
+
+          if git diff --cached --quiet; then
+            echo "La propuesta no produjo diff commiteable. No se abre PR."
+            exit 0
+          fi
+
+          if [ "$decision" = "requires_review" ]; then
+            title="KB sync: cursos de posgrado — requiere revisión humana"
+            label="needs-review"
+          else
+            title="KB sync: cursos de posgrado — update automático"
+            label="auto-update"
+          fi
+
+          git commit -m "chore(kb): propose posgrado courses update ($decision)"
+          git push -f origin "$branch"
+
+          gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
+          gh label create auto-update --color 2563EB --description "Cambio KB de bajo riesgo propuesto por sync automático" || true
+
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "$title" \
+            --label "$label" \
+            --body-file /tmp/posgrado-pr-body.md || \
+          gh pr edit "$branch" \
+            --title "$title" \
+            --body-file /tmp/posgrado-pr-body.md
+
+          if [ "$decision" = "auto_merge" ]; then
+            echo "Gate de validación previo al auto-merge…"
+            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
+              gh pr merge "$branch" --squash --delete-branch \
+                || gh pr merge "$branch" --auto --squash --delete-branch \
+                || echo "::warning::Validación OK pero no se pudo auto-mergear; queda para merge manual."
+            else
+              echo "::warning::Validación falló: NO se auto-mergea. El PR queda para revisión humana."
+              gh pr edit "$branch" --add-label needs-review --remove-label auto-update || true
+            fi
+          fi
+
+      - name: Report rejected
+        if: steps.proposal.outputs.decision == 'rejected'
+        run: echo "::warning::La propuesta de cursos de posgrado fue rechazada por validación defensiva (sin cursos activos). Revisar logs."

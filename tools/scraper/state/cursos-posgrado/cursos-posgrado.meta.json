@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-06-23",
+  "listing_url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
+  "stable_hash": "6b11de2b976b2cd8c8e06ad7f48f9a194382336a1634e0b0a28d8b4e7ce561d3",
+  "courses": [
+    {
+      "id": "1408",
+      "title": "GESTION DE EMPRESAS DEL SECTOR SERVICIOS",
+      "slug": "gestion-de-empresas-del-sector-servicios",
+      "start_date_iso": "2026-07-20",
+      "kb_path": "cursos-posgrado/gestion-de-empresas-del-sector-servicios.md",
+      "content_hash": "a57d6c1c0134ca4ec4e25377809888fecd99a5e1eca9cf2339012b133dbf22d8"
+    },
+    {
+      "id": "1411",
+      "title": "GESTION PRESUPUESTARIA",
+      "slug": "gestion-presupuestaria",
+      "start_date_iso": "2026-07-20",
+      "kb_path": "cursos-posgrado/gestion-presupuestaria.md",
+      "content_hash": "bd7a447a87754fb66d33ccf1bd63d4293323b9bd146b33fd6fcd915113b308ba"
+    },
+    {
+      "id": "1401",
+      "title": "PRÁCTICAS DE ENSEÑANZA PARA LAS CIENCIAS ECONÓMICAS",
+      "slug": "practicas-de-ensenanza-para-las-ciencias-economicas",
+      "start_date_iso": "2026-08-07",
+      "kb_path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
+      "content_hash": "d5fcc7f15c14e11aa41826de26a9db243ccc9d063ca3968dca36a8cc4ccd0e36"
+    },
+    {
+      "id": "1409",
+      "title": "GESTION DE ADMINISTRACIONES GUBERNAMENTALES",
+      "slug": "gestion-de-administraciones-gubernamentales",
+      "start_date_iso": "2026-08-17",
+      "kb_path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
+      "content_hash": "c7d7854eebdf6452486127ef18fdd8c5ea9d51162f462b57453002b73498a967"
+    },
+    {
+      "id": "1402",
+      "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
+      "slug": "de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado",
+      "start_date_iso": "2026-10-06",
+      "kb_path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
+      "content_hash": "8202b0a4717655d7a1cf7f457ee13944621840fbeac139f667db20f64f4ac255"
+    }
+  ]
+}
