@@ -11,7 +11,7 @@
 //   node propose_courses_update.mjs --kb-root=../.. --force
 //   node propose_courses_update.mjs --kb-root=../.. --dry-run
 
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, resolve, dirname, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -153,8 +153,26 @@ export async function proposeCoursesUpdate({
     return result;
   }
 
+  // --- BAJAS: el KB debe reflejar la web. Cursos en indice.json (cursos/) que ya
+  // no figuran activos en la fuente se ELIMINAN automáticamente (archivo + índice).
+  // Guarda de seguridad: el scrape vacío (active_count===0) ya cortó arriba con
+  // 'rejected'. Si las bajas SUPERAN a los cursos activos, es señal de un scrape
+  // parcial anómalo → se deriva a revisión humana en vez de borrar masivamente.
+  const bajas = catalog.missing_from_active_source || [];
+  const removedDocs = [];
+  const bajasAnomaly = bajas.length > 0 && bajas.length > (catalog.active_count || 0);
+  if (bajas.length > 0 && !bajasAnomaly) {
+    const bajaPaths = new Set(bajas.map((b) => normalizeCoursePath(b.path)).filter(Boolean));
+    for (const relPath of bajaPaths) {
+      const abs = join(kbRoot, relPath);
+      if (!dryRun && existsSync(abs)) await rm(abs);
+      removedDocs.push(relPath);
+    }
+    index.items = (index.items || []).filter((it) => !bajaPaths.has(it.path));
+  }
+
   const docsChanged = createdDocs.length > 0 || updatedDocs.length > 0;
-  const indexChanged = addedIndexEntries.length > 0 || docsChanged;
+  const indexChanged = addedIndexEntries.length > 0 || docsChanged || removedDocs.length > 0;
   if (indexChanged && !dryRun) {
     index.items = insertCourseEntries(index.items || [], addedIndexEntries);
     index.lastUpdated = today;
@@ -169,18 +187,19 @@ export async function proposeCoursesUpdate({
     }
   }
 
-  const hasProposal = force || scraperReport.status !== 'unchanged' || docsChanged || addedIndexEntries.length > 0;
-  
+  const hasProposal = force || scraperReport.status !== 'unchanged' || docsChanged
+    || addedIndexEntries.length > 0 || removedDocs.length > 0 || bajasAnomaly;
+
   let overallDecision = 'no_change';
   let overallReason = 'No hay cambios materiales para proponer.';
 
   if (hasProposal) {
     overallDecision = 'auto_merge';
-    overallReason = 'Todos los cambios fueron clasificados como seguros para fusionar automáticamente.';
+    overallReason = 'Cambios de cursos clasificados como seguros (altas, actualizaciones y/o bajas que reflejan la web).';
 
-    if (catalog.missing_from_active_source?.length > 0) {
+    if (bajasAnomaly) {
       overallDecision = 'requires_review';
-      overallReason = 'Se detectaron cursos eliminados en la fuente activa (bajas).';
+      overallReason = `Anomalía de seguridad: ${bajas.length} bajas frente a ${catalog.active_count} cursos activos. No se borra masivamente sin revisión humana.`;
     }
 
     const reviewRequiredDocs = classifications.filter((c) => c.decision === 'requires_review');
@@ -199,6 +218,7 @@ export async function proposeCoursesUpdate({
     force,
     created_docs: createdDocs,
     updated_docs: updatedDocs,
+    removed_docs: removedDocs,
     unchanged_docs_count: unchangedDocs.length,
     added_index_entries: addedIndexEntries.map((entry) => entry.path),
     unsafe_skipped: unsafeSkipped,
@@ -295,6 +315,7 @@ function buildPrBody(result) {
     lines.push('');
     pushList(lines, 'Documentos creados', result.created_docs);
     pushList(lines, 'Documentos actualizados', result.updated_docs);
+    pushList(lines, 'Documentos eliminados (bajas, ya no están en la web)', result.removed_docs);
     pushList(lines, 'Entradas agregadas a `indice.json`', result.added_index_entries);
     lines.push(`- **Documentos sin cambios materiales**: ${result.unchanged_docs_count ?? 0}`);
     lines.push('');
@@ -311,9 +332,13 @@ function buildPrBody(result) {
   }
 
   if (result.missing_from_active_source?.length) {
-    lines.push('## Bajas o cursos no activos en la fuente');
+    lines.push('## Bajas (cursos que ya no están en la web)');
     lines.push('');
-    lines.push('Estos cursos están en `indice.json`, pero no aparecieron en el listado activo. **No se eliminan automáticamente**; solo quedan reportados para decisión humana.');
+    if (result.removed_docs?.length) {
+      lines.push('Estos cursos ya no figuran en el listado oficial y **fueron eliminados del KB** para que coincida con la web:');
+    } else {
+      lines.push('Estos cursos no aparecieron en el listado activo (no se eliminaron por la guarda de seguridad de anomalía):');
+    }
     lines.push('');
     for (const course of result.missing_from_active_source) {
       lines.push(`- ${course.title} → \`${course.path}\``);

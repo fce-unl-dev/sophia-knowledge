@@ -11,7 +11,7 @@
 // Uso:
 //   node propose_posgrado_courses_update.mjs --kb-root=../.. --pr-body=/tmp/pr.md --report-out=/tmp/r.json [--force] [--dry-run]
 
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -103,15 +103,30 @@ export async function proposePosgradoCoursesUpdate({
     existingPaths.add(relPath);
   }
 
-  // Bajas: cursos en el índice (cursos-posgrado/) que ya no están activos en la fuente.
+  // Bajas: cursos en el índice (cursos-posgrado/) que ya no están activos en la
+  // fuente → se ELIMINAN automáticamente (archivo + índice) para que el KB
+  // coincida con la web. Guarda: si las bajas superan a los activos, es una
+  // anomalía (scrape parcial) → revisión humana, sin borrar masivamente.
   const activePaths = new Set(scraper.courses.map((c) => c.kb_path));
   const missingFromSource = (index.items || [])
     .filter((i) => i.path.startsWith(`${KB_FOLDER}/`) && !activePaths.has(i.path))
     .map((i) => ({ path: i.path, title: i.title }));
+  const bajasAnomaly = missingFromSource.length > 0 && missingFromSource.length > scraper.active_count;
+  const removedDocs = [];
+  if (missingFromSource.length > 0 && !bajasAnomaly) {
+    for (const baja of missingFromSource) {
+      const abs = join(kbRoot, baja.path);
+      if (!dryRun && existsSync(abs)) await rm(abs);
+      removedDocs.push(baja.path);
+    }
+    const removedSet = new Set(removedDocs);
+    index.items = (index.items || []).filter((it) => !removedSet.has(it.path));
+  }
 
   const hasNew = createdDocs.length > 0;
+  const indexChanged = hasNew || removedDocs.length > 0;
 
-  if (hasNew && !dryRun) {
+  if (indexChanged && !dryRun) {
     index.items = [...(index.items || []), ...addedIndexEntries]
       .sort((a, b) => a.path.localeCompare(b.path, 'es-AR'));
     index.lastUpdated = today;
@@ -126,19 +141,19 @@ export async function proposePosgradoCoursesUpdate({
 
   // Decisión global.
   let decision = 'no_change';
-  let reason = 'No hay cursos de posgrado nuevos para agregar.';
-  if (hasNew || (force && scraper.active_count > 0)) {
+  let reason = 'No hay cambios de cursos de posgrado (ni altas ni bajas).';
+  if (hasNew || removedDocs.length > 0 || bajasAnomaly || (force && scraper.active_count > 0)) {
     decision = 'auto_merge';
-    reason = 'Altas de cursos de posgrado clasificadas como seguras para auto-merge.';
+    reason = 'Cambios de cursos de posgrado seguros (altas y/o bajas que reflejan la web).';
+    if (bajasAnomaly) {
+      decision = 'requires_review';
+      reason = `Anomalía de seguridad: ${missingFromSource.length} bajas frente a ${scraper.active_count} activos. No se borra masivamente sin revisión.`;
+    }
     const review = classifications.filter((c) => c.decision === 'requires_review');
     if (review.length > 0) {
       decision = 'requires_review';
       reason = `Requieren revisión: ${review.map((r) => r.path).join(', ')}`;
     }
-  }
-  if (missingFromSource.length > 0 && decision !== 'no_change') {
-    decision = 'requires_review';
-    reason += ` | Bajas detectadas (no se borran automáticamente): ${missingFromSource.map((m) => m.path).join(', ')}`;
   }
 
   return finalize({
@@ -149,6 +164,7 @@ export async function proposePosgradoCoursesUpdate({
     force,
     active_count: scraper.active_count,
     created_docs: createdDocs,
+    removed_docs: removedDocs,
     existing_docs_count: existingCourses.length,
     added_index_entries: addedIndexEntries.map((e) => e.path),
     date_drift: dateDrift,
@@ -177,13 +193,17 @@ function buildPrBody(r) {
     L.push('### Fechas de inicio cambiadas en la fuente (revisar fichas existentes)');
     for (const d of r.date_drift) L.push(`- \`${d.path}\` → inicio en fuente: ${d.listing_start}`);
   }
-  if (r.missing_from_source?.length) {
+  if (r.removed_docs?.length) {
     L.push('');
-    L.push('### Cursos en el KB que ya no figuran activos en la fuente (posibles bajas)');
+    L.push('### Cursos eliminados (bajas: ya no están en la web)');
+    for (const p of r.removed_docs) L.push(`- \`${p}\``);
+  } else if (r.missing_from_source?.length) {
+    L.push('');
+    L.push('### Cursos en el KB que ya no figuran activos (no eliminados por la guarda de anomalía)');
     for (const m of r.missing_from_source) L.push(`- \`${m.path}\` — ${m.title}`);
   }
   L.push('');
-  L.push('> Las fichas de cursos ya existentes NO se sobrescriben (se preserva el contenido curado). Datos personales (DNIs) saneados automáticamente.');
+  L.push('> Las fichas de cursos ya existentes NO se sobrescriben (se preserva el contenido curado). Las bajas (cursos que salieron de la web) se eliminan para mantener el KB igual a la web. Datos personales (DNIs) saneados automáticamente.');
   return L.join('\n');
 }
 
