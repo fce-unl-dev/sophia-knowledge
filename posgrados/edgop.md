@@ -159,4 +159,4 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-15 por pipeline de scraping.
+**Última revisión humana**: 2026-06-23

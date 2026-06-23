@@ -138,4 +138,4 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-22 por pipeline de scraping.
+**Última revisión humana**: 2026-06-23

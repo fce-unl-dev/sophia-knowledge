@@ -148,4 +148,4 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-15 por pipeline de scraping.
+**Última revisión humana**: 2026-06-23
