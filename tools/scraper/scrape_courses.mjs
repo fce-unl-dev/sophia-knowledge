@@ -105,33 +105,39 @@ function todayIsoDate() {
 
 export function parseCourseList(html, baseUrl = DEFAULT_COURSES_URL) {
   const courses = [];
-  const seen = new Set();
-  // No dependemos del texto visible del link porque puede venir como entidades HTML
-  // (Más información / M&aacute;s informaci&oacute;n). Filtramos por presencia de Inicio.
-  const detailRe = /<a\b[^>]*href\s*=\s*["']([^"']*index\.php\?act=showSubcategoria[^"']*)["'][^>]*>/gi;
-  let match;
+  const seenIds = new Set();
+  // Parseo POR TARJETA: cada curso es un <div class='curso'> con su propio
+  // <b>título</b>, un "Inicio:" OPCIONAL (los de la sección "sin inscripción
+  // disponible" no lo traen) y el link "Más información" (showSubcategoria).
+  // Tomar el título del <b> de cada bloque evita que la inferencia por ventana de
+  // texto mezcle títulos de cursos vecinos (que producía duplicados y faltantes).
+  // Capturar TODAS las tarjetas —con o sin fecha— es lo que permite que el KB
+  // coincida con la web y que el auto-borrado de bajas sea seguro.
+  const blocks = html.split(/<div class='curso'>/i).slice(1);
+  for (const block of blocks) {
+    const detailHrefM = /href=['"]([^'"]*act=showSubcategoria[^'"]*)['"]/i.exec(block);
+    if (!detailHrefM) continue;
+    const detailUrl = absolutizeUrl(decodeEntities(detailHrefM[1]).replace(/&amp;/g, '&'), baseUrl);
+    if (!detailUrl) continue;
+    const detailId = new URL(detailUrl).searchParams.get('id');
+    if (detailId && seenIds.has(detailId)) continue;
 
-  while ((match = detailRe.exec(html)) !== null) {
-    const detailUrl = absolutizeUrl(match[1], baseUrl);
-    if (!detailUrl || seen.has(detailUrl)) continue;
-    seen.add(detailUrl);
-
-    const beforeWindow = html.slice(Math.max(0, match.index - 1800), match.index);
-    const beforeText = htmlToText(beforeWindow);
-    const lines = beforeText.split('\n').map((line) => normalizeSpaces(line)).filter(Boolean);
-    const inicioIndex = findLastIndex(lines, (line) => /^Inicio\s*:/i.test(line));
-    if (inicioIndex < 0) continue;
-
-    const title = inferCourseTitle(lines, inicioIndex);
-    const startDate = parseStartDate(lines[inicioIndex]);
-
-    const afterWindow = html.slice(match.index + match[0].length, match.index + match[0].length + 1400);
-    const queryUrl = firstHref(afterWindow, baseUrl, /act=showConsulta/i);
-    const signupUrl = firstHref(afterWindow, baseUrl, /act=showLogin/i);
-    const courseId = signupUrl ? new URL(signupUrl).searchParams.get('id_curso') : null;
-    const detailId = detailUrl ? new URL(detailUrl).searchParams.get('id') : null;
-
+    const titleM = /<b>([\s\S]*?)<\/b>/i.exec(block);
+    const title = titleM ? normalizeSpaces(htmlToText(titleM[1])).trim() : '';
     if (!title) continue;
+
+    const startM = /Inicio\s*:\s*<b>\s*(\d{1,2})\/(\d{1,2})\/(\d{4})/i.exec(block);
+    const startDate = startM ? `${startM[3]}-${startM[2].padStart(2, '0')}-${startM[1].padStart(2, '0')}` : null;
+
+    const courseIdM = /encabezados\/(\d+)\.jpg/i.exec(block) || /id[_]?[cC]urso=(\d+)/i.exec(block);
+    const courseId = courseIdM ? courseIdM[1] : null;
+
+    const signupM = /href=['"]([^'"]*act=showLogin[^'"]*)['"]/i.exec(block);
+    const signupUrl = signupM ? absolutizeUrl(decodeEntities(signupM[1]).replace(/&amp;/g, '&'), baseUrl) : null;
+    const queryM = /href=['"]([^'"]*act=showConsulta[^'"]*)['"]/i.exec(block);
+    const queryUrl = queryM ? absolutizeUrl(decodeEntities(queryM[1]).replace(/&amp;/g, '&'), baseUrl) : null;
+
+    if (detailId) seenIds.add(detailId);
     courses.push({
       title,
       normalized_title: normalizeTitle(title),
