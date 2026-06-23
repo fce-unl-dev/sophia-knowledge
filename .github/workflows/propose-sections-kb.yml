@@ -141,7 +141,15 @@ jobs:
             --body-file /tmp/sections-pr-body.md
 
           if [ "$decision" = "auto_merge" ]; then
-            gh pr merge "$branch" --squash --delete-branch || gh pr merge "$branch" --auto --squash || echo "No se pudo auto-mergear. Se requerirá merge manual o la repo no lo soporta."
+            echo "Gate de validación previo al auto-merge…"
+            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
+              gh pr merge "$branch" --squash --delete-branch \
+                || gh pr merge "$branch" --auto --squash --delete-branch \
+                || echo "::warning::Validación OK pero no se pudo auto-mergear; queda para merge manual."
+            else
+              echo "::warning::Validación falló: NO se auto-mergea. El PR queda para revisión humana."
+              gh pr edit "$branch" --add-label needs-review --remove-label auto-update || true
+            fi
           fi
 
       - name: Report rejected

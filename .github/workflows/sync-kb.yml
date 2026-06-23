@@ -7,12 +7,13 @@ name: Sync KB
 # Contrato vigente:
 #   - Detectar cambios y proponerlos por PR.
 #   - No pushear contenido directo a main.
-#   - No hacer merge automático.
+#   - Auto-merge SOLO para cambios de bajo riesgo que pasen el gate de validación
+#     (validate_index + validate_links). Lo demás queda como PR para revisión humana.
 #
 # Decisiones por slug (las toma run_pipeline.mjs):
 #   no_change          → no abre PR y no toca main
-#   auto_merge         → cambio de bajo riesgo; bajo este contrato abre PR igualmente
-#   requires_review    → abre PR con revisión requerida
+#   auto_merge         → bajo riesgo; abre PR y, si pasa el gate de validación, se mergea solo
+#   requires_review    → abre PR con revisión requerida (no se auto-mergea)
 #   rejected           → validación falló; NO commitea
 #   error              → fallo técnico; NO commitea
 #   skipped            → strategy=TBD, no se procesa
@@ -201,7 +202,15 @@ jobs:
             --body-file /tmp/pr_body.md
 
           if [ "$decision" = "auto_merge" ]; then
-            gh pr merge "$branch" --squash --delete-branch || gh pr merge "$branch" --auto --squash || echo "No se pudo auto-mergear. Se requerirá merge manual o la repo no lo soporta."
+            echo "Gate de validación previo al auto-merge…"
+            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
+              gh pr merge "$branch" --squash --delete-branch \
+                || gh pr merge "$branch" --auto --squash --delete-branch \
+                || echo "::warning::Validación OK pero no se pudo auto-mergear; queda para merge manual."
+            else
+              echo "::warning::Validación falló: NO se auto-mergea. El PR queda para revisión humana."
+              gh pr edit "$branch" --add-label needs-review --remove-label auto-update || true
+            fi
           fi
 
       - name: Report no_change/skipped
