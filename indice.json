@@ -1,6 +1,6 @@
 {
-  "version": 26,
-  "lastUpdated": "2026-06-22",
+  "version": 27,
+  "lastUpdated": "2026-06-23",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -235,18 +235,8 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/"
     },
     {
-      "path": "cursos/atencion-al-cliente-y-oratoria.md",
-      "title": "Atención al Cliente y Oratoria",
-      "category": "Curso de formación profesional"
-    },
-    {
       "path": "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md",
       "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/formacion-de-gerentes-de-supermercado.md",
-      "title": "Formación de Gerentes de Supermercado",
       "category": "Curso de formación profesional"
     },
     {
@@ -257,11 +247,6 @@
     {
       "path": "cursos/formacion-de-repositores-para-supermercado.md",
       "title": "Formación de Repositores para Supermercado",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/formacion-en-manipulacion-conservacion-y-venta-de-mercaderias-en-supermercados.md",
-      "title": "Formación en Manipulación, Conservación y Venta de Mercaderías en Supermercados",
       "category": "Curso de formación profesional"
     },
     {
@@ -285,11 +270,6 @@
       "category": "Curso de formación profesional"
     },
     {
-      "path": "cursos/inteligencia-artificial-aplicada-a-la-gestion-y-productividad.md",
-      "title": "Inteligencia Artificial Aplicada a la Gestión y Productividad",
-      "category": "Curso de formación profesional"
-    },
-    {
       "path": "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md",
       "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
       "category": "Curso de formación profesional"
@@ -297,11 +277,6 @@
     {
       "path": "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md",
       "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/introduccion-al-diseno-de-modelos-de-negocios.md",
-      "title": "Introducción al Diseño de Modelos de Negocios",
       "category": "Curso de formación profesional"
     },
     {
@@ -317,11 +292,6 @@
     {
       "path": "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md",
       "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/produccion-saludable-360-curso-integral-para-emprendedores.md",
-      "title": "Producción Saludable 360: Curso Integral para Emprendedores",
       "category": "Curso de formación profesional"
     },
     {

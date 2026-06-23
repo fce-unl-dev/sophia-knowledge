@@ -2,13 +2,13 @@
   "slug": "cursos-de-formacion",
   "strategy": "fce-courses-list",
   "source_url": "https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos",
-  "content_hash": "f381e2dfd6228d75c2e3f171b7d15522ff0788acb408e5a12995e26a10cd71c4",
-  "previous_hash": "7b38ead6f69daad53f6226b54b0dbffd8a73b41b409964680f28ef4410258031",
+  "content_hash": "978d634f5921ba8aea75542c7169ae959c042063d8a508f10e3be83b4479955f",
+  "previous_hash": "f381e2dfd6228d75c2e3f171b7d15522ff0788acb408e5a12995e26a10cd71c4",
   "status": "changed",
-  "active_count": 10,
-  "matched_count": 10,
+  "active_count": 16,
+  "matched_count": 16,
   "new_unindexed_count": 0,
-  "missing_from_active_source_count": 13,
-  "scraped_at": "2026-06-05T10:38:24.303Z",
-  "last_checked_at": "2026-06-05T10:38:24.303Z"
+  "missing_from_active_source_count": 6,
+  "scraped_at": "2026-06-23T23:26:53.148Z",
+  "last_checked_at": "2026-06-23T23:26:53.148Z"
 }

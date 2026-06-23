@@ -10,7 +10,7 @@
     "internacionales": 7,
     "docentes": 3,
     "posgrados_graduados": 42,
-    "posgrados_cursos_sin_titulo": 31,
+    "posgrados_cursos_sin_titulo": 25,
     "grado": 24,
     "tramites_bedelia": 5
   },
@@ -231,22 +231,10 @@
       "title": "Trámites internos",
       "category": "Estudiantes"
     },
-    "cursos/atencion-al-cliente-y-oratoria.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Atención al Cliente y Oratoria",
-      "category": "Curso de formación profesional"
-    },
     "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/formacion-de-gerentes-de-supermercado.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Formación de Gerentes de Supermercado",
       "category": "Curso de formación profesional"
     },
     "cursos/formacion-de-gerentes-para-retail.md": {
@@ -259,12 +247,6 @@
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Formación de Repositores para Supermercado",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/formacion-en-manipulacion-conservacion-y-venta-de-mercaderias-en-supermercados.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Formación en Manipulación, Conservación y Venta de Mercaderías en Supermercados",
       "category": "Curso de formación profesional"
     },
     "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md": {
@@ -291,12 +273,6 @@
       "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
       "category": "Curso de formación profesional"
     },
-    "cursos/inteligencia-artificial-aplicada-a-la-gestion-y-productividad.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Inteligencia Artificial Aplicada a la Gestión y Productividad",
-      "category": "Curso de formación profesional"
-    },
     "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
@@ -307,12 +283,6 @@
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/introduccion-al-diseno-de-modelos-de-negocios.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Introducción al Diseño de Modelos de Negocios",
       "category": "Curso de formación profesional"
     },
     "cursos/la-construccion-del-pensamiento-proporcional.md": {
@@ -331,12 +301,6 @@
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/produccion-saludable-360-curso-integral-para-emprendedores.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Producción Saludable 360: Curso Integral para Emprendedores",
       "category": "Curso de formación profesional"
     },
     "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md": {
