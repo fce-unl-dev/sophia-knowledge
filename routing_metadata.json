@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-06-22",
+  "lastUpdated": "2026-06-23",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -10,7 +10,7 @@
     "internacionales": 7,
     "docentes": 3,
     "posgrados_graduados": 42,
-    "posgrados_cursos_sin_titulo": 26,
+    "posgrados_cursos_sin_titulo": 31,
     "grado": 24,
     "tramites_bedelia": 5
   },
@@ -1072,6 +1072,36 @@
       "displayName": "Estudiantes de Grado",
       "title": "Ciclo de Talleres en Marco del CRE",
       "category": "Complementario"
+    },
+    "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/gestion-de-empresas-del-sector-servicios.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Gestión de empresas del sector servicios",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/gestion-de-administraciones-gubernamentales.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Gestión de administraciones gubernamentales",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/gestion-presupuestaria.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Gestión Presupuestaria",
+      "category": "Curso de posgrado"
     }
   }
 }

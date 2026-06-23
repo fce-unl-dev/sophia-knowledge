@@ -1087,6 +1087,36 @@
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/1lr3YL2_ua2F_fRlPCokpeV6Hcrl-gWgr/view?usp=drivesdk"
+    },
+    {
+      "path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
+      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
+      "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/gestion-de-empresas-del-sector-servicios.md",
+      "title": "Gestión de empresas del sector servicios",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
+      "title": "Gestión de administraciones gubernamentales",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/gestion-presupuestaria.md",
+      "title": "Gestión Presupuestaria",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     }
   ]
 }
