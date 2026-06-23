@@ -1,8 +1,10 @@
 name: Propose Courses KB
 
-# Genera un PR humano con cambios de cursos de formación profesional.
+# Genera un PR con cambios de cursos de formación profesional.
 # Puede dispararse manualmente o automáticamente los viernes a las 07:00 UTC.
-# No mergea automáticamente y no escribe directo a main.
+# El clasificador IA (Gemini, requiere GEMINI_API_KEY) decide: los cambios de
+# bajo riesgo se auto-mergean tras pasar el gate de validación; los que tengan
+# inconsistencias/errores quedan como PR para revisión humana.
 
 on:
   schedule:
@@ -49,6 +51,8 @@ jobs:
       - name: Generate courses proposal
         id: proposal
         working-directory: tools/scraper
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           set -e
           extra_args=""
@@ -128,7 +132,15 @@ jobs:
             --body-file /tmp/courses-pr-body.md
 
           if [ "$decision" = "auto_merge" ]; then
-            gh pr merge "$branch" --squash --delete-branch || gh pr merge "$branch" --auto --squash || echo "No se pudo auto-mergear. Se requerirá merge manual o la repo no lo soporta."
+            echo "Gate de validación previo al auto-merge…"
+            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
+              gh pr merge "$branch" --squash --delete-branch \
+                || gh pr merge "$branch" --auto --squash --delete-branch \
+                || echo "::warning::Validación OK pero no se pudo auto-mergear; queda para merge manual."
+            else
+              echo "::warning::Validación falló: NO se auto-mergea. El PR queda para revisión humana."
+              gh pr edit "$branch" --add-label needs-review --remove-label auto-update || true
+            fi
           fi
 
       - name: Report rejected
