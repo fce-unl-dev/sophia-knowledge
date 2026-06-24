@@ -8,7 +8,7 @@
 
 ## Canales principales
 
-- **Posgrado** (Maestrías, Especializaciones, Doctorados, Diplomaturas): posgrado@fce.unl.edu.ar — WhatsApp **3425191199**
+- **Posgrado** (Maestrías, Especializaciones, Doctorados, Diplomaturas): posgrado@fce.unl.edu.ar — WhatsApp **+54 9 342 449 1939**
 - **Difusión / Ingreso / Comunicación**: difusion@fce.unl.edu.ar
 - **Bedelía / Reservas / Trámites generales de alumnos**: bedelia@fce.unl.edu.ar
 - **Tesorería** (pagos, cuotas, facturas): tesoreria@fce.unl.edu.ar — Tel. (0342) 4571179 interno 145
@@ -17,7 +17,7 @@
 
 ## Advertencias para Sophia
 
-- El número **3425191199** es WhatsApp de Posgrado. El número **(0342) 4571179 / 3425818810**
+- El número **+54 9 342 449 1939** es WhatsApp de Posgrado. El número **(0342) 4571179 / 3425818810**
   es teléfono de LÍNEA (Bedelía/Tesorería): NO lo presentes como WhatsApp ni sugieras enviar
   audios o mensajes ahí.
 - No brindes teléfonos celulares ni correos personales de personas físicas (R12). Estos correos

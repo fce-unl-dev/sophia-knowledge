@@ -66,7 +66,7 @@ Nómina docente no publicada en fuentes oficiales; consultar con posgrado@fce.un
 - **Director/a académico/a**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Email del programa**: posgrado@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante

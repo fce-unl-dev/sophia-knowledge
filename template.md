@@ -77,7 +77,7 @@
 - **Director/a académico/a**: {Nombre, si está publicado}
 - **Email del programa**: {Email específico, no genérico de Posgrado}
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
-- **WhatsApp Posgrado**: 3425191199 {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
+- **WhatsApp Posgrado**: +54 9 342 449 1939 {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181 {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
 
 ## Información adicional relevante

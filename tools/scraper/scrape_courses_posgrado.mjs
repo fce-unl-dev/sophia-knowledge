@@ -199,7 +199,7 @@ export function buildCourseMarkdown(course, pdfText, { today = todayIsoDate() } 
   L.push('## Contacto');
   L.push('');
   L.push(`- **Email de Secretaría de Posgrado FCE-UNL**: ${CONTACT_EMAIL}`);
-  L.push('- **WhatsApp Posgrado**: 3425191199');
+  L.push('- **WhatsApp Posgrado**: +54 9 342 449 1939');
   L.push('- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181');
   L.push('');
   L.push('## Fuentes consultadas');

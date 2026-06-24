@@ -99,7 +99,7 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 -   **Director/a académico/a**: No publicado en fuentes oficiales
 -   **Email del programa**: diplomaturas@fce.unl.edu.ar
 -   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
--   **WhatsApp Posgrado**: 3425191199
+-   **WhatsApp Posgrado**: +54 9 342 449 1939
 -   **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 -   **Dirección**: Moreno 2557, S3000CVE Santa Fe
 

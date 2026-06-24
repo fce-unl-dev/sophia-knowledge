@@ -109,7 +109,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 - **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos**: Mg. Julia Edith Cristobal
 - **Email del programa**: mcya@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
