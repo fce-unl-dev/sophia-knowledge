@@ -54,7 +54,7 @@ Instructivo oficial paso a paso de la UNL: https://www.unl.edu.ar/ingresounl/pas
 - **Email de difusión / consultas**: difusion@fce.unl.edu.ar
 - **Dirección física**: Moreno 2557 (3000) Santa Fe
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
-- **Atención a estudiantes (WhatsApp)**: 3425818810
+- **Atención a estudiantes (WhatsApp)**: +54 9 342 449 1939
 - **Sitio oficial Ingreso UNL**: https://www.unl.edu.ar/ingresounl/
 
 ## Información adicional relevante

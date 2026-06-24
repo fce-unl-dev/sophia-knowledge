@@ -130,7 +130,7 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - **Coordinador Académico del Área de Administración Pública del Área de Gestión de Posgrado**: Mg. Russo Luciano
 - **Email del programa**: magadpub@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono específico del programa**: +54 (0342) 4571156 int. 139
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 

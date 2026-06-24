@@ -167,7 +167,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Email PROCIT (Programa de Investigación)**: procit.mba@fce.unl.edu.ar
 - **Email Programa Graduados MBA**: graduadosmba@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante

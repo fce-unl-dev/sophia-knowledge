@@ -71,7 +71,7 @@ No aplica
 - **Director/a académico/a**: No aplica
 - **Email del programa**: difusion@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
@@ -86,7 +86,7 @@ La Facultad de Ciencias Económicas de la UNL utiliza una plataforma virtual de 
 - **Instructivo para alumnos**: https://www.fce.unl.edu.ar/academica/?post_type=post&p=32
 - **Instructivo para docentes**: https://www.fce.unl.edu.ar/academica/?post_type=post&p=41
 - **Carpeta complementaria de guías para docentes** (Google Drive): https://drive.google.com/drive/folders/1YqVRw5Zm4wdUT8GF88BugB0TDhmC7giz?usp=sharing
-- **WhatsApp Estudiantes**: 3425818810
+- **WhatsApp Estudiantes**: +54 9 342 449 1939
 - El **Ambiente Virtual** es compartido a nivel UNL, no es exclusivo de la FCE. Los problemas de plataforma se escalan a servicios centrales de la UNL si el equipo local no puede resolverlos.
 - La migración Entorno → Ambiente Virtual (2023) puede haber dejado materiales antiguos solo accesibles bajo pedido. Derivar consultas históricas a difusion@fce.unl.edu.ar.
 

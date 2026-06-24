@@ -110,7 +110,7 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - **Coordinador Académico del área Administración, Finanzas y Negocios**: Mg. Walter Ariel Lugo
 - **Email del programa**: maf@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono específico del programa**: +54 (0342) 4571180/81 int. 129
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 

@@ -8,7 +8,7 @@
 ## Contactos oficiales
 
 - **Email Posgrado**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **SIU Guaraní Posgrado**: consultas a alumnado@fce.unl.edu.ar
 - **Tesorería** (pagos, cuotas, facturas): tesoreria@fce.unl.edu.ar
 - **Teléfono Tesorería**: (0342) 4571179 interno 145

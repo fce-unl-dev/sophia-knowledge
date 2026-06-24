@@ -108,7 +108,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **Coordinador Académico del área Administración, Finanzas y Negocios**: Mg. Walter Ariel Lugo
 - **Email del programa**: posgrado@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 

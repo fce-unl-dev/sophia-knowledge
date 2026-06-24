@@ -98,7 +98,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 -   **Director/a académico/a**: Directora: Dra. Stella Maris Rodríguez. Co-director: Dr. Fernando Martín Jaime. Coordinador Académico del Área de Administración Pública: Mg. Luciano Russo.
 -   **Email del programa**: dap@fce.unl.edu.ar
 -   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
--   **WhatsApp Posgrado**: 3425191199
+-   **WhatsApp Posgrado**: +54 9 342 449 1939
 -   **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
 -   **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 

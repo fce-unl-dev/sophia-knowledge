@@ -236,7 +236,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 -   **Coordinadora Técnica**: Esp. Georgina Benzo (Miembro del Comité Académico; Docente de las materias Derecho Concursal I y II, Práctica Concursal I y II; Contadora Pública, Abogada, Especialista en Sindicatura Concursal, Especialista en Magistratura, Doctoranda en Derecho)
 -   **Email del programa**: especsindicatura@fce.unl.edu.ar
 -   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
--   **WhatsApp Posgrado**: 3425191199
+-   **WhatsApp Posgrado**: +54 9 342 449 1939
 -   **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
 -   **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 

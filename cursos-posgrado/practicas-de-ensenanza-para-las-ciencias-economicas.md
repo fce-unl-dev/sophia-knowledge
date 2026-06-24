@@ -70,7 +70,7 @@ Aprobación de un Trabajo Práctico Final sobre un diseño de secuencia didácti
 ## Contacto
 
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Fuentes consultadas

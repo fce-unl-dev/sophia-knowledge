@@ -119,7 +119,7 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos del Área de Gestión de Posgrado**: Mg. Julia Cristobal
 - **Email del programa**: esp_cont_auditoria@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 

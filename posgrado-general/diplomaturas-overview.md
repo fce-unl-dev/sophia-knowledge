@@ -98,7 +98,7 @@ https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/FCE-DIP-
 ## Contacto
 
 - **Email Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 3425191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ---

@@ -74,7 +74,7 @@ Nómina disponible en: https://www.fcjs.unl.edu.ar/mdypp/categorias/cuerpo-docen
 - **Director/a académico/a**: No publicado
 - **Email del programa**: maestriadypp@unl.edu.ar
 - **Teléfono FCJS**: +54 (0342) 4587850 int. 9033 / 9026
-- **WhatsApp**: +54 9 342 4575133
+- **WhatsApp**: +54 9 342 449 1939
 - **Dirección**: Cándido Pujato 2751, (3000) Santa Fe — Facultad de Ciencias Jurídicas y Sociales UNL
 - **Contacto general MDYPP**: https://www.fcjs.unl.edu.ar/mdypp/contacto/
 
