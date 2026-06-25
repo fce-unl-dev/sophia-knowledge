@@ -120,22 +120,21 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 ## Fuentes consultadas
 
 -   https://fce.unl.edu.ar/dap/ (Información de interés general)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173 (Presentación de la carrera, Acreditación CONEAU)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134 (Sede Administrativa)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173 (Presentación de la carrera, Acreditación CONEAU, Carreras compartidas)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134 (Sede Administrativa, Lugar)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=133 (Título que otorga)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=129 (Cursado y evaluación, Modalidad)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128 (Duración de la carrera)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción, Requisitos de inscripción)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=129 (Cursado y evaluación, Modalidad, Promoción de asignaturas)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128 (Duración de la carrera, Duración trabajo final / tesis)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción, Requisitos de admisión, Proceso de admisión)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=135 (Ciclos integrativos, Estructura general)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=132 (Diagrama del Plan de Estudios)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=140 (Contenidos Temáticos)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=139 (Distribución horaria)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=139 (Distribución horaria, Carga horaria total, Módulos / asignaturas)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=176 (Objetivos curriculares - Perfil del egresado)
--   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=136 (Conducción de la carrera - Director/a)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=136 (Conducción de la carrera - Director/a académico/a)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=137 (Comité Académico)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=141 (Cuerpo Docente)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera, próxima cohorte)
 
 ---
 
-**Última revisión humana**: 2026-06-23
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-25 por pipeline de scraping.
