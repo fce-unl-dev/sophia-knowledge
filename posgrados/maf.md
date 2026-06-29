@@ -83,23 +83,23 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - **Idiomas**: Inglés (las asignaturas se dictan en inglés)
 - **Otros antecedentes**: No publicado en detalle — consultar
 - **Documentación a presentar**: No publicada en detalle — consultar
-- **Proceso de admisión**: Selección competitiva. Los/las estudiantes seleccionados obtienen Beca CUAA que incluye pasajes aéreos, matrícula y otros beneficios. CUAA es financiado por los gobiernos de Argentina y Alemania y un consorcio de empresas multinacionales alemanas.
+- **Proceso de admisión**: Selección competitiva. Los/las estudiantes seleccionados obtienen Beca CUAA que incluye pasajes aéreos, matrícula y otros beneficios. CUAA es financiado por los gobiernos de Argentina y Alemania y un consorcio de empresas multinacionales alemanas. Se convoca a entrevista con el Director de la Carrera.
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con el Director de la Carrera
+- **Matrícula**: **A consultar con el Director de la Carrera**
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentario-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios.
-- **Estado actual de inscripción**: Abierta a mediados de Junio de 2026 para nueva edición en el 2do cuatrimestre.
+- **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentario-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios. Financiado por los gobiernos de Argentina y Alemania y un consorcio de empresas multinacionales alemanas.
+- **Estado actual de inscripción**: Abierta para inicio en **Septiembre/Octubre de 2026**
 - **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: 2do cuatrimestre de 2026
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES A LA CARRERA) y https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
-- **Última actualización del dato**: 2026-06-04
+- **Fecha de inicio**: **2026-09 / 2026-10**
+- **Estado**: Abierta
+- **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
+- **Última actualización del dato**: **2026-06-29**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -126,7 +126,7 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/maf/ (Homepage)
+- https://fce.unl.edu.ar/maf/ (Información de Interés)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=290 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=80 (Modalidad y duración)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=86 (Metodología)
@@ -136,16 +136,14 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=84 (Título)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=76 (Estructura curricular)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=77 (Trabajo Final)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showCategoria&id=196 (Informes e Inscripción)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=79 (Dirección Académica)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85 (Comité académico)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES A LA CARRERA)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Novedades - Doble titulación con Alemania)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
 - https://www.hs-kl.de/ (Universidad socia)
 - http://www.cuaa-dahz.org/es/ (CUAA)
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-29 por pipeline de scraping.
