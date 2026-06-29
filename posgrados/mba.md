@@ -152,12 +152,12 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: 2026-04
+- **Fecha de inicio**: **A confirmar para 2027**
 - **Estado**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
-- **Fuente del dato**: https://www.fce.unl.edu.ar/mba/index.php?act=showCategoria&id=188 (Informes e Inscripción)
-- **Última actualización del dato**: 2026-06-04
+- **Fuente del dato**: https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
+- **Última actualización del dato**: 2026-06-29
 
-> Nota: La fecha de inicio indicada ya pasó. Para información sobre la próxima cohorte (2027), se recomienda consultar con mba@fce.unl.edu.ar.
+> Nota: La cohorte 2026 ya inició en abril. Para información sobre la próxima cohorte (2027), se recomienda consultar con mba@fce.unl.edu.ar.
 
 ## Contacto
 
@@ -167,7 +167,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Email PROCIT (Programa de Investigación)**: procit.mba@fce.unl.edu.ar
 - **Email Programa Graduados MBA**: graduadosmba@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: +54 9 342 449 1939
+- **WhatsApp Posgrado**: 342-5191199
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
@@ -182,7 +182,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/mba/ (homepage)
+- https://fce.unl.edu.ar/mba/ (homepage - noticias sobre cohortes y contacto WhatsApp)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=40 (Introducción)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=36 (Metodología)
@@ -201,12 +201,8 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=62 (Programa Graduados)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=166 (Consejo Consultivo de Graduados)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=168 (Convenios con el sistema de innovación local)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=742 (Novedades - MBA Edición 2026)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=731 (Novedades - MBA Edición 2026)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=766 (Novedades - Cursos de Nivelación Cohorte 2026)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=765 (Novedades - Inicio primeras asignaturas obligatorias)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=751 (Novedades - Últimas vacantes cohorte 2026)
+- https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (link de pre-inscripción)
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-29 por pipeline de scraping.

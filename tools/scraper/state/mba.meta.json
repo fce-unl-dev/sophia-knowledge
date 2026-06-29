@@ -2,8 +2,8 @@
   "slug": "mba",
   "url": "https://fce.unl.edu.ar/mba/",
   "strategy": "fce-microsite",
-  "content_hash": "51a6c04183e219c996d1dbce6353dfd1b938e6bff37b855009ab3142b0ae4643",
-  "previous_hash": "63f0043142cb7018ae54316ab05c3b1710c42857b9bf86bb1eea060c6b167906",
+  "content_hash": "64646b8206ec1e4a8185be2b76c737e5e0576432c9915e6519d65a58fe334806",
+  "previous_hash": "51a6c04183e219c996d1dbce6353dfd1b938e6bff37b855009ab3142b0ae4643",
   "pages_count": 82,
   "pages": [
     {
@@ -64,7 +64,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=26",
       "title": "Cuerpo de profesores",
-      "length": 3758
+      "length": 3709
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showCategoria&id=188",
@@ -417,6 +417,6 @@
       "length": 548
     }
   ],
-  "scraped_at": "2026-06-04T09:45:12.463Z",
-  "last_checked_at": "2026-06-04T09:45:12.463Z"
+  "scraped_at": "2026-06-29T10:26:07.402Z",
+  "last_checked_at": "2026-06-29T10:26:07.402Z"
 }
