@@ -59,7 +59,7 @@
 
 ## Cronograma de Exámenes Finales (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-06-05
+**Última actualización de planilla**: 2026-06-30
 
 ### Primer turno 2026
 
@@ -194,7 +194,7 @@
 | 3/7/2026 | Viernes | 3360 | Historia y Estructura Económica Argentina | 09:00 Hs | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 5070 | Historia Social y Económica Argentina | 09:00 Hs | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 1045 | Contabilidad I | 09:00 Hs | Desde el 26/6/2026 al 1/7/2026 |
-| 3/7/2026 | Viernes | 2025 | Informática | 14:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
+| 3/7/2026 | Viernes | 2025 | Informática | 13:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 3015 | Microeconomía | 15:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 3130 | Derecho del Trabajo e Instituciones de la Seguridad Social | 15:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 4355 | Microeconomía II | 15:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
@@ -677,5 +677,5 @@
 
 ---
 
-**Última revisión automática**: 2026-06-05 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-06-30 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
