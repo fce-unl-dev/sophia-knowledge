@@ -89,7 +89,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 -   **Fecha de inicio**: **2027-04**
 -   **Estado**: Por confirmar
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera)
--   **Última actualización del dato**: **2026-06-22**
+-   **Última actualización del dato**: **2026-07-02**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -127,6 +127,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128 (Duración de la carrera, Duración trabajo final / tesis)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción, Requisitos de admisión, Proceso de admisión)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=135 (Ciclos integrativos, Estructura general)
+-   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=132 (Diagrama del Plan de Estudios)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=140 (Contenidos Temáticos)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=139 (Distribución horaria, Carga horaria total, Módulos / asignaturas)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=176 (Objetivos curriculares - Perfil del egresado)
@@ -137,4 +138,4 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-25 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-02 por pipeline de scraping.
