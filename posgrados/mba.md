@@ -90,7 +90,6 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - DUPRAT, Diego (Universidad Nacional del Sur)
 - DUTTO, Martín (Universidad Nacional del Litoral)
 - ECHAVARRIA, Verónica (Universidad Nacional del Litoral)
-- EMILIANI, Favio (Universidad Nacional del Litoral)
 - GARCÍA ARANCIBIA, Rodrigo (Universidad Nacional del Litoral)
 - GARCÍA, Hugo Omar (Universidad Austral)
 - GARONE, Graciela (Universidad de Buenos Aires)
@@ -120,7 +119,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - SCHLATTER, Guillermo (Universidad Nacional del Litoral)
 - SORIA, Julio (Universidad Nacional de Tucumán)
 - STUBRIN, Lilia (Universidad Nacional del Litoral)
-- TARALLO, Adrián (Universidad Nacional de Rosario)
+- TARALLO, Adrián (Universidad Nacional del Rosario)
 - ZOCOLA, Gerardo (Universidad Nacional del Litoral)
 
 **Profesores extranjeros:**
@@ -182,10 +181,9 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/mba/ (homepage - noticias sobre cohortes y contacto WhatsApp)
+- https://fce.unl.edu.ar/mba/ (homepage)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=40 (Introducción)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=36 (Metodología)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=23 (Requisitos de Ingreso)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=39 (Categorización CONEAU)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=30 (Perfil de Alumnos)
@@ -199,10 +197,9 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=45 (Convenio de Doble Titulación (Italia))
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=42 (Movilidad internacional)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=62 (Programa Graduados)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=166 (Consejo Consultivo de Graduados)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=168 (Convenios con el sistema de innovación local)
 - https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (link de pre-inscripción)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-29 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-02 por pipeline de scraping.
