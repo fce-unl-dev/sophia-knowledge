@@ -113,5 +113,5 @@
 
 ---
 
-**Última revisión automática**: 2026-06-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-07-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
