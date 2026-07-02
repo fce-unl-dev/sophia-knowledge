@@ -21,6 +21,7 @@
 - Biblioteca
 - Historia
 - La historia y los orígenes de la Facultad de Ciencias Económicas perteneciente a la Universidad Nacional del Litoral se remontan a mediados del siglo XX, cuando en 1951 fue creado el Curso de Contadores de Santa Fe dependiente de la Facultad de Ciencias Económicas, Comerciales…
+- Eventos vigentes
 
 ## Enlaces relacionados (no ingeridos)
 
@@ -194,5 +195,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-06-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-07-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

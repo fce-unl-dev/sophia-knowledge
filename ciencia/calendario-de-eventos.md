@@ -34,6 +34,9 @@
 - 31ª Reunión Anual Red PyMEs Mercosur
 - 1 y 2 de octubre, Facultad de Ciencias Económicas – UNL Santa Fe, Argentina
 - Más información
+- VIII Jornadas Nacionales sobre Estudios Regionales y Mercados de Trabajo X Foro “Mercados de trabajo, digitalización y nuevas configuraciones laborales”
+- 14, 15 y 16 de Octubre de 2026
+- Más información
 - 47o Jornadas Nacionales de Profesores Universitarios de Matemática Financiera
 - 29, 30 y 31 de Octubre de 2026, Facultad de Ciencias Económicas y Sociales de la UNMdP
 - Más información
@@ -55,5 +58,5 @@
 
 ---
 
-**Última revisión automática**: 2026-06-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-07-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
