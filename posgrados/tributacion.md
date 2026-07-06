@@ -92,7 +92,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
-- **Última actualización del dato**: **2026-06-08**
+- **Última actualización del dato**: **2026-07-06**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -131,7 +131,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=142 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=143 (Días y horarios de cursado)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=144 (Cursado y evaluación)
-- https://www.fce.unl.edu.ar/tributacion/index.php?act=showCategoria&id=194 (Informes e Inscripción)
+- https://www.fce.unl.edu.ar/tributacion/index.php?act=showCategoria&id=194 (Informes e Inscripción - Requisitos)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=153 (Estructura del Plan de Estudio)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=148 (Detalle de las Asignaturas)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=152 (Cursos de Posgrado)
@@ -139,8 +139,8 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=151 (Comité Académico)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=167 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=149 (Docentes de la carrera)
-- https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
+- https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades - Inscripciones)
 
 ---
 
-**Última revisión humana**: 2026-06-23
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-06 por pipeline de scraping.
