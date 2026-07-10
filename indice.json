@@ -1,533 +1,8 @@
 {
-  "version": 31,
-  "lastUpdated": "2026-07-06",
+  "version": 32,
+  "lastUpdated": "2026-07-10",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
-    {
-      "path": "posgrados/dap.md",
-      "title": "Doctorado en Administración Pública (DAP)",
-      "category": "Doctorado",
-      "programCode": "DAP",
-      "canonicalUrl": "https://fce.unl.edu.ar/dap/"
-    },
-    {
-      "path": "posgrados/mba.md",
-      "title": "Maestría en Administración de Empresas (MBA)",
-      "category": "Maestría",
-      "programCode": "MBA",
-      "canonicalUrl": "https://fce.unl.edu.ar/mba/"
-    },
-    {
-      "path": "posgrados/maf.md",
-      "title": "Maestría en Administración y Finanzas (MAF)",
-      "category": "Maestría",
-      "programCode": "MAF",
-      "canonicalUrl": "https://fce.unl.edu.ar/maf/"
-    },
-    {
-      "path": "posgrados/map.md",
-      "title": "Maestría en Administración Pública (MAP)",
-      "category": "Maestría",
-      "programCode": "MAP",
-      "canonicalUrl": "https://fce.unl.edu.ar/magister/"
-    },
-    {
-      "path": "posgrados/mcya.md",
-      "title": "Maestría en Contabilidad y Auditoría (MCYA)",
-      "category": "Maestría",
-      "programCode": "MCYA",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/mcya/"
-    },
-    {
-      "path": "posgrados/maea.md",
-      "title": "Maestría en Economía Aplicada (MEA, slug histórico 'maea')",
-      "category": "Maestría",
-      "programCode": "MEA",
-      "canonicalUrl": "https://fce.unl.edu.ar/maea/"
-    },
-    {
-      "path": "posgrados/mrso.md",
-      "title": "Maestría en Responsabilidad Social Organizacional (MRSO)",
-      "category": "Maestría",
-      "programCode": "MRSO",
-      "canonicalUrl": "https://fce.unl.edu.ar/mrso/"
-    },
-    {
-      "path": "posgrados/ecyap.md",
-      "title": "Especialización en Contabilidad y Auditoría para PyMEs (ECYAP)",
-      "category": "Especialización",
-      "programCode": "ECYAP",
-      "canonicalUrl": "https://fce.unl.edu.ar/ecyap/"
-    },
-    {
-      "path": "posgrados/ecyge.md",
-      "title": "Especialización en Costos y Gestión Empresarial (ECYGE)",
-      "category": "Especialización",
-      "programCode": "ECYGE",
-      "canonicalUrl": "https://fce.unl.edu.ar/ecyge/"
-    },
-    {
-      "path": "posgrados/edgop.md",
-      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
-      "category": "Especialización",
-      "programCode": "EDGOP",
-      "canonicalUrl": "https://fce.unl.edu.ar/edgop/"
-    },
-    {
-      "path": "posgrados/sindicatura-concursal.md",
-      "title": "Especialización en Sindicatura Concursal",
-      "category": "Especialización",
-      "programCode": "SC",
-      "canonicalUrl": "https://fce.unl.edu.ar/sindicatura/"
-    },
-    {
-      "path": "posgrados/tributacion.md",
-      "title": "Especialización en Tributación",
-      "category": "Especialización",
-      "programCode": "TRIB",
-      "canonicalUrl": "https://fce.unl.edu.ar/tributacion/"
-    },
-    {
-      "path": "diplomaturas/gfsp.md",
-      "title": "Diplomatura en Gestión Financiera del Sector Público (GFSP)",
-      "category": "Diplomatura universitaria",
-      "programCode": "GFSP",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/gfsp/"
-    },
-    {
-      "path": "diplomaturas/gto.md",
-      "title": "Diplomatura en Gestión para el Trabajo en Organizaciones (GTO)",
-      "category": "Diplomatura universitaria",
-      "programCode": "GTO",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/gto/"
-    },
-    {
-      "path": "diplomaturas/diplomercados.md",
-      "title": "Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros (DIPMERC)",
-      "category": "Diplomatura universitaria superior",
-      "programCode": "DIPMERC",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/diplomercados/"
-    },
-    {
-      "path": "diplomaturas/empresas-familiares.md",
-      "title": "Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de las Empresas Familiares",
-      "category": "Diplomatura universitaria superior",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/"
-    },
-    {
-      "path": "compartidos/doctorado-estudios-sociales.md",
-      "title": "Doctorado en Estudios Sociales (compartido — sede FHUC)",
-      "category": "Posgrado compartido",
-      "canonicalUrl": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/"
-    },
-    {
-      "path": "compartidos/negocios-agroalimentarios.md",
-      "title": "Maestría en Negocios Agroalimentarios (FCE + FCA, sede FCA)",
-      "category": "Posgrado compartido",
-      "canonicalUrl": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/"
-    },
-    {
-      "path": "compartidos/mdypp.md",
-      "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
-      "category": "Posgrado compartido",
-      "canonicalUrl": "https://www.fcjs.unl.edu.ar/mdypp/"
-    },
-    {
-      "path": "operativos/regimen-de-ensenanza.md",
-      "title": "Régimen de Enseñanza FCE-UNL",
-      "category": "Operativo",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/regimen/"
-    },
-    {
-      "path": "operativos/aulas-virtuales.md",
-      "title": "Aulas Virtuales FCE-UNL",
-      "category": "Operativo",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/aulas/"
-    },
-    {
-      "path": "operativos/ingreso-2026.md",
-      "title": "Ingreso 2026 a carreras de grado",
-      "category": "Operativo",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/"
-    },
-    {
-      "path": "estudiantes/beneficios-posgrados-fce-unl.md",
-      "title": "Beneficios para Posgrados FCE UNL",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/"
-    },
-    {
-      "path": "estudiantes/bienestar-estudiantil.md",
-      "title": "Bienestar Estudiantil",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/"
-    },
-    {
-      "path": "estudiantes/calendario-academico.md",
-      "title": "Calendario Académico",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/"
-    },
-    {
-      "path": "estudiantes/centro-estudiantes.md",
-      "title": "Centro de Estudiantes",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/"
-    },
-    {
-      "path": "estudiantes/clases-consultas.md",
-      "title": "Clases de Consultas",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/"
-    },
-    {
-      "path": "estudiantes/examenes.md",
-      "title": "Exámenes",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/examenes/"
-    },
-    {
-      "path": "estudiantes/horarios-atencion.md",
-      "title": "Horarios de Atención",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/"
-    },
-    {
-      "path": "estudiantes/ingreso-2026.md",
-      "title": "Ingreso 2026",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/"
-    },
-    {
-      "path": "estudiantes/inscripciones-cursado.md",
-      "title": "Info sobre inscripciones a cursado",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/"
-    },
-    {
-      "path": "estudiantes/pasantias-rentadas.md",
-      "title": "Pasantías rentadas",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/"
-    },
-    {
-      "path": "estudiantes/practicas-profesionales-supervisadas.md",
-      "title": "Prácticas Profesionales Supervisadas",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/pps/"
-    },
-    {
-      "path": "estudiantes/sica.md",
-      "title": "Sistema Informático de Consultas de Alumnos (SICA)",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/sica/"
-    },
-    {
-      "path": "estudiantes/siu-guarani.md",
-      "title": "SIU Guaraní",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/"
-    },
-    {
-      "path": "estudiantes/tramites-internos.md",
-      "title": "Trámites internos",
-      "category": "Estudiantes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/"
-    },
-    {
-      "path": "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md",
-      "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/formacion-de-gerentes-para-retail.md",
-      "title": "Formación de Gerentes para Retail",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/formacion-de-repositores-para-supermercado.md",
-      "title": "Formación de Repositores para Supermercado",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md",
-      "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md",
-      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/gestion-financiera-para-emprendimientos.md",
-      "title": "Gestión Financiera para Emprendimientos",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md",
-      "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md",
-      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md",
-      "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/la-construccion-del-pensamiento-proporcional.md",
-      "title": "La Construcción del Pensamiento Proporcional",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/manejo-practico-de-cooperativas-y-asociaciones.md",
-      "title": "Manejo Práctico de Cooperativas y Asociaciones",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md",
-      "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md",
-      "title": "Técnicas de Venta y Atención al Cliente para el Sector Electro y Textil",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones.md",
-      "title": "Teoría de Juegos: Fundamentos Matemáticos y Aplicaciones en Economía, Administración y Marketing",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md",
-      "title": "Tokenización de Activos de la Economía Real en Argentina",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/trading-profesional-basado-en-evidencia.md",
-      "title": "Trading Profesional Basado en Evidencia",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "posgrado-general/estudiantes.md",
-      "title": "Información para Estudiantes de Posgrado (trámites, diplomas, becas, calendario)",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/"
-    },
-    {
-      "path": "posgrado-general/doctorados-overview.md",
-      "title": "Doctorados FCE — Visión general",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/"
-    },
-    {
-      "path": "posgrado-general/maestrias-overview.md",
-      "title": "Maestrías FCE — Visión general",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/"
-    },
-    {
-      "path": "posgrado-general/especializaciones-overview.md",
-      "title": "Especializaciones FCE — Visión general",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/"
-    },
-    {
-      "path": "posgrado-general/cursos-overview.md",
-      "title": "Cursos de Posgrado — Información e inscripción",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/"
-    },
-    {
-      "path": "posgrado-general/inscripciones-en-carreras.md",
-      "title": "Inscripciones en Carreras de Posgrado FCE",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/"
-    },
-    {
-      "path": "posgrado-general/regimen-credito-fiscal.md",
-      "title": "Régimen de Crédito Fiscal para Capacitación",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/"
-    },
-    {
-      "path": "posgrado-general/carreras-otras-unidades-overview.md",
-      "title": "Carreras de Posgrado con Otras Unidades Académicas",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/"
-    },
-    {
-      "path": "posgrado-general/becas-docentes.md",
-      "title": "Becas de Posgrado para Docentes FCE UNL",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2023/09/29/becas-de-posgrado-para-docentes/"
-    },
-    {
-      "path": "posgrado-general/diplomaturas-overview.md",
-      "title": "Diplomaturas Nivel Superior — Visión general",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/"
-    },
-    {
-      "path": "posgrado-general/datos-para-crawler.md",
-      "title": "Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL",
-      "description": "Procedimientos operativos verificados: pagos, comprobantes, exámenes, certificados, diplomas, contactos y trámites. Fuente: DatosParaCrawler oficial de Secretaría de Posgrado.",
-      "category": "posgrado-general",
-      "tags": [
-        "procedimientos",
-        "pagos",
-        "certificados",
-        "trámites",
-        "contactos",
-        "mercurio",
-        "exámenes"
-      ]
-    },
-    {
-      "path": "posgrado-general/beneficios-graduados.md",
-      "title": "Beneficios para Graduados FCE UNL",
-      "category": "Información general de Posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/"
-    },
-    {
-      "path": "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md",
-      "title": "Resolución de Decana N° 361/23: Derogación de Resoluciones Anteriores",
-      "category": "Complementario",
-      "sector": "tramites_bedelia",
-      "canonicalUrl": "https://drive.google.com/file/d/1aKJB4nFR59N6tJvPKcYUhFK8X-G-lcFE/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md",
-      "title": "Resolución CD N° 640/25",
-      "category": "Complementario",
-      "sector": "tramites_bedelia",
-      "canonicalUrl": "https://drive.google.com/file/d/1c6t6L6fggKeeQ_cPRiUBYMpt6vRymCmn/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/06-reglamentos-y-normas-res-500-25.md",
-      "title": "Resolución C.D. N° 500/25",
-      "category": "Complementario",
-      "sector": "tramites_bedelia",
-      "canonicalUrl": "https://drive.google.com/file/d/1puDqQTkSqyYn2bh70wVpJ7d2iKQfespY/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md",
-      "title": "Normas y Procedimientos de Enseñanza",
-      "category": "Complementario",
-      "sector": "tramites_bedelia",
-      "canonicalUrl": "https://drive.google.com/file/d/17GYzsySZi_t_Y588ralPRLs_c8Tzf3I_/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md",
-      "title": "PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://docs.google.com/document/d/1erMHK3YNHUZKPWFGO3V06eeVZUXu67Wo/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
-      "path": "complementos/04-posgrado-ok-nota-baja.md",
-      "title": "Nota de Solicitud de Baja a Carrera de Posgrado",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://docs.google.com/document/d/1bssjbLAnMSdoX9bts4hqlcT308LBty6e/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
-      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md",
-      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CARRERAS DE POSGRADO - ESTUDIANTES NACIONALES",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1meB5GESj_wIAyX77bTUrqQhCGEk3rtrO/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos.md",
-      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1CLv1sY8CA3AGg89_XxK00ZxD_T77XpFg/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md",
-      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1ZCEh7oVYUu5J2tPHhCn0EqF0Bq3Tgi4C/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md",
-      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CURSOS DE POSGRADO",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1iU4k_yBRu2ucL0IJ0MQq5RCJt3wpQ038/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-tutorial-reinscripcion-anual.md",
-      "title": "Tutorial Reinscripción Anual",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1-msRLE3mdatTjFfRAVPgnveXZcDe03Q5/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md",
-      "title": "Resolución C.S. Nº 503/18 - Correlatividades del Plan de Estudios de Contador Público",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/1bYKx8A1fQ8gmxi4naPOa_tvvXCdCHjbx/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md",
-      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/1hUDpfopNnoalWlKOwCSwOA7JEcLARQcJ/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md",
-      "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición para la carrera de Contador Público",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/17k4mSNdGSNQ6HHU06caf414FLBNtG9Q7/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md",
-      "title": "Resolución C.S. Nº 502/18: Modificación del Plan de Estudios de Contador Público",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/1yNjC8ftJevwC4e4E1PmbUXIWVUfVrCOv/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-dialogo-sobre-los-procesos-y-cambios-de-planes-de-estudios-cplale-con-link.md",
-      "title": "Diálogo sobre los procesos y cambios de Planes de Estudios CP, LA y LE",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/179WXlM3_qygTyu0xfl6TsM6A6S5EhN-N/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-jornada-de-sensibilizacion-17-11.md",
-      "title": "Jornada de Sensibilización: Propuesta Académica FCE",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/1WFMjlpzL9OTUzOjHXQj801-JyWt7-tyo/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-mch-rse-556-2025.md",
-      "title": "Resolución 556/2025 del Ministerio de Capital Humano",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/1wxRD3KzBpfugPv3cIlczg2Un3z38YvZV/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/02-grado-resolucion2598-2023.md",
-      "title": "Resolución 2598/2023",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/1bIMjp96BgyQvs_mInElLkHSO-be_-xNn/view?usp=drivesdk"
-    },
     {
       "path": "academica/academica.md",
       "title": "academica",
@@ -583,6 +58,12 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/contador-publico-nacional/"
     },
     {
+      "path": "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md",
+      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
+      "category": "Académica",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/"
+    },
+    {
       "path": "academica/ingreso-grado.md",
       "title": "INGRESO A CARRERAS DE GRADO",
       "category": "Académica",
@@ -635,150 +116,6 @@
       "title": "Tecnicatura Universitaria en Control y Auditoría Gubernamental",
       "category": "Académica",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/tecnicatura-universitaria-en-control-y-auditoria-gubernamental/"
-    },
-    {
-      "path": "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md",
-      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
-      "category": "Académica",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/"
-    },
-    {
-      "path": "docentes/docentes.md",
-      "title": "Docentes",
-      "category": "Docentes",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/docentes/"
-    },
-    {
-      "path": "institucional/biblioteca-biblioteca.md",
-      "title": "Biblioteca",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/biblioteca/biblioteca/"
-    },
-    {
-      "path": "institucional/concursos-docentes-abiertos-abiertos.md",
-      "title": "Abiertos",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/abiertos/abiertos/"
-    },
-    {
-      "path": "institucional/concursos-docentes-concursos-docentes.md",
-      "title": "Concursos Docentes",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/concursos-docentes/"
-    },
-    {
-      "path": "institucional/concursos-docentes-renovaciones-renovaciones.md",
-      "title": "Renovaciones",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/renovaciones/renovaciones/"
-    },
-    {
-      "path": "institucional/cooperadora-cooperadora.md",
-      "title": "Cooperadora",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/cooperadora/cooperadora/"
-    },
-    {
-      "path": "institucional/estructura-departamentos-departamento-de-administracion.md",
-      "title": "Departamento de Administración y Humanidades",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-administracion/"
-    },
-    {
-      "path": "institucional/estructura-departamentos-departamento-de-contabilidad-e-impuestos.md",
-      "title": "Departamento de Contabilidad e Impuestos",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-contabilidad-e-impuestos/"
-    },
-    {
-      "path": "institucional/estructura-departamentos-departamento-de-economia.md",
-      "title": "Departamento de Economía",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-economia/"
-    },
-    {
-      "path": "institucional/estructura-departamentos-departamento-de-matematica.md",
-      "title": "Departamento de Matemática",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-matematica/"
-    },
-    {
-      "path": "institucional/estructura-departamentos-departamento-juridico.md",
-      "title": "Departamento Jurídico",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-juridico/"
-    },
-    {
-      "path": "institucional/estructura-departamentos.md",
-      "title": "Departamentos",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/"
-    },
-    {
-      "path": "institucional/estructura-estructura-academica.md",
-      "title": "Estructura Académica",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/estructura-academica/"
-    },
-    {
-      "path": "institucional/gobierno-consejo-directivo-actas-del-consejo-directivo.md",
-      "title": "Actas del Consejo Directivo",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/consejo-directivo/actas-del-consejo-directivo/"
-    },
-    {
-      "path": "institucional/gobierno-consejo-directivo-reglamento-interno.md",
-      "title": "Reglamento interno",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/consejo-directivo/reglamento-interno/"
-    },
-    {
-      "path": "institucional/gobierno-gobierno.md",
-      "title": "Gobierno",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/gobierno/"
-    },
-    {
-      "path": "institucional/himno-himno-unl.md",
-      "title": "Himno UNL",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/himno/himno-unl/"
-    },
-    {
-      "path": "institucional/historia-historia.md",
-      "title": "Historia",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/historia/historia/"
-    },
-    {
-      "path": "institucional/institucional.md",
-      "title": "Institucional",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/"
-    },
-    {
-      "path": "institucional/repositorio-python-repositorio-python.md",
-      "title": "Repositorio Python",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/repositorio-python/repositorio-python/"
-    },
-    {
-      "path": "institucional/sin-categoria-avances-en-lineamientos-de-gestion.md",
-      "title": "Avances en los Lineamientos de Gestión",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/sin-categoria/avances-en-lineamientos-de-gestion/"
-    },
-    {
-      "path": "institucional/sin-categoria-calidad-institucional.md",
-      "title": "Calidad Institucional",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/sin-categoria/calidad-institucional/"
-    },
-    {
-      "path": "institucional/ubicacion-ubicacion.md",
-      "title": "Ubicación",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/ubicacion/ubicacion/"
     },
     {
       "path": "ciencia/actividades-de-investigacion.md",
@@ -913,6 +250,428 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/ciencia/xvi-jornadas-de-investigacion-de-la-fce/"
     },
     {
+      "path": "compartidos/doctorado-estudios-sociales.md",
+      "title": "Doctorado en Estudios Sociales (compartido — sede FHUC)",
+      "category": "Posgrado compartido",
+      "canonicalUrl": "https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/"
+    },
+    {
+      "path": "compartidos/mdypp.md",
+      "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
+      "category": "Posgrado compartido",
+      "canonicalUrl": "https://www.fcjs.unl.edu.ar/mdypp/"
+    },
+    {
+      "path": "compartidos/negocios-agroalimentarios.md",
+      "title": "Maestría en Negocios Agroalimentarios (FCE + FCA, sede FCA)",
+      "category": "Posgrado compartido",
+      "canonicalUrl": "https://www.fca.unl.edu.ar/posgrado/negocios-agroalimentarios/"
+    },
+    {
+      "path": "complementos/02-grado-dialogo-sobre-los-procesos-y-cambios-de-planes-de-estudios-cplale-con-link.md",
+      "title": "Diálogo sobre los procesos y cambios de Planes de Estudios CP, LA y LE",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/179WXlM3_qygTyu0xfl6TsM6A6S5EhN-N/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-jornada-de-sensibilizacion-17-11.md",
+      "title": "Jornada de Sensibilización: Propuesta Académica FCE",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1WFMjlpzL9OTUzOjHXQj801-JyWt7-tyo/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-mch-rse-556-2025.md",
+      "title": "Resolución 556/2025 del Ministerio de Capital Humano",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1wxRD3KzBpfugPv3cIlczg2Un3z38YvZV/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.md",
+      "title": "Ciclo de Talleres en Marco del CRE",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1lr3YL2_ua2F_fRlPCokpeV6Hcrl-gWgr/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md",
+      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1hUDpfopNnoalWlKOwCSwOA7JEcLARQcJ/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md",
+      "title": "Resolución C.S. Nº 503/18 - Correlatividades del Plan de Estudios de Contador Público",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1bYKx8A1fQ8gmxi4naPOa_tvvXCdCHjbx/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md",
+      "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición para la carrera de Contador Público",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/17k4mSNdGSNQ6HHU06caf414FLBNtG9Q7/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md",
+      "title": "Resolución C.S. Nº 502/18: Modificación del Plan de Estudios de Contador Público",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1yNjC8ftJevwC4e4E1PmbUXIWVUfVrCOv/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/02-grado-resolucion2598-2023.md",
+      "title": "Resolución 2598/2023",
+      "category": "Complementario",
+      "sector": "grado",
+      "canonicalUrl": "https://drive.google.com/file/d/1bIMjp96BgyQvs_mInElLkHSO-be_-xNn/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1ZCEh7oVYUu5J2tPHhCn0EqF0Bq3Tgi4C/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md",
+      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CARRERAS DE POSGRADO - ESTUDIANTES NACIONALES",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1meB5GESj_wIAyX77bTUrqQhCGEk3rtrO/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos.md",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1CLv1sY8CA3AGg89_XxK00ZxD_T77XpFg/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-fce-dip-fo-2-5-01-instructivo-solicitud-de-certificado-de-diplomatura-universitarias.md",
+      "title": "FCE-DIP-FO 2.5-01 INSTRUCTIVO SOLICITUD DE CERTIFICADO DE DIPLOMATURA UNIVERSITARIAS",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1aLhjk07M2pIM2yAqK8m9PyTcjh1dnVLy/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-generacion-de-contrasena-sistema-de-gestion-del-estudiante.md",
+      "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1d1Lw8fU4oG6CDUHEsPr9q1b7_lzEON80/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-guia-entorno-virtual-para-generar-usuario.md",
+      "title": "Guía para la Creación de Cuentas de Usuario en el Entorno Virtual FCE UNL",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1PhXHC56SnX8A54yh4Fa4u4iwKGUbQB5l/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-instructivo-de-pago-cuota-unl-para-alumnos.md",
+      "title": "Instructivo de Pago UNL",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1MV5rnY5u1Ybj_jKpxLVi8dU5MOvCqWl9/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md",
+      "title": "Manual alumnos - carga de comprobantes de pago",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-ok-nota-baja.md",
+      "title": "Nota de Solicitud de Baja a Carrera de Posgrado",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://docs.google.com/document/d/1bssjbLAnMSdoX9bts4hqlcT308LBty6e/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
+    },
+    {
+      "path": "complementos/04-posgrado-ok-nota-equivalencias.md",
+      "title": "Nota de Solicitud de Equivalencias para Posgrado",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://docs.google.com/document/d/1X_5tJT6jyQanFMdSB1b5uEgWWAMwkAE0/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
+    },
+    {
+      "path": "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md",
+      "title": "PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://docs.google.com/document/d/1erMHK3YNHUZKPWFGO3V06eeVZUXu67Wo/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
+    },
+    {
+      "path": "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md",
+      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CURSOS DE POSGRADO",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1iU4k_yBRu2ucL0IJ0MQq5RCJt3wpQ038/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md",
+      "title": "TRÁMITE DE SOLICITUD DE DIPLOMA DIGITAL",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1f0yZNV2_2y5_-kPJDvxF93D9BIyDlcHa/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-tutorial-reinscripcion-anual.md",
+      "title": "Tutorial Reinscripción Anual",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1-msRLE3mdatTjFfRAVPgnveXZcDe03Q5/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md",
+      "title": "Resolución de Decana N° 361/23: Derogación de Resoluciones Anteriores",
+      "category": "Complementario",
+      "sector": "tramites_bedelia",
+      "canonicalUrl": "https://drive.google.com/file/d/1aKJB4nFR59N6tJvPKcYUhFK8X-G-lcFE/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md",
+      "title": "Normas y Procedimientos de Enseñanza",
+      "category": "Complementario",
+      "sector": "tramites_bedelia",
+      "canonicalUrl": "https://drive.google.com/file/d/17GYzsySZi_t_Y588ralPRLs_c8Tzf3I_/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-res-500-25.md",
+      "title": "Resolución C.D. N° 500/25",
+      "category": "Complementario",
+      "sector": "tramites_bedelia",
+      "canonicalUrl": "https://drive.google.com/file/d/1puDqQTkSqyYn2bh70wVpJ7d2iKQfespY/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md",
+      "title": "Resolución CD N° 640/25",
+      "category": "Complementario",
+      "sector": "tramites_bedelia",
+      "canonicalUrl": "https://drive.google.com/file/d/1c6t6L6fggKeeQ_cPRiUBYMpt6vRymCmn/view?usp=drivesdk"
+    },
+    {
+      "path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
+      "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
+      "title": "Gestión de administraciones gubernamentales",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
+      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md",
+      "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/formacion-de-gerentes-para-retail.md",
+      "title": "Formación de Gerentes para Retail",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/formacion-de-repositores-para-supermercado.md",
+      "title": "Formación de Repositores para Supermercado",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md",
+      "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md",
+      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/gestion-financiera-para-emprendimientos.md",
+      "title": "Gestión Financiera para Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md",
+      "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md",
+      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md",
+      "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/la-construccion-del-pensamiento-proporcional.md",
+      "title": "La Construcción del Pensamiento Proporcional",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/manejo-practico-de-cooperativas-y-asociaciones.md",
+      "title": "Manejo Práctico de Cooperativas y Asociaciones",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md",
+      "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md",
+      "title": "Técnicas de Venta y Atención al Cliente para el Sector Electro y Textil",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones.md",
+      "title": "Teoría de Juegos: Fundamentos Matemáticos y Aplicaciones en Economía, Administración y Marketing",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md",
+      "title": "Tokenización de Activos de la Economía Real en Argentina",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "cursos/trading-profesional-basado-en-evidencia.md",
+      "title": "Trading Profesional Basado en Evidencia",
+      "category": "Curso de formación profesional"
+    },
+    {
+      "path": "diplomaturas/diplomercados.md",
+      "title": "Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros (DIPMERC)",
+      "category": "Diplomatura universitaria superior",
+      "programCode": "DIPMERC",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/diplomercados/"
+    },
+    {
+      "path": "diplomaturas/empresas-familiares.md",
+      "title": "Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de las Empresas Familiares",
+      "category": "Diplomatura universitaria superior",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares/"
+    },
+    {
+      "path": "diplomaturas/gfsp.md",
+      "title": "Diplomatura en Gestión Financiera del Sector Público (GFSP)",
+      "category": "Diplomatura universitaria",
+      "programCode": "GFSP",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/gfsp/"
+    },
+    {
+      "path": "diplomaturas/gto.md",
+      "title": "Diplomatura en Gestión para el Trabajo en Organizaciones (GTO)",
+      "category": "Diplomatura universitaria",
+      "programCode": "GTO",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/gto/"
+    },
+    {
+      "path": "docentes/docentes.md",
+      "title": "Docentes",
+      "category": "Docentes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/docentes/"
+    },
+    {
+      "path": "estudiantes/beneficios-posgrados-fce-unl.md",
+      "title": "Beneficios para Posgrados FCE UNL",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/beneficios-para-posgrados-fce-unl/"
+    },
+    {
+      "path": "estudiantes/bienestar-estudiantil.md",
+      "title": "Bienestar Estudiantil",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/bienestar/"
+    },
+    {
+      "path": "estudiantes/calendario-academico.md",
+      "title": "Calendario Académico",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/calendario/"
+    },
+    {
+      "path": "estudiantes/centro-estudiantes.md",
+      "title": "Centro de Estudiantes",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/centro-de-estudiantes/"
+    },
+    {
+      "path": "estudiantes/clases-consultas.md",
+      "title": "Clases de Consultas",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/"
+    },
+    {
+      "path": "estudiantes/examenes.md",
+      "title": "Exámenes",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/examenes/"
+    },
+    {
+      "path": "estudiantes/horarios-atencion.md",
+      "title": "Horarios de Atención",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/horarios-de-atencion/"
+    },
+    {
+      "path": "estudiantes/ingreso-2026.md",
+      "title": "Ingreso 2026",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/ingreso-2026/"
+    },
+    {
+      "path": "estudiantes/inscripciones-cursado.md",
+      "title": "Info sobre inscripciones a cursado",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/"
+    },
+    {
+      "path": "estudiantes/pasantias-rentadas.md",
+      "title": "Pasantías rentadas",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/pasantias-rentadas/"
+    },
+    {
+      "path": "estudiantes/practicas-profesionales-supervisadas.md",
+      "title": "Prácticas Profesionales Supervisadas",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/pps/"
+    },
+    {
+      "path": "estudiantes/sica.md",
+      "title": "Sistema Informático de Consultas de Alumnos (SICA)",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/sica/"
+    },
+    {
+      "path": "estudiantes/siu-guarani.md",
+      "title": "SIU Guaraní",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/siu-guarani/"
+    },
+    {
+      "path": "estudiantes/tramites-internos.md",
+      "title": "Trámites internos",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/tramites-internos/"
+    },
+    {
       "path": "extension/actividades-abiertas-a-la-comunidad.md",
       "title": "Actividades abiertas a la comunidad",
       "category": "Extensión",
@@ -947,6 +706,150 @@
       "title": "Visitas a empresas e instituciones",
       "category": "Extensión",
       "canonicalUrl": "https://www.fce.unl.edu.ar/extension/visitas-a-empresas-e-instituciones/"
+    },
+    {
+      "path": "institucional/biblioteca-biblioteca.md",
+      "title": "Biblioteca",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/biblioteca/biblioteca/"
+    },
+    {
+      "path": "institucional/concursos-docentes-abiertos-abiertos.md",
+      "title": "Abiertos",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/abiertos/abiertos/"
+    },
+    {
+      "path": "institucional/concursos-docentes-concursos-docentes.md",
+      "title": "Concursos Docentes",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/concursos-docentes/"
+    },
+    {
+      "path": "institucional/concursos-docentes-renovaciones-renovaciones.md",
+      "title": "Renovaciones",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/concursos-docentes/renovaciones/renovaciones/"
+    },
+    {
+      "path": "institucional/contactos.md",
+      "title": "Contactos y Canales Oficiales FCE-UNL",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/organizacion-de-gestion"
+    },
+    {
+      "path": "institucional/cooperadora-cooperadora.md",
+      "title": "Cooperadora",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/cooperadora/cooperadora/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-administracion.md",
+      "title": "Departamento de Administración y Humanidades",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-administracion/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-contabilidad-e-impuestos.md",
+      "title": "Departamento de Contabilidad e Impuestos",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-contabilidad-e-impuestos/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-economia.md",
+      "title": "Departamento de Economía",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-economia/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-de-matematica.md",
+      "title": "Departamento de Matemática",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-de-matematica/"
+    },
+    {
+      "path": "institucional/estructura-departamentos-departamento-juridico.md",
+      "title": "Departamento Jurídico",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/departamento-juridico/"
+    },
+    {
+      "path": "institucional/estructura-departamentos.md",
+      "title": "Departamentos",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/departamentos/"
+    },
+    {
+      "path": "institucional/estructura-estructura-academica.md",
+      "title": "Estructura Académica",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/estructura/estructura-academica/"
+    },
+    {
+      "path": "institucional/gobierno-autoridades.md",
+      "title": "Autoridades y Organización de Gestión FCE-UNL",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/categorias/gobierno/autoridades/"
+    },
+    {
+      "path": "institucional/gobierno-consejo-directivo-actas-del-consejo-directivo.md",
+      "title": "Actas del Consejo Directivo",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/consejo-directivo/actas-del-consejo-directivo/"
+    },
+    {
+      "path": "institucional/gobierno-consejo-directivo-reglamento-interno.md",
+      "title": "Reglamento interno",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/consejo-directivo/reglamento-interno/"
+    },
+    {
+      "path": "institucional/gobierno-gobierno.md",
+      "title": "Gobierno",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/gobierno/"
+    },
+    {
+      "path": "institucional/himno-himno-unl.md",
+      "title": "Himno UNL",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/himno/himno-unl/"
+    },
+    {
+      "path": "institucional/historia-historia.md",
+      "title": "Historia",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/historia/historia/"
+    },
+    {
+      "path": "institucional/institucional.md",
+      "title": "Institucional",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/"
+    },
+    {
+      "path": "institucional/repositorio-python-repositorio-python.md",
+      "title": "Repositorio Python",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/repositorio-python/repositorio-python/"
+    },
+    {
+      "path": "institucional/sin-categoria-avances-en-lineamientos-de-gestion.md",
+      "title": "Avances en los Lineamientos de Gestión",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/sin-categoria/avances-en-lineamientos-de-gestion/"
+    },
+    {
+      "path": "institucional/sin-categoria-calidad-institucional.md",
+      "title": "Calidad Institucional",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/sin-categoria/calidad-institucional/"
+    },
+    {
+      "path": "institucional/ubicacion-ubicacion.md",
+      "title": "Ubicación",
+      "category": "Institucional",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/ubicacion/ubicacion/"
     },
     {
       "path": "internacionales/2022-edition.md",
@@ -991,102 +894,187 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/redes/"
     },
     {
-      "path": "complementos/04-posgrado-guia-entorno-virtual-para-generar-usuario.md",
-      "title": "Guía para la Creación de Cuentas de Usuario en el Entorno Virtual FCE UNL",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1PhXHC56SnX8A54yh4Fa4u4iwKGUbQB5l/view?usp=drivesdk"
+      "path": "operativos/aulas-virtuales.md",
+      "title": "Aulas Virtuales FCE-UNL",
+      "category": "Operativo",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/aulas/"
     },
     {
-      "path": "complementos/04-posgrado-ok-nota-equivalencias.md",
-      "title": "Nota de Solicitud de Equivalencias para Posgrado",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://docs.google.com/document/d/1X_5tJT6jyQanFMdSB1b5uEgWWAMwkAE0/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
+      "path": "operativos/ingreso-2026.md",
+      "title": "Ingreso 2026 a carreras de grado",
+      "category": "Operativo",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/"
     },
     {
-      "path": "complementos/04-posgrado-fce-dip-fo-2-5-01-instructivo-solicitud-de-certificado-de-diplomatura-universitarias.md",
-      "title": "FCE-DIP-FO 2.5-01 INSTRUCTIVO SOLICITUD DE CERTIFICADO DE DIPLOMATURA UNIVERSITARIAS",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1aLhjk07M2pIM2yAqK8m9PyTcjh1dnVLy/view?usp=drivesdk"
+      "path": "operativos/regimen-de-ensenanza.md",
+      "title": "Régimen de Enseñanza FCE-UNL",
+      "category": "Operativo",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/regimen/"
     },
     {
-      "path": "complementos/04-posgrado-instructivo-de-pago-cuota-unl-para-alumnos.md",
-      "title": "Instructivo de Pago UNL",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1MV5rnY5u1Ybj_jKpxLVi8dU5MOvCqWl9/view?usp=drivesdk"
+      "path": "posgrado-general/becas-docentes.md",
+      "title": "Becas de Posgrado para Docentes FCE UNL",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2023/09/29/becas-de-posgrado-para-docentes/"
     },
     {
-      "path": "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md",
-      "title": "TRÁMITE DE SOLICITUD DE DIPLOMA DIGITAL",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1f0yZNV2_2y5_-kPJDvxF93D9BIyDlcHa/view?usp=drivesdk"
+      "path": "posgrado-general/beneficios-graduados.md",
+      "title": "Beneficios para Graduados FCE UNL",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2025/02/10/beneficios-graduados-fce-unl/"
     },
     {
-      "path": "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md",
-      "title": "Manual alumnos - carga de comprobantes de pago",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN/view?usp=drivesdk"
+      "path": "posgrado-general/carreras-otras-unidades-overview.md",
+      "title": "Carreras de Posgrado con Otras Unidades Académicas",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/"
     },
     {
-      "path": "complementos/04-posgrado-generacion-de-contrasena-sistema-de-gestion-del-estudiante.md",
-      "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1d1Lw8fU4oG6CDUHEsPr9q1b7_lzEON80/view?usp=drivesdk"
+      "path": "posgrado-general/cursos-overview.md",
+      "title": "Cursos de Posgrado — Información e inscripción",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/"
     },
     {
-      "path": "institucional/gobierno-autoridades.md",
-      "title": "Autoridades y Organización de Gestión FCE-UNL",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/categorias/gobierno/autoridades/"
+      "path": "posgrado-general/datos-para-crawler.md",
+      "title": "Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL",
+      "description": "Procedimientos operativos verificados: pagos, comprobantes, exámenes, certificados, diplomas, contactos y trámites. Fuente: DatosParaCrawler oficial de Secretaría de Posgrado.",
+      "category": "posgrado-general",
+      "tags": [
+        "procedimientos",
+        "pagos",
+        "certificados",
+        "trámites",
+        "contactos",
+        "mercurio",
+        "exámenes"
+      ]
     },
     {
-      "path": "institucional/contactos.md",
-      "title": "Contactos y Canales Oficiales FCE-UNL",
-      "category": "Institucional",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/institucional/gobierno/organizacion-de-gestion"
+      "path": "posgrado-general/diplomaturas-overview.md",
+      "title": "Diplomaturas Nivel Superior — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/2023/12/04/diplomaturas/"
     },
     {
-      "path": "complementos/02-grado-powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.md",
-      "title": "Ciclo de Talleres en Marco del CRE",
-      "category": "Complementario",
-      "sector": "grado",
-      "canonicalUrl": "https://drive.google.com/file/d/1lr3YL2_ua2F_fRlPCokpeV6Hcrl-gWgr/view?usp=drivesdk"
+      "path": "posgrado-general/doctorados-overview.md",
+      "title": "Doctorados FCE — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/doctorados/"
     },
     {
-      "path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
-      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
-      "category": "Curso de posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+      "path": "posgrado-general/especializaciones-overview.md",
+      "title": "Especializaciones FCE — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/especializaciones/"
     },
     {
-      "path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
-      "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
-      "category": "Curso de posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+      "path": "posgrado-general/estudiantes.md",
+      "title": "Información para Estudiantes de Posgrado (trámites, diplomas, becas, calendario)",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/estudiantes/"
     },
     {
-      "path": "cursos-posgrado/gestion-de-empresas-del-sector-servicios.md",
-      "title": "Gestión de empresas del sector servicios",
-      "category": "Curso de posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+      "path": "posgrado-general/inscripciones-en-carreras.md",
+      "title": "Inscripciones en Carreras de Posgrado FCE",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/"
     },
     {
-      "path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
-      "title": "Gestión de administraciones gubernamentales",
-      "category": "Curso de posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+      "path": "posgrado-general/maestrias-overview.md",
+      "title": "Maestrías FCE — Visión general",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/maestrias/"
     },
     {
-      "path": "cursos-posgrado/gestion-presupuestaria.md",
-      "title": "Gestión Presupuestaria",
-      "category": "Curso de posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+      "path": "posgrado-general/regimen-credito-fiscal.md",
+      "title": "Régimen de Crédito Fiscal para Capacitación",
+      "category": "Información general de Posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/regimen-de-credito-fiscal-para-capacitacion/"
+    },
+    {
+      "path": "posgrados/dap.md",
+      "title": "Doctorado en Administración Pública (DAP)",
+      "category": "Doctorado",
+      "programCode": "DAP",
+      "canonicalUrl": "https://fce.unl.edu.ar/dap/"
+    },
+    {
+      "path": "posgrados/ecyap.md",
+      "title": "Especialización en Contabilidad y Auditoría para PyMEs (ECYAP)",
+      "category": "Especialización",
+      "programCode": "ECYAP",
+      "canonicalUrl": "https://fce.unl.edu.ar/ecyap/"
+    },
+    {
+      "path": "posgrados/ecyge.md",
+      "title": "Especialización en Costos y Gestión Empresarial (ECYGE)",
+      "category": "Especialización",
+      "programCode": "ECYGE",
+      "canonicalUrl": "https://fce.unl.edu.ar/ecyge/"
+    },
+    {
+      "path": "posgrados/edgop.md",
+      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Especialización",
+      "programCode": "EDGOP",
+      "canonicalUrl": "https://fce.unl.edu.ar/edgop/"
+    },
+    {
+      "path": "posgrados/maea.md",
+      "title": "Maestría en Economía Aplicada (MEA, slug histórico 'maea')",
+      "category": "Maestría",
+      "programCode": "MEA",
+      "canonicalUrl": "https://fce.unl.edu.ar/maea/"
+    },
+    {
+      "path": "posgrados/maf.md",
+      "title": "Maestría en Administración y Finanzas (MAF)",
+      "category": "Maestría",
+      "programCode": "MAF",
+      "canonicalUrl": "https://fce.unl.edu.ar/maf/"
+    },
+    {
+      "path": "posgrados/map.md",
+      "title": "Maestría en Administración Pública (MAP)",
+      "category": "Maestría",
+      "programCode": "MAP",
+      "canonicalUrl": "https://fce.unl.edu.ar/magister/"
+    },
+    {
+      "path": "posgrados/mba.md",
+      "title": "Maestría en Administración de Empresas (MBA)",
+      "category": "Maestría",
+      "programCode": "MBA",
+      "canonicalUrl": "https://fce.unl.edu.ar/mba/"
+    },
+    {
+      "path": "posgrados/mcya.md",
+      "title": "Maestría en Contabilidad y Auditoría (MCYA)",
+      "category": "Maestría",
+      "programCode": "MCYA",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/mcya/"
+    },
+    {
+      "path": "posgrados/mrso.md",
+      "title": "Maestría en Responsabilidad Social Organizacional (MRSO)",
+      "category": "Maestría",
+      "programCode": "MRSO",
+      "canonicalUrl": "https://fce.unl.edu.ar/mrso/"
+    },
+    {
+      "path": "posgrados/sindicatura-concursal.md",
+      "title": "Especialización en Sindicatura Concursal",
+      "category": "Especialización",
+      "programCode": "SC",
+      "canonicalUrl": "https://fce.unl.edu.ar/sindicatura/"
+    },
+    {
+      "path": "posgrados/tributacion.md",
+      "title": "Especialización en Tributación",
+      "category": "Especialización",
+      "programCode": "TRIB",
+      "canonicalUrl": "https://fce.unl.edu.ar/tributacion/"
     }
   ]
 }

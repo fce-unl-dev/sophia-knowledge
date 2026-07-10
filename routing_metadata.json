@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-07-06",
+  "lastUpdated": "2026-07-10",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -10,509 +10,11 @@
     "internacionales": 7,
     "docentes": 3,
     "posgrados_graduados": 42,
-    "posgrados_cursos_sin_titulo": 25,
+    "posgrados_cursos_sin_titulo": 23,
     "grado": 24,
     "tramites_bedelia": 5
   },
   "mappings": {
-    "posgrados/dap.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Doctorado en Administración Pública (DAP)",
-      "category": "Doctorado"
-    },
-    "posgrados/mba.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Administración de Empresas (MBA)",
-      "category": "Maestría"
-    },
-    "posgrados/maf.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Administración y Finanzas (MAF)",
-      "category": "Maestría"
-    },
-    "posgrados/map.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Administración Pública (MAP)",
-      "category": "Maestría"
-    },
-    "posgrados/mcya.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Contabilidad y Auditoría (MCYA)",
-      "category": "Maestría"
-    },
-    "posgrados/maea.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Economía Aplicada (MEA, slug histórico 'maea')",
-      "category": "Maestría"
-    },
-    "posgrados/mrso.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Responsabilidad Social Organizacional (MRSO)",
-      "category": "Maestría"
-    },
-    "posgrados/ecyap.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Especialización en Contabilidad y Auditoría para PyMEs (ECYAP)",
-      "category": "Especialización"
-    },
-    "posgrados/ecyge.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Especialización en Costos y Gestión Empresarial (ECYGE)",
-      "category": "Especialización"
-    },
-    "posgrados/edgop.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
-      "category": "Especialización"
-    },
-    "posgrados/sindicatura-concursal.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Especialización en Sindicatura Concursal",
-      "category": "Especialización"
-    },
-    "posgrados/tributacion.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Especialización en Tributación",
-      "category": "Especialización"
-    },
-    "diplomaturas/gfsp.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Diplomatura en Gestión Financiera del Sector Público (GFSP)",
-      "category": "Diplomatura universitaria"
-    },
-    "diplomaturas/gto.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Diplomatura en Gestión para el Trabajo en Organizaciones (GTO)",
-      "category": "Diplomatura universitaria"
-    },
-    "diplomaturas/diplomercados.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros (DIPMERC)",
-      "category": "Diplomatura universitaria superior"
-    },
-    "diplomaturas/empresas-familiares.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de las Empresas Familiares",
-      "category": "Diplomatura universitaria superior"
-    },
-    "compartidos/doctorado-estudios-sociales.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Doctorado en Estudios Sociales (compartido — sede FHUC)",
-      "category": "Posgrado compartido"
-    },
-    "compartidos/negocios-agroalimentarios.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Negocios Agroalimentarios (FCE + FCA, sede FCA)",
-      "category": "Posgrado compartido"
-    },
-    "compartidos/mdypp.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
-      "category": "Posgrado compartido"
-    },
-    "operativos/regimen-de-ensenanza.md": {
-      "sector": "docentes",
-      "displayName": "Docentes",
-      "title": "Régimen de Enseñanza FCE-UNL",
-      "category": "Operativo"
-    },
-    "operativos/aulas-virtuales.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
-      "title": "Aulas Virtuales FCE-UNL",
-      "category": "Operativo"
-    },
-    "operativos/ingreso-2026.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Ingreso 2026 a carreras de grado",
-      "category": "Operativo"
-    },
-    "estudiantes/beneficios-posgrados-fce-unl.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Beneficios para Posgrados FCE UNL",
-      "category": "Estudiantes"
-    },
-    "estudiantes/bienestar-estudiantil.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Bienestar Estudiantil",
-      "category": "Estudiantes"
-    },
-    "estudiantes/calendario-academico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Calendario Académico",
-      "category": "Estudiantes"
-    },
-    "estudiantes/centro-estudiantes.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Centro de Estudiantes",
-      "category": "Estudiantes"
-    },
-    "estudiantes/clases-consultas.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Clases de Consultas",
-      "category": "Estudiantes"
-    },
-    "estudiantes/examenes.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Exámenes",
-      "category": "Estudiantes"
-    },
-    "estudiantes/horarios-atencion.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Horarios de Atención",
-      "category": "Estudiantes"
-    },
-    "estudiantes/ingreso-2026.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Ingreso 2026",
-      "category": "Estudiantes"
-    },
-    "estudiantes/inscripciones-cursado.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Info sobre inscripciones a cursado",
-      "category": "Estudiantes"
-    },
-    "estudiantes/pasantias-rentadas.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Pasantías rentadas",
-      "category": "Estudiantes"
-    },
-    "estudiantes/practicas-profesionales-supervisadas.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Prácticas Profesionales Supervisadas",
-      "category": "Estudiantes"
-    },
-    "estudiantes/sica.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Sistema Informático de Consultas de Alumnos (SICA)",
-      "category": "Estudiantes"
-    },
-    "estudiantes/siu-guarani.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "SIU Guaraní",
-      "category": "Estudiantes"
-    },
-    "estudiantes/tramites-internos.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Trámites internos",
-      "category": "Estudiantes"
-    },
-    "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/formacion-de-gerentes-para-retail.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Formación de Gerentes para Retail",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/formacion-de-repositores-para-supermercado.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Formación de Repositores para Supermercado",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/gestion-financiera-para-emprendimientos.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión Financiera para Emprendimientos",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/la-construccion-del-pensamiento-proporcional.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "La Construcción del Pensamiento Proporcional",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/manejo-practico-de-cooperativas-y-asociaciones.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Manejo Práctico de Cooperativas y Asociaciones",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Técnicas de Venta y Atención al Cliente para el Sector Electro y Textil",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Teoría de Juegos: Fundamentos Matemáticos y Aplicaciones en Economía, Administración y Marketing",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Tokenización de Activos de la Economía Real en Argentina",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/trading-profesional-basado-en-evidencia.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Trading Profesional Basado en Evidencia",
-      "category": "Curso de formación profesional"
-    },
-    "posgrado-general/estudiantes.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Información para Estudiantes de Posgrado (trámites, diplomas, becas, calendario)",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/doctorados-overview.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Doctorados FCE — Visión general",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/maestrias-overview.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Maestrías FCE — Visión general",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/especializaciones-overview.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Especializaciones FCE — Visión general",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/cursos-overview.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Cursos de Posgrado — Información e inscripción",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/inscripciones-en-carreras.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Inscripciones en Carreras de Posgrado FCE",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/regimen-credito-fiscal.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Régimen de Crédito Fiscal para Capacitación",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/carreras-otras-unidades-overview.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Carreras de Posgrado con Otras Unidades Académicas",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/becas-docentes.md": {
-      "sector": "docentes",
-      "displayName": "Docentes",
-      "title": "Becas de Posgrado para Docentes FCE UNL",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/diplomaturas-overview.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Diplomaturas Nivel Superior — Visión general",
-      "category": "Información general de Posgrado"
-    },
-    "posgrado-general/datos-para-crawler.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL",
-      "category": "posgrado-general"
-    },
-    "posgrado-general/beneficios-graduados.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Beneficios para Graduados FCE UNL",
-      "category": "Información general de Posgrado"
-    },
-    "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
-      "title": "Resolución de Decana N° 361/23: Derogación de Resoluciones Anteriores",
-      "category": "Complementario"
-    },
-    "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
-      "title": "Resolución CD N° 640/25",
-      "category": "Complementario"
-    },
-    "complementos/06-reglamentos-y-normas-res-500-25.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
-      "title": "Resolución C.D. N° 500/25",
-      "category": "Complementario"
-    },
-    "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
-      "title": "Normas y Procedimientos de Enseñanza",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-ok-nota-baja.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Nota de Solicitud de Baja a Carrera de Posgrado",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CARRERAS DE POSGRADO - ESTUDIANTES NACIONALES",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-estudiantes-nacionales-requisitos.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CURSOS DE POSGRADO",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-tutorial-reinscripcion-anual.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Tutorial Reinscripción Anual",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Resolución C.S. Nº 503/18 - Correlatividades del Plan de Estudios de Contador Público",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición para la carrera de Contador Público",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Resolución C.S. Nº 502/18: Modificación del Plan de Estudios de Contador Público",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-dialogo-sobre-los-procesos-y-cambios-de-planes-de-estudios-cplale-con-link.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Diálogo sobre los procesos y cambios de Planes de Estudios CP, LA y LE",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-jornada-de-sensibilizacion-17-11.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Jornada de Sensibilización: Propuesta Académica FCE",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-mch-rse-556-2025.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Resolución 556/2025 del Ministerio de Capital Humano",
-      "category": "Complementario"
-    },
-    "complementos/02-grado-resolucion2598-2023.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
-      "title": "Resolución 2598/2023",
-      "category": "Complementario"
-    },
     "academica/academica.md": {
       "sector": "academica",
       "displayName": "Académica",
@@ -565,6 +67,12 @@
       "sector": "academica",
       "displayName": "Académica",
       "title": "Contador Público/ Contador Público Nacional",
+      "category": "Académica"
+    },
+    "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
       "category": "Académica"
     },
     "academica/ingreso-grado.md": {
@@ -620,150 +128,6 @@
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Tecnicatura Universitaria en Control y Auditoría Gubernamental",
       "category": "Académica"
-    },
-    "academica/diplomatura-universitaria-superior-en-fortalecimiento-y-desarrollo-de-las-empresas-familiares.md": {
-      "sector": "academica",
-      "displayName": "Académica",
-      "title": "Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares",
-      "category": "Académica"
-    },
-    "docentes/docentes.md": {
-      "sector": "docentes",
-      "displayName": "Docentes",
-      "title": "Docentes",
-      "category": "Docentes"
-    },
-    "institucional/biblioteca-biblioteca.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Biblioteca",
-      "category": "Institucional"
-    },
-    "institucional/concursos-docentes-abiertos-abiertos.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Abiertos",
-      "category": "Institucional"
-    },
-    "institucional/concursos-docentes-concursos-docentes.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Concursos Docentes",
-      "category": "Institucional"
-    },
-    "institucional/concursos-docentes-renovaciones-renovaciones.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Renovaciones",
-      "category": "Institucional"
-    },
-    "institucional/cooperadora-cooperadora.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Cooperadora",
-      "category": "Institucional"
-    },
-    "institucional/estructura-departamentos-departamento-de-administracion.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Departamento de Administración y Humanidades",
-      "category": "Institucional"
-    },
-    "institucional/estructura-departamentos-departamento-de-contabilidad-e-impuestos.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Departamento de Contabilidad e Impuestos",
-      "category": "Institucional"
-    },
-    "institucional/estructura-departamentos-departamento-de-economia.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Departamento de Economía",
-      "category": "Institucional"
-    },
-    "institucional/estructura-departamentos-departamento-de-matematica.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Departamento de Matemática",
-      "category": "Institucional"
-    },
-    "institucional/estructura-departamentos-departamento-juridico.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Departamento Jurídico",
-      "category": "Institucional"
-    },
-    "institucional/estructura-departamentos.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Departamentos",
-      "category": "Institucional"
-    },
-    "institucional/estructura-estructura-academica.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Estructura Académica",
-      "category": "Institucional"
-    },
-    "institucional/gobierno-consejo-directivo-actas-del-consejo-directivo.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Actas del Consejo Directivo",
-      "category": "Institucional"
-    },
-    "institucional/gobierno-consejo-directivo-reglamento-interno.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Reglamento interno",
-      "category": "Institucional"
-    },
-    "institucional/gobierno-gobierno.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Gobierno",
-      "category": "Institucional"
-    },
-    "institucional/himno-himno-unl.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Himno UNL",
-      "category": "Institucional"
-    },
-    "institucional/historia-historia.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Historia",
-      "category": "Institucional"
-    },
-    "institucional/institucional.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Institucional",
-      "category": "Institucional"
-    },
-    "institucional/repositorio-python-repositorio-python.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Repositorio Python",
-      "category": "Institucional"
-    },
-    "institucional/sin-categoria-avances-en-lineamientos-de-gestion.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Avances en los Lineamientos de Gestión",
-      "category": "Institucional"
-    },
-    "institucional/sin-categoria-calidad-institucional.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Calidad Institucional",
-      "category": "Institucional"
-    },
-    "institucional/ubicacion-ubicacion.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Ubicación",
-      "category": "Institucional"
     },
     "ciencia/actividades-de-investigacion.md": {
       "sector": "ciencia",
@@ -897,6 +261,414 @@
       "title": "XVI Jornadas de Investigación de la FCE",
       "category": "Ciencia y Técnica"
     },
+    "compartidos/doctorado-estudios-sociales.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Doctorado en Estudios Sociales (compartido — sede FHUC)",
+      "category": "Posgrado compartido"
+    },
+    "compartidos/mdypp.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
+      "category": "Posgrado compartido"
+    },
+    "compartidos/negocios-agroalimentarios.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Negocios Agroalimentarios (FCE + FCA, sede FCA)",
+      "category": "Posgrado compartido"
+    },
+    "complementos/02-grado-dialogo-sobre-los-procesos-y-cambios-de-planes-de-estudios-cplale-con-link.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Diálogo sobre los procesos y cambios de Planes de Estudios CP, LA y LE",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-jornada-de-sensibilizacion-17-11.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Jornada de Sensibilización: Propuesta Académica FCE",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-mch-rse-556-2025.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Resolución 556/2025 del Ministerio de Capital Humano",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Ciclo de Talleres en Marco del CRE",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Resolución C.S. Nº 503/18 - Correlatividades del Plan de Estudios de Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición para la carrera de Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Resolución C.S. Nº 502/18: Modificación del Plan de Estudios de Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/02-grado-resolucion2598-2023.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Resolución 2598/2023",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CARRERAS DE POSGRADO - ESTUDIANTES NACIONALES",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-estudiantes-nacionales-requisitos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-fce-dip-fo-2-5-01-instructivo-solicitud-de-certificado-de-diplomatura-universitarias.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "FCE-DIP-FO 2.5-01 INSTRUCTIVO SOLICITUD DE CERTIFICADO DE DIPLOMATURA UNIVERSITARIAS",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-generacion-de-contrasena-sistema-de-gestion-del-estudiante.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-guia-entorno-virtual-para-generar-usuario.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Guía para la Creación de Cuentas de Usuario en el Entorno Virtual FCE UNL",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-instructivo-de-pago-cuota-unl-para-alumnos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Instructivo de Pago UNL",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Manual alumnos - carga de comprobantes de pago",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-ok-nota-baja.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Nota de Solicitud de Baja a Carrera de Posgrado",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-ok-nota-equivalencias.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Nota de Solicitud de Equivalencias para Posgrado",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CURSOS DE POSGRADO",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "TRÁMITE DE SOLICITUD DE DIPLOMA DIGITAL",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-tutorial-reinscripcion-anual.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Tutorial Reinscripción Anual",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Resolución de Decana N° 361/23: Derogación de Resoluciones Anteriores",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Normas y Procedimientos de Enseñanza",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-res-500-25.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Resolución C.D. N° 500/25",
+      "category": "Complementario"
+    },
+    "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Resolución CD N° 640/25",
+      "category": "Complementario"
+    },
+    "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/gestion-de-administraciones-gubernamentales.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Gestión de administraciones gubernamentales",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado"
+    },
+    "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Capacitación en Power BI — Gestión Estratégica de Datos para la Toma de Decisiones",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/formacion-de-gerentes-para-retail.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Formación de Gerentes para Retail",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/formacion-de-repositores-para-supermercado.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Formación de Repositores para Supermercado",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/gestion-financiera-para-emprendimientos.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Gestión Financiera para Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Introducción a la Operatoria en Mercado de Capitales para Organizaciones",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/la-construccion-del-pensamiento-proporcional.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "La Construcción del Pensamiento Proporcional",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/manejo-practico-de-cooperativas-y-asociaciones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Manejo Práctico de Cooperativas y Asociaciones",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Planillas de Cálculo para Gestionar tu Emprendimiento",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Técnicas de Venta y Atención al Cliente para el Sector Electro y Textil",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Teoría de Juegos: Fundamentos Matemáticos y Aplicaciones en Economía, Administración y Marketing",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Tokenización de Activos de la Economía Real en Argentina",
+      "category": "Curso de formación profesional"
+    },
+    "cursos/trading-profesional-basado-en-evidencia.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Trading Profesional Basado en Evidencia",
+      "category": "Curso de formación profesional"
+    },
+    "diplomaturas/diplomercados.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros (DIPMERC)",
+      "category": "Diplomatura universitaria superior"
+    },
+    "diplomaturas/empresas-familiares.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomatura Universitaria Superior en Fortalecimiento y Desarrollo de las Empresas Familiares",
+      "category": "Diplomatura universitaria superior"
+    },
+    "diplomaturas/gfsp.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Diplomatura en Gestión Financiera del Sector Público (GFSP)",
+      "category": "Diplomatura universitaria"
+    },
+    "diplomaturas/gto.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Diplomatura en Gestión para el Trabajo en Organizaciones (GTO)",
+      "category": "Diplomatura universitaria"
+    },
+    "docentes/docentes.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Docentes",
+      "category": "Docentes"
+    },
+    "estudiantes/beneficios-posgrados-fce-unl.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Beneficios para Posgrados FCE UNL",
+      "category": "Estudiantes"
+    },
+    "estudiantes/bienestar-estudiantil.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Bienestar Estudiantil",
+      "category": "Estudiantes"
+    },
+    "estudiantes/calendario-academico.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Calendario Académico",
+      "category": "Estudiantes"
+    },
+    "estudiantes/centro-estudiantes.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Centro de Estudiantes",
+      "category": "Estudiantes"
+    },
+    "estudiantes/clases-consultas.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Clases de Consultas",
+      "category": "Estudiantes"
+    },
+    "estudiantes/examenes.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Exámenes",
+      "category": "Estudiantes"
+    },
+    "estudiantes/horarios-atencion.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Horarios de Atención",
+      "category": "Estudiantes"
+    },
+    "estudiantes/ingreso-2026.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Ingreso 2026",
+      "category": "Estudiantes"
+    },
+    "estudiantes/inscripciones-cursado.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Info sobre inscripciones a cursado",
+      "category": "Estudiantes"
+    },
+    "estudiantes/pasantias-rentadas.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Pasantías rentadas",
+      "category": "Estudiantes"
+    },
+    "estudiantes/practicas-profesionales-supervisadas.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Prácticas Profesionales Supervisadas",
+      "category": "Estudiantes"
+    },
+    "estudiantes/sica.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Sistema Informático de Consultas de Alumnos (SICA)",
+      "category": "Estudiantes"
+    },
+    "estudiantes/siu-guarani.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "SIU Guaraní",
+      "category": "Estudiantes"
+    },
+    "estudiantes/tramites-internos.md": {
+      "sector": "grado",
+      "displayName": "Estudiantes de Grado",
+      "title": "Trámites internos",
+      "category": "Estudiantes"
+    },
     "extension/actividades-abiertas-a-la-comunidad.md": {
       "sector": "extension",
       "displayName": "Extensión",
@@ -932,6 +704,152 @@
       "displayName": "Extensión",
       "title": "Visitas a empresas e instituciones",
       "category": "Extensión"
+    },
+    "institucional/biblioteca-biblioteca.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Biblioteca",
+      "category": "Institucional"
+    },
+    "institucional/concursos-docentes-abiertos-abiertos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Abiertos",
+      "category": "Institucional"
+    },
+    "institucional/concursos-docentes-concursos-docentes.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Concursos Docentes",
+      "category": "Institucional"
+    },
+    "institucional/concursos-docentes-renovaciones-renovaciones.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Renovaciones",
+      "category": "Institucional"
+    },
+    "institucional/contactos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Contactos y Canales Oficiales FCE-UNL",
+      "category": "Institucional",
+      "core": true
+    },
+    "institucional/cooperadora-cooperadora.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Cooperadora",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-administracion.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Administración y Humanidades",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-contabilidad-e-impuestos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Contabilidad e Impuestos",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-economia.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Economía",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-de-matematica.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento de Matemática",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos-departamento-juridico.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamento Jurídico",
+      "category": "Institucional"
+    },
+    "institucional/estructura-departamentos.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Departamentos",
+      "category": "Institucional"
+    },
+    "institucional/estructura-estructura-academica.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Estructura Académica",
+      "category": "Institucional"
+    },
+    "institucional/gobierno-autoridades.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Autoridades y Organización de Gestión FCE-UNL",
+      "category": "Institucional",
+      "core": true
+    },
+    "institucional/gobierno-consejo-directivo-actas-del-consejo-directivo.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Actas del Consejo Directivo",
+      "category": "Institucional"
+    },
+    "institucional/gobierno-consejo-directivo-reglamento-interno.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Reglamento interno",
+      "category": "Institucional"
+    },
+    "institucional/gobierno-gobierno.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Gobierno",
+      "category": "Institucional"
+    },
+    "institucional/himno-himno-unl.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Himno UNL",
+      "category": "Institucional"
+    },
+    "institucional/historia-historia.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Historia",
+      "category": "Institucional"
+    },
+    "institucional/institucional.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Institucional",
+      "category": "Institucional"
+    },
+    "institucional/repositorio-python-repositorio-python.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Repositorio Python",
+      "category": "Institucional"
+    },
+    "institucional/sin-categoria-avances-en-lineamientos-de-gestion.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Avances en los Lineamientos de Gestión",
+      "category": "Institucional"
+    },
+    "institucional/sin-categoria-calidad-institucional.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Calidad Institucional",
+      "category": "Institucional"
+    },
+    "institucional/ubicacion-ubicacion.md": {
+      "sector": "institucional",
+      "displayName": "Institucional",
+      "title": "Ubicación",
+      "category": "Institucional"
     },
     "internacionales/2022-edition.md": {
       "sector": "internacionales",
@@ -975,97 +893,167 @@
       "title": "Redes",
       "category": "Relaciones Internacionales"
     },
-    "complementos/04-posgrado-guia-entorno-virtual-para-generar-usuario.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Guía para la Creación de Cuentas de Usuario en el Entorno Virtual FCE UNL",
-      "category": "Complementario"
+    "operativos/aulas-virtuales.md": {
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
+      "title": "Aulas Virtuales FCE-UNL",
+      "category": "Operativo"
     },
-    "complementos/04-posgrado-ok-nota-equivalencias.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Nota de Solicitud de Equivalencias para Posgrado",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-fce-dip-fo-2-5-01-instructivo-solicitud-de-certificado-de-diplomatura-universitarias.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "FCE-DIP-FO 2.5-01 INSTRUCTIVO SOLICITUD DE CERTIFICADO DE DIPLOMATURA UNIVERSITARIAS",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-instructivo-de-pago-cuota-unl-para-alumnos.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Instructivo de Pago UNL",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "TRÁMITE DE SOLICITUD DE DIPLOMA DIGITAL",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Manual alumnos - carga de comprobantes de pago",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-generacion-de-contrasena-sistema-de-gestion-del-estudiante.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
-      "category": "Complementario"
-    },
-    "institucional/gobierno-autoridades.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Autoridades y Organización de Gestión FCE-UNL",
-      "category": "Institucional",
-      "core": true
-    },
-    "institucional/contactos.md": {
-      "sector": "institucional",
-      "displayName": "Institucional",
-      "title": "Contactos y Canales Oficiales FCE-UNL",
-      "category": "Institucional",
-      "core": true
-    },
-    "complementos/02-grado-powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.md": {
+    "operativos/ingreso-2026.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "Ciclo de Talleres en Marco del CRE",
-      "category": "Complementario"
+      "title": "Ingreso 2026 a carreras de grado",
+      "category": "Operativo"
     },
-    "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
-      "category": "Curso de posgrado"
+    "operativos/regimen-de-ensenanza.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Régimen de Enseñanza FCE-UNL",
+      "category": "Operativo"
     },
-    "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
-      "category": "Curso de posgrado"
+    "posgrado-general/becas-docentes.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Becas de Posgrado para Docentes FCE UNL",
+      "category": "Información general de Posgrado"
     },
-    "cursos-posgrado/gestion-de-empresas-del-sector-servicios.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión de empresas del sector servicios",
-      "category": "Curso de posgrado"
+    "posgrado-general/beneficios-graduados.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Beneficios para Graduados FCE UNL",
+      "category": "Información general de Posgrado"
     },
-    "cursos-posgrado/gestion-de-administraciones-gubernamentales.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión de administraciones gubernamentales",
-      "category": "Curso de posgrado"
+    "posgrado-general/carreras-otras-unidades-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Carreras de Posgrado con Otras Unidades Académicas",
+      "category": "Información general de Posgrado"
     },
-    "cursos-posgrado/gestion-presupuestaria.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión Presupuestaria",
-      "category": "Curso de posgrado"
+    "posgrado-general/cursos-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Cursos de Posgrado — Información e inscripción",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/datos-para-crawler.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL",
+      "category": "posgrado-general"
+    },
+    "posgrado-general/diplomaturas-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomaturas Nivel Superior — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/doctorados-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Doctorados FCE — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/especializaciones-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especializaciones FCE — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/estudiantes.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Información para Estudiantes de Posgrado (trámites, diplomas, becas, calendario)",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/inscripciones-en-carreras.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Inscripciones en Carreras de Posgrado FCE",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/maestrias-overview.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestrías FCE — Visión general",
+      "category": "Información general de Posgrado"
+    },
+    "posgrado-general/regimen-credito-fiscal.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Régimen de Crédito Fiscal para Capacitación",
+      "category": "Información general de Posgrado"
+    },
+    "posgrados/dap.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Doctorado en Administración Pública (DAP)",
+      "category": "Doctorado"
+    },
+    "posgrados/ecyap.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Contabilidad y Auditoría para PyMEs (ECYAP)",
+      "category": "Especialización"
+    },
+    "posgrados/ecyge.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Costos y Gestión Empresarial (ECYGE)",
+      "category": "Especialización"
+    },
+    "posgrados/edgop.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Especialización"
+    },
+    "posgrados/maea.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Economía Aplicada (MEA, slug histórico 'maea')",
+      "category": "Maestría"
+    },
+    "posgrados/maf.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración y Finanzas (MAF)",
+      "category": "Maestría"
+    },
+    "posgrados/map.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración Pública (MAP)",
+      "category": "Maestría"
+    },
+    "posgrados/mba.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Administración de Empresas (MBA)",
+      "category": "Maestría"
+    },
+    "posgrados/mcya.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Contabilidad y Auditoría (MCYA)",
+      "category": "Maestría"
+    },
+    "posgrados/mrso.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Responsabilidad Social Organizacional (MRSO)",
+      "category": "Maestría"
+    },
+    "posgrados/sindicatura-concursal.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Sindicatura Concursal",
+      "category": "Especialización"
+    },
+    "posgrados/tributacion.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Especialización en Tributación",
+      "category": "Especialización"
     }
   }
 }
