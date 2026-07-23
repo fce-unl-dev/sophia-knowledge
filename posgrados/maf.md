@@ -50,30 +50,18 @@ Durante esta estadía en el exterior, el alumno cursará asignaturas del Módulo
 - Mercados Financieros y de Capitales
 - Instrumentos Financieros y Derivados
 - Evaluación y Análisis de Riesgo de Proyectos de Inversión
-- Asignatura Optativa I (Finanzas)
+- Asignatura optativa I(Finanzas)
 
 **Pasantía en empresa** (parte del plan)
 
 ### Trabajo final / tesis
-Trabajo Final individual que demuestre destreza conceptual y metodológica en disciplinas administrativas y/o de finanzas, codirigido por docentes especialistas de ambas universidades.
+El Trabajo Final, de carácter individual, debe demostrar la destreza en el manejo conceptual y metodológico en las disciplinas administrativas y/o de finanzas, bajo la dirección compartida de docentes especialistas de ambas universidades.
 
 ## Cuerpo docente
 
-Las asignaturas son dictadas por especialistas del ámbito nacional e internacional. Los profesores que integran el cuerpo docente de la carrera provienen de las siguientes instituciones académicas:
-
-**Extranjeras:**
-- Universidad de Ciencias Empresariales de la Universidad de Ciencias Aplicadas de Kaiserslautern (Alemania)
-- Universidad Politécnica delle Marche (Ancona, Italia)
-- Universidad Federal de Minas Gerais (Brasil)
-- Otras
-
-**Nacionales:**
-- Universidad Nacional del Litoral
-- Universidad de Buenos Aires
-- Universidad del CEMA
-- Comisión Económica para América Latina (CEPAL)
-- Universidad Nacional de Rosario
-- Otras
+Las asignaturas de la Maestría son dictadas por especialistas en el ámbito nacional e internacional. Los profesores que integran el cuerpo docente de la carrera provienen de las siguientes instituciones académicas:
+- **Extranjeras**: Universidad de Ciencias Empresariales de la Universidad de Ciencias Aplicadas de Kaiserslautern (Alemania), Universidad Politécnica delle Marche (Ancona-Italia), Universidad Federal de Mina Gerais (Brasil), entre otras.
+- **Nacionales**: Universidad Nacional del Litoral, Universidad de Buenos Aires, Universidad del CEMA, Comisión Económica para América Latina (CEPAL), Universidad Nacional de Rosario, entre otras.
 
 Nómina docente individualizada no publicada en fuentes oficiales; consultar con maf@fce.unl.edu.ar.
 
@@ -81,16 +69,16 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 - **Título previo requerido**: Título universitario de grado (no especificado en detalle en fuentes oficiales) — consultar con maf@fce.unl.edu.ar
 - **Idiomas**: Inglés (las asignaturas se dictan en inglés)
-- **Otros antecedentes**: No publicado en detalle — consultar
+- **Otros antecedentes**: Selección competitiva. Los/las estudiantes seleccionados obtienen Beca CUAA que incluye pasajes aéreos, matrícula y otros beneficios. CUAA es financiado por los gobiernos de Argentina y Alemania y un consorcio de empresas multinacionales alemanas.
 - **Documentación a presentar**: No publicada en detalle — consultar
-- **Proceso de admisión**: Selección competitiva. Los/las estudiantes seleccionados obtienen Beca CUAA que incluye pasajes aéreos, matrícula y otros beneficios. CUAA es financiado por los gobiernos de Argentina y Alemania y un consorcio de empresas multinacionales alemanas. Se convoca a entrevista con el Director de la Carrera.
+- **Proceso de admisión**: Los/las estudiantes interesados/as deben ingresar al link de pre-inscripción. A partir de allí, se convocará a una entrevista con el Director de la Carrera quien informará sobre cuestiones académicas y el valor de la matrícula.
 
 ## Aranceles e inscripción
 
 - **Matrícula**: **A consultar con el Director de la Carrera**
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentario-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios. Financiado por los gobiernos de Argentina y Alemania y un consorcio de empresas multinacionales alemanas.
+- **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentino-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios. El organismo que permite el otorgamiento de dicha Beca es el Centro Universitario Argentino-Alemán (CUAA), el cual a su vez recibe fondos de los Gobiernos de Argentina y Alemania, y de un consorcio de empresas multinacionales alemanas.
 - **Estado actual de inscripción**: Abierta para inicio en **Septiembre/Octubre de 2026**
 - **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
@@ -116,13 +104,13 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 ## Información adicional relevante
 
-- **Antecedentes**: En 2012 la FCE-UNL se presentó a la convocatoria del CUAA compitiendo con 30 universidades nacionales y resultó seleccionada junto con otras 4 universidades argentinas. La acreditación CONEAU original fue en diciembre de 2013. La carrera comenzó en abril de 2014.
+- **Antecedentes**: En el año 2012, la Facultad de Ciencias Económicas de la UNL se presentó a una convocatoria del Centro Universitario Argentino-Alemán (CUAA), en la cual compitió con 30 universidades nacionales, y resultó seleccionada junto con otras 4 universidades argentinas. El punto culminante de este exigente y arduo proceso, fue la acreditación por CONEAU en diciembre de 2013. La carrera comenzó en abril de 2014.
 - **Estadía en Alemania**: Aproximadamente 7 meses, con aprobación de asignaturas en inglés, curso de idioma y cultura alemana y pasantía en empresa.
 - **Universidad socia**: Hochschule Kaiserslautern — https://www.hs-kl.de/
 - **CUAA**: http://www.cuaa-dahz.org/es/
-- **Comité Académico**: Es el órgano asesor del Consejo Directivo de la Facultad. Está integrado por el Director de la Carrera, el coordinador de la carrera y el responsable del programa de intercambio, la Secretaria Académica, la Secretaria de Posgrado, la Secretaria de Investigación y Formación de RR. HH. y el Director del Departamento de Administración de la Facultad. Interviene en el proceso de admisión de los postulantes, participa en el análisis de contenidos y docentes, evalúa proyectos de Trabajo Finales y propone jurados, y opina sobre planes de investigación, extensión y vinculación.
-- **Promoción de asignaturas**: Las metodologías aplicadas enfatizan el equilibrio entre formación teórica y aplicación práctica. Se favorece el aprendizaje activo y reflexivo, utilizando diversas técnicas para incentivar la participación, el trabajo en equipo y la toma de decisiones. Todas las asignaturas cuentan con al menos una instancia de evaluación individual, combinando conocimientos teóricos y aplicaciones prácticas.
-- **Perfil del egresado**: Capacidad analítica, crítica e innovadora; aptitudes profesionales en Administración y Finanzas; formación intercultural Argentina-Europa, constituyendo un factor de diferenciación en el gerenciamiento de empresas latinoamericanas y europeas.
+- **Comité Académico**: Es el órgano asesor del Consejo Directivo de la Facultad. Está integrado por el Director de la Carrera, el coordinador de la carrera y el responsable del programa de intercambio, la Secretaria Académica, la Secretaria de Posgrado, la Secretaria de Investigación y Formación de RR. HH. y el Director del Departamento de Administración de la Facultad. Entre otras funciones se destacan las siguientes: interviene en el proceso de admisión de los postulantes; participa en el análisis de los contenidos de las asignaturas que forman parte de la currícula, así como también valora los antecedentes de los docentes responsables de su dictado; evalúa la pertinencia de los temas abordados en los proyectos de Trabajo Finales, analiza los antecedentes de los Directores y propone los jurados que intervendrán en la evaluación; y opina acerca de los planes y actividades de investigación, extensión y vinculación propuestos por la Dirección Académica.
+- **Promoción de asignaturas**: Las metodologías aplicadas en la carrera enfatizan la búsqueda de un equilibrio entre la formación teórica y su aplicación a partir del análisis de casos reales. Se favorece el aprendizaje activo y reflexivo y se utilizan diversas técnicas para incentivar la participación de los/as estudiantes, el trabajo en equipo y la toma de decisiones, con el objetivo de profundizar el entrenamiento, la formación de habilidades y el desarrollo de la capacidad de liderazgo. La carrera dispone de un entorno virtual que permite complementar el desarrollo de las asignaturas a través de la plataforma de e-learning de la UNL así como también la utilización del sistema de videoconferencias que favorece la participación de académicos de otras universidades del país o del exterior. Los sistemas de evaluación y promoción de las asignaturas presentan diversas modalidades según el tipo de contenidos y el criterio de los profesores responsables. Todas las asignaturas cuentan con al menos una instancia de evaluación individual, donde se conjugan conocimientos teóricos y aplicaciones prácticas.
+- **Perfil del egresado**: El profesional graduado será capaz de: desarrollar su capacidad analítica, crítica e innovadora, potenciando sus aportes al crecimiento de la región y del país y a la resolución de los problemas de la sociedad en su conjunto; actuar en ambientes de incertidumbre y competencia, con una clara predisposición a la acción, visión estratégica, potencial de liderazgo, sólida formación ética y habilidad para interactuar en diferentes culturas; adquirir aptitudes profesionales en las disciplinas de Administración y Finanzas; desarrollar una formación intercultural vinculada a Argentina y a los países que integran la Comunidad Económica Europea, constituyendo un factor de diferenciación en el gerenciamiento de empresas latinoamericanas y europeas.
 
 ## Fuentes consultadas
 
@@ -141,9 +129,8 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Novedades - Doble titulación con Alemania)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
-- https://www.hs-kl.de/ (Universidad socia)
-- http://www.cuaa-dahz.org/es/ (CUAA)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-29 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-23 por pipeline de scraping.
