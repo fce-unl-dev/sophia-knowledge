@@ -11,7 +11,7 @@ La Maestría en Administración y Finanzas (MAF) es una carrera binacional argen
 - **Tipo**: Maestría profesional binacional con doble titulación
 - **Título que otorga**: Doble titulación:
   - "Magíster en Administración y Finanzas" de la UNL
-  - "Master of Arts “International Master in Management and Finance”" de la FHKL
+  - "Master of Arts in Management and Finance" de la FHKL
 - **Acreditación CONEAU**: Acreditada por CONEAU en 2020 — Res. N° 171. Reconocimiento Oficial Provisorio del Título por Res. ME N° 2929/21. (Primera acreditación CONEAU original: diciembre 2013.)
 - **Unidad académica**: FCE-UNL
 - **Carreras compartidas con otras unidades**: Sí — Universidad de Ciencias Aplicadas de Kaiserslautern (Alemania). Convenio en el marco del Centro Universitario Argentino-Alemán (CUAA).
@@ -45,7 +45,7 @@ Durante esta estadía en el exterior, el alumno cursará asignaturas del Módulo
 - Finanzas de la Empresa
 - Asignatura Optativa I
 
-**Módulo Finanzas** (5 asignaturas: 4 obligatorias + 1 optativa) — Mención en Finanzas de Empresas
+**Módulo Finanzas** (5 asignaturas: 4 obligatorias + 1 optativa) — Mención en Finanzas de Empresas (*)
 - Valuación de Negocios
 - Mercados Financieros y de Capitales
 - Instrumentos Financieros y Derivados
@@ -87,7 +87,7 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - **Fecha de inicio**: **2026-09 / 2026-10**
 - **Estado**: Abierta
 - **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
-- **Última actualización del dato**: **2026-06-29**
+- **Última actualización del dato**: **2026-07-27**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -104,13 +104,13 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 ## Información adicional relevante
 
-- **Antecedentes**: En el año 2012, la Facultad de Ciencias Económicas de la UNL se presentó a una convocatoria del Centro Universitario Argentino-Alemán (CUAA), en la cual compitió con 30 universidades nacionales, y resultó seleccionada junto con otras 4 universidades argentinas. El punto culminante de este exigente y arduo proceso, fue la acreditación por CONEAU en diciembre de 2013. La carrera comenzó en abril de 2014.
+- **Antecedentes**: En el año 2012, la Facultad de Ciencias Económicas de la UNL se presentó a una convocatoria del Centro Universitario Argentino-Alemán (CUAA), en la cual compitió con 30 universidades nacionales, y resultó seleccionada junto con otras 4 universidades argentinas. El punto culminante de este exigente y arduo proceso, fue la acreditación por CONEAU en diciembre de 2013. La carrera comenzó en abril de 2014 y a partir de ahí, tanto los/las estudiantes argentinos/as como los/las alemanes/as, han llevado a cabo parte de sus trayectoria académicas en la Universidad Socia.
 - **Estadía en Alemania**: Aproximadamente 7 meses, con aprobación de asignaturas en inglés, curso de idioma y cultura alemana y pasantía en empresa.
 - **Universidad socia**: Hochschule Kaiserslautern — https://www.hs-kl.de/
 - **CUAA**: http://www.cuaa-dahz.org/es/
 - **Comité Académico**: Es el órgano asesor del Consejo Directivo de la Facultad. Está integrado por el Director de la Carrera, el coordinador de la carrera y el responsable del programa de intercambio, la Secretaria Académica, la Secretaria de Posgrado, la Secretaria de Investigación y Formación de RR. HH. y el Director del Departamento de Administración de la Facultad. Entre otras funciones se destacan las siguientes: interviene en el proceso de admisión de los postulantes; participa en el análisis de los contenidos de las asignaturas que forman parte de la currícula, así como también valora los antecedentes de los docentes responsables de su dictado; evalúa la pertinencia de los temas abordados en los proyectos de Trabajo Finales, analiza los antecedentes de los Directores y propone los jurados que intervendrán en la evaluación; y opina acerca de los planes y actividades de investigación, extensión y vinculación propuestos por la Dirección Académica.
 - **Promoción de asignaturas**: Las metodologías aplicadas en la carrera enfatizan la búsqueda de un equilibrio entre la formación teórica y su aplicación a partir del análisis de casos reales. Se favorece el aprendizaje activo y reflexivo y se utilizan diversas técnicas para incentivar la participación de los/as estudiantes, el trabajo en equipo y la toma de decisiones, con el objetivo de profundizar el entrenamiento, la formación de habilidades y el desarrollo de la capacidad de liderazgo. La carrera dispone de un entorno virtual que permite complementar el desarrollo de las asignaturas a través de la plataforma de e-learning de la UNL así como también la utilización del sistema de videoconferencias que favorece la participación de académicos de otras universidades del país o del exterior. Los sistemas de evaluación y promoción de las asignaturas presentan diversas modalidades según el tipo de contenidos y el criterio de los profesores responsables. Todas las asignaturas cuentan con al menos una instancia de evaluación individual, donde se conjugan conocimientos teóricos y aplicaciones prácticas.
-- **Perfil del egresado**: El profesional graduado será capaz de: desarrollar su capacidad analítica, crítica e innovadora, potenciando sus aportes al crecimiento de la región y del país y a la resolución de los problemas de la sociedad en su conjunto; actuar en ambientes de incertidumbre y competencia, con una clara predisposición a la acción, visión estratégica, potencial de liderazgo, sólida formación ética y habilidad para interactuar en diferentes culturas; adquirir aptitudes profesionales en las disciplinas de Administración y Finanzas; desarrollar una formación intercultural vinculada a Argentina y a los países que integran la Comunidad Económica Europea, constituyendo un factor de diferenciación en el gerenciamiento de empresas latinoamericanas y europeas.
+- **Perfil del egresado**: El profesional graduado en nuestra Maestría será capaz de: desarrollar su capacidad analítica, crítica e innovadora, potenciando sus aportes al crecimiento de la región y del país y a la resolución de los problemas de la sociedad en su conjunto; actuar en ambientes de incertidumbre y competencia, con una clara predisposición a la acción, visión estratégica, potencial de liderazgo, sólida formación ética y habilidad para interactuar en diferentes culturas; adquirir aptitudes profesionales en las disciplinas de Administración y Finanzas; desarrollar una formación intercultural vinculada a Argentina y a los países que integran la Comunidad Económica Europea, constituyendo un factor de diferenciación en el gerenciamiento de empresas latinoamericanas y europeas.
 
 ## Fuentes consultadas
 
@@ -127,10 +127,9 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=79 (Dirección Académica)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85 (Comité académico)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Novedades - Doble titulación con Alemania)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
+- https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-23 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-27 por pipeline de scraping.
