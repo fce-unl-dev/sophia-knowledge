@@ -99,14 +99,14 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
-- **Última actualización del dato**: **2026-06-08**
+- **Última actualización del dato**: **2026-07-27**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director académico**: Mg. Ricardo Pedro Melini
-- **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos**: Mg. Julia Edith Cristobal
+- **Director/a académico/a**: Mg. Ricardo Melini
+- **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos**: Mg. Julia Cristobal
 - **Email del programa**: mcya@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: +54 9 342 449 1939
@@ -115,8 +115,10 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 ## Información adicional relevante
 
 - **Comité Académico**:
-  - Directora de la carrera: Mg. Ricardo Pedro MELINI
-  - Representantes de la Carrera: Mg. María Luz CASABIANCA, Mg. Julia Edith CRISTOBAL
+  - Directora de la carrera: Mg. Ricardo Melini
+  - Representantes de la Carrera:
+    - Mg. María Luz CASABIANCA
+    - Mg. Julia Cristobal
   - Representantes de Decanato:
     - Secretaria Académica y Bienestar Estudiantil: Mg. Andrea PACÍFICO
     - Secretaria de Posgrado: Mg. Marcela Andrea MARTIN
@@ -135,14 +137,12 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/mcya/ (Información de interés)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201 (Cursado y evaluación, Trabajo Final)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=202 (Días y horarios de cursado)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=203 (Duración de la carrera, Trabajo Final)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197 (Requisitos de inscripción)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=204 (Título que otorga)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=205 (Objetivos)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=206 (Perfil de egresado)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=207 (Estructura del plan de estudio, Asignaturas optativas)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=208 (Conducción de la carrera)
@@ -152,4 +152,4 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ---
 
-**Última revisión humana**: 2026-06-23
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-27 por pipeline de scraping.
