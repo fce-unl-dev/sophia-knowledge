@@ -28,14 +28,17 @@
 - II Encuentro Nacional de Universidades por la Cultura Comunitaria
 - 6 y 7 de agosto, Universidad Nacional de Villa María
 - Más información
-- RESER Conference 2026. «Service Studies 2030: Advances and Challenges for Responsible Services and Resilient Societies».
-- Brasília, Brazil | 28 to 30 October 2026
+- II Jornadas Nacionales de Educación 2026
+- 3 y 4 de septiembre, Mendoza.
 - Más información
 - 31ª Reunión Anual Red PyMEs Mercosur
 - 1 y 2 de octubre, Facultad de Ciencias Económicas – UNL Santa Fe, Argentina
 - Más información
 - VIII Jornadas Nacionales sobre Estudios Regionales y Mercados de Trabajo X Foro “Mercados de trabajo, digitalización y nuevas configuraciones laborales”
 - 14, 15 y 16 de Octubre de 2026
+- Más información
+- RESER Conference 2026. «Service Studies 2030: Advances and Challenges for Responsible Services and Resilient Societies».
+- Brasília, Brazil | 28 to 30 October 2026
 - Más información
 - 47o Jornadas Nacionales de Profesores Universitarios de Matemática Financiera
 - 29, 30 y 31 de Octubre de 2026, Facultad de Ciencias Económicas y Sociales de la UNMdP
@@ -58,5 +61,5 @@
 
 ---
 
-**Última revisión automática**: 2026-07-23 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-07-27 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
