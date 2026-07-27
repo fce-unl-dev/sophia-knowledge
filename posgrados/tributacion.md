@@ -21,7 +21,7 @@ La Especialización en Tributación es una carrera de posgrado con muchos años 
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción mixta)
 - **Idioma**: Español
 - **Duración cursada**: 2 años (Cuatro cuatrimestres)
-- **Duración trabajo final / tesis**: Plazo máximo 3 años desde la admisión a la carrera
+- **Duración trabajo final / tesis**: Plazo máximo 3 años desde la admisión a la carrera.
 - **Carga horaria total**: 420 horas / 28 unidades de créditos académicos (UCAs)
 
 ## Plan de estudios
@@ -52,6 +52,7 @@ Trabajo Final Integrador individual. Plazo máximo: 3 años desde la admisión a
 ## Cuerpo docente
 
 Nuestro plantel está conformado por profesores de reconocida trayectoria en sus áreas, con desempeños tanto en el ámbito privado como público pero además, son didácticos docentes. Miembros de organismos profesionales y empresarios; funcionarios en organismos estatales, autores de trabajos y libros; participantes de equipos docentes estables de otras Especializaciones en Tributación a lo largo del país, además de ser ellos mismos titulados –más allá de su formación de grado- especialistas, magísteres y doctores en el área forma parte ya sea del plantel estable como así también participan como invitados especiales.
+Algunos de los profesores que nos acompañan son:
 
 **Docentes Locales:**
 - Dr. CPN Julio Yódice
@@ -72,7 +73,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título universitario de grado de Contador Público, otorgado por Universidades argentinas nacionales o provinciales, públicas o privadas, legalmente reconocidas. En el caso que se postulen graduados provenientes de otras disciplinas afines a las Ciencias Económicas se evaluará su admisión, pudiendo solicitarse una instancia de nivelación, previa al inicio de la carrera, a los efectos de asegurar y homogeneizar una plataforma mínima de conocimientos en los aspectos tributarios que estos aspirantes no posean. También se admitirán los graduados que posean título universitario vinculado a las Ciencias Económicas, provenientes de Universidades Extranjeras, oficialmente reconocidas en sus respectivos paises.
+- **Título previo requerido**: Podrán ser admitidos en la Carrera los graduados que posean título universitario de grado de Contador Público, otorgado por Universidades argentinas nacionales o provinciales, públicas o privadas, legalmente reconocidas. En el caso que se postulen graduados provenientes de otras disciplinas afines a las Ciencias Económicas se evaluará su admisión, pudiendo solicitarse una instancia de nivelación, previa al inicio de la carrera, a los efectos de asegurar y homogeneizar una plataforma mínima de conocimientos en los aspectos tributarios que estos aspirantes no posean. También se admitirán los graduados que posean título universitario vinculado a las Ciencias Económicas, provenientes de Universidades Extranjeras, oficialmente reconocidas en sus respectivos paises.
 - **Idiomas**: No publicado — consultar
 - **Otros antecedentes**: No publicados — consultar
 - **Documentación a presentar**: No publicada en detalle — consultar con tributacion@fce.unl.edu.ar
@@ -92,7 +93,7 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
-- **Última actualización del dato**: **2026-07-06**
+- **Última actualización del dato**: **2026-07-27**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -133,14 +134,13 @@ Nuestro plantel está conformado por profesores de reconocida trayectoria en sus
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=144 (Cursado y evaluación)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showCategoria&id=194 (Informes e Inscripción - Requisitos)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=153 (Estructura del Plan de Estudio)
-- https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=148 (Detalle de las Asignaturas)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=152 (Cursos de Posgrado)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=180 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=151 (Comité Académico)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=167 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=149 (Docentes de la carrera)
-- https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades - Inscripciones)
+- https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-06 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-27 por pipeline de scraping.

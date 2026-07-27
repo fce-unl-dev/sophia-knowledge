@@ -2,14 +2,14 @@
   "slug": "tributacion",
   "url": "https://fce.unl.edu.ar/tributacion/",
   "strategy": "fce-microsite",
-  "content_hash": "1be50e2e12a09752bab0c9b361caf41b59dfb3cc12c68de15e590e84bcbcbf71",
-  "previous_hash": "f9eb7321ee519972d48a2df952dbaf4fea802c7d3d59028e2fdb1fe79cfa2b3a",
-  "pages_count": 15,
+  "content_hash": "f9eb7321ee519972d48a2df952dbaf4fea802c7d3d59028e2fdb1fe79cfa2b3a",
+  "previous_hash": "1be50e2e12a09752bab0c9b361caf41b59dfb3cc12c68de15e590e84bcbcbf71",
+  "pages_count": 14,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/tributacion/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 140
+      "length": 61
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=172",
@@ -72,16 +72,11 @@
       "length": 1378
     },
     {
-      "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=787",
-      "title": "Novedades",
-      "length": 377
-    },
-    {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781",
       "title": "Novedades",
       "length": 464
     }
   ],
-  "scraped_at": "2026-07-06T09:59:32.009Z",
-  "last_checked_at": "2026-07-06T09:59:32.009Z"
+  "scraped_at": "2026-07-27T09:36:07.799Z",
+  "last_checked_at": "2026-07-27T09:36:07.799Z"
 }
