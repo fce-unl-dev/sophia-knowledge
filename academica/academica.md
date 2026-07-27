@@ -102,7 +102,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-743-Aprueba-programa-MICROECONOM%C3%8DA-II-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-790-Aprueba-programa-ECONOM%C3%8DA-INTERNACIONAL-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-238-Modifica-programa-HISTORIA-Y-ESTRTUCTURA-ECON%C3%93MICA-ARGENTINA-LE.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-721-Aprueba-programa-DESARROLLO-ECON%C3%93MICO-LE.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-536-Aprueba-programa-DESARROLLO-ECON%C3%93MICO-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-596-Modifica-Programa-de-ECONOM%C3%8DA-LABORAL.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-723-Aprueba-programa-ECONOM%C3%8DA-MONETARIA-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-751-Aprueba-programa-SEMINARIO-DE-FORMULACI%C3%93N-DE-PROYECTO-DE-TESINA-LE.pdf
@@ -128,5 +128,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-07-23 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-07-27 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
