@@ -119,8 +119,8 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 
 - **Fecha de inicio**: **2028**
 - **Estado**: Cerrada
-- **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776
-- **Última actualización del dato**: 2026-06-04
+- **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776 (Novedades - Inscripciones)
+- **Última actualización del dato**: 2026-07-30
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -140,7 +140,7 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - **Biblioteca especializada**: La Maestría en Administración Pública cuenta con una biblioteca especializada en administración, gestión y políticas públicas. Actualmente dispone de 13.928 volúmenes vinculados con la temática del posgrado y 12 suscripciones a revistas especializadas. Asimismo, la FCE pone a disposición de los alumnos de la Maestría en Administración Pública la Biblioteca central ubicada en el ala oeste del edificio antiguo de la Facultad, alcanzando una extensión de 180 metros cuadrados.
 - **Revista**: "Documentos y Aportes en Administración Pública y Gestión Estatal” es una publicación periódica semestral de la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral (Santa Fe). La revista es un espacio de difusión científica sobre la temática vinculada al estudio y la formulación de las políticas públicas y la gestión y administración estatal. Acceder a la revista: https://bibliotecavirtual.unl.edu.ar/publicaciones/index.php/DocumentosyAportes/about
 - **Comité Académico**:
-  - Directora de la carrera: Dra. Rodriguez Stella
+  - Directora de la carrera: Mg. Rodriguez Stella
   - Secretaria Académica: Mg. Andrea Pacífico
   - Secretaria de Posgrado: Mg. Marcela Martin
   - Secretario de Investigación y Vinculación: Mg. Dario Mejias
@@ -162,7 +162,7 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/magister/ (homepage)
+- https://fce.unl.edu.ar/magister/ (Información de interés)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=47 (Presentación)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=49 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=50 (Biblioteca)
@@ -170,7 +170,6 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=52 (Plan de estudio)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=53 (Modalidad y duración)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=55 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=195 (Informes e inscripción)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=91 (Revista)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=58 (Principales ejes temáticos)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=36 (Internacionalización - Doble Titulación UnB)
@@ -178,4 +177,4 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 
 ---
 
-**Última revisión humana**: 2026-06-04
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-30 por pipeline de scraping.
