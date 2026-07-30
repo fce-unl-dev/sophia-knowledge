@@ -17,8 +17,6 @@
 - Modalidad: a distancia
 - Formación:
 - El egresado de la Tecnicatura en Administración y Gestión Pública estará capacitado para: desempeñar tareas de apoyo administrativo en cualquier ámbito del Estado Nacional, Provincial y Municipal; colaborar en la elaboración y ejecución de proyectos específicos de aplicación de políticas públicas; colaborar en el desarrollo, ejecución y administración de programas de mejoramiento del sector público; participar en la implementación de técnicas de gestión y de evaluación y control de tareas administrativas.
-- Dirección
-- Cont. Oscar Alberto COSTA (ver CV)
 - PLAN DE ESTUDIO
 - MÁS INFORMACIÓN
 - Informes
@@ -37,5 +35,5 @@
 
 ---
 
-**Última revisión automática**: 2026-07-27 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-07-30 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

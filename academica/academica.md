@@ -111,7 +111,6 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Econom%C3%ADa-Ambiental-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-794-Aprueba-programa-POL%C3%8DTICA-ECON%C3%93MICA-ARGENTINA-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/RDCD_FCE-1145931-23_237-PROGRAMA-OI.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/CURRICULUM-VITAE.-COSTA-MARZO-2020.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/PLAN-DE-ESTUDIO-tagp.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res._C.S._N__107_del_11-06-20_Expte._N_REC-1035159-20_Modifica_denominacion_Plan_estudios_Tecnicatura_Universitaria_en__Control_Auditoria__Gubernamental_FCE-1.pdf
 - **Subpáginas que no se pudieron descargar** durante la revisión automática:
@@ -128,5 +127,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-07-27 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-07-30 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
