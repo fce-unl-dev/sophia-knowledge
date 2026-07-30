@@ -143,7 +143,7 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 ## Fuentes consultadas
 
 -   https://fce.unl.edu.ar/edgop/ (Información de interés, inscripciones)
--   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera, Centro TOP, articulación con MAP y DAP)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Cursado y evaluación)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=122 (Título que otorga)
@@ -159,4 +159,4 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-06-29 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-30 por pipeline de scraping.
