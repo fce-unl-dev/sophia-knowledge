@@ -1,6 +1,6 @@
 {
-  "version": 37,
-  "lastUpdated": "2026-07-27",
+  "version": 38,
+  "lastUpdated": "2026-07-31",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -457,8 +457,26 @@
       "canonicalUrl": "https://drive.google.com/file/d/1c6t6L6fggKeeQ_cPRiUBYMpt6vRymCmn/view?usp=drivesdk"
     },
     {
+      "path": "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md",
+      "title": "ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/conduccion-y-gerencia-en-instituciones-publicas.md",
+      "title": "CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
       "path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
       "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/economia-gubernamental.md",
+      "title": "ECONOMÍA GUBERNAMENTAL",
       "category": "Curso de posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
@@ -469,8 +487,20 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
     {
+      "path": "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md",
+      "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
       "path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
       "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md",
+      "title": "TRABAJO FINAL EDGOP 2do Cuatrimestre",
       "category": "Curso de posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
