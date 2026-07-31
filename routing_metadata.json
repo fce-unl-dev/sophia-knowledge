@@ -9,8 +9,8 @@
     "extension": 6,
     "internacionales": 7,
     "docentes": 3,
-    "posgrados_graduados": 44,
-    "posgrados_cursos_sin_titulo": 23,
+    "posgrados_graduados": 42,
+    "posgrados_cursos_sin_titulo": 28,
     "grado": 24,
     "tramites_bedelia": 5
   },
@@ -441,10 +441,28 @@
       "title": "Resolución CD N° 640/25",
       "category": "Complementario"
     },
+    "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/conduccion-y-gerencia-en-instituciones-publicas.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS",
+      "category": "Curso de posgrado"
+    },
     "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/economia-gubernamental.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "ECONOMÍA GUBERNAMENTAL",
       "category": "Curso de posgrado"
     },
     "cursos-posgrado/gestion-de-administraciones-gubernamentales.md": {
@@ -453,10 +471,22 @@
       "title": "Gestión de administraciones gubernamentales",
       "category": "Curso de posgrado"
     },
+    "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
+      "category": "Curso de posgrado"
+    },
     "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "TRABAJO FINAL EDGOP 2do Cuatrimestre",
       "category": "Curso de posgrado"
     },
     "cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md": {

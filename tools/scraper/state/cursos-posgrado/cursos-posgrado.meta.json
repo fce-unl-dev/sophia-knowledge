@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10",
+  "generated_at": "2026-07-31",
   "listing_url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
-  "stable_hash": "e9091213a2d35163107682e68c79dc9ccabfd0989b56564d7825e663f5a43c8a",
+  "stable_hash": "e70723f9775391989ad20c24fed39ac2e2838e8ba8620b9939471da48beda639",
   "courses": [
     {
       "id": "1401",
@@ -9,7 +9,7 @@
       "slug": "practicas-de-ensenanza-para-las-ciencias-economicas",
       "start_date_iso": "2026-08-07",
       "kb_path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
-      "content_hash": "0ed62530c8454c459c1b331c892687d52b24c35b8e99c94dfa4490049069198a"
+      "content_hash": "8bc41bb1aa781c1ac3a6299fbaa87ca60ffbfaab124770fe029860972331c970"
     },
     {
       "id": "1409",
@@ -17,7 +17,31 @@
       "slug": "gestion-de-administraciones-gubernamentales",
       "start_date_iso": "2026-08-17",
       "kb_path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
-      "content_hash": "2630e14498f08d773f9b5d742648742cd885b02fb68977bc350068608777bd14"
+      "content_hash": "c7cd71aead4fd773b18a4f9115ca7325929ea02e8b45926d99e0536e010756bd"
+    },
+    {
+      "id": "1414",
+      "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
+      "slug": "gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas",
+      "start_date_iso": "2026-08-24",
+      "kb_path": "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md",
+      "content_hash": "17200b0738602df4c6db97aae0abfc5fc47ffb9b1b3379c0f1572be00cb1ee10"
+    },
+    {
+      "id": "1415",
+      "title": "ECONOMÍA GUBERNAMENTAL",
+      "slug": "economia-gubernamental",
+      "start_date_iso": "2026-09-07",
+      "kb_path": "cursos-posgrado/economia-gubernamental.md",
+      "content_hash": "f01a1c02e42139f995ec2ba2d52583dc2d46c28d22dae157036e741a465329d0"
+    },
+    {
+      "id": "1416",
+      "title": "TRABAJO FINAL EDGOP 2do Cuatrimestre",
+      "slug": "trabajo-final-edgop-2do-cuatrimestre",
+      "start_date_iso": "2026-09-19",
+      "kb_path": "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md",
+      "content_hash": "4fecc12019fe48baa5020ea1c4ffc3ef98e92696a413e99335fa3f0a2657dc77"
     },
     {
       "id": "1402",
@@ -25,7 +49,23 @@
       "slug": "de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado",
       "start_date_iso": "2026-10-06",
       "kb_path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
-      "content_hash": "f7236992dca9da2a56f87692f42ff767d90c184943350661b825ebec2ba66e73"
+      "content_hash": "07dab78bf4add91764463826d11a45bfd9379bd06082b4204b6632c6cfa663da"
+    },
+    {
+      "id": "1417",
+      "title": "CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS",
+      "slug": "conduccion-y-gerencia-en-instituciones-publicas",
+      "start_date_iso": "2026-10-12",
+      "kb_path": "cursos-posgrado/conduccion-y-gerencia-en-instituciones-publicas.md",
+      "content_hash": "c7ebb061732ea656333d8c1a0d3a0258683ff993ed560f3adced3402b46318dd"
+    },
+    {
+      "id": "1418",
+      "title": "ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS",
+      "slug": "analisis-institucional-de-organizaciones-publicas",
+      "start_date_iso": "2026-10-19",
+      "kb_path": "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md",
+      "content_hash": "79958fef0948180e02e3bdd28b11e3ed0b6acce5dd65421142aa928fedd6f1ba"
     }
   ]
 }
