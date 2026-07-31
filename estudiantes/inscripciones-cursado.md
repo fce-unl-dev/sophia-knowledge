@@ -12,6 +12,17 @@
 
 - Estudiantes » Info sobre inscripciones » Info sobre inscripciones a cursado
 - Info sobre inscripciones a cursado
+- ASIGNATURAS ELECTIVAS | SEGUNDO CUATRIMESTRE DE 2026
+- La inscripción al cursado de las Asignaturas Electivas para el segundo cuatrimestre de 2026 se realizará desde el día 5 al 7 de agosto.
+- Para realizar la inscripción, las y los estudiantes deberán ingresar al SIU Guaraní eligiendo menú “Electivas”, luego seleccionar la opción de Electivas y continuar con los pasos indicados por el sistema.
+- Los listados estarán en la semana del 17/08.
+- Ver listado de asignaturas
+- PRESENTACIÓN DE SOLICITUDES DE HORARIOS ESPECIALES DE CURSADO – 2DO CUATRIMESTRE 2026
+- Las Notas de solicitud y justificación de horarios especiales de cursado junto a los respectivos Certificados laborales serán recibidos a partir del 27 de Julio, a través del correo de Mesa de Entradas FCE mesadeentradas@fce.unl.edu.ar (en formato pdf, debiéndose usar el modelo que se encuentra más abajo). Fecha limite 31/07/2026 hasta las 12hs.
+- Este trámite se encuentra especialmente dirigido a aquellas/os estudiantes que desarrollan tareas laborales mientras transitan la vida universitaria.
+- *Importante: para materias anuales no se permiten cambios.
+- Descargar modelo (PDF COMPLETABLE – PERMITE GUARDAR)
+- Resolución Decana Nº 213/22
 - Segunda Vuelta Materias Electivas.
 - Se ha realizado la selección de estudiantes inscriptos a segunda vuelta de electivas. El criterio de selección fue por avance en la carrera y por cumplimiento de requisitos internos de cada asignatura electiva.
 - Se informa a los inscriptos que deberán iniciar el cursado de inmediato, dando aviso a los docentes responsables de que fueron seleccionados en segunda vuelta y que a la brevedad se actualizarán los registros correspondientes.
@@ -142,7 +153,7 @@
 
 ## Distribución de Comisiones y Horarios (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-06-05
+**Última actualización de planilla**: 2026-07-31
 
 ### Ingresantes
 
@@ -912,7 +923,7 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 
 ## Índice por Docente (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-06-05
+**Última actualización de planilla**: 2026-07-31
 
 - Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.
 
@@ -1348,9 +1359,10 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 ## Enlaces y sistemas relacionados
 
 - **PDFs / formularios**:
+  - Ver listado de asignaturas: https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/Versi%C3%B3n-Resumida-Asignaturas-Electivas-2do-C-2026.pdf
+  - Descargar modelo (PDF COMPLETABLE – PERMITE GUARDAR): https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/justificacion_formulario_completable-V2.pdf
   - este documento: https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Listado-de-electivas-con-vacancia.pdf
   - ACCEDER AL LISTADO DE ALUMNOS – ELECTIVAS: https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/Listado-de-estudiantes-FCE-asignados-a-una-electiva-corregido.pdf
-  - Descargar modelo (PDF COMPLETABLE – PERMITE GUARDAR): https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/justificacion_formulario_completable-V2.pdf
   - DESCARGAR LISTADO DE ASIGNATURAS: https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/versi%C3%B3n-resumida-asignaturas-electivas-1er-C2026-1.pdf
 - **Google Sheets detectados**:
   - INGRESANTES: https://docs.google.com/spreadsheets/d/1p7K1Ht27ZxnqUoYN2bCqsaUP8WvQKP7AhRLo5SDIddo/edit?gid=1427546763#gid=1427546763
@@ -1379,5 +1391,5 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 
 ---
 
-**Última revisión automática**: 2026-06-05 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-07-31 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
