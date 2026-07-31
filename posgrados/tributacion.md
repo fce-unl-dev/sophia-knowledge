@@ -143,4 +143,4 @@ Algunos de los profesores que nos acompañan son:
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-07-27 por pipeline de scraping.
+**Última revisión humana**: 2026-07-31

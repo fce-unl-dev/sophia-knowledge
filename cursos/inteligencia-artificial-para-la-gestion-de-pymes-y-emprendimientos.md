@@ -67,7 +67,7 @@
 
 - **Costo**:
   - Consultar a cursosdeformacion@fce.unl.edu.ar
-- **Estado (al 2026-06-23)**: Inscripción abierta según listado oficial.
+- **Estado (al 2026-07-31)**: Inscripción abierta según listado oficial.
 - **Sistema de inscripción**: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1194#superior
 
 ## Contacto
@@ -93,5 +93,5 @@
 
 ---
 
-**Última revisión automática**: 2026-06-23 (candidato generado por scraper determinístico de cursos)
+**Última revisión automática**: 2026-07-31 (candidato generado por scraper determinístico de cursos)
 **Revisión humana**: pendiente
