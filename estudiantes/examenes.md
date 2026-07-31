@@ -59,7 +59,7 @@
 
 ## Cronograma de Exámenes Finales (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-06-05
+**Última actualización de planilla**: 2026-07-31
 
 ### Primer turno 2026
 
@@ -194,7 +194,7 @@
 | 3/7/2026 | Viernes | 3360 | Historia y Estructura Económica Argentina | 09:00 Hs | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 5070 | Historia Social y Económica Argentina | 09:00 Hs | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 1045 | Contabilidad I | 09:00 Hs | Desde el 26/6/2026 al 1/7/2026 |
-| 3/7/2026 | Viernes | 2025 | Informática | 14:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
+| 3/7/2026 | Viernes | 2025 | Informática | 13:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 3015 | Microeconomía | 15:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 3130 | Derecho del Trabajo e Instituciones de la Seguridad Social | 15:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
 | 3/7/2026 | Viernes | 4355 | Microeconomía II | 15:00 Hs. | Desde el 26/6/2026 al 1/7/2026 |
@@ -217,33 +217,33 @@
 | 27/7/2026 | Lunes | 2015 | Macroeconomía | 15:00 Hs. | Desde el 20/7/2026 al 23/7/2026 |
 | 27/7/2026 | Lunes | 5330 | Economía Internacional | 15:00 Hs. | Desde el 20/7/2026 al 23/7/2026 |
 | 27/7/2026 | Lunes | 4330 | Riesgos, Incertidumbre y Mercados Financieros | 16:00 Hs. | Desde el 20/7/2026 al 23/7/2026 |
-| 27/7/2026 | Lunes | 3155 | Contabilidad III | 17:00 Hs. | Desde el 20/7/2026 al 23/7/2026 |
+| 27/7/2026 | Lunes | FCE3155 | Contabilidad III | 17:00 Hs. | Desde el 20/7/2026 al 23/7/2026 |
 | 27/7/2026 | Lunes | 5180 | Administración IV | 18:00 Hs. | Desde el 20/7/2026 al 23/7/2026 |
 | 27/7/2026 | Lunes | 5225 | Negocios Internacionales | 18:00 Hs. | Desde el 20/7/2026 al 23/7/2026 |
 | 28/7/2026 | Martes | 3320 | Inferencia Estadística | 09:00 Hs | Desde el 21/7/2026 al 24/7/2026 |
 | 28/7/2026 | Martes | 4265 | Régimen Tributario de las Organizaciones | 09:00 Hs | Desde el 21/7/2026 al 24/7/2026 |
 | 28/7/2026 | Martes | 5175 | PPS | 09:00 Hs | Desde el 21/7/2026 al 24/7/2026 |
-| 28/7/2026 | Martes | 2045 | Instituciones de Derecho II | 13:30 Hs | Desde el 21/7/2026 al 24/7/2026 |
+| 28/7/2026 | Martes | FCE2045 | Instituciones de Derecho II | 13:30 Hs | Desde el 21/7/2026 al 24/7/2026 |
 | 28/7/2026 | Martes | 5215 | Inteligencia de Mercados | 14:00 Hs. | Desde el 21/7/2026 al 24/7/2026 |
 | 28/7/2026 | Martes | 3260 | Gestión y Políticas Públicas | 15:00 Hs. | Desde el 21/7/2026 al 24/7/2026 |
-| 28/7/2026 | Martes | 4350 | Evaluación de Proyectos | 15:00 Hs. | Desde el 21/7/2026 al 24/7/2026 |
-| 28/7/2026 | Martes | 5350 | Desarrollo Económico | 15:00 Hs. | Desde el 21/7/2026 al 24/7/2026 |
+| 28/7/2026 | Martes | FCE4350 | Evaluación de Proyectos | 15:00 Hs. | Desde el 21/7/2026 al 24/7/2026 |
+| 28/7/2026 | Martes | FCE5350 | Desarrollo Económico | 15:00 Hs. | Desde el 21/7/2026 al 24/7/2026 |
 | 28/7/2026 | Martes | 3170 | Administración Pública | 15:00 Hs. | Desde el 21/7/2026 al 24/7/2026 |
-| 28/7/2026 | Martes | 2285 | Gestión de Sistemas Administrativos | 16:00 Hs | Desde el 21/7/2026 al 24/7/2026 |
+| 28/7/2026 | Martes | FCE2285 | Gestión de Sistemas Administrativos | 16:00 Hs | Desde el 21/7/2026 al 24/7/2026 |
 | 28/7/2026 | Martes | 5280 | Dirección Estratégica | 16:00 Hs | Desde el 21/7/2026 al 24/7/2026 |
 | 29/7/2026 | Miércoles | 5285 | Gestión de la Innovación | 09:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 3125 | Administración II | 09:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
-| 29/7/2026 | Miércoles | 2190 | Taller de Práctica Integradora I | 09:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
+| 29/7/2026 | Miércoles | FCE2190 | Taller de Práctica Integradora I | 09:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 4340 | Economía Laboral | 09:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 2060 | Cálculo para Ciencias Económicas | 13:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
-| 29/7/2026 | Miércoles | 1055 | Introducción a la Economía | 19:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
-| 29/7/2026 | Miércoles | 2035 | Contabilidad II | 16:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
+| 29/7/2026 | Miércoles | FCE1055 | Introducción a la Economía | 19:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
+| 29/7/2026 | Miércoles | FCE2035 | Contabilidad II | 16:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 5320 | Política Económica Argentina | 15:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 4210 | Sociología de las Organizaciones | 15:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 3235 | Instituciones de Derecho III | 16:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
-| 29/7/2026 | Miércoles | 3145 | Costos I | 16:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
+| 29/7/2026 | Miércoles | FCE3145 | Costos I | 16:00 Hs | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 2345 | Historia del Pensamiento Económico | 16:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
-| 29/7/2026 | Miércoles | 5110 | Auditoría | 16:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
+| 29/7/2026 | Miércoles | FCE5110 | Auditoría | 16:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 4135 | Contabilidad IV | 16:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
 | 29/7/2026 | Miércoles | 3365 | Macroeconomía II | 17:00 Hs. | Desde el 22/7/2026 al 27/7/2026 |
 | 30/7/2026 | Jueves | 1087 | Ciclo incial Idioma Extanjero - Acreditación Ingles | 09:00 Hs | Desde el 23/7/2026 al 28/7/2026 |
@@ -252,14 +252,14 @@
 | 30/7/2026 | Jueves | 4240 | Comercialización - LA | 09:00 Hs. | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 5135 | Concursos y Títulos Valores - Final Escrito | 09:00 Hs | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 1035 | Instituciones de Derecho I | 14:30 Hs | Desde el 23/7/2026 al 28/7/2026 |
-| 30/7/2026 | Jueves | 4310 | Economía Monetaria | 14:30 Hs | Desde el 23/7/2026 al 28/7/2026 |
+| 30/7/2026 | Jueves | FCE4310 | Economía Monetaria | 14:30 Hs | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 2070 | Introducción a las Ciencias Sociales | 15:00 Hs. | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 5360 | Economía Ambiental | 15:00 Hs. | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 5260 | Sistemas de Información Gerencial | 15:00 Hs. | Desde el 23/7/2026 al 28/7/2026 |
-| 30/7/2026 | Jueves | 4190 | Taller de Práctica Integradora II | 16:00 Hs | Desde el 23/7/2026 al 28/7/2026 |
+| 30/7/2026 | Jueves | FCE4190 | Taller de Práctica Integradora II | 16:00 Hs | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 4250 | Administración de Recursos Humanos | 16:00 Hs. | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 5155 | Contabilidad V | 16:00 Hs. | Desde el 23/7/2026 al 28/7/2026 |
-| 30/7/2026 | Jueves | 4155 | Costos II | 17:00 Hs | Desde el 23/7/2026 al 28/7/2026 |
+| 30/7/2026 | Jueves | FCE4155 | Costos II | 17:00 Hs | Desde el 23/7/2026 al 28/7/2026 |
 | 30/7/2026 | Jueves | 3335 | Matemática para Economistas | 17:00 Hs. | Desde el 23/7/2026 al 28/7/2026 |
 | 31/7/2026 | Viernes | 3380 | Economía del Sector Público | 09:00 Hs | Desde el 24/7/2026 al 29/7/2026 |
 | 31/7/2026 | Viernes | 3250 | Planeamiento y Control | 09:00 Hs | Desde el 24/7/2026 al 29/7/2026 |
@@ -273,7 +273,7 @@
 | 31/7/2026 | Viernes | 4355 | Microeconomía II | 15:00 Hs. | Desde el 24/7/2026 al 29/7/2026 |
 | 31/7/2026 | Viernes | 3370 | Sociología Económica | 15:00 Hs | Desde el 24/7/2026 al 29/7/2026 |
 | 31/7/2026 | Viernes | 5310 | Organización Industrial | 15:00 Hs. | Desde el 24/7/2026 al 29/7/2026 |
-| 31/7/2026 | Viernes | 4160 | Finanzas Públicas | 15:00 Hs. | Desde el 24/7/2026 al 29/7/2026 |
+| 31/7/2026 | Viernes | FCE4160 | Finanzas Públicas | 15:00 Hs. | Desde el 24/7/2026 al 29/7/2026 |
 | 31/7/2026 | Viernes | 5235 | Finanzas y Mercados de Capitales | 17:00 Hs. | Desde el 24/7/2026 al 29/7/2026 |
 
 ### Cuarto turno 2026
@@ -345,7 +345,7 @@
 | 9/10/2026 | Viernes | 3370 | Sociología Económica | 15:00 Hs | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 5310 | Organización Industrial | 15:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 4160 | Finanzas Públicas | 15:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
-| 9/10/2026 | Viernes | 4155 | Costos II | 17:00 Hs | Desde el 2/10/2026 al 7/10/2026 |
+| 9/10/2026 | Viernes | FCE4155 | Costos II | 17:00 Hs | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 5235 | Finanzas y Mercados de Capitales | 17:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
 
 ### Quinto turno 2026
@@ -677,5 +677,5 @@
 
 ---
 
-**Última revisión automática**: 2026-06-05 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-07-31 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
