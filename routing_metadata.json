@@ -9,7 +9,7 @@
     "extension": 6,
     "internacionales": 7,
     "docentes": 3,
-    "posgrados_graduados": 42,
+    "posgrados_graduados": 44,
     "posgrados_cursos_sin_titulo": 23,
     "grado": 24,
     "tramites_bedelia": 5
@@ -1054,6 +1054,18 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Especialización en Tributación",
       "category": "Especialización"
+    },
+    "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Complementario"
     }
   }
 }
