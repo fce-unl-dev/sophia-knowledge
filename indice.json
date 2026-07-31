@@ -1,6 +1,6 @@
 {
-  "version": 37,
-  "lastUpdated": "2026-07-27",
+  "version": 38,
+  "lastUpdated": "2026-07-31",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -1075,6 +1075,20 @@
       "category": "Especialización",
       "programCode": "TRIB",
       "canonicalUrl": "https://fce.unl.edu.ar/tributacion/"
+    },
+    {
+      "path": "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md",
+      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md",
+      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK/view?usp=drivesdk"
     }
   ]
 }
