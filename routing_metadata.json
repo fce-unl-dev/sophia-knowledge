@@ -1084,6 +1084,18 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Especialización en Tributación",
       "category": "Especialización"
+    },
+    "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Complementario"
     }
   }
 }

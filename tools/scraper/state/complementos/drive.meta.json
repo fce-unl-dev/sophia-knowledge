@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-06-05T16:33:34.073Z",
+  "lastSynced": "2026-07-31T11:27:32.362Z",
   "files": {
     "1aKJB4nFR59N6tJvPKcYUhFK8X-G-lcFE": {
       "id": "1aKJB4nFR59N6tJvPKcYUhFK8X-G-lcFE",
@@ -52,6 +52,43 @@
       "hash": "9881c9a185702def7f650f4cc1f20590c8066cdb422f08e4143fdfca72c2b216",
       "webViewLink": "https://drive.google.com/file/d/17GYzsySZi_t_Y588ralPRLs_c8Tzf3I_/view?usp=drivesdk",
       "lastProcessed": "2026-06-05T16:33:34.016Z"
+    },
+    "1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h": {
+      "id": "1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h",
+      "name": "edgop_arancel_nacionales_2do_cuatrimestre_2026.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-07-08T22:21:23.000Z",
+      "path": "04-Posgrado/edgop_arancel_nacionales_2do_cuatrimestre_2026.pdf",
+      "slug": "04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026",
+      "sector": "posgrados_graduados",
+      "status": "synchronized",
+      "hash": "a65c3bf083299cd0a32dc0e0472b352ad5b88b2d0f7d48003914559eb29b8fab",
+      "webViewLink": "https://drive.google.com/file/d/1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h/view?usp=drivesdk",
+      "lastProcessed": "2026-07-31T11:27:32.318Z"
+    },
+    "1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK": {
+      "id": "1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK",
+      "name": "edgop_arancel_extranjeros_2do_cuatrimestre_2026.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-07-08T22:21:22.000Z",
+      "path": "04-Posgrado/edgop_arancel_extranjeros_2do_cuatrimestre_2026.pdf",
+      "slug": "04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026",
+      "sector": "posgrados_graduados",
+      "status": "synchronized",
+      "hash": "41fa4e5f000a00a3818f66e1dc712f30a7ba36364a2879672c77754b5c8f1601",
+      "webViewLink": "https://drive.google.com/file/d/1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK/view?usp=drivesdk",
+      "lastProcessed": "2026-07-31T11:27:32.319Z"
+    },
+    "1jlA0P2JdluBg97FIXOR2xfU-pq42CrpE": {
+      "id": "1jlA0P2JdluBg97FIXOR2xfU-pq42CrpE",
+      "name": "Info costos carrera para la IA.xlsx",
+      "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "modifiedTime": "2026-07-08T22:17:21.000Z",
+      "path": "04-Posgrado/Info costos carrera para la IA.xlsx",
+      "slug": "04-posgrado-info-costos-carrera-para-la-ia",
+      "status": "error",
+      "error": "MIME type no soportado: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "lastProcessed": "2026-07-31T11:27:31.460Z"
     },
     "1PhXHC56SnX8A54yh4Fa4u4iwKGUbQB5l": {
       "id": "1PhXHC56SnX8A54yh4Fa4u4iwKGUbQB5l",
