@@ -11,8 +11,9 @@
     "docentes": 3,
     "posgrados_graduados": 44,
     "posgrados_cursos_sin_titulo": 28,
-    "grado": 24,
-    "tramites_bedelia": 5
+    "grado": 18,
+    "tramites_bedelia": 1,
+    "normativa": 10
   },
   "mappings": {
     "academica/academica.md": {
@@ -292,8 +293,8 @@
       "category": "Complementario"
     },
     "complementos/02-grado-mch-rse-556-2025.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución 556/2025 del Ministerio de Capital Humano",
       "category": "Complementario"
     },
@@ -304,32 +305,32 @@
       "category": "Complementario"
     },
     "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución C.S. Nº 503/18 - Correlatividades del Plan de Estudios de Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición para la carrera de Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución C.S. Nº 502/18: Modificación del Plan de Estudios de Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-resolucion2598-2023.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución 2598/2023",
       "category": "Complementario"
     },
@@ -418,26 +419,26 @@
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución de Decana N° 361/23: Derogación de Resoluciones Anteriores",
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Normas y Procedimientos de Enseñanza",
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-res-500-25.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución C.D. N° 500/25",
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md": {
-      "sector": "tramites_bedelia",
-      "displayName": "Trámites (No docentes y Bedelía)",
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
       "title": "Resolución CD N° 640/25",
       "category": "Complementario"
     },

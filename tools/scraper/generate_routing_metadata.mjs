@@ -97,16 +97,28 @@ export function parseSectorResponse(text, { minConfidence = 0.6 } = {}) {
 }
 
 export function classifyItem(item) {
-  // Sector explícito y autoritativo (p. ej. resuelto desde la carpeta de Drive)
-  // gana sobre las reglas heurísticas de path/title/category.
-  if (item.sector && TAXONOMY.sectors[item.sector]) return item.sector;
-
   const path = item.path || '';
   const ctx = {
     pathLower: path.toLowerCase(),
     title: (item.title || '').toLowerCase(),
     category: (item.category || '').toLowerCase(),
   };
+
+  // Overrides con `force: true`: los únicos que le ganan al sector explícito de la
+  // carpeta de Drive. Son para contenido cuyo TIPO manda sobre dónde está archivado
+  // — una resolución es una resolución esté en la carpeta que esté. El admin archiva
+  // por tema (02-grado, 04-posgrado) y eso está bien para su trabajo, pero para el
+  // ruteo importa que sea texto legal largo que nadie consulta por su nombre.
+  // Sin `force`, un override nunca se evaluaría para los ~29 docs de Drive.
+  for (const ov of TAXONOMY.overrides || []) {
+    if (ov.force && ov.sector && TAXONOMY.sectors[ov.sector] && matchesSector(ov.match, ctx)) {
+      return ov.sector;
+    }
+  }
+
+  // Sector explícito y autoritativo (p. ej. resuelto desde la carpeta de Drive)
+  // gana sobre las reglas heurísticas de path/title/category.
+  if (item.sector && TAXONOMY.sectors[item.sector]) return item.sector;
 
   // Overrides de alta prioridad: capturan casos que cruzan la clasificación por
   // carpeta (ej. tecnicaturas publicadas bajo /academica/ que en realidad son

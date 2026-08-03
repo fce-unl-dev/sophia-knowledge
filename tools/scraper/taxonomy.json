@@ -11,6 +11,7 @@
     "posgrados_graduados",
     "posgrados_cursos_sin_titulo",
     "grado",
+    "normativa",
     "tramites_bedelia"
   ],
   "fallbackSector": "tramites_bedelia",
@@ -28,6 +29,14 @@
       "description": "Cursos de posgrado (carpeta cursos-posgrado/): la carpeta manda sobre el título. Sin este override, un curso como 'Prácticas de Enseñanza…' cae en 'docentes' por el token 'enseñanza' del título. Se evalúa ANTES del matchOrder.",
       "match": { "pathPrefix": ["cursos-posgrado/"] },
       "sector": "posgrados_cursos_sin_titulo"
+    },
+    {
+      "description": "Resoluciones y reglamentos archivados en carpetas temáticas de Drive (02-grado, 04-posgrado). Son texto legal completo, largo, que ningún estudiante pide por su nombre: infla el sector donde caiga y empuja el dato útil al medio del contexto. El caso testigo es la Res. C.S. 502/18 de modificación del plan de Contador Público, 68.800 caracteres — el 20% del sector `grado` en un solo documento. `force: true` porque estos docs traen sector explícito de la carpeta de Drive y sin eso el override no se evaluaría. El contenido de cara al estudiante NO se toca: por ejemplo el reglamento de PPS se va a normativa, pero estudiantes/practicas-profesionales-supervisadas.md se queda en grado.",
+      "force": true,
+      "match": {
+        "pathIncludes": ["-res-c-s-", "-res-785-", "-res-500-", "-resolucion", "-rse-556", "06-reglamentos"]
+      },
+      "sector": "normativa"
     }
   ],
   "sectors": {
@@ -116,9 +125,18 @@
       "displayName": "Trámites (No docentes y Bedelía)",
       "kbFolder": "operativos",
       "webPathPrefixes": ["/academica/categorias/aulas", "/academica/categorias/ingreso", "/academica/categorias/regimen"],
-      "driveFolderAliases": ["reglamentos-y-normas", "bedelia", "tramites"],
+      "driveFolderAliases": ["bedelia", "tramites"],
       "match": {
-        "pathIncludes": ["aulas-virtuales", "bedelia", "06-reglamentos"],
+        "pathIncludes": ["aulas-virtuales", "bedelia"]
+      }
+    },
+    "normativa": {
+      "displayName": "Normativa y Reglamentos",
+      "kbFolder": null,
+      "webPathPrefixes": [],
+      "driveFolderAliases": ["reglamentos-y-normas", "normativa"],
+      "match": {
+        "pathIncludes": ["06-reglamentos"],
         "titleIncludes": ["resolución", "resolucion", "norma", "procedimiento"]
       }
     }
