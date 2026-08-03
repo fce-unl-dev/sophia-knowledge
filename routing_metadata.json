@@ -11,8 +11,8 @@
     "docentes": 3,
     "posgrados_graduados": 44,
     "posgrados_cursos_sin_titulo": 28,
-    "grado": 18,
-    "tramites_bedelia": 1,
+    "grado": 12,
+    "tramites_bedelia": 7,
     "normativa": 10
   },
   "mappings": {
@@ -647,14 +647,14 @@
       "category": "Estudiantes"
     },
     "estudiantes/examenes.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Exámenes",
       "category": "Estudiantes"
     },
     "estudiantes/horarios-atencion.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Horarios de Atención",
       "category": "Estudiantes"
     },
@@ -665,8 +665,8 @@
       "category": "Estudiantes"
     },
     "estudiantes/inscripciones-cursado.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Info sobre inscripciones a cursado",
       "category": "Estudiantes"
     },
@@ -683,20 +683,20 @@
       "category": "Estudiantes"
     },
     "estudiantes/sica.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Sistema Informático de Consultas de Alumnos (SICA)",
       "category": "Estudiantes"
     },
     "estudiantes/siu-guarani.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
       "title": "SIU Guaraní",
       "category": "Estudiantes"
     },
     "estudiantes/tramites-internos.md": {
-      "sector": "grado",
-      "displayName": "Estudiantes de Grado",
+      "sector": "tramites_bedelia",
+      "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Trámites internos",
       "category": "Estudiantes"
     },

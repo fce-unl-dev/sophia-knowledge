@@ -31,6 +31,20 @@
       "sector": "posgrados_cursos_sin_titulo"
     },
     {
+      "description": "Trámites operativos que viven bajo estudiantes/ y caían en `grado` por la regla de carpeta. Son gestiones, no contenido de carrera: inscripción a cursado y a exámenes, trámites internos, SIU Guaraní, SICA y horarios de atención. Dejarlos en `grado` tenía dos costos: inflaba el sector más consultado (inscripciones-cursado 94.800 caracteres y examenes 64.000 son los dos docs más grandes de toda la KB), y vaciaba de contenido a `tramites_bedelia`, que es adonde el clasificador de derivación manda las consultas de Bedelía. Los docs de estudiantes/ NO traen sector explícito, así que alcanza con un override normal — no hace falta `force`. Lo que SÍ es contenido de carrera (PPS, pasantías, clases de consulta, bienestar, ingreso) se queda en `grado`.",
+      "match": {
+        "pathIncludes": [
+          "estudiantes/inscripciones-cursado",
+          "estudiantes/examenes",
+          "estudiantes/tramites-internos",
+          "estudiantes/siu-guarani",
+          "estudiantes/sica",
+          "estudiantes/horarios-atencion"
+        ]
+      },
+      "sector": "tramites_bedelia"
+    },
+    {
       "description": "Resoluciones y reglamentos archivados en carpetas temáticas de Drive (02-grado, 04-posgrado). Son texto legal completo, largo, que ningún estudiante pide por su nombre: infla el sector donde caiga y empuja el dato útil al medio del contexto. El caso testigo es la Res. C.S. 502/18 de modificación del plan de Contador Público, 68.800 caracteres — el 20% del sector `grado` en un solo documento. `force: true` porque estos docs traen sector explícito de la carpeta de Drive y sin eso el override no se evaluaría. El contenido de cara al estudiante NO se toca: por ejemplo el reglamento de PPS se va a normativa, pero estudiantes/practicas-profesionales-supervisadas.md se queda en grado.",
       "force": true,
       "match": {
