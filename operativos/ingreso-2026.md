@@ -47,7 +47,31 @@ Instructivo oficial paso a paso de la UNL: https://www.unl.edu.ar/ingresounl/pas
 
 ## Cursillo de ingreso / nivelación
 
-> NOTA AL REVISOR: la página principal de Ingreso 2026 no detalla si hay cursillo de ingreso, evaluación diagnóstica o curso de nivelación obligatorio. La UNL tradicionalmente ofrece el "Curso de Articulación Disciplinar" (CAD). Verificar y completar este apartado consultando a difusion@fce.unl.edu.ar o revisando https://www.unl.edu.ar/ingresounl/.
+Sí hay un curso de ingreso **obligatorio**: el **Curso de Iniciación a los Estudios
+Universitarios (IEU)**.
+
+- **Nombre oficial**: Iniciación a los Estudios Universitarios (IEU).
+- **Carácter**: **obligatorio** para todas las carreras de grado de la UNL, incluidas las
+  de la FCE. Hay que aprobarlo.
+- **Objetivo**: acompañar el pase de la escuela secundaria a la universidad — lectura,
+  comprensión de textos y contenidos propios de la vida universitaria.
+- **Modalidad**: mixta, con instancias virtuales y encuentros presenciales.
+- **Acceso**: a través del Sistema de Gestión del Estudiante.
+- **Si no se aprueba**: se puede rendir en una segunda edición. No aprobar el IEU
+  bloquea el avance a los años siguientes.
+- **Inicio de la cohorte 2026**: 2 de febrero de 2026.
+- **Fuente**: https://www.unl.edu.ar/ingresounl/cursosarticulacion/
+
+> Nota: las fechas corresponden a la cohorte 2026. Si la consulta es sobre una cohorte
+> posterior, Sophia debe indicar que la fecha puede haber cambiado y derivar a
+> difusion@fce.unl.edu.ar.
+
+> NOTA AL REVISOR: además del IEU, la UNL ofrece cursos de articulación **disciplinares**
+> (matemática, química, biología), pero el listado publicado corresponde a Ingeniería,
+> Agronomía, Bioquímica, Ciencias Médicas y Veterinarias — **no menciona Ciencias
+> Económicas**. Falta confirmar con difusion@fce.unl.edu.ar si las carreras de la FCE
+> tienen algún curso disciplinar además del IEU. Hasta confirmarlo, este documento no lo
+> afirma y Sophia no debería inventarlo.
 
 ## Contacto
 
