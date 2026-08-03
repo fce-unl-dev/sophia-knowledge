@@ -32,8 +32,13 @@ const FORBIDDEN_INDEX_PATHS = new Set([
 
 // Carpetas kbFolder de cada sector (derivadas de la taxonomía) más las
 // estructurales que no pertenecen a un sector puntual.
+//
+// `filter(Boolean)` porque un sector puede no tener carpeta propia: `normativa`
+// agrupa resoluciones y reglamentos que viven en `complementos/`, así que su
+// kbFolder es null. Sin el filtro, ese null llegaba a join(kbRoot, dir) y el
+// validador entero moría con ERR_INVALID_ARG_TYPE.
 const ALLOWED_TOP_LEVEL_DIRS = new Set([
-  ...Object.values(TAXONOMY.sectors).map((s) => s.kbFolder),
+  ...Object.values(TAXONOMY.sectors).map((s) => s.kbFolder).filter(Boolean),
   'compartidos',
   'cursos',
   'posgrado-general',

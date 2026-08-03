@@ -61,4 +61,17 @@ describe('validate_index — sector de ruteo', () => {
       'debería reportar el sector inventado como inválido',
     );
   });
+
+  test('tolera sectores sin carpeta propia', async () => {
+    // `normativa` agrupa resoluciones y reglamentos que viven en `complementos/`,
+    // así que su kbFolder es null. Ese null llegaba a join(kbRoot, dir) y mataba
+    // el validador entero con ERR_INVALID_ARG_TYPE — no un error de validación,
+    // un crash. Rompió el CI del repo en dos commits seguidos (ago-2026).
+    const { errors } = await validateWithSector('normativa');
+    assert.deepEqual(
+      errors.filter((e) => /sector de ruteo inválido/.test(e)),
+      [],
+      'normativa es un sector válido de la taxonomía',
+    );
+  });
 });
