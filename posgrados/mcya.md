@@ -115,10 +115,10 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 ## Información adicional relevante
 
 - **Comité Académico**:
-  - Directora de la carrera: Mg. Ricardo Melini
+  - Directora de la carrera: Mg. Ricardo Pedro MELINI
   - Representantes de la Carrera:
     - Mg. María Luz CASABIANCA
-    - Mg. Julia Cristobal
+    - Mg. Julia Edith CRISTOBAL
   - Representantes de Decanato:
     - Secretaria Académica y Bienestar Estudiantil: Mg. Andrea PACÍFICO
     - Secretaria de Posgrado: Mg. Marcela Andrea MARTIN
@@ -137,6 +137,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ## Fuentes consultadas
 
+- https://www.fce.unl.edu.ar/mcya/ (Página principal)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201 (Cursado y evaluación, Trabajo Final)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=202 (Días y horarios de cursado)
@@ -152,4 +153,4 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ---
 
-**Última revisión humana**: 2026-07-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-03 por pipeline de scraping.
