@@ -43,5 +43,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-08-03 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-08-06 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
