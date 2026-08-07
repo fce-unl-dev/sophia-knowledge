@@ -1,6 +1,6 @@
 {
-  "version": 40,
-  "lastUpdated": "2026-08-06",
+  "version": 41,
+  "lastUpdated": "2026-08-07",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -525,23 +525,8 @@
       "category": "Curso de formación profesional"
     },
     {
-      "path": "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md",
-      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/gestion-financiera-para-emprendimientos.md",
-      "title": "Gestión Financiera para Emprendimientos",
-      "category": "Curso de formación profesional"
-    },
-    {
       "path": "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md",
       "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
-      "category": "Curso de formación profesional"
-    },
-    {
-      "path": "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md",
-      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
       "category": "Curso de formación profesional"
     },
     {
