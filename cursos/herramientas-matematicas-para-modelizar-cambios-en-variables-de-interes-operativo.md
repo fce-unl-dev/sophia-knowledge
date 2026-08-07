@@ -16,7 +16,6 @@
 - Duración del cursado: 3 meses
 - Fecha estimada de inicio: agosto de 2026 (fecha a confirmar)
 - Día y horario de cursado: Jueves de 19:00 a 21:00 horas
-- **Fecha de inicio publicada en listado**: 2026-08-03
 
 ## Plan de estudios / Contenidos
 
@@ -74,8 +73,7 @@
 
 - **Costo**:
   - Consultar a cursosdeformacion@fce.unl.edu.ar
-- **Estado (al 2026-07-31)**: Inscripción abierta según listado oficial.
-- **Sistema de inscripción**: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1184#superior
+- **Estado (al 2026-08-07)**: Inscripción abierta según listado oficial.
 
 ## Contacto
 
@@ -97,9 +95,8 @@
 
 - Listado oficial de inscripciones abiertas: https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos
 - Página oficial del curso: https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=297
-- Sistema de inscripción: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1184#superior
 
 ---
 
-**Última revisión automática**: 2026-07-31 (candidato generado por scraper determinístico de cursos)
+**Última revisión automática**: 2026-08-07 (candidato generado por scraper determinístico de cursos)
 **Revisión humana**: pendiente
