@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -10,7 +10,7 @@
     "internacionales": 7,
     "docentes": 3,
     "posgrados_graduados": 44,
-    "posgrados_cursos_sin_titulo": 28,
+    "posgrados_cursos_sin_titulo": 32,
     "grado": 12,
     "tramites_bedelia": 7,
     "normativa": 10
@@ -334,6 +334,18 @@
       "title": "Resolución 2598/2023",
       "category": "Complementario"
     },
+    "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario"
+    },
     "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md": {
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
@@ -466,6 +478,12 @@
       "title": "ECONOMÍA GUBERNAMENTAL",
       "category": "Curso de posgrado"
     },
+    "cursos-posgrado/finanzas-de-empresas.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "FINANZAS DE EMPRESAS",
+      "category": "Curso de posgrado"
+    },
     "cursos-posgrado/gestion-de-administraciones-gubernamentales.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
@@ -478,10 +496,28 @@
       "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
       "category": "Curso de posgrado"
     },
+    "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/impuestos-subnacionales-procedimientos-provinciales-convenio-multilateral.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "IMPUESTOS SUBNACIONALES. PROCEDIMIENTOS PROVINCIALES. CONVENIO MULTILATERAL",
+      "category": "Curso de posgrado"
+    },
     "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION",
       "category": "Curso de posgrado"
     },
     "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md": {
@@ -1085,18 +1121,6 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Especialización en Tributación",
       "category": "Especialización"
-    },
-    "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
-      "category": "Complementario"
     }
   }
 }

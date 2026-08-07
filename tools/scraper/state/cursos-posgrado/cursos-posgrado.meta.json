@@ -1,23 +1,39 @@
 {
-  "generated_at": "2026-07-31",
+  "generated_at": "2026-08-07",
   "listing_url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
-  "stable_hash": "e70723f9775391989ad20c24fed39ac2e2838e8ba8620b9939471da48beda639",
+  "stable_hash": "462ec834cd33b4dbb7528b7b82aa0df6755a562aa5329cb9815b815fc79ad2ca",
   "courses": [
-    {
-      "id": "1401",
-      "title": "PRÁCTICAS DE ENSEÑANZA PARA LAS CIENCIAS ECONÓMICAS",
-      "slug": "practicas-de-ensenanza-para-las-ciencias-economicas",
-      "start_date_iso": "2026-08-07",
-      "kb_path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
-      "content_hash": "8bc41bb1aa781c1ac3a6299fbaa87ca60ffbfaab124770fe029860972331c970"
-    },
     {
       "id": "1409",
       "title": "GESTION DE ADMINISTRACIONES GUBERNAMENTALES",
       "slug": "gestion-de-administraciones-gubernamentales",
       "start_date_iso": "2026-08-17",
       "kb_path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
-      "content_hash": "c7cd71aead4fd773b18a4f9115ca7325929ea02e8b45926d99e0536e010756bd"
+      "content_hash": "31c9fa16e7542a39e0b2b3437fb8354cf1dfa4622d03797d2f1b2525a98fbf43"
+    },
+    {
+      "id": "1420",
+      "title": "FINANZAS DE EMPRESAS",
+      "slug": "finanzas-de-empresas",
+      "start_date_iso": "2026-08-21",
+      "kb_path": "cursos-posgrado/finanzas-de-empresas.md",
+      "content_hash": "3a97ef08c4af70f5958dbb5a33db6dca09371ee3e156983da40b81b56e1ceb61"
+    },
+    {
+      "id": "1419",
+      "title": "IMPUESTOS SUBNACIONALES. PROCEDIMIENTOS PROVINCIALES. CONVENIO MULTILATERAL",
+      "slug": "impuestos-subnacionales-procedimientos-provinciales-convenio-multilateral",
+      "start_date_iso": "2026-08-21",
+      "kb_path": "cursos-posgrado/impuestos-subnacionales-procedimientos-provinciales-convenio-multilateral.md",
+      "content_hash": "c9f06ca3eb34e58e6d738511573bb681caa474cec8f70a8a3542a64b0fe14b59"
+    },
+    {
+      "id": "1401",
+      "title": "PRÁCTICAS DE ENSEÑANZA PARA LAS CIENCIAS ECONÓMICAS",
+      "slug": "practicas-de-ensenanza-para-las-ciencias-economicas",
+      "start_date_iso": "2026-08-21",
+      "kb_path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
+      "content_hash": "ac97a0825e13d582a8eb99f34fca072bdfab98b3f6357852da1a201a1c90c8c1"
     },
     {
       "id": "1414",
@@ -25,7 +41,7 @@
       "slug": "gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas",
       "start_date_iso": "2026-08-24",
       "kb_path": "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md",
-      "content_hash": "17200b0738602df4c6db97aae0abfc5fc47ffb9b1b3379c0f1572be00cb1ee10"
+      "content_hash": "076d93d9bf66ab0d4d974c77aa4a34f5b6b8a9249177f0f57a13b7485642157f"
     },
     {
       "id": "1415",
@@ -33,7 +49,15 @@
       "slug": "economia-gubernamental",
       "start_date_iso": "2026-09-07",
       "kb_path": "cursos-posgrado/economia-gubernamental.md",
-      "content_hash": "f01a1c02e42139f995ec2ba2d52583dc2d46c28d22dae157036e741a465329d0"
+      "content_hash": "680a9aad4467970af0406f2d75870abbc6439d829d39134917914fcd141a9e5a"
+    },
+    {
+      "id": "1421",
+      "title": "SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION",
+      "slug": "sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion",
+      "start_date_iso": "2026-09-18",
+      "kb_path": "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md",
+      "content_hash": "e83aa5f256efee80803d68ab69e4e4352fe09a97f8378d7f264ac51a59dcf45c"
     },
     {
       "id": "1416",
@@ -41,7 +65,7 @@
       "slug": "trabajo-final-edgop-2do-cuatrimestre",
       "start_date_iso": "2026-09-19",
       "kb_path": "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md",
-      "content_hash": "4fecc12019fe48baa5020ea1c4ffc3ef98e92696a413e99335fa3f0a2657dc77"
+      "content_hash": "6d8bc70b4f5af2dd7c13285aca77e2b440b5b2341e6ce6a4f8030a26bb272ca8"
     },
     {
       "id": "1402",
@@ -49,7 +73,7 @@
       "slug": "de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado",
       "start_date_iso": "2026-10-06",
       "kb_path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
-      "content_hash": "07dab78bf4add91764463826d11a45bfd9379bd06082b4204b6632c6cfa663da"
+      "content_hash": "d02936e19b14dac1f48de06bd0cb920b30b0bab5f490cb1a6e66683023096d8e"
     },
     {
       "id": "1417",
@@ -57,7 +81,7 @@
       "slug": "conduccion-y-gerencia-en-instituciones-publicas",
       "start_date_iso": "2026-10-12",
       "kb_path": "cursos-posgrado/conduccion-y-gerencia-en-instituciones-publicas.md",
-      "content_hash": "c7ebb061732ea656333d8c1a0d3a0258683ff993ed560f3adced3402b46318dd"
+      "content_hash": "3faa3cb09cbd3ad73c6a6c66b3b2df08b46925393113da73f81fbf239aed60fa"
     },
     {
       "id": "1418",
@@ -65,7 +89,15 @@
       "slug": "analisis-institucional-de-organizaciones-publicas",
       "start_date_iso": "2026-10-19",
       "kb_path": "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md",
-      "content_hash": "79958fef0948180e02e3bdd28b11e3ed0b6acce5dd65421142aa928fedd6f1ba"
+      "content_hash": "01fa2ea9d9a4104b58c0d0846d42ac677557908e02fed30b3d9b9868bf52a302"
+    },
+    {
+      "id": "1422",
+      "title": "GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL",
+      "slug": "gobierno-corporativo-y-responsabilidad-social-organizacional",
+      "start_date_iso": "2026-10-23",
+      "kb_path": "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md",
+      "content_hash": "ae06b1733385347aba120da3c3bd428d5c32af8123133c11efdf9f5bc0afc371"
     }
   ]
 }
