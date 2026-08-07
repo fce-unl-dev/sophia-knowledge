@@ -1,6 +1,6 @@
 {
-  "version": 40,
-  "lastUpdated": "2026-08-06",
+  "version": 41,
+  "lastUpdated": "2026-08-07",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -331,6 +331,20 @@
       "canonicalUrl": "https://drive.google.com/file/d/1bIMjp96BgyQvs_mInElLkHSO-be_-xNn/view?usp=drivesdk"
     },
     {
+      "path": "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md",
+      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md",
+      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h/view?usp=drivesdk"
+    },
+    {
       "path": "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md",
       "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
       "category": "Complementario",
@@ -481,6 +495,12 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
     {
+      "path": "cursos-posgrado/finanzas-de-empresas.md",
+      "title": "FINANZAS DE EMPRESAS",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
       "path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
       "title": "Gestión de administraciones gubernamentales",
       "category": "Curso de posgrado",
@@ -493,8 +513,26 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
     {
+      "path": "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md",
+      "title": "GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/impuestos-subnacionales-procedimientos-provinciales-convenio-multilateral.md",
+      "title": "IMPUESTOS SUBNACIONALES. PROCEDIMIENTOS PROVINCIALES. CONVENIO MULTILATERAL",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
       "path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
       "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md",
+      "title": "SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION",
       "category": "Curso de posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
@@ -1105,20 +1143,6 @@
       "category": "Especialización",
       "programCode": "TRIB",
       "canonicalUrl": "https://fce.unl.edu.ar/tributacion/"
-    },
-    {
-      "path": "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md",
-      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md",
-      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK/view?usp=drivesdk"
     }
   ]
 }
