@@ -1,4 +1,5 @@
 name: Sync KB
+run-name: "Sync KB${{ inputs.source && format(' [source:{0}]', inputs.source) || '' }}${{ inputs.operation_id && format(' [operation:{0}]', inputs.operation_id) || '' }}"
 
 # Sincroniza el KB con las fuentes web definidas en tools/scraper/sources.json.
 # Puede dispararse manualmente (UI de GH Actions o dashboard admin del agente)
@@ -46,6 +47,11 @@ on:
         description: 'Quién disparó este run (email o nombre para audit log).'
         required: false
         default: 'manual'
+        type: string
+      operation_id:
+        description: 'Identificador opcional de correlación del dashboard admin.'
+        required: false
+        default: ''
         type: string
 
 permissions:
