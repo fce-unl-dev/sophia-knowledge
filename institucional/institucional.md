@@ -29,8 +29,8 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoepOOf_Politica-de-calidad-FCE-Rev-1.pdf
-  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/FACULTAD-DE-CIENCIAS-ECON%C3%93MICAS-9001-iram.pdf
-  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/FACULTAD-DE-CIENCIAS-ECON%C3%93MICAS-9001-iqnet.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/FACULTAD-DE-CIE-9000-iram-v1008.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/FACULTAD-DE-CIE-9000-iqnet-v1008.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Plan-de-Gesti%C3%B3n-para-la-FCE-2022-2026.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/TUTORIAL-2-Bidi.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/res-505-24-departamentos-carreras-procesos-eleccionarios.pdf
@@ -195,5 +195,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-08-10 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-08-13 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

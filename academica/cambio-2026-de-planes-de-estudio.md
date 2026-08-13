@@ -9,18 +9,16 @@
 
 - Académica » Cambio 2026 de Planes de Estudio » Cambio 2026 de Planes de Estudio
 - Cambio 2026 de Planes de Estudio
-- ENCUESTAS
-- La Comisión de Evaluación Curricular del Consejo Directivo de la FCE, creada con el fin de analizar y evaluar los Planes de Estudio de las carreras de grado, lo/a invita a responder una encuesta diseñada con el apoyo y asesoramiento de la Socióloga Virginia Trevignani y su equipo.
-- Este relevamiento se enmarca en el proceso de revisión curricular de los planes de estudios de las carreras de Contador Público, Licenciatura en Administración y Licenciatura en Economía que como comunidad estamos llevando adelante.
-- Se garantiza la confidencialidad de la información relevada. Es muy importante que respondan la consulta antes del martes 07 de julio del año en curso.
-- Si Ud. es DOCENTE, tiene que entrar a la encuesta con un enlace especial que fue enviado a su mail, ese enlace es de 1 solo uso, NO LO COMPARTA por favor. Si no lo recibió comuníquese con difusion@fce.unl.edu.ar
-- Si Ud. es ALUMNO, puede usar este enlace para responder:
-- https://servicios.unl.edu.ar/encuestas/index.php/978864?lang=es
-- Sus respuestas contribuirán a formular propuestas de cambio. Agradecemos su participación y compromiso con la Institución.
+- Presentación de Resultados de las Encuestas
+- En el marco del proceso de revisión y evaluación curricular de las carreras de Contador Público, Licenciatura en Administración y Licenciatura en Economía, se puso a disposición de la Comisión de Evaluación Curricular del Consejo Directivo la presentación elaborada por la Socióloga Virginia Trevignani y su equipo.
+- Esta presentación muestra los resultados del relevamiento realizado a docentes y estudiantes, constituyendo un insumo fundamental para el análisis y las propuestas de mejora de nuestra comunidad académica.
+- Agradecemos la participación y el compromiso de todos los integrantes de la comunidad FCE que sumaron su voz en este proceso.
+- Presentación de resultados del “Relevamiento para construir propuestas y acuerdos para la adecuación de los planes de estudio (FCE 2026)”
 - Normativa
 - Resolución 2598/2023 Ministerio de Educación
 - Resolución 556/2025 Ministerio de Capital Humano, Secretaría de Educación
 - Presentaciones en Jornadas y Encuentros
+- Presentación de resultados del “Relevamiento para construir propuestas y acuerdos para la adecuación de los planes de estudio (FCE 2026)”
 - Ciclo de talleres en marco del CRE (mayo 2026, brindado para docentes de todos los departamentos)
 - Jornada de Sensibilización
 - Diálogo sobre los procesos y cambios de planes de estudios CP,LA,LE
@@ -38,5 +36,5 @@
 
 ---
 
-**Última revisión automática**: 2026-08-10 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-08-13 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
