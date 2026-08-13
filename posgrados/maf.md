@@ -87,7 +87,7 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - **Fecha de inicio**: **2026-09 / 2026-10**
 - **Estado**: Abierta
 - **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
-- **Última actualización del dato**: **2026-07-27**
+- **Última actualización del dato**: **2026-08-13**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -127,9 +127,10 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=79 (Dirección Académica)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85 (Comité académico)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Doble titulación con Alemania)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
 - https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
 
 ---
 
-**Última revisión humana**: 2026-07-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-13 por pipeline de scraping.

@@ -2,8 +2,8 @@
   "slug": "maf",
   "url": "https://fce.unl.edu.ar/maf/",
   "strategy": "fce-microsite",
-  "content_hash": "545a3dcb4e0fc85af550a69f38752cac81d8632355c850c4f511dea944a59c85",
-  "previous_hash": "c6045b95d7c5a0f6301ad4978d385aadca98dd4a4b1ac05702a26b8504d4744a",
+  "content_hash": "e1b06b892f6a6887471dbf7c2c86b93ca3c057fff9861b768bf2d49bbccf65de",
+  "previous_hash": "545a3dcb4e0fc85af550a69f38752cac81d8632355c850c4f511dea944a59c85",
   "pages_count": 20,
   "pages": [
     {
@@ -14,7 +14,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=290",
       "title": "Presentación de la carrera",
-      "length": 2039
+      "length": 1645
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=80",
@@ -107,6 +107,6 @@
       "length": 603
     }
   ],
-  "scraped_at": "2026-07-27T09:34:28.092Z",
-  "last_checked_at": "2026-07-27T09:34:28.092Z"
+  "scraped_at": "2026-08-13T07:14:15.605Z",
+  "last_checked_at": "2026-08-13T07:14:15.605Z"
 }
