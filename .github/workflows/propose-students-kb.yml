@@ -94,6 +94,7 @@ jobs:
         if: inputs.mode != 'dry-run' && (steps.proposal.outputs.decision == 'auto_merge' || steps.proposal.outputs.decision == 'requires_review')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPERATION_ID: ${{ inputs.operation_id }}
         run: |
           set -e
           branch="kb-sync/update-estudiantes"
@@ -123,6 +124,10 @@ jobs:
 
           gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
           gh label create auto-update --color 2563EB --description "Cambio KB de bajo riesgo propuesto por sync automático" || true
+
+          if [ -n "$OPERATION_ID" ]; then
+            printf '\n[operation:%s]\n' "$OPERATION_ID" >> /tmp/students-pr-body.md
+          fi
 
           gh pr create \
             --base main \

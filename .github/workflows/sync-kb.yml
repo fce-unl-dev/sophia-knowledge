@@ -128,6 +128,7 @@ jobs:
         if: inputs.mode != 'dry-run' && (steps.pipeline.outputs.decision == 'auto_merge' || steps.pipeline.outputs.decision == 'requires_review')
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPERATION_ID: ${{ inputs.operation_id }}
         run: |
           set -e
           slug='${{ matrix.slug }}'
@@ -196,6 +197,10 @@ jobs:
           3. Si todo está correcto, aprobar y mergear.
           4. Si hay dudas, dejar comentario o cerrar sin mergear.
           EOF
+
+          if [ -n "$OPERATION_ID" ]; then
+            printf '\n[operation:%s]\n' "$OPERATION_ID" >> /tmp/pr_body.md
+          fi
 
           gh pr create \
             --base main \
