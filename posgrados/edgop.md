@@ -99,7 +99,7 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 -   **Fecha de inicio**: **2026-08**
 -   **Estado**: Abierta
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779
--   **Última actualización del dato**: **2026-06-29**
+-   **Última actualización del dato**: **2026-08-13**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -143,20 +143,20 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 ## Fuentes consultadas
 
 -   https://fce.unl.edu.ar/edgop/ (Información de interés, inscripciones)
--   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera, Centro TOP, articulación con MAP y DAP)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera, acreditación, Centro TOP, articulación con MAP y DAP)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
--   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Cursado y evaluación)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Modalidad de cursado)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=122 (Título que otorga)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192 (Requisitos de admisión)
--   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121 (Estructura del Plan de Estudios, carga horaria)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121 (Estructura del Plan de Estudios, carga horaria, trabajo final)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126 (Asignaturas obligatorias y optativas)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=181 (Objetivos curriculares)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=124 (Conducción de la carrera)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125 (Comité Académico)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123 (Cuerpo Docente)
--   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=246 (Convenio UPCN)
--   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Inscripciones a la carrera)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=246 (Convenio UPCN / Becas)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Inscripciones, fecha de inicio)
 
 ---
 
-**Última revisión humana**: 2026-07-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-13 por pipeline de scraping.
