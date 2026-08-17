@@ -25,11 +25,11 @@
 - Fecha límite: 10 de agosto 2026
 - Más información sobre la convocatoria
 - CONGRESOS A REALIZARSE:
-- II Encuentro Nacional de Universidades por la Cultura Comunitaria
-- 6 y 7 de agosto, Universidad Nacional de Villa María
-- Más información
 - II Jornadas Nacionales de Educación 2026
 - 3 y 4 de septiembre, Mendoza.
+- Más información
+- II Congreso de Tributación de Universidades Nacionales del Centro del País
+- Ciudad de Córdoba, 3 y 4 de septiembre de 2026.
 - Más información
 - 31ª Reunión Anual Red PyMEs Mercosur
 - 1 y 2 de octubre, Facultad de Ciencias Económicas – UNL Santa Fe, Argentina
@@ -61,5 +61,5 @@
 
 ---
 
-**Última revisión automática**: 2026-08-13 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-08-17 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
