@@ -1,6 +1,6 @@
 {
   "version": 43,
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -329,6 +329,20 @@
       "category": "Complementario",
       "sector": "grado",
       "canonicalUrl": "https://drive.google.com/file/d/1bIMjp96BgyQvs_mInElLkHSO-be_-xNn/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md",
+      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md",
+      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://drive.google.com/file/d/1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h/view?usp=drivesdk"
     },
     {
       "path": "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md",
@@ -966,6 +980,13 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/"
     },
     {
+      "path": "posgrado-general/cursos-posgrado.md",
+      "title": "Cursos de Posgrado",
+      "category": "Información general",
+      "programCode": "cursos posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos"
+    },
+    {
       "path": "posgrado-general/datos-para-crawler.md",
       "title": "Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL",
       "description": "Procedimientos operativos verificados: pagos, comprobantes, exámenes, certificados, diplomas, contactos y trámites. Fuente: DatosParaCrawler oficial de Secretaría de Posgrado.",
@@ -1105,20 +1126,6 @@
       "category": "Especialización",
       "programCode": "TRIB",
       "canonicalUrl": "https://fce.unl.edu.ar/tributacion/"
-    },
-    {
-      "path": "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md",
-      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md",
-      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK/view?usp=drivesdk"
     }
   ]
 }
