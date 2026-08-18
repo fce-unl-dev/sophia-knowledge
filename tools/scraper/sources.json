@@ -545,6 +545,12 @@
       "indice_path": "posgrado-general/cursos-posgrado.md",
       "url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
       "strategy": "wordpress-homepage"
+    },
+    {
+      "slug": "crawler",
+      "indice_path": "posgrado-general/crawler.md",
+      "url": "https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar",
+      "strategy": "wordpress-homepage"
     }
   ]
 }
