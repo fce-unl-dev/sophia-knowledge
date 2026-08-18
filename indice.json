@@ -974,6 +974,13 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/posgrado/categorias/carreras-de-posgrado-con-otras-unidades-academicas/"
     },
     {
+      "path": "posgrado-general/crawler.md",
+      "title": "datos generales posgrado",
+      "category": "Información general",
+      "programCode": "crawler",
+      "canonicalUrl": "https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar"
+    },
+    {
       "path": "posgrado-general/cursos-overview.md",
       "title": "Cursos de Posgrado — Información e inscripción",
       "category": "Información general de Posgrado",
