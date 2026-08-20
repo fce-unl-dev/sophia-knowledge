@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-20",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -9,7 +9,7 @@
     "extension": 6,
     "internacionales": 7,
     "docentes": 3,
-    "posgrados_graduados": 44,
+    "posgrados_graduados": 46,
     "posgrados_cursos_sin_titulo": 28,
     "grado": 12,
     "tramites_bedelia": 7,
@@ -332,6 +332,18 @@
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
       "title": "Resolución 2598/2023",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
       "category": "Complementario"
     },
     "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md": {
@@ -960,11 +972,23 @@
       "title": "Carreras de Posgrado con Otras Unidades Académicas",
       "category": "Información general de Posgrado"
     },
+    "posgrado-general/crawler.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "datos generales posgrado",
+      "category": "Información general"
+    },
     "posgrado-general/cursos-overview.md": {
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
       "title": "Cursos de Posgrado — Información e inscripción",
       "category": "Información general de Posgrado"
+    },
+    "posgrado-general/cursos-posgrado.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Cursos de Posgrado",
+      "category": "Información general"
     },
     "posgrado-general/datos-para-crawler.md": {
       "sector": "posgrados_graduados",
@@ -1085,18 +1109,6 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Especialización en Tributación",
       "category": "Especialización"
-    },
-    "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
-      "category": "Complementario"
-    },
-    "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
-      "category": "Complementario"
     }
   }
 }
