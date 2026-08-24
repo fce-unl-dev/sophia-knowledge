@@ -99,4 +99,4 @@ Para obtener información detallada sobre el plan de estudios, cuerpo docente, a
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-24 por pipeline de scraping.
+**Última revisión humana**: 2026-08-24
