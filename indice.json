@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 46,
   "lastUpdated": "2026-08-24",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
@@ -483,6 +483,12 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
     {
+      "path": "cursos-posgrado/costos-de-la-funcion-comercial.md",
+      "title": "COSTOS DE LA FUNCION COMERCIAL",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
       "path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
       "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
       "category": "Curso de posgrado",
@@ -495,20 +501,26 @@
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
     {
-      "path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
-      "title": "Gestión de administraciones gubernamentales",
-      "category": "Curso de posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
-    },
-    {
       "path": "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md",
       "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
       "category": "Curso de posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
     {
-      "path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
-      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "path": "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md",
+      "title": "GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md",
+      "title": "METODOS CUANTITATIVOS PARA LOS NEGOCIOS",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
+      "path": "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md",
+      "title": "SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION",
       "category": "Curso de posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
