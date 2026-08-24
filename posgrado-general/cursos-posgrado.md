@@ -1,6 +1,6 @@
 # Cursos de Posgrado
 
-{Breve párrafo introductorio/resumen descriptivo de la propuesta. Preservá la introducción narrativa si es correcta. IMPORTANTE PARA WHATSAPP: No uses títulos con "#" o "##" dentro de esta descripción ya que se mostrarán con los numerales literalmente en la pantalla del celular. Si necesitás destacar secciones internas, usá negrita simple en una sola línea (ej: **Información importante:**) seguido de un salto de línea}
+Esta sección presenta la oferta de cursos de posgrado de la FCE-UNL, incluyendo detalles generales de inscripción y un listado de las próximas cohortes disponibles para cursos individuales.
 
 ---
 
@@ -9,89 +9,94 @@
 - **Nombre oficial**: Cursos de Posgrado
 - **Código corto / sigla**: cursos posgrado
 - **Tipo**: Información general
-- **Título que otorga**: Cursos de Posgrado
-- **Acreditación CONEAU**: {Si aplica: número de resolución y categoría; o "no aplica" / "en trámite"}
-- **Unidad académica**: {FCE-UNL o la unidad sede correspondiente si es una propuesta compartida}
-- **Carreras compartidas con otras unidades**: {Si aplica, indicar facultades/universidades}
+- **Título que otorga**: No aplica (los cursos individuales otorgan certificados de aprobación o asistencia)
+- **Acreditación CONEAU**: No aplica
+- **Unidad académica**: FCE-UNL
+- **Carreras compartidas con otras unidades**: No publicado
 
 ## Modalidad y duración
 
-- **Modalidad**: {Presencial | Virtual / a distancia | Híbrida | Presencial con clases por Zoom}
-- **Días y horarios de cursada**: {Ej: "Viernes 17 a 21 hs y sábados 9 a 13 hs"}
-- **Lugar**: {Ej: "FCE-UNL, Moreno 2557, Santa Fe" o "100% online"}
-- **Idioma**: {Español | con asignaturas en inglés | etc.}
-- **Duración cursada**: {Ej: "2 años" o "8 meses"}
-- **Duración trabajo final / tesis**: {Si aplica}
-- **Carga horaria total**: {Horas | Créditos académicos (UCAs)}
+- **Modalidad**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Lugar**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Idioma**: Español
+- **Duración cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Duración trabajo final / tesis**: No aplica
+- **Carga horaria total**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 
 ## Plan de estudios
 
 ### Estructura general
-{Breve descripción de cómo se estructura: módulos, ciclos, etc.}
+No aplica, ya que esta ficha corresponde a la categoría general de cursos de posgrado. Cada curso individual tiene su propio plan de estudios.
 
 ### Módulos / asignaturas
-{Listado por módulo. Si hay materias optativas, indicarlas. Si hay docentes asignados a cada materia y son públicos, listarlos al lado.}
-
-**Módulo {Nombre}** ({créditos/horas})
-- Asignatura 1 — {docente si está publicado}
-- Asignatura 2 — {docente si está publicado}
-- ...
+No aplica.
 
 ### Trabajo final / tesis
-{Tipo de trabajo final, duración, dirección, codirección.}
+No aplica.
 
 ## Cuerpo docente
 
-{Si la nómina docente está publicada en web FCE o Drive: listarla acá con cargo / institución de origen.}
-
-{Si NO está publicada: indicar explícitamente "Nómina docente no publicada en fuentes oficiales; consultar a {email del programa}".}
+Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.edu.ar
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: {Ej: "Título de grado universitario en disciplinas afines"}
-- **Idiomas**: {Si aplica: nivel y certificación requeridos}
-- **Otros antecedentes**: {Experiencia profesional, recomendaciones, etc.}
-- **Documentación a presentar**: {Lista}
-- **Proceso de admisión**: {Pasos: pre-inscripción → entrevista → confirmación}
+- **Título previo requerido**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Idiomas**: No publicado
+- **Otros antecedentes**: No publicado
+- **Documentación a presentar**:
+    - DNI en formato digital
+    - Título de grado en formato digital
+- **Proceso de admisión**:
+    1. Completar la ficha de PREINSCRIPCIÓN online (`www.fce.unl.edu.ar/posgrados`) con datos personales y académicos.
+    2. Una vez ADMITIDO/A, subir en formato digital DNI/título de grado y responder el mail recibido de `tesoreria@fce.unl.edu.ar` con los datos de facturación.
+    3. Efectuar el PAGO del curso, ingresando a `https://servicios.unl.edu.ar/mdcobro/`.
 
 ## Aranceles e inscripción
 
-- **Matrícula**: {Monto exacto en pesos. Ej: **$ 15.000**. Si no está definido o es del año pasado, escribir: **A confirmar para ciclo 2026/2027** para evitar que Sophia informe precios desactualizados como vigentes}
-- **Cuotas**: {Cantidad y monto. Ej: **10 cuotas de $ 20.000** (valor a mayo 2026) o **A consultar**}
-- **Modalidad de pago**: {Sistema Mercurio UNL, transferencia bancaria, etc.}
-- **Becas disponibles**: {Descuentos para graduados, docentes, convenios, etc., con su respectivo enlace si lo hubiera}
-- **Estado actual de inscripción**: {Abierta hasta el **15 de junio de 2026** | Cerrada — próxima cohorte en **2027** | Por confirmar}
-- **Link de pre-inscripción**: {URL completa y exacta al formulario de inscripción}
+- **Matrícula**: A consultar por cada curso específico.
+- **Cuotas**: A consultar por cada curso específico.
+- **Modalidad de pago**: Sistema de cobro UNL (a través de `https://servicios.unl.edu.ar/mdcobro/`)
+- **Becas disponibles**: No publicado
+- **Estado actual de inscripción**: Abierta para las cohortes listadas en la sección "Próxima cohorte".
+- **Link de pre-inscripción**: `www.fce.unl.edu.ar/posgrados`
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: {Formato AAAA-MM-DD o AAAA-MM. Ej: **2026-08-15** o **2026-08**. Si no hay fecha firme, escribir **A confirmar**. Importante: Si la fecha que ponés aquí ya pasó en el calendario real, Sophia le dirá al usuario que la cohorte ya comenzó o finalizó}
-- **Estado**: {Abierta | Cerrada | Por confirmar}
-- **Fuente del dato**: {URL de la web de la FCE o número de resolución que aprueba esta cohorte}
-- **Última actualización del dato**: {AAAA-MM-DD de la última verificación humana. Ej: **2026-05-22**}
+- **Fecha de inicio**: Ver listado de cursos individuales a continuación.
+- **Estado**: Inscripciones abiertas para las cohortes de 2026.
+- **Fuente del dato**: `https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos`
+- **Última actualización del dato**: 2026-08-24
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
+**Listado de cursos con inscripciones abiertas (cohorte 2026):**
+- **ECONOMÍA GUBERNAMENTAL**: Inicio: **2026-09-07**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
+- **METODOS CUANTITATIVOS PARA LOS NEGOCIOS**: Inicio: **2026-09-07**. Ofrecido en el marco de la Especialización en Costos y Gestión Empresarial - a distancia.
+- **SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION**: Inicio: **2026-09-18**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría.
+- **TRABAJO FINAL EDGOP 2do Cuatrimestre**: Inicio: **2026-09-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
+- **De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado**: Inicio: **2026-10-06**.
+- **CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS**: Inicio: **2026-10-12**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
+- **ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS**: Inicio: **2026-10-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
+- **GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL**: Inicio: **2026-10-23**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría.
+- **COSTOS DE LA FUNCION COMERCIAL**: Inicio: **2026-10-26**. Ofrecido en el marco de la Especialización en Costos y Gestión Empresarial - a distancia.
+
 ## Contacto
 
-- **Director/a académico/a**: {Nombre, si está publicado}
-- **Email del programa**: {Email específico, no genérico de Posgrado}
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
-- **WhatsApp Posgrado**: +54 9 342 449 1939 {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
-- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181 {Omitir o indicar "no aplica" si la sede administrativa principal es otra facultad}
+- **Director/a académico/a**: No publicado
+- **Email del programa**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+- **WhatsApp Posgrado**: +54 9 342 449 1939
+- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
 
-{Cualquier cosa que no encaje arriba pero el usuario podría preguntar: doble titulación, convenios internacionales, salida laboral, perfil del egresado, etc.}
+Para obtener información detallada sobre el plan de estudios, cuerpo docente, aranceles específicos y requisitos de admisión de cada curso individual, se recomienda consultar directamente con la Secretaría de Posgrado de la FCE-UNL o a través de los enlaces de "Más información" y "Consultas" que figuran en la página de cada curso, si estuvieran disponibles.
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos
-- {URL FCE subpáginas relevantes (plan, docentes, inscripción)}
-- {URLs Drive si aplica (folleto PDF, etc.)}
-- {Otros}
+- https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos (Listado de cursos e información de inscripción)
 
 ---
 
-**Última revisión humana**: 2026-08-18
-**Revisado por**: dashboard
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-24 por pipeline de scraping.
