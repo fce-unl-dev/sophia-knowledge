@@ -29,6 +29,7 @@ import { execSync } from 'node:child_process';
 import { scrapeBySource } from './scrape.mjs';
 import { buildSectionCandidates } from './section_candidates.mjs';
 import { classifyDiff } from './classify_diff.mjs';
+import { checkContentRegression } from './guards.mjs';
 
 const SECTION_STRATEGY = 'fce-wordpress-section';
 
@@ -80,6 +81,7 @@ export async function proposeSectionsUpdate({
   const sectionReports = [];
   let anyTruncated = false;
   let candidateReviewCount = 0;
+  const shrunkDocs = [];
 
   for (const source of sectionSources) {
     const sectionId = source.sectionId;
@@ -127,7 +129,16 @@ export async function proposeSectionsUpdate({
       const targetAbsPath = join(kbRoot, targetRelPath);
       const previousMarkdown = existsSync(targetAbsPath) ? await readFile(targetAbsPath, 'utf8') : null;
 
-      if (previousMarkdown === candidate.markdown) {
+      // Guarda de encogimiento: si el crawl vino corto, el candidato reemplaza
+      // una ficha curada por un esqueleto. No se sobrescribe y se deriva a
+      // revisión con el motivo puesto.
+      const shrinkHit = previousMarkdown
+        ? checkContentRegression(candidate.markdown, previousMarkdown, { label: targetRelPath })
+        : null;
+      if (shrinkHit) {
+        shrunkDocs.push({ path: targetRelPath, ...shrinkHit });
+        classifications.push({ path: targetRelPath, decision: 'requires_review', reason: shrinkHit.reason, detailed_analysis: '' });
+      } else if (previousMarkdown === candidate.markdown) {
         unchangedDocs.push(targetRelPath);
       } else {
         if (!dryRun) {
@@ -162,6 +173,7 @@ export async function proposeSectionsUpdate({
     candidates_count: createdDocs.length + updatedDocs.length + unchangedDocs.length,
     truncated: anyTruncated,
     candidate_review_count: candidateReviewCount,
+    shrunk_docs: shrunkDocs,
   };
 
   if (unsafeSkipped.length > 0) {
