@@ -111,7 +111,7 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/maea/index.php?act=showCategoria&id=198
-- **Última actualización del dato**: 2026-05-30
+- **Última actualización del dato**: 2026-08-24
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -139,18 +139,16 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/maea/ (homepage)
-- https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=74 (Presentación de la carrera)
+- https://fce.unl.edu.ar/maea/ (homepage, noticias de publicaciones)
+- https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=74 (Presentación de la carrera, acreditación)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=71 (Modalidad y Duración)
-- https://www.fce.unl.edu.ar/maea/index.php?act=showCategoria&id=198 (Informes e inscripción)
+- https://www.fce.unl.edu.ar/maea/index.php?act=showCategoria&id=198 (Informes e inscripción, requisitos de admisión)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=65 (Perfil y Título)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=66 (Estructura Curricular)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=67 (Trabajo Final y Aprobación)
-- https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=69 (Dirección Académica)
+- https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=69 (Dirección Académica, Comité Académico)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=70 (Cuerpo de Profesores)
-- https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=303 (Novedades - Publicación docente)
-- https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=296 (Novedades - Publicación alumno)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-24 por pipeline de scraping.
