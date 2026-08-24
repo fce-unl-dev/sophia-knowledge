@@ -1,0 +1,17 @@
+{
+  "slug": "crawler",
+  "url": "https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar",
+  "strategy": "wordpress-homepage",
+  "content_hash": "8198d1840bd40a53a33a97ccfeaf4cbeaa0f00a0f60b5b0bfdc7c19910bb9d11",
+  "previous_hash": null,
+  "pages_count": 1,
+  "pages": [
+    {
+      "url": "https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar",
+      "title": "",
+      "length": 96397
+    }
+  ],
+  "scraped_at": "2026-08-24T06:43:19.143Z",
+  "last_checked_at": "2026-08-24T06:43:19.143Z"
+}
