@@ -10,7 +10,7 @@
     "internacionales": 7,
     "docentes": 3,
     "posgrados_graduados": 46,
-    "posgrados_cursos_sin_titulo": 28,
+    "posgrados_cursos_sin_titulo": 30,
     "grado": 12,
     "tramites_bedelia": 7,
     "normativa": 10
@@ -466,6 +466,12 @@
       "title": "CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS",
       "category": "Curso de posgrado"
     },
+    "cursos-posgrado/costos-de-la-funcion-comercial.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "COSTOS DE LA FUNCION COMERCIAL",
+      "category": "Curso de posgrado"
+    },
     "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
@@ -478,22 +484,28 @@
       "title": "ECONOMÍA GUBERNAMENTAL",
       "category": "Curso de posgrado"
     },
-    "cursos-posgrado/gestion-de-administraciones-gubernamentales.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión de administraciones gubernamentales",
-      "category": "Curso de posgrado"
-    },
     "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
       "category": "Curso de posgrado"
     },
-    "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md": {
+    "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Prácticas de Enseñanza para las Ciencias Económicas",
+      "title": "GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "METODOS CUANTITATIVOS PARA LOS NEGOCIOS",
+      "category": "Curso de posgrado"
+    },
+    "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION",
       "category": "Curso de posgrado"
     },
     "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md": {
@@ -526,28 +538,10 @@
       "title": "Gestión de Emprendimientos en la Industria de Cáñamo y Cannabis Medicinal",
       "category": "Curso de formación profesional"
     },
-    "cursos/gestion-de-proyectos-con-ia-planificacion-y-ejecucion-practica.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión de Proyectos con IA: Planificación y Ejecución Práctica",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/gestion-financiera-para-emprendimientos.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Gestión Financiera para Emprendimientos",
-      "category": "Curso de formación profesional"
-    },
     "cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Herramientas Matemáticas para Modelizar Cambios en Variables de Interés Operativo",
-      "category": "Curso de formación profesional"
-    },
-    "cursos/inteligencia-artificial-para-la-gestion-de-pymes-y-emprendimientos.md": {
-      "sector": "posgrados_cursos_sin_titulo",
-      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "Inteligencia Artificial para la Gestión de Pymes y Emprendimientos",
       "category": "Curso de formación profesional"
     },
     "cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md": {

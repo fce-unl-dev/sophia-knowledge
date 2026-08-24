@@ -20,6 +20,7 @@ import { readFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
+import { usefulTextLength, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
 
 import {
   fetchHtml,
@@ -202,6 +203,15 @@ export async function runStudentsScraper({
     processed.push(result.summary);
     if (result.summary.pages_with_content === 0) {
       warnings.push(`${topic.slug}: sin páginas con contenido útil; no se genera candidato`);
+      continue;
+    }
+    // Piso de texto útil sumando todas las subpáginas del tema. Un tema que
+    // baja cuatro páginas de 30 caracteres cada una tiene pages_with_content > 0
+    // y aun así no alcanza para una ficha: mejor no generar candidato que
+    // publicar un esqueleto.
+    const textoUtilDelTema = usefulTextLength((result.pages || []).map((page) => page.text || '').join('\n'));
+    if (textoUtilDelTema < DEFAULT_MIN_DOC_CHARS) {
+      warnings.push(`${topic.slug}: solo ${textoUtilDelTema} caracteres útiles en total (mínimo ${DEFAULT_MIN_DOC_CHARS}); no se genera candidato`);
       continue;
     }
     if (result.summary.requires_review) {

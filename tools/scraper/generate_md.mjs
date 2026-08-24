@@ -15,22 +15,21 @@ import { existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
+import {
+  DEFAULT_MIN_RAW_CHARS,
+  RAW_REGRESSION_RATIO,
+  usefulTextLength,
+  checkRawFloor,
+  checkRawRegression,
+} from './guards.mjs';
+
+// Re-exportadas para no romper a quien las venía importando desde este módulo.
+export { DEFAULT_MIN_RAW_CHARS, RAW_REGRESSION_RATIO, usefulTextLength };
 
 const DEFAULT_MODEL = 'gemini-2.5-flash';
 const GEMINI_URL = (model) => `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 const REQUEST_TIMEOUT_MS = 120_000;
 
-// Piso de contenido útil por debajo del cual no se llama al modelo: con la
-// plantilla canónica en el prompt y un scrape vacío, Gemini completa la ficha
-// con su conocimiento previo en vez de con la fuente. Calibrado contra el
-// raw.txt legítimo más chico del repo (mdypp, ~1.200 caracteres útiles).
-// Se puede bajar por fuente con "minRawChars" en sources.json.
-export const DEFAULT_MIN_RAW_CHARS = 600;
-
-// Si el scrape de esta corrida quedó por debajo de este porcentaje del de la
-// corrida anterior, casi siempre significa que la página cambió de estructura
-// y el extractor dejó de matchear.
-export const RAW_REGRESSION_RATIO = 0.4;
 
 // ---------- System prompt ----------
 
@@ -154,18 +153,6 @@ export function stripMarkdownFence(text) {
 
 // ---------- Raw text guards ----------
 
-// Mide el contenido efectivamente aprovechable del scrape: descarta líneas en
-// blanco y colapsa espacios repetidos antes de contar. Un raw.txt de 3 KB de
-// saltos de línea y sangrías no es un scrape útil.
-export function usefulTextLength(text) {
-  if (!text) return 0;
-  return text
-    .split('\n')
-    .map((line) => line.replace(/\s+/g, ' ').trim())
-    .filter((line) => line.length > 0)
-    .join('\n')
-    .length;
-}
 
 // Lee el meta de la corrida anterior. Un meta ausente o corrupto no es un
 // error: simplemente no hay con qué comparar.
@@ -193,29 +180,20 @@ export async function generateForSource(source, { sourcesData, stateDir, kbRoot,
   // Guarda 1 — piso absoluto. Corta antes de gastar una llamada al modelo.
   const rawLength = usefulTextLength(rawText);
   const minRawChars = Number.isFinite(source.minRawChars) ? source.minRawChars : DEFAULT_MIN_RAW_CHARS;
-  if (rawLength < minRawChars) {
-    return {
-      slug: source.slug,
-      status: 'insufficient-raw',
-      reason: `el scrape de esta fuente trajo ${rawLength} caracteres útiles, por debajo del mínimo de ${minRawChars}. No se generó la ficha: con tan poco texto el modelo la completaría inventando. Revisá si la página cambió de estructura o si la estrategia de extracción "${source.strategy}" dejó de servir para esta URL.`,
-      raw_length: rawLength,
-      min_raw_chars: minRawChars,
-    };
-  }
+  const floorHit = checkRawFloor(rawText, {
+    minRawChars,
+    label: `la fuente "${source.slug}"`,
+    hint: `Revisá si la página cambió de estructura o si la estrategia de extracción "${source.strategy}" dejó de servir para esta URL.`,
+  });
+  if (floorHit) return { slug: source.slug, ...floorHit };
 
   // Guarda 2 — regresión contra la corrida anterior.
   const previousMeta = await readPreviousMeta(metaPath);
-  const previousRawLength = previousMeta?.raw_length;
-  if (Number.isFinite(previousRawLength) && previousRawLength > 0 && rawLength / previousRawLength < RAW_REGRESSION_RATIO) {
-    const pct = Math.round((rawLength / previousRawLength) * 100);
-    return {
-      slug: source.slug,
-      status: 'raw-regression',
-      reason: `el scrape de esta fuente trajo ${rawLength} caracteres útiles contra ${previousRawLength} de la corrida anterior: ${pct}% del tamaño previo, cuando el mínimo tolerado es ${Math.round(RAW_REGRESSION_RATIO * 100)}%. No se generó la ficha: una caída así casi siempre significa que la página cambió de estructura y el extractor dejó de encontrar el contenido. Revisá la URL a mano antes de volver a correr.`,
-      raw_length: rawLength,
-      previous_raw_length: previousRawLength,
-    };
-  }
+  const regressionHit = checkRawRegression(rawLength, previousMeta?.raw_length, {
+    ratio: RAW_REGRESSION_RATIO,
+    label: `la fuente "${source.slug}"`,
+  });
+  if (regressionHit) return { slug: source.slug, ...regressionHit };
 
   const templatePath = join(kbRoot, 'template.md');
   const template = await readFile(templatePath, 'utf8');

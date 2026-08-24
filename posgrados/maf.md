@@ -133,4 +133,4 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-13 por pipeline de scraping.
+**Última revisión humana**: 2026-08-24

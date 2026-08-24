@@ -17,6 +17,7 @@ import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { execSync } from 'node:child_process';
+import { checkRemovalRatio } from './guards.mjs';
 
 import { runPosgradoCoursesScraper, todayIsoDate } from './scrape_courses_posgrado.mjs';
 import { classifyDiff } from './classify_diff.mjs';
@@ -111,7 +112,18 @@ export async function proposePosgradoCoursesUpdate({
   const missingFromSource = (index.items || [])
     .filter((i) => i.path.startsWith(`${KB_FOLDER}/`) && !activePaths.has(i.path))
     .map((i) => ({ path: i.path, title: i.title }));
-  const bajasAnomaly = missingFromSource.length > 0 && missingFromSource.length > scraper.active_count;
+  // Regla vieja: las bajas superan a los cursos activos. Solo dispara cuando se
+  // cae más de la mitad del catálogo, así que deja pasar degradaciones grandes.
+  const bajasSuperanActivos = missingFromSource.length > 0 && missingFromSource.length > scraper.active_count;
+  // Regla nueva: las bajas se comen un porcentaje del inventario y las altas no
+  // las compensan. Se quedan las dos: la guarda solo puede endurecer.
+  const removalAnomaly = checkRemovalRatio({
+    inventory: (index.items || []).filter((i) => String(i.path || '').startsWith(`${KB_FOLDER}/`)).length,
+    removals: missingFromSource.length,
+    additions: createdDocs.length,
+    label: 'los cursos de posgrado',
+  });
+  const bajasAnomaly = bajasSuperanActivos || Boolean(removalAnomaly);
   const removedDocs = [];
   if (missingFromSource.length > 0 && !bajasAnomaly) {
     for (const baja of missingFromSource) {
@@ -147,7 +159,9 @@ export async function proposePosgradoCoursesUpdate({
     reason = 'Cambios de cursos de posgrado seguros (altas y/o bajas que reflejan la web).';
     if (bajasAnomaly) {
       decision = 'requires_review';
-      reason = `Anomalía de seguridad: ${missingFromSource.length} bajas frente a ${scraper.active_count} activos. No se borra masivamente sin revisión.`;
+      reason = removalAnomaly
+        ? `Anomalía de seguridad: ${removalAnomaly.reason}`
+        : `Anomalía de seguridad: ${missingFromSource.length} bajas frente a ${scraper.active_count} activos. No se borra masivamente sin revisión.`;
     }
     const review = classifications.filter((c) => c.decision === 'requires_review');
     if (review.length > 0) {
