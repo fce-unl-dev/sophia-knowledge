@@ -225,7 +225,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 -   **Fecha de inicio**: **2027-04**
 -   **Estado**: Por confirmar
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784 (Novedades)
--   **Última actualización del dato**: **2026-06-15**
+-   **Última actualización del dato**: **2026-08-24**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -260,7 +260,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 ## Fuentes consultadas
 
 -   https://fce.unl.edu.ar/sindicatura/ (Sigla ESC)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174 (Presentación, Acreditación CONEAU, Nombre oficial, Tipo, Incumbencia profesional)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174 (Presentación, Incumbencia profesional)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=154 (Duración de la carrera, Duración trabajo final)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=156 (Cursado y promoción, Modalidad)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=160 (Título que otorga)
@@ -275,4 +275,4 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 
 ---
 
-**Última revisión humana**: 2026-06-23
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-24 por pipeline de scraping.
