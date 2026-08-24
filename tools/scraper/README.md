@@ -78,8 +78,28 @@ La separación evita que PRs fallen por problemas temporales de red, pero permit
 | `auto_merge` | Abre PR de candidato de bajo riesgo. | Solo cambiaron secciones no sensibles. |
 | `requires_review` | Abre PR de revisión requerida. | Cambió al menos una sección sensible o hubo cambio estructural. |
 | `rejected` | NO commitea. Loguea warning. | Validación falló. |
-| `error` | NO commitea. Loguea warning. | Fallo técnico. |
+| `error` | NO commitea. Loguea warning. | Fallo técnico, o el paso de generación abortó por scrape insuficiente o degradado. |
 | `skipped` | NO procesa. | El source tiene `strategy: "TBD"`. |
+
+### Guardas del scrape antes del modelo
+
+`generate_md.mjs` corta antes de llamar a Gemini cuando el scrape no da para
+generar una ficha honesta. En esos casos `run_pipeline.mjs` reporta
+`decision: error` con el detalle en `report.error`:
+
+| Status de `generateForSource` | Cuándo se da | Qué hacer |
+|---|---|---|
+| `insufficient-raw` | El scrape trajo menos caracteres útiles que `minRawChars` (default 600). | Abrir la URL a mano: casi siempre la página cambió de estructura y la `strategy` dejó de matchear. Si la fuente es legítimamente chica, bajar `minRawChars` en `sources.json` para ese source. |
+| `raw-regression` | El scrape quedó por debajo del 40% del tamaño del de la corrida anterior (`raw_length` en `state/{slug}.gen.meta.json`). | Igual que arriba. No re-correr con `force` sin mirar la página primero. |
+
+Ninguna de las dos guardas gasta una llamada al modelo. La razón que devuelven
+está escrita para que la lea un operador, no solo un dev.
+
+Además, el clasificador aplica un candado determinista sobre la decisión del
+auditor IA: si cambió una sección sensible, si el archivo es nuevo o si hubo
+cambio estructural, la decisión pasa a `requires_review` aunque el modelo haya
+dicho `auto_merge`. Lo que dijo el modelo queda registrado en `ai_decision` /
+`ai_reason` del report, para poder medir después cuántas veces se equivocó.
 
 ## Modos
 

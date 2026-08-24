@@ -20,6 +20,18 @@ const DEFAULT_MODEL = 'gemini-2.5-flash';
 const GEMINI_URL = (model) => `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
 const REQUEST_TIMEOUT_MS = 120_000;
 
+// Piso de contenido útil por debajo del cual no se llama al modelo: con la
+// plantilla canónica en el prompt y un scrape vacío, Gemini completa la ficha
+// con su conocimiento previo en vez de con la fuente. Calibrado contra el
+// raw.txt legítimo más chico del repo (mdypp, ~1.200 caracteres útiles).
+// Se puede bajar por fuente con "minRawChars" en sources.json.
+export const DEFAULT_MIN_RAW_CHARS = 600;
+
+// Si el scrape de esta corrida quedó por debajo de este porcentaje del de la
+// corrida anterior, casi siempre significa que la página cambió de estructura
+// y el extractor dejó de matchear.
+export const RAW_REGRESSION_RATIO = 0.4;
+
 // ---------- System prompt ----------
 
 export const SYSTEM_INSTRUCTION = `Sos el redactor del Knowledge Base de Sophia, asistente virtual oficial de la Facultad de Ciencias Económicas (FCE) de la UNL. Tu único trabajo es generar fichas Markdown de propuestas académicas siguiendo EXACTAMENTE la plantilla canónica de la FCE.
@@ -140,14 +152,70 @@ export function stripMarkdownFence(text) {
   return m ? m[1].trim() : t;
 }
 
+// ---------- Raw text guards ----------
+
+// Mide el contenido efectivamente aprovechable del scrape: descarta líneas en
+// blanco y colapsa espacios repetidos antes de contar. Un raw.txt de 3 KB de
+// saltos de línea y sangrías no es un scrape útil.
+export function usefulTextLength(text) {
+  if (!text) return 0;
+  return text
+    .split('\n')
+    .map((line) => line.replace(/\s+/g, ' ').trim())
+    .filter((line) => line.length > 0)
+    .join('\n')
+    .length;
+}
+
+// Lee el meta de la corrida anterior. Un meta ausente o corrupto no es un
+// error: simplemente no hay con qué comparar.
+async function readPreviousMeta(metaPath) {
+  if (!existsSync(metaPath)) return null;
+  try {
+    return JSON.parse(await readFile(metaPath, 'utf8'));
+  } catch {
+    return null;
+  }
+}
+
 // ---------- Orchestrator ----------
 
 export async function generateForSource(source, { sourcesData, stateDir, kbRoot, apiKey, fetchImpl = fetch, today, model, write = true } = {}) {
   const rawPath = join(stateDir, `${source.slug}.raw.txt`);
+  const outPath = join(stateDir, `${source.slug}.candidate.md`);
+  const metaPath = join(stateDir, `${source.slug}.gen.meta.json`);
+
   if (!existsSync(rawPath)) {
     return { slug: source.slug, status: 'no-raw', reason: `${rawPath} no existe — corré scrape.mjs antes` };
   }
   const rawText = await readFile(rawPath, 'utf8');
+
+  // Guarda 1 — piso absoluto. Corta antes de gastar una llamada al modelo.
+  const rawLength = usefulTextLength(rawText);
+  const minRawChars = Number.isFinite(source.minRawChars) ? source.minRawChars : DEFAULT_MIN_RAW_CHARS;
+  if (rawLength < minRawChars) {
+    return {
+      slug: source.slug,
+      status: 'insufficient-raw',
+      reason: `el scrape de esta fuente trajo ${rawLength} caracteres útiles, por debajo del mínimo de ${minRawChars}. No se generó la ficha: con tan poco texto el modelo la completaría inventando. Revisá si la página cambió de estructura o si la estrategia de extracción "${source.strategy}" dejó de servir para esta URL.`,
+      raw_length: rawLength,
+      min_raw_chars: minRawChars,
+    };
+  }
+
+  // Guarda 2 — regresión contra la corrida anterior.
+  const previousMeta = await readPreviousMeta(metaPath);
+  const previousRawLength = previousMeta?.raw_length;
+  if (Number.isFinite(previousRawLength) && previousRawLength > 0 && rawLength / previousRawLength < RAW_REGRESSION_RATIO) {
+    const pct = Math.round((rawLength / previousRawLength) * 100);
+    return {
+      slug: source.slug,
+      status: 'raw-regression',
+      reason: `el scrape de esta fuente trajo ${rawLength} caracteres útiles contra ${previousRawLength} de la corrida anterior: ${pct}% del tamaño previo, cuando el mínimo tolerado es ${Math.round(RAW_REGRESSION_RATIO * 100)}%. No se generó la ficha: una caída así casi siempre significa que la página cambió de estructura y el extractor dejó de encontrar el contenido. Revisá la URL a mano antes de volver a correr.`,
+      raw_length: rawLength,
+      previous_raw_length: previousRawLength,
+    };
+  }
 
   const templatePath = join(kbRoot, 'template.md');
   const template = await readFile(templatePath, 'utf8');
@@ -161,8 +229,6 @@ export async function generateForSource(source, { sourcesData, stateDir, kbRoot,
   const { text, raw } = await callGemini({ apiKey, systemInstruction: SYSTEM_INSTRUCTION, userPrompt, model, fetchImpl });
   const candidate = stripMarkdownFence(text);
 
-  const outPath = join(stateDir, `${source.slug}.candidate.md`);
-  const metaPath = join(stateDir, `${source.slug}.gen.meta.json`);
   const usage = raw?.usageMetadata || {};
   const meta = {
     slug: source.slug,
@@ -171,6 +237,9 @@ export async function generateForSource(source, { sourcesData, stateDir, kbRoot,
     prompt_tokens: usage.promptTokenCount ?? null,
     output_tokens: usage.candidatesTokenCount ?? null,
     total_tokens: usage.totalTokenCount ?? null,
+    // Caracteres útiles del scrape, no bytes del archivo: es contra este número
+    // que la próxima corrida mide si hubo regresión.
+    raw_length: rawLength,
     candidate_length: candidate.length,
     candidate_path: outPath,
   };

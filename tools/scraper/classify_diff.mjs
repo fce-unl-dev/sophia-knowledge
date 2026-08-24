@@ -28,20 +28,20 @@ Tu objetivo principal es maximizar la automatización (permitiendo auto_merge) p
 REGLAS DE DECISIÓN:
 
 1. AUTO_MERGE (Aprobación Automática):
-   - Actualizaciones de aranceles (tasas, precios, cuotas), siempre que los montos nuevos sean legibles y coherentes.
-   - Actualizaciones de fechas (fechas de inicio de clases, inscripciones, cohortes futuras), siempre que no representen regresiones temporales (por ejemplo, cambiar del año actual a un año pasado).
    - Correcciones de errores ortográficos, gramaticales o de redacción.
-   - Actualización de nombres de directores, coordinadores, correos de contacto o teléfonos oficiales.
+   - Actualizaciones de fechas que NO pertenezcan a una sección sensible, siempre que no representen regresiones temporales (por ejemplo, cambiar del año actual a un año pasado).
    - Cambios de aulas, horarios de cursado o links a formularios/páginas web oficiales.
-   - En general, cualquier cambio de datos que sea claro, lógico, libre de contradicciones internas y consistente con el resto del documento.
+   - Reformulaciones o ampliaciones de secciones descriptivas (plan de estudios, perfil del egresado, información adicional).
+   - En general, cualquier cambio de datos que sea claro, lógico, libre de contradicciones internas y consistente con el resto del documento, y que no toque ninguna sección sensible.
 
 2. REQUIRES_REVIEW (Requiere Revisión Humana):
+   - Cambios en secciones sensibles: aranceles (tasas, precios, cuotas), requisitos de admisión, datos de contacto (correos, teléfonos), nombres de directores o coordinadores, modalidad y duración, acreditación CONEAU y próxima cohorte. Estos cambios van SIEMPRE a revisión humana, incluso cuando parezcan correctos y coherentes.
+   - Archivos NUEVOS (no existe versión anterior): siempre requieren revisión humana, sin importar qué tan completo se vea el borrador.
    - Contradicciones internas: Por ejemplo, que en una parte de la ficha diga que la modalidad es "Virtual" y en otra diga "Presencial", o que se mencionen requisitos contradictorios.
    - Regresiones temporales: Cambiar fechas de cohorte o inscripciones del futuro (ej. 2026) al pasado (ej. 2025), a menos que sea una corrección de un error claro.
    - Información sospechosa de error de scraping: Texto que parezca código, mensajes de error web ("404", "Acceso denegado", "Página no encontrada"), fragmentos de menús rotos o textos totalmente incoherentes.
    - Ambigüedades críticas: Datos extremadamente vagos, confusos o donde falte información esencial que antes sí estaba (ej. se borra por completo el correo de contacto sin proponer otro, o se elimina toda la sección de plan de estudios).
-   - Cambios estructurales drásticos que eliminen grandes bloques de información verificada sin reemplazo.
-   - Si el archivo es NUEVO (no existe versión anterior) pero está incompleto, contiene errores de scraping notables o carece de información crítica (ej. sin sección de contacto o sin plan de estudios).
+   - Cambios estructurales drásticos que eliminen grandes bloques de información verificada sin reemplazo, o que agreguen o quiten secciones enteras.
 
 FORMATO DE SALIDA:
 Debes responder EXCLUSIVAMENTE con un objeto JSON válido (sin markdown, sin bloques de código \`\`\`json). El JSON debe tener la siguiente estructura exacta:
@@ -228,17 +228,34 @@ export async function classifyDiff(candidate, current, { sensitiveSections = [],
     });
 
     const parsed = JSON.parse(stripMarkdownFence(response.text));
-    const decision = (parsed.decision === 'auto_merge' || parsed.decision === 'requires_review')
+    const aiDecision = (parsed.decision === 'auto_merge' || parsed.decision === 'requires_review')
       ? parsed.decision
       : 'requires_review';
+    const aiReason = parsed.reason || 'ai_decision';
 
     const sensitiveSet = new Set(sensitiveSections);
     const sensitive = changed.filter((name) => sensitiveSet.has(name));
     const nonSensitive = changed.filter((name) => !sensitiveSet.has(name));
+    const structuralChange = added.length > 0 || removed.length > 0;
+
+    // Candado determinista sobre la decisión del modelo. Solo endurece: el
+    // auditor puede pedir revisión humana donde las reglas no la pedirían,
+    // pero nunca puede levantar el candado sobre lo sensible, lo nuevo o los
+    // cambios estructurales.
+    let lockReason = '';
+    if (sensitive.length > 0) lockReason = 'ai_decision_overridden_sensitive';
+    else if (!current) lockReason = 'ai_decision_overridden_new_file';
+    else if (structuralChange) lockReason = 'ai_decision_overridden_structural';
+
+    const overridden = Boolean(lockReason) && aiDecision !== 'requires_review';
 
     return {
-      decision,
-      reason: parsed.reason || 'ai_decision',
+      decision: lockReason ? 'requires_review' : aiDecision,
+      reason: overridden ? lockReason : aiReason,
+      // Se conserva lo que dijo el modelo aunque el candado lo haya pisado:
+      // sirve para medir después cuántas veces el auditor se equivocó.
+      ai_decision: aiDecision,
+      ai_reason: aiReason,
       detailed_analysis: parsed.detailed_analysis || '',
       changed_sections: changed,
       sensitive_changes: sensitive,
