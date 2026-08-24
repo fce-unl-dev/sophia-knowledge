@@ -2,8 +2,8 @@
   "slug": "mba",
   "url": "https://fce.unl.edu.ar/mba/",
   "strategy": "fce-microsite",
-  "content_hash": "707dadd19fdf9ad917f4abe20be4372f285f564b810dbc935ea218bef6587cd4",
-  "previous_hash": "64646b8206ec1e4a8185be2b76c737e5e0576432c9915e6519d65a58fe334806",
+  "content_hash": "c0fa0660661eeb5a13ca5bec79eb1dd60aca073be7c278b14ce4aeae61292c31",
+  "previous_hash": "707dadd19fdf9ad917f4abe20be4372f285f564b810dbc935ea218bef6587cd4",
   "pages_count": 29,
   "pages": [
     {
@@ -74,12 +74,12 @@
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=20",
       "title": "Conducción FCE",
-      "length": 617
+      "length": 688
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=21",
       "title": "Dirección Académica",
-      "length": 2360
+      "length": 2323
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=34",
@@ -152,6 +152,6 @@
       "length": 1271
     }
   ],
-  "scraped_at": "2026-07-02T08:43:47.282Z",
-  "last_checked_at": "2026-07-02T08:43:47.282Z"
+  "scraped_at": "2026-08-24T06:38:50.772Z",
+  "last_checked_at": "2026-08-24T06:38:50.772Z"
 }
