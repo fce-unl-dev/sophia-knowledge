@@ -1,31 +1,15 @@
 {
-  "generated_at": "2026-07-31",
+  "generated_at": "2026-08-24",
   "listing_url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
-  "stable_hash": "e70723f9775391989ad20c24fed39ac2e2838e8ba8620b9939471da48beda639",
+  "stable_hash": "21b0964226e712331d62803224c75e43439913f4863029429befea65f1070ed3",
   "courses": [
-    {
-      "id": "1401",
-      "title": "PRÁCTICAS DE ENSEÑANZA PARA LAS CIENCIAS ECONÓMICAS",
-      "slug": "practicas-de-ensenanza-para-las-ciencias-economicas",
-      "start_date_iso": "2026-08-07",
-      "kb_path": "cursos-posgrado/practicas-de-ensenanza-para-las-ciencias-economicas.md",
-      "content_hash": "8bc41bb1aa781c1ac3a6299fbaa87ca60ffbfaab124770fe029860972331c970"
-    },
-    {
-      "id": "1409",
-      "title": "GESTION DE ADMINISTRACIONES GUBERNAMENTALES",
-      "slug": "gestion-de-administraciones-gubernamentales",
-      "start_date_iso": "2026-08-17",
-      "kb_path": "cursos-posgrado/gestion-de-administraciones-gubernamentales.md",
-      "content_hash": "c7cd71aead4fd773b18a4f9115ca7325929ea02e8b45926d99e0536e010756bd"
-    },
     {
       "id": "1414",
       "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
       "slug": "gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas",
       "start_date_iso": "2026-08-24",
       "kb_path": "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md",
-      "content_hash": "17200b0738602df4c6db97aae0abfc5fc47ffb9b1b3379c0f1572be00cb1ee10"
+      "content_hash": "a1238f3e2fbca8642fa3bddb6bf0e97122d7b99a53361e03ae53745b60b09b29"
     },
     {
       "id": "1415",
@@ -33,7 +17,23 @@
       "slug": "economia-gubernamental",
       "start_date_iso": "2026-09-07",
       "kb_path": "cursos-posgrado/economia-gubernamental.md",
-      "content_hash": "f01a1c02e42139f995ec2ba2d52583dc2d46c28d22dae157036e741a465329d0"
+      "content_hash": "14e367b7d951d63ea0e8fd470a1204c2a811c879d9d44f23614067c38875728a"
+    },
+    {
+      "id": "1423",
+      "title": "METODOS CUANTITATIVOS PARA LOS NEGOCIOS",
+      "slug": "metodos-cuantitativos-para-los-negocios",
+      "start_date_iso": "2026-09-07",
+      "kb_path": "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md",
+      "content_hash": "2aebd6b91e1ab989b0de3b2b349cf64fd6601f3890f9405b45157baec890f07d"
+    },
+    {
+      "id": "1421",
+      "title": "SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION",
+      "slug": "sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion",
+      "start_date_iso": "2026-09-18",
+      "kb_path": "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md",
+      "content_hash": "a18d33a460ded0271bf490098ae1d518e080ae358591bb9c8f7f445d73c06355"
     },
     {
       "id": "1416",
@@ -41,7 +41,7 @@
       "slug": "trabajo-final-edgop-2do-cuatrimestre",
       "start_date_iso": "2026-09-19",
       "kb_path": "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md",
-      "content_hash": "4fecc12019fe48baa5020ea1c4ffc3ef98e92696a413e99335fa3f0a2657dc77"
+      "content_hash": "4d4b99e78cfc652a4739835224c845c476e24941afe52f4a337286eefe4244b1"
     },
     {
       "id": "1402",
@@ -49,7 +49,7 @@
       "slug": "de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado",
       "start_date_iso": "2026-10-06",
       "kb_path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
-      "content_hash": "07dab78bf4add91764463826d11a45bfd9379bd06082b4204b6632c6cfa663da"
+      "content_hash": "0468d40083e60ce0cc475f58c69f62d7c2fb301f88c463774647ae633d1b76e2"
     },
     {
       "id": "1417",
@@ -57,7 +57,7 @@
       "slug": "conduccion-y-gerencia-en-instituciones-publicas",
       "start_date_iso": "2026-10-12",
       "kb_path": "cursos-posgrado/conduccion-y-gerencia-en-instituciones-publicas.md",
-      "content_hash": "c7ebb061732ea656333d8c1a0d3a0258683ff993ed560f3adced3402b46318dd"
+      "content_hash": "dc2be43ad6eccfa3f180e8c0662737625305c1b6d847a54aca48dfbcb2d42483"
     },
     {
       "id": "1418",
@@ -65,7 +65,23 @@
       "slug": "analisis-institucional-de-organizaciones-publicas",
       "start_date_iso": "2026-10-19",
       "kb_path": "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md",
-      "content_hash": "79958fef0948180e02e3bdd28b11e3ed0b6acce5dd65421142aa928fedd6f1ba"
+      "content_hash": "72b3572f4ad734cee01ea36d3b8fd0324cfa37892d5d616ff77254113f72f475"
+    },
+    {
+      "id": "1422",
+      "title": "GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL",
+      "slug": "gobierno-corporativo-y-responsabilidad-social-organizacional",
+      "start_date_iso": "2026-10-23",
+      "kb_path": "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md",
+      "content_hash": "ab3a10a957240599e2c910adee8f6d229dd6735661e270c358e39390fdffeae5"
+    },
+    {
+      "id": "1424",
+      "title": "COSTOS DE LA FUNCION COMERCIAL",
+      "slug": "costos-de-la-funcion-comercial",
+      "start_date_iso": "2026-10-26",
+      "kb_path": "cursos-posgrado/costos-de-la-funcion-comercial.md",
+      "content_hash": "f05bf42c03b57afc07c06a35cb405a3c18148f333089d37941a8d03adf57e665"
     }
   ]
 }
