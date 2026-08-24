@@ -17,6 +17,7 @@ import { join, resolve, dirname, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { execSync } from 'node:child_process';
+import { checkContentRegression, checkRemovalRatio } from './guards.mjs';
 
 import { runCoursesScraper } from './scrape_courses.mjs';
 import { classifyDiff } from './classify_diff.mjs';
@@ -80,6 +81,7 @@ export async function proposeCoursesUpdate({
 
   const createdDocs = [];
   const updatedDocs = [];
+  const shrunkDocs = [];
   const unchangedDocs = [];
   const addedIndexEntries = [];
   const unsafeSkipped = [];
@@ -97,7 +99,15 @@ export async function proposeCoursesUpdate({
     const targetAbsPath = join(kbRoot, targetRelPath);
     const previousMarkdown = existsSync(targetAbsPath) ? await readFile(targetAbsPath, 'utf8') : null;
 
-    if (previousMarkdown === candidateMarkdown) {
+    // Guarda de encogimiento: no se pisa una ficha curada con un candidato
+    // mucho más chico, que es como se ve una fuente que vino incompleta.
+    const shrinkHit = previousMarkdown
+      ? checkContentRegression(candidateMarkdown, previousMarkdown, { label: targetRelPath })
+      : null;
+    if (shrinkHit) {
+      shrunkDocs.push({ path: targetRelPath, ...shrinkHit });
+      classifications.push({ path: targetRelPath, decision: 'requires_review', reason: shrinkHit.reason });
+    } else if (previousMarkdown === candidateMarkdown) {
       unchangedDocs.push(targetRelPath);
     } else {
       if (!dryRun) {
@@ -141,6 +151,7 @@ export async function proposeCoursesUpdate({
       dry_run: dryRun,
       force,
       created_docs: createdDocs,
+      shrunk_docs: shrunkDocs,
       updated_docs: updatedDocs,
       unchanged_docs_count: unchangedDocs.length,
       added_index_entries: addedIndexEntries.map((entry) => entry.path),
@@ -160,7 +171,18 @@ export async function proposeCoursesUpdate({
   // parcial anómalo → se deriva a revisión humana en vez de borrar masivamente.
   const bajas = catalog.missing_from_active_source || [];
   const removedDocs = [];
-  const bajasAnomaly = bajas.length > 0 && bajas.length > (catalog.active_count || 0);
+  // Regla vieja: las bajas superan a los cursos activos. Solo dispara cuando se
+  // cae más de la mitad del catálogo, así que deja pasar degradaciones grandes.
+  const bajasSuperanActivos = bajas.length > 0 && bajas.length > (catalog.active_count || 0);
+  // Regla nueva: las bajas se comen un porcentaje del inventario y las altas no
+  // las compensan. Se quedan las dos: la guarda solo puede endurecer.
+  const removalAnomaly = checkRemovalRatio({
+    inventory: (index.items || []).filter((i) => String(i.path || '').startsWith('cursos/')).length,
+    removals: bajas.length,
+    additions: createdDocs.length,
+    label: 'los cursos de formación',
+  });
+  const bajasAnomaly = bajasSuperanActivos || Boolean(removalAnomaly);
   if (bajas.length > 0 && !bajasAnomaly) {
     const bajaPaths = new Set(bajas.map((b) => normalizeCoursePath(b.path)).filter(Boolean));
     for (const relPath of bajaPaths) {
@@ -199,7 +221,9 @@ export async function proposeCoursesUpdate({
 
     if (bajasAnomaly) {
       overallDecision = 'requires_review';
-      overallReason = `Anomalía de seguridad: ${bajas.length} bajas frente a ${catalog.active_count} cursos activos. No se borra masivamente sin revisión humana.`;
+      overallReason = removalAnomaly
+        ? `Anomalía de seguridad: ${removalAnomaly.reason}`
+        : `Anomalía de seguridad: ${bajas.length} bajas frente a ${catalog.active_count} cursos activos. No se borra masivamente sin revisión humana.`;
     }
 
     const reviewRequiredDocs = classifications.filter((c) => c.decision === 'requires_review');
