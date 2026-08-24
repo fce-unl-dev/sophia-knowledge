@@ -6,6 +6,7 @@ import {
   normalizeForDiff,
   diffSections,
   classifyDiff,
+  CLASSIFICATION_SYSTEM_INSTRUCTION,
 } from '../classify_diff.mjs';
 
 const SENSITIVE = [
@@ -25,6 +26,23 @@ function md({ preface = '', sections = {} }) {
   }
   return parts.join('\n');
 }
+
+describe('CLASSIFICATION_SYSTEM_INSTRUCTION', () => {
+  test('no instruye auto-aprobar aranceles, contactos ni teléfonos', () => {
+    const autoMergeBlock = CLASSIFICATION_SYSTEM_INSTRUCTION
+      .split('2. REQUIRES_REVIEW')[0];
+    assert.doesNotMatch(autoMergeBlock, /aranceles/i);
+    assert.doesNotMatch(autoMergeBlock, /correos de contacto/i);
+    assert.doesNotMatch(autoMergeBlock, /teléfonos/i);
+  });
+
+  test('manda las secciones sensibles y los archivos nuevos a revisión humana', () => {
+    const reviewBlock = CLASSIFICATION_SYSTEM_INSTRUCTION
+      .split('2. REQUIRES_REVIEW')[1] || '';
+    assert.match(reviewBlock, /secciones sensibles/i);
+    assert.match(reviewBlock, /Archivos NUEVOS/i);
+  });
+});
 
 describe('parseSections', () => {
   test('separa secciones por ## y captura preface', () => {
@@ -164,19 +182,17 @@ describe('classifyDiff with Gemini IA', () => {
     };
   };
 
-  test('diff de aranceles correctos aprueba con auto_merge', async () => {
+  test('auto_merge del modelo sobre sección sensible → override a requires_review, con la decisión original preservada', async () => {
     const a = md({ sections: { 'Aranceles e inscripción': 'Cuota mensual: 50.000 ARS' } });
     const b = md({ sections: { 'Aranceles e inscripción': 'Cuota mensual: 75.000 ARS' } });
-    
+
     let lastUrl = '';
-    let lastOptions = {};
-    const fetchImpl = async (url, options) => {
+    const fetchImpl = async (url) => {
       lastUrl = url;
-      lastOptions = options;
       return {
         ok: true,
         status: 200,
-        json: async () => mockGeminiResponse('auto_merge', 'Actualización de arancel coherente'),
+        json: async () => mockGeminiResponse('auto_merge', 'Actualización de arancel coherente', 'El monto es legible y coherente.'),
       };
     };
 
@@ -186,10 +202,100 @@ describe('classifyDiff with Gemini IA', () => {
       fetchImpl
     });
 
-    assert.equal(r.decision, 'auto_merge');
-    assert.equal(r.reason, 'Actualización de arancel coherente');
+    assert.equal(r.decision, 'requires_review');
+    assert.equal(r.reason, 'ai_decision_overridden_sensitive');
+    assert.equal(r.ai_decision, 'auto_merge');
+    assert.equal(r.ai_reason, 'Actualización de arancel coherente');
+    assert.equal(r.detailed_analysis, 'El monto es legible y coherente.');
+    assert.deepEqual(r.sensitive_changes, ['Aranceles e inscripción']);
     assert.ok(lastUrl.includes('key=test-api-key'));
     assert.ok(lastUrl.includes('gemini-2.5-pro'));
+  });
+
+  test('auto_merge del modelo sobre archivo nuevo → override a requires_review', async () => {
+    const b = md({ sections: { 'Plan de estudios': 'Tres años, seis materias por año' } });
+
+    const fetchImpl = async () => ({
+      ok: true,
+      status: 200,
+      json: async () => mockGeminiResponse('auto_merge', 'Ficha nueva completa y consistente'),
+    });
+
+    const r = await classifyDiff(b, '', {
+      sensitiveSections: SENSITIVE,
+      apiKey: 'test-api-key',
+      fetchImpl
+    });
+
+    assert.equal(r.decision, 'requires_review');
+    assert.equal(r.reason, 'ai_decision_overridden_new_file');
+    assert.equal(r.ai_decision, 'auto_merge');
+    assert.ok(r.preview.includes('# Título de la ficha'));
+  });
+
+  test('auto_merge del modelo sobre secciones no sensibles → se respeta auto_merge', async () => {
+    const a = md({ sections: { 'Plan de estudios': 'uno' } });
+    const b = md({ sections: { 'Plan de estudios': 'uno, reformulado con más detalle' } });
+
+    const fetchImpl = async () => ({
+      ok: true,
+      status: 200,
+      json: async () => mockGeminiResponse('auto_merge', 'Reformulación del plan de estudios'),
+    });
+
+    const r = await classifyDiff(b, a, {
+      sensitiveSections: SENSITIVE,
+      apiKey: 'test-api-key',
+      fetchImpl
+    });
+
+    assert.equal(r.decision, 'auto_merge');
+    assert.equal(r.reason, 'Reformulación del plan de estudios');
+    assert.equal(r.ai_decision, 'auto_merge');
+    assert.deepEqual(r.sensitive_changes, []);
+  });
+
+  test('requires_review del modelo sobre secciones no sensibles → se respeta (el override nunca ablanda)', async () => {
+    const a = md({ sections: { 'Plan de estudios': 'uno' } });
+    const b = md({ sections: { 'Plan de estudios': 'Error 404 - Página no encontrada' } });
+
+    const fetchImpl = async () => ({
+      ok: true,
+      status: 200,
+      json: async () => mockGeminiResponse('requires_review', 'Texto sospechoso de error de scraping'),
+    });
+
+    const r = await classifyDiff(b, a, {
+      sensitiveSections: SENSITIVE,
+      apiKey: 'test-api-key',
+      fetchImpl
+    });
+
+    assert.equal(r.decision, 'requires_review');
+    assert.equal(r.reason, 'Texto sospechoso de error de scraping');
+    assert.equal(r.ai_decision, 'requires_review');
+  });
+
+  test('auto_merge del modelo sobre cambio estructural → override a requires_review', async () => {
+    const a = md({ sections: { 'Plan de estudios': 'uno' } });
+    const b = md({ sections: { 'Plan de estudios': 'uno', 'Perfil del egresado': 'nuevo bloque' } });
+
+    const fetchImpl = async () => ({
+      ok: true,
+      status: 200,
+      json: async () => mockGeminiResponse('auto_merge', 'Sección agregada sin conflictos'),
+    });
+
+    const r = await classifyDiff(b, a, {
+      sensitiveSections: SENSITIVE,
+      apiKey: 'test-api-key',
+      fetchImpl
+    });
+
+    assert.equal(r.decision, 'requires_review');
+    assert.equal(r.reason, 'ai_decision_overridden_structural');
+    assert.equal(r.ai_decision, 'auto_merge');
+    assert.deepEqual(r.added_sections, ['Perfil del egresado']);
   });
 
   test('diff con contradicciones o regresiones temporales decide requires_review', async () => {

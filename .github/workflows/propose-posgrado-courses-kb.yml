@@ -98,7 +98,14 @@ jobs:
           OPERATION_ID: ${{ inputs.operation_id }}
         run: |
           set -e
-          branch="kb-sync/update-cursos-posgrado"
+          # OJO: esta rama NO puede llamarse "kb-sync/update-cursos-posgrado".
+          # sync-kb.yml arma sus ramas como "kb-sync/update-${slug}" y tiene un
+          # source con slug "cursos-posgrado" apuntando a la misma URL de
+          # catálogo. Los dos workflows pushean con -f: cuando compartían rama,
+          # el sync genérico pisaba las fichas por curso de este workflow y
+          # después auto-mergeaba su propio contenido en el PR que había abierto
+          # este. Ver tests/workflow_branches.test.mjs.
+          branch="kb-sync/catalogo-cursos-posgrado"
           decision='${{ steps.proposal.outputs.decision }}'
 
           git config user.name 'sophia-kb-bot'

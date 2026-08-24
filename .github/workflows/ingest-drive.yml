@@ -169,3 +169,19 @@ jobs:
           gh pr edit "$branch" \
             --title "$title" \
             --body-file /tmp/drive-pr-body.md
+
+      # Las bajas masivas ya quedaron bloqueadas por la guarda del scraper, pero
+      # un run verde no las haría notar: sin esto el pipeline vuelve a fallar en
+      # silencio, que fue exactamente el problema del 14/08/2026. Va último, para
+      # que las altas legítimas de esta misma corrida alcancen a salir en su PR.
+      - name: Fail on removal anomaly
+        if: always() && inputs.mode != 'dry-run'
+        working-directory: tools/scraper
+        run: |
+          state="state/complementos/drive.meta.json"
+          if [ -f "$state" ] && jq -e '.removal_anomaly' "$state" > /dev/null 2>&1; then
+            reason=$(jq -r '.removal_anomaly.reason' "$state")
+            echo "::error::Ingesta de Drive con bajas masivas bloqueadas: $reason"
+            jq -r '.removal_anomaly.paths[] | "  - " + .' "$state"
+            exit 1
+          fi

@@ -10,6 +10,7 @@ import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
+import { checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
 
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));
@@ -567,7 +568,23 @@ Env:
     }
 
     // 2. Handle deleted files
-    for (const file of deletedFiles) {
+    //
+    // Segunda medición, sobre lo que el estado dice que hay que borrar. La
+    // primera vive en la fase de scrape; esta cubre el caso de un estado que
+    // ya venía con borrados marcados de antes.
+    const applyAnomaly = checkRemovalRatio({
+      inventory: Object.keys(driveState.files).length,
+      removals: deletedFiles.length,
+      additions: candidates.length,
+      label: 'los complementos de Drive',
+    });
+    if (applyAnomaly) {
+      console.error(`::error::Bajas masivas en Drive, fase apply: ${applyAnomaly.reason}`);
+      for (const file of deletedFiles) console.error(`  - complementos/${file.slug}.md`);
+      console.error('No se eliminó ningún complemento. Verificá Drive y volvé a correr.');
+    }
+
+    for (const file of applyAnomaly ? [] : deletedFiles) {
       const slug = file.slug;
       const targetPath = join(compRoot, `${slug}.md`);
       const relPath = `complementos/${slug}.md`;
@@ -688,9 +705,17 @@ Env:
     try {
       // 1. Extract text (PDFs: multimodal-first con Gemini para captar tablas como imagen)
       const extractedText = await extractTextFromFile(drive, file, { apiKey, model: values['model'] });
-      if (!extractedText || extractedText.trim().length === 0) {
-        throw new Error('El texto extraído está vacío.');
-      }
+      // Piso de texto útil: un PDF que no se pudo leer (escaneado sin OCR,
+      // descarga truncada) devuelve unos pocos caracteres de ruido. Si eso
+      // llegara al modelo con la plantilla de complemento, la completaría
+      // inventando. Cae al catch de abajo, que preserva el estado previo del
+      // archivo y NO lo marca como borrado.
+      const floorHit = checkRawFloor(extractedText, {
+        minRawChars: DEFAULT_MIN_DOC_CHARS,
+        label: `el documento "${file.path}"`,
+        hint: 'Revisá si el PDF es una imagen escaneada sin texto embebido o si la descarga vino truncada.',
+      });
+      if (floorHit) throw new Error(floorHit.reason);
 
       // La carpeta no matcheó ningún alias: resolvemos el sector con IA.
       if (!sector) {
@@ -851,25 +876,63 @@ Env:
   }
 
   // 6. Reconciliation of deletions
-  for (const prevId of Object.keys(driveState.files)) {
-    if (!listedIds.has(prevId)) {
-      const prevFile = driveState.files[prevId];
-      if (prevFile.status !== 'deleted') {
-        console.log(`[Detectada Eliminación] El archivo ${prevFile.path} ya no existe en Drive. Marcando como eliminado.`);
-        newFilesState[prevId] = {
-          ...prevFile,
-          status: 'deleted',
-          lastProcessed: new Date().toISOString()
-        };
+  //
+  // Todo lo que estaba en el estado y no aparece en el listado de esta corrida
+  // se marca como borrado, y la fase --apply después lo saca del KB. Eso es
+  // correcto para una baja real y catastrófico para un listado degradado: el
+  // 14/08/2026 la carpeta 04-Posgrado pasó de 18 a 5 archivos en una sola
+  // corrida, con 0 errores, y el pipeline propuso borrar 12 fichas de trámites.
+  //
+  // Antes de marcar nada, se mide cuánto del inventario se estaría llevando.
+  const previouslyKnown = Object.values(driveState.files).filter((f) => f.status !== 'deleted');
+  const vanished = Object.keys(driveState.files).filter((prevId) => {
+    return !listedIds.has(prevId) && driveState.files[prevId].status !== 'deleted';
+  });
+  const additions = driveFiles.filter((f) => !driveState.files[f.id]).length;
 
-        const candPath = join(candidatesDir, `${prevFile.slug}.md`);
-        if (existsSync(candPath)) {
-          try {
-            await unlink(candPath);
-          } catch {}
+  const removalAnomaly = checkRemovalRatio({
+    inventory: previouslyKnown.length,
+    removals: vanished.length,
+    additions,
+    label: 'los complementos de Drive',
+  });
+
+  if (removalAnomaly) {
+    console.error(`::error::Bajas masivas en Drive: ${removalAnomaly.reason}`);
+    console.error('Archivos que NO se van a borrar hasta que alguien verifique Drive:');
+    for (const prevId of vanished) console.error(`  - ${driveState.files[prevId].path}`);
+    // Se conserva el estado tal cual: nada pasa a 'deleted', así que la fase
+    // --apply no tiene nada que borrar.
+    for (const prevId of Object.keys(driveState.files)) {
+      if (!listedIds.has(prevId)) newFilesState[prevId] = driveState.files[prevId];
+    }
+    driveState.removal_anomaly = {
+      ...removalAnomaly,
+      detected_at: new Date().toISOString(),
+      paths: vanished.map((id) => driveState.files[id].path),
+    };
+  } else {
+    delete driveState.removal_anomaly;
+    for (const prevId of Object.keys(driveState.files)) {
+      if (!listedIds.has(prevId)) {
+        const prevFile = driveState.files[prevId];
+        if (prevFile.status !== 'deleted') {
+          console.log(`[Detectada Eliminación] El archivo ${prevFile.path} ya no existe en Drive. Marcando como eliminado.`);
+          newFilesState[prevId] = {
+            ...prevFile,
+            status: 'deleted',
+            lastProcessed: new Date().toISOString()
+          };
+
+          const candPath = join(candidatesDir, `${prevFile.slug}.md`);
+          if (existsSync(candPath)) {
+            try {
+              await unlink(candPath);
+            } catch {}
+          }
+        } else {
+          newFilesState[prevId] = prevFile;
         }
-      } else {
-        newFilesState[prevId] = prevFile;
       }
     }
   }
@@ -885,6 +948,9 @@ Env:
   console.log(`Saltados sin cambios: ${skippedUnchanged}`);
   console.log(`Saltados por duplicación: ${skippedDuplicate}`);
   console.log(`Errores: ${errorCount}`);
+  if (driveState.removal_anomaly) {
+    console.log(`ANOMALÍA DE BAJAS: ${driveState.removal_anomaly.removals} archivos desaparecieron del listado y NO se borraron. Ver el detalle arriba.`);
+  }
   console.log(`Sincronización terminada.`);
 }
 

@@ -36,6 +36,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/res-505-24-departamentos-carreras-procesos-eleccionarios.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/RDCD_FCE-1241375-25_302.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Res_330-Reglamento_de_Organizacion_y_Funcionamiento_de_Centros_-1.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Memoria-2025.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Memoria-2024.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Memoria-2023-FCE.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Memoria-FCE-2022.pdf
@@ -195,5 +196,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-08-13 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-08-24 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

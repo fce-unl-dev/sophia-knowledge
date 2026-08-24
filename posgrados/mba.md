@@ -154,7 +154,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Fecha de inicio**: **A confirmar para 2027**
 - **Estado**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
-- **Última actualización del dato**: 2026-06-29
+- **Última actualización del dato**: 2026-08-24
 
 > Nota: La cohorte 2026 ya inició en abril. Para información sobre la próxima cohorte (2027), se recomienda consultar con mba@fce.unl.edu.ar.
 
@@ -166,7 +166,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Email PROCIT (Programa de Investigación)**: procit.mba@fce.unl.edu.ar
 - **Email Programa Graduados MBA**: graduadosmba@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: 342-5191199
+- **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
@@ -202,4 +202,4 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 
 ---
 
-**Última revisión humana**: 2026-07-31
+**Última revisión humana**: 2026-08-24

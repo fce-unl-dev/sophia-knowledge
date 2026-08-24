@@ -78,8 +78,83 @@ La separación evita que PRs fallen por problemas temporales de red, pero permit
 | `auto_merge` | Abre PR de candidato de bajo riesgo. | Solo cambiaron secciones no sensibles. |
 | `requires_review` | Abre PR de revisión requerida. | Cambió al menos una sección sensible o hubo cambio estructural. |
 | `rejected` | NO commitea. Loguea warning. | Validación falló. |
-| `error` | NO commitea. Loguea warning. | Fallo técnico. |
+| `error` | NO commitea. Loguea warning. | Fallo técnico, o el paso de generación abortó por scrape insuficiente o degradado. |
 | `skipped` | NO procesa. | El source tiene `strategy: "TBD"`. |
+
+### Guardas del scrape antes del modelo
+
+`generate_md.mjs` corta antes de llamar a Gemini cuando el scrape no da para
+generar una ficha honesta. En esos casos `run_pipeline.mjs` reporta
+`decision: error` con el detalle en `report.error`:
+
+| Status de `generateForSource` | Cuándo se da | Qué hacer |
+|---|---|---|
+| `insufficient-raw` | El scrape trajo menos caracteres útiles que `minRawChars` (default 600). | Abrir la URL a mano: casi siempre la página cambió de estructura y la `strategy` dejó de matchear. Si la fuente es legítimamente chica, bajar `minRawChars` en `sources.json` para ese source. |
+| `raw-regression` | El scrape quedó por debajo del 40% del tamaño del de la corrida anterior (`raw_length` en `state/{slug}.gen.meta.json`). | Igual que arriba. No re-correr con `force` sin mirar la página primero. |
+
+Ninguna de las dos gasta una llamada al modelo. Son dos de las cuatro guardas
+compartidas: el catálogo completo, con umbrales y calibración, está en
+"Guardas de los pipelines" más abajo.
+
+Además, el clasificador aplica un candado determinista sobre la decisión del
+auditor IA: si cambió una sección sensible, si el archivo es nuevo o si hubo
+cambio estructural, la decisión pasa a `requires_review` aunque el modelo haya
+dicho `auto_merge`. Lo que dijo el modelo queda registrado en `ai_decision` /
+`ai_reason` del report, para poder medir después cuántas veces se equivocó.
+
+## Guardas de los pipelines
+
+Todas viven en `guards.mjs` y responden lo mismo: `null` si está todo bien, o un
+objeto con `status` y un `reason` escrito para que lo lea un operador. Ninguna
+ablanda: si disparan, se corta antes de gastar una llamada al modelo o de borrar
+contenido del KB.
+
+| Guarda | Qué mide | Default | Dónde corre |
+|---|---|---|---|
+| `checkRawFloor` | Caracteres útiles del scrape | 600 en fichas web, 200 en documentos sueltos | `generate_md`, `scrape_drive`, `scrape_students` |
+| `checkRawRegression` | El scrape encogió contra la corrida anterior | corta por debajo del 40% | `generate_md` |
+| `checkContentRegression` | El candidato encogió contra la ficha que pisaría | corta por debajo del 40% | `propose_courses_update`, `propose_sections_update` |
+| `checkRemovalRatio` | Bajas netas sobre el inventario | corta arriba del 30%, mínimo 2 bajas netas | `scrape_drive` (scrape y apply), `propose_courses_update`, `propose_posgrado_courses_update` |
+
+"Caracteres útiles" descarta líneas en blanco y colapsa espacios repetidos: un
+`raw.txt` de 3 KB de sangrías no es un scrape útil.
+
+### Por qué 30% y no "más bajas que activos"
+
+La regla vieja de los dos `propose_*` — anomalía cuando las bajas superan a los
+cursos activos — solo dispara cuando se cae más de la mitad del catálogo. El
+24/08/2026 la carpeta `04-Posgrado` de Drive pasó de 18 a 5 archivos en una sola
+corrida y el pipeline propuso borrar 12 fichas de trámites de posgrado: 42% del
+inventario, con 0 errores y el run en verde. Una regla de mitad no lo toca.
+
+El umbral está calibrado contra tres episodios reales, que son los casos de
+`tests/guards.test.mjs`:
+
+| Caso | Bajas / inventario | Altas | Veredicto |
+|---|---|---|---|
+| Drive, 24/08/2026 | 13 / 31 = 42% | 0 | corta |
+| Cursos de formación | 3 / 16 = 19% | 0 | pasa |
+| Cursos de posgrado | 2 / 8 = 25% | 4 | pasa (bajas netas negativas) |
+
+Las altas compensan: un pipeline que trae contenido nuevo está mirando una
+fuente sana. Y por debajo de 2 bajas netas el porcentaje es ruido — en un
+inventario de 3, una sola baja ya es 33%.
+
+La regla vieja no se sacó. Conviven, y alcanza con que dispare una.
+
+### Qué pasa cuando una guarda corta
+
+- `generate_md`: devuelve `insufficient-raw` o `raw-regression` y `run_pipeline`
+  lo trata como error del paso, sin propagar el candidato.
+- `propose_*`: la decisión pasa a `requires_review` con el motivo puesto, y **no
+  se borra ni se sobrescribe nada**. El PR queda para revisión humana.
+- `scrape_drive`: no marca ningún archivo como borrado, deja la anomalía en
+  `state/complementos/drive.meta.json` bajo `removal_anomaly`, y el workflow
+  termina en **rojo** en un paso final — después de abrir el PR con las altas
+  legítimas de esa misma corrida, para no perderlas.
+
+Ese último punto es deliberado. Un pipeline que se protege y sigue en verde
+vuelve al problema de origen: nadie se entera de que la fuente está rota.
 
 ## Modos
 
