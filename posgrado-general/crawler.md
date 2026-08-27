@@ -1,71 +1,73 @@
-# datos generales posgrado
+# Maestría en Administración y Finanzas
 
-Esta ficha contiene información general y de contacto relevante para todas las propuestas de posgrado de la FCE-UNL, así como enlaces a recursos útiles para estudiantes y aspirantes.
+La Maestría en Administración y Finanzas (MAF) es una carrera de posgrado interinstitucional, dictada en colaboración entre la Facultad de Ciencias Económicas de la UNL y la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern (Alemania). Ofrece estudios de alto nivel académico a profesionales que buscan un desarrollo integral en management para actuar en un entorno globalizado, con un enfoque en la formación global, internacional e intercultural. Los alumnos obtendrán una doble titulación: “Magister en Administración y Finanzas” de la UNL y Master of Arts “International Master in Management and Finance” de la FHKL.
 
 ---
 
 ## Identificación
 
-- **Nombre oficial**: datos generales posgrado
-- **Código corto / sigla**: crawler
-- **Tipo**: Información general
-- **Título que otorga**: datos generales posgrado
-- **Acreditación CONEAU**: No aplica
+- **Nombre oficial**: Maestría en Administración y Finanzas
+- **Código corto / sigla**: MAF
+- **Tipo**: Maestría
+- **Título que otorga**: Magister en Administración y Finanzas (UNL) y Master of Arts “International Master in Management and Finance” (FHKL, Alemania)
+- **Acreditación CONEAU**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: No aplica
+- **Carreras compartidas con otras unidades**: Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern (Alemania)
 
 ## Modalidad y duración
 
-- **Modalidad**: No aplica
-- **Días y horarios de cursada**: No aplica
-- **Lugar**: No aplica
-- **Idioma**: No aplica
-- **Duración cursada**: No aplica
-- **Duración trabajo final / tesis**: No aplica
-- **Carga horaria total**: No aplica
+- **Modalidad**: Interinstitucional, con trayectorias académicas en ambas universidades. Incluye una estadía de siete meses en la universidad extranjera.
+- **Días y horarios de cursada**: No publicado.
+- **Lugar**: FCE-UNL (Moreno 2557, Santa Fe) y Universidad de Kaiserslautern (Alemania).
+- **Idioma**: Español y asignaturas en inglés.
+- **Duración cursada**: No publicado.
+- **Duración trabajo final / tesis**: El Trabajo Final es codirigido por profesores de ambas universidades. No se especifica duración.
+- **Carga horaria total**: No publicado.
 
 ## Plan de estudios
 
 ### Estructura general
-No aplica
+La estructura curricular es flexible, basada en un sistema de créditos académicos y la elección de asignaturas optativas. Incluye una estadía de siete meses en la universidad extranjera.
 
 ### Módulos / asignaturas
-No aplica
+El plan de estudios incluye asignaturas específicas de administración y finanzas dictadas en inglés. No se publica el listado detallado de módulos o asignaturas.
 
 ### Trabajo final / tesis
-No aplica
+El alumno deberá realizar un Trabajo Final codirigido por profesores de ambas universidades.
 
 ## Cuerpo docente
 
-No aplica
+Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.edu.ar.
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: No aplica
-- **Idiomas**: No aplica
-- **Otros antecedentes**: No aplica
-- **Documentación a presentar**: No aplica
-- **Proceso de admisión**: No aplica
+- **Título previo requerido**: Título de grado universitario.
+- **Idiomas**: Se requiere dominio de inglés para cursar asignaturas específicas. Se realiza un curso de idioma y cultura alemana durante la estadía en Alemania.
+- **Otros antecedentes**: No publicado.
+- **Documentación a presentar**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar.
+- **Proceso de admisión**: Pre-inscripción online, seguida de una entrevista con el Director de la Carrera.
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Cuotas**: Información sobre pago de cuotas: deben hacerse a través del sistema MERCURIO. Para la primera cuota, esperar mail de tesorería con el enlace. Para cuotas siguientes, ingresar con DNI en https://servicios.unl.edu.ar/mdcobro/.
-- **Modalidad de pago**: Sistema Mercurio UNL.
+- **Matrícula**: A consultar con el Director de la Carrera durante la entrevista de admisión.
+- **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Estado actual de inscripción**: Para inscripciones a cursos y carreras, consultar las categorías en la web de posgrado.
-- **Link de pre-inscripción**: Para inscripciones a cursos de posgrado: https://www.fce.unl.edu.ar/posgrado/categorias/cursos-de-posgrado/. Para inscripciones a carreras de posgrado: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/.
+- **Estado actual de inscripción**: Abierta para una nueva edición en el 2do cuatrimestre de 2026.
+- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: No aplica
-- **Estado**: No aplica
-- **Fuente del dato**: No aplica
-- **Última actualización del dato**: No aplica
+- **Fecha de inicio**: 2026-08 (2do cuatrimestre de este año)
+- **Estado**: Abierta
+- **Fuente del dato**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (respuesta frecuente Maestría en Administración y Finanzas)
+- **Última actualización del dato**: 2026-08-27
+
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director/a académico/a**: No aplica
+- **Director/a académico/a**: No publicado (se menciona "Director de la Carrera" sin nombre).
 - **Email del programa**: posgrado@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: +54 9 3424 49-1939
@@ -73,6 +75,15 @@ No aplica
 
 ## Información adicional relevante
 
+- **Características distintivas**:
+    - Carrera de tipo profesional orientada al entrenamiento de las habilidades propias de los cargos de Alta Dirección.
+    - Aplicación de metodologías orientadas al trabajo en equipo, el análisis de casos y la investigación aplicada.
+    - Fuerte vinculación con el medio empresario de la región y del país.
+    - Estructura curricular flexible basada en un sistema de créditos académicos y la elección de asignaturas optativas conforme al perfil de los/as estudiantes.
+    - Internacionalización creciente a través de la creación de carreras de doble titulación que implican el intercambio de estudiantes y docentes.
+- **Menciones**: Ofrece dos menciones: Dirección de Negocios y Finanzas de Empresas.
+- **Perfil del egresado**: El egresado logrará un perfil acorde a una maestría profesionalista, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas.
+- **Estadía internacional**: Incluye una estadía de siete meses en la Universidad de Kaiserslautern (Alemania) donde se deben aprobar asignaturas específicas (dictadas en inglés), realizar un curso de idioma y cultura alemana, y realizar una pasantía en una empresa del país europeo.
 - **Ubicación de la Facultad de Ciencias Económicas (lugar donde se cursan los cursos y carreras presenciales)**: Moreno 2557 (3000) Santa Fe.
 - **E-mails importantes adicionales**:
     - Consultas SIU Guaraní de Posgrado: alumnado@fce.unl.edu.ar
@@ -105,8 +116,9 @@ No aplica
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (Información general y de contacto)
+- https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (Información general y Maestría en Administración y Finanzas)
+- https://www.fce.unl.edu.ar/maf/ (Mencionado en scrape como URL oficial del programa)
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-27 por pipeline de scraping.
