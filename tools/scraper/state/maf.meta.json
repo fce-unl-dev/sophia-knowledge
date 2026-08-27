@@ -2,8 +2,8 @@
   "slug": "maf",
   "url": "https://fce.unl.edu.ar/maf/",
   "strategy": "fce-microsite",
-  "content_hash": "e1b06b892f6a6887471dbf7c2c86b93ca3c057fff9861b768bf2d49bbccf65de",
-  "previous_hash": "545a3dcb4e0fc85af550a69f38752cac81d8632355c850c4f511dea944a59c85",
+  "content_hash": "bbc41dfa0d4af2c67bfb00c5862bd953444978c91131723598e41c455bdeaf69",
+  "previous_hash": "e1b06b892f6a6887471dbf7c2c86b93ca3c057fff9861b768bf2d49bbccf65de",
   "pages_count": 20,
   "pages": [
     {
@@ -64,7 +64,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=78",
       "title": "Conducción FCE",
-      "length": 558
+      "length": 628
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=79",
@@ -107,6 +107,6 @@
       "length": 603
     }
   ],
-  "scraped_at": "2026-08-13T07:14:15.605Z",
-  "last_checked_at": "2026-08-13T07:14:15.605Z"
+  "scraped_at": "2026-08-27T17:09:25.673Z",
+  "last_checked_at": "2026-08-27T17:09:25.673Z"
 }

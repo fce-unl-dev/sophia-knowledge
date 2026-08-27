@@ -114,23 +114,23 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/maf/ (Información de Interés)
+- https://fce.unl.edu.ar/maf/ (Información general, inscripciones)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=290 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=80 (Modalidad y duración)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=86 (Metodología)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=87 (Encuadre Normativo)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=90 (Antecedentes)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=75 (Perfil)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=84 (Título)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=75 (Perfil del egresado)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=84 (Título que otorga)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=76 (Estructura curricular)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=77 (Trabajo Final)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=79 (Dirección Académica)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85 (Comité académico)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Doble titulación con Alemania)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Doble titulación, becas)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Inscripciones abiertas, fecha de inicio, matrícula)
 - https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-27 por pipeline de scraping.
