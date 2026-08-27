@@ -2,8 +2,8 @@
   "slug": "map",
   "url": "https://fce.unl.edu.ar/magister/",
   "strategy": "fce-microsite",
-  "content_hash": "6a483a023de86d1394bdc758f5d7623d858d60c1d09ffe8f869db2e39bc8671f",
-  "previous_hash": "61831058a4d83435effdef4c8f0927f64717c4393765200dec1b91e10befb3f0",
+  "content_hash": "991db28767a1e1a4d9e0478753440cccae2d0bbb828425a038178404b52adc1f",
+  "previous_hash": "6a483a023de86d1394bdc758f5d7623d858d60c1d09ffe8f869db2e39bc8671f",
   "pages_count": 16,
   "pages": [
     {
@@ -19,7 +19,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=48",
       "title": "Conducción FCE",
-      "length": 557
+      "length": 628
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=49",
@@ -87,6 +87,6 @@
       "length": 333
     }
   ],
-  "scraped_at": "2026-08-10T07:14:10.938Z",
-  "last_checked_at": "2026-08-10T07:14:10.938Z"
+  "scraped_at": "2026-08-27T17:10:31.395Z",
+  "last_checked_at": "2026-08-27T17:10:31.395Z"
 }

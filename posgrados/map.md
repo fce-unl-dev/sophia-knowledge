@@ -120,7 +120,7 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - **Fecha de inicio**: **2028**
 - **Estado**: Cerrada
 - **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776 (Novedades - Inscripciones)
-- **Última actualización del dato**: 2026-08-10
+- **Última actualización del dato**: 2026-08-27
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -163,7 +163,7 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 ## Fuentes consultadas
 
 - https://fce.unl.edu.ar/magister/ (Información de interés)
-- https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=47 (Presentación, Acreditación)
+- https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=47 (Presentación, Acreditación, Título)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=49 (Conducción de la carrera, Comité Académico)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=50 (Biblioteca)
 - https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=51 (Perfiles de Ingreso y del Graduado, Requisitos de admisión, Campo ocupacional)
@@ -177,4 +177,4 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-27 por pipeline de scraping.
