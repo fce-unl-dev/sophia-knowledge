@@ -2,14 +2,14 @@
   "slug": "mba",
   "url": "https://fce.unl.edu.ar/mba/",
   "strategy": "fce-microsite",
-  "content_hash": "c0fa0660661eeb5a13ca5bec79eb1dd60aca073be7c278b14ce4aeae61292c31",
-  "previous_hash": "707dadd19fdf9ad917f4abe20be4372f285f564b810dbc935ea218bef6587cd4",
-  "pages_count": 29,
+  "content_hash": "56f73f1ffd160ff4977451865dbffcd9ec57b9572a2a6e6c3cb6ecd47066ff2d",
+  "previous_hash": "c0fa0660661eeb5a13ca5bec79eb1dd60aca073be7c278b14ce4aeae61292c31",
+  "pages_count": 34,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/mba/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 870
+      "length": 1440
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=40",
@@ -42,11 +42,6 @@
       "length": 493
     },
     {
-      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=30",
-      "title": "Perfil de Alumnos",
-      "length": 439
-    },
-    {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=9",
       "title": "Perfil y Título",
       "length": 885
@@ -59,7 +54,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=19",
       "title": "Trabajo Final",
-      "length": 871
+      "length": 845
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=26",
@@ -94,7 +89,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=42",
       "title": "Movilidad internacional",
-      "length": 666
+      "length": 481
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=62",
@@ -110,6 +105,41 @@
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=168",
       "title": "Convenios con el sistema de innovación local",
       "length": 2412
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=806",
+      "title": "Novedades",
+      "length": 933
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=805",
+      "title": "Novedades",
+      "length": 1175
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=804",
+      "title": "Novedades",
+      "length": 806
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=803",
+      "title": "Novedades",
+      "length": 935
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=802",
+      "title": "Novedades",
+      "length": 1146
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=800",
+      "title": "Novedades",
+      "length": 3498
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=799",
+      "title": "Novedades",
+      "length": 1013
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=771",
@@ -142,16 +172,11 @@
       "length": 692
     },
     {
-      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=765",
-      "title": "Novedades",
-      "length": 675
-    },
-    {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=753",
       "title": "Novedades",
       "length": 1271
     }
   ],
-  "scraped_at": "2026-08-24T06:38:50.772Z",
-  "last_checked_at": "2026-08-24T06:38:50.772Z"
+  "scraped_at": "2026-08-27T17:09:27.344Z",
+  "last_checked_at": "2026-08-27T17:09:27.344Z"
 }
