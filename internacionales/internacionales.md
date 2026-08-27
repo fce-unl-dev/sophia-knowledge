@@ -20,7 +20,7 @@
 - >
 - Becas y Convocatorias
 - Programa Competitividad Global
-- 2024 Edition The thirteenth edition of the Global Competitiveness Program for SMEs (GCPyMES) was held during two weeks in the School of Economics of the Universidad Nacional Del Litoral (UNL), from 5th to 16th August, 2024. The Program was attended by 18 students,…
+- PREVIOUS EDITIONS About the Program The Global Competitiveness Program for SMEs (GCP) is an international training program to do consulting work, especially focused on Small and Medium Enterprises that aim to enter into the international competitiveness environment. This is a…
 
 ## Enlaces relacionados (no ingeridos)
 
@@ -53,5 +53,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-08-24 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-08-27 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
