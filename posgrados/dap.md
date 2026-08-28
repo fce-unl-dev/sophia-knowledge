@@ -81,7 +81,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 -   **Cuotas**: A confirmar para ciclo 2027
 -   **Modalidad de pago**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
 -   **Becas disponibles**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
--   **Estado actual de inscripción**: Cerrada
+-   **Estado actual de inscripción**: Cerrada — próxima cohorte en **Abril 2027**
 -   **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
 
 ## Próxima cohorte
@@ -89,7 +89,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 -   **Fecha de inicio**: **2027-04**
 -   **Estado**: Por confirmar
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera)
--   **Última actualización del dato**: **2026-07-02**
+-   **Última actualización del dato**: **2026-08-27**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -119,7 +119,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ## Fuentes consultadas
 
--   https://fce.unl.edu.ar/dap/ (Información de interés general)
+-   https://fce.unl.edu.ar/dap/ (Información de interés general, Novedades)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173 (Presentación de la carrera, Acreditación CONEAU, Carreras compartidas)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134 (Sede Administrativa, Lugar)
 -   https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=133 (Título que otorga)
@@ -138,4 +138,4 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ---
 
-**Última revisión humana**: 2026-07-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-27 por pipeline de scraping.
