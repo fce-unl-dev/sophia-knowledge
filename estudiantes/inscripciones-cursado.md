@@ -12,11 +12,34 @@
 
 - Estudiantes » Info sobre inscripciones » Info sobre inscripciones a cursado
 - Info sobre inscripciones a cursado
+- ESTUDIANTES ASIGNADOS A ELECTIVAS
+- En el PDF disponible más abajo podrás ver el listado de estudiantes y la asignatura electiva en la que se encuentran inscriptos.
+- Listado de estudiantes FCE asignados a una electiva
 - ASIGNATURAS ELECTIVAS | SEGUNDO CUATRIMESTRE DE 2026
 - La inscripción al cursado de las Asignaturas Electivas para el segundo cuatrimestre de 2026 se realizará desde el día 5 al 7 de agosto.
 - Para realizar la inscripción, las y los estudiantes deberán ingresar al SIU Guaraní eligiendo menú “Electivas”, luego seleccionar la opción de Electivas y continuar con los pasos indicados por el sistema.
 - Los listados estarán en la semana del 17/08.
 - Ver listado de asignaturas
+- INSCRIPCIONES AL CURSADO
+- 2º Cuatrimestre e Interanuales 2026
+- Las inscripciones se realizarán de la siguiente manera:
+- • desde el día 11 de agosto a partir de las 09:00 hs hasta el día 13 de agosto a las 12:00 hs para los alumnos que realizaron la preinscripción y desean inscribirse a las materias de todos los años de todas las carreras, no teniendo ningún tipo de incidencia el año de ingreso.
+- • el día 13 de agosto de 10:00 hs a 12:00 hs para los alumnos que no realizaron la preinscripción y desean inscribirse a las materias de todos los años de todas las carreras, no teniendo ningún tipo de incidencia el año de ingreso.
+- Aclaración: la inscripción a todas las materias de todos los años cierra el día 13 de agosto a las 12:00 hs. Hasta esa fecha y hora el estudiantado puede realizar eventuales cambios de comisión desde SIU Guaraní. A partir de ese momento no se realizarán cambios de comisiones, sin excepciones.
+- Recomendaciones
+- Para que al momento de la inscripción puedan realizarla sin inconvenientes ni saturación del sistema, tener en cuenta:
+- – No intentar acceder a la inscripción antes del horario de su inicio.
+- – No abrir más de un enlace a la vez. Al clickearlo esperar a que se conecte.
+- – Una vez realizada la inscripción controlar si la misma quedo formalizada, en cursadas-consultas.
+- VER HORARIOS DE LAS COMISIONES:
+- Primer año
+- Segundo año
+- Tercer año
+- Cuarto año
+- Quinto año
+- Anuales Julio a Julio
+- Inglés
+- Optativas
 - PRESENTACIÓN DE SOLICITUDES DE HORARIOS ESPECIALES DE CURSADO – 2DO CUATRIMESTRE 2026
 - Las Notas de solicitud y justificación de horarios especiales de cursado junto a los respectivos Certificados laborales serán recibidos a partir del 27 de Julio, a través del correo de Mesa de Entradas FCE mesadeentradas@fce.unl.edu.ar (en formato pdf, debiéndose usar el modelo que se encuentra más abajo). Fecha limite 31/07/2026 hasta las 12hs.
 - Este trámite se encuentra especialmente dirigido a aquellas/os estudiantes que desarrollan tareas laborales mientras transitan la vida universitaria.
@@ -153,7 +176,7 @@
 
 ## Distribución de Comisiones y Horarios (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-07-31
+**Última actualización de planilla**: 2026-08-28
 
 ### Ingresantes
 
@@ -923,7 +946,7 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 
 ## Índice por Docente (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-07-31
+**Última actualización de planilla**: 2026-08-28
 
 - Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.
 
@@ -1359,12 +1382,21 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 ## Enlaces y sistemas relacionados
 
 - **PDFs / formularios**:
+  - Listado de estudiantes FCE asignados a una electiva: https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/Listado-de-estudiantes-FCE-asignados-a-una-electiva-1.pdf
   - Ver listado de asignaturas: https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/Versi%C3%B3n-Resumida-Asignaturas-Electivas-2do-C-2026.pdf
   - Descargar modelo (PDF COMPLETABLE – PERMITE GUARDAR): https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/justificacion_formulario_completable-V2.pdf
   - este documento: https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Listado-de-electivas-con-vacancia.pdf
   - ACCEDER AL LISTADO DE ALUMNOS – ELECTIVAS: https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/Listado-de-estudiantes-FCE-asignados-a-una-electiva-corregido.pdf
   - DESCARGAR LISTADO DE ASIGNATURAS: https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/versi%C3%B3n-resumida-asignaturas-electivas-1er-C2026-1.pdf
 - **Google Sheets detectados**:
+  - Primer año: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=1837804028#gid=1837804028
+  - Segundo año: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=2119903734#gid=2119903734
+  - Tercer año: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=998291572#gid=998291572
+  - Cuarto año: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=1921427089#gid=1921427089
+  - Quinto año: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=1001893536#gid=1001893536
+  - Anuales Julio a Julio: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=1440525623#gid=1440525623
+  - Inglés: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=1665712618#gid=1665712618
+  - Optativas: https://docs.google.com/spreadsheets/d/1R1yiAPNO2HpaMEyUBwQacEZ65T3BL39JNsKW1i2WRXA/edit?gid=1070130133#gid=1070130133
   - INGRESANTES: https://docs.google.com/spreadsheets/d/1p7K1Ht27ZxnqUoYN2bCqsaUP8WvQKP7AhRLo5SDIddo/edit?gid=1427546763#gid=1427546763
   - Primer año (ingresos 2025 y anteriores): https://docs.google.com/spreadsheets/d/1p7K1Ht27ZxnqUoYN2bCqsaUP8WvQKP7AhRLo5SDIddo/edit?gid=199298076#gid=199298076
   - Segundo año: https://docs.google.com/spreadsheets/d/1p7K1Ht27ZxnqUoYN2bCqsaUP8WvQKP7AhRLo5SDIddo/edit?gid=832130844#gid=832130844
@@ -1391,5 +1423,5 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 
 ---
 
-**Última revisión automática**: 2026-07-31 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-08-28 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
