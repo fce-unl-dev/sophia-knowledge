@@ -217,7 +217,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 -   **Cuotas**: No publicado en fuentes oficiales — consultar
 -   **Modalidad de pago**: No publicada — consultar
 -   **Becas disponibles**: No publicado en fuentes oficiales — consultar
--   **Estado actual de inscripción**: Cerrada — próxima cohorte en **Abril 2027**. Inscripciones abren en **Diciembre 2026**.
+-   **Estado actual de inscripción**: Por confirmar — posible apertura en **Abril 2027**. Inscripciones abrirían en **Diciembre 2026**.
 -   **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
@@ -225,7 +225,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 -   **Fecha de inicio**: **2027-04**
 -   **Estado**: Por confirmar
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784 (Novedades)
--   **Última actualización del dato**: **2026-08-24**
+-   **Última actualización del dato**: **2026-08-28**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -259,20 +259,19 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 
 ## Fuentes consultadas
 
--   https://fce.unl.edu.ar/sindicatura/ (Sigla ESC)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174 (Presentación, Incumbencia profesional)
+-   https://fce.unl.edu.ar/sindicatura/ (Sigla)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174 (Presentación de la carrera, Objetivos generales)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=154 (Duración de la carrera, Duración trabajo final)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=156 (Cursado y promoción, Modalidad)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=156 (Modalidad de cursado)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=160 (Título que otorga)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showCategoria&id=193 (Requisitos de admisión)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=177 (Objetivos generales de la carrera)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=159 (Diagrama del Plan de Estudios, Carga horaria total, Estructura general, Trabajo final)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showCategoria&id=193 (Requisitos de inscripción)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=159 (Diagrama del Plan de Estudios, Carga horaria, Estructura general, Trabajo final)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=165 (Contenidos Temáticos de asignaturas)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=163 (Conducción de la carrera - Director/a, Coordinadores)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=163 (Conducción de la carrera)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=164 (Comité Académico)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=162 (Cuerpo Docente)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784 (Novedades - Inscripciones, Próxima cohorte)
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-28 por pipeline de scraping.
