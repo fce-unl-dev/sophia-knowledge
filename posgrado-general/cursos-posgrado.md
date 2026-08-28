@@ -66,7 +66,7 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **Fecha de inicio**: Ver listado de cursos individuales a continuación.
 - **Estado**: Inscripciones abiertas para las cohortes de 2026.
 - **Fuente del dato**: `https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos`
-- **Última actualización del dato**: 2026-08-24
+- **Última actualización del dato**: 2026-08-28
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -75,6 +75,7 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **METODOS CUANTITATIVOS PARA LOS NEGOCIOS**: Inicio: **2026-09-07**. Ofrecido en el marco de la Especialización en Costos y Gestión Empresarial - a distancia.
 - **SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION**: Inicio: **2026-09-18**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría.
 - **TRABAJO FINAL EDGOP 2do Cuatrimestre**: Inicio: **2026-09-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
+- **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-23**. Ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible.
 - **De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado**: Inicio: **2026-10-06**.
 - **CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS**: Inicio: **2026-10-12**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
 - **ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS**: Inicio: **2026-10-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
@@ -99,4 +100,4 @@ Para obtener información detallada sobre el plan de estudios, cuerpo docente, a
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-28 por pipeline de scraping.
