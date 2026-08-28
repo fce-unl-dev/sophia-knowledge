@@ -59,7 +59,7 @@
 
 ## Cronograma de Exámenes Finales (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-07-31
+**Última actualización de planilla**: 2026-08-28
 
 ### Primer turno 2026
 
@@ -281,7 +281,7 @@
 | Fecha | Día | Código | Materia | Hora | Inscripción |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1/10/2026 | Jueves | 5135 | Habilitante de Concursos y Titulos Valores | 09:00 Hs | Desde el 24/9/2026 al 29/9/2026 |
-| 2/10/2026 | Jueves | 3130 | Habilitante de Derecho del Trabajo e Instituciones de la Seguridad Social | 18:00 Hs | Desde el 24/9/2026 al 29/9/2026 |
+| 1/10/2026 | Jueves | 3130 | Habilitante de Derecho del Trabajo e Instituciones de la Seguridad Social | 18:00 Hs | Desde el 24/9/2026 al 29/9/2026 |
 | 5/10/2026 | Lunes | 5145 | Administración III | 09:00 Hs | Desde el 28/9/2026 al 1/10/2026 |
 | 5/10/2026 | Lunes | 4230 | Administración de Operaciones | 18:00 Hs | Desde el 28/9/2026 al 1/10/2026 |
 | 5/10/2026 | Lunes | 4020 | Matemática Financiera | 14:00 Hs | Desde el 28/9/2026 al 1/10/2026 |
@@ -677,5 +677,5 @@
 
 ---
 
-**Última revisión automática**: 2026-07-31 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-08-28 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
