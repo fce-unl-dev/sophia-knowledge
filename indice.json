@@ -1,6 +1,6 @@
 {
-  "version": 46,
-  "lastUpdated": "2026-08-24",
+  "version": 47,
+  "lastUpdated": "2026-08-28",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -471,6 +471,12 @@
       "canonicalUrl": "https://drive.google.com/file/d/1c6t6L6fggKeeQ_cPRiUBYMpt6vRymCmn/view?usp=drivesdk"
     },
     {
+      "path": "cursos-posgrado/analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible.md",
+      "title": "Análisis Espacial para la Innovación en el Desarrollo Sostenible",
+      "category": "Curso de posgrado",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
+    },
+    {
       "path": "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md",
       "title": "ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS",
       "category": "Curso de posgrado",
@@ -497,12 +503,6 @@
     {
       "path": "cursos-posgrado/economia-gubernamental.md",
       "title": "ECONOMÍA GUBERNAMENTAL",
-      "category": "Curso de posgrado",
-      "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
-    },
-    {
-      "path": "cursos-posgrado/gestion-estrategica-de-recursos-humanos-en-organizaciones-publicas.md",
-      "title": "GESTIÓN ESTRATÉGICA DE RECURSOS HUMANOS EN ORGANIZACIONES PÚBLICAS",
       "category": "Curso de posgrado",
       "canonicalUrl": "https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/"
     },
