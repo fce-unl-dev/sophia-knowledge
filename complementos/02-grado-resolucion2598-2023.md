@@ -1,41 +1,41 @@
-# Resolución 2598/2023
+# Resolucion2598-2023
 
-Esta resolución del Ministerio de Educación crea el Sistema Argentino de Créditos Académicos Universitarios (SACAU), estableciendo el Crédito de Referencia del/la estudiante (CRE) como unidad de medida para el diseño y rediseño de planes de estudio. Su objetivo es acortar la brecha entre la duración teórica y real de las carreras, promover la flexibilidad curricular y facilitar la movilidad estudiantil y la internacionalización, dejando sin efecto la Resolución Ministerial N° 6/1997.
+Esta resolución del Ministerio de Educación de la Nación crea el Sistema Argentino de Créditos Académicos Universitarios (SACAU) y deroga la Resolución Ministerial N° 6/1997. Su objetivo es acortar la brecha entre la duración teórica y real de las carreras universitarias, promoviendo la flexibilidad curricular y el reconocimiento de trayectorias formativas mediante un sistema de créditos.
 
 ---
 
 ## Contenido
 
-### Antecedentes y Fundamentos
+### Antecedentes y Fundamentación
 
-*   **Necesidad de adecuación**: Acortar la brecha entre la duración real y teórica de las carreras de Educación Superior y el egreso.
-*   **Lineamientos de la SECPU**:
-    *   "Lineamiento N° 2: Las propuestas académicas: revisión de la distancia entre la duración teórica y la duración real de las carreras".
-    *   "Lineamiento N° 3: Las titulaciones intermedias, certificaciones, trayectos formativos, reconocimiento de competencias", que propone flexibilizar planes de estudio mediante un sistema de créditos.
-*   **Propuesta de diseño**: Incorporar paulatinamente el tiempo total de trabajo del estudiante con un sistema de crédito como unidad de medida para los planes de estudio, otorgando mayor flexibilidad.
-*   **Experiencias previas**: Existencia de sistemas de créditos a nivel internacional (Sistema Europeo de Transferencia de Créditos - ECTS, Crédito Latinoamericano de Referencia - CLAR) y nacional (Reconocimiento de Trayectos Formativos - RTF) para transferencia y reconocimiento.
-*   **Beneficios de un sistema nacional de créditos**:
-    *   Establecer parámetros para el reconocimiento de la trayectoria de estudiantes en el Sistema Universitario Nacional y con instituciones universitarias de otros países.
-    *   Favorecer estrategias de internacionalización y movilidad estudiantil.
-*   **Apoyo del CIN**: El Consejo Interuniversitario Nacional (CIN) se manifestó mediante la Resolución CE N° 1752/23, que aprueba el documento "Aportes para pensar la distancia entre la duración teórica y real de las carreras y el reconocimiento de trayectorias formativas”.
-*   **Actualización curricular**: Implementar nuevas políticas académicas post-pandemia que garanticen oportunidades de egreso y promuevan una reflexión sobre el currículum universitario que considere las necesidades del contexto, de los/as estudiantes y del proceso de aprendizaje.
-*   **Consideración del trabajo real del estudiante**: Estimar las horas totales de trabajo académico de los/as estudiantes derivadas de las obligaciones de resolución independiente (estudio, trabajos prácticos, ejercicios, diseños, proyectos, etc.) para alcanzar los objetivos de aprendizaje. Esto contribuye a promover la calidad de la formación y mejorar las tasas de retención y aprobación.
-*   **Acuerdo del Consejo de Universidades**: El Acuerdo Plenario N° 270 del CONSEJO DE UNIVERSIDADES propone un nuevo régimen que recoge los aspectos detallados, con contribuciones del CONSEJO INTERUNIVERSITARIO NACIONAL (CIN) y el CONSEJO DE RECTORES DE UNIVERSIDADES PRIVADAS (CRUP), así como de expertos/as.
-*   **Derogación de normativa anterior**: Se deja sin efecto la Resolución Ministerial N° 6/1997 para rediseñar el campo curricular con los créditos suficientes para alcanzar la graduación.
+La Resolución 2598/2023 surge de la necesidad de adecuar los mecanismos de la Educación Superior para reducir la diferencia entre la duración teórica y la duración real de las carreras. Se basa en los siguientes puntos clave:
 
-### Disposiciones Principales
+*   **Lineamientos de la Secretaría de Políticas Universitarias:** Se consideran los documentos "Lineamiento N° 2: Las propuestas académicas: revisión de la distancia entre la duración teórica y la duración real de las carreras" y "Lineamiento N° 3: Las titulaciones intermedias, certificaciones, trayectos formativos, reconocimiento de competencias".
+*   **Propuesta de Flexibilización:** Se busca flexibilizar los planes de estudio mediante el reconocimiento de actividades académicas a través de un sistema de créditos.
+*   **Experiencias Previas:** Se reconocen sistemas de créditos existentes a nivel internacional (ECTS, CLAR) y nacional (RTF) que expresan las cargas horarias en términos de trabajo académico total del estudiante.
+*   **Beneficios del Sistema de Créditos:**
+    *   Establece parámetros para el reconocimiento de la trayectoria de estudiantes en el Sistema Universitario Nacional y con instituciones extranjeras.
+    *   Favorece las estrategias de internacionalización y la movilidad estudiantil.
+    *   Promueve la calidad de la formación, mejorando las tasas de retención y aprobación.
+*   **Consenso Institucional:** El CONSEJO INTERUNIVERSITARIO NACIONAL (CIN) y el CONSEJO DE RECTORES DE UNIVERSIDADES PRIVADAS (CRUP) han realizado aportes y manifestado su acuerdo con la implementación de un sistema de créditos.
+*   **Derogación de Norma Anterior:** Como consecuencia de estos aspectos, se decide dejar sin efecto la Resolución Ministerial N° 6/1997.
 
-*   **Artículo 1º**: Se deja sin efecto la Resolución Ministerial N° 6 de fecha 13 de enero de 1997 y cualquier otra norma que se contraponga al presente régimen.
-*   **Artículo 2º**: Se crea el **Sistema Argentino de Créditos Académicos Universitarios (SACAU)**, el cual fija al **Crédito de Referencia del/la estudiante (CRE)** como el valor organizador del diseño y rediseño de los planes de estudio, de conformidad con el Anexo (IF-2023-132778170-APN-SECPU#ME) que forma parte de la presente.
-*   **Artículo 3º**: El MINISTERIO DE EDUCACIÓN DE LA NACIÓN apoyará con programas de formación y asistencia técnica la traducción de los planes de estudio al SACAU.
-*   **Artículo 4°**: A partir de la fecha de esta resolución, el Ministerio no admitirá nuevas solicitudes de reconocimiento oficial y validez nacional de títulos universitarios que no se ajusten a la presente.
-    *   **Excepciones**:
-        *   Solicitudes en las que la fecha de creación, aprobación y/o modificación del plan de estudios por parte del Consejo Superior fuera anterior a la presente.
-        *   Modificación o nuevo plan de estudios de aquellas carreras del artículo 43 cuya convocatoria para acreditación por parte de CONEAU se encuentre abierta y en desarrollo.
-*   **Artículo 5°**: Se insta a las instituciones universitarias a adecuar, en el menor plazo posible, los planes de estudios vigentes a lo previsto en la presente norma.
-*   **Artículo 6°**: Las instituciones universitarias podrán incorporar el sistema de créditos a los planes de estudio vigentes en carreras de pregrado y grado en el marco de los artículos 42 y 43 de la Ley de Educación Superior que, al momento de la sanción de la presente, ya cuenten con titulaciones que hayan obtenido el reconocimiento oficial y la validez nacional sin que esto requiera una nueva resolución ministerial.
-*   **Artículo 7°**: La autoridad de aplicación emitirá las orientaciones necesarias para la conversión al SACAU que se requerirán en las solicitudes de validez nacional y reconocimiento oficial que se presenten a partir de la emisión de la presente y determinará de manera paulatina y progresiva las fechas a partir de las cuales se deberá resolver obligatoriamente la aplicación del sistema de créditos a las carreras en funcionamiento.
-*   **Artículo 8°**: Comuníquese, publíquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y cumplido, archívese.
+### Disposiciones de la Resolución
+
+La Resolución 2598/2023 establece las siguientes medidas:
+
+*   **Artículo 1°:** Se deja sin efecto la Resolución Ministerial N° 6 de fecha 13 de enero de 1997 y cualquier otra norma que se contraponga al presente régimen.
+*   **Artículo 2°:** Se crea el **Sistema Argentino de Créditos Académicos Universitarios (SACAU)**. Este sistema fija al **Crédito de Referencia del/la estudiante (CRE)** como el valor organizador para el diseño y rediseño de los planes de estudio, conforme al Anexo (IF-2023-132778170-APN-SECPU#ME) que forma parte de la resolución.
+*   **Artículo 3°:** El MINISTERIO DE EDUCACIÓN DE LA NACIÓN apoyará con programas de formación y asistencia técnica la traducción de los planes de estudio al SACAU.
+*   **Artículo 4°:** A partir de la fecha de esta resolución, el Ministerio no admitirá nuevas solicitudes de reconocimiento oficial y validez nacional de títulos universitarios que no se ajusten a la presente. Se exceptúan:
+    *   Solicitudes con fecha de creación, aprobación y/o modificación del plan de estudios por parte del Consejo Superior anterior a la resolución.
+    *   Modificaciones o nuevos planes de estudio de carreras del artículo 43 cuya convocatoria para acreditación por parte de CONEAU se encuentre abierta y en desarrollo.
+*   **Artículo 5°:** Se insta a las instituciones universitarias a adecuar, en el menor plazo posible, los planes de estudios vigentes a lo previsto en esta norma.
+*   **Artículo 6°:** Las instituciones universitarias podrán incorporar el sistema de créditos a los planes de estudio vigentes en carreras de pregrado y grado (artículos 42 y 43 de la Ley de Educación Superior) que ya cuenten con reconocimiento oficial y validez nacional, sin que esto requiera una nueva resolución ministerial.
+*   **Artículo 7°:** La autoridad de aplicación emitirá las orientaciones necesarias para la conversión al SACAU y determinará de manera paulatina y progresiva las fechas a partir de las cuales se deberá resolver obligatoriamente la aplicación del sistema de créditos a las carreras en funcionamiento.
+*   **Artículo 8°:** Comuníquese, publíquese, dese a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y, cumplido, archívese.
+
+**Nota:** El Anexo que integra esta Resolución se publica en la edición web del Boletín Oficial de la República Argentina (www.boletinoficial.gob.ar).
 
 ---
 
