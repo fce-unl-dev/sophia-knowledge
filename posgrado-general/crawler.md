@@ -27,7 +27,7 @@ La Maestría en Administración y Finanzas (MAF) es una carrera de posgrado inte
 ## Plan de estudios
 
 ### Estructura general
-La estructura curricular es flexible, basada en un sistema de créditos académicos y la elección de asignaturas optativas. Incluye una estadía de siete meses en la universidad extranjera.
+La estructura curricular es flexible, basada en un sistema de créditos académicos y la elección de asignaturas optativas. Incluye una estadía de siete meses en la universidad extranjera, donde el maestrando deberá aprobar asignaturas específicas de administración y finanzas (dictadas en inglés), realizar un curso de idioma y cultura alemana, y realizar una pasantía en una empresa del país europeo.
 
 ### Módulos / asignaturas
 El plan de estudios incluye asignaturas específicas de administración y finanzas dictadas en inglés. No se publica el listado detallado de módulos o asignaturas.
@@ -53,15 +53,15 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Estado actual de inscripción**: Abierta para una nueva edición en el 2do cuatrimestre de 2026.
+- **Estado actual de inscripción**: Cerrada — próxima apertura de inscripciones en **Diciembre de 2026** para el ciclo **2027**.
 - **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: 2026-08 (2do cuatrimestre de este año)
-- **Estado**: Abierta
+- **Fecha de inicio**: A confirmar para ciclo 2027
+- **Estado**: Cerrada — próxima apertura de inscripciones en **Diciembre de 2026** para el ciclo **2027**
 - **Fuente del dato**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (respuesta frecuente Maestría en Administración y Finanzas)
-- **Última actualización del dato**: 2026-08-27
+- **Última actualización del dato**: 2026-08-31
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -81,7 +81,6 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
     - Fuerte vinculación con el medio empresario de la región y del país.
     - Estructura curricular flexible basada en un sistema de créditos académicos y la elección de asignaturas optativas conforme al perfil de los/as estudiantes.
     - Internacionalización creciente a través de la creación de carreras de doble titulación que implican el intercambio de estudiantes y docentes.
-- **Menciones**: Ofrece dos menciones: Dirección de Negocios y Finanzas de Empresas.
 - **Perfil del egresado**: El egresado logrará un perfil acorde a una maestría profesionalista, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas.
 - **Estadía internacional**: Incluye una estadía de siete meses en la Universidad de Kaiserslautern (Alemania) donde se deben aprobar asignaturas específicas (dictadas en inglés), realizar un curso de idioma y cultura alemana, y realizar una pasantía en una empresa del país europeo.
 - **Ubicación de la Facultad de Ciencias Económicas (lugar donde se cursan los cursos y carreras presenciales)**: Moreno 2557 (3000) Santa Fe.
@@ -121,4 +120,4 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ---
 
-**Última revisión humana**: 2026-08-28
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-08-31 por pipeline de scraping.
