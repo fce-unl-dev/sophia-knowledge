@@ -1,6 +1,6 @@
 # Requisitos para la Inscripción a Cursos de Posgrado
 
-Este documento detalla los requisitos necesarios para la inscripción a cursos de posgrado, tanto en modalidad presencial como a distancia, para egresados de la UNL o de otras universidades.
+Este documento detalla los requisitos necesarios para la inscripción a cursos de posgrado, tanto en modalidad presencial como a distancia, dirigidos a egresados de carreras de grado de la UNL o de otras universidades.
 
 ---
 
@@ -11,12 +11,6 @@ Este documento detalla los requisitos necesarios para la inscripción a cursos d
 *   Ficha de pre inscripción on line.
 *   Fotocopia Simple del Título de grado.
 *   Fotocopia Documento de Identidad.
-
-### Contacto
-
-*   **Secretaría de Posgrado - Facultad de Ciencias Económicas - Universidad Nacional del Litoral**
-*   **Teléfono:** 0342-4571180 interno № 142 / 4571245
-*   **E-mail:** posgrado@fce.unl.edu.ar
 
 ---
 

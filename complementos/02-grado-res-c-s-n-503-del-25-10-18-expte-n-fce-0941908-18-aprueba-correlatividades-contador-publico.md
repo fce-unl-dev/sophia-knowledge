@@ -1,32 +1,30 @@
-# Resolución C.S. Nº 503/2018 - Correlatividades de Contador Público
+# Resolución C.S. Nº 503/18 - Régimen de Correlatividades de Contador Público
 
-Este documento presenta la Resolución del Consejo Superior Nº 503, de fecha 25 de octubre de 2018, que aprueba el régimen de correlatividades para el Plan de Estudios de la carrera de grado de Contador Público de la Facultad de Ciencias Económicas de la UNL.
+Este documento presenta la Resolución del Consejo Superior N° 503, de fecha 25 de octubre de 2018, que aprueba el régimen de correlatividades para el Plan de Estudios de la carrera de Contador Público de la Facultad de Ciencias Económicas de la UNL.
 
 ---
 
 ## Contenido
 
-### Resolución C.S. Nº 503
+### Antecedentes y Consideraciones
 
-**Fecha:** 25 de octubre de 2018
-**Expediente Nº:** FCE-0941908-18
+La Universidad Nacional del Litoral, a través de su Consejo Superior, emitió la Resolución C.S. N° 503 el 25 de octubre de 2018, en respuesta a la Resolución C.D. n° 786/18 de la Facultad de Ciencias Económicas. Esta última proponía la aprobación de un nuevo régimen de correlatividades para el Plan de Estudios de la carrera de grado de Contador Público.
 
-### Antecedentes
+La modificación del Plan de Estudios de la carrera hizo necesario definir un nuevo régimen de correlatividades para las asignaturas. El objetivo principal de esta actualización es promover una mejor articulación entre el nivel secundario y el universitario, así como facilitar el logro de los objetivos propuestos en el nuevo diseño curricular. La propuesta contó con un informe favorable de la Secretaría de Planeamiento Institucional y Académico y el consejo de la Comisión de Enseñanza.
 
-La resolución se emite en respuesta a la resolución C.D. n° 786/18 de la Facultad de Ciencias Económicas, que propuso la aprobación de las correlatividades del Plan de Estudios de la carrera de Contador Público.
+### Resolución del Consejo Superior
 
-Se considera que la modificación del Plan de Estudios de la carrera requería la definición de un nuevo régimen de correlatividades para promover una mejor articulación entre el nivel secundario y universitario, y para alcanzar los objetivos del nuevo diseño curricular. La Secretaría de Planeamiento Institucional y Académico emitió un informe favorable.
+El Consejo Superior de la UNL, en el marco de estas actuaciones, RESUELVE:
 
-### Disposiciones del Consejo Superior
+*   **ARTÍCULO 1º**: Aprobar el Régimen de Correlatividades correspondientes al Plan de estudios de la carrera de grado de Contador Público que se desarrolla en ámbito de la Facultad de Ciencias Económicas, de conformidad con el cuadro que se adjunta.
+*   **ARTÍCULO 2º**: Inscribir, comunicar por Secretaría Administrativa, hacer saber en copia a las Direcciones de Comunicación Institucional, de Información y Estadística y Diplomas y Legalizaciones y pasar a la Secretaría de Planeamiento Institucional y Académico para su conocimiento y demás efectos.
 
-El Consejo Superior resuelve:
+### Régimen de Correlatividades - Contador Público
 
-*   **ARTÍCULO 1º:** Aprobar el Régimen de Correlatividades correspondiente al Plan de Estudios de la carrera de grado de Contador Público, desarrollado en la Facultad de Ciencias Económicas, de conformidad con el cuadro adjunto a la resolución original.
-*   **ARTÍCULO 2º:** Disponer la inscripción y comunicación de la resolución a las Direcciones de Comunicación Institucional, de Información y Estadística y Diplomas y Legalizaciones, y a la Secretaría de Planeamiento Institucional y Académico para su conocimiento y demás efectos.
+A continuación, se detalla el régimen de correlatividades aprobado para las asignaturas de la carrera de Contador Público:
 
-### Régimen de Correlatividades
-
-La resolución aprueba un cuadro detallado de correlatividades para la carrera de Contador Público. Sin embargo, el contenido específico de dicho cuadro no ha sido extraído correctamente en el texto provisto y, por lo tanto, no puede ser presentado aquí. Para consultar las correlatividades, se recomienda referirse al documento original de la Resolución C.S. Nº 503/2018.
+| Asignaturas | Correlatividad de aprobación | Correlatividad de regularidad |
+| :
 
 ---
 

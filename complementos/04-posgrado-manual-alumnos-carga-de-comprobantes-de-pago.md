@@ -1,46 +1,63 @@
-# Manual para la Carga de Comprobantes de Pago en el Sistema de Posgrado
+# Manual alumnos - carga de comprobantes de pago
 
-Este documento detalla el proceso paso a paso para cargar comprobantes de pagos realizados en el sistema de inscripciones de Posgrados de la Facultad de Ciencias Económicas (FCE) de la UNL.
+Este documento detalla el proceso paso a paso para cargar comprobantes de pagos realizados en el sistema de inscripciones de Posgrados de la FCE UNL. Incluye instrucciones de acceso, navegación y los datos requeridos para el registro de pagos.
 
 ---
 
 ## Contenido
 
-### 1. Acceso al Sistema de Inscripciones de Posgrados
+### Acceso al Sistema de Inscripciones de Posgrados
 
-*   **URL**: Ingresar al sistema a través de `https://fce.unl.edu.ar/posgrados`.
-*   **Credenciales**: Utilizar el e-mail y la contraseña elegidos al momento de crear la cuenta.
-*   **Atención**: Este sistema es independiente del SIU Guaraní; no comparte usuarios ni contraseñas.
+Para ingresar al sistema de inscripciones de Posgrados:
 
-### 2. Navegación para Cargar Comprobantes
+*   **URL del sistema**: `https://fce.unl.edu.ar/posgrados`
+*   **Credenciales**: Utilizar el e-mail y la contraseña elegidos al crear la cuenta.
+*   **Importante**: Este sistema no tiene vinculación con el SIU Guaraní; son sistemas independientes y no utilizan el mismo usuario/contraseña.
 
-1.  Una vez dentro del sistema, dirigirse a la sección **"Mis inscripciones"**.
-2.  Seleccionar la opción **"Carreras de Posgrado"**.
-3.  Dentro de la información de la carrera pre-inscripta, buscar y hacer clic en **"Cargar comprobantes de pagos realizados"**.
+La pantalla de identificación solicita:
+*   Email
+*   Contraseña
+*   Botón "Ingresar"
+*   Opciones para "Registrate aquí" (si no se creó la cuenta) o "¿Olvidaste tu contraseña?".
 
-### 3. Carga de un Nuevo Comprobante de Pago
+### Navegación para Cargar Comprobantes
 
-Al acceder a la sección de carga, se solicitarán los siguientes datos:
+Una vez dentro del sistema:
 
-*   **Concepto**: Descripción del pago (por ejemplo: "Primera cuota").
+1.  Dirigirse a la sección **"Mis inscripciones"**.
+2.  Seleccionar **"Carreras de Posgrado"**.
+3.  En la lista de "Inscripciones registradas" para una carrera específica (ej. Maestría en Administración Pública), se mostrará el estado de la pre-inscripción y el plan de pago. También se encontrará la opción para "Cargar COMPROMISO de pago".
+4.  Para cargar comprobantes de pagos realizados, seleccionar la opción **"Cargar comprobantes de pagos realizados"**.
+
+### Proceso de Carga de un Nuevo Comprobante
+
+Al seleccionar "Cargar comprobantes de pagos realizados", se presentará un formulario para agregar un nuevo comprobante.
+
+**Datos requeridos:**
+
+*   **Concepto**: Descripción del pago (ej. "Primera cuota").
 *   **Importe**: Monto del pago.
-*   **Archivo**: Subir un escaneo del comprobante en formato JPG, DOC o PDF.
+*   **Archivo**: Subir un scan del comprobante.
+    *   **Formatos aceptados**: JPG, DOC o PDF.
+    *   Botón "Seleccionar archivo".
 *   **Datos de Facturación**:
-    *   Por defecto, la factura se emitirá a nombre del usuario.
-    *   Si se necesita que la factura se emita a nombre de una razón social en particular, se debe suministrar dicha información y agregar: CUIT, domicilio, localidad, situación frente al IVA y concepto.
+    *   Por defecto, la factura se emitirá a nombre del alumno.
+    *   Si se necesita que la factura se emita a nombre de una razón social en particular, se debe suministrar la siguiente información: CUIT, domicilio, localidad, situación frente a IVA y concepto.
 
-Una vez completados los datos, presionar el botón **"Enviar"** para grabar el formulario y el comprobante de pago.
+Una vez completados los datos, presionar **"Enviar"** para grabar el formulario y el comprobante de pago.
 
-### 4. Visualización del Estado de los Comprobantes
+### Visualización del Estado de los Comprobantes
 
-Después de grabar, el comprobante aparecerá listado debajo del formulario con la siguiente información:
+Después de grabar, el comprobante aparecerá listado debajo del formulario en la sección "Comprobantes ingresados al sistema".
+
+**Información visible para cada comprobante:**
 
 *   **Concepto**
 *   **Importe**
-*   **Datos de facturación**
+*   **Datos de facturación** (ej. "Consumidor Final. Es pago de inscripcion de")
 *   **Fecha de carga en el sistema**
 *   **Estado**: Indica si el pago está "Pendiente" o "Facturado".
-*   **Descargar comprobante**: Opción para bajar el archivo subido.
+*   **Opción**: Descargar comprobante.
 
 En todo momento se podrá ver el estado del pago.
 
