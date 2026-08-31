@@ -1,34 +1,28 @@
-# Resolución de Decana N° 361/23: Derogación de Resoluciones Anteriores
+# Resolución que Deroga Resoluciones Anteriores
 
-Este documento detalla la Resolución de Decana N° 361/23 de la Facultad de Ciencias Económicas de la UNL, que deroga las Resoluciones N° 275/11 y N° 213/22. Esta derogación se realiza en consonancia con la aprobación de las nuevas Normas y Procedimientos de Enseñanza (Resolución del Consejo Directivo N° 740/23), que incorporan la normativa sobre la Comisión de Análisis de Justificaciones para horarios especiales de cursado.
+Este documento oficializa la derogación de las Resoluciones de Decano/a N° 275/11 y N° 213/22, que regulaban la Comisión de Análisis de Justificaciones para horarios especiales de cursado. Esta acción se realiza en consonancia con la aprobación de las nuevas Normas y Procedimientos de Enseñanza para las carreras de grado de la Facultad de Ciencias Económicas, establecidas por la Resolución del Consejo Directivo N° 740/23.
 
 ---
 
 ## Contenido
 
-### Resolución Nº 361/23
+### Resolución N° 361/23 de la Decana de la Facultad de Ciencias Económicas
 
-*   **Expediente:** FCE-1175752-23
-*   **Fecha:** Santa Fe, 29 de septiembre de 2023
+**Fecha:** Santa Fe, 29 de septiembre de 2023
 
-### VISTO
+**Expediente:** FCE-1175752-23
 
-La Resolución del Consejo Directivo **N° 740/23**, de fecha 28 de septiembre de 2023, mediante la cual se aprueban las Normas y Procedimientos de Enseñanza que rigen para las carreras de grado de la Facultad de Ciencias Económicas.
+### Contexto y Fundamentos
 
-### CONSIDERANDO
+*   **VISTO:** La Resolución del Consejo Directivo N° 740/23, de fecha 28 de septiembre de 2023, que aprueba las Normas y Procedimientos de Enseñanza para las carreras de grado de la Facultad de Ciencias Económicas.
+*   **CONSIDERANDO:**
+    *   El Artículo 4º de la Resolución N° 740/23 establece la derogación de toda norma que se oponga a la misma, a partir de su entrada en vigencia.
+    *   Las Resoluciones de Decano N° 275/11 y su modificatoria N° 213/22, que crearon y reglamentaron la Comisión de Análisis de Justificaciones para horarios especiales de cursado, se encuentran ahora incluidas en las nuevas Normas y Procedimientos de Enseñanza.
 
-*   Que, según el artículo 4º de la Resolución **N° 740/23**, corresponde derogar toda norma que se oponga a la misma, a partir de su entrada en vigencia.
-*   Que, la Resolución del Decano **N° 275/11** y su modificatoria, Resolución de la Decana **Nº 213/22**, que aprobaron la creación y reglamentaron el funcionamiento de la Comisión de Análisis de Justificaciones para horarios especiales de cursado, se encuentran incluidas en las nuevas Normas y Procedimientos de Enseñanza.
+### Artículos Resolutivos
 
-### LA DECANA DE LA FACULTAD DE CIENCIAS ECONÓMICAS RESUELVE:
-
-#### ARTÍCULO 1º
-
-Derogar las Resoluciones de Decano/a **N° 275/11** y **N° 213/22**, a partir del 28 de septiembre de 2023, en consonancia con lo dispuesto en el artículo 4º de la Resolución del Consejo Directivo **N° 740/23**.
-
-#### ARTÍCULO 2º
-
-Inscríbase, comuníquese, tómese nota y archívese.
+*   **ARTÍCULO 1º:** Se derogan las Resoluciones de Decano/a N° 275/11 y N° 213/22, a partir del 28 de septiembre de 2023, en consonancia con lo dispuesto en el Artículo 4º de la Resolución del Consejo Directivo N° 740/23.
+*   **ARTÍCULO 2º:** Inscríbase, comuníquese, tómese nota y archívese.
 
 ---
 

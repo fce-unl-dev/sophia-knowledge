@@ -1,6 +1,6 @@
-# Manual alumnos - carga de comprobantes de pago
+# Manual para la Carga de Comprobantes de Pago en el Sistema de Posgrado
 
-Este documento detalla el proceso paso a paso para cargar comprobantes de pago de inscripciones a carreras de posgrado en el sistema de gestión de la Facultad de Ciencias Económicas (FCE) de la UNL.
+Este documento detalla el proceso paso a paso para cargar comprobantes de pagos realizados en el sistema de inscripciones de Posgrados de la Facultad de Ciencias Económicas (FCE) de la UNL.
 
 ---
 
@@ -8,107 +8,41 @@ Este documento detalla el proceso paso a paso para cargar comprobantes de pago d
 
 ### 1. Acceso al Sistema de Inscripciones de Posgrados
 
-1.  **URL del sistema:** Ingresar a [https://fce.unl.edu.ar/posgrados](https://fce.unl.edu.ar/posgrados).
-2.  **Credenciales:** Utilizar el e-mail y la contraseña elegidos al crear la cuenta.
-    *   **ATENCIÓN:** Este sistema es independiente del **SIU Guaraní**, por lo que no comparte usuarios ni contraseñas.
+*   **URL**: Ingresar al sistema a través de `https://fce.unl.edu.ar/posgrados`.
+*   **Credenciales**: Utilizar el e-mail y la contraseña elegidos al momento de crear la cuenta.
+*   **Atención**: Este sistema es independiente del SIU Guaraní; no comparte usuarios ni contraseñas.
 
-    ```
-    Bienvenido al sistema de Posgrado
+### 2. Navegación para Cargar Comprobantes
 
-    Por favor, identificate a continuación:
+1.  Una vez dentro del sistema, dirigirse a la sección **"Mis inscripciones"**.
+2.  Seleccionar la opción **"Carreras de Posgrado"**.
+3.  Dentro de la información de la carrera pre-inscripta, buscar y hacer clic en **"Cargar comprobantes de pagos realizados"**.
 
-    Email
-    Contraseña
-    → Ingresar
+### 3. Carga de un Nuevo Comprobante de Pago
 
-    ¿No creaste tu cuenta aún? Registrate aquí
-    ¿Olvidaste tu contraseña?, clickeá aquí!
-    ```
+Al acceder a la sección de carga, se solicitarán los siguientes datos:
 
-### 2. Navegación a "Mis inscripciones"
+*   **Concepto**: Descripción del pago (por ejemplo: "Primera cuota").
+*   **Importe**: Monto del pago.
+*   **Archivo**: Subir un escaneo del comprobante en formato JPG, DOC o PDF.
+*   **Datos de Facturación**:
+    *   Por defecto, la factura se emitirá a nombre del usuario.
+    *   Si se necesita que la factura se emita a nombre de una razón social en particular, se debe suministrar dicha información y agregar: CUIT, domicilio, localidad, situación frente al IVA y concepto.
 
-Una vez dentro del sistema, dirigirse a la sección **"Mis inscripciones"** y luego seleccionar **"Carreras de Posgrado"**.
+Una vez completados los datos, presionar el botón **"Enviar"** para grabar el formulario y el comprobante de pago.
 
-```
-Posgrado - Sistema de gestión
-..ll Inicio
-Salir
-Mi información
-Cambiar contraseña
-Actualizar datos
-DNI y título
-Propuesta académica
-Cursos de Posgrado
-Carreras de Posgrado
-```
+### 4. Visualización del Estado de los Comprobantes
 
-En esta sección, se visualizarán las inscripciones registradas:
+Después de grabar, el comprobante aparecerá listado debajo del formulario con la siguiente información:
 
-| Atributo                  | Valor |
-| :--- | :--- |
-| Maestría en Administración Pública | — |
-| Fecha de su pre-inscripción: | 07/08/2020 |
-| Estado de su pre-inscripción: | Contactado |
-| Plan de pago elegido:     | Aún no se ha elegido un plan de pago                                                              |
-| Compromiso de pago:       | Debe bajar **ESTE ARCHIVO GENERADO ESPECÍFICAMENTE PARA USTED**, imprimirlo, firmarlo y luego subirlo. |
-| Usando este botón:        | Cargar COMPROMISO de pago                                                                         |
+*   **Concepto**
+*   **Importe**
+*   **Datos de facturación**
+*   **Fecha de carga en el sistema**
+*   **Estado**: Indica si el pago está "Pendiente" o "Facturado".
+*   **Descargar comprobante**: Opción para bajar el archivo subido.
 
-### 3. Carga de Comprobantes de Pagos Realizados
-
-Dentro de la sección de inscripciones, buscar y seleccionar la opción **"Cargar comprobantes de pagos realizados"**.
-
-```
-Mis inscripciones
-✔ Cursos de Posgrado
-Carreras de Posgrado
-Mis certificados
-Cursos de Posgrado
-Carreras de Posgrado
-
-Cargar comprobantes de pagos realizados
-Realizar consulta
-Elegir plan de pago
-```
-
-### 4. Completar el Formulario de Carga
-
-El sistema solicitará los siguientes datos para agregar un nuevo comprobante:
-
-#### Listado de comprobantes
-
-De: Maestría en Administración Pública
-
-#### Agregar un nuevo comprobante
-
-*   **Concepto:** Breve descripción del pago (Ejemplo: Primera cuota).
-*   **Importe:** Monto del pago.
-*   **Archivo:** Subir un escaneo del comprobante en formato **JPG, DOC o PDF**.
-    *   Botón: `Seleccionar archivo`
-*   **Datos de Facturación:**
-    *   Por defecto, la factura se emitirá a nombre del alumno.
-    *   Si se requiere que la factura se emita a nombre de una razón social particular, se debe suministrar la siguiente información:
-        *   CUIT
-        *   Domicilio
-        *   Localidad
-        *   Situación frente a IVA
-        *   Concepto
-
-Una vez completados todos los campos, presionar el botón **"Enviar"** para grabar el formulario y el comprobante de pago.
-
-### 5. Visualización de Comprobantes Ingresados
-
-Después de grabar, el comprobante aparecerá listado debajo del formulario. En esta sección, se podrá verificar el estado del pago (pendiente o facturado).
-
-#### Comprobantes ingresados al sistema
-
-| Atributo                  | Valor                               |
-| :--- | :--- |
-| Concepto:                 | Inscripción                         |
-| Importe:                  | 48000                               |
-| Datos de facturación:     | Consumidor Final. Es pago de inscripcion de |
-| Fecha de carga en el sistema: | 05/08/2020                          |
-| Estado:                   | Facturado                           |
-| Descargar comprobante     | —                                   |
+En todo momento se podrá ver el estado del pago.
 
 ---
 

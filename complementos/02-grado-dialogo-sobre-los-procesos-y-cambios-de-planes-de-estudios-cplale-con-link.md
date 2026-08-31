@@ -1,28 +1,26 @@
 # Diálogo sobre los procesos y cambios de Planes de Estudios CP, LA y LE
 
-Este documento describe la jornada de sensibilización y los pasos propuestos para el proceso de cambio de los planes de estudios de las carreras de Contador Público (CP), Licenciatura en Administración (LA) y Licenciatura en Economía (LE) en la FCE UNL, incluyendo la propuesta de consulta a la comunidad educativa.
+Este documento detalla la jornada de planificación y sensibilización sobre los procesos y cambios propuestos para los planes de estudios de las carreras de Contador Público (CP), Licenciatura en Administración (LA) y Licenciatura en Economía (LE) de la FCE UNL. Incluye el planteo del problema, el propósito, los pasos a seguir y la propuesta de consulta a la comunidad educativa.
 
 ---
 
 ## Contenido
 
-### Jornada de Sensibilización
+### Jornada de Planificación y Sensibilización
 
-*   **Fecha**: 18/11/2025
-*   **Planteo del problema**: SACAU (4 años), estándares de 2da generación.
+*   **Fecha de la Jornada de Sensibilización**: 18 de noviembre de 2025
+*   **Planteo del Problema**: SACAU (4 años), estándares de 2da generación.
 *   **Propósito**: Cambio de planes de estudio.
 
 ### Pasos a Seguir para el Cambio de Planes de Estudio
 
-1.  **Comisión ad-hoc aprobada por CD (marzo)**: Integrada por directores de carreras, de departamentos y comisiones de interpretación y enseñanza del CD, SAYBE.
-2.  **Aprobación de Cronograma y actividades por la Comisión (abril y mayo)**: Incluye encuestas, entrevistas a estudiantes, docentes, no docentes, graduados y organizaciones, así como ateneos sobre tesis o resultados de proyectos de investigación relacionados con el currículum.
-3.  **Debates internos y propuestas a partir de los datos (junio / julio)**.
-4.  **Borrador de nuevos planes (agosto)**.
-5.  **Aprobación de planes por CD (septiembre / octubre)**.
+1.  **Comisión ad-hoc**: Aprobada por Consejo Directivo (CD), integrada por directores de carreras, de departamentos y comisiones de interpretación y enseñanza del CD, SAYBE (marzo).
+2.  **Aprobación de Cronograma y Actividades**: Por la comisión, incluyendo encuestas, entrevistas a estudiantes, docentes, no docentes, graduados y organizaciones que reciben a graduados; ateneos en torno a tesis y/o resultados de proyectos de investigación referidos al currículum (abril y mayo).
+3.  **Debates Internos y Propuestas**: A partir de los datos recolectados (junio / julio).
+4.  **Borrador de Nuevos Planes**: Agosto.
+5.  **Aprobación de Planes por CD**: Septiembre / Octubre.
 
 ### Recursos Disponibles
-
-La Facultad cuenta con los siguientes recursos para este proceso:
 
 *   Observatorio Académico
 *   Encuestas estudiantiles
@@ -30,15 +28,20 @@ La Facultad cuenta con los siguientes recursos para este proceso:
 
 ### Propuesta de Consulta a la Comunidad Educativa de FCE
 
-Esta consulta busca explorar valoraciones e identificar puntos de acuerdo para el diseño de los nuevos planes de estudios.
+Esta propuesta busca explorar las valoraciones de la comunidad educativa de FCE en torno a los planes de estudios vigentes y sus posibles cambios.
 
-*   **Primera Etapa (abril 2026): Exploración de valoraciones**
-    *   **Actividad**: Grupos focales con los distintos claustros (docentes, no docentes y estudiantes).
-    *   **Criterios de armado de grupos**: Distintas carreras y distintos momentos de la carrera (BUCE, ciclo superior).
-*   **Segunda Etapa (mayo-junio): Identificación de puntos de acuerdo**
-    *   **Actividad**: Formulario autoadministrado enviado a todos los docentes y estudiantes de las tres carreras de FCE.
+#### Primera Etapa (Abril 2026)
 
-*   **Análisis e Informe Final**: Julio 2026
+*   **Actividad**: Grupos focales con los distintos claustros (docentes, no docentes y estudiantes).
+*   **Criterios de armado de los grupos**: Distintas carreras y distintos momentos de la carrera (BUCE, ciclo superior).
+
+#### Segunda Etapa (Mayo-Junio)
+
+*   **Actividad**: Formulario autoadministrado enviado a todos los docentes y estudiantes de las tres carreras de FCE.
+
+#### Análisis e Informe Final
+
+*   **Fecha**: Julio 2026
 
 ---
 

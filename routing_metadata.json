@@ -295,49 +295,49 @@
     "complementos/02-grado-jornada-de-sensibilizacion-17-11.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "Jornada de Sensibilización: Propuesta Académica FCE",
+      "title": "JORNADA DE SENSIBILIZACIÓN",
       "category": "Complementario"
     },
     "complementos/02-grado-mch-rse-556-2025.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución 556/2025 del Ministerio de Capital Humano",
+      "title": "Resolución 556/2025",
       "category": "Complementario"
     },
     "complementos/02-grado-powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
-      "title": "Ciclo de Talleres en Marco del CRE",
+      "title": "Ciclo de Talleres en Marco del CRE (Mayo 2026)",
       "category": "Complementario"
     },
     "complementos/02-grado-res-785-reglamento-de-practicas-profesionales-supervisadas-pps-contador-publico.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Res 785 - Reglamento de Prácticas Profesionales Supervisadas (PPS) - Contador Público",
+      "title": "Res 785 - Reglamento de Practicas Profesionales Supervisadas (PPS) - Contador Publico",
       "category": "Complementario"
     },
     "complementos/02-grado-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución C.S. Nº 503/18 - Correlatividades del Plan de Estudios de Contador Público",
+      "title": "Resolución C.S. Nº 503/2018 - Correlatividades de Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución C.S. Nº 504/18: Aprobación del Plan de Transición para la carrera de Contador Público",
+      "title": "Resolución C.S. N° 504/18: Aprobación del Plan de Transición de la Carrera de Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución C.S. Nº 502/18: Modificación del Plan de Estudios de Contador Público",
+      "title": "Res. C.S. Nº 502 del 25-10-18 - Modificación Plan de Estudios Contador Público",
       "category": "Complementario"
     },
     "complementos/02-grado-resolucion2598-2023.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución 2598/2023",
+      "title": "Resolucion2598-2023",
       "category": "Complementario"
     },
     "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md": {
@@ -397,7 +397,7 @@
     "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md": {
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
-      "title": "Manual alumnos - carga de comprobantes de pago",
+      "title": "Manual para la Carga de Comprobantes de Pago en el Sistema de Posgrado",
       "category": "Complementario"
     },
     "complementos/04-posgrado-ok-nota-baja.md": {
@@ -421,7 +421,7 @@
     "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md": {
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
-      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CURSOS DE POSGRADO",
+      "title": "Requisitos para la Inscripción a Cursos de Posgrado",
       "category": "Complementario"
     },
     "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md": {
@@ -439,25 +439,25 @@
     "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución de Decana N° 361/23: Derogación de Resoluciones Anteriores",
+      "title": "Resolución que Deroga Resoluciones Anteriores",
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-normas-y-procedimientos-de-ensenanza.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Normas y Procedimientos de Enseñanza",
+      "title": "Normas y Procedimientos de Enseñanza para las carreras de grado de la FCE-UNL",
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-res-500-25.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución C.D. N° 500/25",
+      "title": "RESOLUCIÓN C.D. Nº 500/25",
       "category": "Complementario"
     },
     "complementos/06-reglamentos-y-normas-resolucion-cd640-25.md": {
       "sector": "normativa",
       "displayName": "Normativa y Reglamentos",
-      "title": "Resolución CD N° 640/25",
+      "title": "Resolución C.D. N° 640/25",
       "category": "Complementario"
     },
     "cursos-posgrado/analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible.md": {
