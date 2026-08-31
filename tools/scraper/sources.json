@@ -551,6 +551,12 @@
       "indice_path": "posgrado-general/crawler.md",
       "url": "https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar",
       "strategy": "wordpress-homepage"
+    },
+    {
+      "slug": "mids",
+      "indice_path": "compartidos/mids.md",
+      "url": "https://www.fce.unl.edu.ar/sitios/mids/",
+      "strategy": "fce-microsite"
     }
   ]
 }
