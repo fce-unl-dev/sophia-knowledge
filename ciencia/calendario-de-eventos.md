@@ -29,7 +29,10 @@
 - 3 y 4 de septiembre, Mendoza.
 - Más información
 - II Congreso de Tributación de Universidades Nacionales del Centro del País
-- Ciudad de Córdoba, 3 y 4 de septiembre de 2026.
+- 3 y 4 de septiembre de 2026, Ciudad de Córdoba.
+- Más información
+- 11º Jornadas Regionales de Contabilidad y Auditoría
+- 3 y 4 de septiembre de 2026. Subcomisión de Contabilidad y Auditoría. Colegio de Graduados en Ciencias Económicas de Tucumán
 - Más información
 - 31ª Reunión Anual Red PyMEs Mercosur
 - 1 y 2 de octubre, Facultad de Ciencias Económicas – UNL Santa Fe, Argentina
@@ -61,5 +64,5 @@
 
 ---
 
-**Última revisión automática**: 2026-08-24 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-08-31 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
