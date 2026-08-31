@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-31",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -9,7 +9,7 @@
     "extension": 6,
     "internacionales": 7,
     "docentes": 3,
-    "posgrados_graduados": 46,
+    "posgrados_graduados": 47,
     "posgrados_cursos_sin_titulo": 27,
     "grado": 12,
     "tramites_bedelia": 7,
@@ -273,6 +273,12 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
       "category": "Posgrado compartido"
+    },
+    "compartidos/mids.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Maestría en Innovación para el Desarrollo Sostenible",
+      "category": "Maestría"
     },
     "compartidos/negocios-agroalimentarios.md": {
       "sector": "posgrados_graduados",
