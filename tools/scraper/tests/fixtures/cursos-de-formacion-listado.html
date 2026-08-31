@@ -1,0 +1,546 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" style="height: 100%;">
+<head>
+<title>Facultad de Ciencias Económicas - Turnos de exámen</title>
+<link href="https://www.unl.edu.ar/favicon.ico" type="image/x-icon" rel="icon">
+<link href="https://www.unl.edu.ar/favicon.ico" type="image/x-icon" rel="shortcut icon">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Facultad de Ciencias Económicas de la Universidad Nacional del Litoral">
+<meta name="keywords" content="fbcb, Facultad de Bioquímica y Ciencias Biológicas, UNL">
+<style>
+.mensajeInfo{
+	background-color:#FFC;
+	border-left: 2px solid #FC9;
+	padding:10px;
+}
+.mensajeSuccess{
+	background-color:#3C9;
+	border-left: 2px solid #099;
+	padding:10px;
+}
+</style>
+</head>
+<body style="position: relative; min-height: 100%; top: 0px;font-family: Helvetica, Arial, sans-serif;font-size:12px;">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="css/select2.css">
+<script language="javascript" src="js/jquery.min.js"></script>
+<script language="javascript" src="js/select2.min.js"></script>
+<script language="javascript" src="js/select2_locale_es.js"></script>
+<style>
+div{
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size:12px;
+}
+h1{
+    font-size:12px;
+}
+.anchoDemo{
+    
+    max-width:100%;
+}
+.curso a{
+    color:    #06C;
+    text-decoration:none;
+}
+.curso a:hover{
+    text-decoration:underline;
+}
+
+.consulta{
+    border-bottom:1px solid #EEE;
+    padding:4px;
+}
+.curso{
+    position: relative;
+    margin:10px;
+    border-bottom:1px dashed #ccc;
+    padding:10px;
+    float:left;
+    width:240px;
+    height:190px;
+    max-width:100%;
+    background:#EEE;
+    overflow:hidden;
+    
+}
+.boton{
+    
+    margin-right:10px;
+    margin-top:10px;
+    
+}
+.curso a.botonblanco{
+    display:block;
+    float:left;
+    width:52px;
+    background-color:#7491ad;
+    color:#EEE;
+    padding:8px ;
+    margin:0px;
+    
+    
+    text-decoration:none;
+    margin-right:5px;
+    margin-bottom:10px;
+}
+.curso a.botonblanco:hover{
+    background-color:#264a84;
+    text-decoration:none;
+} 
+.curso a.botonblanco2{
+    display:block;
+    float:left;
+    width:120px;
+    background-color:#4f6b86;
+    color:#EEE;
+    padding:8px ;
+    margin:0px;
+    
+    text-decoration:none;
+}
+.curso a.botonblanco2:hover{
+    background-color:#214172;
+    text-decoration:none;
+}
+
+a.botonblancoautogestion{
+    display:block;    
+    width:170px;
+    height:20px;
+    background-color:#1F2F4E;
+    color:#EEE;
+    padding:20px ;
+    margin:0px;
+    border:4px solid #1F2F4E;
+    float:left;
+    margin-right: 5px;
+    text-decoration:none;
+}
+a.botonblancoautogestion:hover{
+    background-color:#2461BE;
+    border:4px solid #2461BE;
+    text-decoration:none;
+}
+
+
+.curso a h2{
+margin:0px;
+color:#000;
+text-decoration: none;
+text-transform:uppercase;
+font-weight:normal;
+font-size:16px;
+text-shadow:1px 1px 2px rgba(255,255,255,1);
+}
+
+
+
+.curso:before {
+    
+    position: absolute;
+    top: 0; right: -10;
+    border-top: 20px solid white;
+    border-left: 20px solid #EEE;
+    width: 10px;
+}
+
+.curso a h2 span{
+    display:block;font-weight:bold;
+}
+.curso a:hover{
+text-decoration: none;
+}
+.curso .smaller{font-size:11px;color:#555;}
+
+.tituloInscripcion{
+    font-weight: bold;
+    color: #1F2F4E;
+    font-size: 14pt;
+    
+    height: 40px;
+    float:left;
+}
+h2{
+    margin:0px !important
+}
+.inferior{
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+    height: 40px;     
+}
+.casiinferior{
+    position: absolute; 
+    bottom: 50px; 
+    width: 100%; 
+    height: 30px;     
+}
+
+/* NUEVO CSS: Badge Impulsa */
+.badge-impulsa {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    background: linear-gradient(90deg, #FFA700 0%, #E92A6B 50%, #5F26C9 100%);
+    color: #FFF;
+    padding: 4px 10px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    z-index: 10;
+    border-radius: 4px 0 0 4px;
+    letter-spacing: 0.5px;
+}
+
+/* NUEVO CSS: Filtros */
+.filtros-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+.btn-filtro {
+    padding: 8px 16px;
+    background-color: #E2E8F0;
+    border: 1px solid #CBD5E1;
+    color: #334155;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+.btn-filtro:hover {
+    background-color: #CBD5E1;
+}
+.btn-filtro.activo {
+    background-color: #1F2F4E;
+    color: #FFF;
+    border-color: #1F2F4E;
+}
+</style>
+<br>
+<!--
+<a href="../cursos_formacion/index.php?act=showLogin" class="botonblancoautogestion" target="_parent">INGRESAR AL <B>SISTEMA DE CURSOS DE FORMACIÓN</b></a>
+-->
+<br clear="all">
+<br clear="all">
+<strong>Informes<br /></strong>
+Email: <a href="mailto:cursosdeformacion@fce.unl.edu.ar">cursosdeformacion@fce.unl.edu.ar</a> 
+
+<br clear="all">
+<br><br>
+<h2>Inscripciones abiertas:</h2>
+<p>Se encuentran abiertas las inscripciones a los siguientes cursos de formación.<br> </p>
+
+<!-- NUEVO HTML: Botones de filtro -->
+<div class="filtros-wrapper">
+    <button class="btn-filtro activo" data-filter="todos">Ver Todos</button>
+    <button class="btn-filtro" data-filter="impulsa">Programa IMPULSA</button>
+    <button class="btn-filtro" data-filter="fce">Cursos FCE</button>
+</div>
+
+<div id="asignaturas_cont" style="width:400px">
+	
+</div>
+
+<div id="listado" class="anchoDemo">
+	<div class='curso' data-origen='fce'>
+           
+           <img src='uploads/encabezados/1174.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>PLANILLAS DE CÁLCULO PARA GESTIONAR TU EMPRENDIMIENTO</b></p>Inicio:<b>24/08/2026</b>. <a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=265' target='_blank'>Más información</a>
+                        <br>
+                        
+                    
+                    <br clear='all'>
+                    <div class='inferior'>
+                        <a href='index.php?act=showFormularioI&idCurso=1174#superior' class='botonblanco'>
+                        Consultas 
+                        </a>
+                        <a href='../cursos_formacion/index.php?act=showLogin&id_curso=1174#superior' class='botonblanco2' target = '_blank'>
+                        PRE-INSCRIPCIÓN
+                        </a>
+                    </div>    
+
+                    </div>
+                    
+                    <div class='curso' data-origen='fce'>
+           
+           <img src='uploads/encabezados/1198.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>LA CONSTRUCCIÓN DEL PENSAMIENTO PROPORCIONAL</b></p>Inicio:<b>31/08/2026</b>. <a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=311' target='_blank'>Más información</a>
+                        <br>
+                        
+                    
+                    <br clear='all'>
+                    <div class='inferior'>
+                        <a href='index.php?act=showFormularioI&idCurso=1198#superior' class='botonblanco'>
+                        Consultas 
+                        </a>
+                        <a href='../cursos_formacion/index.php?act=showLogin&id_curso=1198#superior' class='botonblanco2' target = '_blank'>
+                        PRE-INSCRIPCIÓN
+                        </a>
+                    </div>    
+
+                    </div>
+                    
+                    
+</div>
+
+<br><br>
+
+<div id="listado2" class="anchoDemo" style="display:block">
+<br clear='all'><br clear='all'>
+<br clear='all'><br clear='all'>
+<br clear='all'><br clear='all'>
+<h2>Propuestas con inscripción no disponible:</h2>
+<br>
+    <br clear='all'><div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1187.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>FORMACIÓN DE REPOSITORES PARA SUPERMERCADO</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=308'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1187#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1187#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1201.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>TOKENIZACIÓN DE ACTIVOS DE LA ECONOMÍA REAL EN ARGENTINA</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=313'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1201#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1201#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1189.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>FORMACIÓN DE GERENTES PARA RETAIL</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=306'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1189#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1189#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1193.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>CAPACITACIÓN EN POWER BI - GESTIÓN ESTRATÉGICA DE DATOS PARA LA TOMA DE DECISIONES</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=302'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1193#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1193#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1190.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>TÉCNICAS DE VENTA Y ATENCIÓN AL CLIENTE PARA EL SECTOR ELECTRO Y TEXTIL</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=305'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1190#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1190#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1199.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>TEORÍA DE JUEGOS: FUNDAMENTOS MATEMÁTICOS Y APLICACIONES EN ECONOMÍA, ADMINISTRACIÓN Y MARKETING</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=312'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1199#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1199#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1191.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>MANEJO PRÁCTICO DE COOPERATIVAS Y ASOCIACIONES</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=304'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1191#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1191#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1197.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>GESTIÓN DE EMPRENDIMIENTOS EN LA INDUSTRIA DE CÁÑAMO Y CANNABIS MEDICINAL</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=310'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1197#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1197#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1195.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>INTRODUCCIÓN A LA OPERATORIA EN MERCADO DE CAPITALES PARA ORGANIZACIONES</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=300'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1195#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1195#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1202.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>TRADING PROFESIONAL BASADO EN EVIDENCIA</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=314'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1202#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1202#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <div class='curso' data-origen='fce'>
+                       
+                       <img src='uploads/encabezados/1184.jpg' style='margin-top:-9px;margin-left:-8px' />   
+           <p><b>HERRAMIENTAS MATEMÁTICAS PARA MODELIZAR CAMBIOS EN VARIABLES DE INTERÉS OPERATIVO</b></p>
+                       <div class='casiinferior'>
+                       <br><a href='https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=297'>Más información</a>                        
+                       </div>
+                       <br clear='all'>
+                       <div class='inferior'>
+                           
+                           <a href='index.php?act=showFormularioI&idCurso=1184#superior' class='botonblanco'>
+                        Consultas
+                        </a>
+                                
+                           
+                           <a href='index.php?act=showEstoyInteresado&idCurso=1184#superior' class='botonblanco2' >
+                        ME INTERESA
+                        </a>
+                       </div>
+           </div>
+           <br clear='all'>
+</div>
+
+
+<br />
+
+<!-- NUEVO SCRIPT: Lógica del filtro -->
+<script>
+$(document).ready(function(){
+    $('.btn-filtro').click(function(){
+        // Manejo de clase visual activa
+        $('.btn-filtro').removeClass('activo');
+        $(this).addClass('activo');
+        
+        var filter = $(this).data('filter');
+        
+        if(filter === 'todos'){
+            $('#listado .curso').fadeIn(300); // <-- Modificado aquí
+        } else {
+            $('#listado .curso').hide(); // <-- Modificado aquí
+            $('#listado .curso[data-origen="' + filter + '"]').fadeIn(300); // <-- Modificado aquí
+        }
+    });
+});
+</script>
+</body	>
+</html>

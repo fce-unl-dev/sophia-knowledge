@@ -106,14 +106,17 @@ function todayIsoDate() {
 export function parseCourseList(html, baseUrl = DEFAULT_COURSES_URL) {
   const courses = [];
   const seenIds = new Set();
-  // Parseo POR TARJETA: cada curso es un <div class='curso'> con su propio
+  // Parseo POR TARJETA: cada curso es un div.curso con su propio
   // <b>título</b>, un "Inicio:" OPCIONAL (los de la sección "sin inscripción
   // disponible" no lo traen) y el link "Más información" (showSubcategoria).
   // Tomar el título del <b> de cada bloque evita que la inferencia por ventana de
   // texto mezcle títulos de cursos vecinos (que producía duplicados y faltantes).
   // Capturar TODAS las tarjetas —con o sin fecha— es lo que permite que el KB
   // coincida con la web y que el auto-borrado de bajas sea seguro.
-  const blocks = html.split(/<div class='curso'>/i).slice(1);
+  // El div de la tarjeta se matchea tolerando atributos: el 14/08/2026 la página
+  // le agregó data-origen='fce' y el split literal por <div class='curso'> pasó a
+  // devolver cero tarjetas, en silencio y sin que nada fallara.
+  const blocks = html.split(/<div[^>]*class=['"]curso['"][^>]*>/i).slice(1);
   for (const block of blocks) {
     const detailHrefM = /href=['"]([^'"]*act=showSubcategoria[^'"]*)['"]/i.exec(block);
     if (!detailHrefM) continue;
@@ -134,7 +137,9 @@ export function parseCourseList(html, baseUrl = DEFAULT_COURSES_URL) {
 
     const signupM = /href=['"]([^'"]*act=showLogin[^'"]*)['"]/i.exec(block);
     const signupUrl = signupM ? absolutizeUrl(decodeEntities(signupM[1]).replace(/&amp;/g, '&'), baseUrl) : null;
-    const queryM = /href=['"]([^'"]*act=showConsulta[^'"]*)['"]/i.exec(block);
+    // El botón "Consultas" es showFormularioI&idCurso= en la página actual;
+    // showConsulta es el patrón viejo, se acepta por si vuelve o queda en caché.
+    const queryM = /href=['"]([^'"]*act=(?:showFormularioI|showConsulta)[^'"]*)['"]/i.exec(block);
     const queryUrl = queryM ? absolutizeUrl(decodeEntities(queryM[1]).replace(/&amp;/g, '&'), baseUrl) : null;
 
     if (detailId) seenIds.add(detailId);
