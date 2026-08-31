@@ -1,6 +1,6 @@
 {
   "version": 47,
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-31",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -260,6 +260,13 @@
       "title": "Maestría en Desarrollo y Políticas Públicas (MDYPP — sede FCJS)",
       "category": "Posgrado compartido",
       "canonicalUrl": "https://www.fcjs.unl.edu.ar/mdypp/"
+    },
+    {
+      "path": "compartidos/mids.md",
+      "title": "Maestría en Innovación para el Desarrollo Sostenible",
+      "category": "Maestría",
+      "programCode": "MIDS",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/sitios/mids/"
     },
     {
       "path": "compartidos/negocios-agroalimentarios.md",
