@@ -2,16 +2,16 @@
   "slug": "crawler",
   "url": "https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar",
   "strategy": "wordpress-homepage",
-  "content_hash": "4e43d04ea944d49308f1a98dae10825278ed0a0e08b054bdfa3c76ab1754d8d6",
-  "previous_hash": "8198d1840bd40a53a33a97ccfeaf4cbeaa0f00a0f60b5b0bfdc7c19910bb9d11",
+  "content_hash": "466e9ee51c9ae9328978e9d9aa906c9d5f6cd9589bfed690d24033ee57eedfe3",
+  "previous_hash": "4e43d04ea944d49308f1a98dae10825278ed0a0e08b054bdfa3c76ab1754d8d6",
   "pages_count": 1,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar",
       "title": "",
-      "length": 98134
+      "length": 99047
     }
   ],
-  "scraped_at": "2026-08-27T17:13:32.511Z",
-  "last_checked_at": "2026-08-27T17:13:32.511Z"
+  "scraped_at": "2026-08-31T12:19:11.434Z",
+  "last_checked_at": "2026-08-31T12:19:11.434Z"
 }
