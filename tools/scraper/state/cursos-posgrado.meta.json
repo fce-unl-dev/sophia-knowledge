@@ -2,16 +2,16 @@
   "slug": "cursos-posgrado",
   "url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
   "strategy": "wordpress-homepage",
-  "content_hash": "0a15fb951cec8dcfff12a258e8ca28c9176e8a0eab6d36469fa8895cd61f365a",
-  "previous_hash": "3ea0f3704b9f96558357c434b89ae329916f9bb508184a0a44ef423b9178dc18",
+  "content_hash": "8772eeb45ced6c2b06b18e540d4b3ea5b19c6dca6b6371e409448351dfae7666",
+  "previous_hash": "0a15fb951cec8dcfff12a258e8ca28c9176e8a0eab6d36469fa8895cd61f365a",
   "pages_count": 1,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
       "title": "Facultad de Ciencias Económicas - Turnos de exámen",
-      "length": 2603
+      "length": 2386
     }
   ],
-  "scraped_at": "2026-08-28T22:08:37.581Z",
-  "last_checked_at": "2026-08-28T22:08:37.581Z"
+  "scraped_at": "2026-08-31T12:19:11.282Z",
+  "last_checked_at": "2026-08-31T12:19:11.282Z"
 }
