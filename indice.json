@@ -1,6 +1,6 @@
 {
-  "version": 48,
-  "lastUpdated": "2026-08-31",
+  "version": 49,
+  "lastUpdated": "2026-09-01",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -338,69 +338,6 @@
       "canonicalUrl": "https://drive.google.com/file/d/1bIMjp96BgyQvs_mInElLkHSO-be_-xNn/view?usp=drivesdk"
     },
     {
-      "path": "complementos/04-posgrado-edgop-arancel-extranjeros-2do-cuatrimestre-2026.md",
-      "title": "Arancel 2026-2027 para Extranjeros - Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1YfqAeA5ZgY7pIlYjy5UCrcn3x5rWfSIK/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-edgop-arancel-nacionales-2do-cuatrimestre-2026.md",
-      "title": "Arancel 2026-2027 - Especialización en Dirección y Gestión de Organizaciones Públicas",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1awWCAbS_JMzb6r1_ODj7ctJgSTQeuW4h/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-estudiantes-extranjeros-as-requisitos.md",
-      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Extranjeros",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1ZCEh7oVYUu5J2tPHhCn0EqF0Bq3Tgi4C/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos-a-distancia.md",
-      "title": "REQUISITOS PARA LA INSCRIPCIÓN A CARRERAS DE POSGRADO - ESTUDIANTES NACIONALES",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1meB5GESj_wIAyX77bTUrqQhCGEk3rtrO/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-estudiantes-nacionales-requisitos.md",
-      "title": "Requisitos para la Inscripción a Carreras de Posgrado - Estudiantes Nacionales",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1CLv1sY8CA3AGg89_XxK00ZxD_T77XpFg/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-fce-dip-fo-2-5-01-instructivo-solicitud-de-certificado-de-diplomatura-universitarias.md",
-      "title": "FCE-DIP-FO 2.5-01 INSTRUCTIVO SOLICITUD DE CERTIFICADO DE DIPLOMATURA UNIVERSITARIAS",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1aLhjk07M2pIM2yAqK8m9PyTcjh1dnVLy/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-generacion-de-contrasena-sistema-de-gestion-del-estudiante.md",
-      "title": "Generación de contraseña - Sistema de Gestión del Estudiante",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1d1Lw8fU4oG6CDUHEsPr9q1b7_lzEON80/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-guia-entorno-virtual-para-generar-usuario.md",
-      "title": "Guía para la Creación de Cuentas de Usuario en el Entorno Virtual FCE UNL",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1PhXHC56SnX8A54yh4Fa4u4iwKGUbQB5l/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-instructivo-de-pago-cuota-unl-para-alumnos.md",
-      "title": "Instructivo de Pago UNL",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1MV5rnY5u1Ybj_jKpxLVi8dU5MOvCqWl9/view?usp=drivesdk"
-    },
-    {
       "path": "complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md",
       "title": "Manual para la Carga de Comprobantes de Pago en el Sistema de Posgrado",
       "category": "Complementario",
@@ -408,46 +345,11 @@
       "canonicalUrl": "https://drive.google.com/file/d/1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN/view?usp=drivesdk"
     },
     {
-      "path": "complementos/04-posgrado-ok-nota-baja.md",
-      "title": "Nota de Solicitud de Baja a Carrera de Posgrado",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://docs.google.com/document/d/1bssjbLAnMSdoX9bts4hqlcT308LBty6e/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
-      "path": "complementos/04-posgrado-ok-nota-equivalencias.md",
-      "title": "Nota de Solicitud de Equivalencias para Posgrado",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://docs.google.com/document/d/1X_5tJT6jyQanFMdSB1b5uEgWWAMwkAE0/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
-      "path": "complementos/04-posgrado-ok-procedimientos-para-reinscripcion-anual.md",
-      "title": "PROCEDIMIENTO PARA REINSCRIPCION ANUAL PARA ALUMNOS DE CARRERAS DE POSGRADO",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://docs.google.com/document/d/1erMHK3YNHUZKPWFGO3V06eeVZUXu67Wo/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
       "path": "complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md",
       "title": "Requisitos para la Inscripción a Cursos de Posgrado",
       "category": "Complementario",
       "sector": "posgrados_graduados",
       "canonicalUrl": "https://drive.google.com/file/d/1iU4k_yBRu2ucL0IJ0MQq5RCJt3wpQ038/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-tramite-de-solicitud-de-diploma-digital.md",
-      "title": "TRÁMITE DE SOLICITUD DE DIPLOMA DIGITAL",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1f0yZNV2_2y5_-kPJDvxF93D9BIyDlcHa/view?usp=drivesdk"
-    },
-    {
-      "path": "complementos/04-posgrado-tutorial-reinscripcion-anual.md",
-      "title": "Tutorial Reinscripción Anual",
-      "category": "Complementario",
-      "sector": "posgrados_graduados",
-      "canonicalUrl": "https://drive.google.com/file/d/1-msRLE3mdatTjFfRAVPgnveXZcDe03Q5/view?usp=drivesdk"
     },
     {
       "path": "complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md",
