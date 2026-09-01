@@ -97,16 +97,37 @@ jobs:
           echo "Dry-run completado. Se detectaron candidatos pero NO se aplicaron al KB ni se abrió PR."
 
       - name: Apply candidates to KB
+        id: apply
         if: inputs.mode != 'dry-run'
         working-directory: tools/scraper
         run: |
           set -e
+          before_audit=$(jq -c '.last_confirmed_removal // null' state/complementos/drive.meta.json)
           node scrape_drive.mjs --apply
+          after_audit=$(jq -c '.last_confirmed_removal // null' state/complementos/drive.meta.json)
+          if [ "$after_audit" != "null" ] && [ "$after_audit" != "$before_audit" ]; then
+            echo "confirmed_removal_applied=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "confirmed_removal_applied=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Fail before git config, checkout, staging, commit, push or PR mutation.
+      # These are the same deterministic validations used by Validate KB.
+      - name: Validate proposed KB before Git mutation
+        if: inputs.mode != 'dry-run'
+        working-directory: tools/scraper
+        run: |
+          set -e
+          npm test
+          node validate_index.mjs --kb-root=../.. --json
+          node validate_links.mjs --kb-root=../.. --json
 
       - name: Open human-review PR
         if: inputs.mode != 'dry-run'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TRIGGERED_BY: ${{ inputs.triggered_by }}
+          CONFIRMED_REMOVAL_APPLIED: ${{ steps.apply.outputs.confirmed_removal_applied }}
         run: |
           set -e
           branch="kb-sync/update-drive"
@@ -123,12 +144,56 @@ jobs:
             exit 0
           fi
 
-          triggered_by="${{ inputs.triggered_by }}"
+          triggered_by="$TRIGGERED_BY"
           if [ -z "$triggered_by" ]; then triggered_by="manual"; fi
 
-          title="KB sync: complementos de Drive — requiere revisión humana"
+          if [ "$CONFIRMED_REMOVAL_APPLIED" = "true" ]; then
+            state="tools/scraper/state/complementos/drive.meta.json"
+            digest=$(jq -r '.last_confirmed_removal.digest' "$state")
+            actor=$(jq -r '.last_confirmed_removal.actor' "$state")
+            reason=$(jq -r '.last_confirmed_removal.reason' "$state")
+            state_removals=$(jq -r '.last_confirmed_removal.removal_count' "$state")
+            materialized_removals=$(git diff --cached --diff-filter=D --name-only -- complementos | wc -l | tr -d ' ')
+            non_deletion_docs=$(git diff --cached --name-status -- complementos | awk '$1 != "D" { count++ } END { print count + 0 }')
+            if [ "$non_deletion_docs" -eq 0 ]; then
+              change_kind="solo bajas confirmadas"
+            else
+              change_kind="bajas confirmadas junto con altas o actualizaciones"
+            fi
+            title="KB sync: bajas confirmadas de Drive — requiere revisión humana"
+            commit_message="chore(kb): apply confirmed Drive removals (requires_review)"
 
-          cat > /tmp/drive-pr-body.md <<EOF
+            cat > /tmp/drive-pr-body.md <<EOF
+          Aplicación de bajas de complementos de Google Drive confirmadas por una persona.
+
+          **Disparado por**: $triggered_by
+          **Tipo de cambio**: $change_kind
+          **Decisión**: requiere revisión humana
+
+          ## Evidencia de la confirmación
+
+          - **Digest**: \`$digest\`
+          - **Confirmado por**: $actor
+          - **Motivo**: $reason
+          - **Entradas removidas del estado de Drive**: $state_removals
+          - **Documentos materializados eliminados**: $materialized_removals
+
+          La diferencia entre entradas de estado y documentos materializados es
+          esperable cuando una entrada ya estaba clasificada como duplicada y no
+          tenía un archivo Markdown propio.
+
+          ## Cómo revisar
+
+          1. Confirmar que el digest, actor y motivo coincidan con la autorización revisada.
+          2. Revisar cada eliminación en \`complementos/\` y las bajas correspondientes en \`indice.json\`.
+          3. Verificar que \`routing_metadata.json\` ya no referencie documentos eliminados.
+          4. Aprobar y mergear solo si las bajas son las autorizadas; ante cualquier diferencia, cerrar el PR.
+          EOF
+          else
+            title="KB sync: complementos de Drive — requiere revisión humana"
+            commit_message="chore(kb): ingest Drive complements (requires_review)"
+
+            cat > /tmp/drive-pr-body.md <<EOF
           Ingesta automática de complementos desde Google Drive al KB de Sophia.
 
           **Disparado por**: $triggered_by
@@ -154,8 +219,9 @@ jobs:
           3. Confirmar que no haya datos personales sensibles que no deban indexarse.
           4. Si todo está bien, aprobar y mergear. Si hay dudas, comentar o cerrar.
           EOF
+          fi
 
-          git commit -m "chore(kb): ingest Drive complements (requires_review)"
+          git commit -m "$commit_message"
           git push -f origin "$branch"
 
           gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
