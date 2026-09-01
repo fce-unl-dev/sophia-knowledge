@@ -181,7 +181,22 @@ jobs:
           state="state/complementos/drive.meta.json"
           if [ -f "$state" ] && jq -e '.removal_anomaly' "$state" > /dev/null 2>&1; then
             reason=$(jq -r '.removal_anomaly.reason' "$state")
+            digest=$(jq -r '.removal_anomaly.digest' "$state")
+            removals=$(jq -r '.removal_anomaly.removals' "$state")
+            inventory=$(jq -r '.removal_anomaly.inventory' "$state")
             echo "::error::Ingesta de Drive con bajas masivas bloqueadas: $reason"
+            echo "Conjunto exacto: $removals bajas sobre $inventory; digest $digest"
             jq -r '.removal_anomaly.paths[] | "  - " + .' "$state"
+            short_digest=$(printf '%s' "$digest" | sed 's/^sha256://' | cut -c1-12)
+            echo "Para confirmar este conjunto exacto mediante un PR, partir de la rama del bot que acaba de persistir la anomalía:"
+            echo "  git fetch origin kb-sync/update-drive"
+            echo "  git switch -c chore/confirm-drive-removal-$short_digest --track origin/kb-sync/update-drive"
+            echo '  cd tools/scraper'
+            echo '  node scrape_drive.mjs --confirm-removals --actor="TU_NOMBRE" --reason="MOTIVO_VERIFICADO"'
+            echo '  git add state/complementos/drive.meta.json'
+            echo '  git commit -m "chore(kb): confirm Drive removals"'
+            echo "  git push -u origin chore/confirm-drive-removal-$short_digest"
+            echo '  gh pr create --base main --fill'
+            echo "El modo force solo reprocesa archivos: no confirma ni autoriza bajas."
             exit 1
           fi
