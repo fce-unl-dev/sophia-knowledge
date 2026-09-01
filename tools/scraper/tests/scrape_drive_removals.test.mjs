@@ -60,15 +60,24 @@ async function assertApplyRejectedWithoutWrites(state) {
 
 describe('Drive massive-removal confirmation', () => {
   test('derives the expected canonical identity for the current 31/15 set', async () => {
-    const current = JSON.parse(await readFile(join(here, '../state/complementos/drive.meta.json'), 'utf8'));
-    const removalIds = current.removal_anomaly.removal_ids;
-    const identity = createDriveRemovalIdentity(Object.keys(current.files), removalIds);
+    const fixture = JSON.parse(await readFile(join(here, 'fixtures/drive-removal-known-set.json'), 'utf8'));
+    const identity = createDriveRemovalIdentity(fixture.inventory_ids, fixture.removal_ids);
 
     assert.equal(identity.version, DRIVE_REMOVAL_SET_VERSION);
     assert.equal(identity.inventory_ids.length, 31);
     assert.equal(identity.removal_ids.length, 15);
     assert.equal(identity.digest, 'sha256:dd3983c532799f320d0397ff399dcba27ae0afba20562c49ad0826ab231d4e75');
-    assert.equal(validateDriveRemovalConfirmation(current, removalIds).authorized, true);
+    assert.equal(identity.digest, fixture.digest);
+
+    const state = stateWith(fixture.inventory_ids);
+    state.removal_confirmation = {
+      version: fixture.version,
+      digest: fixture.digest,
+      actor: 'fixture-operator',
+      reason: 'Stable regression fixture.',
+      confirmed_at: '2026-08-31T00:00:00.000Z',
+    };
+    assert.equal(validateDriveRemovalConfirmation(state, fixture.removal_ids).authorized, true);
   });
 
   test('rejects a missing, stale or incomplete confirmation', () => {
@@ -139,6 +148,26 @@ describe('Drive massive-removal confirmation', () => {
     const workflow = await readFile(join(here, '../../../.github/workflows/ingest-drive.yml'), 'utf8');
     assert.match(workflow, /git fetch origin kb-sync\/update-drive/);
     assert.match(workflow, /--track origin\/kb-sync\/update-drive/);
+  });
+
+  test('workflow validates before Git mutation and renders both PR body modes', async () => {
+    const workflow = await readFile(join(here, '../../../.github/workflows/ingest-drive.yml'), 'utf8');
+    const applyAt = workflow.indexOf('- name: Apply candidates to KB');
+    const validateAt = workflow.indexOf('- name: Validate proposed KB before Git mutation');
+    const gitMutationAt = workflow.indexOf("git config user.name 'sophia-kb-bot'");
+    assert.ok(applyAt >= 0 && applyAt < validateAt && validateAt < gitMutationAt);
+    assert.match(workflow.slice(validateAt, gitMutationAt), /npm test/);
+    assert.match(workflow.slice(validateAt, gitMutationAt), /validate_index\.mjs --kb-root=\.\.\/\.\. --json/);
+    assert.match(workflow.slice(validateAt, gitMutationAt), /validate_links\.mjs --kb-root=\.\.\/\.\. --json/);
+
+    assert.match(workflow, /steps\.apply\.outputs\.confirmed_removal_applied/);
+    assert.match(workflow, /solo bajas confirmadas/);
+    assert.match(workflow, /last_confirmed_removal\.digest/);
+    assert.match(workflow, /last_confirmed_removal\.actor/);
+    assert.match(workflow, /last_confirmed_removal\.reason/);
+    assert.match(workflow, /last_confirmed_removal\.removal_count/);
+    assert.match(workflow, /git diff --cached --diff-filter=D --name-only -- complementos/);
+    assert.match(workflow, /Documentos nuevos o modificados detectados/);
   });
 
   test('consumes an exact confirmation into inert audit evidence', () => {
