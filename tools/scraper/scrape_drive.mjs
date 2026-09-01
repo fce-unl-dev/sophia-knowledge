@@ -22,6 +22,127 @@ function getSha256(content) {
   return createHash('sha256').update(content).digest('hex');
 }
 
+export const DRIVE_REMOVAL_SET_VERSION = 'drive-removal-set/v1';
+
+function sortedUniqueIds(ids) {
+  return [...new Set(ids)].sort();
+}
+
+/**
+ * Bind a removal decision to the exact persisted inventory and vanished IDs.
+ * JSON.stringify is canonical here because both keys and sorted arrays are
+ * constructed in one fixed order.
+ */
+export function createDriveRemovalIdentity(inventoryIds, removalIds) {
+  const subject = {
+    version: DRIVE_REMOVAL_SET_VERSION,
+    inventory_ids: sortedUniqueIds(inventoryIds),
+    removal_ids: sortedUniqueIds(removalIds),
+  };
+  return {
+    ...subject,
+    digest: `sha256:${getSha256(JSON.stringify(subject))}`,
+  };
+}
+
+export function validateDriveRemovalConfirmation(driveState, removalIds, inventoryIds = Object.keys(driveState.files || {})) {
+  const identity = createDriveRemovalIdentity(inventoryIds, removalIds);
+  const confirmation = driveState.removal_confirmation;
+
+  if (!confirmation) {
+    return { authorized: false, reason: 'Falta removal_confirmation.', identity };
+  }
+  if (confirmation.version !== identity.version) {
+    return { authorized: false, reason: `Versión de confirmación inválida: ${confirmation.version || '(vacía)'}.`, identity };
+  }
+  if (confirmation.digest !== identity.digest) {
+    return { authorized: false, reason: `La confirmación es obsoleta o pertenece a otro conjunto (${confirmation.digest || '(sin digest)'}).`, identity };
+  }
+  if (!confirmation.actor?.trim() || !confirmation.reason?.trim() || !confirmation.confirmed_at) {
+    return { authorized: false, reason: 'La confirmación no tiene actor, motivo y fecha completos.', identity };
+  }
+  return { authorized: true, identity, confirmation };
+}
+
+export function createDriveRemovalConfirmation(driveState, { actor, reason, confirmedAt = new Date().toISOString() }) {
+  const anomaly = driveState.removal_anomaly;
+  if (!anomaly?.removal_ids?.length) {
+    throw new Error('No hay una anomalía de bajas vigente para confirmar.');
+  }
+  const validation = validateStoredRemovalAnomaly(driveState);
+  if (!validation.valid) throw new Error(validation.reason);
+  if (!actor?.trim() || !reason?.trim()) {
+    throw new Error('La confirmación requiere --actor y --reason no vacíos.');
+  }
+  return {
+    version: validation.identity.version,
+    digest: validation.identity.digest,
+    actor: actor.trim(),
+    reason: reason.trim(),
+    confirmed_at: confirmedAt,
+  };
+}
+
+export function validateStoredRemovalAnomaly(driveState) {
+  const anomaly = driveState.removal_anomaly;
+  if (!anomaly?.inventory_ids?.length || !anomaly?.removal_ids?.length) {
+    return { valid: false, reason: 'La anomalía no contiene inventory_ids y removal_ids verificables.' };
+  }
+  const currentIds = sortedUniqueIds(Object.keys(driveState.files || {}));
+  const boundInventoryIds = sortedUniqueIds(anomaly.inventory_ids);
+  if (JSON.stringify(currentIds) !== JSON.stringify(boundInventoryIds)) {
+    return {
+      valid: false,
+      reason: 'El inventario actual no coincide exactamente con el inventario vinculado antes de apply.',
+    };
+  }
+  if (anomaly.removal_ids.some((id) => !anomaly.inventory_ids.includes(id))) {
+    return { valid: false, reason: 'La anomalía contiene bajas fuera de su inventario vinculado.' };
+  }
+  const identity = createDriveRemovalIdentity(anomaly.inventory_ids, anomaly.removal_ids);
+  if (anomaly.version !== identity.version || anomaly.digest !== identity.digest) {
+    return { valid: false, reason: 'La anomalía persistida no coincide con el inventario actual.', identity };
+  }
+  return { valid: true, identity };
+}
+
+export function consumeDriveRemovalConfirmation(driveState, validation, removedFiles, appliedAt = new Date().toISOString()) {
+  driveState.last_confirmed_removal = {
+    version: validation.identity.version,
+    digest: validation.identity.digest,
+    actor: validation.confirmation.actor,
+    reason: validation.confirmation.reason,
+    confirmed_at: validation.confirmation.confirmed_at,
+    applied_at: appliedAt,
+    removal_count: removedFiles.length,
+    removal_ids: validation.identity.removal_ids,
+    paths: removedFiles.map((file) => file.path).sort((a, b) => a.localeCompare(b)),
+  };
+  delete driveState.removal_confirmation;
+  delete driveState.removal_anomaly;
+}
+
+export function driveRemovalConfirmationContinuation(identity, anomalyBranch = 'kb-sync/update-drive') {
+  const branch = `chore/confirm-drive-removal-${identity.digest.slice('sha256:'.length, 'sha256:'.length + 12)}`;
+  return [
+    `git fetch origin ${anomalyBranch}`,
+    `git switch -c ${branch} --track origin/${anomalyBranch}`,
+    'cd tools/scraper',
+    'node scrape_drive.mjs --confirm-removals --actor="TU_NOMBRE" --reason="MOTIVO_VERIFICADO"',
+    'git add state/complementos/drive.meta.json',
+    'git commit -m "chore(kb): confirm Drive removals"',
+    `git push -u origin ${branch}`,
+    'gh pr create --base main --fill',
+  ];
+}
+
+function printRemovalConfirmationContinuation(identity) {
+  console.error('Continuación segura desde la rama que contiene esta anomalía (la confirmación queda revisada en un PR):');
+  for (const command of driveRemovalConfirmationContinuation(identity)) {
+    console.error(`  ${command}`);
+  }
+}
+
 // Slugify string helper
 function slugify(text) {
   return text
@@ -462,6 +583,9 @@ async function main() {
     options: {
       'write-candidates': { type: 'boolean', default: false },
       'apply': { type: 'boolean', default: false },
+      'confirm-removals': { type: 'boolean', default: false },
+      'actor': { type: 'string' },
+      'reason': { type: 'string' },
       'force': { type: 'boolean', default: false },
       'kb-root': { type: 'string', default: defaultKbRoot },
       'out': { type: 'string', default: defaultStateDir },
@@ -476,6 +600,7 @@ async function main() {
 Uso:
   node scrape_drive.mjs --write-candidates [--force] [--kb-root=...] [--out=...] [--model=...]
   node scrape_drive.mjs --apply [--kb-root=...] [--out=...]
+  node scrape_drive.mjs --confirm-removals --actor="..." --reason="..." [--out=...]
 
 Env:
   SOPHIA_DRIVE_FOLDER_ID   ID de la carpeta raíz de Google Drive.
@@ -515,6 +640,22 @@ Env:
     }
   }
 
+  if (values['confirm-removals']) {
+    try {
+      driveState.removal_confirmation = createDriveRemovalConfirmation(driveState, {
+        actor: values.actor,
+        reason: values.reason,
+      });
+      await writeFile(statePath, JSON.stringify(driveState, null, 2) + '\n', 'utf8');
+      console.log(`Confirmación preparada para ${driveState.removal_confirmation.digest}.`);
+      console.log('Revisá y mergeá este cambio mediante un PR. La próxima ingesta volverá a verificar el conjunto exacto antes de borrar.');
+      process.exit(0);
+    } catch (err) {
+      console.error(`ERROR: ${err.message}`);
+      process.exit(1);
+    }
+  }
+
   // Apply phase only moves candidates and updates index
   if (values['apply']) {
     console.log('--- Iniciando fase APPLY ---');
@@ -524,6 +665,45 @@ Env:
     if (candidates.length === 0 && deletedFiles.length === 0) {
       console.log('Sin cambios pendientes para aplicar.');
       process.exit(0);
+    }
+
+    // Validate the persisted removal intent BEFORE writing candidates, KB files,
+    // index data or state. A forged/stale `deleted` status therefore fails
+    // atomically instead of partially applying unrelated work first.
+    const applyAnomaly = checkRemovalRatio({
+      inventory: Object.keys(driveState.files).length,
+      removals: deletedFiles.length,
+      additions: candidates.length,
+      label: 'los complementos de Drive',
+    });
+    let removalValidation = null;
+    if (applyAnomaly) {
+      const anomalyValidation = validateStoredRemovalAnomaly(driveState);
+      const deletedIds = deletedFiles.map((file) => file.id).sort();
+      const anomalyIds = [...(driveState.removal_anomaly?.removal_ids || [])].sort();
+      if (!anomalyValidation.valid || JSON.stringify(deletedIds) !== JSON.stringify(anomalyIds)) {
+        const identity = anomalyValidation.identity || createDriveRemovalIdentity(Object.keys(driveState.files), deletedIds);
+        removalValidation = {
+          authorized: false,
+          reason: anomalyValidation.valid
+            ? 'Los registros deleted no coinciden con las bajas vinculadas en removal_anomaly.'
+            : anomalyValidation.reason,
+          identity,
+        };
+      } else {
+        removalValidation = validateDriveRemovalConfirmation(
+          driveState,
+          deletedIds,
+          driveState.removal_anomaly.inventory_ids,
+        );
+      }
+      if (!removalValidation.authorized) {
+        console.error(`::error::Bajas masivas en Drive rechazadas en apply: ${removalValidation.reason}`);
+        console.error(`Conjunto actual: ${deletedFiles.length} bajas; digest ${removalValidation.identity.digest}.`);
+        for (const file of deletedFiles) console.error(`  - complementos/${file.slug}.md`);
+        printRemovalConfirmationContinuation(removalValidation.identity);
+        process.exit(1);
+      }
     }
 
     const indexPath = join(kbRoot, 'indice.json');
@@ -567,24 +747,9 @@ Env:
       }
     }
 
-    // 2. Handle deleted files
-    //
-    // Segunda medición, sobre lo que el estado dice que hay que borrar. La
-    // primera vive en la fase de scrape; esta cubre el caso de un estado que
-    // ya venía con borrados marcados de antes.
-    const applyAnomaly = checkRemovalRatio({
-      inventory: Object.keys(driveState.files).length,
-      removals: deletedFiles.length,
-      additions: candidates.length,
-      label: 'los complementos de Drive',
-    });
-    if (applyAnomaly) {
-      console.error(`::error::Bajas masivas en Drive, fase apply: ${applyAnomaly.reason}`);
-      for (const file of deletedFiles) console.error(`  - complementos/${file.slug}.md`);
-      console.error('No se eliminó ningún complemento. Verificá Drive y volvé a correr.');
-    }
-
-    for (const file of applyAnomaly ? [] : deletedFiles) {
+    // 2. Handle deleted files. Massive removals reached here only after the
+    // state-bound confirmation was independently recomputed above.
+    for (const file of deletedFiles) {
       const slug = file.slug;
       const targetPath = join(compRoot, `${slug}.md`);
       const relPath = `complementos/${slug}.md`;
@@ -597,6 +762,10 @@ Env:
       
       // Remove from state entirely
       delete driveState.files[file.id];
+    }
+
+    if (removalValidation?.authorized) {
+      consumeDriveRemovalConfirmation(driveState, removalValidation, deletedFiles);
     }
 
     // 3. Save index
@@ -898,19 +1067,39 @@ Env:
   });
 
   if (removalAnomaly) {
+    const removalIdentity = createDriveRemovalIdentity(Object.keys(driveState.files), vanished);
+    const confirmationValidation = validateDriveRemovalConfirmation(driveState, vanished);
     console.error(`::error::Bajas masivas en Drive: ${removalAnomaly.reason}`);
-    console.error('Archivos que NO se van a borrar hasta que alguien verifique Drive:');
+    console.error(`Conjunto detectado: ${vanished.length} bajas sobre ${previouslyKnown.length}; digest ${removalIdentity.digest}.`);
+    console.error('Archivos detectados:');
     for (const prevId of vanished) console.error(`  - ${driveState.files[prevId].path}`);
-    // Se conserva el estado tal cual: nada pasa a 'deleted', así que la fase
-    // --apply no tiene nada que borrar.
-    for (const prevId of Object.keys(driveState.files)) {
-      if (!listedIds.has(prevId)) newFilesState[prevId] = driveState.files[prevId];
-    }
     driveState.removal_anomaly = {
       ...removalAnomaly,
+      version: removalIdentity.version,
+      digest: removalIdentity.digest,
       detected_at: new Date().toISOString(),
-      paths: vanished.map((id) => driveState.files[id].path),
+      inventory_ids: removalIdentity.inventory_ids,
+      removal_ids: removalIdentity.removal_ids,
+      paths: vanished.map((id) => driveState.files[id].path).sort((a, b) => a.localeCompare(b)),
     };
+
+    if (confirmationValidation.authorized) {
+      console.log(`[Confirmación válida] ${removalIdentity.digest} fue confirmado por ${confirmationValidation.confirmation.actor}.`);
+      for (const prevId of vanished) {
+        const prevFile = driveState.files[prevId];
+        newFilesState[prevId] = {
+          ...prevFile,
+          status: 'deleted',
+          lastProcessed: new Date().toISOString(),
+        };
+      }
+    } else {
+      console.error(`No se borrará contenido: ${confirmationValidation.reason}`);
+      for (const prevId of Object.keys(driveState.files)) {
+        if (!listedIds.has(prevId)) newFilesState[prevId] = driveState.files[prevId];
+      }
+      printRemovalConfirmationContinuation(removalIdentity);
+    }
   } else {
     delete driveState.removal_anomaly;
     for (const prevId of Object.keys(driveState.files)) {
@@ -949,7 +1138,12 @@ Env:
   console.log(`Saltados por duplicación: ${skippedDuplicate}`);
   console.log(`Errores: ${errorCount}`);
   if (driveState.removal_anomaly) {
-    console.log(`ANOMALÍA DE BAJAS: ${driveState.removal_anomaly.removals} archivos desaparecieron del listado y NO se borraron. Ver el detalle arriba.`);
+    const confirmed = Object.values(driveState.files).filter((file) => (
+      driveState.removal_anomaly.removal_ids?.includes(file.id) && file.status === 'deleted'
+    )).length === driveState.removal_anomaly.removals;
+    console.log(confirmed
+      ? `BAJAS CONFIRMADAS: ${driveState.removal_anomaly.removals} archivos quedaron listos para apply (${driveState.removal_anomaly.digest}).`
+      : `ANOMALÍA DE BAJAS: ${driveState.removal_anomaly.removals} archivos desaparecieron del listado y NO se borraron (${driveState.removal_anomaly.digest}).`);
   }
   console.log(`Sincronización terminada.`);
 }

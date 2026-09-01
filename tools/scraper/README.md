@@ -156,6 +156,41 @@ La regla vieja no se sacó. Conviven, y alcanza con que dispare una.
 Ese último punto es deliberado. Un pipeline que se protege y sigue en verde
 vuelve al problema de origen: nadie se entera de que la fuente está rota.
 
+### Confirmar bajas masivas legítimas de Drive
+
+La guarda del 30% no cambia: una baja grande puede ser legítima, pero también
+puede indicar que Drive dejó de listar una carpeta. La confirmación humana se
+pide solamente para resolver esa inconsistencia, no para cada baja normal.
+
+La anomalía muestra el conteo, cada path y un digest SHA-256 que vincula la
+decisión al inventario completo y al conjunto exacto de IDs desaparecidos. En
+la primera detección ese estado todavía no está en `main`: el workflow lo
+persiste en `kb-sync/update-drive`. Si se verificó manualmente que las bajas son
+correctas, la rama de confirmación debe partir de esa rama exacta (no de
+`main`) y revisarse mediante PR:
+
+```bash
+git fetch origin kb-sync/update-drive
+git switch -c chore/confirm-drive-removal-<12-primeros-del-digest> \
+  --track origin/kb-sync/update-drive
+cd tools/scraper
+node scrape_drive.mjs --confirm-removals \
+  --actor="NOMBRE" \
+  --reason="MOTIVO VERIFICADO"
+git add state/complementos/drive.meta.json
+git commit -m "chore(kb): confirm Drive removals"
+git push -u origin chore/confirm-drive-removal-<12-primeros-del-digest>
+gh pr create --base main --fill
+```
+
+Después de mergear ese PR, la próxima ingesta recalcula el digest. Solo si
+coinciden versión, inventario y bajas, `--apply` elimina los complementos y sus
+referencias del índice. La confirmación se consume y se reemplaza por
+`last_confirmed_removal`, que es evidencia de auditoría inerte y nunca autoriza
+otra corrida. Una confirmación ausente, vieja, incompleta o de otro conjunto
+falla antes de escribir contenido. `force` solo reprocesa archivos y **nunca**
+confirma bajas.
+
 ## Modos
 
 - `refresh` (default): respeta diff-first. Si el scrape no cambió, decisión = `no_change` y skipea LLM.
