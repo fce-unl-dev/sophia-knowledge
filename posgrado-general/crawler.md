@@ -18,7 +18,7 @@ La Maestría en Administración y Finanzas (MAF) es una carrera de posgrado inte
 
 - **Modalidad**: Interinstitucional, con trayectorias académicas en ambas universidades. Incluye una estadía de siete meses en la universidad extranjera.
 - **Días y horarios de cursada**: No publicado.
-- **Lugar**: FCE-UNL (Moreno 2557, Santa Fe) y Universidad de Kaiserslautern (Alemania).
+- **Lugar**: FCE-UNL, Moreno 2557, Santa Fe y Universidad de Kaiserslautern (Alemania).
 - **Idioma**: Español y asignaturas en inglés.
 - **Duración cursada**: No publicado.
 - **Duración trabajo final / tesis**: El Trabajo Final es codirigido por profesores de ambas universidades. No se especifica duración.
@@ -61,7 +61,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Fecha de inicio**: A confirmar para ciclo 2027
 - **Estado**: Cerrada — próxima apertura de inscripciones en **Diciembre de 2026** para el ciclo **2027**
 - **Fuente del dato**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (respuesta frecuente Maestría en Administración y Finanzas)
-- **Última actualización del dato**: 2026-08-31
+- **Última actualización del dato**: 2026-09-03
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -120,4 +120,4 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ---
 
-**Última revisión humana**: 2026-08-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.
