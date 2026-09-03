@@ -48,30 +48,29 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
     - DNI en formato digital
     - Título de grado en formato digital
 - **Proceso de admisión**:
-    1. Completar la ficha de PREINSCRIPCIÓN online (`www.fce.unl.edu.ar/posgrados`) con datos personales y académicos.
-    2. Una vez ADMITIDO/A, subir en formato digital DNI/título de grado y responder el mail recibido de `tesoreria@fce.unl.edu.ar` con los datos de facturación.
-    3. Efectuar el PAGO del curso, ingresando a `https://servicios.unl.edu.ar/mdcobro/`.
+    1. Completar la ficha de PREINSCRIPCIÓN online (www.fce.unl.edu.ar/posgrados) con datos personales y académicos.
+    2. Una vez ADMITIDO/A, subir en formato digital DNI/título de grado y responder el mail recibido de tesoreria@fce.unl.edu.ar con los datos de facturación.
+    3. Efectuar el PAGO del curso, ingresando a https://servicios.unl.edu.ar/mdcobro/
 
 ## Aranceles e inscripción
 
 - **Matrícula**: A consultar por cada curso específico.
 - **Cuotas**: A consultar por cada curso específico.
-- **Modalidad de pago**: Sistema de cobro UNL (a través de `https://servicios.unl.edu.ar/mdcobro/`)
+- **Modalidad de pago**: Sistema de cobro UNL (a través de https://servicios.unl.edu.ar/mdcobro/)
 - **Becas disponibles**: No publicado
 - **Estado actual de inscripción**: Abierta para las cohortes listadas en la sección "Próxima cohorte".
-- **Link de pre-inscripción**: `www.fce.unl.edu.ar/posgrados`
+- **Link de pre-inscripción**: www.fce.unl.edu.ar/posgrados
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: Ver listado de cursos individuales a continuación.
 - **Estado**: Inscripciones abiertas para las cohortes de 2026.
-- **Fuente del dato**: `https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos`
-- **Última actualización del dato**: **2026-08-31**
+- **Fuente del dato**: https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos
+- **Última actualización del dato**: **2026-09-03**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 **Listado de cursos con inscripciones abiertas (cohorte 2026):**
-- **ECONOMÍA GUBERNAMENTAL**: Inicio: **2026-09-07**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
 - **SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION**: Inicio: **2026-09-18**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría.
 - **TRABAJO FINAL EDGOP 2do Cuatrimestre**: Inicio: **2026-09-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
 - **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-23**. Ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible.
@@ -99,4 +98,4 @@ Para obtener información detallada sobre el plan de estudios, cuerpo docente, a
 
 ---
 
-**Última revisión humana**: 2026-08-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.
