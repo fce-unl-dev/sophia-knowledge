@@ -23,6 +23,7 @@
 - Jornada de Sensibilización
 - Diálogo sobre los procesos y cambios de planes de estudios CP,LA,LE
 - Actas de reunión de Comisión de Evaluación Curricular
+- Acta del 04/06/2026
 - Acta del 30/04/2026
 
 ## Advertencias para Sophia
@@ -36,5 +37,5 @@
 
 ---
 
-**Última revisión automática**: 2026-08-31 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-03 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

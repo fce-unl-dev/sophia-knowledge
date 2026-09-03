@@ -1,6 +1,6 @@
 {
-  "version": 49,
-  "lastUpdated": "2026-09-01",
+  "version": 50,
+  "lastUpdated": "2026-09-03",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -842,6 +842,12 @@
       "title": "Redes",
       "category": "Relaciones Internacionales",
       "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/redes/"
+    },
+    {
+      "path": "internacionales/2026-edition.md",
+      "title": "2026 Edition",
+      "category": "Relaciones Internacionales",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/internacionales/2026-edition/"
     },
     {
       "path": "operativos/aulas-virtuales.md",

@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-03",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
     "institucional": 24,
     "ciencia": 22,
     "extension": 6,
-    "internacionales": 7,
+    "internacionales": 8,
     "docentes": 3,
     "posgrados_graduados": 33,
     "posgrados_cursos_sin_titulo": 27,
@@ -850,6 +850,12 @@
       "sector": "internacionales",
       "displayName": "Relaciones Internacionales",
       "title": "Redes",
+      "category": "Relaciones Internacionales"
+    },
+    "internacionales/2026-edition.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "2026 Edition",
       "category": "Relaciones Internacionales"
     },
     "operativos/aulas-virtuales.md": {
