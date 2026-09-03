@@ -2,14 +2,14 @@
   "slug": "maf",
   "url": "https://fce.unl.edu.ar/maf/",
   "strategy": "fce-microsite",
-  "content_hash": "bbc41dfa0d4af2c67bfb00c5862bd953444978c91131723598e41c455bdeaf69",
-  "previous_hash": "e1b06b892f6a6887471dbf7c2c86b93ca3c057fff9861b768bf2d49bbccf65de",
-  "pages_count": 20,
+  "content_hash": "8e7499552ae0a7cb64f2a19da87a78110cd5551c3afc634900c164e8ec051e37",
+  "previous_hash": "bbc41dfa0d4af2c67bfb00c5862bd953444978c91131723598e41c455bdeaf69",
+  "pages_count": 19,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/maf/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 457
+      "length": 391
     },
     {
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=290",
@@ -100,13 +100,8 @@
       "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143",
       "title": "Novedades",
       "length": 1955
-    },
-    {
-      "url": "https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777",
-      "title": "Novedades",
-      "length": 603
     }
   ],
-  "scraped_at": "2026-08-27T17:09:25.673Z",
-  "last_checked_at": "2026-08-27T17:09:25.673Z"
+  "scraped_at": "2026-09-03T10:26:31.532Z",
+  "last_checked_at": "2026-09-03T10:26:31.532Z"
 }
