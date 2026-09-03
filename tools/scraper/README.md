@@ -24,7 +24,8 @@ Pipeline de automatización del KB de Sophia. Disparable manualmente desde:
 | `propose_courses_update.mjs` | Orquestador (contrato B.5): corre `scrape_courses`, materializa candidatos en `/cursos/` + `indice.json` y arma el cuerpo del PR. No borra cursos dados de baja; los reporta. | vigente |
 | `propose_students_update.mjs` | Orquestador (contrato C.3): corre `scrape_students`, materializa candidatos en `/estudiantes/` + `indice.json` y arma el PR. No borra docs existentes. | vigente |
 | `propose_sections_update.mjs` | Orquestador multi-sección WordPress (`/academica/`, `/docentes/`, `/institucional/`, `/ciencia/`, `/extension/`, `/internacionales/`): crawlea, genera 1 MD por subpágina vía `section_candidates`, clasifica diff y arma el PR. No borra docs existentes. | vigente |
-| `freshness_report.mjs` | Reporta antigüedad de los docs del KB comparando draft autogenerado vs última revisión humana. | vigente |
+| `freshness_report.mjs` | Reporta antigüedad de los docs del KB comparando draft autogenerado vs última revisión humana. Acepta `--reference-date=YYYY-MM-DD` para una generación reproducible. | vigente |
+| `check_freshness_report.mjs` | Verifica que `freshness.md` coincida con los datos canónicos usando su propia fecha versionada, sin depender del reloj de CI. | vigente |
 | `validate_index.mjs` | Valida `indice.json`: estructura, paths existentes, duplicados y reglas anti-agregado de cursos. | B.4 |
 | `validate_links.mjs` | Valida formato de URLs del índice, sources y MDs; opcionalmente chequea red con `--network`. | B.4 |
 | `validate_course_catalog.mjs` | Valida catálogos generados por `scrape_courses.mjs` o ejecuta scraper vivo con `--run-scraper`. | B.4 |
