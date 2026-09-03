@@ -2,8 +2,8 @@
   "slug": "sindicatura-concursal",
   "url": "https://fce.unl.edu.ar/sindicatura/",
   "strategy": "fce-microsite",
-  "content_hash": "62af14522ff98fbfb893b7399008d704381ff39ffacf8bf68dedf290b0bc577f",
-  "previous_hash": "20a47735d4057814115d84ba6251431a2e62812ebf4996bbdce3bd11be48f481",
+  "content_hash": "5069982e91fca97e2ab644a6d4fb87ee8cb2586ea7261e6569e2d8a6b86957c5",
+  "previous_hash": "62af14522ff98fbfb893b7399008d704381ff39ffacf8bf68dedf290b0bc577f",
   "pages_count": 13,
   "pages": [
     {
@@ -69,9 +69,9 @@
     {
       "url": "https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784",
       "title": "Novedades",
-      "length": 456
+      "length": 526
     }
   ],
-  "scraped_at": "2026-08-28T22:21:57.070Z",
-  "last_checked_at": "2026-08-28T22:21:57.070Z"
+  "scraped_at": "2026-09-03T10:27:56.332Z",
+  "last_checked_at": "2026-09-03T10:27:56.332Z"
 }
