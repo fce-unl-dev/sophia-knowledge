@@ -97,19 +97,19 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con esp_cont_auditoria@fce.unl.edu.ar
+- **Matrícula**: **A confirmar para ciclo 2027** — se informarán a partir de **Diciembre 2026**.
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027**
+- **Estado actual de inscripción**: Cerrada actualmente. Se prevé una nueva apertura a partir de **diciembre de 2026** para el ciclo **2027**.
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: **2027**
-- **Estado**: Por confirmar
+- **Fecha de inicio**: **2027** (fecha exacta a confirmar)
+- **Estado**: Inscripciones abren en **Diciembre 2026**.
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780
-- **Última actualización del dato**: 2026-06-11
+- **Última actualización del dato**: 2026-09-03
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -151,8 +151,8 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=101 (Comité Académico)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=99 (Cuerpo Docente)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=241 (Novedades - Convenio)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780 (Novedades - Inscripciones, próxima cohorte)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780 (Novedades - Inscripciones, próxima cohorte, aranceles)
 
 ---
 
-**Última revisión humana**: 2026-06-23
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.
