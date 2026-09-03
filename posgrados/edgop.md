@@ -87,19 +87,19 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 
 ## Aranceles e inscripción
 
--   **Matrícula**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
+-   **Matrícula**: A confirmar para ciclo **2027**
 -   **Cuotas**: No publicado en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 -   **Modalidad de pago**: No publicada en fuentes oficiales — consultar con edgop@fce.unl.edu.ar
 -   **Becas disponibles**: Convenio Específico de colaboración con la Unión del Personal Civil de la Nación (UPCN) - Seccional Santa Fe, que otorga un descuento del 20% (Veinte por ciento) sobre el costo total de la Carrera a todos/as los/as profesionales que la entidad gremial informe a las autoridades de la EDGOP y a las autoridades de la Facultad de Ciencias Económicas de la UNL.
--   **Estado actual de inscripción**: Abierta hasta el inicio de cursado en Agosto 2026
+-   **Estado actual de inscripción**: Cerrada — próxima apertura de inscripciones en **Diciembre 2026** para el ciclo **2027**
 -   **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
--   **Fecha de inicio**: **2026-08**
--   **Estado**: Abierta
--   **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779
--   **Última actualización del dato**: **2026-08-13**
+-   **Fecha de inicio**: A confirmar para ciclo **2027**
+-   **Estado**: Por confirmar
+-   **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Novedades)
+-   **Última actualización del dato**: 2026-09-03
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -142,7 +142,7 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ## Fuentes consultadas
 
--   https://fce.unl.edu.ar/edgop/ (Información de interés, inscripciones)
+-   https://fce.unl.edu.ar/edgop/ (Información de interés)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera, acreditación, Centro TOP, articulación con MAP y DAP)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118 (Modalidad de cursado)
@@ -155,8 +155,8 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125 (Comité Académico)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123 (Cuerpo Docente)
 -   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=246 (Convenio UPCN / Becas)
--   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Inscripciones, fecha de inicio)
+-   https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Novedades - Inscripciones, próxima apertura)
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.
