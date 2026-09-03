@@ -114,7 +114,7 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/maf/ (Información general, inscripciones)
+- https://fce.unl.edu.ar/maf/ (Información de interés)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=290 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=80 (Modalidad y duración)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=86 (Metodología)
@@ -133,4 +133,4 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 ---
 
-**Última revisión humana**: 2026-08-28
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.
