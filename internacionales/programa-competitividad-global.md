@@ -15,6 +15,11 @@
 - Previous Editions
 - Program purposes
 - Requirements for registration
+- 2026 Edition
+- The fourteenth edition of the Global Competitiveness Program for SMEs (GCPyMES) took place over two weeks at the Faculty of Economic Sciences of the Universidad Nacional del Litoral (UNL), from July 27 to August 7, 2026. The program brought together 22 participating students: 10 from the Università Politecnica delle Marche (Italy), 1 from the Kaiserslautern University of Applied Sciences (Germany), 9 from the Universidad Nacional del Litoral (Argentina), and 2 from the Agency for Cooperation, Investments and Foreign Trade of the City of Santa Fe (ACICE).
+- This initiative offers students the chance to work alongside real Argentine companies on actual challenges. It provides a demanding experiential setting where participants go beyond their academic coursework to collaborate with international peers within a consultancy-style framework.
+- Final Report
+- Reporte Final
 - PREVIOUS EDITIONS
 - About the Program
 - The Global Competitiveness Program for SMEs (GCP) is an international training program to do consulting work, especially focused on Small and Medium Enterprises that aim to enter into the international competitiveness environment.
@@ -34,5 +39,5 @@
 
 ---
 
-**Última revisión automática**: 2026-08-31 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-03 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

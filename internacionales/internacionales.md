@@ -20,7 +20,7 @@
 - >
 - Becas y Convocatorias
 - Programa Competitividad Global
-- PREVIOUS EDITIONS About the Program The Global Competitiveness Program for SMEs (GCP) is an international training program to do consulting work, especially focused on Small and Medium Enterprises that aim to enter into the international competitiveness environment. This is a…
+- 2026 Edition The fourteenth edition of the Global Competitiveness Program for SMEs (GCPyMES) took place over two weeks at the Faculty of Economic Sciences of the Universidad Nacional del Litoral (UNL), from July 27 to August 7, 2026. The program brought together 22 participating…
 
 ## Enlaces relacionados (no ingeridos)
 
@@ -28,6 +28,8 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
   - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/RDCD_FCE-1208042-24_360.pdf
+  - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/ReportGCpymes2026-eng.pdf
+  - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/InformeGCP2026-espa%C3%B1ol.pdf
   - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/report2024.pdf
   - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/ReportGcp2023.pdf
   - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/2022-Report-GCP-11th-Edition.pdf
@@ -53,5 +55,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-08-31 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-03 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
