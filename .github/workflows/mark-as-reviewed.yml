@@ -12,6 +12,13 @@ on:
 permissions:
   contents: write
 
+# Serializa las corridas: cuando varios PRs de kb-sync se mergean casi a la vez,
+# se encolan en vez de competir por el push a main (cancel-in-progress: false para
+# no descartar ninguna actualización de freshness).
+concurrency:
+  group: kb-freshness-push
+  cancel-in-progress: false
+
 jobs:
   update-freshness:
     # Solo ejecutar si el PR fue fusionado (no cerrado descartado) y venía de una rama de kb-sync
@@ -42,4 +49,16 @@ jobs:
           git config user.email "bot@fce.unl.edu.ar"
           
           git commit -am "chore(kb): automaticaly mark files as reviewed upon PR merge"
-          git push origin main
+
+          # Push resiliente: si main avanzó mientras corría este job (otro sync, ingest
+          # de Drive, etc.), rebasar el commit de freshness sobre main y reintentar.
+          for intento in 1 2 3 4 5; do
+            if git push origin main; then
+              echo "Push OK en el intento $intento."
+              exit 0
+            fi
+            echo "Push rechazado (intento $intento); rebaseando sobre origin/main y reintentando..."
+            git pull --rebase origin main || exit 1
+          done
+          echo "No se pudo pushear el reporte de freshness tras 5 intentos."
+          exit 1
