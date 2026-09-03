@@ -120,4 +120,4 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.
+**Última revisión humana**: 2026-09-03
