@@ -101,7 +101,7 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Abierta a partir de **Diciembre 2026** para el ciclo **2027**.
+- **Estado actual de inscripción**: Cerrada actualmente. Se prevé una nueva apertura a partir de **diciembre de 2026** para el ciclo **2027**.
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
 
 ## Próxima cohorte
