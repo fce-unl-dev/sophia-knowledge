@@ -81,25 +81,25 @@ Algunos de los profesores que nos acompañan son:
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con tributacion@fce.unl.edu.ar
+- **Matrícula**: **A confirmar para ciclo 2027**
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027**
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+- **Estado actual de inscripción**: Cerrada — próxima apertura en **Diciembre 2026** para cohorte **2027**
+- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
-- **Última actualización del dato**: **2026-07-27**
+- **Última actualización del dato**: **2026-09-03**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Directora académica**: Esp. Flavia Sanchez (Especialista en Tributación. FCE-UNL)
+- **Director/a académico/a**: Esp. Flavia Sanchez (Especialista en Tributación. FCE-UNL)
 - **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos del Área de Gestión de Posgrado**: Mg. Julia Cristobal
 - **Email del programa**: tributacion@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
@@ -134,6 +134,7 @@ Algunos de los profesores que nos acompañan son:
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=144 (Cursado y evaluación)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showCategoria&id=194 (Informes e Inscripción - Requisitos)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=153 (Estructura del Plan de Estudio)
+- https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=148 (Detalle de las Asignaturas)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=152 (Cursos de Posgrado)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=180 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=151 (Comité Académico)
@@ -143,4 +144,4 @@ Algunos de los profesores que nos acompañan son:
 
 ---
 
-**Última revisión humana**: 2026-07-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.

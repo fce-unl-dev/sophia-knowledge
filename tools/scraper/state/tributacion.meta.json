@@ -2,8 +2,8 @@
   "slug": "tributacion",
   "url": "https://fce.unl.edu.ar/tributacion/",
   "strategy": "fce-microsite",
-  "content_hash": "f9eb7321ee519972d48a2df952dbaf4fea802c7d3d59028e2fdb1fe79cfa2b3a",
-  "previous_hash": "1be50e2e12a09752bab0c9b361caf41b59dfb3cc12c68de15e590e84bcbcbf71",
+  "content_hash": "017a75116d42dc489376b933afc399b72a458e55c4f8d4489256a87878c2c61d",
+  "previous_hash": "f9eb7321ee519972d48a2df952dbaf4fea802c7d3d59028e2fdb1fe79cfa2b3a",
   "pages_count": 14,
   "pages": [
     {
@@ -74,9 +74,9 @@
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781",
       "title": "Novedades",
-      "length": 464
+      "length": 558
     }
   ],
-  "scraped_at": "2026-07-27T09:36:07.799Z",
-  "last_checked_at": "2026-07-27T09:36:07.799Z"
+  "scraped_at": "2026-09-03T10:28:13.181Z",
+  "last_checked_at": "2026-09-03T10:28:13.181Z"
 }
