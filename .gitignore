@@ -30,3 +30,6 @@ tools/scraper/node_modules/
 # con hash, que DEBEN viajar en git para el diff-first del pipeline. Un blanket
 # acá rompía `git add <slug>.meta.json` para slugs nuevos en los workflows.
 
+
+# Briefs de trabajo locales para sesiones de Claude Code (no versionar)
+docs/automation/brief-*.md
