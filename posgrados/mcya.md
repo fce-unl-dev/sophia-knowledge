@@ -87,7 +87,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con mcya@fce.unl.edu.ar
+- **Matrícula**: **A confirmar para ciclo 2027**
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar
@@ -99,7 +99,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
-- **Última actualización del dato**: **2026-08-06**
+- **Última actualización del dato**: **2026-09-03**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -149,8 +149,8 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=208 (Conducción de la carrera)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=209 (Comité Académico)
 - https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=210 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778 (Novedades - Próxima cohorte)
+- https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778 (Novedades - Próxima cohorte, aranceles)
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-03 por pipeline de scraping.
