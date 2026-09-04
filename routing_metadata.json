@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-04",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -406,10 +406,10 @@
       "title": "De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado",
       "category": "Curso de posgrado"
     },
-    "cursos-posgrado/economia-gubernamental.md": {
+    "cursos-posgrado/direccion-de-marketing.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "ECONOMÍA GUBERNAMENTAL",
+      "title": "DIRECCIÓN DE MARKETING",
       "category": "Curso de posgrado"
     },
     "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md": {
@@ -418,10 +418,10 @@
       "title": "GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL",
       "category": "Curso de posgrado"
     },
-    "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md": {
+    "cursos-posgrado/produccion-e-innovacion-tecnologica.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
-      "title": "METODOS CUANTITATIVOS PARA LOS NEGOCIOS",
+      "title": "PRODUCCIÓN E INNOVACIÓN TECNOLÓGICA",
       "category": "Curso de posgrado"
     },
     "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md": {
@@ -828,6 +828,12 @@
       "title": "2024 Edition",
       "category": "Relaciones Internacionales"
     },
+    "internacionales/2026-edition.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "2026 Edition",
+      "category": "Relaciones Internacionales"
+    },
     "internacionales/comunidad-graduada-fce-por-el-mundo.md": {
       "sector": "internacionales",
       "displayName": "Relaciones Internacionales",
@@ -850,12 +856,6 @@
       "sector": "internacionales",
       "displayName": "Relaciones Internacionales",
       "title": "Redes",
-      "category": "Relaciones Internacionales"
-    },
-    "internacionales/2026-edition.md": {
-      "sector": "internacionales",
-      "displayName": "Relaciones Internacionales",
-      "title": "2026 Edition",
       "category": "Relaciones Internacionales"
     },
     "operativos/aulas-virtuales.md": {
