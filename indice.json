@@ -1,6 +1,6 @@
 {
   "version": 51,
-  "lastUpdated": "2026-09-04",
+  "lastUpdated": "2026-09-07",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -588,6 +588,12 @@
     {
       "path": "estudiantes/inscripciones-cursado.md",
       "title": "Info sobre inscripciones a cursado",
+      "category": "Estudiantes",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/"
+    },
+    {
+      "path": "estudiantes/indice-por-docente.md",
+      "title": "Índice por Docente",
       "category": "Estudiantes",
       "canonicalUrl": "https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones/"
     },

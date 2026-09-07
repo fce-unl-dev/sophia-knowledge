@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-04",
+  "lastUpdated": "2026-09-07",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -8,7 +8,7 @@
     "ciencia": 22,
     "extension": 6,
     "internacionales": 8,
-    "docentes": 3,
+    "docentes": 4,
     "posgrados_graduados": 33,
     "posgrados_cursos_sin_titulo": 27,
     "grado": 12,
@@ -596,6 +596,12 @@
       "sector": "tramites_bedelia",
       "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Info sobre inscripciones a cursado",
+      "category": "Estudiantes"
+    },
+    "estudiantes/indice-por-docente.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Índice por Docente",
       "category": "Estudiantes"
     },
     "estudiantes/pasantias-rentadas.md": {

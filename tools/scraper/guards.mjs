@@ -137,3 +137,85 @@ export function checkContentRegression(candidateText, previousText, { ratio = RA
     previous_length: previousLength,
   };
 }
+
+// ─────────────────────────────────────────────────────────────────────────────
+// AUSENCIA DEL LISTADO ≠ BAJA DEL CURSO
+//
+// El listado del que salen los "cursos activos" es la página de INSCRIPCIONES
+// ABIERTAS. Un curso desaparece de ahí el día que cierra su inscripción — que
+// es, típicamente, el día que empieza. No cuando se da de baja.
+//
+// Sin esta guarda, el pipeline borra cada curso justo cuando arranca: PR #242
+// (2026-09-04) proponía eliminar "Economía Gubernamental" y "Métodos
+// Cuantitativos para los Negocios", los dos con inicio el 07/09/2026 y cursado
+// a distancia hasta noviembre y octubre. Estaban dictándose.
+//
+// Las guardas que ya existían miran VOLUMEN (checkRemovalRatio,
+// bajasSuperanActivos) y no ven este caso: dos bajas contra diez activos no es
+// ninguna anomalía estadística. Es una baja falsa, y hay que mirar la fecha
+// para verla.
+//
+// La asimetría manda el default: borrar de más le saca a Sophia un curso real;
+// borrar de menos le deja una ficha con fecha vencida, y para eso está la R3
+// del prompt, que compara contra hoy y responde "esa fecha ya pasó, consultá
+// por la próxima edición". Ante la duda, se conserva.
+const CURSO_VENCIDO_DIAS = 365;
+
+// `**Fecha de inicio publicada**: 07/09/2026` — el único campo de fecha
+// estructurado de estas fichas. La fecha de FIN existe, pero suelta dentro del
+// texto del programa ("a distancia desde el 7/9/2026 al 1/11/2026"), y
+// parsearla de ahí sería adivinar.
+const FECHA_INICIO_RE = /\*\*Fecha de inicio publicada\*\*:\s*(\d{1,2})\/(\d{1,2})\/(\d{4})/;
+
+export function parseFechaInicioPublicada(markdown) {
+  if (typeof markdown !== 'string') return null;
+  const m = markdown.match(FECHA_INICIO_RE);
+  if (!m) return null;
+  const [, d, mes, a] = m;
+  const fecha = new Date(Date.UTC(Number(a), Number(mes) - 1, Number(d)));
+  if (Number.isNaN(fecha.getTime())) return null;
+  // Un 31/02 se desborda a marzo: si los componentes no vuelven iguales, la
+  // fecha no era válida y es mejor no tener fecha que tener una inventada.
+  if (fecha.getUTCDate() !== Number(d) || fecha.getUTCMonth() !== Number(mes) - 1) return null;
+  return fecha;
+}
+
+/**
+ * Decide si una ficha ausente del listado se puede borrar.
+ *
+ * @param {string|null} markdown - contenido actual de la ficha.
+ * @param {Date} [hoy]
+ * @returns {{ borrable: boolean, motivo: string, diasDesdeInicio: number|null }}
+ */
+export function evaluarBajaDeCurso(markdown, { hoy = new Date(), diasVencido = CURSO_VENCIDO_DIAS } = {}) {
+  const inicio = parseFechaInicioPublicada(markdown);
+  if (!inicio) {
+    return {
+      borrable: false,
+      motivo: 'la ficha no tiene una "Fecha de inicio publicada" legible, así que no hay con qué descartar que el curso siga vigente',
+      diasDesdeInicio: null,
+    };
+  }
+  const dias = Math.floor((hoy.getTime() - inicio.getTime()) / 86400000);
+  if (dias < 0) {
+    return {
+      borrable: false,
+      motivo: `el curso todavía no empezó (inicio ${inicio.toISOString().slice(0, 10)}): que salga del listado de inscripciones abiertas antes de arrancar es raro y merece mirada humana`,
+      diasDesdeInicio: dias,
+    };
+  }
+  if (dias < diasVencido) {
+    return {
+      borrable: false,
+      motivo: `empezó hace ${dias} día${dias === 1 ? '' : 's'} (${inicio.toISOString().slice(0, 10)}): salió del listado porque cerró la inscripción, no porque se diera de baja`,
+      diasDesdeInicio: dias,
+    };
+  }
+  return {
+    borrable: true,
+    motivo: `empezó hace ${dias} días (${inicio.toISOString().slice(0, 10)}), más de ${diasVencido}: la edición está vencida y el curso no volvió a publicarse`,
+    diasDesdeInicio: dias,
+  };
+}
+
+export const __guard_internals__ = { CURSO_VENCIDO_DIAS };
