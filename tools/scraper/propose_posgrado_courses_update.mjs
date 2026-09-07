@@ -17,7 +17,7 @@ import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { execSync } from 'node:child_process';
-import { checkRemovalRatio } from './guards.mjs';
+import { checkRemovalRatio, evaluarBajaDeCurso } from './guards.mjs';
 
 import { runPosgradoCoursesScraper, todayIsoDate } from './scrape_courses_posgrado.mjs';
 import { classifyDiff } from './classify_diff.mjs';
@@ -124,15 +124,29 @@ export async function proposePosgradoCoursesUpdate({
     label: 'los cursos de posgrado',
   });
   const bajasAnomaly = bajasSuperanActivos || Boolean(removalAnomaly);
+
+  // Tercera guarda, por FECHA y no por volumen: el listado de la fuente es el de
+  // inscripciones abiertas, así que un curso sale de ahí el día que cierra la
+  // inscripción — típicamente el día que empieza. Ausencia no es baja.
+  // Ver evaluarBajaDeCurso() en guards.mjs para el caso que lo motivó.
   const removedDocs = [];
+  const bajasConservadas = [];
   if (missingFromSource.length > 0 && !bajasAnomaly) {
     for (const baja of missingFromSource) {
       const abs = join(kbRoot, baja.path);
+      const markdown = existsSync(abs) ? await readFile(abs, 'utf8') : null;
+      const veredicto = evaluarBajaDeCurso(markdown, { hoy: new Date(today) });
+      if (!veredicto.borrable) {
+        bajasConservadas.push({ ...baja, motivo: veredicto.motivo, dias_desde_inicio: veredicto.diasDesdeInicio });
+        continue;
+      }
       if (!dryRun && existsSync(abs)) await rm(abs);
       removedDocs.push(baja.path);
     }
-    const removedSet = new Set(removedDocs);
-    index.items = (index.items || []).filter((it) => !removedSet.has(it.path));
+    if (removedDocs.length > 0) {
+      const removedSet = new Set(removedDocs);
+      index.items = (index.items || []).filter((it) => !removedSet.has(it.path));
+    }
   }
 
   const hasNew = createdDocs.length > 0;
@@ -183,6 +197,7 @@ export async function proposePosgradoCoursesUpdate({
     added_index_entries: addedIndexEntries.map((e) => e.path),
     date_drift: dateDrift,
     missing_from_source: missingFromSource,
+    bajas_conservadas: bajasConservadas,
     classifications,
     today,
   }, { prBodyPath, reportOutPath });
@@ -216,8 +231,18 @@ function buildPrBody(r) {
     L.push('### Cursos en el KB que ya no figuran activos (no eliminados por la guarda de anomalía)');
     for (const m of r.missing_from_source) L.push(`- \`${m.path}\` — ${m.title}`);
   }
+  // Una baja retenida en silencio sería el mismo problema al revés: nadie se
+  // enteraría de que la fuente dejó de listar un curso. Se informa siempre.
+  if (r.bajas_conservadas?.length) {
+    L.push('');
+    L.push('### Cursos que salieron del listado pero NO se eliminan');
+    L.push('');
+    L.push('El listado de la fuente es el de **inscripciones abiertas**: un curso sale de ahí cuando cierra la inscripción, no cuando se da de baja. Estos se conservan:');
+    L.push('');
+    for (const b of r.bajas_conservadas) L.push(`- \`${b.path}\` — ${b.motivo}`);
+  }
   L.push('');
-  L.push('> Las fichas de cursos ya existentes NO se sobrescriben (se preserva el contenido curado). Las bajas (cursos que salieron de la web) se eliminan para mantener el KB igual a la web. Datos personales (DNIs) saneados automáticamente.');
+  L.push('> Las fichas de cursos ya existentes NO se sobrescriben (se preserva el contenido curado). Una baja se aplica sólo si la ficha tiene fecha de inicio publicada y esa edición ya venció; si no, el curso se conserva y se reporta arriba. Datos personales (DNIs) saneados automáticamente.');
   return L.join('\n');
 }
 
