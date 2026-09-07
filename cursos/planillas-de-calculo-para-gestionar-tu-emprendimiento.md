@@ -12,7 +12,6 @@
 ## Modalidad y duración
 
 - No publicado en fuentes oficiales — consultar con cursosdeformacion@fce.unl.edu.ar.
-- **Fecha de inicio publicada en listado**: 2026-08-24
 
 ## Plan de estudios / Contenidos
 
@@ -62,8 +61,8 @@
 
 - **Costo**:
   - Consultar a cursosdeformacion@fce.unl.edu.ar
-- **Estado (al 2026-08-14)**: Inscripción abierta según listado oficial.
-- **Sistema de inscripción**: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1174#superior
+- **Estado (al 2026-09-04)**: Inscripción abierta según listado oficial.
+- **Formulario de consultas**: https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showFormularioI&idCurso=1174#superior
 
 ## Contacto
 
@@ -79,9 +78,8 @@
 
 - Listado oficial de inscripciones abiertas: https://www.fce.unl.edu.ar/cursos_de_formacion/index.php?act=showCursos
 - Página oficial del curso: https://www.fce.unl.edu.ar/cursos-de-formacion/index.php?act=showSubcategoria&id=265
-- Sistema de inscripción: https://www.fce.unl.edu.ar/cursos_formacion/index.php?act=showLogin&id_curso=1174#superior
 
 ---
 
-**Última revisión automática**: 2026-08-14 (candidato generado por scraper determinístico de cursos)
+**Última revisión automática**: 2026-09-04 (candidato generado por scraper determinístico de cursos)
 **Revisión humana**: pendiente
