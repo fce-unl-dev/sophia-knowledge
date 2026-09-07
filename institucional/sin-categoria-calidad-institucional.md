@@ -21,6 +21,7 @@
 - En cuanto a los recursos humanos, define y optimiza la estructura jerárquica, funciones y responsabilidades de cada uno de los puestos. Si se toma como referencia el aspecto de infraestructura, se determinan las necesidades de instalaciones y maquinarias, así como el mantenimiento y control que se necesita para obtener su mayor rendimiento. Mejora sus relaciones con los usuarios de los productos y/o servicios de las áreas intervinientes, estandariza el servicio y mejora la eficiencia interna, disminuyendo errores.
 - Además, permite establecer la visión y misión, objetivos, metas e indicadores, claves en toda organización. Establece los puntos de control para obtener información respecto al cumplimiento de requisitos y permite implementar la gestión de la mejora continua.
 - Descargas:
+- Informe Institucional sobre los resultados de la implementación y certificación del Sistema de Gestión de la Calidad de la FCE – UNL
 - Descargar Política de Calidad. Rev. 1
 - Certificaciones
 - Certificación IRAM Sistema de Gestión de Calidad
@@ -37,5 +38,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-03 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-07 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

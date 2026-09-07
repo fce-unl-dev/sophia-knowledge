@@ -28,6 +28,7 @@
 Sophia debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Informe-sobre-los-resultados-del-SGC-final.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoepOOf_Politica-de-calidad-FCE-Rev-1.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/FACULTAD-DE-CIE-9000-iram-v1008.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/FACULTAD-DE-CIE-9000-iqnet-v1008.pdf
@@ -196,5 +197,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-09-03 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-07 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
