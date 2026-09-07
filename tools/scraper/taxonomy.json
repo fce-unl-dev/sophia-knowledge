@@ -21,6 +21,11 @@
   ],
   "overrides": [
     {
+      "description": "Índice por docente: sale de la planilla de cursado y se publica bajo estudiantes/ (el propose rechaza paths fuera de esa carpeta), pero para el ruteo es contenido de DOCENTES. Sin este override cae en tramites_bedelia por la carpeta, y el sector `docentes` queda sin un solo dato de docente: medido el 2026-09-05, eso hacía que una consulta que nombra a un profesor se ruteara a un sector vacío y Sophia atribuyera materias a docentes equivocados. Se evalúa ANTES del matchOrder.",
+      "match": { "pathPrefix": ["estudiantes/indice-por-docente"] },
+      "sector": "docentes"
+    },
+    {
       "description": "Tecnicaturas: son pregrado, NO exigen título de grado. Van con la oferta sin título aunque la web las publique bajo /academica/. Sin este override, classifyItem las clasifica como 'academica' por la carpeta. Se evalúa ANTES del matchOrder.",
       "match": { "titleIncludes": ["tecnicatura"] },
       "sector": "posgrados_cursos_sin_titulo"

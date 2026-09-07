@@ -41,6 +41,12 @@ import {
 
 const DEFAULT_STATE_DIR = 'state/estudiantes';
 
+// Destino del índice inverso Docente → Materias. Se queda bajo `estudiantes/`
+// porque `propose_students_update.mjs` rechaza por seguridad cualquier candidato
+// con path fuera de esa carpeta. Que termine en el sector `docentes` lo decide
+// la taxonomía (override por path), no la carpeta.
+export const TEACHER_INDEX_PATH = 'estudiantes/indice-por-docente.md';
+
 export const STUDENT_TOPICS = [
   {
     slug: 'estudiantes-ingreso-2026',
@@ -240,6 +246,32 @@ export async function runStudentsScraper({
       await mkdir(candidatesDir, { recursive: true });
       await writeFile(join(candidatesDir, `${topic.slug}.candidate.md`), markdown, 'utf8');
     }
+
+    // Segundo candidato desde el MISMO scrape: el índice por docente sale como
+    // documento propio para que la taxonomía pueda mandarlo al sector
+    // `docentes`. Ver buildTeacherIndexMarkdown.
+    const teacherIndexMarkdown = buildTeacherIndexMarkdown(result, { today });
+    if (teacherIndexMarkdown) {
+      const teacherSlug = `${topic.slug}-indice-por-docente`;
+      candidates.push({
+        slug: teacherSlug,
+        path: TEACHER_INDEX_PATH,
+        candidate_file: `${teacherSlug}.candidate.md`,
+        pages_count: result.pages.length,
+        pages_with_content: result.summary.pages_with_content,
+        // Sale de una planilla estructurada, no de texto scrapeado: no arrastra
+        // las señales de revisión del tema padre.
+        requires_review: false,
+        review_reasons: [],
+        content_hash: sha256(neutralizeDate(teacherIndexMarkdown, today)),
+      });
+
+      if (write && writeCandidates) {
+        const candidatesDir = join(stateDir, 'candidates');
+        await mkdir(candidatesDir, { recursive: true });
+        await writeFile(join(candidatesDir, `${teacherSlug}.candidate.md`), teacherIndexMarkdown, 'utf8');
+      }
+    }
   }
 
   const stablePayload = JSON.stringify({ processed, candidates, excluded: EXCLUDED_STUDENT_TOPICS }, null, 2);
@@ -426,16 +458,19 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
       lines.push('');
     }
 
-    // Índice inverso Docente → Materias, construido desde TODAS las pestañas.
-    // Resuelve consultas del tipo "¿qué materia dicta X?" sin obligar al modelo
-    // a escanear tablas organizadas por materia.
-    lines.push('## Índice por Docente (Snapshot Oficial)');
-    lines.push('');
-    lines.push(`**Última actualización de planilla**: ${today}`);
-    lines.push('');
-    lines.push('- Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.');
-    lines.push('');
-    lines.push(generateScheduleByTeacherTable(classSchedules));
+    // El "Índice por Docente" ya NO va acá: se emite como documento aparte
+    // (`estudiantes/indice-por-docente.md`, ver buildTeacherIndexMarkdown).
+    // Motivo, medido en producción el 2026-09-05: con el routing por sector
+    // activo, una consulta que nombra a un profesor se rutea al sector
+    // `docentes` —lo semánticamente obvio— y ese sector no tenía ni un dato de
+    // docente, porque el índice vivía enterrado acá dentro, en el sector
+    // `tramites_bedelia`. Sophia terminaba atribuyendo materias a docentes
+    // equivocados. Separarlo pone el dato en el cajón que ya tenía la etiqueta
+    // correcta, y de paso le saca ~14.600 tokens a este documento, que es el
+    // más pesado de la KB.
+    lines.push('> El índice inverso Docente → Materias vive en un documento aparte:');
+    lines.push('> `estudiantes/indice-por-docente.md`. Ahí está, por docente, qué materias');
+    lines.push('> y comisiones dicta según esta misma planilla.');
     lines.push('');
   }
 
@@ -467,6 +502,68 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
   } else {
     lines.push('- Si una subpágina enlaza una planilla o iframe con fechas, responder sobre esos datos solo si existe snapshot Markdown revisado.');
   }
+  lines.push('');
+
+  lines.push('## Fuentes consultadas');
+  lines.push('');
+  for (const [label, url] of topic.pages) lines.push(`- ${label}: ${url}`);
+  lines.push('');
+  lines.push('---');
+  lines.push('');
+  lines.push(`**Última revisión automática**: ${today} (candidato generado por scraper determinístico de estudiantes)`);
+  lines.push('**Revisión humana**: pendiente');
+  lines.push('');
+  return lines.join('\n');
+}
+
+/**
+ * Documento aparte con el índice inverso Docente → Materias.
+ *
+ * Sale del mismo scrape de planillas que la distribución de comisiones, pero se
+ * publica como archivo propio (`estudiantes/indice-por-docente.md`) y la
+ * taxonomía lo manda al sector `docentes`.
+ *
+ * Por qué separado, en una línea: con el routing por sector activo, quien
+ * pregunta por un profesor termina en el sector `docentes`, y ese sector no
+ * tenía ni un dato de docente. Ver el comentario en buildTopicMarkdown.
+ *
+ * Se queda bajo `estudiantes/` a propósito: `propose_students_update.mjs`
+ * rechaza por seguridad cualquier candidato con path fuera de esa carpeta, y
+ * ese guard no se toca. El sector lo decide la taxonomía, no la carpeta.
+ *
+ * @returns {string|null} markdown, o null si no hay planillas de las que sacarlo.
+ */
+export function buildTeacherIndexMarkdown(result, { today = todayIsoDate() } = {}) {
+  const { topic, classSchedules } = result;
+  if (!classSchedules || classSchedules.length === 0) return null;
+
+  const tabla = generateScheduleByTeacherTable(classSchedules);
+  if (!tabla || !tabla.trim()) return null;
+
+  const lines = [];
+  lines.push('# Índice por Docente');
+  lines.push('');
+  lines.push('## Para qué sirve');
+  lines.push('');
+  lines.push('- Responde "¿qué materia dicta X?" y "¿en qué comisión y horario da clases X?" sin tener que escanear las tablas organizadas por materia.');
+  lines.push('- Es la vista inversa de la misma planilla oficial de cursado que alimenta `estudiantes/inscripciones-cursado.md`.');
+  lines.push('- Es un candidato automático: debe pasar por revisión humana antes de agregarse a `indice.json`.');
+  lines.push('');
+
+  lines.push('## Índice por Docente (Snapshot Oficial)');
+  lines.push('');
+  lines.push(`**Última actualización de planilla**: ${today}`);
+  lines.push('');
+  lines.push('- Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.');
+  lines.push('');
+  lines.push(tabla);
+  lines.push('');
+
+  lines.push('## Advertencias para Sophia');
+  lines.push('');
+  lines.push('- Responder EXCLUSIVAMENTE desde la tabla de este documento. Si el apellido buscado no figura, decirlo y derivar a SIU Guaraní o Bedelía — nunca deducir la materia de un docente por parecido de nombre ni por otra tabla.');
+  lines.push('- La planilla está sujeta a cambios durante el cuatrimestre. Al dar un horario o una comisión, sugerir confirmarlo en el sistema oficial.');
+  lines.push('- Los nombres vienen de una planilla cargada a mano: hay mayúsculas, comas y abreviaturas inconsistentes. Un docente puede aparecer escrito de más de una forma.');
   lines.push('');
 
   lines.push('## Fuentes consultadas');
