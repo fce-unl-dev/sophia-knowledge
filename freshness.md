@@ -70,6 +70,7 @@
 | `cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `docentes/docentes.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `estudiantes/indice-por-docente.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `extension/actividades-abiertas-a-la-comunidad.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `extension/actividades-de-extension.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `extension/emprendedores.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
@@ -108,19 +109,6 @@
 | `internacionales/internacionales.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `internacionales/programa-competitividad-global.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `internacionales/redes.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
-| `cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/formacion-de-gerentes-para-retail.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/formacion-de-repositores-para-supermercado.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/la-construccion-del-pensamiento-proporcional.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/manejo-practico-de-cooperativas-y-asociaciones.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones-en-economia-administracion-y-marketing.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
-| `cursos/trading-profesional-basado-en-evidencia.md` | Pendiente / N/D | 🔴 N/D | 🔴 19 d (2026-08-14) |
 | `estudiantes/beneficios-posgrados-fce-unl.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
 | `estudiantes/bienestar-estudiantil.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
 | `estudiantes/calendario-academico.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
@@ -135,6 +123,19 @@
 | `estudiantes/sica.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
 | `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
 | `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
+| `cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/formacion-de-gerentes-para-retail.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/formacion-de-repositores-para-supermercado.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/gestion-de-emprendimientos-en-la-industria-de-canamo-y-cannabis-medicinal.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/herramientas-matematicas-para-modelizar-cambios-en-variables-de-interes-operativo.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/introduccion-a-la-operatoria-en-mercado-de-capitales-para-organizaciones.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/la-construccion-del-pensamiento-proporcional.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/manejo-practico-de-cooperativas-y-asociaciones.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/planillas-de-calculo-para-gestionar-tu-emprendimiento.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/tecnicas-de-venta-y-atencion-al-cliente-para-el-sector-electro-y-textil.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones-en-economia-administracion-y-marketing.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `cursos/trading-profesional-basado-en-evidencia.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 N/D |
 | `operativos/ingreso-2026.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 107 d (2026-05-18) |
 | `posgrado-general/becas-docentes.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 107 d (2026-05-18) |
