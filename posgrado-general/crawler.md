@@ -75,12 +75,6 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ## Información adicional relevante
 
-- **Características distintivas**:
-    - Carrera de tipo profesional orientada al entrenamiento de las habilidades propias de los cargos de Alta Dirección.
-    - Aplicación de metodologías orientadas al trabajo en equipo, el análisis de casos y la investigación aplicada.
-    - Fuerte vinculación con el medio empresario de la región y del país.
-    - Estructura curricular flexible basada en un sistema de créditos académicos y la elección de asignaturas optativas conforme al perfil de los/as estudiantes.
-    - Internacionalización creciente a través de la creación de carreras de doble titulación que implican el intercambio de estudiantes y docentes.
 - **Perfil del egresado**: El egresado logrará un perfil acorde a una maestría profesionalista, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas.
 - **Estadía internacional**: Incluye una estadía de siete meses en la Universidad de Kaiserslautern (Alemania) donde se deben aprobar asignaturas específicas (dictadas en inglés), realizar un curso de idioma y cultura alemana, y realizar una pasantía en una empresa del país europeo.
 - **Ubicación de la Facultad de Ciencias Económicas (lugar donde se cursan los cursos y carreras presenciales)**: Moreno 2557 (3000) Santa Fe.
@@ -88,6 +82,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
     - Consultas SIU Guaraní de Posgrado: alumnado@fce.unl.edu.ar
     - Consultas por pago de cuotas o solicitud de factura por matrícula: tesoreria@fce.unl.edu.ar
     - Consultas por Diplomaturas de pre-grado (Gestión para el Trabajo en Organizaciones o Gestión Financiera del Sector Público): diplomaturas@fce.unl.edu.ar
+    - Consultas por Diplomaturas de posgrado: posgrado@fce.unl.edu.ar
 - **Teléfonos adicionales**:
     - Especial Alumnado y Bedelía: 3425818810
     - Tesorería FCE (Secretaría Económica Financiera): 0342 4511179 int 145
@@ -95,6 +90,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Información de clases**:
     - Clases de consulta previa a exámenes, muestra de exámenes o consulta permanente: https://servicios.unl.edu.ar/bedeliamovil/NOwTk
     - Clases en general (grado, posgrado) y otras actividades en FCE (Terminal Informativa, enlaces Zoom, suspensiones): https://servicios.unl.edu.ar/bedeliamovil/uTMEg
+- **Cómo pagar cuotas**: Deben hacerlo a través del sistema MERCURIO. Si es la primera cuota, deben esperar un mail de tesorería con el enlace a ese sistema. Si es otra cuota que no sea la primera, pueden ingresar en https://servicios.unl.edu.ar/mdcobro/ y tipear allí su DNI (solo para pagos de cuotas siguientes, porque primero Tesorería los tiene que dar de alta en Mercurio, por lo que no pueden entrar hasta que no reciban el mail de Tesorería).
 - **Diplomaturas de pre-grado y Tecnicaturas**: https://www.fce.unl.edu.ar/academica/propuesta-academica/
 - **Ingreso como alumno de grado a la FCE**: https://www.fce.unl.edu.ar/academica/ingreso-grado/
 - **Posgrados de otras unidades académicas de la UNL**: https://www.unl.edu.ar/propuesta-academica/?f=posgrado
@@ -115,9 +111,11 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (Información general y Maestría en Administración y Finanzas)
-- https://www.fce.unl.edu.ar/maf/ (Mencionado en scrape como URL oficial del programa)
+- https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (Información general y respuesta frecuente Maestría en Administración y Finanzas)
+- https://www.fce.unl.edu.ar/maf/ (URL oficial del programa)
+- https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
+- https://servicios.unl.edu.ar/mdcobro/ (Sistema Mercurio para pago de cuotas)
 
 ---
 
-**Última revisión humana**: 2026-09-03
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-07 por pipeline de scraping.
