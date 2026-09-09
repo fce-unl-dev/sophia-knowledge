@@ -109,6 +109,7 @@
 | `internacionales/internacionales.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `internacionales/programa-competitividad-global.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `internacionales/redes.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `posgrados/diplotributos.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `estudiantes/beneficios-posgrados-fce-unl.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
 | `estudiantes/bienestar-estudiantil.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
 | `estudiantes/calendario-academico.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
@@ -166,7 +167,6 @@
 | `posgrados/mba.md` | Revisado | 🟢 6 d (2026-08-28) | 🟢 6 d (2026-08-27) |
 | `posgrados/dap.md` | Revisado | 🟢 6 d (2026-08-28) | 🟢 5 d (2026-08-28) |
 | `compartidos/mids.md` | Revisado | 🟢 3 d (2026-08-31) | 🟢 2 d (2026-08-31) |
-| `posgrado-general/crawler.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
 | `posgrado-general/cursos-posgrado.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
 | `posgrados/ecyap.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
 | `posgrados/edgop.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
@@ -174,3 +174,4 @@
 | `posgrados/mcya.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
 | `posgrados/sindicatura-concursal.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
 | `posgrados/tributacion.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
+| `posgrado-general/crawler.md` | Revisado | 🟢 -5 d (2026-09-08) | 🟢 -5 d (2026-09-07) |

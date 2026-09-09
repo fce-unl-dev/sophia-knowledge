@@ -190,7 +190,17 @@ export function processPage({ url, html }) {
   const cropped = cropMainContent(html);
   const sectionTitle = extractSectionTitle(cropped);
   const title = sectionTitle || docTitle;
-  const text = htmlToText(cropped);
+  const baseHref = html.replace(/<!--[\s\S]*?-->/g, '')
+    .match(/<base\b[^>]*href\s*=\s*["']([^"']+)["']/i)?.[1];
+  const baseUrl = baseHref ? absolutizeUrl(decodeEntities(baseHref), url) || url : url;
+  // Preserve link destinations before stripping markup. Documents stay link-only.
+  const linkedContent = cropped.replace(/<a\b[^>]*href\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi,
+    (_full, href, label) => {
+      const destination = absolutizeUrl(decodeEntities(href), baseUrl);
+      return destination && /^https?:\/\//i.test(destination)
+        ? `${label} (${destination})` : label;
+    });
+  const text = htmlToText(linkedContent);
   return { url, title, text, length: text.length };
 }
 
