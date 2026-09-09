@@ -75,7 +75,10 @@ Brinda herramientas para gestionar dinámicas familiares y empresariales. Foco e
 - **Sigla**: diplotributos
 - **Tipo**: Diplomatura Universitaria Superior (posgrado)
 - **Unidad académica**: FCE-UNL
-- **Estado actual y detalles**: Consultar en https://www.fce.unl.edu.ar/diplotributos o a posgrado@fce.unl.edu.ar
+- **Información académica**: La ficha dedicada `posgrados/diplotributos.md` contiene modalidad, duración, requisitos y módulos verificados en HTML oficial.
+- **Página oficial**: https://www.fce.unl.edu.ar/diplotributos/index.php
+- **Folleto oficial — PDF**: https://www.fce.unl.edu.ar/sitios/uploads/folletos/14.pdf
+- **Próxima cohorte, fechas y aranceles**: Por confirmar con posgrado@fce.unl.edu.ar; no inferir inscripciones abiertas.
 
 ---
 

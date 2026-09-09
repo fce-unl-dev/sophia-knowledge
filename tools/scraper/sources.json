@@ -557,6 +557,12 @@
       "indice_path": "compartidos/mids.md",
       "url": "https://www.fce.unl.edu.ar/sitios/mids/",
       "strategy": "fce-microsite"
+    },
+    {
+      "slug": "diplotributos",
+      "indice_path": "posgrados/diplotributos.md",
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php",
+      "strategy": "fce-microsite"
     }
   ]
 }
