@@ -17,11 +17,11 @@ La Maestría en Negocios Agroalimentarios es una carrera de tipo profesional de 
 ## Modalidad y duración
 
 - **Modalidad**: Presencial
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
 - **Lugar**: Facultad de Ciencias Agrarias UNL — R.P.Kreder 2805, Esperanza, Santa Fe
-- **Idioma**: No publicado
-- **Duración cursada**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
-- **Duración trabajo final / tesis**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Idioma**: Sin datos confirmados en el material consultado
+- **Duración cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
+- **Duración trabajo final / tesis**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
 - **Carga horaria total**: 720 horas (48 UCAs)
 
 ## Plan de estudios
@@ -30,7 +30,7 @@ La Maestría en Negocios Agroalimentarios es una carrera de tipo profesional de 
 El plan de estudios es semiestructurado, incluye diferentes instancias de formación que totalizan 720 horas (48 UCAs). Las mismas resultan de considerar 465 horas (31 UCAs) en cursos obligatorios, un mínimo de 120 horas (8 UCAs) de cursos optativos y 135 horas (9 UCAs) correspondientes al trabajo final.
 
 ### Módulos / asignaturas
-No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
 
 ### Trabajo final / tesis
 135 horas (9 UCAs). Detalles en el Reglamento oficial.
@@ -51,17 +51,17 @@ Nómina docente por asignatura no publicada en fuentes oficiales; consultar a po
 ## Requisitos de admisión
 
 - **Título previo requerido**: Título de grado universitario de las Facultades de Ciencias Agrarias y de Ciencias Económicas o en carreras cuyos contenidos curriculares sean considerados adecuados por el Comité Académico, otorgado por Universidades nacionales públicas o privadas, legalmente reconocidas, o por Universidades Extranjeras.
-- **Idiomas**: No publicado
-- **Otros antecedentes**: No publicado
-- **Documentación a presentar**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
-- **Proceso de admisión**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Idiomas**: Sin datos confirmados en el material consultado
+- **Otros antecedentes**: Sin datos confirmados en el material consultado
+- **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
+- **Proceso de admisión**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
-- **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar con posgrado@fca.unl.edu.ar
+- **Matrícula**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
+- **Cuotas**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con posgrado@fca.unl.edu.ar
 - **Estado actual de inscripción**: Abierta
 - **Link de pre-inscripción**: https://forms.gle/WgYEp9WRcGnjRAE37
 
@@ -85,11 +85,12 @@ Nómina docente por asignatura no publicada en fuentes oficiales; consultar a po
 - Carrera con Reconocimiento Nacional oficial del título (Resolución Ministerio de Educación Nº 1305-20).
 - Dirigida a profesionales y directivos interesados en la comprensión y aplicación de técnicas de gestión de empresas y organizaciones agroalimentarias, con una visión integral para actuar en un entorno globalizado.
 - Permite acceder al Régimen de Crédito Fiscal para capacitación de personal en PyMES del Ministerio de Producción de la Nación, que ofrece un reintegro parcial o total de los costos de capacitación mediante un certificado de Crédito Fiscal utilizable para la cancelación de impuestos nacionales.
-- Cronograma Cursos 2026 disponible en la web oficial.
-- Descarga Nota elevación Decano e Instructivo para el reconocimiento de cursos.
-- Descarga Reglamento.
-- Acceso a Biblioteca de Tesis.
-- Acceso a Trámites Académicos.
+- Cronograma Cursos 2026 disponible en la web oficial: https://www.fca.unl.edu.ar/posgrado/cronograma-cursos-mna/
+- Descarga Nota elevación Decano: https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/11/MNA-Modelo-nota-Decano-reconocimientos-cursos_26.docx
+- Descarga Instructivo para el reconocimiento de cursos: https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/08/MNA-Instructivo-reconocimientos-cursos-copia.doc
+- Descarga Reglamento: https://www.fca.unl.edu.ar/posgrado/wp-content/uploads/sites/18/2018/11/Res.-CS-237_24_FCA-1175699-23-Modif-Plan-Est-y-Reglam-Maestria-Negocios-Agroalim.pdf
+- Acceso a Biblioteca de Tesis: https://bibliotecavirtual.unl.edu.ar:8443/handle/11185/6352
+- Acceso a Trámites Académicos: https://www.fca.unl.edu.ar/posgrado/categorias/tramites-academicos/
 
 ## Fuentes consultadas
 
@@ -97,4 +98,4 @@ Nómina docente por asignatura no publicada en fuentes oficiales; consultar a po
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
