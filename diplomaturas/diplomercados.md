@@ -12,12 +12,12 @@ Diplomatura universitaria **superior** (posgrado) de la FCE-UNL que brinda forma
 - **Título que otorga**: Diploma de aprobación de la Diplomatura
 - **Acreditación CONEAU**: No aplica
 - **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: No publicado
+- **Carreras compartidas con otras unidades**: Sin datos confirmados en el material consultado
 
 ## Modalidad y duración
 
 - **Modalidad**: Presencial mediante sistema de videoconferencia institucional
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Lugar**: 100% online (mediante sistema de videoconferencia institucional)
 - **Idioma**: Español
 - **Duración cursada**: 7 meses
@@ -88,17 +88,17 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 ## Requisitos de admisión
 
 - **Título previo requerido**: Título de grado en carreras vinculadas a las Ciencias Económicas expedido por instituciones universitarias argentinas o extranjeras.
-- **Idiomas**: No publicado
+- **Idiomas**: Sin datos confirmados en el material consultado
 - **Otros antecedentes**: Profesionales en otras áreas de conocimiento que acrediten trayectoria comprobable vinculada a actividades financieras.
 - **Documentación a presentar**: Ver instructivo en la web oficial o folleto informativo PDF.
-- **Proceso de admisión**: No publicado
+- **Proceso de admisión**: Sin datos confirmados en el material consultado
 
 ## Aranceles e inscripción
 
-- **Matrícula**: Consultar en el folleto informativo (PDF descargable de https://www.fce.unl.edu.ar/diplomercados/uploads/folletos/13.pdf) o escribir a posgrado@fce.unl.edu.ar
-- **Cuotas**: Consultar en el folleto informativo (PDF descargable de https://www.fce.unl.edu.ar/diplomercados/uploads/folletos/13.pdf) o escribir a posgrado@fce.unl.edu.ar
+- **Matrícula**: Consultar en el folleto informativo (PDF descargable de https://www.fce.unl.edu.ar/sitios/uploads/folletos/13.pdf) o escribir a posgrado@fce.unl.edu.ar
+- **Cuotas**: Consultar en el folleto informativo (PDF descargable de https://www.fce.unl.edu.ar/sitios/uploads/folletos/13.pdf) o escribir a posgrado@fce.unl.edu.ar
 - **Modalidad de pago**: A confirmar con posgrado@fce.unl.edu.ar
-- **Becas disponibles**: No publicado
+- **Becas disponibles**: Sin datos confirmados en el material consultado
 - **Estado actual de inscripción**: Por confirmar — consultar con posgrado@fce.unl.edu.ar
 - **Link de información sobre inscripción**: https://www.fce.unl.edu.ar/diplomercados/index.php?act=showCategoria&id=206
 
@@ -124,7 +124,7 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - **Marco normativo**: Creada por Resolución CD 683/2023 y aprobada por Resolución HCS 787/23.
 - **Distintiva del programa**: Cobertura amplia desde fundamentos hasta mercados alternativos (criptomonedas, oro) — pocas diplomaturas locales tratan estos temas integradamente.
 - **Apertura a no-economistas**: Profesionales de otras disciplinas pueden ingresar acreditando trayectoria comprobable en actividades financieras.
-- **Folleto informativo en PDF**: https://www.fce.unl.edu.ar/diplomercados/uploads/folletos/13.pdf
+- **Folleto informativo en PDF**: https://www.fce.unl.edu.ar/sitios/uploads/folletos/13.pdf
 
 ## Fuentes consultadas
 
@@ -138,8 +138,8 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=250 (Cursado)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=251 (Requisitos para la Obtención de la Certificación Académica)
 - https://www.fce.unl.edu.ar/diplomercados/index.php?act=showSubcategoria&id=245 (Autoridades FCE y Posgrado)
-- https://www.fce.unl.edu.ar/diplomercados/uploads/folletos/13.pdf (Folleto Informativo)
+- https://www.fce.unl.edu.ar/sitios/uploads/folletos/13.pdf (Folleto Informativo)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
