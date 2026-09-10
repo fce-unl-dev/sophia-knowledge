@@ -101,26 +101,26 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 ## Requisitos de admisión
 
 - **Título previo requerido**: Título universitario de grado
-- **Idiomas**: No publicado en fuentes oficiales — consultar
+- **Idiomas**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
 - **Otros antecedentes**: Graduados universitarios que se desempeñen como funcionarios o agentes de las Administraciones públicas, docentes universitarios e investigadores en administración y políticas públicas, profesionales que trabajen o aspiren a trabajar en empresas u organizaciones del sector público, organizaciones no gubernamentales o unidades de responsabilidad social corporativa que interactúen con el Estado.
-- **Documentación a presentar**: No publicada en detalle — consultar
-- **Proceso de admisión**: No publicado en detalle — consultar
+- **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
+- **Proceso de admisión**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con magadpub@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar
+- **Matrícula**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
+- **Cuotas**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
 - **Estado actual de inscripción**: Cerrada — próxima cohorte en **2028**
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: **2028**
 - **Estado**: Cerrada
 - **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776 (Novedades - Inscripciones)
-- **Última actualización del dato**: 2026-08-27
+- **Última actualización del dato**: 2026-09-10
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -177,4 +177,4 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 
 ---
 
-**Última revisión humana**: 2026-08-28
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
