@@ -44,7 +44,7 @@ El Plan de Estudios es común para todos los/as estudiantes y está estructurado
 | Seminario de Síntesis Disciplinar | 0 | 30 | 30 | 2 |
 | Taller de Trabajo Final | 10 | 20 | 30 | 2 |
 | **TOTAL DICTADO** | **185** | **235** | **420** | **28** |
-| Trabajo Final Integrador | 20 | 40 | | |
+| TRABAJO FINAL INTEGRADOR | 20 | 40 | Sin datos confirmados en el material consultado | Sin datos confirmados en el material consultado |
 
 ### Trabajo final / tesis
 Trabajo Final Integrador individual. Plazo máximo: 3 años desde la admisión a la carrera.
@@ -93,7 +93,7 @@ Algunos de los profesores que nos acompañan son:
 - **Fecha de inicio**: **2027**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
-- **Última actualización del dato**: **2026-09-03**
+- **Última actualización del dato**: **2026-09-10**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -144,4 +144,4 @@ Algunos de los profesores que nos acompañan son:
 
 ---
 
-**Última revisión humana**: 2026-09-03
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.

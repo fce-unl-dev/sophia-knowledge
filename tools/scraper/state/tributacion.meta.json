@@ -2,81 +2,81 @@
   "slug": "tributacion",
   "url": "https://fce.unl.edu.ar/tributacion/",
   "strategy": "fce-microsite",
-  "content_hash": "017a75116d42dc489376b933afc399b72a458e55c4f8d4489256a87878c2c61d",
-  "previous_hash": "f9eb7321ee519972d48a2df952dbaf4fea802c7d3d59028e2fdb1fe79cfa2b3a",
+  "content_hash": "3a831d61af1e852e3d63c7ea3ada26838e3972855fcf710dace0aeaee73d4a5c",
+  "previous_hash": "017a75116d42dc489376b933afc399b72a458e55c4f8d4489256a87878c2c61d",
   "pages_count": 14,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/tributacion/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 61
+      "length": 283
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=172",
       "title": "Presentación de la carrera",
-      "length": 836
+      "length": 1298
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=142",
       "title": "Duración de la carrera",
-      "length": 313
+      "length": 775
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=143",
       "title": "Días y horarios de cursado",
-      "length": 230
+      "length": 692
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=144",
       "title": "Cursado y evaluación",
-      "length": 673
+      "length": 1135
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showCategoria&id=194",
       "title": "Informes e Inscripción",
-      "length": 970
+      "length": 1432
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=153",
       "title": "Estructura del Plan de Estudio",
-      "length": 1355
+      "length": 1817
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=148",
       "title": "Detalle de las Asignaturas",
-      "length": 18361
+      "length": 18823
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=152",
       "title": "Cursos de Posgrado",
-      "length": 555
+      "length": 1017
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=180",
       "title": "Objetivos curriculares",
-      "length": 1448
+      "length": 1910
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=151",
       "title": "Comité Académico",
-      "length": 502
+      "length": 964
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=167",
       "title": "Conducción de la carrera",
-      "length": 1114
+      "length": 1576
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showSubcategoria&id=149",
       "title": "Docentes de la carrera",
-      "length": 1378
+      "length": 1840
     },
     {
       "url": "https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781",
       "title": "Novedades",
-      "length": 558
+      "length": 1161
     }
   ],
-  "scraped_at": "2026-09-03T10:28:13.181Z",
-  "last_checked_at": "2026-09-03T10:28:13.181Z"
+  "scraped_at": "2026-09-10T10:22:54.048Z",
+  "last_checked_at": "2026-09-10T10:22:54.048Z"
 }
