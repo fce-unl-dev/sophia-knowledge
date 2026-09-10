@@ -108,7 +108,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - OLIVARES, Pablo (Universidad Nacional del Litoral)
 - OLIVO, Sergio Luis (Universidad del CEMA)
 - OSAN, Oscar (Universidad Nacional del Litoral)
-- PEROSSA, Mario Luis (Universidad Nacional de Buenos Aires / Universidad Maimónides)
+- PEROSSA, Mario Luis (Universidad Nacional de Buenos Aires / Universidad Maimónides.)
 - PUCCIO, José (Universidad Nacional del Litoral)
 - QUIROGA, Oscar (Universidad Nacional del Litoral)
 - RAVIOLO, Paula (Universidad Nacional del Litoral)
@@ -119,7 +119,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - SCHLATTER, Guillermo (Universidad Nacional del Litoral)
 - SORIA, Julio (Universidad Nacional de Tucumán)
 - STUBRIN, Lilia (Universidad Nacional del Litoral)
-- TARALLO, Adrián (Universidad Nacional del Rosario)
+- TARALLO, Adrián (Universidad Nacional de Rosario)
 - ZOCOLA, Gerardo (Universidad Nacional del Litoral)
 
 **Profesores extranjeros:**
@@ -137,15 +137,15 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Título previo requerido**: Graduados en Ciencias Económicas de universidades argentinas y/o extranjeras que posean título universitario de grado oficialmente reconocido por el Ministerio de Educación de la Nación. También podrán postularse profesionales que no posean título de grado en Ciencias Económicas o Empresariales (con módulo de nivelación previo).
 - **Idiomas**: Se considera prioritario que el alumno demuestre competencias en lectura y comprensión de textos en idioma inglés.
 - **Otros antecedentes**: Se valoriza la experiencia laboral previa del postulante, especialmente el desempeño en cargos gerenciales, dado que el Comité de Admisión evaluará el potencial del alumno para la gestión y la dirección.
-- **Documentación a presentar**: No publicado en detalle — consultar con mba@fce.unl.edu.ar
+- **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
 - **Proceso de admisión**: El Comité Académico evaluará a cada aspirante en forma individual analizando sus antecedentes y realizando entrevistas personales.
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con mba@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar
+- **Matrícula**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
+- **Cuotas**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
 - **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
 - **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
@@ -177,11 +177,11 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Programa Graduados MBA** (Res. C.D. N°442/19): Responsable: Mg. Verónica Echavarría. Tiene como objeto promover la relación con los profesionales graduados de la carrera, con el propósito de consolidar las actividades de vinculación y transferencia al sector productivo. Sus objetivos incluyen promover programas de actualización, identificar demandas de capacitación, identificar demandas de capacitación, fortalecer la red de graduados, potenciar la transferencia de conocimientos, emplear nuevas tecnologías para la comunicación y fomentar la iniciativa empresarial. Cuenta con un Consejo Consultivo integrado por cinco graduados de diferentes menciones y cohortes.
 - **Convenios institucionales**: Durante el año 2020, se firmaron convenios de colaboración con la Aceleradora Litoral y el Parque Tecnológico Litoral Centro para establecer un marco de cooperación con la Maestría. Estos convenios incluyen la organización conjunta de actividades de formación práctica, jornadas, congresos, seminarios, formación gerencial, coordinación de trabajos finales, inclusión de empresas como casos de estudio, generación de pasantías y colaboración en asistencia técnica.
 - **Comité Académico**: Es el órgano asesor del Consejo Directivo de la Facultad. Está integrado por la Directora de la Carrera, dos representantes de la carrera, la Secretaria Académica, la Secretaria de Posgrado, la Secretaria de Investigación y la Directora del Departamento de Administración de la Facultad. Interviene en el proceso de admisión, análisis de contenidos, evaluación de trabajos finales y actividades de investigación, extensión y vinculación.
-- **Acerca del cuerpo estudiantil**: Desde la creación de la Maestría han participado más de cuatrocientos profesionales. Actualmente cursan aproximadamente 30 alumnos.
+- **Acerca del cuerpo estudiantil**: Desde la creación de la Maestría han participado más de trescientos (300) profesionales. Actualmente cursan aproximadamente 30 alumnos.
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/mba/ (homepage, noticias de inicio de ciclo lectivo 2026)
+- https://fce.unl.edu.ar/mba/ (Información de interés)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=40 (Introducción)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=23 (Requisitos de Ingreso)
@@ -200,8 +200,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=168 (Convenios con el sistema de innovación local)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=806 (Novedades - Inicio de ciclo lectivo 2026)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=766 (Novedades - Cursos de Nivelación para Cohorte 2026)
-- https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (link de pre-inscripción)
 
 ---
 
-**Última revisión humana**: 2026-08-28
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
