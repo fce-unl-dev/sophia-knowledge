@@ -17,7 +17,7 @@ La GFSP es una diplomatura universitaria de pregrado de la FCE-UNL dirigida a pe
 ## Modalidad y duración
 
 -   **Modalidad**: Mixta — entorno virtual + plataformas tipo Zoom / Meet
--   **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con diplomaturas@fce.unl.edu.ar
+-   **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con diplomaturas@fce.unl.edu.ar
 -   **Lugar**: Online (no requiere presencialidad en sede)
 -   **Idioma**: Español
 -   **Duración cursada**: 2 cuatrimestres
@@ -71,19 +71,19 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 ## Requisitos de admisión
 
 -   **Título previo requerido**: Título de formación secundaria
--   **Idiomas**: No publicado
+-   **Idiomas**: Sin datos confirmados en el material consultado
 -   **Otros antecedentes**: Destinatarios: Personal de la administración pública en todos sus niveles y poderes que se desempeñe en áreas de gestión financiera.
--   **Documentación a presentar**: Ver instructivo en la web oficial
--   **Proceso de admisión**: Inscripción online a través del sistema oficial de la FCE-UNL
+-   **Documentación a presentar**: Ver instructivo en la web oficial: https://www.fce.unl.edu.ar/media/diplomaturas/inscripcionGFSP.pdf
+-   **Proceso de admisión**: Inscripción online a través del sistema oficial de la FCE-UNL: https://servicios.unl.edu.ar/bienestar/inscripcion/4778
 
 ## Aranceles e inscripción
 
 -   **Matrícula**: Consultar en el "Dossier Informativo Completo" descargable desde la página oficial o escribir a diplomaturas@fce.unl.edu.ar
 -   **Cuotas**: Consultar en el "Dossier Informativo Completo" descargable desde la página oficial o escribir a diplomaturas@fce.unl.edu.ar
 -   **Modalidad de pago**: A confirmar con diplomaturas@fce.unl.edu.ar
--   **Becas disponibles**: No publicado en fuentes oficiales
--   **Estado actual de inscripción**: Cerrada para el ciclo 2026 (cierre el 31 de marzo). Próxima cohorte en **abril de 2027** (por confirmar).
--   **Link de pre-inscripción**: https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185
+-   **Becas disponibles**: Sin datos confirmados en el material consultado
+-   **Estado actual de inscripción**: Cerrada para el ciclo 2026 (cierre el 31 de marzo). Próxima cohorte en **2027** (por confirmar).
+-   **Link de pre-inscripción**: https://servicios.unl.edu.ar/bienestar/inscripcion/4778
 
 ## Próxima cohorte
 
@@ -96,7 +96,7 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 
 ## Contacto
 
--   **Director/a académico/a**: No publicado en fuentes oficiales
+-   **Director/a académico/a**: Sin datos confirmados en el material consultado
 -   **Email del programa**: diplomaturas@fce.unl.edu.ar
 -   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 -   **WhatsApp Posgrado**: +54 9 342 449 1939
@@ -106,8 +106,10 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 ## Información adicional relevante
 
 -   **Inserción en el Programa Munigestión**: convenio UNL-UNR con alcance territorial provincial; orientado a fortalecer capacidades de gestión en municipios y comunas.
--   **Existencia de Dossier Informativo**: la web oficial provee un PDF completo para descarga con todos los detalles (costo, instructivos, etc.).
--   **Inscripción online disponible** con instructivo paso a paso desde la web oficial.
+-   **Existencia de Dossier Informativo**: la web oficial provee un PDF completo para descarga con todos los detalles (costo, instructivos, etc.): https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Diplomatura-Gesti%C3%B3n-Financiera-2026.pdf
+-   **Inscripción online disponible** con instructivo paso a paso desde la web oficial:
+    *   Link de inscripción online: https://servicios.unl.edu.ar/bienestar/inscripcion/4778
+    *   Instructivo para realizar la inscripción online: https://www.fce.unl.edu.ar/media/diplomaturas/inscripcionGFSP.pdf
 -   **Objetivos de la diplomatura**:
     *   Promover conocimientos sobre el Estado en sus diferentes niveles: Su organización institucional y administrativa, específicamente sobre el sistema de administración financiera y control interno.
     *   Conocer los sistemas de apoyo vinculados a la Administración Financiera del Sector Público entendiendo su relevancia en la instrumentación de una gestión pública eficiente.
@@ -117,6 +119,7 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 
 ## Fuentes consultadas
 
+-   https://www.fce.unl.edu.ar/gfsp/ (Información general)
 -   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=226 (Objetivos)
 -   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=227 (Presentación de la carrera)
 -   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=229 (Requisitos de ingreso)
@@ -127,7 +130,10 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 -   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=230 (Estructura curricular)
 -   https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=231 (Contenidos mínimos de las Asignaturas)
 -   https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185 (Informes e Inscripción)
+-   https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Diplomatura-Gesti%C3%B3n-Financiera-2026.pdf (Dossier Informativo)
+-   https://servicios.unl.edu.ar/bienestar/inscripcion/4778 (Link de inscripción online)
+-   https://www.fce.unl.edu.ar/media/diplomaturas/inscripcionGFSP.pdf (Instructivo de inscripción)
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.

@@ -2,8 +2,8 @@
   "slug": "gfsp",
   "url": "https://www.fce.unl.edu.ar/gfsp/",
   "strategy": "fce-microsite",
-  "content_hash": "92b5511a7493c1a4d615ed3823d2e0a01c67be5391ab05b92a7364a0cc3d7caf",
-  "previous_hash": "abf9a5afd43609db95d4190f99083e33df61787d40a7cd15578673cb2bbef68c",
+  "content_hash": "9ba8c611b9d71beed1ee3eaa9b7fa1a34bedea84b3e3aca070fa75dbc4db1796",
+  "previous_hash": "92b5511a7493c1a4d615ed3823d2e0a01c67be5391ab05b92a7364a0cc3d7caf",
   "pages_count": 12,
   "pages": [
     {
@@ -59,7 +59,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185",
       "title": "Informes e Inscripción",
-      "length": 685
+      "length": 930
     },
     {
       "url": "https://www.fce.unl.edu.ar/gfsp/index.php?act=showSubcategoria&id=233",
@@ -67,6 +67,6 @@
       "length": 455
     }
   ],
-  "scraped_at": "2026-05-30T16:31:51.612Z",
-  "last_checked_at": "2026-05-30T16:31:51.612Z"
+  "scraped_at": "2026-09-10T10:22:59.411Z",
+  "last_checked_at": "2026-09-10T10:22:59.411Z"
 }
