@@ -50,6 +50,8 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Informe-cierre-incripciones-Ingl%C3%A9s-II.docx.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Res-230-Modifica-Reglamento-de-Funcionamiento-Interno-del-Consejo-Directivo-Suscripci%C3%B3n-de-actas.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/res-756-22.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadosBuwG_firmadocMppM_estampado_Acta-sesi%C3%B3n-24-06-26.pdf
+  - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoRfXSS_firmadoSYVnH_estampado_Anexo-Acta-24-06-26.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoFsWyF_firmadoqAxJf_estampado_Acta-sesi%C3%B3n-27-05-26.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadonIhxY_firmadoqkFkj_estampado_Anexo-Acta-27-05-26.pdf
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/firmadoBAmkl_firmadoifoOY_estampado_Acta-sesi%C3%B3n-13-05-26.pdf
@@ -197,5 +199,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-09-07 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-10 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
