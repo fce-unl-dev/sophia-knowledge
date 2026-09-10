@@ -136,4 +136,4 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
+**Última revisión humana**: 2026-09-10
