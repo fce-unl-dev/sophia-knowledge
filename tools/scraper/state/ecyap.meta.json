@@ -2,86 +2,86 @@
   "slug": "ecyap",
   "url": "https://fce.unl.edu.ar/ecyap/",
   "strategy": "fce-microsite",
-  "content_hash": "b29e3130ea64f521887f6526042de0f2875646c07773c3710d62770d2b552c98",
-  "previous_hash": "e040488ab745d6fb96f4dd400df56ff66bd4cabc4b721aaa58c85b9a5062881a",
+  "content_hash": "842501a0d85242075331a53b88950f1561a1df2bb9234ca70b5959da57745ca0",
+  "previous_hash": "b29e3130ea64f521887f6526042de0f2875646c07773c3710d62770d2b552c98",
   "pages_count": 15,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/ecyap/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 121
+      "length": 529
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=169",
       "title": "Presentación de la carrera",
-      "length": 1213
+      "length": 1661
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=94",
       "title": "Cursado y evaluación",
-      "length": 960
+      "length": 1408
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=93",
       "title": "Días y horarios de cursado",
-      "length": 224
+      "length": 672
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=92",
       "title": "Duración de la carrera",
-      "length": 322
+      "length": 770
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showCategoria&id=190",
       "title": "Informes e inscripción",
-      "length": 543
+      "length": 991
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=170",
       "title": "Objetivos curriculares",
-      "length": 652
+      "length": 1100
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=98",
       "title": "Estructura del Plan de Estudios",
-      "length": 1377
+      "length": 1825
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=102",
       "title": "Optativas",
-      "length": 4530
+      "length": 4978
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=103",
       "title": "Asignaturas",
-      "length": 10715
+      "length": 11163
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=100",
       "title": "Conducción de la carrera",
-      "length": 1393
+      "length": 1841
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=101",
       "title": "Comité Académico",
-      "length": 543
+      "length": 991
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=99",
       "title": "Cuerpo Docente",
-      "length": 1646
+      "length": 2094
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=241",
       "title": "Novedades",
-      "length": 396
+      "length": 866
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780",
       "title": "Novedades",
-      "length": 640
+      "length": 1157
     }
   ],
-  "scraped_at": "2026-09-03T10:27:17.622Z",
-  "last_checked_at": "2026-09-03T10:27:17.622Z"
+  "scraped_at": "2026-09-10T10:21:30.959Z",
+  "last_checked_at": "2026-09-10T10:21:30.959Z"
 }
