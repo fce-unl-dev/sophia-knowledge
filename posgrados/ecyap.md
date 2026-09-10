@@ -140,7 +140,7 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/ecyap/ (homepage, convenio)
+- https://fce.unl.edu.ar/ecyap/ (homepage, convenio, inscripciones)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=169 (Presentación de la carrera, acreditación)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=94 (Cursado y evaluación, promoción de asignaturas, trabajo final)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=93 (Días y horarios de cursado)
@@ -155,4 +155,4 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ---
 
-**Última revisión humana**: 2026-09-03
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
