@@ -155,7 +155,7 @@ jobs:
           if [ "$decision" = "requires_review" ]; then
             title="KB sync: $slug — requiere revisión humana"
             label="needs-review"
-            review_note="Este PR requiere revisión porque cambió al menos una sección sensible o el pipeline detectó riesgo."
+            review_note="Este PR requiere revisión porque el pipeline detectó una señal concreta de posible error."
             disclaimer="No hay merge automático. El cambio solo entra al KB si este PR se revisa y mergea manualmente."
           else
             title="KB sync: $slug — update automático"
@@ -180,9 +180,9 @@ jobs:
           **Fuente**: \`$slug\`
           **Archivo KB**: \`$kb_path\`
           **Decisión pipeline**: \`$decision\`
-          **Motivo**: $reason
+          **Motivo de revisión**: $reason
           **Secciones cambiadas**: ${changed:-N/D}
-          **Secciones sensibles afectadas**: ${sensitive:-N/D}
+          **Alcance informativo**: ${sensitive:-N/D}
 
           ## Política B.2
 
@@ -193,7 +193,7 @@ jobs:
           ## Cómo revisar
 
           1. Mirar el diff de \`$kb_path\`.
-          2. Verificar datos sensibles contra la fuente oficial declarada.
+          2. Verificar la señal indicada en “Motivo de revisión” contra la fuente oficial declarada.
           3. Si todo está correcto, aprobar y mergear.
           4. Si hay dudas, dejar comentario o cerrar sin mergear.
           EOF

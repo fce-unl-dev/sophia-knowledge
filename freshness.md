@@ -109,21 +109,6 @@
 | `internacionales/internacionales.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `internacionales/programa-competitividad-global.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `internacionales/redes.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
-| `posgrados/diplotributos.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
-| `estudiantes/beneficios-posgrados-fce-unl.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/bienestar-estudiantil.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/calendario-academico.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/centro-estudiantes.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/clases-consultas.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/examenes.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/horarios-atencion.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/ingreso-2026.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/inscripciones-cursado.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/pasantias-rentadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/practicas-profesionales-supervisadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/sica.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
-| `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 5 d (2026-08-28) |
 | `cursos/capacitacion-en-power-bi-gestion-estrategica-de-datos-para-la-toma-de-decisiones.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
 | `cursos/formacion-de-gerentes-para-retail.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
 | `cursos/formacion-de-repositores-para-supermercado.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
@@ -137,6 +122,20 @@
 | `cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones-en-economia-administracion-y-marketing.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
 | `cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
 | `cursos/trading-profesional-basado-en-evidencia.md` | Pendiente / N/D | 🔴 N/D | 🟢 -2 d (2026-09-04) |
+| `estudiantes/beneficios-posgrados-fce-unl.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/bienestar-estudiantil.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/calendario-academico.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/centro-estudiantes.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/clases-consultas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/examenes.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/horarios-atencion.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/ingreso-2026.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/inscripciones-cursado.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/pasantias-rentadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/practicas-profesionales-supervisadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/sica.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
+| `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 -8 d (2026-09-10) |
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 N/D |
 | `operativos/ingreso-2026.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 107 d (2026-05-18) |
 | `posgrado-general/becas-docentes.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 107 d (2026-05-18) |
@@ -152,26 +151,27 @@
 | `operativos/aulas-virtuales.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 105 d (2026-05-20) |
 | `operativos/regimen-de-ensenanza.md` | Revisado | 🟢 105 d (2026-05-21) | 🔴 104 d (2026-05-21) |
 | `diplomaturas/empresas-familiares.md` | Revisado | 🟢 104 d (2026-05-22) | 🔴 103 d (2026-05-22) |
-| `compartidos/doctorado-estudios-sociales.md` | Revisado | 🟢 96 d (2026-05-30) | 🔴 95 d (2026-05-30) |
-| `compartidos/mdypp.md` | Revisado | 🟢 96 d (2026-05-30) | 🔴 95 d (2026-05-30) |
-| `compartidos/negocios-agroalimentarios.md` | Revisado | 🟢 96 d (2026-05-30) | 🔴 95 d (2026-05-30) |
-| `diplomaturas/diplomercados.md` | Revisado | 🟢 96 d (2026-05-30) | 🔴 95 d (2026-05-30) |
-| `diplomaturas/gfsp.md` | Revisado | 🟢 96 d (2026-05-30) | 🔴 95 d (2026-05-30) |
-| `diplomaturas/gto.md` | Revisado | 🟢 96 d (2026-05-30) | 🔴 95 d (2026-05-30) |
-| `posgrados/mrso.md` | Revisado | 🟢 96 d (2026-05-30) | 🔴 95 d (2026-05-30) |
 | `cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md` | Revisado | 🟢 72 d (2026-06-23) | 🔴 N/D |
 | `posgrado-general/estudiantes.md` | Revisado | 🟢 72 d (2026-06-23) | 🔴 86 d (2026-06-08) |
 | `posgrados/ecyge.md` | Revisado | 🟢 72 d (2026-06-23) | 🔴 79 d (2026-06-15) |
-| `posgrados/maea.md` | Revisado | 🟢 10 d (2026-08-24) | 🟢 9 d (2026-08-24) |
-| `posgrados/map.md` | Revisado | 🟢 6 d (2026-08-28) | 🟢 6 d (2026-08-27) |
-| `posgrados/mba.md` | Revisado | 🟢 6 d (2026-08-28) | 🟢 6 d (2026-08-27) |
 | `posgrados/dap.md` | Revisado | 🟢 6 d (2026-08-28) | 🟢 5 d (2026-08-28) |
-| `compartidos/mids.md` | Revisado | 🟢 3 d (2026-08-31) | 🟢 2 d (2026-08-31) |
-| `posgrado-general/cursos-posgrado.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
-| `posgrados/ecyap.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
-| `posgrados/edgop.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
-| `posgrados/maf.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
-| `posgrados/mcya.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
-| `posgrados/sindicatura-concursal.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
-| `posgrados/tributacion.md` | Revisado | 🟢 0 d (2026-09-03) | 🟢 -1 d (2026-09-03) |
 | `posgrado-general/crawler.md` | Revisado | 🟢 -5 d (2026-09-08) | 🟢 -5 d (2026-09-07) |
+| `posgrados/edgop.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -5 d (2026-09-07) |
+| `compartidos/doctorado-estudios-sociales.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `compartidos/mdypp.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `compartidos/mids.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `compartidos/negocios-agroalimentarios.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `diplomaturas/diplomercados.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `diplomaturas/gfsp.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `diplomaturas/gto.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrado-general/cursos-posgrado.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/diplotributos.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/ecyap.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/maea.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/maf.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/map.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/mba.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/mcya.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/mrso.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/sindicatura-concursal.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
+| `posgrados/tributacion.md` | Revisado | 🟢 -7 d (2026-09-10) | 🟢 -8 d (2026-09-10) |
