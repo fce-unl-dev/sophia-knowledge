@@ -2,8 +2,8 @@
   "slug": "mrso",
   "url": "https://fce.unl.edu.ar/mrso/",
   "strategy": "fce-microsite",
-  "content_hash": "b76589ac0ecf6c636f3d4d3da962a5b8b50b67d7711202dafa65ff4be45406ed",
-  "previous_hash": "ccab548c4334872a795b6ac4a01071710f0c75d38455a20dbd9dedbbb7ef7fcb",
+  "content_hash": "479b40089c24eb9823c033f6205436d7a63f1345ad337bd49c466ef3000a0155",
+  "previous_hash": "b76589ac0ecf6c636f3d4d3da962a5b8b50b67d7711202dafa65ff4be45406ed",
   "pages_count": 13,
   "pages": [
     {
@@ -14,64 +14,64 @@
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=187",
       "title": "PRESENTACIÓN DE LA CARRERA",
-      "length": 1472
+      "length": 1831
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=189",
       "title": "CURSADO Y EVALUACIÓN",
-      "length": 772
+      "length": 1131
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=190",
       "title": "DURACIÓN DE LA CARRERA",
-      "length": 318
+      "length": 677
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199",
       "title": "INFORMES E INSCRIPCIÓN",
-      "length": 687
+      "length": 1046
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=191",
       "title": "OBJETIVOS CURRICULARES",
-      "length": 562
+      "length": 921
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=192",
       "title": "ESTRUCTURA DEL PLAN DE ESTUDIO",
-      "length": 1611
+      "length": 1970
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=193",
       "title": "CORRELATIVIDADES",
-      "length": 738
+      "length": 1097
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=194",
       "title": "ASIGNATURAS",
-      "length": 8100
+      "length": 8459
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=195",
       "title": "OPTATIVAS",
-      "length": 3176
+      "length": 3535
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=196",
       "title": "CONDUCCIÓN DE LA CARRERA",
-      "length": 1751
+      "length": 2110
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=197",
       "title": "COMITÉ ACADÉMICO",
-      "length": 526
+      "length": 885
     },
     {
       "url": "https://www.fce.unl.edu.ar/mrso/index.php?act=showSubcategoria&id=198",
       "title": "CUERPO DOCENTE",
-      "length": 665
+      "length": 1024
     }
   ],
-  "scraped_at": "2026-05-30T16:29:57.251Z",
-  "last_checked_at": "2026-05-30T16:29:57.251Z"
+  "scraped_at": "2026-09-10T10:20:52.601Z",
+  "last_checked_at": "2026-09-10T10:20:52.601Z"
 }
