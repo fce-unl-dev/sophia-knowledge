@@ -2,16 +2,16 @@
   "slug": "mdypp",
   "url": "https://www.fcjs.unl.edu.ar/mdypp/",
   "strategy": "wordpress-homepage",
-  "content_hash": "5776302acff69dee3d37e80b5dd95194299135aaeb3b444fb43c5f9e892624e5",
-  "previous_hash": "c80b3388f2d46ba4ffd0cbd46ae94669cb19f8b7aef870713faf2c4a9bcf3922",
+  "content_hash": "6e6bd8a64bf9ca52dc914a349ef8f2e7d154f56d3f043d255dfec4bbc199ca01",
+  "previous_hash": "5776302acff69dee3d37e80b5dd95194299135aaeb3b444fb43c5f9e892624e5",
   "pages_count": 1,
   "pages": [
     {
       "url": "https://www.fcjs.unl.edu.ar/mdypp/",
       "title": "MAESTRÍA EN DESARROLLO Y POLÍTICAS PÚBLICAS: pago de cuotas",
-      "length": 937
+      "length": 1997
     }
   ],
-  "scraped_at": "2026-05-30T16:33:25.477Z",
-  "last_checked_at": "2026-05-30T16:33:25.477Z"
+  "scraped_at": "2026-09-10T10:25:04.380Z",
+  "last_checked_at": "2026-09-10T10:25:04.380Z"
 }
