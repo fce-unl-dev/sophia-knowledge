@@ -105,4 +105,4 @@ Nómina disponible en: https://www.fcjs.unl.edu.ar/mdypp/categorias/cuerpo-docen
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
+**Última revisión humana**: 2026-09-10
