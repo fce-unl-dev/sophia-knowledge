@@ -2,81 +2,86 @@
   "slug": "mids",
   "url": "https://www.fce.unl.edu.ar/sitios/mids/",
   "strategy": "fce-microsite",
-  "content_hash": "3d01236803dae3ebd9bd6e9fd509d359856af0dd098f5cec3fed177218b0831a",
-  "previous_hash": null,
-  "pages_count": 14,
+  "content_hash": "1f4ed57c7b842b37f81d6310b13dd63943ac23600cb63d13f2d4755a8abc8e9d",
+  "previous_hash": "3d01236803dae3ebd9bd6e9fd509d359856af0dd098f5cec3fed177218b0831a",
+  "pages_count": 15,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 27
+      "length": 354
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=322",
       "title": "Carrera Interinstitucional",
-      "length": 722
+      "length": 959
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=321",
       "title": "Presentación de la carrera",
-      "length": 1566
+      "length": 1803
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=323",
       "title": "Cursado y evaluación",
-      "length": 567
+      "length": 804
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=324",
       "title": "Días y horarios de cursado",
-      "length": 154
+      "length": 391
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=325",
       "title": "Duración de la carrera",
-      "length": 262
+      "length": 499
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=326",
       "title": "Requisitos de ingreso",
-      "length": 557
+      "length": 794
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showCategoria&id=242",
       "title": "INFORMES E INSCRIPCIÓN",
-      "length": 244
+      "length": 580
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=327",
       "title": "Título que otorga",
-      "length": 159
+      "length": 396
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=328",
       "title": "Objetivos",
-      "length": 858
+      "length": 1095
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=329",
       "title": "Perfil del egresado",
-      "length": 751
+      "length": 988
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=330",
       "title": "Estructura del Plan de Estudio",
-      "length": 1227
+      "length": 1464
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=331",
       "title": "Detalle de Asignaturas: Objetivos y contenidos mínimos",
-      "length": 4585
+      "length": 4822
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=333",
       "title": "Conducción de la carrera",
-      "length": 1099
+      "length": 1336
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showNoticia&id=807",
+      "title": "Novedades",
+      "length": 784
     }
   ],
-  "scraped_at": "2026-08-31T12:38:30.367Z",
-  "last_checked_at": "2026-08-31T12:38:30.367Z"
+  "scraped_at": "2026-09-10T10:28:12.739Z",
+  "last_checked_at": "2026-09-10T10:28:12.739Z"
 }

@@ -31,26 +31,26 @@ La Maestría se estructura en 4 módulos temáticos, un módulo de asignaturas o
 
 ### Módulos / asignaturas
 
-**MÓDULO 1: Herramientas necesarias para la planificación** (60 horas / 4 UCAs cada una)
+**MÓDULO 1: Herramientas necesarias para la planificación** (180 horas / 12 UCAs)
 - Métodos de investigación y análisis de datos
 - Gestión de Proyectos
 - Análisis espacial para la innovación en el desarrollo sostenible
 
-**MÓDULO 2: Herramientas necesarias para analizar los efectos de las políticas globales** (60 horas / 4 UCAs cada una)
+**MÓDULO 2: Herramientas necesarias para analizar los efectos de las políticas globales** (180 horas / 12 UCAs)
 - Medición de la productividad y la eficiencia
 - Análisis contrafactual de política pública
 - Evaluación del impacto socioeconómico
 
-**MÓDULO 3: Abordaje de la Sostenibilidad** (60 horas / 4 UCAs cada una)
+**MÓDULO 3: Abordaje de la Sostenibilidad** (180 horas / 12 UCAs)
 - Crecimiento Económico y Desarrollo Local
 - Competitividad urbana sostenible
 - Emprendimiento sostenible
 
-**MÓDULO 4: Incluyendo las desigualdades territoriales** (60 horas / 4 UCAs cada una)
+**MÓDULO 4: Incluyendo las desigualdades territoriales** (120 horas / 8 UCAs)
 - Política social y exclusión territorial
 - Política industrial y competitividad de los clusters
 
-**MÓDULO: OPTATIVAS** (30 horas / 2 UCAs cada una)
+**MÓDULO: OPTATIVAS** (120 horas / 8 UCAs)
 - Optativa I
 - Optativa II
 - Optativa III
@@ -73,24 +73,24 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - **Título previo requerido**: Título de grado en áreas afines a la gestión, la ciencia, la tecnología y las políticas públicas (tales como Administración, Economía, Ingeniería, Ciencias Sociales, Ciencias Ambientales, Agronomía, Biotecnología, entre otras) expedido por universidades reconocidas, con carreras de al menos 4 años de duración.
 - **Idiomas**: No publicado
 - **Otros antecedentes**: Se priorizará la admisión de profesionales que demuestren experiencia o interés en procesos de innovación y desarrollo sostenible.
-- **Documentación a presentar**: No publicado
-- **Proceso de admisión**: No publicado
+- **Documentación a presentar**: Sin datos confirmados en el material consultado.
+- **Proceso de admisión**: Sin datos confirmados en el material consultado.
 
 ## Aranceles e inscripción
 
 - **Matrícula**: A confirmar para ciclo 2026/2027
 - **Cuotas**: A consultar
-- **Modalidad de pago**: No publicado
-- **Becas disponibles**: No publicado
+- **Modalidad de pago**: Sin datos confirmados en el material consultado.
+- **Becas disponibles**: Sin datos confirmados en el material consultado.
 - **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027**
-- **Link de pre-inscripción**: No publicado
+- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/carreras_posgrado/index.php?act=showFormularioI&idCurso=1425#superior
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: **2026-04**
 - **Estado**: Cerrada
 - **Fuente del dato**: https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showCategoria&id=242 (Informes e Inscripción)
-- **Última actualización del dato**: **2026-08-31**
+- **Última actualización del dato**: **2026-09-10**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -124,7 +124,6 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/sitios/mids/ (Información de Interés)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=322 (Carrera Interinstitucional)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=321 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=323 (Cursado y evaluación)
@@ -136,9 +135,8 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=328 (Objetivos)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=329 (Perfil del egresado)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=330 (Estructura del Plan de Estudio)
-- https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=331 (Detalle de Asignaturas: Objetivos y contenidos mínimos)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=333 (Conducción de la carrera)
 
 ---
 
-**Última revisión humana**: 2026-08-31
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
