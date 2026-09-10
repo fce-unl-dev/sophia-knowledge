@@ -179,59 +179,59 @@ Trabajo Final Integrador individual. El plazo para su presentación y aprobació
 
 ## Cuerpo docente
 
-El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Concursal y Abogados, docentes de carreras de grado y posgrado:
+El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Concursal y Abogados, docentes de carreras de grado y posgrado.
 
 | Docente | Institución |
 |---|---|
 | Alonso, Daniel F. | UNL |
-| Barberio, Sergio | No publicado |
-| Barucca, Mario | No publicado |
+| Barberio, Sergio | Sin datos confirmados en el material consultado |
+| Barucca, Mario | Sin datos confirmados en el material consultado |
 | Benzo, Georgina Paola | UNL |
 | De Césaris, María Cristina | UNL |
-| Di Chiazza, Iván Gustavo | No publicado |
+| Di Chiazza, Iván Gustavo | Sin datos confirmados en el material consultado |
 | Finos, Waldo | UNL |
-| García, Silvana | No publicado |
-| Gerbaudo, Germán E. | No publicado |
+| García, Silvana | Sin datos confirmados en el material consultado |
+| Gerbaudo, Germán E. | Sin datos confirmados en el material consultado |
 | Gonzalez Ruedas, María Nieves | UNL |
 | Melini, Ricardo | UNL |
 | Moia, Ángel L. | UNL |
-| Molina Sandoval, Carlos | No publicado |
+| Molina Sandoval, Carlos | Sin datos confirmados en el material consultado |
 | Prono, Mariano | UNL |
 | Prono, Javier R. | UNL |
 | Prono, Lucila Inés | UNL |
 | Prono, Manuel E. C. | UNL |
 | Prono, Patricio M. | UNL |
-| Vedrovnik, Marcelo Eduardo | No publicado |
+| Vedrovnik, Marcelo Eduardo | Sin datos confirmados en el material consultado |
 
 ## Requisitos de admisión
 
 -   **Título previo requerido**: Título universitario de grado de Contador Público, otorgado por universidades argentinas nacionales o provinciales, públicas o privadas, legalmente reconocidas. Graduados de otras disciplinas afines a las Ciencias Económicas podrán postularse — el Comité Académico evaluará su admisión y en algunos casos, se prevé una instancia de nivelación, previa al inicio de la carrera, a los efectos de asegurar y homogeneizar una plataforma mínima de conocimientos en Concursos y Quiebras que estos aspirantes no posean.
--   **Idiomas**: No publicado — consultar
--   **Otros antecedentes**: No publicados — consultar
--   **Documentación a presentar**: No publicada en detalle — consultar
+-   **Idiomas**: Sin datos confirmados en el material consultado
+-   **Otros antecedentes**: Sin datos confirmados en el material consultado
+-   **Documentación a presentar**: Sin datos confirmados en el material consultado
 -   **Proceso de admisión**: Evaluación por el Comité Académico
 
 ## Aranceles e inscripción
 
--   **Matrícula**: A confirmar para ciclo 2027 — valores disponibles a partir de Diciembre 2026.
--   **Cuotas**: No publicado en fuentes oficiales — consultar
--   **Modalidad de pago**: No publicada — consultar
--   **Becas disponibles**: No publicado en fuentes oficiales — consultar
+-   **Matrícula**: **A confirmar para ciclo 2027** — valores disponibles a partir de Diciembre 2026.
+-   **Cuotas**: Sin datos confirmados en el material consultado
+-   **Modalidad de pago**: Sin datos confirmados en el material consultado
+-   **Becas disponibles**: Sin datos confirmados en el material consultado
 -   **Estado actual de inscripción**: Por confirmar — posible apertura en **Abril 2027**. Inscripciones abrirían en **Diciembre 2026**.
--   **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+-   **Link de pre-inscripción**: Sin datos confirmados en el material consultado
 
 ## Próxima cohorte
 
 -   **Fecha de inicio**: **2027-04**
 -   **Estado**: Por confirmar
--   **Fuente del dato**: https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784 (Novedades)
--   **Última actualización del dato**: **2026-09-03**
+-   **Fuente del dato**: https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784
+-   **Última actualización del dato**: **2026-09-10**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
--   **Directora académica**: Esp. Lucila Prono (Contadora, Especialista en Sindicatura Concursal; Titular por concurso de la Cátedra de Concursos y Quiebras FCE UNL; Jefe de trabajos prácticos por concurso en Cátedra de Sociedades FCE UNL; Profesora del Postgrado de Especialización en Sindicatura Concursal FCE UNL; Profesora en Diplomatura de Estudios Avanzados en Reestructuración de Pasivos y de Empresas en Crisis UNR)
+-   **Director/a académico/a**: Esp. Lucila Prono (Contadora, Especialista en Sindicatura Concursal; Titular por concurso de la Cátedra de Concursos y Quiebras FCE UNL; Jefe de trabajos prácticos por concurso en Cátedra de Sociedades FCE UNL; Profesora del Postgrado de Especialización en Sindicatura Concursal FCE UNL; Profesora en Diplomatura de Estudios Avanzados en Reestructuración de Pasivos y de Empresas en Crisis UNR)
 -   **Coordinador Académico**: Mg. Mariano Prono (Miembro del Comité Académico; Docente de las materias Derecho Concursal I y Derecho Concursal II; Abogado, Magíster en asesoramiento jurídico de empresas, autor de varias obras)
 -   **Coordinadora Técnica**: Esp. Georgina Benzo (Miembro del Comité Académico; Docente de las materias Derecho Concursal I y II, Práctica Concursal I y II; Contadora Pública, Abogada, Especialista en Sindicatura Concursal, Especialista en Magistratura, Doctoranda en Derecho)
 -   **Email del programa**: especsindicatura@fce.unl.edu.ar
@@ -256,23 +256,24 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 -   **Marco normativo**: Ley 24.522 de Concursos y Quiebras (Argentina).
 -   **Incumbencia profesional**: Actuación del Contador Público como Síndico Concursal en concurso preventivo y quiebra.
 -   **Objetivos generales**: Capacitar al contador público en los conocimientos relacionados con el Derecho de las crisis e insolvencias patrimoniales, en sus aspectos jurídicos y económicos sustanciales y formales, teóricos y prácticos, para el ejercicio de una actividad profesional que es de su exclusiva incumbencia: la sindicatura en los concursos preventivos y en las quiebras.
+-   **Link general de inscripciones**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Fuentes consultadas
 
 -   https://fce.unl.edu.ar/sindicatura/ (Información de interés, sigla)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174 (Presentación de la carrera)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=154 (Duración de la carrera)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=156 (Cursado y promoción)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174 (Presentación de la carrera, objetivos, marco normativo)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=154 (Duración de la carrera, trabajo final)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=156 (Cursado y promoción, modalidades)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=160 (Título que otorga)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showCategoria&id=193 (Requisitos de inscripción)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showCategoria&id=193 (Requisitos de inscripción, proceso de admisión)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=177 (Objetivos generales de la carrera)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=159 (Diagrama del Plan de Estudios)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=165 (Contenidos Temáticos de asignaturas)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=163 (Conducción de la carrera)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=159 (Estructura general, carga horaria, asignaturas y horas)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=165 (Contenidos temáticos de asignaturas)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=163 (Conducción de la carrera, director/a, coordinadores)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=164 (Comité Académico)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=162 (Cuerpo Docente)
--   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784 (Novedades - Inscripciones, Próxima cohorte)
+-   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784 (Novedades, inscripciones, próxima cohorte, aranceles, link general de inscripciones)
 
 ---
 
-**Última revisión humana**: 2026-09-03
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
