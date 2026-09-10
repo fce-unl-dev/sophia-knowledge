@@ -1,0 +1,72 @@
+{
+  "slug": "diplotributos",
+  "url": "https://www.fce.unl.edu.ar/diplotributos/index.php",
+  "strategy": "fce-microsite",
+  "content_hash": "ee7d177d673f36407a673bb1c4aa83c4f4e6b9af8db206924d27fc42f59d93e0",
+  "previous_hash": null,
+  "pages_count": 12,
+  "pages": [
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php",
+      "title": "INFORMACIÓN DE INTERÉS",
+      "length": 336
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=255",
+      "title": "Presentación de la Diplomatura",
+      "length": 1844
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=256",
+      "title": "Objetivos",
+      "length": 1155
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=257",
+      "title": "Destinatarios/as",
+      "length": 601
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=259",
+      "title": "Cursado",
+      "length": 350
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=260",
+      "title": "Requisitos para la obtención de la certificación académica",
+      "length": 544
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=261",
+      "title": "Duración de la Diplomatura",
+      "length": 425
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showCategoria&id=210",
+      "title": "INFORMES E INSCRIPCIÓN",
+      "length": 347
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=262",
+      "title": "Detalle de Módulos",
+      "length": 1057
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=263",
+      "title": "Contenidos mínimos de cada módulo",
+      "length": 4527
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showSubcategoria&id=264",
+      "title": "Autoridades FCE y Posgrado",
+      "length": 512
+    },
+    {
+      "url": "https://www.fce.unl.edu.ar/diplotributos/index.php?act=showNoticia&id=729",
+      "title": "Novedades",
+      "length": 508
+    }
+  ],
+  "scraped_at": "2026-09-10T10:28:17.296Z",
+  "last_checked_at": "2026-09-10T10:28:17.296Z"
+}
