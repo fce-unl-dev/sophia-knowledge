@@ -4,10 +4,11 @@
 
 - Responde "¿qué materia dicta X?" y "¿en qué comisión y horario da clases X?" sin tener que escanear las tablas organizadas por materia.
 - Es la vista inversa de la misma planilla oficial de cursado que alimenta `estudiantes/inscripciones-cursado.md`.
+- Es un candidato automático: debe pasar por revisión humana antes de agregarse a `indice.json`.
 
 ## Índice por Docente (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-08-28
+**Última actualización de planilla**: 2026-09-10
 
 - Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.
 
@@ -452,5 +453,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-07 (separado de inscripciones-cursado.md)
+**Última revisión automática**: 2026-09-10 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
