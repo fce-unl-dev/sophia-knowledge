@@ -11,7 +11,7 @@ La Maestría en Administración y Finanzas (MAF) es una carrera binacional argen
 - **Tipo**: Maestría profesional binacional con doble titulación
 - **Título que otorga**: Doble titulación:
   - "Magíster en Administración y Finanzas" de la UNL
-  - "Master of Arts in Management and Finance" de la FHKL
+  - Master of Arts “International Master in Management and Finance” de la FHKL
 - **Acreditación CONEAU**: Acreditada por CONEAU en 2020 — Res. N° 171. Reconocimiento Oficial Provisorio del Título por Res. ME N° 2929/21. (Primera acreditación CONEAU original: diciembre 2013.)
 - **Unidad académica**: FCE-UNL
 - **Carreras compartidas con otras unidades**: Sí — Universidad de Ciencias Aplicadas de Kaiserslautern (Alemania). Convenio en el marco del Centro Universitario Argentino-Alemán (CUAA).
@@ -86,8 +86,8 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 
 - **Fecha de inicio**: **2026-09 / 2026-10**
 - **Estado**: Abierta
-- **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Novedades - INSCRIPCIONES ABIERTAS)
-- **Última actualización del dato**: **2026-08-13**
+- **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
+- **Última actualización del dato**: **2026-09-10**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -127,10 +127,10 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=79 (Dirección Académica)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=85 (Comité académico)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Doble titulación, becas)
-- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=777 (Inscripciones abiertas, fecha de inicio, matrícula)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
+- https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Novedades - Doble titulación con Alemania)
 - https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
 
 ---
 
-**Última revisión humana**: 2026-09-03
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
