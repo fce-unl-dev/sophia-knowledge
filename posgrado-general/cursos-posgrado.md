@@ -16,13 +16,13 @@ Esta sección presenta la oferta de cursos de posgrado de la FCE-UNL, incluyendo
 
 ## Modalidad y duración
 
-- **Modalidad**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Lugar**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Modalidad**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
+- **Lugar**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Idioma**: Español
-- **Duración cursada**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Duración cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Duración trabajo final / tesis**: No aplica
-- **Carga horaria total**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Carga horaria total**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 
 ## Plan de estudios
 
@@ -41,7 +41,7 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Título previo requerido**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Idiomas**: No publicado
 - **Otros antecedentes**: No publicado
 - **Documentación a presentar**:
@@ -66,24 +66,24 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **Fecha de inicio**: Ver listado de cursos individuales a continuación.
 - **Estado**: Inscripciones abiertas para las cohortes de 2026.
 - **Fuente del dato**: https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos
-- **Última actualización del dato**: **2026-09-03**
+- **Última actualización del dato**: **2026-09-10**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 **Listado de cursos con inscripciones abiertas (cohorte 2026):**
-- **SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION**: Inicio: **2026-09-18**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría.
-- **TRABAJO FINAL EDGOP 2do Cuatrimestre**: Inicio: **2026-09-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
-- **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-23**. Ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible.
-- **De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado**: Inicio: **2026-10-06**.
-- **CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS**: Inicio: **2026-10-12**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
-- **ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS**: Inicio: **2026-10-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas.
-- **GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL**: Inicio: **2026-10-23**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría.
-- **COSTOS DE LA FUNCION COMERCIAL**: Inicio: **2026-10-26**. Ofrecido en el marco de la Especialización en Costos y Gestión Empresarial - a distancia.
+- **SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION**: Inicio: **2026-09-18**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría ([ver carrera](https://www.fce.unl.edu.ar/mcya)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1421.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1421#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1421#superior)
+- **TRABAJO FINAL EDGOP 2do Cuatrimestre**: Inicio: **2026-09-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1416.) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1416#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1416#superior)
+- **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-23**. Ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible ([ver carrera](http://www.fce.unl.edu.ar/sitios/mids)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1426.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1426#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426#superior)
+- **De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado**: Inicio: **2026-10-06**. [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1402.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1402#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1402#superior)
+- **CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS**: Inicio: **2026-10-12**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1417.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1417#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1417#superior)
+- **ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS**: Inicio: **2026-10-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1418.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1418#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1418#superior)
+- **GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL**: Inicio: **2026-10-23**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría ([ver carrera](https://www.fce.unl.edu.ar/mcya)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1422.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1422#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1422#superior)
+- **COSTOS DE LA FUNCION COMERCIAL**: Inicio: **2026-10-26**. Ofrecido en el marco de la Especialización en Costos y Gestión Empresarial - a distancia ([ver carrera](https://www.fce.unl.edu.ar/ecyge/?sitio=ecyge)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1424.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1424#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1424#superior)
 
 ## Contacto
 
 - **Director/a académico/a**: No publicado
-- **Email del programa**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
+- **Email del programa**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 - **WhatsApp Posgrado**: +54 9 342 449 1939
 - **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
@@ -98,4 +98,4 @@ Para obtener información detallada sobre el plan de estudios, cuerpo docente, a
 
 ---
 
-**Última revisión humana**: 2026-09-03
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
