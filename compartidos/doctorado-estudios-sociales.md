@@ -10,7 +10,7 @@ Doctorado de carácter interdisciplinario dictado por la **Facultad de Humanidad
 - **Código corto / sigla**: No publicado
 - **Tipo**: Doctorado
 - **Título que otorga**: Doctor en Estudios Sociales
-- **Acreditación CONEAU**: Categoría A por 6 años (RESOL 2025-99536075-APN-CONEAU#MCH). Recomendación favorable de CONEAU para el reconocimiento provisorio del título según Dictamen del 22.5.2017 (Acta de Sesión Nº 462).
+- **Acreditación CONEAU**: Categoría A por 6 años (RESOL 2025-99536075-APN-CONEAU#MCH: https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/wp-content/uploads/sites/21/2019/10/Doc.-Etudios-Sociales-RS-2025-99536075-APN-CONEAUMCH.pdf). Recomendación favorable de CONEAU para el reconocimiento provisorio del título según Dictamen del 22.5.2017 (Acta de Sesión Nº 462).
 - **Unidad académica**: Facultad de Humanidades y Ciencias (FHUC) — UNL
 - **Carreras compartidas con otras unidades**: La FCE participa en la oferta como facultad colaboradora
 - **Marco normativo**: Aprobado por Res. H. Consejo Superior UNL N° 149/16
@@ -18,12 +18,12 @@ Doctorado de carácter interdisciplinario dictado por la **Facultad de Humanidad
 ## Modalidad y duración
 
 - **Modalidad**: Semi-estructurado y presencial
-- **Días y horarios de cursada**: No publicado
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
 - **Lugar**: FHUC — Ciudad Universitaria UNL S/N — Paraje El Pozo, Santa Fe
 - **Idioma**: Español
-- **Duración cursada**: A confirmar en el sitio oficial del doctorado
-- **Duración trabajo final / tesis**: No publicado
-- **Carga horaria total**: No publicado
+- **Duración cursada**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
+- **Duración trabajo final / tesis**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
+- **Carga horaria total**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
 
 ## Plan de estudios
 
@@ -46,32 +46,32 @@ https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32
 ## Requisitos de admisión
 
 - **Título previo requerido**: Título de grado universitario (los requisitos específicos se detallan en el sitio del doctorado)
-- **Idiomas**: No publicado
-- **Otros antecedentes**: No publicado
-- **Documentación a presentar**: No publicado
+- **Idiomas**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
+- **Otros antecedentes**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
+- **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
 - **Proceso de admisión**: Pre-inscripción en: https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=35
 
 ## Aranceles e inscripción
 
 - **Matrícula**: No publicado en fuentes oficiales — consultar con doctoradoes@fhuc.unl.edu.ar
 - **Cuotas**: No publicado en fuentes oficiales — consultar con doctoradoes@fhuc.unl.edu.ar
-- **Modalidad de pago**: No publicado
-- **Becas disponibles**: No publicado
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
 - **Estado actual de inscripción**: Consultar con doctoradoes@fhuc.unl.edu.ar o ver la sección de Pre-inscripción del sitio oficial.
 - **Link de pre-inscripción**: https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=35
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: No publicado
-- **Estado**: No publicado
-- **Fuente del dato**: No publicado
-- **Última actualización del dato**: No publicado
+- **Fecha de inicio**: A confirmar
+- **Estado**: Por confirmar
+- **Fuente del dato**: Sin datos confirmados en el material consultado
+- **Última actualización del dato**: Sin datos confirmados en el material consultado
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director/a académico/a**: No publicado
+- **Director/a académico/a**: Sin datos confirmados en el material consultado — consultar con doctoradoes@fhuc.unl.edu.ar
 - **Email del programa**: doctoradoes@fhuc.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: No aplica
 - **WhatsApp Posgrado**: No aplica
@@ -86,7 +86,9 @@ https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32
 
 ## Fuentes consultadas
 
-- https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/ (homepage, acreditación, título, modalidad, marco normativo)
+- https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/ (homepage, título, modalidad, marco normativo, acreditación CONEAU)
+- https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/wp-content/uploads/sites/21/2019/10/20-636IF-2025-119187171-APN-CONEAUMCH.pdf (resolución CONEAU)
+- https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/wp-content/uploads/sites/21/2019/10/Doc.-Etudios-Sociales-RS-2025-99536075-APN-CONEAUMCH.pdf (resolución CONEAU)
 - https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32 (cuerpo docente)
 - https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=35 (pre-inscripción)
 - https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/categorias/plan-de-estudios/ (plan de estudios)
@@ -95,4 +97,4 @@ https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
