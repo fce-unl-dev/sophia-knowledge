@@ -2,91 +2,91 @@
   "slug": "map",
   "url": "https://fce.unl.edu.ar/magister/",
   "strategy": "fce-microsite",
-  "content_hash": "991db28767a1e1a4d9e0478753440cccae2d0bbb828425a038178404b52adc1f",
-  "previous_hash": "6a483a023de86d1394bdc758f5d7623d858d60c1d09ffe8f869db2e39bc8671f",
+  "content_hash": "8904429b758f5f30b053ddba74d2e1aa70d4313ecb0e2207b156f663d48b2866",
+  "previous_hash": "991db28767a1e1a4d9e0478753440cccae2d0bbb828425a038178404b52adc1f",
   "pages_count": 16,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/magister/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 62
+      "length": 275
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=47",
       "title": "Presentación",
-      "length": 1485
+      "length": 1937
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=48",
       "title": "Conducción FCE",
-      "length": 628
+      "length": 1080
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=49",
       "title": "Conducción de la carrera",
-      "length": 2036
+      "length": 2488
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=50",
       "title": "Biblioteca",
-      "length": 636
+      "length": 1128
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=51",
       "title": "Perfiles de Ingreso y del Graduado",
-      "length": 1491
+      "length": 1943
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=52",
       "title": "Plan de estudio",
-      "length": 1421
+      "length": 4038
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=53",
       "title": "Modalidad y duración",
-      "length": 864
+      "length": 1316
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=54",
       "title": "Objetivos curriculares",
-      "length": 480
+      "length": 932
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=55",
       "title": "Cuerpo docente",
-      "length": 2273
+      "length": 2725
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=195",
       "title": "Informes e inscripción",
-      "length": 170
+      "length": 622
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=91",
       "title": "Revista",
-      "length": 540
+      "length": 1080
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=58",
       "title": "Principales ejes temáticos",
-      "length": 3133
+      "length": 3585
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showSubcategoria&id=59",
       "title": "Proyectos de tesis",
-      "length": 252
+      "length": 808
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showCategoria&id=36",
       "title": "Internacionalización",
-      "length": 969
+      "length": 1421
     },
     {
       "url": "https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776",
       "title": "Novedades",
-      "length": 333
+      "length": 785
     }
   ],
-  "scraped_at": "2026-08-27T17:10:31.395Z",
-  "last_checked_at": "2026-08-27T17:10:31.395Z"
+  "scraped_at": "2026-09-10T10:19:23.506Z",
+  "last_checked_at": "2026-09-10T10:19:23.506Z"
 }
