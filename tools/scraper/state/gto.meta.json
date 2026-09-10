@@ -2,8 +2,8 @@
   "slug": "gto",
   "url": "https://www.fce.unl.edu.ar/gto/",
   "strategy": "fce-microsite",
-  "content_hash": "5ce1fa1bbe288919d10e54bc80b8c8c5ef48f629494bcebf671916e2157cf119",
-  "previous_hash": "7149cadb82b04fb7120a8c3c8ac37ec531e002036c3484d5dbcdb5c5883474ad",
+  "content_hash": "93a6a81ff0f8ccf623b01537c34ceb42b9f25e218b593fbc917da8fbb497057f",
+  "previous_hash": "5ce1fa1bbe288919d10e54bc80b8c8c5ef48f629494bcebf671916e2157cf119",
   "pages_count": 12,
   "pages": [
     {
@@ -14,7 +14,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=212",
       "title": "Presentación de la carrera",
-      "length": 2501
+      "length": 2645
     },
     {
       "url": "https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=217",
@@ -59,7 +59,7 @@
     {
       "url": "https://www.fce.unl.edu.ar/gto/index.php?act=showCategoria&id=182",
       "title": "Informes e Inscripción",
-      "length": 686
+      "length": 941
     },
     {
       "url": "https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=213",
@@ -67,6 +67,6 @@
       "length": 454
     }
   ],
-  "scraped_at": "2026-05-30T16:32:08.667Z",
-  "last_checked_at": "2026-05-30T16:32:08.667Z"
+  "scraped_at": "2026-09-10T10:23:48.702Z",
+  "last_checked_at": "2026-09-10T10:23:48.702Z"
 }
