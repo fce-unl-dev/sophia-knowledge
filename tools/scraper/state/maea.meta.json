@@ -2,71 +2,71 @@
   "slug": "maea",
   "url": "https://fce.unl.edu.ar/maea/",
   "strategy": "fce-microsite",
-  "content_hash": "f8da05ab5d2a79c3ae71d5ebb5ea6bdd30a3dea76479cccb48206618ede1415a",
-  "previous_hash": "81220c9c6ad0fafcc7a36a65f93e9b2b9bf03c39dd00ee0122cffe19b5093a27",
+  "content_hash": "5da4a6093f2e6f4a6094cb17a5ec2dbdd717bbd28d7d8e3d021a4c3723af306f",
+  "previous_hash": "f8da05ab5d2a79c3ae71d5ebb5ea6bdd30a3dea76479cccb48206618ede1415a",
   "pages_count": 12,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/maea/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 313
+      "length": 715
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=74",
       "title": "Presentación de la carrera",
-      "length": 1101
+      "length": 1546
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=71",
       "title": "Modalidad y Duración",
-      "length": 281
+      "length": 639
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showCategoria&id=198",
       "title": "Informes e inscripción",
-      "length": 660
+      "length": 1018
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=65",
       "title": "Perfil y Título",
-      "length": 770
+      "length": 1128
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=66",
       "title": "Estructura Curricular",
-      "length": 1072
+      "length": 1430
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=67",
       "title": "Trabajo Final y Aprobación",
-      "length": 528
+      "length": 886
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=68",
       "title": "Conducción FCE",
-      "length": 618
+      "length": 976
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=69",
       "title": "Dirección Académica",
-      "length": 1573
+      "length": 1931
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=70",
       "title": "Cuerpo de Profesores",
-      "length": 1794
+      "length": 2896
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=303",
       "title": "Novedades",
-      "length": 623
+      "length": 1059
     },
     {
       "url": "https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=296",
       "title": "Novedades",
-      "length": 725
+      "length": 1231
     }
   ],
-  "scraped_at": "2026-08-24T06:39:43.937Z",
-  "last_checked_at": "2026-08-24T06:39:43.937Z"
+  "scraped_at": "2026-09-10T10:20:24.941Z",
+  "last_checked_at": "2026-09-10T10:20:24.941Z"
 }

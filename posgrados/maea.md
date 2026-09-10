@@ -17,11 +17,11 @@ La Maestría en Economía Aplicada (MAEA) de la FCE-UNL es un posgrado de carác
 ## Modalidad y duración
 
 - **Modalidad**: Presencial con dictado de sus clases combinando asistencia presencial, on line y mixta.
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con maea@fce.unl.edu.ar
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe
 - **Idioma**: Español
 - **Duración cursada**: Dos años
-- **Duración trabajo final / tesis**: No publicado en detalle — consultar
+- **Duración trabajo final / tesis**: Sin datos confirmados en el material consultado — consultar
 - **Carga horaria total**:
     - Formación Básica: 16 créditos (cada curso 60 horas = 4 créditos)
     - Formación Específica: 16 créditos (cada curso 30 horas = 2 créditos)
@@ -70,48 +70,48 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 ## Cuerpo docente
 
 **Docentes de UNL**
-- Depetris Guiguet, Edith (Ph.D. in Agricultural Economics, University of Wisconsin-Madison)
-- Forzani, Liliana (Ph.D. in Statistics, University of Minnesota, Dra. en Matemática, UNSL)
-- García Arancibia, Rodrigo (Dr. en Economía y Dr. en Estadística, UNR)
+- Depetris Guiguet, Edith (https://www.researchgate.net/profile/Edith-Guiguet) (Ph.D. in Agricultural Economics, University of Wisconsin-Madison)
+- Forzani, Liliana (https://sites.google.com/site/lilianaforzani/english) (Ph.D. in Statistics, University of Minnesota, Dra. en Matemática, UNSL)
+- García Arancibia, Rodrigo (https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=33938&articulos=yes) (Dr. en Economía y Dr. en Estadística, UNR)
 - Hauque, Sergio (Dr. en Cs. Jurídicas y Sociales, UNL)
-- Llop, Pamela (Dra. en Matemática, UNL)
-- Rossini, Gustavo (Ph.D in Agricultural Economics, University of Missouri-Columbia)
-- Vicentin Masaro, Jimena (Dra. en Cs. Económicas, mención Economía, UNC)
-- Coronel, Mariano Nicolás (Dr.(c) en Economía, UNR)
-- Brondino, Gabriel (Dr. en Doctor en Economía, Universidad de Buenos Aires)
+- Llop, Pamela (https://www.researchgate.net/profile/Pamela-Llop) (Dra. en Matemática, UNL)
+- Rossini, Gustavo (https://unl.academia.edu/GustavoRossini) (Ph.D in Agricultural Economics, University of Missouri-Columbia)
+- Vicentin Masaro, Jimena (https://orcid.org/0000-0003-2419-130X) (Dra. en Cs. Económicas, mención Economía, UNC)
+- Coronel, Mariano Nicolás (https://www.researchgate.net/profile/Mariano-Coronel) (Dr.(c) en Economía, UNR)
+- Brondino, Gabriel (https://ihucso.conicet.gov.ar/gabriel-brondino) (Dr. en Doctor en Economía, Universidad de Buenos Aires)
 
 **Docentes Externos**
-- Berges, Miriam (Dra. en Economía, UNLP). Profesora de la Universidad Nacional de Mar del Plata (UNMdP)
-- Berniell, Lucila (Ph.D. en Economía, Universidad Carlos III, España). Investigadora del CAF. Docente de la Universidad Torcuato Di Tella.
-- Moncarz, Pedro (Ph.D. in Economics, University of Nottingham, UK). Profesor de la Universidad Nacional de Córdoba. Investigador del CONICET.
-- Pellegrini, José Luis (Dr. en Economía, UNR). Profesor de la Universidad Nacional de Rosario (UNR).
-- Navarro, Ana Inés (Dra. en Economía, Universidad de San Andrés) Profesora titular y Directora del Departamento de Economía de la Facultad de Ciencias Empresariales y de la Maestría en Economía Aplicada de la Universidad Austral
-- Echeverría, Lucía (Dra. en Economía. UNLP.) Profesora de la UNMdP, Becaria Posdoctoral de Conicet
-- Álvarez, Ramiro Eugenio (Ph. D. in Economics. Università degli Studi de Siena). Profesor de la Universidad Nacional de San Martin (UNSAM)
+- Berges, Miriam (https://www.researchgate.net/profile/Miriam-Berges) (Dra. en Economía, UNLP). Profesora de la Universidad Nacional de Mar del Plata (UNMdP)
+- Berniell, Lucila (https://sites.google.com/site/lucilaberniell) (Ph.D. en Economía, Universidad Carlos III, España). Investigadora del CAF. Docente de la Universidad Torcuato Di Tella.
+- Moncarz, Pedro (https://ri.conicet.gov.ar/author/39310) (Ph.D. in Economics, University of Nottingham, UK). Profesor de la Universidad Nacional de Córdoba. Investigador del CONICET.
+- Pellegrini, José Luis (https://ri.conicet.gov.ar/author/SI14193) (Dr. en Economía, UNR). Profesor de la Universidad Nacional de Rosario (UNR).
+- Navarro, Ana Inés (https://www.austral.edu.ar/cienciasempresariales/docentes-rosario/navarro-ana-ines) (Dra. en Economía, Universidad de San Andrés) Profesora titular y Directora del Departamento de Economía de la Facultad de Ciencias Empresariales y de la Maestría en Economía Aplicada de la Universidad Austral
+- Echeverría, Lucía (https://sites.google.com/view/echeverrialucia) (Dra. en Economía. UNLP.) Profesora de la UNMdP, Becaria Posdoctoral de Conicet
+- Álvarez, Ramiro Eugenio (Ph. D. in Economics. Università degli Studi di Siena). Profesor de la Universidad Nacional de San Martin (UNSAM)
 
 ## Requisitos de admisión
 
 - **Título previo requerido**: Título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas.
-- **Idiomas**: No publicado — consultar
-- **Otros antecedentes**: Los graduados que no cuenten con el título de Licenciado en Economía deberán aprobar un Curso de Nivelación. Dicho Curso se realizará previo al comienzo de las clases formales.
-- **Documentación a presentar**: No publicada en detalle — consultar
-- **Proceso de admisión**: El Comité Académico evaluará todos los antecedentes y las condiciones del postulante, llevando a cabo una entrevista personal.
+- **Idiomas**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
+- **Otros antecedentes**: Los graduados que no cuenten con el título de Licenciado en Economía deberán aprobar un Curso de Nivelación. Dicho Curso se realizará previo al comienzo de las clases formales. El Comité Académico evaluará todos los antecedentes y las condiciones del postulante, llevando a cabo una entrevista personal.
+- **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
+- **Proceso de admisión**: Pre-inscripción, evaluación de antecedentes, entrevista personal con el Comité Académico.
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con maea@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar
+- **Matrícula**: A confirmar para ciclo 2026/2027
+- **Cuotas**: A consultar
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
 - **Estado actual de inscripción**: Por confirmar — consultar con maea@fce.unl.edu.ar
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/maea/index.php?act=showCategoria&id=198
-- **Última actualización del dato**: 2026-08-24
+- **Última actualización del dato**: 2026-09-10
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -134,8 +134,15 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
     - Analizar estructuras de mercados, su desempeño y los efectos sobre la competencia.
     - Desarrollar propuestas de políticas públicas y evaluación de su impacto.
     - Conducir investigaciones aplicadas a la problemática económica regional, nacional e internacional.
-- **Comité Académico**: Está integrado por el Director, tres (3) docentes de la Carrera, tres (3) representantes del Decanato y el Director del Departamento de Economía.
-- **Producción científica**: Docentes y alumnos publican en revistas internacionales (e.g. Revista Ensayos Económicos del BCRA, Revista de Economia e Sociologia Rural de Brasil).
+- **Comité Académico**: Está integrado por el Director, tres (3) docentes de la Carrera, tres (3) representantes del Decanato y el Director del Departamento de Economía. Sus funciones incluyen:
+    - Efectuar recomendaciones sobre cada propuesta de curso de Posgrado a ofrecer en la carrera, tanto en lo relativo a objetivos, contenidos, alcances, bibliografía, como en cuanto a los docentes involucrados en el dictado.
+    - Emitir opinión sobre las propuestas de Tema, Plan de Tesis, y equipo de dirección presentados por los alumnos.
+    - Recomendar la designación de docentes, Directores y/o Co-Directores de tesis o trabajos finales de Carrera, instructores, etc., y los Jurados de tesis.
+    - Emitir opinión acerca de la admisión y baja de alumnos, así como de la eventual readmisión de los mismos.
+    - Emitir opinión acerca de las solicitudes de reconocimiento previstas en el Artículo 17.
+    - Proponer los mecanismos que juzgue pertinentes para el normal desenvolvimiento de las actividades de la carrera y que contribuyan al mejoramiento de la misma.
+    - Emitir informes y dictámenes a requerimiento del Decano u otra autoridad competente para adoptar decisiones en todo otro asunto que aquellos consideren pertinente para asegurar el cumplimiento de los objetivos de la Carrera.
+- **Producción científica**: Docentes y alumnos publican en revistas internacionales. Por ejemplo, la Dra. Jimena Vicentin Masaro (docente) publicó en la Revista de Economía e Sociologia Rural (Brasil) y Ramiro Jorge (alumno) publicó en la Revista 'Ensayos Económicos' del Banco Central de la República Argentina.
 
 ## Fuentes consultadas
 
@@ -148,7 +155,10 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=67 (Trabajo Final y Aprobación)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=69 (Dirección Académica, Comité Académico)
 - https://www.fce.unl.edu.ar/maea/index.php?act=showSubcategoria&id=70 (Cuerpo de Profesores)
+- https://fce.unl.edu.ar/sitios/descargas/maea-reconocimiento-titulo-res-me-573-21.pdf (Reconocimiento oficial del título)
+- https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=303 (Publicación de Docente de MAEA)
+- https://www.fce.unl.edu.ar/maea/index.php?act=showNoticia&id=296 (Publicación de Alumno de MAEA)
 
 ---
 
-**Última revisión humana**: 2026-08-24
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
