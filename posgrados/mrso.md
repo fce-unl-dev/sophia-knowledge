@@ -10,7 +10,7 @@ La Maestría en Responsabilidad Social Organizacional (MRSO) de la FCE-UNL brind
 - **Código corto / sigla**: MRSO
 - **Tipo**: Maestría profesional, semiestructurada
 - **Título que otorga**: No publicado de forma textual en el microsite, pero por contexto: Magíster en Responsabilidad Social Organizacional — confirmar con mrso@fce.unl.edu.ar
-- **Acreditación CONEAU**: Acreditada por CONEAU; detalles específicos no publicados en web. (Creada por Res. CD N° 30/20 y aprobada por Res. HCS UNL N° 207/20.)
+- **Acreditación CONEAU**: Acreditada por CONEAU. Creada por Resolución Nº 30/20 del Consejo Directivo y aprobada por Resolución Nº 207/20 Del Honorable Consejo Superior de la Universidad Nacional del Litoral.
 - **Unidad académica**: FCE-UNL
 - **Carreras compartidas con otras unidades**: No aplica
 
@@ -27,14 +27,13 @@ La Maestría en Responsabilidad Social Organizacional (MRSO) de la FCE-UNL brind
 ## Plan de estudios
 
 ### Estructura general
-
 El Plan de Estudios está compuesto por:
 - **Ciclo de Formación Introductorio**: 105 horas (7 UCAs), que proveerá el conocimiento teórico y metodológico básico imprescindible para proceder posteriormente a la formación especializada del tema.
 - **Ciclo de Formación Especializado**: ocho módulos y con una afectación horaria total de 330 horas (22 UCAs). En cada uno de estos ocho módulos se presentan temáticas que profundizan aspectos de la Responsabilidad Social de las Organizaciones enfocados especialmente a las disciplinas de administración, contabilidad y economía.
-- **Módulo de Optativas**: Se requerirá el cursado y la aprobación de un curso optativo con un total de 45 horas (3 UCAs).
+- **Módulo de Optativas**: Se requerirá el cursado y la aprobación de un curso optativo con un total de 45 horas (3 UCAs). Sobre una estructura de optativas que se ofrecerá cada año académico. A fin de evaluar el proyecto de Maestría se proponen como ejemplo tres optativas.
 - **Laboratorio de Diseño de Trabajo Final**: 60 horas (4 UCAs), enfocado en lograr conocimiento sobre el proceso de investigación y la elaboración del proyecto final.
 - **Tutorías y escritura del trabajo final**: 165 horas (11 UCAs).
-- **Curso de Nivelación**: Para graduados de otras disciplinas, de 30 horas de cursado, el que deberá aprobarse con un examen integrador.
+- **Curso de Nivelación**: Para graduados de otras disciplinas, de 30 horas de cursado, el que deberá aprobarse con un examen integrador, según se establece en el art. 11 del Reglamento.
 
 ### Módulos / asignaturas
 
@@ -62,24 +61,24 @@ El Plan de Estudios está compuesto por:
 - Responsabilidad Social en Entidades sin fines de lucro
 
 **Correlatividades:**
-- Para acceder al Ciclo de Formación Especializada es necesario tener aprobadas las tres materias del ciclo Introductorio.
-- Para cursar “Gestión de la Responsabilidad Social” y “Marketing de Sostenibilidad” es necesario tener aprobado el módulo “Administración Estratégica de la Responsabilidad Social”.
-- Para cursar “Informes de Rendición de Cuentas en Responsabilidad Social” y “Finanzas e Inversión Sostenible” es necesario tener aprobado el módulo “Transparencia y Rendición de Cuentas – Accountability”.
+- Para acceder al ciclo de Formación Especializada es necesario tener aprobadas las tres materias del ciclo Introductorio.
+- En el ciclo de Formación Especializada se establecen las siguientes correlatividades:
+  - Para cursar “Gestión de la Responsabilidad Social” y “Marketing de Sostenibilidad” es necesario tener aprobado el módulo “Administración Estratégica de la Responsabilidad Social”.
+  - Para cursar “Informes de Rendición de Cuentas en Responsabilidad Social” y “Finanzas e Inversión Sostenible” es necesario tener aprobado el módulo “Transparencia y Rendición de Cuentas – Accountability”.
 
 ### Trabajo final / tesis
-
 Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años a partir de la inscripción a la carrera.
 
 ## Cuerpo docente
 
 **Docentes UNL:**
-- DEL BARCO Juan Pablo
-- DI RUSSO Leila
-- HAUQUE Sergio Miguel
-- MARCIPAR KATZ, Susana
-- MARTIN, Marcela Andrea
-- RABASEDAS, Ma. Laura
-- ZANDOMENI, Norma
+- DEL BARCO Juan Pablo (UNL)
+- DI RUSSO Leila (UNL)
+- HAUQUE Sergio Miguel (UNL)
+- MARCIPAR KATZ, Susana (UNL)
+- MARTIN, Marcela Andrea (UNL)
+- RABASEDAS, Ma. Laura (UNL)
+- ZANDOMENI, Norma (UNL)
 
 **Docentes Externos:**
 - BIANCHI, Enrique Carlos (UCC -Argentina)
@@ -96,19 +95,19 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 ## Requisitos de admisión
 
 - **Título previo requerido**: Graduados del campo de las ciencias económicas que posean título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas. Los graduados que no cuenten con el título de Contador Público, Licenciado en Administración, Licenciado en Economía o similar extranjero deberán aprobar un Curso de Nivelación o en su lugar un examen en el que se demuestre el conocimiento de los contenidos del mismo.
-- **Idiomas**: No publicado — consultar
-- **Otros antecedentes**: No publicados — consultar
-- **Documentación a presentar**: No publicada en detalle — consultar
+- **Idiomas**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
+- **Otros antecedentes**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
+- **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
 - **Proceso de admisión**: Evaluación por el Comité Académico
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con mrso@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Por confirmar — consultar
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+- **Matrícula**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
+- **Cuotas**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
+- **Estado actual de inscripción**: Por confirmar — consultar con mrso@fce.unl.edu.ar
+- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
 
 ## Próxima cohorte
 
@@ -159,4 +158,4 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 
 ---
 
-**Última revisión humana**: 2026-05-30
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
