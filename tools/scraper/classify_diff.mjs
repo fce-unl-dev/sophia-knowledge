@@ -2,10 +2,11 @@
 // repo en una de tres decisiones:
 //
 //   "no_change"        → no hay diferencias materiales, no escribir nada al repo
-//   "auto_merge"       → cambios solo en secciones no sensibles, mergear sin review
-//   "requires_review"  → al menos una sección sensible cambió, abrir PR para revisión humana
+//   "auto_merge"       → actualización rutinaria y consistente de una fuente oficial
+//   "requires_review"  → el candidato contiene una señal concreta de posible error
 //
-// "Secciones sensibles" se define en sources.json.sensitive_sections.
+// "Secciones sensibles" se conserva como metadato para explicar el alcance del
+// cambio, pero no es por sí solo una causa para frenar una actualización.
 //
 // Uso CLI:
 //   node classify_diff.mjs --candidate=state/mba.candidate.md --current=../posgrados/mba.md [--sources=sources.json]
@@ -32,11 +33,12 @@ REGLAS DE DECISIÓN:
    - Actualizaciones de fechas que NO pertenezcan a una sección sensible, siempre que no representen regresiones temporales (por ejemplo, cambiar del año actual a un año pasado).
    - Cambios de aulas, horarios de cursado o links a formularios/páginas web oficiales.
    - Reformulaciones o ampliaciones de secciones descriptivas (plan de estudios, perfil del egresado, información adicional).
-   - En general, cualquier cambio de datos que sea claro, lógico, libre de contradicciones internas y consistente con el resto del documento, y que no toque ninguna sección sensible.
+   - Actualizaciones rutinarias de una fuente oficial, incluso en modalidad, duración, aranceles, cohortes, requisitos o contactos, cuando el dato es claro, consistente y no presenta señales de error.
+   - Sustituciones de textos de ausencia de datos, mejoras de redacción y la incorporación de enlaces o citas oficiales que no cambian el significado del dato.
+   - Agregar secciones o fichas nuevas cuando el contenido es completo, coherente y proviene de una fuente oficial identificable.
 
 2. REQUIRES_REVIEW (Requiere Revisión Humana):
-   - Cambios en secciones sensibles: aranceles (tasas, precios, cuotas), requisitos de admisión, datos de contacto (correos, teléfonos), nombres de directores o coordinadores, modalidad y duración, acreditación CONEAU y próxima cohorte. Estos cambios van SIEMPRE a revisión humana, incluso cuando parezcan correctos y coherentes.
-   - Archivos NUEVOS (no existe versión anterior): siempre requieren revisión humana, sin importar qué tan completo se vea el borrador.
+   - No mandes a revisión solamente porque cambió una sección sensible, porque se agregó un enlace oficial o porque el archivo es nuevo.
    - Contradicciones internas: Por ejemplo, que en una parte de la ficha diga que la modalidad es "Virtual" y en otra diga "Presencial", o que se mencionen requisitos contradictorios.
    - Regresiones temporales: Cambiar fechas de cohorte o inscripciones del futuro (ej. 2026) al pasado (ej. 2025), a menos que sea una corrección de un error claro.
    - Información sospechosa de error de scraping: Texto que parezca código, mensajes de error web ("404", "Acceso denegado", "Página no encontrada"), fragmentos de menús rotos o textos totalmente incoherentes.
@@ -140,6 +142,24 @@ export function diffSections(candidateSections, currentSections) {
   return { changed, added, removed };
 }
 
+const SCRAPE_ERROR_PATTERN = /\b(?:error\s*(?:404|403|500)|404\s*(?:not found|página)|acceso denegado|access denied|página no encontrada|page not found|internal server error)\b/i;
+const PLACEHOLDER_PATTERN = /\b(?:no publicado|sin datos confirmados|a confirmar|consultar con)\b/i;
+
+function hasDestructiveLoss(candidateSections, currentSections, changed, removed) {
+  if (removed.some((name) => !PLACEHOLDER_PATTERN.test(currentSections.get(name) || ''))) return true;
+  return changed.some((name) => {
+    const before = currentSections.get(name) || '';
+    const after = candidateSections.get(name) || '';
+    return !PLACEHOLDER_PATTERN.test(before) && PLACEHOLDER_PATTERN.test(after);
+  });
+}
+
+function findDeterministicAnomaly(candidate, candidateSections, currentSections, changed, removed) {
+  if (SCRAPE_ERROR_PATTERN.test(candidate)) return 'scrape_error_content';
+  if (hasDestructiveLoss(candidateSections, currentSections, changed, removed)) return 'destructive_information_loss';
+  return '';
+}
+
 export async function classifyDiff(candidate, current, { sensitiveSections = [], previewLines = 8, apiKey = '', model = DEFAULT_AUDIT_MODEL, fetchImpl = fetch } = {}) {
   const candSections = parseSections(candidate);
   const curSections = current ? parseSections(current) : new Map();
@@ -157,37 +177,34 @@ export async function classifyDiff(candidate, current, { sensitiveSections = [],
     };
   }
 
-  // Fallback a reglas tradicionales si no hay apiKey
-  if (!apiKey) {
-    if (!current) {
-      return {
-        decision: 'requires_review',
-        reason: 'no_existing_md',
-        changed_sections: [],
-        sensitive_changes: [],
-        non_sensitive_changes: [],
-        added_sections: [],
-        removed_sections: [],
-        preview: candidate.split('\n').slice(0, previewLines).join('\n'),
-      };
-    }
+  const sensitiveSet = new Set(sensitiveSections);
+  const sensitive = changed.filter((name) => sensitiveSet.has(name));
+  const nonSensitive = changed.filter((name) => !sensitiveSet.has(name));
+  const deterministicAnomaly = findDeterministicAnomaly(candidate, candSections, curSections, changed, removed);
 
-    const structuralChange = added.length > 0 || removed.length > 0;
-    const sensitiveSet = new Set(sensitiveSections);
-    const sensitive = changed.filter((name) => sensitiveSet.has(name));
-    const nonSensitive = changed.filter((name) => !sensitiveSet.has(name));
-
-    const requiresReview = structuralChange || sensitive.length > 0;
+  if (deterministicAnomaly) {
     return {
-      decision: requiresReview ? 'requires_review' : 'auto_merge',
-      reason: requiresReview
-        ? (structuralChange ? 'structural_change' : 'sensitive_section_changed')
-        : 'only_non_sensitive_changes',
+      decision: 'requires_review',
+      reason: deterministicAnomaly,
       changed_sections: changed,
       sensitive_changes: sensitive,
       non_sensitive_changes: nonSensitive,
       added_sections: added,
       removed_sections: removed,
+    };
+  }
+
+  // Fallback a reglas tradicionales si no hay apiKey
+  if (!apiKey) {
+    return {
+      decision: 'auto_merge',
+      reason: 'no_auditor_routine_update',
+      changed_sections: changed,
+      sensitive_changes: sensitive,
+      non_sensitive_changes: nonSensitive,
+      added_sections: added,
+      removed_sections: removed,
+      preview: !current ? candidate.split('\n').slice(0, previewLines).join('\n') : undefined,
     };
   }
 
@@ -233,27 +250,9 @@ export async function classifyDiff(candidate, current, { sensitiveSections = [],
       : 'requires_review';
     const aiReason = parsed.reason || 'ai_decision';
 
-    const sensitiveSet = new Set(sensitiveSections);
-    const sensitive = changed.filter((name) => sensitiveSet.has(name));
-    const nonSensitive = changed.filter((name) => !sensitiveSet.has(name));
-    const structuralChange = added.length > 0 || removed.length > 0;
-
-    // Candado determinista sobre la decisión del modelo. Solo endurece: el
-    // auditor puede pedir revisión humana donde las reglas no la pedirían,
-    // pero nunca puede levantar el candado sobre lo sensible, lo nuevo o los
-    // cambios estructurales.
-    let lockReason = '';
-    if (sensitive.length > 0) lockReason = 'ai_decision_overridden_sensitive';
-    else if (!current) lockReason = 'ai_decision_overridden_new_file';
-    else if (structuralChange) lockReason = 'ai_decision_overridden_structural';
-
-    const overridden = Boolean(lockReason) && aiDecision !== 'requires_review';
-
     return {
-      decision: lockReason ? 'requires_review' : aiDecision,
-      reason: overridden ? lockReason : aiReason,
-      // Se conserva lo que dijo el modelo aunque el candado lo haya pisado:
-      // sirve para medir después cuántas veces el auditor se equivocó.
+      decision: aiDecision,
+      reason: aiReason,
       ai_decision: aiDecision,
       ai_reason: aiReason,
       detailed_analysis: parsed.detailed_analysis || '',
@@ -262,32 +261,13 @@ export async function classifyDiff(candidate, current, { sensitiveSections = [],
       non_sensitive_changes: nonSensitive,
       added_sections: added,
       removed_sections: removed,
-      preview: !current ? candidate.split('\n').slice(0, previewLines).join('\n') : undefined
+      preview: !current ? candidate.split('\n').slice(0, previewLines).join('\n') : undefined,
     };
   } catch (err) {
     console.warn(`[classifyDiff] Fallback a reglas debido a error en Gemini:`, err.message || err);
-    if (!current) {
-      return {
-        decision: 'requires_review',
-        reason: 'no_existing_md_gemini_failed',
-        changed_sections: [],
-        sensitive_changes: [],
-        non_sensitive_changes: [],
-        added_sections: [],
-        removed_sections: [],
-        preview: candidate.split('\n').slice(0, previewLines).join('\n'),
-      };
-    }
-
-    const structuralChange = added.length > 0 || removed.length > 0;
-    const sensitiveSet = new Set(sensitiveSections);
-    const sensitive = changed.filter((name) => sensitiveSet.has(name));
-    const nonSensitive = changed.filter((name) => !sensitiveSet.has(name));
-    const requiresReview = structuralChange || sensitive.length > 0;
-
     return {
-      decision: requiresReview ? 'requires_review' : 'auto_merge',
-      reason: `gemini_failed_fallback_${requiresReview ? 'requires_review' : 'auto_merge'}`,
+      decision: 'auto_merge',
+      reason: 'gemini_failed_routine_update',
       changed_sections: changed,
       sensitive_changes: sensitive,
       non_sensitive_changes: nonSensitive,

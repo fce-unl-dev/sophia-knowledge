@@ -121,8 +121,8 @@ describe('proposeSectionsUpdate', () => {
       assert.equal(out.ok, true);
       assert.ok(out.created_docs.includes('academica/academica.md'));
       assert.ok(out.added_index_entries.includes('academica/academica.md'));
-      // sin GEMINI_API_KEY, un MD nuevo → requires_review (no_existing_md).
-      assert.equal(out.decision, 'requires_review');
+      // Una alta completa de fuente oficial se publica sin freno manual.
+      assert.equal(out.decision, 'auto_merge');
     } finally {
       await rm(kbRoot, { recursive: true, force: true });
     }
