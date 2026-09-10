@@ -139,4 +139,4 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-10 por pipeline de scraping.
+**Última revisión humana**: 2026-09-10
