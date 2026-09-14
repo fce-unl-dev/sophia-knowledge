@@ -66,14 +66,13 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **Fecha de inicio**: Ver listado de cursos individuales a continuación.
 - **Estado**: Inscripciones abiertas para las cohortes de 2026.
 - **Fuente del dato**: https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos
-- **Última actualización del dato**: **2026-09-10**
+- **Última actualización del dato**: **2026-09-14**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 **Listado de cursos con inscripciones abiertas (cohorte 2026):**
 - **SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION**: Inicio: **2026-09-18**. Ofrecido en el marco de la Maestría en Contabilidad y Auditoría ([ver carrera](https://www.fce.unl.edu.ar/mcya)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1421.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1421#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1421#superior)
-- **TRABAJO FINAL EDGOP 2do Cuatrimestre**: Inicio: **2026-09-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1416.) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1416#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1416#superior)
-- **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-23**. Ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible ([ver carrera](http://www.fce.unl.edu.ar/sitios/mids)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1426.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1426#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426#superior)
+- **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-23**. Ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible ([ver carrera](http://www.fce.unl.edu.ar/sitios/mids)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1426) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1426#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426#superior)
 - **De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado**: Inicio: **2026-10-06**. [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1402.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1402#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1402#superior)
 - **CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS**: Inicio: **2026-10-12**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1417.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1417#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1417#superior)
 - **ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS**: Inicio: **2026-10-19**. Ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/media/cursos-posgrado/1418.pdf) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1418#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1418#superior)
@@ -98,4 +97,4 @@ Para obtener información detallada sobre el plan de estudios, cuerpo docente, a
 
 ---
 
-**Última revisión humana**: 2026-09-10
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-14 por pipeline de scraping.
