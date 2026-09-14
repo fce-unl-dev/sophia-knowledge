@@ -2,86 +2,86 @@
   "slug": "edgop",
   "url": "https://fce.unl.edu.ar/edgop/",
   "strategy": "fce-microsite",
-  "content_hash": "5e51b85c3bc81b5201c520817f7cca14a11ce399973ed072df3371618477345f",
-  "previous_hash": "bfe19cebd3385f0bc15f0026ce4aa5222bbcd91e286e3090b0a9a9a15c9eefd8",
+  "content_hash": "5a070170965ce04eac87878b7b134ce8d0318cab74b02f6653c6e3ae36edcd32",
+  "previous_hash": "5e51b85c3bc81b5201c520817f7cca14a11ce399973ed072df3371618477345f",
   "pages_count": 15,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/edgop/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 213
+      "length": 621
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175",
       "title": "Presentación de la carrera",
-      "length": 2080
+      "length": 2370
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117",
       "title": "Duración de la carrera",
-      "length": 859
+      "length": 1149
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=118",
       "title": "Cursado y evaluación",
-      "length": 1124
+      "length": 1414
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=122",
       "title": "Título que otorga",
-      "length": 225
+      "length": 515
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showCategoria&id=192",
       "title": "Informes e inscripción",
-      "length": 444
+      "length": 734
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=121",
       "title": "Estructura del Plan de Estudios",
-      "length": 1932
+      "length": 2222
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=126",
       "title": "Asignaturas",
-      "length": 18423
+      "length": 18713
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=127",
       "title": "Optativas",
-      "length": 6542
+      "length": 6832
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=181",
       "title": "Objetivos curriculares",
-      "length": 1791
+      "length": 2081
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=124",
       "title": "Conducción de la carrera",
-      "length": 4576
+      "length": 4866
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=125",
       "title": "Comité Académico",
-      "length": 468
+      "length": 758
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=123",
       "title": "Cuerpo Docente",
-      "length": 617
+      "length": 907
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=246",
       "title": "Novedades",
-      "length": 1008
+      "length": 1298
     },
     {
       "url": "https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779",
       "title": "Novedades",
-      "length": 403
+      "length": 766
     }
   ],
-  "scraped_at": "2026-09-07T11:08:50.801Z",
-  "last_checked_at": "2026-09-07T11:08:50.801Z"
+  "scraped_at": "2026-09-14T11:20:10.147Z",
+  "last_checked_at": "2026-09-14T11:20:10.147Z"
 }
