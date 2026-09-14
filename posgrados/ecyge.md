@@ -19,7 +19,7 @@ La Especialización en Costos y Gestión Empresarial (ECyGE) de la FCE-UNL conso
 - **Modalidad**: Dos modalidades disponibles:
   - **Presencial**: dictado de clases combinando asistencia presencial, online y mixta. Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final. La promoción de cada asignatura será dispuesta por el profesor responsable, pudiendo consistir en exposición durante el cursado de los casos trabajados en clases, un examen individual teórico-práctico, desarrollo de casos, trabajo práctico grupal, evaluación a material abierto.
   - **A distancia**: el dictado se realizará de forma tal que el estudiante podrá administrar sus propios tiempos de lectura, análisis de material multimedia y realización de actividades propuestas, complementado con encuentros sincrónicos con los docentes para profundizar algunos temas y atender consultas. Se trabajará con la plataforma Moodle y se utilizarán diversas herramientas tecnológicas para el desarrollo de los contenidos. La evaluación también se realizará de forma online.
-- **Días y horarios de cursada**: No publicado en detalle en el microsite — consultar con posgrado@fce.unl.edu.ar
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (modalidad presencial) / 100% online (modalidad a distancia)
 - **Idioma**: Español
 - **Duración cursada**: 3 cuatrimestres (año y medio)
@@ -78,26 +78,26 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
   - **a)** Graduados universitarios con titulación en áreas de Contabilidad, Administración o Economía
   - **b)** Graduados universitarios en distintas áreas de la Ingeniería, cuando su plan incluya contenidos suficientes en Contabilidad, Administración o Economía (a criterio del Comité de Admisión)
   - **c)** Graduados universitarios en otras áreas, en carreras de no menos de 4 años, previa superación de una prueba de suficiencia
-- **Idiomas**: No publicado — consultar
-- **Otros antecedentes**: No publicado
-- **Documentación a presentar**: No publicada en detalle — consultar
+- **Idiomas**: Sin datos confirmados en el material consultado
+- **Otros antecedentes**: Sin datos confirmados en el material consultado
+- **Documentación a presentar**: Sin datos confirmados en el material consultado
 - **Proceso de admisión**: Evaluación por el Comité de Admisión
 
 ## Aranceles e inscripción
 
-- **Matrícula**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar
+- **Matrícula**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
+- **Cuotas**: Sin datos confirmados en el material consultado — consultar
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar
 - **Estado actual de inscripción**: Cerrada — próxima cohorte en **Abril 2027**
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar
+- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: **2027-04**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=775 (Novedades)
-- **Última actualización del dato**: **2026-06-15**
+- **Última actualización del dato**: **2026-09-14**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -148,4 +148,4 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 
 ---
 
-**Última revisión humana**: 2026-06-23
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-14 por pipeline de scraping.
