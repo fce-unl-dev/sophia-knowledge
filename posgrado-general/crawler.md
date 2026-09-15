@@ -17,12 +17,12 @@ La Maestría en Administración y Finanzas (MAF) es una carrera de posgrado inte
 ## Modalidad y duración
 
 - **Modalidad**: Interinstitucional, con trayectorias académicas en ambas universidades. Incluye una estadía de siete meses en la universidad extranjera.
-- **Días y horarios de cursada**: No publicado.
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe y Universidad de Kaiserslautern (Alemania).
 - **Idioma**: Español y asignaturas en inglés.
-- **Duración cursada**: No publicado.
+- **Duración cursada**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Duración trabajo final / tesis**: El Trabajo Final es codirigido por profesores de ambas universidades. No se especifica duración.
-- **Carga horaria total**: No publicado.
+- **Carga horaria total**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 
 ## Plan de estudios
 
@@ -43,7 +43,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 - **Título previo requerido**: Título de grado universitario.
 - **Idiomas**: Se requiere dominio de inglés para cursar asignaturas específicas. Se realiza un curso de idioma y cultura alemana durante la estadía en Alemania.
-- **Otros antecedentes**: No publicado.
+- **Otros antecedentes**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Documentación a presentar**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar.
 - **Proceso de admisión**: Pre-inscripción online, seguida de una entrevista con el Director de la Carrera.
 
@@ -61,7 +61,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Fecha de inicio**: A confirmar para ciclo 2027
 - **Estado**: Cerrada — próxima apertura de inscripciones en **Diciembre de 2026** para el ciclo **2027**
 - **Fuente del dato**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (respuesta frecuente Maestría en Administración y Finanzas)
-- **Última actualización del dato**: 2026-09-03
+- **Última actualización del dato**: 2026-09-15
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -86,7 +86,6 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Teléfonos adicionales**:
     - Especial Alumnado y Bedelía: 3425818810
     - Tesorería FCE (Secretaría Económica Financiera): 0342 4511179 int 145
-    - WhatsApp alternativo de Posgrado: +54 9 3425 19-1199
 - **Información de clases**:
     - Clases de consulta previa a exámenes, muestra de exámenes o consulta permanente: https://servicios.unl.edu.ar/bedeliamovil/NOwTk
     - Clases en general (grado, posgrado) y otras actividades en FCE (Terminal Informativa, enlaces Zoom, suspensiones): https://servicios.unl.edu.ar/bedeliamovil/uTMEg
@@ -118,4 +117,4 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ---
 
-**Última revisión humana**: 2026-09-08
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-15 por pipeline de scraping.
