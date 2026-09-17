@@ -2,91 +2,91 @@
   "slug": "dap",
   "url": "https://fce.unl.edu.ar/dap/",
   "strategy": "fce-microsite",
-  "content_hash": "84303c08e6ac5265fa045c580412697061829b6ff2f63be5806a23e33275e165",
-  "previous_hash": "7347df765dc31daa7de2e8a30ff7d2f8a0c9246e4c39b08f442447761c4ec3b8",
+  "content_hash": "67e0a4f3253abf2d3cc6c71894c63db093ef96b7eedd2fdcc7b7752cac657b02",
+  "previous_hash": "84303c08e6ac5265fa045c580412697061829b6ff2f63be5806a23e33275e165",
   "pages_count": 16,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/dap/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 62
+      "length": 260
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173",
       "title": "Presentación de la carrera",
-      "length": 1082
+      "length": 1438
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134",
       "title": "Sede Administrativa",
-      "length": 334
+      "length": 690
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=133",
       "title": "Título que otorga",
-      "length": 223
+      "length": 579
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=129",
       "title": "Cursado y evaluación",
-      "length": 618
+      "length": 974
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128",
       "title": "Duración de la carrera",
-      "length": 294
+      "length": 650
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189",
       "title": "Informes e inscripción",
-      "length": 790
+      "length": 1146
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=135",
       "title": "Ciclos integrativos",
-      "length": 1070
+      "length": 1426
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=132",
       "title": "Diagrama del Plan de Estudios",
-      "length": 957
+      "length": 1313
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=140",
       "title": "Contenidos Temáticos",
-      "length": 3613
+      "length": 3969
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=139",
       "title": "Distribución horaria",
-      "length": 815
+      "length": 1171
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=176",
       "title": "Objetivos curriculares",
-      "length": 1326
+      "length": 1682
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=136",
       "title": "Conducción de la carrera",
-      "length": 2857
+      "length": 3213
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=137",
       "title": "Comité Académico",
-      "length": 918
+      "length": 1274
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=141",
       "title": "Cuerpo Docente",
-      "length": 1138
+      "length": 1494
     },
     {
       "url": "https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540",
       "title": "Novedades",
-      "length": 333
+      "length": 762
     }
   ],
-  "scraped_at": "2026-08-28T22:21:14.201Z",
-  "last_checked_at": "2026-08-28T22:21:14.201Z"
+  "scraped_at": "2026-09-17T10:42:36.833Z",
+  "last_checked_at": "2026-09-17T10:42:36.833Z"
 }

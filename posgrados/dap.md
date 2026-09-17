@@ -17,7 +17,7 @@ Doctorado de cuarto nivel orientado a formar investigadores y profesionales de a
 ## Modalidad y duración
 
 - **Modalidad**: Presencial con dictado de clases por sistema de videoconferencia
-- **Días y horarios de cursada**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+- **Días y horarios de cursada**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
 - **Lugar**: FCE-UNL, Moreno 2557, Santa Fe
 - **Idioma**: Español
 - **Duración cursada**: 18 meses (tres semestres)
@@ -68,7 +68,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 ## Requisitos de admisión
 
 - **Título previo requerido**: Título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas.
-- **Idiomas**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+- **Idiomas**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
 - **Otros antecedentes**: Currículum Vitae para evaluar sus antecedentes y condiciones; entrevista personal.
 - **Documentación a presentar**: Currículum Vitae
 - **Proceso de admisión**: El Comité Académico verificará los requisitos de admisión y sus antecedentes. Las situaciones de admisión son:
@@ -79,17 +79,17 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 - **Matrícula**: A confirmar para ciclo 2027
 - **Cuotas**: A confirmar para ciclo 2027
-- **Modalidad de pago**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
+- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
 - **Estado actual de inscripción**: Cerrada — próxima cohorte en **Abril 2027**
-- **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con dap@fce.unl.edu.ar
+- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: **2027-04**
 - **Estado**: Por confirmar
 - **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera)
-- **Última actualización del dato**: **2026-08-28**
+- **Última actualización del dato**: **2026-09-17**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -138,4 +138,4 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ---
 
-**Última revisión humana**: 2026-08-28
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-17 por pipeline de scraping.
