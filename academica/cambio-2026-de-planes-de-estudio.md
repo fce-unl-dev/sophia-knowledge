@@ -18,11 +18,13 @@
 - Resolución 2598/2023 Ministerio de Educación
 - Resolución 556/2025 Ministerio de Capital Humano, Secretaría de Educación
 - Presentaciones en Jornadas y Encuentros
+- Socialización de las nuevas propuestas curriculares
 - Presentación de resultados del “Relevamiento para construir propuestas y acuerdos para la adecuación de los planes de estudio (FCE 2026)”
 - Ciclo de talleres en marco del CRE (mayo 2026, brindado para docentes de todos los departamentos)
 - Jornada de Sensibilización
 - Diálogo sobre los procesos y cambios de planes de estudios CP,LA,LE
 - Actas de reunión de Comisión de Evaluación Curricular
+- Acta del 11/08/2026
 - Acta del 04/06/2026
 - Acta del 30/04/2026
 
@@ -37,5 +39,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-14 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-17 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

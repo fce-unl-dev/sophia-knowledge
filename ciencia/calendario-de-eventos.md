@@ -15,24 +15,9 @@
 - Revista Ciencias Económicas.
 - Se reciben trabajos en forma permanente.
 - Más información
-- Convocatoria para presentar artículos Revista Mirando al Sur
-- Se informa que se encuentra abierta la convocatoria para presentar trabajos para la revista del Comité Académico Ciencias Políticas y Sociales. El Nº 4 llevará la consigna: “Universidad y democracia: narrativas, memorias y horizontes en América Latina”.
-- Fecha límite de envío: 26 de junio de 2026
-- Más información.
-- Dossier: Mirar/tocar/probar la extensión universitaria en clave de género. Sostenibilidad de la vida: encuentros, desencuentros y complejidades
-- Convocatoria Vol. 13, N° 22 (a publicarse en diciembre 2026): Desde el lunes 11 de mayo al lunes 10 de agosto de 2026.
-- Coordinación: Luisina Logiodice (UNL), Fernanda Pagura (UNL), Gabriela Iglesias (UDELAR) y Lara Arce Ower (UNMDP).
-- Fecha límite: 10 de agosto 2026
-- Más información sobre la convocatoria
 - CONGRESOS A REALIZARSE:
-- II Jornadas Nacionales de Educación 2026
-- 3 y 4 de septiembre, Mendoza.
-- Más información
-- II Congreso de Tributación de Universidades Nacionales del Centro del País
-- 3 y 4 de septiembre de 2026, Ciudad de Córdoba.
-- Más información
-- 11º Jornadas Regionales de Contabilidad y Auditoría
-- 3 y 4 de septiembre de 2026. Subcomisión de Contabilidad y Auditoría. Colegio de Graduados en Ciencias Económicas de Tucumán
+- 59 Jornadas Internacionales de Finanzas Públicas
+- 23 al 25 de septiembre de 2026. FCE (UNC) – Córdoba (Arg)
 - Más información
 - 31ª Reunión Anual Red PyMEs Mercosur
 - 1 y 2 de octubre, Facultad de Ciencias Económicas – UNL Santa Fe, Argentina
@@ -64,5 +49,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-14 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-17 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

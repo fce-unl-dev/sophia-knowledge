@@ -30,7 +30,9 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/plan-le2026.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-701-Calendario-Acad%C3%A9mico-2025-grado.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/FCE_Relevamiento-versi%C3%B3n-final-12.08.26.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Comisi%C3%B3n.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/powerpoint-usado-en-los-4-talleres-para-docentes-brindados-en-mayo-2026.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Acta-reuni%C3%B3n-Comisi%C3%B3n-de-Evaluaci%C3%B3n-Curricular-11-08.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Acta-reuni%C3%B3n-Comisi%C3%B3n-de-Evaluaci%C3%B3n-Curricular-04-06.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Acta-reuni%C3%B3n-Comisi%C3%B3n-de-Evaluaci%C3%B3n-Curricular-30-04.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Normas-y-Procedimientos-de-Ense%C3%B1anza.pdf
@@ -115,8 +117,6 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/RDCD_FCE-1145931-23_237-PROGRAMA-OI.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/PLAN-DE-ESTUDIO-tagp.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res._C.S._N__107_del_11-06-20_Expte._N_REC-1035159-20_Modifica_denominacion_Plan_estudios_Tecnicatura_Universitaria_en__Control_Auditoria__Gubernamental_FCE-1.pdf
-- **Subpáginas que no se pudieron descargar** durante la revisión automática:
-  - https://www.fce.unl.edu.ar/academica/categorias/propuesta/regimen-de-credito-fiscal-para-capacitacion (HTTP 404 on https://www.fce.unl.edu.ar/academica/categorias/propuesta/regimen-de-credito-fiscal-para-capacitacion)
 
 ## Advertencias para Sophia
 
@@ -129,5 +129,5 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 
 ---
 
-**Última revisión automática**: 2026-09-14 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-17 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
