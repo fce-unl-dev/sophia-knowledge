@@ -53,15 +53,15 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Becas disponibles**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
-- **Estado actual de inscripción**: Cerrada — próxima apertura de inscripciones en **Diciembre de 2026** para el ciclo **2027**.
+- **Estado actual de inscripción**: Cerrada — la apertura de inscripciones para el ciclo **2027** se realiza en **Diciembre de 2026**.
 - **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: A confirmar para ciclo 2027
-- **Estado**: Cerrada — próxima apertura de inscripciones en **Diciembre de 2026** para el ciclo **2027**
+- **Estado**: Cerrada — la apertura de inscripciones para el ciclo **2027** se realiza en **Diciembre de 2026**.
 - **Fuente del dato**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (respuesta frecuente Maestría en Administración y Finanzas)
-- **Última actualización del dato**: 2026-09-15
+- **Última actualización del dato**: 2026-09-17
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -117,4 +117,4 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-15 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-17 por pipeline de scraping.
