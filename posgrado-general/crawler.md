@@ -1,6 +1,6 @@
 # Maestría en Administración y Finanzas
 
-La Maestría en Administración y Finanzas (MAF) es una carrera de posgrado interinstitucional, dictada en colaboración entre la Facultad de Ciencias Económicas de la UNL y la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern (Alemania). Ofrece estudios de alto nivel académico a profesionales que buscan un desarrollo integral en management para actuar en un entorno globalizado, con un enfoque en la formación global, internacional e intercultural. Los alumnos obtendrán una doble titulación: “Magister en Administración y Finanzas” de la UNL y Master of Arts “International Master in Management and Finance” de la FHKL.
+La Maestría en Administración y Finanzas (MAF) es una carrera de posgrado interinstitucional, dictada en colaboración entre la Facultad de Ciencias Económicas de la UNL y la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern (Alemania). Ofrece estudios de alto nivel académico a profesionales que buscan un desarrollo integral en management para actuar en un entorno globalizado, con un enfoque en la formación global, internacional e intercultural. Los alumnos obtendrán una doble titulación: “Magister en Administración y Finanzas” de la UNL y Master of Arts “International Master in Management and Finance” de la FHKL. La estructura curricular incluye una estadía de siete meses en la universidad extranjera, donde el maestrando deberá aprobar asignaturas específicas de administración y finanzas (dictadas en inglés), realizar un curso de idioma y cultura alemana, y realizar una pasantía en una empresa del país europeo. El egresado logrará un perfil acorde a una maestría profesionalista, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas.
 
 ---
 
@@ -61,7 +61,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Fecha de inicio**: A confirmar para ciclo 2027
 - **Estado**: Cerrada — la apertura de inscripciones para el ciclo **2027** se realiza en **Diciembre de 2026**.
 - **Fuente del dato**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (respuesta frecuente Maestría en Administración y Finanzas)
-- **Última actualización del dato**: 2026-09-17
+- **Última actualización del dato**: 2026-09-21
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -90,6 +90,13 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
     - Clases de consulta previa a exámenes, muestra de exámenes o consulta permanente: https://servicios.unl.edu.ar/bedeliamovil/NOwTk
     - Clases en general (grado, posgrado) y otras actividades en FCE (Terminal Informativa, enlaces Zoom, suspensiones): https://servicios.unl.edu.ar/bedeliamovil/uTMEg
 - **Cómo pagar cuotas**: Deben hacerlo a través del sistema MERCURIO. Si es la primera cuota, deben esperar un mail de tesorería con el enlace a ese sistema. Si es otra cuota que no sea la primera, pueden ingresar en https://servicios.unl.edu.ar/mdcobro/ y tipear allí su DNI (solo para pagos de cuotas siguientes, porque primero Tesorería los tiene que dar de alta en Mercurio, por lo que no pueden entrar hasta que no reciban el mail de Tesorería).
+- **Presentación de documentación en UNL Virtual y Sistema de Gestión del Estudiante**: Revisar mensajes enviados por el sistema de posgrado.
+- **Trámites de diplomas y certificados**:
+    - Solicitud de diploma digital de carreras de posgrado: https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/TR%C3%81MITE-DE-SOLICITUD-DE-DIPLOMA-DIGITAL.pdf
+    - Solicitud de certificado de diplomaturas universitarias: https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/FCE-DIP-FO-2.5-01-INSTRUCTIVO-SOLICITUD-DE-CERTIFICADO-DE-DIPLOMATURA-UNIVERSITARIAS.pdf
+- **Obtención de certificados de cursos**: Descargar desde el sistema de posgrado: https://fce.unl.edu.ar/posgrados/
+- **Inscripciones y fechas de exámenes de posgrado**: Previamente comunicado por aula virtual y/o mensajes de grupo de WhatsApp.
+- **Certificados de examen**: Modelo disponible en https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/MODELO-DE-CERTIFICADO-DE-EXAMEN-Rev.0.pdf. Completar y enviar a posgrado@fce.unl.edu.ar para gestión de firmas.
 - **Diplomaturas de pre-grado y Tecnicaturas**: https://www.fce.unl.edu.ar/academica/propuesta-academica/
 - **Ingreso como alumno de grado a la FCE**: https://www.fce.unl.edu.ar/academica/ingreso-grado/
 - **Posgrados de otras unidades académicas de la UNL**: https://www.unl.edu.ar/propuesta-academica/?f=posgrado
@@ -100,13 +107,6 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
     - Guía de estudiantes: https://www.unlvirtual.edu.ar/guiaestudiantes/
     - Guía de gestión administrativa (más usada): https://www.unlvirtual.edu.ar/guiaestudiantes/?portfolio=gestion-administrativa
 - **Subir comprobante de transferencia**: El instructivo fue enviado por mail al pre-inscribirse. Asegurarse de que sea un archivo PDF.
-- **Presentación de documentación en UNL Virtual y Sistema de Gestión del Estudiante**: Revisar mensajes enviados por el sistema de posgrado.
-- **Trámites de diplomas y certificados**:
-    - Solicitud de diploma digital de carreras de posgrado: https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/TR%C3%81MITE-DE-SOLICITUD-DE-DIPLOMA-DIGITAL.pdf
-    - Solicitud de certificado de diplomaturas universitarias: https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/FCE-DIP-FO-2.5-01-INSTRUCTIVO-SOLICITUD-DE-CERTIFICADO-DE-DIPLOMATURA-UNIVERSITARIAS.pdf
-- **Obtención de certificados de cursos**: Descargar desde el sistema de posgrado: https://fce.unl.edu.ar/posgrados/
-- **Inscripciones y fechas de exámenes de posgrado**: Previamente comunicado por aula virtual y/o mensajes de grupo de WhatsApp.
-- **Certificados de examen**: Modelo disponible en https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/MODELO-DE-CERTIFICADO-DE-EXAMEN-Rev.0.pdf. Completar y enviar a posgrado@fce.unl.edu.ar para gestión de firmas.
 
 ## Fuentes consultadas
 
@@ -117,4 +117,4 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-17 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-21 por pipeline de scraping.
