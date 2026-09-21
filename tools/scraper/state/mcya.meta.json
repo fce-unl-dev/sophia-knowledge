@@ -2,14 +2,14 @@
   "slug": "mcya",
   "url": "https://www.fce.unl.edu.ar/mcya/",
   "strategy": "fce-microsite",
-  "content_hash": "340b6bbc5cf0c544f26c4edb6c93499b0505848833f78fa83b2e7cd9a19e89e4",
-  "previous_hash": "cb67b7b8aac972a91c342d64ce5fd15c5bec37dfb7bbc2aebf5899d457f6b283",
-  "pages_count": 15,
+  "content_hash": "f7a5fd0fc0d002d2beff33111a920f16f180bc11879164203d7cbb457d8eab1f",
+  "previous_hash": "340b6bbc5cf0c544f26c4edb6c93499b0505848833f78fa83b2e7cd9a19e89e4",
+  "pages_count": 16,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/mcya/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 560
+      "length": 629
     },
     {
       "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199",
@@ -57,6 +57,11 @@
       "length": 1759
     },
     {
+      "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=243",
+      "title": "INTERNACIONALIZACION",
+      "length": 1753
+    },
+    {
       "url": "https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=208",
       "title": "CONDUCCIÓN DE LA CARRERA",
       "length": 1954
@@ -82,6 +87,6 @@
       "length": 1112
     }
   ],
-  "scraped_at": "2026-09-10T10:21:04.410Z",
-  "last_checked_at": "2026-09-10T10:21:04.410Z"
+  "scraped_at": "2026-09-21T11:33:10.791Z",
+  "last_checked_at": "2026-09-21T11:33:10.791Z"
 }
