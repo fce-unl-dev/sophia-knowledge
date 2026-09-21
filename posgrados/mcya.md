@@ -6,23 +6,23 @@ La Maestría en Contabilidad y Auditoría (MCyA) de la FCE-UNL es un posgrado pr
 
 ## Identificación
 
-- **Nombre oficial**: MAESTRÍA EN CONTABILIDAD Y AUDITORIA
-- **Código corto / sigla**: MCyA
-- **Tipo**: Maestría profesional, semiestructurada
-- **Título que otorga**: Magíster en Contabilidad y Auditoría
-- **Acreditación CONEAU**: Acreditada por CONEAU; creada por Resolución CD N° 1023/19 y aprobada por Resolución HCS UNL N° 65/20.
-- **Unidad académica**: FCE-UNL
-- **Carreras compartidas con otras unidades**: No aplica
+-   **Nombre oficial**: MAESTRÍA EN CONTABILIDAD Y AUDITORIA
+-   **Código corto / sigla**: MCyA
+-   **Tipo**: Maestría profesional, semiestructurada y presencial
+-   **Título que otorga**: Magíster en Contabilidad y Auditoría
+-   **Acreditación CONEAU**: Acreditada por CONEAU; creada por Resolución CD N° 1023/19 y aprobada por Resolución HCS UNL N° 65/20.
+-   **Unidad académica**: FCE-UNL
+-   **Carreras compartidas con otras unidades**: Convenio de doble titulación con Máster Universitario en Auditoría y Contabilidad Superior de la Universidad de Sevilla (España) a partir del ciclo 2027.
 
 ## Modalidad y duración
 
-- **Modalidad**: Presencial con dictado de clases combinando asistencia presencial, online y mixta (Zoom)
-- **Días y horarios de cursada**: Viernes de 17 a 21 hs y sábados de 8:30 a 12:30 hs (carga semanal de 8 hs)
-- **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción Zoom)
-- **Idioma**: Español
-- **Duración cursada**: 2 años
-- **Duración trabajo final / tesis**: Plazo máximo 4 años a partir de la inscripción a la carrera
-- **Carga horaria total**: 36 créditos académicos (540 horas)
+-   **Modalidad**: Presencial con dictado de clases combinando asistencia presencial, online y mixta (Zoom)
+-   **Días y horarios de cursada**: Viernes de 17 a 21 hs y sábados de 8:30 a 12:30 hs (carga semanal de 8 hs)
+-   **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción Zoom)
+-   **Idioma**: Español
+-   **Duración cursada**: 2 años
+-   **Duración trabajo final / tesis**: Plazo máximo 4 años a partir de la inscripción a la carrera
+-   **Carga horaria total**: 36 créditos académicos (540 horas)
 
 ## Plan de estudios
 
@@ -33,9 +33,9 @@ Está estructurado sobre la base de 9 (nueve) asignaturas obligatorias, 2 (dos) 
 El plan de estudios se compone de 9 asignaturas obligatorias, 2 asignaturas optativas, 1 asignatura de Metodología de la Investigación y 1 Taller de Trabajo Final.
 
 **Asignaturas obligatorias**
-- 9 asignaturas obligatorias (nombres no publicados en fuentes oficiales — consultar con mcya@fce.unl.edu.ar)
-- 1 asignatura de Metodología de la Investigación
-- 1 Taller de Trabajo Final
+- Asignaturas obligatorias (9) — nombres no publicados en fuentes oficiales — consultar con mcya@fce.unl.edu.ar
+- Metodología de la Investigación (1)
+- Taller de Trabajo Final (1)
 
 **Asignaturas optativas (oferta flexible que se renueva cada edición)**
 La oferta de asignaturas optativas tiene por objetivos profundizar aspectos relevantes para los egresados en su entorno laboral/profesional. Responde a una oferta flexible, que se renueva en cada edición en función de los cambios producidos en el contexto económico - normativo y en la evolución del conocimiento. Algunas de las ofrecidas son:
@@ -79,79 +79,81 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Poseer título universitario de Contador Público (CP). En el caso que se postulen graduados provenientes de disciplinas afines a las Ciencias Económicas, no CP, el Comité Académico evaluará la posibilidad de su admisión. Se prevé, para estos casos, una instancia de nivelación en temas de Contabilidad y Auditoría que estos aspirantes no posean.
-- **Idiomas**: Sin datos confirmados en el material consultado
-- **Otros antecedentes**: Sin datos confirmados en el material consultado
-- **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
-- **Proceso de admisión**: Evaluación por el Comité Académico
+-   **Título previo requerido**: Poseer título universitario de Contador Público (CP). En el caso que se postulen graduados provenientes de disciplinas afines a las Ciencias Económicas, no CP, el Comité Académico evaluará la posibilidad de su admisión. Se prevé, para estos casos, una instancia de nivelación en temas de Contabilidad y Auditoría que estos aspirantes no posean.
+-   **Idiomas**: Sin datos confirmados en el material consultado
+-   **Otros antecedentes**: Sin datos confirmados en el material consultado
+-   **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
+-   **Proceso de admisión**: Evaluación por el Comité Académico
 
 ## Aranceles e inscripción
 
-- **Matrícula**: **A confirmar para ciclo 2027**
-- **Cuotas**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
-- **Estado actual de inscripción**: Abierta a partir de mediados de Septiembre de 2026 para el ciclo 2027
-- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
+-   **Matrícula**: **A confirmar para ciclo 2027**
+-   **Cuotas**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
+-   **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
+-   **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
+-   **Estado actual de inscripción**: Abierta a partir de mediados de Septiembre de 2026 para el ciclo 2027
+-   **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: **2027-03**
-- **Estado**: Confirmada
-- **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
-- **Última actualización del dato**: **2026-09-10**
+-   **Fecha de inicio**: **2027-03**
+-   **Estado**: Confirmada
+-   **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
+-   **Última actualización del dato**: **2026-09-10**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
-- **Director/a académico/a**: Mg. Ricardo Melini
-- **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos**: Mg. Julia Cristobal
-- **Email del programa**: mcya@fce.unl.edu.ar
-- **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
-- **WhatsApp Posgrado**: +54 9 342 449 1939
-- **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
+-   **Director/a académico/a**: Mg. Ricardo Melini
+-   **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos**: Mg. Julia Cristobal
+-   **Email del programa**: mcya@fce.unl.edu.ar
+-   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
+-   **WhatsApp Posgrado**: +54 9 342 449 1939
+-   **Teléfono FCE general**: +54 (0342) 4571179 / 4571181
 
 ## Información adicional relevante
 
-- **Comité Académico**:
-  - Directora de la carrera: Mg. Ricardo Pedro MELINI
-  - Representantes de la Carrera:
-    - Mg. María Luz CASABIANCA
-    - Mg. Julia Edith CRISTOBAL
-  - Representantes de Decanato:
-    - Secretaria Académica y Bienestar Estudiantil: Mg. Andrea PACÍFICO
-    - Secretaria de Posgrado: Mg. Marcela Andrea MARTIN
-    - Secretario de Investigación y Vinculación: Mg. Dario Mejias
-  - Director del Departamento de Contabilidad e Impuestos: Esp. Waldo Raul Finos
-- **Cursado y evaluación**: La carrera es presencial con dictado de sus clases combinando asistencia presencial, on line y mixta. Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final. La metodología de evaluación de asignatura será dispuesta por el profesor responsable, pudiendo consistir en la ejecución de trabajos individuales, la resolución de casos, la realización de trabajos de campo o las propuestas de solución a planteos teóricos o prácticos.
-- **Perfil del egresado**: El Máster en Contabilidad y Auditoría es un posgraduado con una sólida formación en el área de la Contabilidad y Auditoría, capacitado para:
-  - Aplicar los conocimientos teóricos e instrumentales en la resolución de problemas vinculados con la información contable interna y externa de las organizaciones en un contexto globalizado.
-  - Analizar y aplicar las normativas contables en un contexto cambiante y contribuir en el diseño de las mismas a través de su participación en organismos de regulación contable.
-  - Intervenir, con visión amplia y crítica, en la planificación, el desarrollo e implementación de sistemas contables de las organizaciones.
-  - Interpretar y analizar en forma crítica y reflexiva la información contable generada por las organizaciones con vistas a apoyar la toma de decisiones de los distintos agentes sociales interesados en la misma.
-  - Profundizar en conocimientos y aplicaciones prácticas que posibiliten una mejor comprensión de los procesos de planificación y control de gestión para la realización de procesos de auditoria efectivos.
-  - Participar en investigaciones contables con métodos científicos.
-  - Planificar y conducir procesos relacionados con la prospección de información contable con vistas a pronosticar escenarios futuros.
-  - Poseer una actitud crítica y flexible que le permite reconocer la necesidad de actualización permanente de los conocimientos e intervenir en equipos interdisciplinarios.
+-   **Comité Académico**:
+    -   Directora de la carrera: Mg. Ricardo Pedro MELINI
+    -   Representantes de la Carrera:
+        -   Mg. María Luz CASABIANCA
+        -   Mg. Julia Edith CRISTOBAL
+    -   Representantes de Decanato:
+        -   Secretaria Académica y Bienestar Estudiantil: Mg. Andrea PACÍFICO
+        -   Secretaria de Posgrado: Mg. Marcela Andrea MARTIN
+        -   Secretario de Investigación y Vinculación: Mg. Dario Mejias
+    -   Director del Departamento de Contabilidad e Impuestos: Esp. Waldo Raul Finos
+-   **Cursado y evaluación**: La carrera es presencial con dictado de sus clases combinando asistencia presencial, on line y mixta. Las distintas asignaturas se promocionan con el cumplimiento de una asistencia mínima del 75 % a las clases y mediante la aprobación de la evaluación final. La metodología de evaluación de asignatura será dispuesta por el profesor responsable, pudiendo consistir en la ejecución de trabajos individuales, la resolución de casos, la realización de trabajos de campo o las propuestas de solución a planteos teóricos o prácticos.
+-   **Perfil del egresado**: El Máster en Contabilidad y Auditoría es un posgraduado con una sólida formación en el área de la Contabilidad y Auditoría, capacitado para:
+    -   Aplicar los conocimientos teóricos e instrumentales en la resolución de problemas vinculados con la información contable interna y externa de las organizaciones en un contexto globalizado.
+    -   Analizar y aplicar las normativas contables en un contexto cambiante y contribuir en el diseño de las mismas a través de su participación en organismos de regulación contable.
+    -   Intervenir, con visión amplia y crítica, en la planificación, el desarrollo e implementación de sistemas contables de las organizaciones.
+    -   Interpretar y analizar en forma crítica y reflexiva la información contable generada por las organizaciones con vistas a apoyar la toma de decisiones de los distintos agentes sociales interesados en la misma.
+    -   Profundizar en conocimientos y aplicaciones prácticas que posibiliten una mejor comprensión de los procesos de planificación y control de gestión para la realización de procesos de auditoria efectivos.
+    -   Participar en investigaciones contables con métodos científicos.
+    -   Planificar y conducir procesos relacionados con la prospección de información contable con vistas a pronosticar escenarios futuros.
+    -   Poseer una actitud crítica y flexible que le permite reconocer la necesidad de actualización permanente de los conocimientos e intervenir en equipos interdisciplinarios.
+-   **Doble titulación y convenio internacional**: A partir del ciclo 2027, la Maestría en Contabilidad y Auditoría de la FCE-UNL y la Máster Universitario en Auditoría y Contabilidad Superior de la Universidad de Sevilla (España) implementarán un convenio de doble titulación. Esta propuesta permite cursar un semestre de la carrera en Sevilla, obteniendo títulos oficiales de ambas universidades con validez en Argentina y la Unión Europea.
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/mcya/ (Información general)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199 (Presentación de la carrera, Acreditación)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201 (Cursado y evaluación, Trabajo Final)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=202 (Días y horarios de cursado, Modalidad)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=203 (Duración de la carrera, Trabajo Final)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197 (Requisitos de inscripción)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=204 (Título que otorga)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=205 (Objetivos)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=206 (Perfil de egresado)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=207 (Estructura del plan de estudio, Asignaturas optativas, Carga horaria)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=208 (Conducción de la carrera - Director, Coordinadora)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=209 (Comité Académico)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=210 (Cuerpo docente)
-- https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778 (Novedades - Próxima cohorte, aranceles, inscripción)
+-   https://www.fce.unl.edu.ar/mcya/ (Información general)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199 (Presentación de la carrera, Tipo, Acreditación)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201 (Cursado y evaluación, Trabajo Final)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=202 (Días y horarios de cursado, Modalidad)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=203 (Duración de la carrera, Trabajo Final)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197 (Requisitos de inscripción)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=204 (Título que otorga)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=205 (Objetivos)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=206 (Perfil de egresado)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=207 (Estructura del plan de estudio, Asignaturas optativas, Carga horaria)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=243 (Internacionalización / Doble Titulación)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=208 (Conducción de la carrera - Director, Coordinadora)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=209 (Comité Académico)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=210 (Cuerpo docente)
+-   https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778 (Novedades - Próxima cohorte, aranceles, inscripción)
 
 ---
 
-**Última revisión humana**: 2026-09-10
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-21 por pipeline de scraping.
