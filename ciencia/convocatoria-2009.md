@@ -96,5 +96,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-21 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-24 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
