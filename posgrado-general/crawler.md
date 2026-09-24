@@ -45,7 +45,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Idiomas**: Se requiere dominio de inglés para cursar asignaturas específicas. Se realiza un curso de idioma y cultura alemana durante la estadía en Alemania.
 - **Otros antecedentes**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
 - **Documentación a presentar**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar.
-- **Proceso de admisión**: Pre-inscripción online, seguida de una entrevista con el Director de la Carrera.
+- **Proceso de admisión**: Pre-inscripción online, seguida de una entrevista con el Director de la Carrera quien informará sobre cuestiones académicas y el valor de la matrícula.
 
 ## Aranceles e inscripción
 
@@ -61,7 +61,7 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - **Fecha de inicio**: A confirmar para ciclo 2027
 - **Estado**: Cerrada — la apertura de inscripciones para el ciclo **2027** se realiza en **Diciembre de 2026**.
 - **Fuente del dato**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (respuesta frecuente Maestría en Administración y Finanzas)
-- **Última actualización del dato**: 2026-09-21
+- **Última actualización del dato**: 2026-09-24
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -114,7 +114,21 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - https://www.fce.unl.edu.ar/maf/ (URL oficial del programa)
 - https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
 - https://servicios.unl.edu.ar/mdcobro/ (Sistema Mercurio para pago de cuotas)
+- https://servicios.unl.edu.ar/bedeliamovil/NOwTk (Información de clases de consulta)
+- https://servicios.unl.edu.ar/bedeliamovil/uTMEg (Terminal Informativa de clases y actividades)
+- https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/TR%C3%81MITE-DE-SOLICITUD-DE-DIPLOMA-DIGITAL.pdf (Trámite de diploma digital)
+- https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/FCE-DIP-FO-2.5-01-INSTRUCTIVO-SOLICITUD-DE-CERTIFICADO-DE-DIPLOMATURA-UNIVERSITARIAS.pdf (Solicitud de certificado de diplomaturas)
+- https://fce.unl.edu.ar/posgrados/ (Obtención de certificados de cursos)
+- https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/MODELO-DE-CERTIFICADO-DE-EXAMEN-Rev.0.pdf (Modelo de certificado de examen)
+- https://www.fce.unl.edu.ar/academica/propuesta-academica/ (Diplomaturas de pre-grado y Tecnicaturas)
+- https://www.fce.unl.edu.ar/academica/ingreso-grado/ (Ingreso a carreras de grado)
+- https://www.unl.edu.ar/propuesta-academica/?f=posgrado (Posgrados de otras unidades académicas UNL)
+- https://www.fcjs.unl.edu.ar/posgrado/ (Posgrados FCJS)
+- https://www.unlvirtual.edu.ar/ (Posgrados a distancia UNL Virtual)
+- https://www.unlvirtual.edu.ar/ingresantes/ (Uso del aula UNL Virtual - Ingresantes)
+- https://www.unlvirtual.edu.ar/guiaestudiantes/ (Uso del aula UNL Virtual - Guía de estudiantes)
+- https://www.unlvirtual.edu.ar/guiaestudiantes/?portfolio=gestion-administrativa (Uso del aula UNL Virtual - Gestión administrativa)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-21 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-24 por pipeline de scraping.
