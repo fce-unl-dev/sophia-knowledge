@@ -2,8 +2,8 @@
   "slug": "mids",
   "url": "https://www.fce.unl.edu.ar/sitios/mids/",
   "strategy": "fce-microsite",
-  "content_hash": "1f4ed57c7b842b37f81d6310b13dd63943ac23600cb63d13f2d4755a8abc8e9d",
-  "previous_hash": "3d01236803dae3ebd9bd6e9fd509d359856af0dd098f5cec3fed177218b0831a",
+  "content_hash": "f579bbfe65bbcf65bc43ead77b2f03d0400786bd8673de15761f0298c2e76edf",
+  "previous_hash": "1f4ed57c7b842b37f81d6310b13dd63943ac23600cb63d13f2d4755a8abc8e9d",
   "pages_count": 15,
   "pages": [
     {
@@ -79,9 +79,9 @@
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showNoticia&id=807",
       "title": "Novedades",
-      "length": 784
+      "length": 832
     }
   ],
-  "scraped_at": "2026-09-10T10:28:12.739Z",
-  "last_checked_at": "2026-09-10T10:28:12.739Z"
+  "scraped_at": "2026-09-24T10:52:07.312Z",
+  "last_checked_at": "2026-09-24T10:52:07.312Z"
 }

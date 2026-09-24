@@ -32,29 +32,29 @@ La Maestría se estructura en 4 módulos temáticos, un módulo de asignaturas o
 ### Módulos / asignaturas
 
 **MÓDULO 1: Herramientas necesarias para la planificación** (180 horas / 12 UCAs)
-- Métodos de investigación y análisis de datos
-- Gestión de Proyectos
-- Análisis espacial para la innovación en el desarrollo sostenible
+- Métodos de investigación y análisis de datos (60 horas / 4 UCAs)
+- Gestión de Proyectos (60 horas / 4 UCAs)
+- Análisis espacial para la innovación en el desarrollo sostenible (60 horas / 4 UCAs)
 
 **MÓDULO 2: Herramientas necesarias para analizar los efectos de las políticas globales** (180 horas / 12 UCAs)
-- Medición de la productividad y la eficiencia
-- Análisis contrafactual de política pública
-- Evaluación del impacto socioeconómico
+- Medición de la productividad y la eficiencia (60 horas / 4 UCAs)
+- Análisis contrafactual de política pública (60 horas / 4 UCAs)
+- Evaluación del impacto socioeconómico (60 horas / 4 UCAs)
 
 **MÓDULO 3: Abordaje de la Sostenibilidad** (180 horas / 12 UCAs)
-- Crecimiento Económico y Desarrollo Local
-- Competitividad urbana sostenible
-- Emprendimiento sostenible
+- Crecimiento Económico y Desarrollo Local (60 horas / 4 UCAs)
+- Competitividad urbana sostenible (60 horas / 4 UCAs)
+- Emprendimiento sostenible (60 horas / 4 UCAs)
 
 **MÓDULO 4: Incluyendo las desigualdades territoriales** (120 horas / 8 UCAs)
-- Política social y exclusión territorial
-- Política industrial y competitividad de los clusters
+- Política social y exclusión territorial (60 horas / 4 UCAs)
+- Política industrial y competitividad de los clusters (60 horas / 4 UCAs)
 
 **MÓDULO: OPTATIVAS** (120 horas / 8 UCAs)
-- Optativa I
-- Optativa II
-- Optativa III
-- Optativa IV
+- Optativa I (30 horas / 2 UCAs)
+- Optativa II (30 horas / 2 UCAs)
+- Optativa III (30 horas / 2 UCAs)
+- Optativa IV (30 horas / 2 UCAs)
 
 ### Trabajo final / tesis
 Presentación y defensa oral y pública de un Trabajo Final de Maestría (TFM) de carácter individual y aplicado. Debe abordar una problemática específica del ámbito profesional combinando rigurosidad académica y relevancia práctica (formato de proyecto, estudio de caso u otra producción equivalente).
@@ -71,7 +71,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 ## Requisitos de admisión
 
 - **Título previo requerido**: Título de grado en áreas afines a la gestión, la ciencia, la tecnología y las políticas públicas (tales como Administración, Economía, Ingeniería, Ciencias Sociales, Ciencias Ambientales, Agronomía, Biotecnología, entre otras) expedido por universidades reconocidas, con carreras de al menos 4 años de duración.
-- **Idiomas**: No publicado
+- **Idiomas**: Sin datos confirmados en el material consultado.
 - **Otros antecedentes**: Se priorizará la admisión de profesionales que demuestren experiencia o interés en procesos de innovación y desarrollo sostenible.
 - **Documentación a presentar**: Sin datos confirmados en el material consultado.
 - **Proceso de admisión**: Sin datos confirmados en el material consultado.
@@ -90,7 +90,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - **Fecha de inicio**: **2026-04**
 - **Estado**: Cerrada
 - **Fuente del dato**: https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showCategoria&id=242 (Informes e Inscripción)
-- **Última actualización del dato**: **2026-09-10**
+- **Última actualización del dato**: **2026-09-24**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -124,6 +124,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 
 ## Fuentes consultadas
 
+- https://www.fce.unl.edu.ar/sitios/mids/ (Página principal)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=322 (Carrera Interinstitucional)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=321 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=323 (Cursado y evaluación)
@@ -139,4 +140,4 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 
 ---
 
-**Última revisión humana**: 2026-09-10
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-24 por pipeline de scraping.
