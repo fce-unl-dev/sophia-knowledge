@@ -2,8 +2,8 @@
   "slug": "cursos-posgrado",
   "url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
   "strategy": "wordpress-homepage",
-  "content_hash": "c50a191a1b10af8603d26d10d75a7cfd391a41d1b381869f528f5c1201a96122",
-  "previous_hash": "773ac67ce3e684dc1925448bc5c756f46f8b18bdcb450f323a39ce966058db88",
+  "content_hash": "b232f50041d73d5fa2557c7f7466d6ff7c03225b4aa8e9612a5b0634739ea723",
+  "previous_hash": "c50a191a1b10af8603d26d10d75a7cfd391a41d1b381869f528f5c1201a96122",
   "pages_count": 1,
   "pages": [
     {
@@ -12,6 +12,6 @@
       "length": 3595
     }
   ],
-  "scraped_at": "2026-09-21T11:36:08.359Z",
-  "last_checked_at": "2026-09-21T11:36:08.359Z"
+  "scraped_at": "2026-09-24T10:52:00.366Z",
+  "last_checked_at": "2026-09-24T10:52:00.366Z"
 }
