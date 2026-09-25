@@ -1,47 +1,15 @@
 {
-  "generated_at": "2026-08-28",
+  "generated_at": "2026-09-25",
   "listing_url": "https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos",
-  "stable_hash": "4583bbc775ccc10d9c7555a01362bc3c3a574fe2005db033a61165e58cf41f63",
+  "stable_hash": "b49edd98cc57b9671a886ab3b679ed44cdf19f658d4aca7ec3e34811a3033755",
   "courses": [
-    {
-      "id": "1415",
-      "title": "ECONOMÍA GUBERNAMENTAL",
-      "slug": "economia-gubernamental",
-      "start_date_iso": "2026-09-07",
-      "kb_path": "cursos-posgrado/economia-gubernamental.md",
-      "content_hash": "0112c4999062f7e3cf1bc2f7407f7ea11729014869f88e2eb4d8ea77fb6504e5"
-    },
-    {
-      "id": "1423",
-      "title": "METODOS CUANTITATIVOS PARA LOS NEGOCIOS",
-      "slug": "metodos-cuantitativos-para-los-negocios",
-      "start_date_iso": "2026-09-07",
-      "kb_path": "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md",
-      "content_hash": "a60b79c1d61735cd9992eb6bd24d695708451fc0af0edf3fb73b38035d212435"
-    },
-    {
-      "id": "1421",
-      "title": "SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION",
-      "slug": "sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion",
-      "start_date_iso": "2026-09-18",
-      "kb_path": "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md",
-      "content_hash": "9277069e695d6e531b4c390a3c049fab74c62d00d61653a2452898ad69a61bee"
-    },
-    {
-      "id": "1416",
-      "title": "TRABAJO FINAL EDGOP 2do Cuatrimestre",
-      "slug": "trabajo-final-edgop-2do-cuatrimestre",
-      "start_date_iso": "2026-09-19",
-      "kb_path": "cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md",
-      "content_hash": "9255fefdc0f52d34323762e71b56e4eda894a07e63743e4da3d0cd6296683323"
-    },
     {
       "id": "1426",
       "title": "Análisis Espacial para la Innovación en el Desarrollo Sostenible",
       "slug": "analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible",
-      "start_date_iso": "2026-09-23",
+      "start_date_iso": "2026-09-30",
       "kb_path": "cursos-posgrado/analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible.md",
-      "content_hash": "4f922f0b7b4c74ffe1a19c6fa07371672094df3e76c37e2bba104b27b71059a8"
+      "content_hash": "727d5f300da100e643188231dc1b0e4ce50efc3aa413c9601e0e7b7f438b4353"
     },
     {
       "id": "1402",
@@ -49,7 +17,7 @@
       "slug": "de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado",
       "start_date_iso": "2026-10-06",
       "kb_path": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
-      "content_hash": "974d2757df6c7db8dcea0cd9d90536c0e7a1b9780979c9d7a0d8526adf0977af"
+      "content_hash": "2a7f5efda816a1ba04a999a88a96d92673c87be72b2b160ebedbf31813322e6f"
     },
     {
       "id": "1417",
@@ -57,7 +25,7 @@
       "slug": "conduccion-y-gerencia-en-instituciones-publicas",
       "start_date_iso": "2026-10-12",
       "kb_path": "cursos-posgrado/conduccion-y-gerencia-en-instituciones-publicas.md",
-      "content_hash": "fccd450557af37bbbb13889e6ef4dba1248f9b39323b882e14c9ea4d3cac2fd0"
+      "content_hash": "1e88bae74cbcf3c8bd4ec906785f321fdae259c4058eb48801762cef4a9e4c08"
     },
     {
       "id": "1418",
@@ -65,7 +33,7 @@
       "slug": "analisis-institucional-de-organizaciones-publicas",
       "start_date_iso": "2026-10-19",
       "kb_path": "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md",
-      "content_hash": "fb800ac583031d227e11537f0da1a03cda9dbf304a8fbfe0ea0049394704683b"
+      "content_hash": "50df68318510ca1e72aeb1d2344722bb857e0a419dcf412fc0f2e59393ed9dd7"
     },
     {
       "id": "1422",
@@ -73,7 +41,7 @@
       "slug": "gobierno-corporativo-y-responsabilidad-social-organizacional",
       "start_date_iso": "2026-10-23",
       "kb_path": "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md",
-      "content_hash": "8f4c2a6523ee031d01ed9c45e7f486e00be6935da3d539c26cd86d79ef4ed84b"
+      "content_hash": "db4f225f01345d63ba452c0aad382f24138f18a7f760829c32083a3e83c1e47b"
     },
     {
       "id": "1424",
@@ -81,7 +49,7 @@
       "slug": "costos-de-la-funcion-comercial",
       "start_date_iso": "2026-10-26",
       "kb_path": "cursos-posgrado/costos-de-la-funcion-comercial.md",
-      "content_hash": "49a0eaa6b2b65782c561ba4974d250b60a716fb7e9baef98baaeb0ac427d505b"
+      "content_hash": "4b180243759fd250e392b59ff78912cc10b82744d96113466f02efb2de999d33"
     }
   ]
 }
