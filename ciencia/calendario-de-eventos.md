@@ -19,6 +19,9 @@
 - 59 Jornadas Internacionales de Finanzas Públicas
 - 23 al 25 de septiembre de 2026. FCE (UNC) – Córdoba (Arg)
 - Más información
+- XL Jornadas de Docentes de Matemática de Facultades de Ciencias Económicas y Afines
+- 30 de septiembre, 1 y 2 de octubre del corriente año en la ciudad de Paraná, Entre Ríos
+- Más información
 - 31ª Reunión Anual Red PyMEs Mercosur
 - 1 y 2 de octubre, Facultad de Ciencias Económicas – UNL Santa Fe, Argentina
 - Más información
@@ -49,5 +52,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-24 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-28 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

@@ -13,6 +13,7 @@
 - Consejo Directivo
 - Reglamento interno
 - Actas del Consejo Directivo:
+- Acta 09/09/2026 | Anexo
 - Acta 26/08/2026 | Anexo
 - Acta 12/08/2026 | Anexo
 - Acta 22/07/2026 | Anexo
@@ -167,5 +168,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-24 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-09-28 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
