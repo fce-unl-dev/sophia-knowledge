@@ -71,7 +71,7 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - **Idiomas**: Inglés (las asignaturas se dictan en inglés)
 - **Otros antecedentes**: Selección competitiva. Los/las estudiantes seleccionados obtienen Beca CUAA que incluye pasajes aéreos, matrícula y otros beneficios. CUAA es financiado por los gobiernos de Argentina y Alemania y un consorcio de empresas multinacionales alemanas.
 - **Documentación a presentar**: No publicada en detalle — consultar
-- **Proceso de admisión**: Los/las estudiantes interesados/as deben ingresar al link de pre-inscripción. A partir de allí, se convocará a una entrevista con el Director de la Carrera quien informará sobre cuestiones académicas y el valor de la matrícula.
+- **Proceso de admisión**: Cuando se habilite una nueva convocatoria, los/las estudiantes interesados/as podrán ingresar al enlace de preinscripción. A partir de allí, se convocará a una entrevista con el Director de la Carrera, quien informará sobre cuestiones académicas y el valor de la matrícula.
 
 ## Aranceles e inscripción
 
@@ -79,15 +79,15 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - **Cuotas**: No publicado en fuentes oficiales — consultar
 - **Modalidad de pago**: No publicada — consultar
 - **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentino-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios. El organismo que permite el otorgamiento de dicha Beca es el Centro Universitario Argentino-Alemán (CUAA), el cual a su vez recibe fondos de los Gobiernos de Argentina y Alemania, y de un consorcio de empresas multinacionales alemanas.
-- **Estado actual de inscripción**: Abierta para inicio en **Septiembre/Octubre de 2026**
-- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
+- **Estado actual de inscripción (consulta del 2026-09-30)**: Cerrada en el CRM de Posgrado (`id_posgrado: 1076`; fecha límite informada: 2026-08-15). La respuesta frecuente del CRM prevé una apertura en diciembre de 2026 para el ciclo 2027; no confirma que esté abierta actualmente.
+- **Información sobre inscripciones**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: **2026-09 / 2026-10**
-- **Estado**: Abierta
-- **Fuente del dato**: https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
-- **Última actualización del dato**: **2026-09-10**
+- **Fecha de inicio**: No confirmada para el ciclo 2027 en las fuentes consultadas.
+- **Estado**: La respuesta frecuente del CRM prevé la apertura de inscripciones en diciembre de 2026 para el ciclo 2027; el registro consultado el 2026-09-30 figura cerrado. Confirmar la apertura y el inicio con la Secretaría de Posgrado.
+- **Fuente del estado y la previsión**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCarreras (`id_posgrado: 1076`; consulta del 2026-09-30).
+- **Última actualización del dato**: **2026-09-30**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
