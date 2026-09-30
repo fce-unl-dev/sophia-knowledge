@@ -91,15 +91,16 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 -   **Cuotas**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
 -   **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
 -   **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
--   **Estado actual de inscripción**: Abierta a partir de mediados de Septiembre de 2026 para el ciclo 2027
+-   **Estado actual de inscripción (consulta del 2026-09-30)**: Cerrada en el CRM de Posgrado (`id_posgrado: 1271`; fecha límite informada: 2026-09-23). La noticia sobre una apertura desde mediados de septiembre para el ciclo 2027 no acredita que siga abierta actualmente.
 -   **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
 
 ## Próxima cohorte
 
 -   **Fecha de inicio**: **2027-03**
--   **Estado**: Confirmada
--   **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
--   **Última actualización del dato**: **2026-09-10**
+-   **Estado**: La próxima edición está anunciada para marzo de 2027; la inscripción figura cerrada en el CRM consultado el 2026-09-30. Confirmar una nueva apertura con la Secretaría de Posgrado.
+-   **Fuente del inicio previsto**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
+-   **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCarreras (`id_posgrado: 1271`; consulta del 2026-09-30).
+-   **Última actualización del dato**: **2026-09-30**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
