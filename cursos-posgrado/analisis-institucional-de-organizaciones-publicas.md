@@ -48,8 +48,9 @@ Modalidad a distancia desde el 19/10/2026 al 21/12/2026
 
 ## Aranceles e inscripción
 
-- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado de inscripción (al 2026-07-31)**: Curso publicado en el catálogo oficial de cursos de posgrado. Confirmá la apertura de inscripción con la Secretaría de Posgrado.
+- **Aranceles (consulta del 2026-09-30)**: ARS 300.000 en un pago, o ARS 320.000 en total en dos cuotas.
+- **Estado de inscripción (consulta del 2026-09-30)**: Abierta, con fecha límite informada para el 2026-10-12.
+- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1418`).
 - **Pre-inscripción**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1418
 - **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).
 

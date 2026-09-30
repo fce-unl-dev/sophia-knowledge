@@ -53,18 +53,19 @@ Curso de posgrado de la Facultad de Ciencias Económicas (FCE-UNL) que introduce
 
 ## Aranceles e inscripción
 
-- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado actual de inscripción**: Por confirmar. Consultar disponibilidad y fechas en la Secretaría de Posgrado.
+- **Aranceles (consulta del 2026-09-30)**: ARS 250.000, hasta en dos cuotas.
+- **Estado de inscripción (consulta del 2026-09-30)**: Abierta, con fecha límite informada para el 2026-10-06.
+- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1402`).
 - **Modalidad de inscripción**: Preinscripción en línea en el sistema de Posgrado de la FCE-UNL (https://www.fce.unl.edu.ar/posgrados).
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: 2026-10-06 (según el catálogo oficial de cursos de posgrado).
-- **Estado**: Por confirmar la apertura de inscripción.
+- **Estado**: Inscripción abierta según el CRM de Posgrado consultado el 2026-09-30; fecha límite informada: 2026-10-06.
 - **Fuente del dato**: Catálogo oficial de cursos de posgrado FCE-UNL y Resolución C.D. Nº 799/25 (FCE-1266735-25).
 - **Última actualización del dato**: 2026-06-23
 
-> Nota: Para confirmar la próxima cohorte y la apertura de inscripción, escribí a posgrado@fce.unl.edu.ar.
+> Nota: El estado y arancel fueron verificados en el CRM de Posgrado el 2026-09-30. Para confirmar condiciones vigentes antes de inscribirse o pagar, consultar a posgrado@fce.unl.edu.ar.
 
 ## Contacto
 
