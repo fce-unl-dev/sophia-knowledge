@@ -1,6 +1,7 @@
 # Procedimientos Administrativos y Datos Operativos de Posgrado FCE-UNL
 
 > Fuente: DatosParaCrawler — https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar
+> Teléfono de Tesorería verificado además en https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarBasicos (consulta del 2026-09-30).
 > Esta ficha contiene información de procedimientos internos verificados por la Secretaría de Posgrado FCE-UNL.
 
 ---
@@ -11,7 +12,7 @@
 - **WhatsApp Posgrado**: +54 9 342 449 1939
 - **SIU Guaraní Posgrado**: consultas a alumnado@fce.unl.edu.ar
 - **Tesorería** (pagos, cuotas, facturas): tesoreria@fce.unl.edu.ar
-- **Teléfono Tesorería**: (0342) 4571179 interno 145
+- **Teléfono Tesorería**: (0342) 4511179 interno 145
 - **Teléfono general FCE**: +54 (0342) 4571179 / 4571181
 - **Teléfono Alumnado y Bedelía**: 3425818810 ← este es teléfono de LÍNEA, NO WhatsApp. No sugerir envío de mensajes o audios.
 

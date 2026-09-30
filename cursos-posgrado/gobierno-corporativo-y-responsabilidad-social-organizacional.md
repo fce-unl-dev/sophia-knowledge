@@ -333,8 +333,9 @@ accediendo a https://servicios.unl.edu.ar/firmadigital/
 
 ## Aranceles e inscripción
 
-- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado de inscripción (al 2026-08-24)**: Curso publicado en el catálogo oficial de cursos de posgrado. Confirmá la apertura de inscripción con la Secretaría de Posgrado.
+- **Aranceles (consulta del 2026-09-30)**: ARS 195.000 al contado. También se ofrecen dos cuotas, pero el CRM no informa el importe de cada cuota ni el total financiado; consultar el plan de pagos con Posgrado.
+- **Estado de inscripción (consulta del 2026-09-30)**: Abierta, con fecha límite informada para el 2026-10-23.
+- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1422`).
 - **Pre-inscripción**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1422
 - **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).
 
