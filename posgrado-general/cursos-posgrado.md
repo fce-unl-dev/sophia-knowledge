@@ -67,18 +67,19 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **Fecha de inicio**: Ver listado de cursos individuales a continuación.
 - **Estado**: Consultar el estado de inscripción por curso en el listado siguiente; no todas las cohortes publicadas están abiertas.
 - **Fuente del dato**: https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos
-- **Última actualización del dato**: **2026-09-24**
+- **Última actualización del dato**: **2026-10-01**
 - **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (consulta del 2026-09-30).
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
-**Cursos con inicio publicado (cohorte 2026; estado de inscripción verificado en el CRM el 2026-09-30):**
+**Cursos con inicio publicado (cohorte 2026; estado de inscripción verificado en el CRM el 2026-09-30, salvo indicación contraria):**
 - **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-30**. **Inscripción cerrada** (`id_posgrado: 1426`; fecha límite informada: 2026-09-28). Curso ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible ([ver carrera](http://www.fce.unl.edu.ar/sitios/mids)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1426) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1426#superior) | [Sistema de preinscripción (inscripción cerrada)](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426#superior)
 - **De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado**: Inicio: **2026-10-06**. **Inscripción abierta** (`id_posgrado: 1402`; fecha límite informada: 2026-10-06). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1402) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1402#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1402#superior)
 - **CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS**: Inicio: **2026-10-12**. **Inscripción abierta** (`id_posgrado: 1417`; fecha límite informada: 2026-10-05). Curso ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1417) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1417#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1417#superior)
 - **ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS**: Inicio: **2026-10-19**. **Inscripción abierta** (`id_posgrado: 1418`; fecha límite informada: 2026-10-12). Curso ofrecido en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas ([ver carrera](https://www.fce.unl.edu.ar/edgop/)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1418) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1418#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1418#superior)
 - **GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL**: Inicio: **2026-10-23**. **Inscripción abierta** (`id_posgrado: 1422`; fecha límite informada: 2026-10-23). Curso ofrecido en el marco de la Maestría en Contabilidad y Auditoría ([ver carrera](https://www.fce.unl.edu.ar/mcya)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1422) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1422#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1422#superior)
 - **COSTOS DE LA FUNCION COMERCIAL**: Inicio: **2026-10-26**. **Inscripción abierta** (`id_posgrado: 1424`; fecha límite informada: 2026-10-17). Curso ofrecido en el marco de la Especialización en Costos y Gestión Empresarial - a distancia ([ver carrera](https://www.fce.unl.edu.ar/ecyge/?sitio=ecyge)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1424) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1424#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1424#superior)
+- **Normas de revelaciones financieras de sostenibllidad**: Inicio: **2026-11-27**. **Inscripción abierta** (`id_posgrado: 1429`; fecha límite informada: Sin datos confirmados en el material consultado). Curso ofrecido en el marco de la Maestría en Contabilidad y Auditoría ([ver carrera](https://www.fce.unl.edu.ar/mcya)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1429) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1429#superior) | [PRE-INSCRIPCIÓN](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1429#superior)
 
 ## Contacto
 
@@ -95,7 +96,9 @@ Para obtener información detallada sobre el plan de estudios, cuerpo docente, a
 ## Fuentes consultadas
 
 - https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showCursos (Listado de cursos e información de inscripción)
+- https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarBasicos (Procedimiento de pago)
+- https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (Estado de inscripción de cursos individuales)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-24 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-01 por pipeline de scraping.
