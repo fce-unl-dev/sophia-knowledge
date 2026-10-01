@@ -2,14 +2,14 @@
   "slug": "mids",
   "url": "https://www.fce.unl.edu.ar/sitios/mids/",
   "strategy": "fce-microsite",
-  "content_hash": "f579bbfe65bbcf65bc43ead77b2f03d0400786bd8673de15761f0298c2e76edf",
-  "previous_hash": "1f4ed57c7b842b37f81d6310b13dd63943ac23600cb63d13f2d4755a8abc8e9d",
-  "pages_count": 15,
+  "content_hash": "8680492648fd7f8da98565f0bfe07bb349b33726437d2f61789dd9fddf862990",
+  "previous_hash": "f579bbfe65bbcf65bc43ead77b2f03d0400786bd8673de15761f0298c2e76edf",
+  "pages_count": 14,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 354
+      "length": 27
     },
     {
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=322",
@@ -75,13 +75,8 @@
       "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=333",
       "title": "Conducción de la carrera",
       "length": 1336
-    },
-    {
-      "url": "https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showNoticia&id=807",
-      "title": "Novedades",
-      "length": 832
     }
   ],
-  "scraped_at": "2026-09-24T10:52:07.312Z",
-  "last_checked_at": "2026-09-24T10:52:07.312Z"
+  "scraped_at": "2026-10-01T12:11:02.981Z",
+  "last_checked_at": "2026-10-01T12:11:02.981Z"
 }

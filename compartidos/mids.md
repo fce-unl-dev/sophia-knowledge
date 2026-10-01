@@ -63,7 +63,8 @@ Presentación y defensa oral y pública de un Trabajo Final de Maestría (TFM) d
 
 - **Directora de Sede FCE-UNL**: Mg. Marcela Andrea MARTÍN
 - **Director de Sede FCEFyN-UNC**: Dr. Andrés COLOMBO
-- **Coordinadora Académica**: Mg. María Fernanda ANDRES (Contadora Pública Nacional (UNL). Magíster en Comercialización Internacional (UNL). Doctoranda en Administración (UNR, tesis en curso). Docente investigadora categorizada en el Programa de Incentivos a Docentes-Investigadores. Líneas de investigación: Valuación de empresas de base científico-tecnológica · Financiamiento de startups · Emprendimiento · Internacionalización de PyMEs. Profesora de Negocios Internacionales y Gestión de la Innovación, Facultad de Ciencias Económicas (UNL). Directora de Negocios y Relaciones Internacionales, Aceleradora Litoral. Miembro del directorio, RedPymes MERCOSUR. Coordinadora de Formación de Argentina, MetaRedX. Miembro del Global Faculty, ICSB Academy. Ex Presidenta ICSB Argentina. Miembro de Global Women in VC.)
+- **Coordinadora Académica**: Mg. María Fernanda ANDRES
+Contadora Pública Nacional (UNL). Magíster en Comercialización Internacional (UNL). Doctoranda en Administración (UNR, tesis en curso). Docente investigadora categorizada en el Programa de Incentivos a Docentes-Investigadores. Líneas de investigación: Valuación de empresas de base científico-tecnológica · Financiamiento de startups · Emprendimiento · Internacionalización de PyMEs. Profesora de Negocios Internacionales y Gestión de la Innovación, Facultad de Ciencias Económicas (UNL). Directora de Negocios y Relaciones Internacionales, Aceleradora Litoral. Miembro del directorio, RedPymes MERCOSUR. Coordinadora de Formación de Argentina, MetaRedX. Miembro del Global Faculty, ICSB Academy. Ex Presidenta ICSB Argentina. Miembro de Global Women in VC.
 - **Coordinador Académico Sede FCEFyN-UNC**: Ing. Agrim. Luis Antonio BOSCH
 
 Nómina docente completa no publicada en fuentes oficiales; consultar con Secretaría de Posgrado.
@@ -90,7 +91,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - **Fecha de inicio**: **2026-04**
 - **Estado**: Cerrada
 - **Fuente del dato**: https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showCategoria&id=242 (Informes e Inscripción)
-- **Última actualización del dato**: **2026-09-24**
+- **Última actualización del dato**: **2026-10-01**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -124,7 +125,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 
 ## Fuentes consultadas
 
-- https://www.fce.unl.edu.ar/sitios/mids/ (Página principal)
+- https://www.fce.unl.edu.ar/sitios/mids/ (Información de Interés)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=322 (Carrera Interinstitucional)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=321 (Presentación de la carrera)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=323 (Cursado y evaluación)
@@ -136,8 +137,9 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=328 (Objetivos)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=329 (Perfil del egresado)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=330 (Estructura del Plan de Estudio)
+- https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=331 (Detalle de Asignaturas: Objetivos y contenidos mínimos)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=333 (Conducción de la carrera)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-24 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-01 por pipeline de scraping.
