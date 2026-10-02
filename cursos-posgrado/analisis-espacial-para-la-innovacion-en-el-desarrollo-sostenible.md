@@ -159,9 +159,10 @@ Taller presencial: viernes 4/12/2026 (ciudad de Córdoba).
 ## Aranceles e inscripción
 
 - **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado de inscripción (al 2026-08-28)**: Curso publicado en el catálogo oficial de cursos de posgrado. Confirmá la apertura de inscripción con la Secretaría de Posgrado.
-- **Pre-inscripción**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426
-- **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).
+- **Estado de inscripción (consulta del 2026-10-02)**: Cerrada en el CRM de Posgrado (`id_posgrado: 1426`; fecha límite informada: 2026-09-28).
+- **Sistema de preinscripción (inscripción cerrada)**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426
+- **Sistema de inscripción**: La preinscripción se realiza en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados) cuando está habilitada; este curso no tiene inscripción abierta según el CRM consultado.
+- **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (consulta del 2026-10-02; JSON generado a las 19:27:25, hora local del CRM; registro actualizado el 2026-09-29 a las 18:44:10).
 
 ## Contacto
 
