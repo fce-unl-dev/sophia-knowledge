@@ -53,19 +53,19 @@ Curso de posgrado de la Facultad de Ciencias Económicas (FCE-UNL) que introduce
 
 ## Aranceles e inscripción
 
-- **Aranceles (consulta del 2026-09-30)**: ARS 250.000, hasta en dos cuotas.
-- **Estado de inscripción (consulta del 2026-09-30)**: Abierta, con fecha límite informada para el 2026-10-06.
-- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1402`).
-- **Modalidad de inscripción**: Preinscripción en línea en el sistema de Posgrado de la FCE-UNL (https://www.fce.unl.edu.ar/posgrados).
+- **Aranceles de la edición 2026 (consulta del 2026-10-02)**: El CRM aún informa ARS 250.000, hasta en dos cuotas. Es un valor de la edición cuya inscripción está cerrada; no asumirlo vigente para futuras ediciones ni realizar pagos sin confirmación de Posgrado.
+- **Estado de inscripción (consulta del 2026-10-02)**: Cerrada, con fecha límite informada para el 2026-09-30 (`id_posgrado: 1402`).
+- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1402`; JSON generado el 2026-10-02 a las 19:27:25, hora local del CRM; registro actualizado el 2026-10-01 a las 08:04:26).
+- **Modalidad de inscripción**: El sistema de Posgrado de la FCE-UNL (https://www.fce.unl.edu.ar/posgrados) se utiliza para preinscripción; este curso no tiene inscripción abierta según el CRM consultado.
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: 2026-10-06 (según el catálogo oficial de cursos de posgrado).
-- **Estado**: Inscripción abierta según el CRM de Posgrado consultado el 2026-09-30; fecha límite informada: 2026-10-06.
+- **Estado**: Inscripción cerrada según el CRM de Posgrado consultado el 2026-10-02; fecha límite informada: 2026-09-30.
 - **Fuente del dato**: Catálogo oficial de cursos de posgrado FCE-UNL y Resolución C.D. Nº 799/25 (FCE-1266735-25).
-- **Última actualización del dato**: 2026-06-23
+- **Última actualización del dato de inscripción**: 2026-10-02
 
-> Nota: El estado y arancel fueron verificados en el CRM de Posgrado el 2026-09-30. Para confirmar condiciones vigentes antes de inscribirse o pagar, consultar a posgrado@fce.unl.edu.ar.
+> Nota: El estado y el arancel publicado para la edición 2026 se verificaron en el CRM de Posgrado el 2026-10-02. Para consultar una futura edición y sus condiciones, escribir a posgrado@fce.unl.edu.ar.
 
 ## Contacto
 

@@ -106,15 +106,16 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 - **Cuotas**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
 - **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
 - **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
-- **Estado actual de inscripción**: Por confirmar — consultar con mrso@fce.unl.edu.ar
+- **Estado actual de inscripción (consulta del 2026-10-02)**: Cerrada en el CRM de Posgrado (`id_posgrado: 1269`; fecha límite informada: 2025-08-21). No hay fecha definida para una nueva edición.
 - **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
-- **Estado**: Por confirmar
+- **Estado**: Inscripción cerrada; sin fecha definida para una nueva edición según el CRM consultado el 2026-10-02.
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199
 - **Última actualización del dato**: 2026-05-30
+- **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCarreras (`id_posgrado: 1269`; consulta del 2026-10-02; JSON generado a las 19:27:25, hora local del CRM; registro actualizado el 2026-10-02 a las 18:36:10).
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
