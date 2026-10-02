@@ -8,7 +8,7 @@
 
 ## Índice por Docente (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-09-10
+**Última actualización de planilla**: 2026-10-02
 
 - Esta tabla lista, por docente, las materias y comisiones que dicta según la planilla oficial de cursado. Si un docente no figura, derivá al sistema oficial (SIU Guaraní / Bedelía) en lugar de inferir.
 
@@ -453,5 +453,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-10 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-10-02 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
