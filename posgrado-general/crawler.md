@@ -113,13 +113,9 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrar (Información general y respuesta frecuente Maestría en Administración y Finanzas)
 - https://www.fce.unl.edu.ar/maf/ (URL oficial del programa)
 - https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
-- https://servicios.unl.edu.ar/mdcobro/ (Sistema Mercurio para pago de cuotas)
 - https://servicios.unl.edu.ar/bedeliamovil/NOwTk (Información de clases de consulta)
 - https://servicios.unl.edu.ar/bedeliamovil/uTMEg (Terminal Informativa de clases y actividades)
-- https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/TR%C3%81MITE-DE-SOLICITUD-DE-DIPLOMA-DIGITAL.pdf (Trámite de diploma digital)
-- https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/FCE-DIP-FO-2.5-01-INSTRUCTIVO-SOLICITUD-DE-CERTIFICADO-DE-DIPLOMATURA-UNIVERSITARIAS.pdf (Solicitud de certificado de diplomaturas)
-- https://fce.unl.edu.ar/posgrados/ (Obtención de certificados de cursos)
-- https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/MODELO-DE-CERTIFICADO-DE-EXAMEN-Rev.0.pdf (Modelo de certificado de examen)
+- https://servicios.unl.edu.ar/mdcobro/ (Sistema Mercurio para pago de cuotas)
 - https://www.fce.unl.edu.ar/academica/propuesta-academica/ (Diplomaturas de pre-grado y Tecnicaturas)
 - https://www.fce.unl.edu.ar/academica/ingreso-grado/ (Ingreso a carreras de grado)
 - https://www.unl.edu.ar/propuesta-academica/?f=posgrado (Posgrados de otras unidades académicas UNL)
@@ -128,7 +124,11 @@ Cuerpo de docentes de alto nivel académico y profesional. Nómina docente no pu
 - https://www.unlvirtual.edu.ar/ingresantes/ (Uso del aula UNL Virtual - Ingresantes)
 - https://www.unlvirtual.edu.ar/guiaestudiantes/ (Uso del aula UNL Virtual - Guía de estudiantes)
 - https://www.unlvirtual.edu.ar/guiaestudiantes/?portfolio=gestion-administrativa (Uso del aula UNL Virtual - Gestión administrativa)
+- https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/TR%C3%81MITE-DE-SOLICITUD-DE-DIPLOMA-DIGITAL.pdf (Trámite de diploma digital)
+- https://www.fce.unl.edu.ar/posgrado/wp-content/uploads/sites/11/2022/05/FCE-DIP-FO-2.5-01-INSTRUCTIVO-SOLICITUD-DE-CERTIFICADO-DE-DIPLOMATURA-UNIVERSITARIAS.pdf (Solicitud de certificado de diplomaturas)
+- https://fce.unl.edu.ar/posgrados/ (Obtención de certificados de cursos)
+- https://www.fce.unl.edu.ar/estudiantes/wp-content/uploads/sites/9/2018/09/MODELO-DE-CERTIFICADO-DE-EXAMEN-Rev.0.pdf (Modelo de certificado de examen)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-24 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-05 por pipeline de scraping.
