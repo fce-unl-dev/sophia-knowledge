@@ -4,6 +4,13 @@ import { parsePosgradoFeed } from './posgrado_json_contract.mjs';
 
 const BEGIN = '<!-- posgrado-crm:begin -->';
 const END = '<!-- posgrado-crm:end -->';
+const QUARANTINE_REASONS = new Set([
+  'faq_start_date_conflicts_with_academic_pdf',
+  'faq_degree_or_admission_conflicts_with_academic_source',
+  'faq_specialization_count_conflicts_with_academic_source',
+  'faq_timetable_conflicts_with_academic_source',
+  'faq_delivery_mode_conflicts_with_academic_source',
+]);
 const BLOCK = /^<!-- posgrado-crm:begin -->\n<!-- posgrado-crm:id (carreras|cursos):([1-9]\d*) -->\n[\s\S]*?^<!-- posgrado-crm:end -->/gm;
 const DYNAMIC_HEADING = /^(?:aranceles?|precios?|inscripci[oó]n|pr[oó]xima cohorte|matr[ií]cula)(?:\b|$)|^costos?(?:$|\s+(?:e?\s*inscripci[oó]n|y\s+(?:aranceles|financiaci[oó]n)|del?\s+(?:curso|programa|posgrado|carrera))\b)/i;
 const DYNAMIC_LABEL = /^(?:aranceles?|costos?|precios?|cuotas?|matr[ií]cula|estado(?: actual)? de inscripci[oó]n|estado de (?:la )?pr[oó]xima cohorte|fecha l[ií]mite(?: de inscripci[oó]n)?|fecha de (?:inicio|cierre|apertura)(?: de inscripci[oó]n)?|link de preinscripci[oó]n|link de pre-inscripci[oó]n|fuente del estado de inscripci[oó]n|[uú]ltima actualizaci[oó]n del dato de inscripci[oó]n)(?:\s*\([^)]*\))?$/i;
@@ -91,10 +98,24 @@ function validateRoutes(routes, index, documents) {
       }
     }
   }
+  if (routes.quarantined !== undefined) {
+    if (!routes.quarantined || typeof routes.quarantined !== 'object' ||
+        Array.isArray(routes.quarantined)) {
+      issues.push({ code: 'invalid_quarantine' });
+    } else {
+      for (const [id, reason] of Object.entries(routes.quarantined)) {
+        const match = id.match(/^(carreras|cursos):([1-9]\d*)$/);
+        if (!match || !Object.hasOwn(routes[match[1]] ?? {}, match[2]) ||
+            !QUARANTINE_REASONS.has(reason)) {
+          issues.push({ code: 'invalid_quarantine', id });
+        }
+      }
+    }
+  }
   return issues;
 }
 
-function inspectBlocks(content, path, routes) {
+function inspectBlocks(content, path, routes, { allowLegacyClaims = false } = {}) {
   const blocks = [...content.matchAll(BLOCK)];
   const beginCount = content.split(BEGIN).length - 1;
   const endCount = content.split(END).length - 1;
@@ -108,7 +129,7 @@ function inspectBlocks(content, path, routes) {
     ids.add(id);
   }
   const outside = content.replace(BLOCK, '');
-  if (hasLegacyDynamicClaims(outside)) return { code: 'legacy_dynamic_claims', path };
+  if (!allowLegacyClaims && hasLegacyDynamicClaims(outside)) return { code: 'legacy_dynamic_claims', path };
   return { blocks, ids };
 }
 
@@ -118,7 +139,7 @@ function inspectBlocks(content, path, routes) {
  */
 export function planPosgradoCrmUpdates({ rawFeeds, index, documents, routes = routesDefault, now = Date.now() }) {
   const anomalies = validateRoutes(routes, index, documents);
-  const result = { updates: [], anomalies, skipped: [], deferred: [{
+  const result = { updates: [], anomalies, skipped: [], quarantined: [], deferred: [{
     kind: 'basicos', target: routes?.basicos?.target,
     reason: 'equivalence_with_curated_general_document_not_verified',
   }] };
@@ -130,6 +151,7 @@ export function planPosgradoCrmUpdates({ rawFeeds, index, documents, routes = ro
     return [kind, parsePosgradoFeed(kind, rawFeeds[kind], { now })];
   }));
   const grouped = new Map();
+  const quarantinedPaths = new Set();
   for (const kind of ['carreras', 'cursos']) {
     const seen = new Set();
     for (const record of parsed[kind].records) {
@@ -147,6 +169,12 @@ export function planPosgradoCrmUpdates({ rawFeeds, index, documents, routes = ro
         anomalies.push({ code: 'career_identity_mismatch', id: record.id });
         continue;
       }
+      const reason = routes.quarantined?.[record.id];
+      if (reason) {
+        result.quarantined.push({ id: record.id, path, reason });
+        quarantinedPaths.add(path);
+        continue;
+      }
       if (!grouped.has(path)) grouped.set(path, []);
       grouped.get(path).push(record);
     }
@@ -154,7 +182,16 @@ export function planPosgradoCrmUpdates({ rawFeeds, index, documents, routes = ro
       if (!seen.has(id)) anomalies.push({ code: 'missing_mapped_record', id: `${kind}:${id}` });
     }
   }
+  for (const path of quarantinedPaths) {
+    const inspection = inspectBlocks(documents[path], path, routes, { allowLegacyClaims: true });
+    if (inspection.code) anomalies.push(inspection);
+  }
   for (const [path, records] of grouped) {
+    if (quarantinedPaths.has(path)) {
+      result.skipped.push({ code: 'shares_quarantined_path', path,
+        ids: records.map(record => record.id) });
+      continue;
+    }
     const original = documents[path];
     const inspection = inspectBlocks(original, path, routes);
     if (inspection.code) { anomalies.push(inspection); continue; }

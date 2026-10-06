@@ -71,7 +71,7 @@ Modalidad a distancia desde el 7/9/2026 al 1/11/2026
 - **Fecha límite de inscripción:** 2026-08-31
 - **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
 
-> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes.
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
 **Respuesta frecuente oficial (dato del CRM):**
 
