@@ -98,6 +98,8 @@ test('routine price, date and FAQ changes plan without human-review anomalies, p
   assert.match(revised.updates[0].content, /2026-12-01/);
   assert.match(revised.updates[0].content, /ARS 350\\\.000/);
   assert.match(revised.updates[0].content, /Objetivos y docentes preservados/);
+  assert.match(revised.updates[0].content, /showLogin&id_posgrado=1415/);
+  assert.doesNotMatch(career, /showLogin&id_posgrado=/);
 });
 
 test('unknown open IDs quarantine; closed unmapped IDs are logged without deleting anything', () => {
@@ -122,6 +124,7 @@ test('closed cohorts label FAQ prices as historical and escape untrusted Markdow
   assert.deepEqual(result.anomalies, []);
   const content = result.updates.find(update => update.path === coursePath).content;
   assert.match(content, /cohorte anterior; no presentarlos como precios vigentes/);
+  assert.doesNotMatch(content, /showLogin&id_posgrado=/);
   assert.match(content, /&lt;.*posgrado.*crm:end.*&gt;/);
   assert.equal((content.match(/<!-- posgrado-crm:end -->/g) ?? []).length, 1);
 });
@@ -144,4 +147,40 @@ test('ambiguous routes, missing index targets, malformed blocks and legacy claim
   assert.ok(!legacy.updates.some(update => update.path === careerPath));
   const missing = plan(feeds({ courses: [record('cursos', 999)] }));
   assert.ok(missing.anomalies.some(issue => issue.code === 'missing_mapped_record'));
+});
+
+test('legacy fee and enrollment claims are quarantined despite indentation and Markdown spacing', () => {
+  const claims = [
+    '-   **Matrícula**: **A confirmar para ciclo 2027**',
+    '  -   **Estado   actual  de inscripción (consulta del 2026-10-02)**: Abierta',
+    '  -   **Estado actual de inscripción (consulta del 2026-10-02)**: Abierta',
+    '\t*  **Fecha límite de inscripción**: 2027-02-28',
+    '-   **Estado**: La próxima edición tiene inscripción abierta.',
+    '### Próxima cohorte\n\nLa edición comenzará en marzo.',
+    '## Costos y financiación\n\nConsultar valores.',
+    'Precio total: 300.000 pesos',
+    'El precio anterior fue $ 300.000.',
+    'El arancel histórico fue ARS 300.000.',
+    'La cuota anterior fue USD 100.',
+    'La inscripción figura cerrada desde ayer.',
+    'La fecha límite de inscripción es 2026-10-05.',
+  ];
+  for (const claim of claims) {
+    const result = plan(feeds(), {
+      [careerPath]: `# Carrera\n\n${claim}\n`, [coursePath]: '# Curso estable\n',
+    });
+    assert.ok(result.anomalies.some(issue => issue.code === 'legacy_dynamic_claims' && issue.path === careerPath), claim);
+    assert.deepEqual(result.updates, [], claim);
+  }
+});
+
+test('stable academic and admission information is not mistaken for a dynamic CRM claim', () => {
+  const content = '# Carrera\n\n## Requisitos de inscripción\n\n' +
+    '-   **Proceso de admisión**: Evaluación por el Comité Académico.\n' +
+    '-   **Duración trabajo final / tesis**: Cuatro años desde la inscripción a la carrera.\n' +
+    '## Costos de la función comercial\n\nUnidad temática del plan académico.\n' +
+    '## Plan de estudios\n\nDocentes y créditos académicos.\n';
+  const result = plan(feeds(), { [careerPath]: content, [coursePath]: '# Curso estable\n' });
+  assert.deepEqual(result.anomalies, []);
+  assert.equal(result.updates.length, 2);
 });

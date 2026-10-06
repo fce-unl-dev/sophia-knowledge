@@ -5,7 +5,22 @@ import { parsePosgradoFeed } from './posgrado_json_contract.mjs';
 const BEGIN = '<!-- posgrado-crm:begin -->';
 const END = '<!-- posgrado-crm:end -->';
 const BLOCK = /^<!-- posgrado-crm:begin -->\n<!-- posgrado-crm:id (carreras|cursos):([1-9]\d*) -->\n[\s\S]*?^<!-- posgrado-crm:end -->/gm;
-const LEGACY_DYNAMIC = /^(?:## (?:Aranceles|Costos|Inscripción|Próxima cohorte)|[-*] \*\*(?:Aranceles|Costo|Cuotas|Matrícula|Estado(?: actual)? de inscripción|Fecha límite)|\*\*Estado de inscripción)|\b(?:ARS|USD)\s*\d|\binscripci[oó]n\s+(?:abierta|cerrada)\b/im;
+const DYNAMIC_HEADING = /^(?:aranceles?|precios?|inscripci[oó]n|pr[oó]xima cohorte|matr[ií]cula)(?:\b|$)|^costos?(?:$|\s+(?:e?\s*inscripci[oó]n|y\s+(?:aranceles|financiaci[oó]n)|del?\s+(?:curso|programa|posgrado|carrera))\b)/i;
+const DYNAMIC_LABEL = /^(?:aranceles?|costos?|precios?|cuotas?|matr[ií]cula|estado(?: actual)? de inscripci[oó]n|estado de (?:la )?pr[oó]xima cohorte|fecha l[ií]mite(?: de inscripci[oó]n)?|fecha de (?:inicio|cierre|apertura)(?: de inscripci[oó]n)?|link de preinscripci[oó]n|link de pre-inscripci[oó]n|fuente del estado de inscripci[oó]n|[uú]ltima actualizaci[oó]n del dato de inscripci[oó]n)(?:\s*\([^)]*\))?$/i;
+const DYNAMIC_PROSE = /\b(?:ARS|USD)\s*(?:\$\s*)?\d|(?:\$\s*)?\d[\d.,]*\s*(?:pesos|d[oó]lares)\b|\b(?:arancel|precio|costo|cuota|matr[ií]cula)\b[^\n]{0,60}?(?:\$\s*\d|\b(?:ARS|USD)\b)|\binscripci[oó]n\s+(?:(?:figura|est[aá])\s+)?(?:abierta|cerrada|vencida)\b|\bfecha\s+l[ií]mite\s+(?:de\s+)?inscripci[oó]n\b/i;
+
+function hasLegacyDynamicClaims(content) {
+  return content.split(/\r?\n/).some(rawLine => {
+    const line = rawLine.replace(/^\s*(?:>\s*)?(?:[-*+]\s+)?/, '')
+      .replace(/[*_`]/g, '').trim().replace(/\s+/g, ' ');
+    const heading = line.match(/^#{1,6}\s+(.+)$/);
+    if (heading && DYNAMIC_HEADING.test(heading[1])) return true;
+    const label = line.match(/^([^:]{1,120}):/);
+    if (label && DYNAMIC_LABEL.test(label[1].trim())) return true;
+    if (/^estado\s*:/.test(line.toLowerCase()) && /\b(?:inscripci[oó]n|cohorte|edici[oó]n|abierta|cerrada|vencida)\b/i.test(line)) return true;
+    return DYNAMIC_PROSE.test(line);
+  });
+}
 
 function markdownData(value) {
   return String(value)
@@ -23,12 +38,16 @@ function render(record) {
   const item = record.data;
   const open = item.inscripcion.estado === 'ABIERTA';
   const deadline = item.inscripcion.fecha_limite ?? 'No informada';
+  const courseEnrollment = open && record.id.startsWith('cursos:')
+    ? `- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=${item.id_posgrado}\n`
+    : '';
   const historical = open ? '' : '\n> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes.\n';
   return `${BEGIN}\n<!-- posgrado-crm:id ${record.id} -->\n` +
     `### Información oficial del CRM — ${markdownData(item.nombre)}\n\n` +
     `- **ID de propuesta:** ${item.id_posgrado}\n` +
     `- **Inscripción:** ${open ? 'Abierta' : 'Cerrada'}\n` +
     `- **Fecha límite de inscripción:** ${deadline}\n` +
+    courseEnrollment +
     `- **Última actualización de este registro (Argentina):** ${record.updatedAt}\n` +
     `${historical}\n**Respuesta frecuente oficial (dato del CRM):**\n\n` +
     `${quoteData(item.respuesta_frecuente)}\n${END}`;
@@ -86,7 +105,7 @@ function inspectBlocks(content, path, routes) {
     ids.add(id);
   }
   const outside = content.replace(BLOCK, '');
-  if (LEGACY_DYNAMIC.test(outside)) return { code: 'legacy_dynamic_claims', path };
+  if (hasLegacyDynamicClaims(outside)) return { code: 'legacy_dynamic_claims', path };
   return { blocks, ids };
 }
 
