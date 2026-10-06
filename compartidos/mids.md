@@ -77,24 +77,6 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - **Documentación a presentar**: Sin datos confirmados en el material consultado.
 - **Proceso de admisión**: Sin datos confirmados en el material consultado.
 
-## Aranceles e inscripción
-
-- **Matrícula**: A confirmar para ciclo 2026/2027
-- **Cuotas**: A consultar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado.
-- **Becas disponibles**: Sin datos confirmados en el material consultado.
-- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027**
-- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/carreras_posgrado/index.php?act=showFormularioI&idCurso=1425#superior
-
-## Próxima cohorte
-
-- **Fecha de inicio**: **2026-04**
-- **Estado**: Cerrada
-- **Fuente del dato**: https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showCategoria&id=242 (Informes e Inscripción)
-- **Última actualización del dato**: **2026-10-01**
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
-
 ## Contacto
 
 - **Director/a académico/a**: Mg. Marcela Andrea MARTÍN (Sede FCE-UNL), Dr. Andrés COLOMBO (Sede FCEFyN-UNC)
@@ -133,6 +115,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=325 (Duración de la carrera)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=326 (Requisitos de ingreso)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showCategoria&id=242 (Informes e Inscripción)
+- https://www.fce.unl.edu.ar/carreras_posgrado/index.php?act=showFormularioI&idCurso=1425#superior (Formulario institucional de la propuesta; referencia de plataforma, no indica que la inscripción esté abierta)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=327 (Título que otorga)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=328 (Objetivos)
 - https://www.fce.unl.edu.ar/sitios/mids/index.php?act=showSubcategoria&id=329 (Perfil del egresado)
@@ -143,3 +126,29 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 ---
 
 **Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-01 por pipeline de scraping.
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1425 -->
+### Información oficial del CRM — Maestría en Innovación para el Desarrollo Sostenible
+
+- **ID de propuesta:** 1425
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** No informada
+- **Última actualización de este registro (Argentina):** 2026-10-05 15:58:38
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto\.  La Maestría se fundamenta en un paradigma integrador e interdisciplinario \(articulando economía, administración, ingeniería, ciencias sociales y ambientales\)\. Persigue como propósito formar profesionales capaces de liderar procesos de transformación territorial mediante enfoques integrados de innovación, equidad y sostenibilidad, promoviendo el compromiso del sector académico en la generación de conocimiento y el acompañamiento al desarrollo sostenible\.
+> Desde una mirada crítica e innovadora, la Maestría se alinea con los principios de la Agenda 2030 para el Desarrollo Sostenible, y se propone construir capacidades para la acción transformadora mediante metodologías activas, enfoques sistémicos, y un fuerte énfasis en la contextualización territorial\.
+> Desde lo interdisciplinario, promueve la articulación de distintas disciplinas académicas —como la economía, la administración, la tecnología y el ambiente—, integrando marcos conceptuales y metodologías diversas\. Este marco epistemológico se concreta en una formación que combina teoría y práctica, incorpora estudios de caso locales y regionales, y promueve la co\-construcción de soluciones con impacto real en los territorios\.
+> A partir de una visión sistémica del desarrollo, la propuesta formativa se orienta a construir capacidades para la acción transformadora, combinando enfoques cuantitativos, cualitativos y participativos, con fuerte énfasis en la contextualización territorial\.
+> Es una carrera compartida entre la Facultad de Ciencias Económicas \(FCE\-UNL\) y la Facultad de Ciencias Exactas, Físicas y Naturales \(FCEFyN\-UNC\)\. Desarrollada en el marco del proyecto USGAT \(Unleashing Sustainable Growth through Applied Technologies\), financiado por el Programa Erasmus\+ \(CBHE\) de la Unión Europea, con la participación de 7 universidades de América Latina \(Colombia, Ecuador y Perú\) y 3 universidades europeas \(España e Italia\)\.
+> Para mas información podes acceder a: https://www\.fce\.unl\.edu\.ar/sitios/mids/
+> Su modalidad de dictado es presencial\. A mediados de octubre 2026 se abriran inscripciones para el ciclo 2027\.
+> Quedamos a disposición ante cualquier consulta\.
+> Saludos
+> Secretaria de Posgrado
+> FCE UNL
+<!-- posgrado-crm:end -->
