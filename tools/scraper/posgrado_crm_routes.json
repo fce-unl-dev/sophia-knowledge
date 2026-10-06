@@ -28,5 +28,13 @@
     "1423": "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md",
     "1424": "cursos-posgrado/costos-de-la-funcion-comercial.md",
     "1426": "cursos-posgrado/analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible.md"
+  },
+  "quarantined": {
+    "cursos:1418": "faq_start_date_conflicts_with_academic_pdf",
+    "cursos:1426": "faq_start_date_conflicts_with_academic_pdf",
+    "carreras:1073": "faq_degree_or_admission_conflicts_with_academic_source",
+    "carreras:1074": "faq_specialization_count_conflicts_with_academic_source",
+    "carreras:1271": "faq_timetable_conflicts_with_academic_source",
+    "carreras:1078": "faq_delivery_mode_conflicts_with_academic_source"
   }
 }

@@ -102,6 +102,75 @@ test('routine price, date and FAQ changes plan without human-review anomalies, p
   assert.doesNotMatch(career, /showLogin&id_posgrado=/);
 });
 
+test('an explicitly quarantined record stays untouched while unrelated routine updates proceed', () => {
+  const customRoutes = structuredClone(routes);
+  customRoutes.quarantined = { 'cursos:1415': 'faq_start_date_conflicts_with_academic_pdf' };
+  const course = '# Curso curado\n\n## Aranceles e inscripción\nPrecio anterior\n';
+  const result = plan(feeds(), { [careerPath]: '# Carrera curada\n', [coursePath]: course }, customRoutes);
+  assert.deepEqual(result.anomalies, []);
+  assert.deepEqual(result.quarantined, [{ id: 'cursos:1415', path: coursePath,
+    reason: 'faq_start_date_conflicts_with_academic_pdf' }]);
+  assert.deepEqual(result.updates.map(update => update.path), [careerPath]);
+  assert.doesNotMatch(result.updates[0].content, /Precio anterior/);
+
+  const unquarantined = structuredClone(customRoutes);
+  delete unquarantined.quarantined['cursos:1415'];
+  const restored = plan(feeds(), { [careerPath]: '# Carrera curada\n', [coursePath]: course }, unquarantined);
+  assert.ok(restored.anomalies.some(issue => issue.code === 'legacy_dynamic_claims' && issue.path === coursePath));
+  assert.deepEqual(restored.updates, []);
+});
+
+test('quarantine config is validated against mapped IDs and precise reason codes', () => {
+  for (const quarantined of [null, [], { 'cursos:999': 'faq_start_date_conflicts_with_academic_pdf' },
+    { 'cursos:1415': 'miscellaneous' }, { 'basicos:423': 'faq_start_date_conflicts_with_academic_pdf' }]) {
+    const customRoutes = { ...routes, quarantined };
+    const result = plan(feeds(), undefined, customRoutes);
+    assert.ok(result.anomalies.some(issue => issue.code === 'invalid_quarantine'));
+    assert.deepEqual(result.updates, []);
+  }
+});
+
+test('quarantine does not hide unknown open IDs, missing mapped records or malformed blocks', () => {
+  const customRoutes = structuredClone(routes);
+  customRoutes.quarantined = { 'cursos:1415': 'faq_start_date_conflicts_with_academic_pdf' };
+  const openUnknown = plan(feeds({ courses: [record('cursos', 1415), record('cursos', 999)] }),
+    undefined, customRoutes);
+  assert.ok(openUnknown.anomalies.some(issue => issue.code === 'unknown_open_id'));
+  assert.deepEqual(openUnknown.updates, []);
+  const missing = plan(feeds({ courses: [record('cursos', 999, { inscripcion: {
+    estado: 'CERRADA', esta_abierta: false, fecha_limite: '2026-09-30',
+  } })] }), undefined, customRoutes);
+  assert.ok(missing.anomalies.some(issue => issue.code === 'missing_mapped_record'));
+  assert.deepEqual(missing.updates, []);
+  const malformed = plan(feeds(), { [careerPath]: '# Career\n',
+    [coursePath]: '# Course\n<!-- posgrado-crm:begin -->' }, customRoutes);
+  assert.ok(malformed.anomalies.some(issue => issue.code === 'malformed_blocks'));
+  assert.deepEqual(malformed.updates, []);
+  assert.throws(() => plan({ ...feeds(), cursos: '{not valid JSON' }, undefined, customRoutes),
+    { code: 'invalid_json' });
+});
+
+test('checked-in documents keep the six known conflicts isolated by exact route', async () => {
+  const liveIndex = JSON.parse(await readFile(join(root, 'indice.json'), 'utf8'));
+  const paths = new Set([...Object.values(routesDefault.carreras).map(route => route[0]),
+    ...Object.values(routesDefault.cursos)]);
+  const documents = Object.fromEntries(await Promise.all([...paths].map(async path =>
+    [path, await readFile(join(root, path), 'utf8')])));
+  const careers = Object.entries(routesDefault.carreras).map(([id, [, careerId]]) =>
+    record('carreras', Number(id), { id_carrera: careerId }));
+  const courses = Object.keys(routesDefault.cursos).map(id => record('cursos', Number(id)));
+  const result = plan(feeds({ careers, courses }), documents, routesDefault, liveIndex);
+  assert.deepEqual(result.quarantined.map(entry => entry.id).sort(),
+    ['carreras:1073', 'carreras:1074', 'carreras:1078', 'carreras:1271', 'cursos:1418', 'cursos:1426']);
+  assert.deepEqual(result.anomalies, []);
+  const quarantinedPaths = new Set(result.quarantined.map(entry => entry.path));
+  // Synthetic FAQ text differs from the checked-in managed blocks, so all safe paths change.
+  assert.equal(result.updates.length, paths.size - quarantinedPaths.size);
+  assert.ok(result.anomalies.every(issue => issue.code !== 'legacy_dynamic_claims' ||
+    !quarantinedPaths.has(issue.path)));
+  assert.ok(result.updates.every(update => !quarantinedPaths.has(update.path)));
+});
+
 test('unknown open IDs quarantine; closed unmapped IDs are logged without deleting anything', () => {
   const unknown = feeds({ courses: [record('cursos', 1415), record('cursos', 999)] });
   const quarantined = plan(unknown);
