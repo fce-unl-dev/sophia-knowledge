@@ -3,7 +3,32 @@ import assert from 'node:assert/strict';
 import { mkdtemp, mkdir, readFile, writeFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { syncPosgradoCrm } from '../sync_posgrado_crm.mjs';
+import { spawnSync } from 'node:child_process';
+import { fileURLToPath } from 'node:url';
+import { syncPosgradoCrm, parseCliArgs } from '../sync_posgrado_crm.mjs';
+
+const cli = fileURLToPath(new URL('../sync_posgrado_crm.mjs', import.meta.url));
+
+test('CLI accepts apply as the first argument and parses KB root in either order', () => {
+  assert.deepEqual(parseCliArgs(['--apply', '--kb-root', '/tmp/kb']),
+    { root: '/tmp/kb', apply: true });
+  assert.deepEqual(parseCliArgs(['--kb-root', '/tmp/kb', '--apply']),
+    { root: '/tmp/kb', apply: true });
+  assert.deepEqual(parseCliArgs(['--dry-run'], '/tmp/kb'),
+    { root: '/tmp/kb', apply: false });
+});
+
+test('CLI rejects conflicting modes before fetching any CRM feed', () => {
+  for (const args of [['--apply', '--dry-run'], ['--dry-run', '--apply'],
+    ['--kb-root', '/tmp/kb', '--apply', '--dry-run']]) {
+    const result = spawnSync(process.execPath, [cli, ...args],
+      { encoding: 'utf8', timeout: 2000 });
+    assert.equal(result.status, 2, `${args.join(' ')}: ${result.stderr}`);
+    assert.equal(result.stdout, '');
+    assert.equal(JSON.parse(result.stderr).errors[0].code, 'invalid_arguments');
+  }
+  assert.throws(() => parseCliArgs(['--kb-root', '--apply']), /invalid_arguments/);
+});
 
 const NOW = Date.parse('2026-10-06T15:00:00Z');
 const COURSE = 'cursos-posgrado/test-course.md';
