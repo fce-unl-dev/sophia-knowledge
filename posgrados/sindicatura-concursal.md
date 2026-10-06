@@ -211,23 +211,9 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 -   **Documentación a presentar**: Sin datos confirmados en el material consultado
 -   **Proceso de admisión**: Evaluación por el Comité Académico
 
-## Aranceles e inscripción
+## Antecedente institucional
 
--   **Matrícula**: **A confirmar para ciclo 2027** — valores disponibles a partir de Diciembre 2026.
--   **Cuotas**: Sin datos confirmados en el material consultado
--   **Modalidad de pago**: Sin datos confirmados en el material consultado
--   **Becas disponibles**: Sin datos confirmados en el material consultado
--   **Estado actual de inscripción**: Por confirmar — posible apertura en **Abril 2027**. Inscripciones abrirían en **Diciembre 2026**.
--   **Link de pre-inscripción**: Sin datos confirmados en el material consultado
-
-## Próxima cohorte
-
--   **Fecha de inicio**: **2027-04**
--   **Estado**: Por confirmar
--   **Fuente del dato**: https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784
--   **Última actualización del dato**: **2026-09-10**
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/index.php?act=showNoticia&id=784), consultada el 2026-09-10, mencionaba como posible una edición en abril de 2027. Se conserva como antecedente fechado, no como confirmación de una convocatoria vigente.
 
 ## Contacto
 
@@ -256,7 +242,7 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 -   **Marco normativo**: Ley 24.522 de Concursos y Quiebras (Argentina).
 -   **Incumbencia profesional**: Actuación del Contador Público como Síndico Concursal en concurso preventivo y quiebra.
 -   **Objetivos generales**: Capacitar al contador público en los conocimientos relacionados con el Derecho de las crisis e insolvencias patrimoniales, en sus aspectos jurídicos y económicos sustanciales y formales, teóricos y prácticos, para el ejercicio de una actividad profesional que es de su exclusiva incumbencia: la sindicatura en los concursos preventivos y en las quiebras.
--   **Link general de inscripciones**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
+-   **Portal general de carreras de posgrado**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (referencia general; no implica una convocatoria abierta de esta carrera).
 
 ## Fuentes consultadas
 
@@ -277,3 +263,29 @@ El cuerpo docente está integrado por Contadores Especialistas en Sindicatura Co
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1080 -->
+### Información oficial del CRM — Especialización en Sindicatura Concursal
+
+- **ID de propuesta:** 1080
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2023-04-30
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> La Especialización en Sindicatura Concursal tienen como propósito brindar a los Contadores una capacitación integral relacionada con las problemáticas que se pueden presentar en  las empresas en crisis, la intervención de los contadores en las soluciones preventivas planteadas por nuestro ordenamiento legal; y la actuación de los síndicos\.
+> La carrera tiene una duración de 2 años\. Para más información de la carrera \-plan de estudio, materias, docentes\-, consultar en  fce\.unl\.edu\.ar/sindicatura/\.
+> Es posible la apertura de una nueva edición en Abril 2027 \(modalidad presencial y virtual\)\.
+> Las inscripciones abririan en Diciembre 2026, verás la información publicada en la web de la facultad ingresando en www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Los valores de matricula se informan a partir de dicha fecha\.
+> A disposición para consultas o cualquier aclaración al respecto\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE\-UNL
+> Email posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->

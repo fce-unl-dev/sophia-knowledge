@@ -106,23 +106,9 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 - **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
 - **Proceso de admisión**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
 
-## Aranceles e inscripción
+## Antecedente institucional
 
-- **Matrícula**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
-- **Cuotas**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
-- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2028**
-- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con magadpub@fce.unl.edu.ar
-
-## Próxima cohorte
-
-- **Fecha de inicio**: **2028**
-- **Estado**: Cerrada
-- **Fuente del dato**: https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776 (Novedades - Inscripciones)
-- **Última actualización del dato**: 2026-09-10
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+La [nota institucional de la carrera](https://www.fce.unl.edu.ar/magister/index.php?act=showNoticia&id=776), consultada el 2026-09-10, anunciaba una edición para 2028. Se conserva como antecedente fechado, no como confirmación de una convocatoria vigente.
 
 ## Contacto
 
@@ -178,3 +164,32 @@ El cuerpo docente estable de la carrera se conforma con profesores de la Univers
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1075 -->
+### Información oficial del CRM — Maestría en Administración Pública
+
+- **ID de propuesta:** 1075
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-04-22
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> La Maestría en Administración Pública tiene como propósito fundamental brindar una elevada calificación y especialización académica y empírica en Administración Pública y/o Gubernamental a graduados de diferentes disciplinas con el fin de alcanzar una adecuada comprensión de los principios y prácticas referidas a las actividades y políticas públicas, incluyendo además los impactos socioeconómicos y culturales del sector público con una perspectiva multidimensional e interdisciplinaria\.
+> El requisito inicial para pre inscribirse en dicha Maestria es poseer TITULO DE GRADO UNIVERSITARIO\.
+> La modalidad de cursado es presencial, se dictan clases todas las semanas \(viernes por la tarde y sabados por la mañana\) en la FCE UNL \(Moreno 2557\-Santa Fe\)\. Alguna de dichas clases pueden ser por zoom\. Debe cumplirse con un 80% de asistencia a las clases\.
+> Para mas info de la carrera podes ingresar a: www\.fce\.unl\.edu\.ar/magister/\.
+> En abril de este año ha comenzado una nueva edición de la carrera\. Las inscripciones ya se encuentran cerradas\. La pxma edición se dictará en 2028\.
+> Si estas interesado/a en conocer otra carreras o curso de posgrado podes ingresar a :
+> https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Gracias, quedamos a disposción\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE UNL
+> Email posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->

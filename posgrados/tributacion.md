@@ -79,23 +79,11 @@ Algunos de los profesores que nos acompañan son:
 - **Documentación a presentar**: No publicada en detalle — consultar con tributacion@fce.unl.edu.ar
 - **Proceso de admisión**: Evaluación por el Comité Académico
 
-## Aranceles e inscripción
+## Antecedente institucional
 
-- **Matrícula**: **A confirmar para ciclo 2027**
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: No publicado en fuentes oficiales — consultar
-- **Estado actual de inscripción**: Cerrada — próxima apertura en **Diciembre 2026** para cohorte **2027**
-- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
+La [nota institucional de la carrera](https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781), consultada el 2026-09-10, anunciaba una posible edición para 2027. Se conserva como antecedente fechado, no como confirmación de una convocatoria vigente.
 
-## Próxima cohorte
-
-- **Fecha de inicio**: **2027**
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/tributacion/index.php?act=showNoticia&id=781 (Novedades)
-- **Última actualización del dato**: **2026-09-10**
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/) se conserva como referencia; no implica que esta carrera esté recibiendo solicitudes.
 
 ## Contacto
 
@@ -145,3 +133,30 @@ Algunos de los profesores que nos acompañan son:
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1077 -->
+### Información oficial del CRM — Especialización en Tributación
+
+- **ID de propuesta:** 1077
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2025-05-09
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu intereses en la Especialización en Tributación\. Dicha carrera tienen como objetivo profundizar la formación del profesional en ciencias económicas, en el área tributaria a través de un entrenamiento intensivo que brinda herramientas teóricas y prácticas tanto para el asesoramiento a los contribuyentes como para la actuación del profesional ante o en los organismos públicos, formando graduados capaces de contribuir al desarrollo de la región y del país en este ámbito disciplinario\.
+> El cursado es quincenal, viernes por la tarde y sabados por la mañana bajo la modalidad HIBRIDA, pudiendo el alumno optar por el cursado en forma presencial en la FCE UNL \(Moreno 2557\- Santa Fe\) o por zoom \(MODALIDAD HIBRIDA\)\.
+> Para mas información podés acceder a : www\.fce\.unl\.edu\.ar/tributacion
+> Hemos comenzado con las clases de la edición 2025, por lo que las inscripciones se encuetran cerradas\. La pxma edición comenzaria en el 2027\.
+> La apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+> Durante 2026 se ofrecerán cursos vinculado a la temática de la carrera, los cuales verás publicado en www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Quedamos a disposición\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE\-UNL
+> Email: posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->
