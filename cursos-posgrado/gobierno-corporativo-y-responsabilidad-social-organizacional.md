@@ -331,14 +331,6 @@ accediendo a https://servicios.unl.edu.ar/firmadigital/
 *Este documento ha sido firmado digitalmente conforme Ley 25.506, Decreto reglamentario Nro. 182/2019
  y a la Ordenanza Nro. 2/2017 de esta Universidad.
 
-## Aranceles e inscripción
-
-- **Aranceles (consulta del 2026-09-30)**: ARS 195.000 al contado. También se ofrecen dos cuotas, pero el CRM no informa el importe de cada cuota ni el total financiado; consultar el plan de pagos con Posgrado.
-- **Estado de inscripción (consulta del 2026-09-30)**: Abierta, con fecha límite informada para el 2026-10-23.
-- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1422`).
-- **Pre-inscripción**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1422
-- **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).
-
 ## Contacto
 
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
@@ -354,3 +346,33 @@ accediendo a https://servicios.unl.edu.ar/firmadigital/
 
 **Última revisión automática**: 2026-08-24 (candidato generado por el scraper determinístico de cursos de posgrado)
 **Revisión humana**: pendiente
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id cursos:1422 -->
+### Información oficial del CRM — GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL 2026
+
+- **ID de propuesta:** 1422
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2026-10-23
+- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1422
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por su contacto\. El curso Gobierno Corporativo y Responsabilidad Social Organizacional que inicia el dia 23/10\. El mismo forma parte del Plan de Estudio de la Maestria en Contabilidad y Auditoria\.
+> Dias, horarios, modalidad, docente:
+> 23/10/2026	Presencial \- Marcela Martín \- UNL
+> 24/10/2026	Presencial \- Marcela Martín \- UNL
+> 30/10/2026	Virtual \- Judith Bulian \- UNR
+> 31/10/2026	Virtual \- Judith Bulian \- UNR
+> 6/11/2026	Virtual \- Judith Bulian \- UNR
+> 7/11/2026	Virtual \- Judith Bulian \- UNR
+>  Viernes de 17 a 21 hs, sabados de 9 a 13hs\.
+> Se utiliza la plataforma de UNL para subir material, foros, actividades, exámenes\.
+> Como requisito inicial, debes poseer titulo de grado \(o certificado de tiulo en tramite\) vinculado a las Ciencias Económicas\.
+> La inscripción se realiza on line completando una ficha y subiendo fotocopia simple de DNI y titulo de grado \(o certificado de titulo en tramite\) en: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> El costo del curso es ARS195\.000 al contado o dos cuotas\. Una vez que completes la ficha de inscripción te enviarán desde tesoreria el link para efectuar el pago\.
+> Quedamos a disposición ante cualquier consulta\.
+> Saludos
+> Secretaria de Posgrado
+<!-- posgrado-crm:end -->

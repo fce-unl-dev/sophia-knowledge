@@ -47,14 +47,6 @@ PULIDO, Noemi
 Cursado 
 Modalidad a distancia desde el 12/10/2026 AL 8/12/2026
 
-## Aranceles e inscripción
-
-- **Aranceles de la edición 2026 (consulta del 2026-10-06)**: El CRM aún informa ARS 300.000 en un pago, o ARS 320.000 en total en dos cuotas. Son valores de una edición cuya inscripción está cerrada; no asumirlos vigentes para futuras ediciones ni realizar pagos sin confirmación de Posgrado.
-- **Estado de inscripción (consulta del 2026-10-06)**: Cerrada, con fecha límite informada para el 2026-10-05 (`id_posgrado: 1417`). No hay una nueva apertura informada en este registro.
-- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1417`; JSON generado el 2026-10-06 a las 08:44:07, hora local del CRM; registro actualizado el 2026-10-06 a las 00:00:00).
-- **Sistema de preinscripción (inscripción cerrada según el CRM consultado)**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1417
-- **Sistema de inscripción**: La preinscripción se realiza en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados) cuando está habilitada; este curso figura con inscripción cerrada en el CRM consultado.
-
 ## Contacto
 
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
@@ -70,3 +62,27 @@ Modalidad a distancia desde el 12/10/2026 AL 8/12/2026
 
 **Última revisión automática**: 2026-07-31 (candidato generado por el scraper determinístico de cursos de posgrado)
 **Revisión humana**: pendiente
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id cursos:1417 -->
+### Información oficial del CRM — CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS 2026
+
+- **ID de propuesta:** 1417
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-10-05
+- **Última actualización de este registro (Argentina):** 2026-10-06 00:00:00
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Estimado/a
+> Te comentamos que el Curso CONDUCCION Y GERENCIA EN INSTITUCIONES PUBLICAS se dicta en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas\. El cursado es totalmente asincrónico, es decir, que los alumnos pueden ingresar al aula en cualquier momento del día para poder participar de foros, ver materiales de trabajo y bibliografía, y entregar trabajos prácticos para cumplir con lo que solicita cada docente\. No hay clases en horarios y dias establecidos\.
+> El costo de la misma es de ARS 300\.000 en un pago \(o en 2 cuotas ARS 320\.000\)\. El monto total de la asignatura o la primera cuota debe estar abonada antes del comienzo del dictado \(12/10/2026\)
+> Dicho pago se realiza una vez que tesoreria FCE se contacte con vos y respondas el mail recibido\.
+> La inscripción se realiza on line completando una ficha y subiendo fotocopia simple de DNI y titulo de grado \(o certificado de titulo en tramite\) en: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Luego se te habilita en el sistema Mercurio de UNL para realizar el pago, al cual ingresas con tu numero de DNI a servicios\.unl\.edu\.ar/mdcobro/
+> Quedamos a disposición ante consultas al respecto\.
+> Saludos cordiales\.
+> Secretaría de Posgrado FCE
+<!-- posgrado-crm:end -->
