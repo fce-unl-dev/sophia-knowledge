@@ -86,8 +86,9 @@ jobs:
             echo 'CRM sync failed or needs investigation; no PR will be created.' >&2
             exit 1
           fi
-          if [ "$MODE" = apply ] && [ "$status" = dry_run ] || [ "$MODE" = dry-run ] && [ "$status" != dry_run ]; then
-            echo 'Unexpected CRM sync status for the selected mode.' >&2
+          if { [ "$MODE" = apply ] && [ "$status" = dry_run ]; } ||
+             { [ "$MODE" = dry-run ] && [ "$status" != dry_run ]; }; then
+            echo "Unexpected CRM sync status '$status' for mode '$MODE'." | tee -a "$GITHUB_STEP_SUMMARY" >&2
             exit 1
           fi
 

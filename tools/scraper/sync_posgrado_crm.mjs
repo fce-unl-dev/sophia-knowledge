@@ -139,17 +139,35 @@ export async function syncPosgradoCrm({ root, apply = false, fetchImpl = fetch, 
   return report;
 }
 
+/** Parse CLI options before contacting the CRM; invalid modes must fail closed. */
+export function parseCliArgs(args, defaultRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../..')) {
+  let root = defaultRoot;
+  let mode = null;
+  let rootSeen = false;
+  for (let i = 0; i < args.length; i++) {
+    const arg = args[i];
+    if (arg === '--kb-root' && !rootSeen && args[i + 1] && !args[i + 1].startsWith('--')) {
+      root = args[++i];
+      rootSeen = true;
+    } else if ((arg === '--apply' || arg === '--dry-run') && mode === null) {
+      mode = arg;
+    } else {
+      fail('invalid_arguments', arg);
+    }
+  }
+  if (!root) fail('invalid_arguments', 'missing KB root');
+  return { root, apply: mode === '--apply' };
+}
+
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  const args = process.argv.slice(2);
-  const allowed = new Set(['--apply', '--dry-run', '--kb-root']);
-  const rootFlag = args.indexOf('--kb-root');
-  const root = rootFlag < 0 ? resolve(dirname(fileURLToPath(import.meta.url)), '../..') : args[rootFlag + 1];
-  const flags = args.filter((arg, i) => i !== rootFlag && i !== rootFlag + 1);
-  if (!root || flags.some(flag => !allowed.has(flag)) || flags.includes('--apply') && flags.includes('--dry-run')) {
+  let options;
+  try { options = parseCliArgs(process.argv.slice(2)); }
+  catch { options = null; }
+  if (!options) {
     console.error(JSON.stringify({ status: 'error', errors: [{ code: 'invalid_arguments' }] }));
     process.exitCode = 2;
   } else {
-    const report = await syncPosgradoCrm({ root, apply: flags.includes('--apply') });
+    const report = await syncPosgradoCrm(options);
     console.log(JSON.stringify(report));
     if (report.status === 'error' || report.status === 'needs_review') process.exitCode = 1;
   }

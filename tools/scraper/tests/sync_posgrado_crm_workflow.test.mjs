@@ -15,6 +15,8 @@ test('official CRM workflow schedules frequent serial runs and supports a safe p
   assert.match(workflow, /npm ci --prefix tools\/scraper/);
   assert.match(workflow, /sync_posgrado_crm\.mjs --apply/);
   assert.match(workflow, /sync_posgrado_crm\.mjs --dry-run/);
+  assert.match(workflow, /\{ \[ "\$MODE" = apply \] && \[ "\$status" = dry_run \]; \} \|\|\s+\{ \[ "\$MODE" = dry-run \] && \[ "\$status" != dry_run \]; \}; then/);
+  assert.match(workflow, /Unexpected CRM sync status '\$status' for mode '\$MODE'.*GITHUB_STEP_SUMMARY/);
 });
 
 test('official CRM workflow fails closed before publishing and never reuses a sync branch', () => {
