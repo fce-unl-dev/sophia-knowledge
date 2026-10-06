@@ -1,0 +1,164 @@
+name: Sync official postgraduate CRM JSON
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Preview or publish validated official CRM changes'
+        required: true
+        default: apply
+        type: choice
+        options:
+          - apply
+          - dry-run
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: official-posgrado-crm-kb
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Install scraper dependencies
+        run: npm ci --prefix tools/scraper
+
+      - name: Select execution mode and reject overlapping CRM proposals
+        id: prepare
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REQUESTED_MODE: ${{ inputs.mode }}
+        run: |
+          set -euo pipefail
+          mode="${REQUESTED_MODE:-apply}"
+          case "$mode" in apply|dry-run) ;; *) echo "Invalid mode: $mode" >&2; exit 1 ;; esac
+          echo "mode=$mode" >> "$GITHUB_OUTPUT"
+          test -z "$(git status --porcelain)" || { echo 'Checkout is not clean.' >&2; exit 1; }
+          if [ "$mode" = apply ]; then
+            existing=$(gh api --paginate "repos/$GITHUB_REPOSITORY/pulls?state=open&per_page=100" \
+              --jq '.[] | select(.head.ref | startswith("kb-crm/official-json-")) | .html_url')
+            if [ -n "$existing" ]; then
+              printf 'An official CRM PR is already open; resolve it before another sync:\n%s\n' "$existing" | tee -a "$GITHUB_STEP_SUMMARY" >&2
+              exit 1
+            fi
+          fi
+
+      - name: Read and plan official CRM feeds
+        id: sync
+        env:
+          MODE: ${{ steps.prepare.outputs.mode }}
+        run: |
+          set -euo pipefail
+          report="$RUNNER_TEMP/posgrado-crm-report.json"
+          set +e
+          if [ "$MODE" = apply ]; then
+            node tools/scraper/sync_posgrado_crm.mjs --apply > "$report" 2> "$RUNNER_TEMP/posgrado-crm-stderr.log"
+          else
+            node tools/scraper/sync_posgrado_crm.mjs --dry-run > "$report" 2> "$RUNNER_TEMP/posgrado-crm-stderr.log"
+          fi
+          exit_code=$?
+          set -e
+          cat "$RUNNER_TEMP/posgrado-crm-stderr.log" >&2
+          jq -e 'type == "object" and (.status | IN("updated", "unchanged", "dry_run", "needs_review", "error")) and (.updates | type == "array") and (.quarantined | type == "array") and (.errors | type == "array")' "$report" >/dev/null || {
+            echo 'CRM sync returned no valid machine-readable report.' | tee -a "$GITHUB_STEP_SUMMARY" >&2
+            exit 1
+          }
+          status=$(jq -r '.status' "$report")
+          echo "status=$status" >> "$GITHUB_OUTPUT"
+          echo "### Official CRM sync: $status" >> "$GITHUB_STEP_SUMMARY"
+          jq -r '"- Updates: \(.updates | length); quarantined records: \(.quarantined | length); anomalies: \(.anomalies | length); errors: \(.errors | length).", "- Basicos is deferred; no manually curated general guidance is replaced."' "$report" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$exit_code" -ne 0 ] || [ "$status" = error ] || [ "$status" = needs_review ]; then
+            jq -r '(.errors // [] | .[] | "- Error: \(.code // "unknown")"), (.anomalies // [] | .[] | "- Anomaly: \(.code // "unknown")")' "$report" >> "$GITHUB_STEP_SUMMARY"
+            echo 'CRM sync failed or needs investigation; no PR will be created.' >&2
+            exit 1
+          fi
+          if [ "$MODE" = apply ] && [ "$status" = dry_run ] || [ "$MODE" = dry-run ] && [ "$status" != dry_run ]; then
+            echo 'Unexpected CRM sync status for the selected mode.' >&2
+            exit 1
+          fi
+
+      - name: Run complete KB validation before proposing an update
+        if: steps.sync.outputs.status == 'updated'
+        run: |
+          set -euo pipefail
+          npm test --prefix tools/scraper
+          for file in tools/scraper/*.mjs; do node --check "$file"; done
+          node tools/scraper/validate_index.mjs --kb-root=../.. --json
+          node tools/scraper/validate_links.mjs --kb-root=../.. --json
+          node tools/scraper/check_freshness_report.mjs --kb-root=.
+          git diff --check
+
+      - name: Propose and merge validated routine changes
+        if: steps.sync.outputs.status == 'updated'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          report="$RUNNER_TEMP/posgrado-crm-report.json"
+          snapshot='tools/scraper/posgrado_crm_snapshot.json'
+          declare -A allowed=()
+          mapfile -t update_paths < <(jq -r '.updates[].path' "$report")
+          for path in "${update_paths[@]}"; do
+            if [[ ! "$path" =~ ^[a-zA-Z0-9_./-]+$ || "$path" = /* || "$path" = *../* || "$path" = *///* ]]; then
+              echo "Unsafe update path: $path" >&2; exit 1
+            fi
+            allowed["$path"]=1
+          done
+          if [ "$(jq -r '.snapshotChanged' "$report")" = true ]; then allowed["$snapshot"]=1; fi
+          if [ "${#allowed[@]}" -eq 0 ]; then echo 'Updated status without changed paths.' >&2; exit 1; fi
+          while IFS= read -r -d '' path; do
+            if [ -z "${allowed[$path]:-}" ]; then echo "Unexpected changed path: $path" >&2; exit 1; fi
+          done < <(git diff --name-only -z; git ls-files --others --exclude-standard -z)
+          for path in "${!allowed[@]}"; do
+            if [ ! -f "$path" ]; then
+              echo "Reported path is missing: $path" >&2; exit 1
+            fi
+            if git ls-files --error-unmatch -- "$path" >/dev/null 2>&1 && git diff --quiet -- "$path"; then
+              echo "Reported path was not changed: $path" >&2; exit 1
+            fi
+            if [ "$path" != "$snapshot" ] && ! git ls-files --error-unmatch -- "$path" >/dev/null 2>&1; then
+              echo "Untracked KB document is not allowed: $path" >&2; exit 1
+            fi
+            git add -- "$path"
+          done
+          git diff --cached --check
+          branch="kb-crm/official-json-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          git switch -c "$branch"
+          git commit -m 'chore(kb): sync official postgraduate CRM JSON'
+          git push origin "$branch"
+
+          updates=$(jq '.updates | length' "$report")
+          quarantined=$(jq '.quarantined | length' "$report")
+          snapshot_only=$(jq -r '.snapshotOnly' "$report")
+          cat > "$RUNNER_TEMP/posgrado-crm-pr.md" <<EOF
+          Routine update from the three official postgraduate CRM JSON feeds. All local KB gates passed before this PR was opened.
+
+          - Updated KB files: $updates
+          - Snapshot-only update: $snapshot_only
+          - Quarantined known records (not published): $quarantined
+          - General/Basicos content remains deferred; curated operational guidance is unchanged.
+          - No record is deleted because it disappeared from a feed.
+
+          This PR uses a unique branch and is eligible for automatic merge only after the checks above pass.
+          EOF
+          pr=$(gh pr create --base main --head "$branch" \
+            --title 'chore(kb): sync official postgraduate CRM JSON' \
+            --body-file "$RUNNER_TEMP/posgrado-crm-pr.md")
+          echo "PR: $pr" >> "$GITHUB_STEP_SUMMARY"
+          gh pr merge "$pr" --squash --delete-branch
