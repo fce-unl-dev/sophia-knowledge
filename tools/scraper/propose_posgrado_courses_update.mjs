@@ -4,7 +4,8 @@
 // - Materializa SOLO los cursos NUEVOS (cuyo MD aún no existe) en /cursos-posgrado/
 //   y los agrega a indice.json. NO pisa fichas existentes (preserva el contenido
 //   curado a mano); para cursos ya presentes solo reporta drift de fecha de inicio.
-// - NO borra cursos que dejaron de estar activos; los reporta como bajas (revisión).
+// - Protege las fichas gestionadas por el CRM: cerrar inscripciones no las borra.
+//   Las fichas ajenas al CRM conservan la política histórica de bajas.
 // - Clasifica cada alta con classify_diff (IA si hay GEMINI_API_KEY).
 // - Produce un cuerpo de PR Markdown y un report JSON con .decision.
 //
@@ -21,10 +22,12 @@ import { checkRemovalRatio, evaluarBajaDeCurso } from './guards.mjs';
 
 import { runPosgradoCoursesScraper, todayIsoDate } from './scrape_courses_posgrado.mjs';
 import { classifyDiff } from './classify_diff.mjs';
+import crmRoutes from './posgrado_crm_routes.json' with { type: 'json' };
 
 const CATEGORY = 'Curso de posgrado';
 const KB_FOLDER = 'cursos-posgrado';
 const DEFAULT_STATE_DIR = 'state/cursos-posgrado';
+const CRM_COURSE_PATHS = new Set(Object.values(crmRoutes.cursos));
 
 export async function proposePosgradoCoursesUpdate({
   kbRoot,
@@ -104,13 +107,14 @@ export async function proposePosgradoCoursesUpdate({
     existingPaths.add(relPath);
   }
 
-  // Bajas: cursos en el índice (cursos-posgrado/) que ya no están activos en la
-  // fuente → se ELIMINAN automáticamente (archivo + índice) para que el KB
-  // coincida con la web. Guarda: si las bajas superan a los activos, es una
-  // anomalía (scrape parcial) → revisión humana, sin borrar masivamente.
+  // El listado muestra inscripciones abiertas, no el catálogo histórico. Una
+  // ficha gestionada por el CRM sigue siendo válida al cerrar inscripciones:
+  // ni la ausencia del listado ni una fecha antigua autorizan eliminarla.
+  // Las bajas de fichas ajenas al CRM conservan la política histórica.
   const activePaths = new Set(scraper.courses.map((c) => c.kb_path));
   const missingFromSource = (index.items || [])
-    .filter((i) => i.path.startsWith(`${KB_FOLDER}/`) && !activePaths.has(i.path))
+    .filter((i) => i.path.startsWith(`${KB_FOLDER}/`) &&
+      !CRM_COURSE_PATHS.has(i.path) && !activePaths.has(i.path))
     .map((i) => ({ path: i.path, title: i.title }));
   // Regla vieja: las bajas superan a los cursos activos. Solo dispara cuando se
   // cae más de la mitad del catálogo, así que deja pasar degradaciones grandes.
@@ -118,7 +122,8 @@ export async function proposePosgradoCoursesUpdate({
   // Regla nueva: las bajas se comen un porcentaje del inventario y las altas no
   // las compensan. Se quedan las dos: la guarda solo puede endurecer.
   const removalAnomaly = checkRemovalRatio({
-    inventory: (index.items || []).filter((i) => String(i.path || '').startsWith(`${KB_FOLDER}/`)).length,
+    inventory: (index.items || []).filter((i) =>
+      String(i.path || '').startsWith(`${KB_FOLDER}/`) && !CRM_COURSE_PATHS.has(i.path)).length,
     removals: missingFromSource.length,
     additions: createdDocs.length,
     label: 'los cursos de posgrado',
@@ -242,7 +247,7 @@ function buildPrBody(r) {
     for (const b of r.bajas_conservadas) L.push(`- \`${b.path}\` — ${b.motivo}`);
   }
   L.push('');
-  L.push('> Las fichas de cursos ya existentes NO se sobrescriben (se preserva el contenido curado). Una baja se aplica sólo si la ficha tiene fecha de inicio publicada y esa edición ya venció; si no, el curso se conserva y se reporta arriba. Datos personales (DNIs) saneados automáticamente.');
+  L.push('> Las fichas de cursos ya existentes NO se sobrescriben (se preserva el contenido curado). Las fichas gestionadas por el CRM nunca se eliminan por ausencia del listado de inscripciones abiertas. Para otras fichas, una baja se aplica sólo si la fecha de inicio publicada indica una edición vencida; si no, se conserva y reporta. Datos personales (DNIs) saneados automáticamente.');
   return L.join('\n');
 }
 
