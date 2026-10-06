@@ -9,7 +9,7 @@
     "extension": 6,
     "internacionales": 8,
     "docentes": 4,
-    "posgrados_graduados": 34,
+    "posgrados_graduados": 33,
     "posgrados_cursos_sin_titulo": 27,
     "grado": 12,
     "tramites_bedelia": 7,
@@ -899,12 +899,6 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Carreras de Posgrado con Otras Unidades Académicas",
       "category": "Información general de Posgrado"
-    },
-    "posgrado-general/crawler.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "datos generales posgrado",
-      "category": "Información general"
     },
     "posgrado-general/cursos-overview.md": {
       "sector": "posgrados_graduados",

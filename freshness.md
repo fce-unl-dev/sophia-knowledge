@@ -140,8 +140,7 @@
 | `posgrados/edgop.md` | Draft autogenerado | 🟡 18 d (2026-09-14) | 🔴 17 d (2026-09-14) |
 | `posgrados/dap.md` | Draft autogenerado | 🟡 15 d (2026-09-17) | 🟢 14 d (2026-09-17) |
 | `posgrados/mcya.md` | Draft autogenerado | 🟡 11 d (2026-09-21) | 🟢 10 d (2026-09-21) |
-| `posgrado-general/crawler.md` | Draft autogenerado | 🟡 8 d (2026-09-24) | 🟢 7 d (2026-09-24) |
-| `posgrado-general/cursos-posgrado.md` | Draft autogenerado | 🟡 8 d (2026-09-24) | 🟢 7 d (2026-09-24) |
+| `posgrado-general/cursos-posgrado.md` | Draft autogenerado | 🟡 8 d (2026-09-24) | 🔴 N/D |
 | `compartidos/mids.md` | Draft autogenerado | 🟡 1 d (2026-10-01) | 🟢 0 d (2026-10-01) |
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 134 d (2026-05-21) | 🔴 N/D |
 | `operativos/ingreso-2026.md` | Revisado | 🟢 134 d (2026-05-21) | 🔴 136 d (2026-05-18) |
