@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "basicos": { "target": "posgrado-general/datos-para-crawler.md", "mode": "deferred_until_equivalence_verified" },
+  "carreras": {
+    "1073": ["posgrados/dap.md", 18],
+    "1074": ["posgrados/mba.md", 6],
+    "1075": ["posgrados/map.md", 7],
+    "1076": ["posgrados/maf.md", 17],
+    "1077": ["posgrados/tributacion.md", 10],
+    "1078": ["posgrados/edgop.md", 21],
+    "1080": ["posgrados/sindicatura-concursal.md", 9],
+    "1103": ["posgrados/ecyge.md", 22],
+    "1185": ["posgrados/maea.md", 27],
+    "1254": ["posgrados/ecyge.md", 22],
+    "1269": ["posgrados/mrso.md", 31],
+    "1271": ["posgrados/mcya.md", 32],
+    "1337": ["diplomaturas/diplomercados.md", 34],
+    "1349": ["posgrados/diplotributos.md", 35],
+    "1425": ["compartidos/mids.md", 38]
+  },
+  "cursos": {
+    "1402": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
+    "1415": "cursos-posgrado/economia-gubernamental.md",
+    "1417": "cursos-posgrado/conduccion-y-gerencia-en-instituciones-publicas.md",
+    "1418": "cursos-posgrado/analisis-institucional-de-organizaciones-publicas.md",
+    "1421": "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md",
+    "1422": "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md",
+    "1423": "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md",
+    "1424": "cursos-posgrado/costos-de-la-funcion-comercial.md",
+    "1426": "cursos-posgrado/analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible.md"
+  }
+}
