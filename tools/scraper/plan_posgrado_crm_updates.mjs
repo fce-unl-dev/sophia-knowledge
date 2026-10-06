@@ -44,7 +44,7 @@ function render(record) {
   const courseEnrollment = open && record.id.startsWith('cursos:')
     ? `- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=${item.id_posgrado}\n`
     : '';
-  const historical = open ? '' : '\n> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes.\n';
+  const historical = open ? '' : '\n> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.\n';
   return `${BEGIN}\n<!-- posgrado-crm:id ${record.id} -->\n` +
     `### Información oficial del CRM — ${markdownData(item.nombre)}\n\n` +
     `- **ID de propuesta:** ${item.id_posgrado}\n` +

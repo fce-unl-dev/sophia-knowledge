@@ -271,12 +271,9 @@ accediendo a https://servicios.unl.edu.ar/firmadigital/
 *Este documento ha sido firmado digitalmente conforme Ley 25.506, Decreto reglamentario Nro. 182/2019
  y a la Ordenanza Nro. 2/2017 de esta Universidad.
 
-## Aranceles e inscripción
+## Trámite institucional
 
-- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado de inscripción (al 2026-08-24)**: Curso publicado en el catálogo oficial de cursos de posgrado. Confirmá la apertura de inscripción con la Secretaría de Posgrado.
-- **Pre-inscripción**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1421
-- **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).
+La preinscripción se realiza en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados) cuando está habilitada.
 
 ## Contacto
 
@@ -293,3 +290,34 @@ accediendo a https://servicios.unl.edu.ar/firmadigital/
 
 **Última revisión automática**: 2026-08-24 (candidato generado por el scraper determinístico de cursos de posgrado)
 **Revisión humana**: pendiente
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id cursos:1421 -->
+### Información oficial del CRM — SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y EL CONTROL DE GESTION  2026
+
+- **ID de propuesta:** 1421
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-09-18
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto\. El curso SISTEMAS DE INFORMACION PARA LA PLANIFICACION Y CONTROL DE GESTION inicia el dia 18/9 \. El mismo forma parte del Plan de Estudio de la Maestria en Contabilidad y Auditoria\.
+> Dias, horarios, modalidad y docentes:
+> 18/9/2026	Virtual \-  Daniela Elstein
+> 19/9/2026	Virtual \- Daniela Elstein
+> 2/10/2026	Virtual \- Daniela Elstein
+> 3/10/2026	Virtual \- Daniela Elstein
+> 9/10/2026	Virtual \- José Puccio
+> 10/10/2026	Virtual \- José Puccio
+> Viernes de 17 hs a 21 hs y sabados de 9 a 13 hs\.
+> Se utiliza la plataforma de UNL para subir material, foros, actividades, exámenes\.
+> El costo del curso es $   290\.000 al contado o dos cuotas \(septiembre y octubre\)\. Una vez que complete la ficha de inscripción te enviarán desde tesoreria el link para efectuar el pago\.
+> Las inscripciones se realizan ingresando en https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Quedamos a disposición ante cualquier consulta\.
+> Saludos
+> Secretaria de Posgrado
+> FCE UNL
+<!-- posgrado-crm:end -->

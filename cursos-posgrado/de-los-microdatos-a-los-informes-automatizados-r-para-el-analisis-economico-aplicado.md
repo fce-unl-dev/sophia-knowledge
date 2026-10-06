@@ -51,21 +51,14 @@ Curso de posgrado de la Facultad de Ciencias Económicas (FCE-UNL) que introduce
 - **Destinatarios**: Profesionales, académicos, investigadores y estudiantes de posgrado de Ciencias Económicas y disciplinas relacionadas con el tratamiento de datos. No se requieren conocimientos previos específicos, aunque se recomienda contar con nociones básicas sobre aplicaciones orientadas al manejo de datos.
 - **Título previo requerido**: Título universitario en las áreas de Ciencias Económicas y Ciencias Sociales; o título universitario en otras áreas, en carreras con al menos una materia de estadística.
 
-## Aranceles e inscripción
+## Edición 2026
 
-- **Aranceles de la edición 2026 (consulta del 2026-10-02)**: El CRM aún informa ARS 250.000, hasta en dos cuotas. Es un valor de la edición cuya inscripción está cerrada; no asumirlo vigente para futuras ediciones ni realizar pagos sin confirmación de Posgrado.
-- **Estado de inscripción (consulta del 2026-10-02)**: Cerrada, con fecha límite informada para el 2026-09-30 (`id_posgrado: 1402`).
-- **Fuente del arancel y estado**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (registro `id_posgrado: 1402`; JSON generado el 2026-10-02 a las 19:27:25, hora local del CRM; registro actualizado el 2026-10-01 a las 08:04:26).
-- **Modalidad de inscripción**: El sistema de Posgrado de la FCE-UNL (https://www.fce.unl.edu.ar/posgrados) se utiliza para preinscripción; este curso no tiene inscripción abierta según el CRM consultado.
+- **Inicio publicado de la edición 2026**: 2026-10-06 (según el catálogo oficial de cursos de posgrado).
+- **Fuente de la fecha de inicio**: Catálogo oficial de cursos de posgrado FCE-UNL y Resolución C.D. Nº 799/25 (FCE-1266735-25).
 
-## Próxima cohorte
+## Trámite institucional
 
-- **Fecha de inicio**: 2026-10-06 (según el catálogo oficial de cursos de posgrado).
-- **Estado**: Inscripción cerrada según el CRM de Posgrado consultado el 2026-10-02; fecha límite informada: 2026-09-30.
-- **Fuente del dato**: Catálogo oficial de cursos de posgrado FCE-UNL y Resolución C.D. Nº 799/25 (FCE-1266735-25).
-- **Última actualización del dato de inscripción**: 2026-10-02
-
-> Nota: El estado y el arancel publicado para la edición 2026 se verificaron en el CRM de Posgrado el 2026-10-02. Para consultar una futura edición y sus condiciones, escribir a posgrado@fce.unl.edu.ar.
+El sistema de Posgrado de la FCE-UNL (https://www.fce.unl.edu.ar/posgrados) se utiliza para la preinscripción cuando está habilitada.
 
 ## Contacto
 
@@ -81,3 +74,41 @@ Curso de posgrado de la Facultad de Ciencias Económicas (FCE-UNL) que introduce
 ---
 
 **Última revisión humana**: 2026-06-23
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id cursos:1402 -->
+### Información oficial del CRM — De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado 2026
+
+- **ID de propuesta:** 1402
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-09-30
+- **Última actualización de este registro (Argentina):** 2026-10-01 08:04:26
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> De los Microdatos a los Informes Automatizados: R para el Análisis Económico Aplicado
+> Cuerpo docente
+> Dr\. Hernán Alejandro Roitbarg, Docente FCE\-UNL en cátedras de Ciencia de Datos I y II, e Introducción a la Economía\. Investigador en IHUCSO \(UNL\-CONICET\)
+> Lic\. Francisco Leiva\. Docente Adscripto FCE\-UNL en cátedra de Econometría e Investigador en Centro de Estudios de la Bolsa de Comercio de Santa Fe
+> Destinatarios:
+> Graduados en Ciencias Económicas y carreras afines al manejo de datos\.
+> El curso está destinado a profesionales, académicos, investigadores y estudiantes de posgrado de Ciencias Económicas y disciplinas relacionadas con el tratamiento de datos, la elaboración de estadísticas y la generación de reportes e informes\.
+> El objetivo es brindar herramientas básicas para la administración de bases de datos, el análisis cuantitativo y cualitativo, y la visualización de resultados, fortaleciendo las capacidades aplicables en el trabajo profesional y en la investigación\.
+> No se requieren conocimientos previos específicos, aunque se recomienda contar con nociones básicas sobre el uso de aplicaciones orientadas al manejo de datos\. Las habilidades adquiridas podrán aplicarse en campos como la contabilidad, las finanzas, el análisis estadístico, la automatización de procesos y la presentación de información\.
+> Requisitos de admisión:
+> \-Título universitario en las áreas de Ciencias Económicas y Ciencias Sociales\.
+> \-Título universitario en otras áreas, en carreras con al menos una materia de estadística\.
+> Modalidad de dictado: virtual
+> Días y horarios: martes y jueves de 18 a 21 hs \(todas las semanas\)
+> Inicio: martes 6/10
+> Duración: cuatro semanas consecutivas
+> Costo: ARS 250\.000 \(hasta 2 cuotas\)
+> Inscripcion en: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Secretaria de Posgrado
+> Facultad de Ciencias Económicas
+> Universidad Nacional del Litoral
+> Moreno 2557
+> Santa Fe \- Argentina
+<!-- posgrado-crm:end -->
