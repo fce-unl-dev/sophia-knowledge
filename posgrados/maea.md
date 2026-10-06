@@ -97,24 +97,6 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 - **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
 - **Proceso de admisión**: Pre-inscripción, evaluación de antecedentes, entrevista personal con el Comité Académico.
 
-## Aranceles e inscripción
-
-- **Matrícula**: A confirmar para ciclo 2026/2027
-- **Cuotas**: A consultar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
-- **Estado actual de inscripción**: Por confirmar — consultar con maea@fce.unl.edu.ar
-- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con maea@fce.unl.edu.ar
-
-## Próxima cohorte
-
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/maea/index.php?act=showCategoria&id=198
-- **Última actualización del dato**: 2026-09-10
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
-
 ## Contacto
 
 - **Director/a académico/a**: Lic. Germán Alberto ROLLANDI
@@ -162,3 +144,29 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1185 -->
+### Información oficial del CRM — Maestría en Economía Aplicada
+
+- **ID de propuesta:** 1185
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2022-08-01
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> La Maestría en Economía Aplicada ofrece estudios de posgrado de alto nivel académico a graduados universitarios que busquen extender y complementar su formación económica con conocimientos teóricos y metodológicos para interpretar y evaluar cuantitativamente fenómenos económicos reales\.
+> En este momento las inscripciones están cerradas\. En cuanto como se inicie una nueva edición, estaremos enviando la información pertinente\. Por el momento no hay fecha establecida de comienzo\.
+> Mas info de la carrera la encontras ingresando en: www\.fce\.unl\.edu\.ar/maea
+> Si estas interesado en conocer otra carreras o curso de posgrado podes ingresar a :
+> https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Saludos,
+>  Secretaria de Posgrado
+> FCE\-UNL
+> Email posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->

@@ -100,25 +100,6 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 - **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
 - **Proceso de admisión**: Evaluación por el Comité Académico
 
-## Aranceles e inscripción
-
-- **Matrícula**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
-- **Cuotas**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
-- **Estado actual de inscripción (consulta del 2026-10-02)**: Cerrada en el CRM de Posgrado (`id_posgrado: 1269`; fecha límite informada: 2025-08-21). No hay fecha definida para una nueva edición.
-- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con mrso@fce.unl.edu.ar
-
-## Próxima cohorte
-
-- **Fecha de inicio**: Por confirmar — no publicada en el microsite oficial
-- **Estado**: Inscripción cerrada; sin fecha definida para una nueva edición según el CRM consultado el 2026-10-02.
-- **Fuente del dato**: https://www.fce.unl.edu.ar/mrso/index.php?act=showCategoria&id=199
-- **Última actualización del dato**: 2026-05-30
-- **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCarreras (`id_posgrado: 1269`; consulta del 2026-10-02; JSON generado a las 19:27:25, hora local del CRM; registro actualizado el 2026-10-02 a las 18:36:10).
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
-
 ## Contacto
 
 - **Director/a académico/a**: Dr. Juan Pablo Del Barco
@@ -160,3 +141,32 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1269 -->
+### Información oficial del CRM — Maestría en Responsabilidad Social Organizacional
+
+- **ID de propuesta:** 1269
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2025-08-21
+- **Última actualización de este registro (Argentina):** 2026-10-02 18:36:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> La Maestría en Responsabilidad Social Organizacional brinda una formación de posgrado orientada a desarrollar conocimientos y habilidades para el diagnóstico, planificación, gestión y medición de la responsabilidad social en las organizaciones\. Su modalidad es 100%, con actividades asincronicas, es decir, no hay dias y horarios de cursado establecidos \. Se sube material y actividades al aula virtual\.
+>  Mas info de la carrera la encontras ingresando en:  www\.fce\.unl\.edu\.ar/mrso\.
+> Las inscripciones estan cerradas\. No hay fecha defina de comienzo de una nueva edición\.
+> Podes conocer nuestra ofertas de posgrados ingresando en :
+> https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+>
+> Quedamos a disposición ante cualquier otra consulta\.
+> Saludos,
+>
+> Secretaria de Posgrado
+> FCE UNL
+> Email posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->
