@@ -34,6 +34,17 @@ export async function runPipelineForSource(source, {
   fetchImpl = fetch,
 } = {}) {
   const report = { slug: source.slug, mode, steps: {} };
+  const currentMdPath = join(kbRoot, source.indice_path);
+  const currentMd = existsSync(currentMdPath) ? await readFile(currentMdPath, 'utf8') : '';
+
+  // One-source HTML generation cannot reconcile a CRM-owned overlay with fresh
+  // source data. Block before scraping so even a stale hash cannot bypass it.
+  if (currentMd.includes('<!-- posgrado-crm:begin -->') || currentMd.includes('<!-- posgrado-crm:end -->')) {
+    report.decision = 'rejected';
+    report.reason = 'protected_crm_overlay';
+    report.kb_path = source.indice_path;
+    return report;
+  }
 
   // 1) scrape
   if (source.strategy === 'TBD' || source.strategy === 'fce-students-menu-topics') {
@@ -75,8 +86,6 @@ export async function runPipelineForSource(source, {
   // 3) validate
   const candidatePath = join(stateDir, `${source.slug}.candidate.md`);
   const candidateMd = await readFile(candidatePath, 'utf8');
-  const currentMdPath = join(kbRoot, source.indice_path);
-  const currentMd = existsSync(currentMdPath) ? await readFile(currentMdPath, 'utf8') : '';
 
   try {
     const valResult = await validate(candidateMd, {
