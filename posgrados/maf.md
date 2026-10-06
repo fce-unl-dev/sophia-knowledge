@@ -1,6 +1,6 @@
 # Maestría en Administración y Finanzas
 
-La Maestría en Administración y Finanzas (MAF) es una carrera binacional argentino-alemana de doble titulación, dictada en conjunto entre la FCE-UNL y la Facultad de Ciencias Empresariales de la Universidad de Ciencias Aplicadas de Kaiserslautern (Hochschule Kaiserslautern, HSKL). Incluye una estadía académica de 7 meses en Alemania, asignaturas en inglés, curso de idioma alemán y pasantía en empresa europea, todo cubierto por beca del Centro Universitario Argentino-Alemán (CUAA).
+La Maestría en Administración y Finanzas (MAF) es una carrera binacional argentino-alemana de doble titulación, dictada en conjunto entre la FCE-UNL y la Facultad de Ciencias Empresariales de la Universidad de Ciencias Aplicadas de Kaiserslautern (Hochschule Kaiserslautern, HSKL). Incluye una estadía académica de 7 meses en Alemania, asignaturas en inglés, curso de idioma alemán y pasantía en empresa europea, con una beca del Centro Universitario Argentino-Alemán (CUAA) para estudiantes seleccionados.
 
 ---
 
@@ -73,23 +73,9 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - **Documentación a presentar**: No publicada en detalle — consultar
 - **Proceso de admisión**: Cuando se habilite una nueva convocatoria, los/las estudiantes interesados/as podrán ingresar al enlace de preinscripción. A partir de allí, se convocará a una entrevista con el Director de la Carrera, quien informará sobre cuestiones académicas y el valor de la matrícula.
 
-## Aranceles e inscripción
+## Beca CUAA (criterios académicos)
 
-- **Matrícula**: **A consultar con el Director de la Carrera**
-- **Cuotas**: No publicado en fuentes oficiales — consultar
-- **Modalidad de pago**: No publicada — consultar
-- **Becas disponibles**: Sí — Beca CUAA (Centro Universitario Argentino-Alemán) para los estudiantes seleccionados; incluye pasajes aéreos, matrícula y otros beneficios. El organismo que permite el otorgamiento de dicha Beca es el Centro Universitario Argentino-Alemán (CUAA), el cual a su vez recibe fondos de los Gobiernos de Argentina y Alemania, y de un consorcio de empresas multinacionales alemanas.
-- **Estado actual de inscripción (consulta del 2026-09-30)**: Cerrada en el CRM de Posgrado (`id_posgrado: 1076`; fecha límite informada: 2026-08-15). La respuesta frecuente del CRM prevé una apertura en diciembre de 2026 para el ciclo 2027; no confirma que esté abierta actualmente.
-- **Información sobre inscripciones**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
-
-## Próxima cohorte
-
-- **Fecha de inicio**: No confirmada para el ciclo 2027 en las fuentes consultadas.
-- **Estado**: La respuesta frecuente del CRM prevé la apertura de inscripciones en diciembre de 2026 para el ciclo 2027; el registro consultado el 2026-09-30 figura cerrado. Confirmar la apertura y el inicio con la Secretaría de Posgrado.
-- **Fuente del estado y la previsión**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCarreras (`id_posgrado: 1076`; consulta del 2026-09-30).
-- **Última actualización del dato**: **2026-09-30**
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+La carrera contempla una beca del Centro Universitario Argentino-Alemán (CUAA) para estudiantes seleccionados, que incluye pasajes aéreos, matrícula y otros beneficios. La selección es competitiva; confirmar las condiciones aplicables a cada convocatoria con la dirección de la carrera. El CUAA recibe fondos de los gobiernos de Argentina y Alemania y de un consorcio de empresas multinacionales alemanas.
 
 ## Contacto
 
@@ -129,8 +115,40 @@ Nómina docente individualizada no publicada en fuentes oficiales; consultar con
 - https://www.fce.unl.edu.ar/maf/index.php?act=showSubcategoria&id=82 (Cuerpo docente)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=717 (Novedades - Estadía académica en Alemania)
 - https://www.fce.unl.edu.ar/maf/index.php?act=showNoticia&id=143 (Novedades - Doble titulación con Alemania)
-- https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Link de pre-inscripción)
+- https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (Información institucional sobre inscripciones)
 
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1076 -->
+### Información oficial del CRM — Maestría en Administración y Finanzas
+
+- **ID de propuesta:** 1076
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-08-15
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu interés en la Maestria en Administración y Finanzas\. Esta carrera de posgrado consiste en una Maestría de carácter interinstitucional, que se dicta en instalaciones de la Facultad de Ciencias Económicas de la UNL y en la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern \(Alemania\)\.
+> Los alumnos otendrán, mediante el cursado de un plan de estudios que incluye trayectorias académicas en las dos universidades mencionadas, una doble titulación: “Magister en Administración y Finanzas” de la UNL y Master of Arts “International Master in Management and Finance” de la FHKL\.
+> Uno de los objetivos de esta carrera, que la diferencia de los tradicionales posgrados en negocios, es desarrollar la formación global, internacional e intercultural del alumno\.
+> Ello se logra mediante una estructura curricular que incluye una estadía del maestrando de siete meses en la universidad extranjera, en la cual:
+> • deberá aprobar asignaturas específicas de administración y finanzas \(dictadas en inglés\),
+> • realizar un curso de idioma y cultura alemana, y
+> • realizar una pasantía en una empresa del país europeo\.
+> Finalmente, el alumno deberá realizar un Trabajo Final codirigido por profesores de ambas universidades\. De esta forma, el egresado logrará un perfil acorde a una maestría profesionalista, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas\.
+> Para mas información podes accerder a https://www\.fce\.unl\.edu\.ar/maf/
+> En Diciembre se realiza la apertura de inscripciones a carreras de posgrado para el cilclo 2027\. ingrensando en   https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> A partir de que te inscribas te convocaremos a una entrevista con el Director de la Carrera quien te informará sobre cuestiones académicas y ademas del valor de la matrícula\.
+> Quedamos a disposición ante cualquier otra consulta al respecto\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE\-UNL
+> E\.mail: posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->

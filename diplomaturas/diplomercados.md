@@ -93,24 +93,6 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - **Documentación a presentar**: Ver instructivo en la web oficial o folleto informativo PDF.
 - **Proceso de admisión**: Sin datos confirmados en el material consultado
 
-## Aranceles e inscripción
-
-- **Matrícula**: Consultar en el folleto informativo (PDF descargable de https://www.fce.unl.edu.ar/sitios/uploads/folletos/13.pdf) o escribir a posgrado@fce.unl.edu.ar
-- **Cuotas**: Consultar en el folleto informativo (PDF descargable de https://www.fce.unl.edu.ar/sitios/uploads/folletos/13.pdf) o escribir a posgrado@fce.unl.edu.ar
-- **Modalidad de pago**: A confirmar con posgrado@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado
-- **Estado actual de inscripción**: Por confirmar — consultar con posgrado@fce.unl.edu.ar
-- **Link de información sobre inscripción**: https://www.fce.unl.edu.ar/diplomercados/index.php?act=showCategoria&id=206
-
-## Próxima cohorte
-
-- **Fecha de inicio**: No publicada explícitamente en el microsite — consultar con posgrado@fce.unl.edu.ar
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/diplomercados/index.php?act=showCategoria&id=206
-- **Última actualización del dato**: 2026-05-30
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
-
 ## Contacto
 
 - **Director/a académico/a**: Mg. Rogelio Villanueva
@@ -143,3 +125,34 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1337 -->
+### Información oficial del CRM — Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros
+
+- **ID de propuesta:** 1337
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-05-08
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto\. La Diplomatura Universitaria Superior Operatoria y Análisis de Mercados Financieros tiene un cursado clases mediante sistema de videoconferencia institucional \(zoom\)\.
+> El cursado será los viernes por la tarde \(de 17 a 21 hs\) y sábados por la mañana \(de 9 a 12\.30 hs\)\. Tiene una duración entre 7 y 9 meses\. El requisito inicial para inscribirse en dicha Diplomatura es poseer TITULO DE GRADO\.
+> Tiene como objetivo brindar a profesionales de diferentes carreras, especialmente provenientes de las ciencias económicas, una primera incursión especializada en mercados financieros, a fin de que no solo puedan tener un mejor desempeño en sus tareas si trabajan en el sector, sino que también cuenten con una base que les permita realizar estudios de posgrados relacionados con la especialidad\. La idea es realizar una aproximación al mundo de los mercados financieros, para poder comprender cómo funcionan en la actualidad, qué cambios ha generado el avance de la tecnología de la información, qué activos financieros se negocian, cómo se analizan, quiénes invierten, y cuáles son las estrategias de los distintos tipos de inversores\.
+> Para conocer mas de la carrera podes ingresar a https://fce\.unl\.edu\.ar/diplomercados/
+> Ha comenzado una nueva edición este año que tiene duración esta noviembre de este año\.
+> Actualmente sus inscripciones se encuentran cerradas\. Si estas interesado conocer otras carreras o cursos podes ingresar a:
+> Carreras de posgrado: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Curso de posgrado: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Una nueva apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+> Quedamos a disposición ante cualquier otra consulta o aclaración\.
+> Saludos,
+>
+> Secretaria de Posgrado
+> FCE\-UNL
+> E\.mail: posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->

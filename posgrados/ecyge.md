@@ -83,24 +83,6 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **Documentación a presentar**: Sin datos confirmados en el material consultado
 - **Proceso de admisión**: Evaluación por el Comité de Admisión
 
-## Aranceles e inscripción
-
-- **Matrícula**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
-- **Cuotas**: Sin datos confirmados en el material consultado — consultar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar
-- **Estado actual de inscripción**: Cerrada — próxima cohorte en **Abril 2027**
-- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar
-
-## Próxima cohorte
-
-- **Fecha de inicio**: **2027-04**
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/ecyge/index.php?act=showNoticia&id=775 (Novedades)
-- **Última actualización del dato**: **2026-09-14**
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
-
 ## Contacto
 
 - **Director (modalidad PRESENCIAL)**: Mg. José Puccio
@@ -149,3 +131,62 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 ---
 
 **Última revisión humana**: PENDIENTE — draft autogenerado el 2026-09-14 por pipeline de scraping.
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1103 -->
+### Información oficial del CRM — Especialización en Costos y Gestión Empresarial \- presencial
+
+- **ID de propuesta:** 1103
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-04-12
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto\. La carrera de Especialización en Costos y Gestión Empresarial es una oferta académica de excelente nivel en respuesta a esta demanda\. Esta es una propuesta que se desarrolla en un marco de colaboración con el Instituto Argentino de Profesores Universitarios de Costos \(IAPUCO\), entidad que, desde hace más de cuarenta años, nuclea a profesores universitarios de la disciplina de todo el país\. Para más información ingrese a https://www\.fce\.unl\.edu\.ar/ecyge
+>  Podrán ser admitidos:
+> a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
+> b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
+> c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
+> Te comentamos que ha comenzado una edición en Abril 2026\. La pxma edición podría comenzar en Abril 2027\.
+> La apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+> Actualmente, podemos ofrecerte cursos de posgrado vinculados a la carrera, los mismos los verás publicado ingresando a https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Quedamos a disposición ante cualquier consulta al respecto\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE\-UNL
+> Email posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1254 -->
+### Información oficial del CRM — Especialización en Costos y Gestión Empresarial \- a distancia
+
+- **ID de propuesta:** 1254
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-06-24
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto\. La carrera de Especialización en Costos y Gestión Empresarial es una oferta académica de excelente nivel en respuesta a esta demanda\. Esta es una propuesta que se desarrolla en un marco de colaboración con el Instituto Argentino de Profesores Universitarios de Costos \(IAPUCO\), entidad que, desde hace más de cuarenta años, nuclea a profesores universitarios de la disciplina de todo el país\. Para más información ingrese a https://www\.fce\.unl\.edu\.ar/ecyge
+> El dictado virtual se realiza de forma tal que el estudiante podrá administrar sus propios tiempos de lectura, análisis de material multimedia y realización de actividades propuestas, complementado con encuentros sincrónicos con los docentes para profundizar algunos temas y atender consultas\.Los horarios de dichos encuentros no estan establecidos, sino que los define cada docente en cada asignatura\. Se trabaja con la plataforma Moodle y se utiliza diversas herramientas tecnológicas para el desarrollo de los contenidos\. La evaluación también se realiza de forma on line, no requiriendo la presencia física del estudiante en ninguna instancia\.
+> Podrán ser admitidos:
+> a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
+> b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
+> c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
+> Te comentamos que ha comenzado una edición en Abril 2026\. La pxma edición podría comenzar en Abril 2027\.
+> La apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+>  Actualmente, podemos ofrecerte cursos de posgrado vinculados a la carrera, los mismos los verás publicado ingresando a https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Quedamos a disposición\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE\-UNL
+> Email posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->
