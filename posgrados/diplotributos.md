@@ -109,24 +109,6 @@ El seminario integra casos prácticos. La certificación exige 80% de asistencia
 - **Documentación a presentar**: Sin datos confirmados en el material consultado
 - **Proceso de admisión**: Sin datos confirmados en el material consultado
 
-## Aranceles e inscripción
-
-- **Matrícula**: A confirmar para ciclo 2026/2027
-- **Cuotas**: A consultar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
-- **Estado actual de inscripción**: Por confirmar
-- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con posgrado@fce.unl.edu.ar
-
-## Próxima cohorte
-
-- **Fecha de inicio**: A confirmar
-- **Estado**: Por confirmar
-- **Fuente del dato**: Sin datos confirmados en el material consultado
-- **Última actualización del dato**: PENDIENTE
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
-
 ## Contacto
 
 - **Director/a académico/a**: Esp. Sanchez Flavia (Coordinadora de la Diplomatura)
@@ -163,3 +145,31 @@ El seminario integra casos prácticos. La certificación exige 80% de asistencia
 ---
 
 **Última revisión humana**: 2026-09-10
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1349 -->
+### Información oficial del CRM — Diplomatura Universitaria Superior en Tributos de la Provincia de Santa Fe y Convenio Multilateral
+
+- **ID de propuesta:** 1349
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2025-05-19
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto\. Diplomatura Universitaria Superior en Tributos de la Provincia de Santa Fe y Convenio Multilateral tiene un cursado de modalidad presencial o por zoom \(según elección de cada alumno\)\. El cursado será los viernes de 15 a 18 hs\. Tiene una duración de 6 meses\. El requisito inicial para inscribirse en dicha Diplomatura es poseer TITULO DE GRADO\.
+> La Diplomatura Universitaria Superior en Tributos de la Provincia de Santa Fe y Convenio Multilateral está orientada al análisis del régimen tributario provincial, poniendo especial énfasis en el análisis científico, normativo y profundizado de cada tributo en particular y de los procedimientos tributarios que resulten de aplicación\.
+> La Diplomatura tiene como objetivos  brindar a profesionales herramientas sólidas para analizar y comprender la legislación tributaria de la Provincia de Santa Fe, conocer los principios tributarios, el concepto de “poder tributario” y sus límites, adquirir habilidades para determinar las obligaciones tributarias en materia del Impuesto sobre los Ingresos Brutos y del resto de los tributos que están contenidos en el Código Fiscal de la Provincia de Santa Fe, analizar el texto del Convenio Multilateral a los efectos de aplicar sus técnicas para distribuir la base imponible del Impuesto sobre los Ingresos Brutos y estudiar en profundidad las normas e institutos consagrados en el Código Fiscal de la Provincia de Santa Fe vinculados al Procedimiento Fiscal local\.
+> Para conocer mas de la carrera podes ingresar a https://www\.fce\.unl\.edu\.ar/diplotributos/index\.php
+> Si estas interesado/a podes consultar nuestra web de carreras con inscripciones abiertas:
+> Carreras de posgrado:  https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Cursos de posgrado: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Quedamos a disposición ante cualquier otra consulta o aclaración\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE\-UNL
+> Email: posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->
