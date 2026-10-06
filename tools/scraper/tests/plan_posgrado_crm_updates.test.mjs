@@ -129,6 +129,17 @@ test('closed cohorts label FAQ prices as historical and escape untrusted Markdow
   assert.equal((content.match(/<!-- posgrado-crm:end -->/g) ?? []).length, 1);
 });
 
+test('CRM FAQ quotes preserve line breaks without trailing whitespace', () => {
+  const rawFeeds = feeds({ courses: [record('cursos', 1415, {
+    respuesta_frecuente: 'Primera línea  \r\n\r\nSegunda línea \t',
+  })] });
+  const result = plan(rawFeeds);
+  assert.deepEqual(result.anomalies, []);
+  const content = result.updates.find(update => update.path === coursePath).content;
+  assert.match(content, /> Primera línea\n>\n> Segunda línea\n/);
+  assert.doesNotMatch(content, /[\t ]+$/m);
+});
+
 test('ambiguous routes, missing index targets, malformed blocks and legacy claims quarantine', () => {
   const wrong = structuredClone(routes);
   wrong.cursos['1415'] = 'posgrados/ecyge.md';

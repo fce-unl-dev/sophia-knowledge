@@ -46,13 +46,6 @@ RABASEDAS, Laura
 Cursado 
 Modalidad a distancia desde el 7/9/2026 al 1/11/2026
 
-## Aranceles e inscripción
-
-- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado de inscripción (al 2026-07-31)**: Curso publicado en el catálogo oficial de cursos de posgrado. Confirmá la apertura de inscripción con la Secretaría de Posgrado.
-- **Pre-inscripción**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1415
-- **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).
-
 ## Contacto
 
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
@@ -68,3 +61,27 @@ Modalidad a distancia desde el 7/9/2026 al 1/11/2026
 
 **Última revisión automática**: 2026-07-31 (candidato generado por el scraper determinístico de cursos de posgrado)
 **Revisión humana**: pendiente
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id cursos:1415 -->
+### Información oficial del CRM — ECONOMÍA GUBERNAMENTAL 2026
+
+- **ID de propuesta:** 1415
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-08-31
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Estimado/a
+> Te comentamos que al Curso Economía Gubernamental se dicta en el marco de la Especialización en Dirección y Gestión de Organizaciones Públicas\. El cursado es totalmente asincrónico, es decir, que los alumnos pueden ingresar al aula en cualquier momento del día para poder participar de foros, ver materiales de trabajo y bibliografía, y entregar trabajos prácticos para cumplir con lo que solicita cada docente\.
+> El costo de la misma es de 300\.000 en un pago \(o en 2 cuotas 320\.000\)\. El monto total de la asignatura o la primera cuota debe estar abonada antes del comienzo del dictado \(7/9/2026\)
+> Dicho pago se realiza una vez que tesoreria FCE se contacte con vos y respondas el mail recibido\.
+> La inscripción se realiza on line completando una ficha y subiendo fotocopia simple de DNI y titulo de grado \(o certificado de titulo en tramite\) en: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Luego se te habilita en el sistema Mercurio de UNL para realizar el pago, al cual ingresas con tu numero de DNI a servicios\.unl\.edu\.ar/mdcobro/
+> Quedamos a disposición ante consultas al respecto\.
+> Saludos cordiales\.
+> Secretaría de Posgrado FCE
+<!-- posgrado-crm:end -->

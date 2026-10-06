@@ -31,7 +31,10 @@ function markdownData(value) {
 }
 
 function quoteData(value) {
-  return markdownData(value).split('\n').map(line => `> ${line}`).join('\n');
+  return markdownData(value).split('\n').map(rawLine => {
+    const line = rawLine.trimEnd();
+    return line ? `> ${line}` : '>';
+  }).join('\n');
 }
 
 function render(record) {
