@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "kind": "basicos",
+      "id": "basicos:423",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "009828a91933ebbd9fea76de385263d5b3a2430a1af8a1d4226eac7a2d8c474b"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1073",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "9ce4138a283d0e0142feefc5c63ebd6405620bf291332e67cebaa9f7e3a60cf3"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1074",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "a38346bbe2c947144edb99ae84c1e2c96c6dd1b2ae4fe0448a9f193730387f3a"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1075",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "a5752668d1b5bfaf6843c27fc96fc0c942f056b44e1ba2db2e0968ec746c6f8d"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1076",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "237a95ef3e0fcca9996f072dd3abd25a5edba9301b4f5cc8331154e947177549"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1077",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "d966315fd50a5feb0791ea125e67de1659353bb94e23a6ac254bd79257930354"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1078",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "460bb544f7944278011c5a0d26f7cd30f2b19ab52103184d3bab125a53dfc3b6"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1080",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "a6f8b0e6f9c10adf0904be84a4acd01d935dd3615f4ee4ee04808cf149096eb3"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1103",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "60e86ed4d21ed3c0b4b40b5d686fef47914d164933dcf0035c21237c04e47e66"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1185",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "77e4a6d389bb9b03e14fb3d9cf9a46ec616dca7dad72924ee639b7c05606c943"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1254",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "fccdd79813fc25b67308d69ad9a056099ced4b6ab7194590da1deee6f3041cd5"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1269",
+      "updatedAtMs": 1790976970000,
+      "contentHash": "e0d4d229f799567865e8ab44801393a1d360eee969f424570592489be38f047b"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1271",
+      "updatedAtMs": 1790975853000,
+      "contentHash": "e9821a55b0851f5e6585e507c01e727590ea08021256f0414fe48dfc2e4feb51"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1328",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "a262f2caa1d61ffd03cf7272a469bb80c93e663ba5a6a2dc0ef225c3cfdb32e2"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1337",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "3186eeeab0950415941d4a4c7211bda7890c9879756d636c28302f258ef34644"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1349",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "d39b9b954badaa5aafbb6709705408314306ac3f73fed4ca8b3017ae643e5645"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1378",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "5a0168dbd87d5266e4341c0e4344797c8bdcfdf1303721bb01ed4cca32f87e77"
+    },
+    {
+      "kind": "carreras",
+      "id": "carreras:1425",
+      "updatedAtMs": 1791226718000,
+      "contentHash": "6702d65162fcc6a35835cfbfb1091a6933e84e07a4b12ca13090a4f8a9b08b4f"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1367",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "d57503d8a290d25d90c5e48d31736bd521263636652d229e42a775c4982cc29b"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1383",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "c63c6fd20bdfbd6962bdc1f7c8bdcdc11797f98e205728ccc27e5ec6da78032d"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1388",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "3f240adf92f889dd545c0863d8b5ba64116f70e112ae71dc0b965b1dc8983c41"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1390",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "210113e07f56ebdf388c3d6be5996600f5e8a5125049c2c7a549dd946cf0de59"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1393",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "5fa87170cb69469c63d000f180be2fa760e650e782ab66e310273ee376fb24eb"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1394",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "a44b77f516a387ae77e964c0f9cd070095f443f46e2ba463397995b59be0f0b0"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1395",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "8d977bb9f672b6cc8634b51b72beed3ef84d87b2813734f6c6fbf686a404285c"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1396",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "540df7531feb4b9fba2f16e941fee6719be145acc917d1939930c090d5c098da"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1397",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "7e165ca7a928911da3524d237759515aa501cea51be0c061635fdcd5d377dda0"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1398",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "41ab8bd918c8e06e9cf217c9d9f0de8ce2a26913930fe5fa96ad98f1e0811678"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1399",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "b546c21776faa21171108c1b3d050fa68ca997fc68b38ec9b68640652698e812"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1401",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "9e75318c5fca8dc021ea732224b5c7897d1f0b91c654542b21f3658b179e0715"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1402",
+      "updatedAtMs": 1790852666000,
+      "contentHash": "eed86db44d7143fa31e6b9bfd0756a896be82dc9a1e1d8a1440dba95e5ef072e"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1404",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "7fecf03956429b89658b2d58ffe8fab12434dcd60d46be27806308ca469b2b28"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1406",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "5fdddefe90285c43a4ae19852e5768ef16c096f29e9a0c39461e361f5e9e48cf"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1407",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "2698f392d5415f02d0cf3482d3a1241da236133ca6df9ee4405b7d5c3b023c08"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1408",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "8d54064bc5fd29841ce155372924be059ad350003a77a0b4f39b9d68727f3693"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1409",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "7ea6540ee5cf1bcba30aeda1c395079ba1789974d8c6d444f0399f91d54e3069"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1410",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "3e2165212ddb27a5720fdbce70a825d57982cba8b856936a52874c0d86680409"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1411",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "98c3829be9a7d7721a1f2a578e55c54319ada1897a903e4d1b3aec595a40ee84"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1414",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "216152c3dce0a126da9b9d8357a25daf6f8707cc7dd1041a62524972543e06b8"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1415",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "f6659782957bbfa5fa2883105f17db78add273fae44c0da1b71eb9999031358b"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1417",
+      "updatedAtMs": 1791255600000,
+      "contentHash": "e6ceb525ece9c4240b216544baf56e4e19fc16b3c44dbdd4e7a1491eee7f9a36"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1418",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "28d18b678c9ca8578dafe40c954260feed8fe17df89742b72aa0d3fc86c7d79c"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1419",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "8a60e26580192a9dca9cc987ab9ec2c9fb069c2e8555ca0db2f5a27c23d0831d"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1420",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "114acec939d7351268b01e38abb42f0342edf0423b2ee872a61fcedfae126364"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1421",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "7eaf136ffdc3d59e68d3ed04a87ed31f882c0afa7b21a6251d152e1b2b778845"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1422",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "6b3e5e7bdf50467b0f9ab33aed5d6a967d94fbaffd31358aa0f51c3f5aba10e4"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1423",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "6b13f346d2d8cb549159164a73e1f5633fc29451b7138b3af02d7b22eef36e6f"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1424",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "d1a63ba65fee04c78b924e8e80ecf2adc31b82994a9fcabd18b4e4ee50d81d1e"
+    },
+    {
+      "kind": "cursos",
+      "id": "cursos:1426",
+      "updatedAtMs": 1790718250000,
+      "contentHash": "a7c1793869a0285ba4f2004abba6d19f87791c9a67e89cfde0aa63bafac04991"
+    }
+  ]
+}
