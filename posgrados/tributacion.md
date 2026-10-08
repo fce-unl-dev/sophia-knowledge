@@ -141,7 +141,7 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 - **ID de propuesta:** 1077
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2025-05-09
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+- **Última actualización de este registro (Argentina):** 2026-10-08 09:00:38
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
@@ -152,7 +152,6 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 > Para mas información podés acceder a : www\.fce\.unl\.edu\.ar/tributacion
 > Hemos comenzado con las clases de la edición 2025, por lo que las inscripciones se encuetran cerradas\. La pxma edición comenzaria en el 2027\.
 > La apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
-> Durante 2026 se ofrecerán cursos vinculado a la temática de la carrera, los cuales verás publicado en www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
 > Quedamos a disposición\.
 > Saludos,
 > Secretaria de Posgrado
