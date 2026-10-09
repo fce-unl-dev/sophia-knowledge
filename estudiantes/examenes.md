@@ -59,7 +59,7 @@
 
 ## Cronograma de Exámenes Finales (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-09-10
+**Última actualización de planilla**: 2026-10-09
 
 ### Primer turno 2026
 
@@ -289,7 +289,7 @@
 | 5/10/2026 | Lunes | 2015 | Macroeconomía | 15:00 Hs. | Desde el 28/9/2026 al 1/10/2026 |
 | 5/10/2026 | Lunes | 5330 | Economía Internacional | 15:00 Hs. | Desde el 28/9/2026 al 1/10/2026 |
 | 5/10/2026 | Lunes | 4330 | Riesgos, Incertidumbre y Mercados Financieros | 16:00 Hs. | Desde el 28/9/2026 al 1/10/2026 |
-| 5/10/2026 | Lunes | 3155 | Contabilidad III | 17:00 Hs. | Desde el 28/9/2026 al 1/10/2026 |
+| 5/10/2026 | Lunes | FCE3155 | Contabilidad III | 17:00 Hs. | Desde el 28/9/2026 al 1/10/2026 |
 | 5/10/2026 | Lunes | 5180 | Administración IV | 18:00 Hs. | Desde el 28/9/2026 al 1/10/2026 |
 | 5/10/2026 | Lunes | 5225 | Negocios Internacionales | 18:00 Hs. | Desde el 28/9/2026 al 1/10/2026 |
 | 6/10/2026 | Martes | 3320 | Inferencia Estadística | 09:00 Hs | Desde el 29/9/2026 al 2/10/2026 |
@@ -338,7 +338,7 @@
 | 9/10/2026 | Viernes | 3360 | Historia y Estructura Económica Argentina | 09:00 Hs | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 5070 | Historia Social y Económica Argentina | 09:00 Hs | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 1045 | Contabilidad I | 09:00 Hs | Desde el 2/10/2026 al 7/10/2026 |
-| 9/10/2026 | Viernes | 2025 | Informática | 14:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
+| 9/10/2026 | Viernes | 2025 | Informática | 16:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 3015 | Microeconomía | 15:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 3130 | Derecho del Trabajo e Instituciones de la Seguridad Social | 15:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
 | 9/10/2026 | Viernes | 4355 | Microeconomía II | 15:00 Hs. | Desde el 2/10/2026 al 7/10/2026 |
@@ -677,5 +677,5 @@
 
 ---
 
-**Última revisión automática**: 2026-09-10 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-10-09 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
