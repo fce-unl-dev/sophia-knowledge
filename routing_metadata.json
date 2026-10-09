@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-09",
   "description": "Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.",
   "stats": {
     "academica": 17,
@@ -10,7 +10,7 @@
     "internacionales": 8,
     "docentes": 4,
     "posgrados_graduados": 33,
-    "posgrados_cursos_sin_titulo": 27,
+    "posgrados_cursos_sin_titulo": 28,
     "grado": 12,
     "tramites_bedelia": 7,
     "normativa": 10
@@ -424,6 +424,12 @@
       "title": "METODOS CUANTITATIVOS PARA LOS NEGOCIOS",
       "category": "Curso de posgrado"
     },
+    "cursos-posgrado/normas-de-revelaciones-financieras-de-sostenibllidad.md": {
+      "sector": "posgrados_cursos_sin_titulo",
+      "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
+      "title": "Normas de revelaciones financieras de sostenibllidad",
+      "category": "Curso de posgrado"
+    },
     "cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md": {
       "sector": "posgrados_cursos_sin_titulo",
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
@@ -586,6 +592,12 @@
       "title": "Horarios de Atención",
       "category": "Estudiantes"
     },
+    "estudiantes/indice-por-docente.md": {
+      "sector": "docentes",
+      "displayName": "Docentes",
+      "title": "Índice por Docente",
+      "category": "Estudiantes"
+    },
     "estudiantes/ingreso-2026.md": {
       "sector": "grado",
       "displayName": "Estudiantes de Grado",
@@ -596,12 +608,6 @@
       "sector": "tramites_bedelia",
       "displayName": "Trámites (No docentes y Bedelía)",
       "title": "Info sobre inscripciones a cursado",
-      "category": "Estudiantes"
-    },
-    "estudiantes/indice-por-docente.md": {
-      "sector": "docentes",
-      "displayName": "Docentes",
-      "title": "Índice por Docente",
       "category": "Estudiantes"
     },
     "estudiantes/pasantias-rentadas.md": {
@@ -834,6 +840,12 @@
       "title": "2024 Edition",
       "category": "Relaciones Internacionales"
     },
+    "internacionales/2026-edition.md": {
+      "sector": "internacionales",
+      "displayName": "Relaciones Internacionales",
+      "title": "2026 Edition",
+      "category": "Relaciones Internacionales"
+    },
     "internacionales/comunidad-graduada-fce-por-el-mundo.md": {
       "sector": "internacionales",
       "displayName": "Relaciones Internacionales",
@@ -856,12 +868,6 @@
       "sector": "internacionales",
       "displayName": "Relaciones Internacionales",
       "title": "Redes",
-      "category": "Relaciones Internacionales"
-    },
-    "internacionales/2026-edition.md": {
-      "sector": "internacionales",
-      "displayName": "Relaciones Internacionales",
-      "title": "2026 Edition",
       "category": "Relaciones Internacionales"
     },
     "operativos/aulas-virtuales.md": {
