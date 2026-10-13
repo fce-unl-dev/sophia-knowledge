@@ -67,6 +67,7 @@
 | `cursos-posgrado/economia-gubernamental.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `cursos-posgrado/metodos-cuantitativos-para-los-negocios.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `cursos-posgrado/normas-de-revelaciones-financieras-de-sostenibllidad.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `cursos-posgrado/sistemas-de-informacion-para-la-planificacion-y-el-control-de-gestion.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `cursos-posgrado/trabajo-final-edgop-2do-cuatrimestre.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `docentes/docentes.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
@@ -142,6 +143,7 @@
 | `posgrados/mcya.md` | Draft autogenerado | 🟡 11 d (2026-09-21) | 🟢 10 d (2026-09-21) |
 | `posgrado-general/cursos-posgrado.md` | Draft autogenerado | 🟡 8 d (2026-09-24) | 🔴 N/D |
 | `compartidos/mids.md` | Draft autogenerado | 🟡 1 d (2026-10-01) | 🟢 0 d (2026-10-01) |
+| `posgrados/mba.md` | Draft autogenerado | 🟡 -10 d (2026-10-12) | 🟢 -11 d (2026-10-12) |
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 134 d (2026-05-21) | 🔴 N/D |
 | `operativos/ingreso-2026.md` | Revisado | 🟢 134 d (2026-05-21) | 🔴 136 d (2026-05-18) |
 | `posgrado-general/becas-docentes.md` | Revisado | 🟢 134 d (2026-05-21) | 🔴 136 d (2026-05-18) |
@@ -170,7 +172,6 @@
 | `posgrados/maea.md` | Revisado | 🟢 22 d (2026-09-10) | 🔴 21 d (2026-09-10) |
 | `posgrados/maf.md` | Revisado | 🟢 22 d (2026-09-10) | 🔴 21 d (2026-09-10) |
 | `posgrados/map.md` | Revisado | 🟢 22 d (2026-09-10) | 🔴 21 d (2026-09-10) |
-| `posgrados/mba.md` | Revisado | 🟢 22 d (2026-09-10) | 🔴 21 d (2026-09-10) |
 | `posgrados/mrso.md` | Revisado | 🟢 22 d (2026-09-10) | 🔴 21 d (2026-09-10) |
 | `posgrados/sindicatura-concursal.md` | Revisado | 🟢 22 d (2026-09-10) | 🔴 21 d (2026-09-10) |
 | `posgrados/tributacion.md` | Revisado | 🟢 22 d (2026-09-10) | 🔴 21 d (2026-09-10) |

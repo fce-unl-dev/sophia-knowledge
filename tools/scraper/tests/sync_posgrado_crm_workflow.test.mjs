@@ -1,11 +1,75 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { copyFile, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+import { tmpdir } from 'node:os';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { checkFreshnessReport } from '../check_freshness_report.mjs';
+import { generateFreshnessReport, parseReferenceDate } from '../freshness_report.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../../..');
 const workflow = await readFile(resolve(root, '.github/workflows/sync-posgrado-crm-kb.yml'), 'utf8');
+
+test('official CRM workflow normalizes canonical freshness before gates and scopes its publication', () => {
+  const normalize = workflow.indexOf('- name: Refresh canonical freshness after CRM updates');
+  const validation = workflow.indexOf('- name: Run complete KB validation');
+  assert.ok(normalize > 0 && normalize < validation, 'freshness normalization must precede validation');
+  const block = workflow.slice(normalize, validation);
+  assert.match(block, /if: steps\.sync\.outputs\.status == 'updated'/);
+  assert.match(block, /freshness_report\.mjs --kb-root=\.\.\/\.\. --format=md --reference-date="\$reference_date" --out=freshness\.md/);
+  assert.match(block, /Generado el/);
+  assert.match(block, /git diff --quiet -- freshness\.md/);
+  assert.match(workflow, /FRESHNESS_CHANGED: \$\{\{ steps\.freshness\.outputs\.changed \}\}/);
+  assert.match(workflow, /if \[ "\$FRESHNESS_CHANGED" = true \]; then allowed\["freshness\.md"\]=1; fi/);
+});
+
+test('freshness workflow shell repairs a stale fixture without inventing review metadata', async () => {
+  const fixture = await mkdtemp(resolve(tmpdir(), 'crm-workflow-freshness-'));
+  try {
+    const stateDir = resolve(fixture, 'tools/scraper/state');
+    await mkdir(stateDir, { recursive: true });
+    await mkdir(resolve(fixture, 'posgrados'));
+    await copyFile(resolve(root, 'tools/scraper/freshness_report.mjs'),
+      resolve(fixture, 'tools/scraper/freshness_report.mjs'));
+    await writeFile(resolve(fixture, 'indice.json'), JSON.stringify({
+      items: [{ path: 'posgrados/programa.md', title: 'Program', category: 'Posgrado' }],
+    }));
+    await writeFile(resolve(fixture, 'tools/scraper/sources.json'), JSON.stringify({ sources: [] }));
+    const document = resolve(fixture, 'posgrados/programa.md');
+    await writeFile(document, '# Program\n');
+    await writeFile(resolve(fixture, 'freshness.md'), await generateFreshnessReport({
+      kbRoot: fixture, stateDir, format: 'md', today: parseReferenceDate('2026-10-02'),
+    }));
+    const content = '# Program\n**Última revisión humana**: PENDIENTE — requiere revisión editorial.\n';
+    // Introduce another canonical item, as a source sync can do before the CRM run.
+    await writeFile(document, content);
+    await writeFile(resolve(fixture, 'indice.json'), JSON.stringify({ items: [
+      { path: 'posgrados/programa.md', title: 'Program', category: 'Posgrado' },
+      { path: 'posgrados/otro.md', title: 'Other', category: 'Posgrado' },
+    ] }));
+    await writeFile(resolve(fixture, 'posgrados/otro.md'), '# Other\n');
+    await assert.rejects(() => checkFreshnessReport({ kbRoot: fixture, stateDir }), /desactualizado/);
+    execFileSync('git', ['init', '-q'], { cwd: fixture });
+    execFileSync('git', ['add', 'freshness.md'], { cwd: fixture });
+    const block = workflow.slice(workflow.indexOf('- name: Refresh canonical freshness after CRM updates'),
+      workflow.indexOf('- name: Run complete KB validation'));
+    const script = block.slice(block.indexOf('run: |') + 'run: |'.length)
+      .split('\n').map(line => line.replace(/^          /, '')).join('\n');
+    const output = resolve(fixture, 'output.txt');
+    execFileSync('bash', ['-c', script], { cwd: fixture, env: { ...process.env, GITHUB_OUTPUT: output } });
+    await checkFreshnessReport({ kbRoot: fixture, stateDir });
+    assert.match(await readFile(output, 'utf8'), /changed=true/);
+    assert.match(await readFile(resolve(fixture, 'freshness.md'), 'utf8'), /Generado el:\*\* 2026-10-02/);
+    assert.equal(await readFile(document, 'utf8'), content);
+    execFileSync('git', ['add', 'freshness.md'], { cwd: fixture });
+    await writeFile(output, '');
+    execFileSync('bash', ['-c', script], { cwd: fixture, env: { ...process.env, GITHUB_OUTPUT: output } });
+    assert.match(await readFile(output, 'utf8'), /changed=false/);
+  } finally {
+    await rm(fixture, { recursive: true, force: true });
+  }
+});
 
 test('official CRM workflow schedules frequent serial runs and supports a safe preview', () => {
   assert.match(workflow, /cron: '\*\/15 \* \* \* \*'/);
