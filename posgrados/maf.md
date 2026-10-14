@@ -127,8 +127,8 @@ La carrera contempla una beca del Centro Universitario Argentino-Alemán (CUAA) 
 
 - **ID de propuesta:** 1076
 - **Inscripción:** Cerrada
-- **Fecha límite de inscripción:** 2026-08-15
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+- **Fecha límite de inscripción:** 2026-10-11
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:10:24
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
@@ -143,7 +143,7 @@ La carrera contempla una beca del Centro Universitario Argentino-Alemán (CUAA) 
 > • realizar una pasantía en una empresa del país europeo\.
 > Finalmente, el alumno deberá realizar un Trabajo Final codirigido por profesores de ambas universidades\. De esta forma, el egresado logrará un perfil acorde a una maestría profesionalista, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas\.
 > Para mas información podes accerder a https://www\.fce\.unl\.edu\.ar/maf/
-> En Diciembre se realiza la apertura de inscripciones a carreras de posgrado para el cilclo 2027\. ingrensando en   https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> En Noviembre se realiza la apertura de inscripciones a carreras de posgrado para el cilclo 2027\. ingrensando en   https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
 > A partir de que te inscribas te convocaremos a una entrevista con el Director de la Carrera quien te informará sobre cuestiones académicas y ademas del valor de la matrícula\.
 > Quedamos a disposición ante cualquier otra consulta al respecto\.
 > Saludos,
