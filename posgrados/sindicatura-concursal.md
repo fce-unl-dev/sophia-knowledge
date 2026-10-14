@@ -269,18 +269,16 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 ### Información oficial del CRM — Especialización en Sindicatura Concursal
 
 - **ID de propuesta:** 1080
-- **Inscripción:** Cerrada
-- **Fecha límite de inscripción:** 2023-04-30
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
-
-> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:15:24
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > La Especialización en Sindicatura Concursal tienen como propósito brindar a los Contadores una capacitación integral relacionada con las problemáticas que se pueden presentar en  las empresas en crisis, la intervención de los contadores en las soluciones preventivas planteadas por nuestro ordenamiento legal; y la actuación de los síndicos\.
 > La carrera tiene una duración de 2 años\. Para más información de la carrera \-plan de estudio, materias, docentes\-, consultar en  fce\.unl\.edu\.ar/sindicatura/\.
 > Es posible la apertura de una nueva edición en Abril 2027 \(modalidad presencial y virtual\)\.
-> Las inscripciones abririan en Diciembre 2026, verás la información publicada en la web de la facultad ingresando en www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Las inscripciones abririan en Noviembre 2026, verás la información publicada en la web de la facultad ingresando en www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
 > Los valores de matricula se informan a partir de dicha fecha\.
 > A disposición para consultas o cualquier aclaración al respecto\.
 > Saludos,

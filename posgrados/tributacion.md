@@ -141,7 +141,7 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 - **ID de propuesta:** 1077
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2025-05-09
-- **Última actualización de este registro (Argentina):** 2026-10-08 09:00:38
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:12:51
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
@@ -150,8 +150,7 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 > Muchas gracias por tu intereses en la Especialización en Tributación\. Dicha carrera tienen como objetivo profundizar la formación del profesional en ciencias económicas, en el área tributaria a través de un entrenamiento intensivo que brinda herramientas teóricas y prácticas tanto para el asesoramiento a los contribuyentes como para la actuación del profesional ante o en los organismos públicos, formando graduados capaces de contribuir al desarrollo de la región y del país en este ámbito disciplinario\.
 > El cursado es quincenal, viernes por la tarde y sabados por la mañana bajo la modalidad HIBRIDA, pudiendo el alumno optar por el cursado en forma presencial en la FCE UNL \(Moreno 2557\- Santa Fe\) o por zoom \(MODALIDAD HIBRIDA\)\.
 > Para mas información podés acceder a : www\.fce\.unl\.edu\.ar/tributacion
-> Hemos comenzado con las clases de la edición 2025, por lo que las inscripciones se encuetran cerradas\. La pxma edición comenzaria en el 2027\.
-> La apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+> La apertura de inscripciones  sera a partir de Noviembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
 > Quedamos a disposición\.
 > Saludos,
 > Secretaria de Posgrado

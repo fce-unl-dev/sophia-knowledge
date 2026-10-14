@@ -92,6 +92,21 @@ jobs:
             exit 1
           fi
 
+      - name: Refresh canonical freshness after CRM updates
+        id: freshness
+        if: steps.sync.outputs.status == 'updated'
+        run: |
+          set -euo pipefail
+          # Keep the reference date; regeneration does not assert a human review.
+          reference_date=$(sed -n 's/^\*\*Generado el:\*\* \([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]\)$/\1/p' freshness.md)
+          test -n "$reference_date" || { echo 'Missing freshness reference date.' >&2; exit 1; }
+          node tools/scraper/freshness_report.mjs --kb-root=../.. --format=md --reference-date="$reference_date" --out=freshness.md
+          if git diff --quiet -- freshness.md; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run complete KB validation before proposing an update
         if: steps.sync.outputs.status == 'updated'
         run: |
@@ -107,6 +122,7 @@ jobs:
         if: steps.sync.outputs.status == 'updated'
         env:
           GH_TOKEN: ${{ github.token }}
+          FRESHNESS_CHANGED: ${{ steps.freshness.outputs.changed }}
         run: |
           set -euo pipefail
           report="$RUNNER_TEMP/posgrado-crm-report.json"
@@ -120,6 +136,7 @@ jobs:
             allowed["$path"]=1
           done
           if [ "$(jq -r '.snapshotChanged' "$report")" = true ]; then allowed["$snapshot"]=1; fi
+          if [ "$FRESHNESS_CHANGED" = true ]; then allowed["freshness.md"]=1; fi
           if [ "${#allowed[@]}" -eq 0 ]; then echo 'Updated status without changed paths.' >&2; exit 1; fi
           while IFS= read -r -d '' path; do
             if [ -z "${allowed[$path]:-}" ]; then echo "Unexpected changed path: $path" >&2; exit 1; fi
