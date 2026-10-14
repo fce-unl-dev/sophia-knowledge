@@ -126,11 +126,9 @@ La carrera contempla una beca del Centro Universitario Argentino-Alemán (CUAA) 
 ### Información oficial del CRM — Maestría en Administración y Finanzas
 
 - **ID de propuesta:** 1076
-- **Inscripción:** Cerrada
-- **Fecha límite de inscripción:** 2026-10-11
-- **Última actualización de este registro (Argentina):** 2026-10-13 20:10:24
-
-> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-10-14 12:47:04
 
 **Respuesta frecuente oficial (dato del CRM):**
 
