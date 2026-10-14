@@ -125,7 +125,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-01 por pipeline de scraping.
+**Última revisión humana**: 2026-10-14
 
 <!-- posgrado-crm:begin -->
 <!-- posgrado-crm:id carreras:1425 -->
