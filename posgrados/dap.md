@@ -75,6 +75,8 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
     - Ingreso Directo: para quienes posean Maestría en Administración Pública o Políticas Públicas.
     - Ingreso condicionado: a la satisfacción de créditos adicionales.
 
+**Alcance de los requisitos publicados (verificado el 13/10/2026):** la página de admisión y el folleto oficial distinguen elegibilidad con título de grado de al menos cuatro años de ingreso directo con maestría en Administración Pública o Políticas Públicas. No presentar la maestría como requisito universal ni garantizar admisión: la decisión corresponde al Comité Académico. La FAQ del CRM para `id_posgrado: 1073` exige maestría; esa diferencia no está reconciliada para la próxima cohorte y debe confirmarse con la carrera antes de afirmar requisitos específicos de 2027.
+
 ## Aranceles e inscripción
 
 - **Matrícula**: A confirmar para ciclo 2027
@@ -126,6 +128,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 - https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=129 (Cursado y evaluación, Modalidad, Promoción de asignaturas)
 - https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=128 (Duración de la carrera, Duración trabajo final / tesis)
 - https://www.fce.unl.edu.ar/dap/index.php?act=showCategoria&id=189 (Informes e inscripción, Requisitos de admisión, Proceso de admisión)
+- https://www.fce.unl.edu.ar/sitios/uploads/folletos/9.pdf (Folleto oficial, página 2: requisitos y situaciones de admisión)
 - https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=135 (Ciclos integrativos, Estructura general)
 - https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=132 (Diagrama del Plan de Estudios)
 - https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=140 (Contenidos Temáticos)

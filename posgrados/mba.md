@@ -27,7 +27,9 @@ La Maestría en Administración de Empresas (MBA) de la FCE-UNL es una carrera d
 ## Plan de estudios
 
 ### Estructura general
-Estructura curricular flexible basada en créditos académicos. Se compone de un Módulo General, un Módulo Específico (con tres menciones a elección) y un Trabajo Final.
+Estructura curricular flexible basada en créditos académicos. Se compone de un Módulo General, un Módulo Específico cuyo plan publicado contempla tres menciones y un Trabajo Final. La oferta efectiva debe verificarse por cohorte: no todas las menciones del plan se ofrecen necesariamente en cada edición.
+
+**Oferta anunciada para la edición 2026:** Dirección de Negocios y Finanzas de Empresas, según el anuncio específico de esa edición. Esto no confirma la oferta 2027 ni permite concluir que Comercialización Internacional fue eliminada del plan. Para una consulta sobre la próxima cohorte, confirmar sus menciones efectivamente ofrecidas con la carrera.
 
 ### Módulos / asignaturas
 
@@ -187,6 +189,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=39 (Categorización CONEAU)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=9 (Perfil y Título)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=18 (Estructura curricular)
+- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=742 (Oferta específica de menciones para edición 2026)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=19 (Trabajo Final)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=26 (Cuerpo de profesores)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showCategoria&id=188 (Informes e Inscripción)
