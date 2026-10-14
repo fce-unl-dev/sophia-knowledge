@@ -139,7 +139,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1103
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-04-12
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:05:16
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
@@ -150,9 +150,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 > a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
 > b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
 > c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
-> Te comentamos que ha comenzado una edición en Abril 2026\. La pxma edición podría comenzar en Abril 2027\.
-> La apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
-> Actualmente, podemos ofrecerte cursos de posgrado vinculados a la carrera, los mismos los verás publicado ingresando a https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> La apertura de inscripciones a carreras de posgrados sera a partir de Noviembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
 > Quedamos a disposición ante cualquier consulta al respecto\.
 > Saludos,
 > Secretaria de Posgrado
@@ -166,11 +164,9 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 ### Información oficial del CRM — Especialización en Costos y Gestión Empresarial \- a distancia
 
 - **ID de propuesta:** 1254
-- **Inscripción:** Cerrada
-- **Fecha límite de inscripción:** 2026-06-24
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
-
-> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:07:36
 
 **Respuesta frecuente oficial (dato del CRM):**
 
@@ -180,9 +176,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 > a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
 > b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
 > c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
-> Te comentamos que ha comenzado una edición en Abril 2026\. La pxma edición podría comenzar en Abril 2027\.
-> La apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
->  Actualmente, podemos ofrecerte cursos de posgrado vinculados a la carrera, los mismos los verás publicado ingresando a https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> La apertura de inscripciones a carreras de posgrados sera a partir de Noviembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
 > Quedamos a disposición\.
 > Saludos,
 > Secretaria de Posgrado
