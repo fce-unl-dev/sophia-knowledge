@@ -16,7 +16,7 @@ La Maestría en Contabilidad y Auditoría (MCyA) de la FCE-UNL es un posgrado pr
 
 ## Modalidad y duración
 
--   **Modalidad**: Presencial con dictado de clases combinando asistencia presencial, online y mixta (Zoom)
+-   **Modalidad**: Presencial con dictado de sus clases combinando asistencia presencial, online y mixta (Zoom)
 -   **Días y horarios de cursada**: Viernes de 17 a 21 hs y sábados de 8:30 a 12:30 hs (carga semanal de 8 hs)
 -   **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción Zoom)
 -   **Idioma**: Español
@@ -87,20 +87,19 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ## Aranceles e inscripción
 
--   **Matrícula**: **A confirmar para ciclo 2027**
+-   **Matrícula**: **A confirmar para ciclo 2027** (valores se informan a partir de mediados de septiembre)
 -   **Cuotas**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
 -   **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
 -   **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
--   **Estado actual de inscripción (consulta del 2026-10-02)**: Abierta en el CRM de Posgrado para el ciclo 2027 (`id_posgrado: 1271`; fecha límite informada: 2027-02-28). Confirmar la vigencia antes de iniciar el trámite.
+-   **Estado actual de inscripción**: Abierta a partir de mediados de septiembre para el ciclo 2027 (fecha límite informada en CRM: 2027-02-28). Confirmar la vigencia antes de iniciar el trámite.
 -   **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (enlace informado en la respuesta frecuente del CRM; consultar con mcya@fce.unl.edu.ar ante dudas).
 
 ## Próxima cohorte
 
 -   **Fecha de inicio**: **2027-03**
--   **Estado**: La próxima edición está anunciada para marzo de 2027; la inscripción figura abierta en el CRM consultado el 2026-10-02, con fecha límite informada para el 2027-02-28.
--   **Fuente del inicio previsto**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
--   **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCarreras (`id_posgrado: 1271`; consulta del 2026-10-02; JSON generado el 2026-10-02 a las 19:27:25, hora local del CRM; registro actualizado el 2026-10-02 a las 18:17:33).
--   **Última actualización del dato de inscripción**: **2026-10-02**
+-   **Estado**: Abierta
+-   **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
+-   **Última actualización del dato**: **2026-10-02**
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -135,7 +134,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
     -   Participar en investigaciones contables con métodos científicos.
     -   Planificar y conducir procesos relacionados con la prospección de información contable con vistas a pronosticar escenarios futuros.
     -   Poseer una actitud crítica y flexible que le permite reconocer la necesidad de actualización permanente de los conocimientos e intervenir en equipos interdisciplinarios.
--   **Doble titulación y convenio internacional**: A partir del ciclo 2027, la Maestría en Contabilidad y Auditoría de la FCE-UNL y la Máster Universitario en Auditoría y Contabilidad Superior de la Universidad de Sevilla (España) implementarán un convenio de doble titulación. Esta propuesta permite cursar un semestre de la carrera en Sevilla, obteniendo títulos oficiales de ambas universidades con validez en Argentina y la Unión Europea.
+-   **Doble titulación y convenio internacional**: En un mundo globalizado y en constante evolución, la formación de posgrado de excelencia requiere horizontes más amplios. Es por ello que, desde el ciclo 2027, la Maestría en Contabilidad y Auditoría de la FCE-UNL y la Máster Universitario en Auditoría y Contabilidad Superior de la Universidad de Sevilla (España) implementarán un convenio de doble titulación. Esta novedosa propuesta otorga la posibilidad de cursar un semestre de la carrera en la ciudad de Sevilla (España). Generando un valioso intercambio profesional académico y cultural; así como la oportunidad única de interactuar con claustros docentes de alto nivel internacional y compañeros de diversas latitudes, potenciando el networking profesional. El plan de estudios integra contenidos de contabilidad, auditoría, gestión y finanzas impartidos por docentes de ambas instituciones, permitiendo abordar los desafíos de la profesión desde múltiples contextos. Al finalizar el cursado y cumplir con los requisitos académicos, obtendrás los títulos oficiales expedidos por ambas universidades, con validez en Argentina y la Unión Europea.
 
 ## Fuentes consultadas
 
@@ -146,7 +145,6 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=203 (Duración de la carrera, Trabajo Final)
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=197 (Requisitos de inscripción)
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=204 (Título que otorga)
--   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=205 (Objetivos)
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=206 (Perfil de egresado)
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=207 (Estructura del plan de estudio, Asignaturas optativas, Carga horaria)
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showCategoria&id=243 (Internacionalización / Doble Titulación)
@@ -157,4 +155,4 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ---
 
-**Última revisión humana**: 2026-10-14
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-15 por pipeline de scraping.
