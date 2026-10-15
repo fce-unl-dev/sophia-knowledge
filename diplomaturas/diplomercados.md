@@ -131,11 +131,9 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 ### Información oficial del CRM — Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros
 
 - **ID de propuesta:** 1337
-- **Inscripción:** Cerrada
-- **Fecha límite de inscripción:** 2026-05-08
-- **Última actualización de este registro (Argentina):** 2026-10-13 19:58:21
-
-> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-10-15 12:55:17
 
 **Respuesta frecuente oficial (dato del CRM):**
 
