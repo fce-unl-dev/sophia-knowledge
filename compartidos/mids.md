@@ -132,11 +132,9 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 ### Información oficial del CRM — Maestría en Innovación para el Desarrollo Sostenible
 
 - **ID de propuesta:** 1425
-- **Inscripción:** Cerrada
-- **Fecha límite de inscripción:** No informada
-- **Última actualización de este registro (Argentina):** 2026-10-05 15:58:38
-
-> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2026-12-31
+- **Última actualización de este registro (Argentina):** 2026-10-15 12:51:26
 
 **Respuesta frecuente oficial (dato del CRM):**
 

@@ -28,7 +28,7 @@
     {
       "kind": "carreras",
       "id": "carreras:1076",
-      "updatedAtMs": 1791992824000,
+      "updatedAtMs": 1792079000000,
       "contentHash": "df9774105cf76ea5c80dc9c75f251d227c42e39eac3c45ebac7c2839e7c2efc6"
     },
     {
@@ -52,7 +52,7 @@
     {
       "kind": "carreras",
       "id": "carreras:1080",
-      "updatedAtMs": 1791933324000,
+      "updatedAtMs": 1792079566000,
       "contentHash": "c24d4a75243add67617b8a0354baf5b7d2bb5793dd769be316ffd00731183359"
     },
     {
@@ -94,8 +94,8 @@
     {
       "kind": "carreras",
       "id": "carreras:1337",
-      "updatedAtMs": 1791932301000,
-      "contentHash": "e902a9736e26165e7f8b6976d928287270845a45566c355e96592a979f78f136"
+      "updatedAtMs": 1792079717000,
+      "contentHash": "084b265d8ba8a60f3d389f51d015ddc91ddcddac5b3829b5f08cda1ce6c37d84"
     },
     {
       "kind": "carreras",
@@ -112,8 +112,8 @@
     {
       "kind": "carreras",
       "id": "carreras:1425",
-      "updatedAtMs": 1791226718000,
-      "contentHash": "6702d65162fcc6a35835cfbfb1091a6933e84e07a4b12ca13090a4f8a9b08b4f"
+      "updatedAtMs": 1792079486000,
+      "contentHash": "19d1fef7127d413c91f4558681ba1a6def90a4814198fee83063e458c5f2509c"
     },
     {
       "kind": "cursos",
