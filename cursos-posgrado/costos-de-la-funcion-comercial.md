@@ -66,10 +66,11 @@ Modalidad a distancia desde el 26 de octubre al 6 de diciembre de 2026.
 ### Información oficial del CRM — COSTOS DE LA FUNCION COMERCIAL 2026
 
 - **ID de propuesta:** 1424
-- **Inscripción:** Abierta
+- **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-10-17
-- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1424
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+- **Última actualización de este registro (Argentina):** 2026-10-18 00:00:00
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
 **Respuesta frecuente oficial (dato del CRM):**
 
