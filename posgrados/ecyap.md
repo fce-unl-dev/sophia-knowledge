@@ -115,7 +115,7 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ## Contacto
 
-- **Director académico**: Mg. Ricardo Melini
+- **Director/a académico/a**: Mg. Ricardo Melini
 - **Coordinadora Académica del Área Contabilidad, Auditoría e Impuestos del Área de Gestión de Posgrado**: Mg. Julia Cristobal
 - **Email del programa**: esp_cont_auditoria@fce.unl.edu.ar
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
@@ -140,19 +140,22 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 
 ## Fuentes consultadas
 
-- https://fce.unl.edu.ar/ecyap/ (homepage, convenio, inscripciones)
+- https://fce.unl.edu.ar/ecyap/ (homepage, convenio, información general)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=169 (Presentación de la carrera, acreditación)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=94 (Cursado y evaluación, promoción de asignaturas, trabajo final)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=93 (Días y horarios de cursado)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=92 (Duración de la carrera, plazo trabajo final)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showCategoria&id=190 (Informes e inscripción, requisitos)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=170 (Objetivos curriculares)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=98 (Estructura del Plan de Estudios, carga horaria, asignaturas)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=102 (Contenidos de asignaturas optativas)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=103 (Contenidos de asignaturas obligatorias)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=100 (Conducción de la carrera - Director, Coordinadora)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=101 (Comité Académico)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=99 (Cuerpo Docente)
 - https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=241 (Novedades - Convenio)
-- https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780 (Novedades - Inscripciones, próxima cohorte, aranceles)
+- https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780 (Novedades - Inscripciones, próxima cohorte, aranceles — dato preservado del MD ACTUAL, no presente en el scrape provisto)
 
 ---
 
-**Última revisión humana**: 2026-09-10
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-19 por pipeline de scraping.

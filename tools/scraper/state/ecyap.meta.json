@@ -2,14 +2,14 @@
   "slug": "ecyap",
   "url": "https://fce.unl.edu.ar/ecyap/",
   "strategy": "fce-microsite",
-  "content_hash": "842501a0d85242075331a53b88950f1561a1df2bb9234ca70b5959da57745ca0",
-  "previous_hash": "b29e3130ea64f521887f6526042de0f2875646c07773c3710d62770d2b552c98",
-  "pages_count": 15,
+  "content_hash": "f611f6bfda0c9321d365009b824396e57a12c6e7609f96f37550ba221598c898",
+  "previous_hash": "842501a0d85242075331a53b88950f1561a1df2bb9234ca70b5959da57745ca0",
+  "pages_count": 14,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/ecyap/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 529
+      "length": 289
     },
     {
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showSubcategoria&id=169",
@@ -75,13 +75,8 @@
       "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=241",
       "title": "Novedades",
       "length": 866
-    },
-    {
-      "url": "https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780",
-      "title": "Novedades",
-      "length": 1157
     }
   ],
-  "scraped_at": "2026-09-10T10:21:30.959Z",
-  "last_checked_at": "2026-09-10T10:21:30.959Z"
+  "scraped_at": "2026-10-19T11:40:25.956Z",
+  "last_checked_at": "2026-10-19T11:40:25.956Z"
 }
