@@ -149,14 +149,14 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
 - **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
 - **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
-- **Link de solicitud de información**: https://www.fce.unl.edu.ar/carreras_posgrado/index.php?act=showFormularioI&idCurso=1074#superior
+- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/carreras_posgrado/index.php?act=showFormularioI&idCurso=1074#superior
 
 ## Próxima cohorte
 
 - **Fecha de inicio**: **A confirmar para 2027**
 - **Estado**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
 - **Fuente del dato**: https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
-- **Última actualización del dato**: 2026-10-12
+- **Última actualización del dato**: 2026-10-19
 
 > Nota: La cohorte 2026 ya inició en abril. Para información sobre la próxima cohorte (2027), se recomienda consultar con mba@fce.unl.edu.ar.
 
@@ -189,7 +189,6 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=39 (Categorización CONEAU)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=9 (Perfil y Título)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=18 (Estructura curricular)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=742 (Oferta específica de menciones para edición 2026)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=19 (Trabajo Final)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=26 (Cuerpo de profesores)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showCategoria&id=188 (Informes e Inscripción)
@@ -200,10 +199,7 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=62 (Programa Graduados)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=166 (Consejo Consultivo de Graduados)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=168 (Convenios con el sistema de innovación local)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=806 (Novedades - Inicio de ciclo lectivo 2026)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=804 (Novedades - Taller de formulación del proyecto de trabajo final)
-- https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=766 (Novedades - Cursos de Nivelación para Cohorte 2026)
 
 ---
 
-**Última revisión humana**: 2026-10-14
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-19 por pipeline de scraping.

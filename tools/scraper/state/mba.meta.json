@@ -2,14 +2,14 @@
   "slug": "mba",
   "url": "https://fce.unl.edu.ar/mba/",
   "strategy": "fce-microsite",
-  "content_hash": "7db4ba51b1fe0ece42b55a99bc2f93890bfee6a1f47e64eb06366367f9b836f6",
-  "previous_hash": "e37c57c95bba763c070753c870c8cf7aecced3972b35e0ba3a3899c4e662bceb",
-  "pages_count": 35,
+  "content_hash": "6b4f708260847ac2bc931543f39efd0d9ff2026712662dc2a02bc95886625d5a",
+  "previous_hash": "7db4ba51b1fe0ece42b55a99bc2f93890bfee6a1f47e64eb06366367f9b836f6",
+  "pages_count": 33,
   "pages": [
     {
       "url": "https://fce.unl.edu.ar/mba/",
       "title": "INFORMACIÓN DE INTERÉS",
-      "length": 4495
+      "length": 3924
     },
     {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=40",
@@ -107,16 +107,6 @@
       "length": 3120
     },
     {
-      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=809",
-      "title": "Novedades",
-      "length": 1813
-    },
-    {
-      "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=806",
-      "title": "Novedades",
-      "length": 1641
-    },
-    {
       "url": "https://www.fce.unl.edu.ar/mba/index.php?act=showNoticia&id=805",
       "title": "Novedades",
       "length": 1957
@@ -182,6 +172,6 @@
       "length": 2423
     }
   ],
-  "scraped_at": "2026-10-12T13:59:15.816Z",
-  "last_checked_at": "2026-10-12T13:59:15.816Z"
+  "scraped_at": "2026-10-19T11:39:54.767Z",
+  "last_checked_at": "2026-10-19T11:39:54.767Z"
 }
