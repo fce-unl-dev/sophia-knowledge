@@ -138,6 +138,8 @@
 | `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
 | `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
 | `posgrados/mcya.md` | Draft autogenerado | 🟡 -2 d (2026-10-15) | 🟢 -3 d (2026-10-15) |
+| `posgrados/ecyap.md` | Draft autogenerado | 🟡 -6 d (2026-10-19) | 🟢 -7 d (2026-10-19) |
+| `posgrados/mba.md` | Draft autogenerado | 🟡 -6 d (2026-10-19) | 🟢 -7 d (2026-10-19) |
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 N/D |
 | `operativos/ingreso-2026.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
 | `posgrado-general/becas-docentes.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
@@ -162,7 +164,6 @@
 | `diplomaturas/gfsp.md` | Revisado | 🟢 33 d (2026-09-10) | 🔴 32 d (2026-09-10) |
 | `diplomaturas/gto.md` | Revisado | 🟢 33 d (2026-09-10) | 🔴 32 d (2026-09-10) |
 | `posgrados/diplotributos.md` | Revisado | 🟢 33 d (2026-09-10) | 🔴 32 d (2026-09-10) |
-| `posgrados/ecyap.md` | Revisado | 🟢 33 d (2026-09-10) | 🔴 32 d (2026-09-10) |
 | `posgrados/maea.md` | Revisado | 🟢 33 d (2026-09-10) | 🔴 32 d (2026-09-10) |
 | `posgrados/maf.md` | Revisado | 🟢 33 d (2026-09-10) | 🔴 32 d (2026-09-10) |
 | `posgrados/map.md` | Revisado | 🟢 33 d (2026-09-10) | 🔴 32 d (2026-09-10) |
@@ -174,4 +175,3 @@
 | `posgrados/edgop.md` | Revisado | 🟢 -1 d (2026-10-14) | 🔴 28 d (2026-09-14) |
 | `posgrados/dap.md` | Revisado | 🟢 -1 d (2026-10-14) | 🔴 25 d (2026-09-17) |
 | `compartidos/mids.md` | Revisado | 🟢 -1 d (2026-10-14) | 🟢 11 d (2026-10-01) |
-| `posgrados/mba.md` | Revisado | 🟢 -1 d (2026-10-14) | 🟢 0 d (2026-10-12) |

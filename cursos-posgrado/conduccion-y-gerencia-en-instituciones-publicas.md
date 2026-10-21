@@ -68,10 +68,11 @@ Modalidad a distancia desde el 12/10/2026 AL 8/12/2026
 ### Información oficial del CRM — CONDUCCIÓN Y GERENCIA EN INSTITUCIONES PÚBLICAS 2026
 
 - **ID de propuesta:** 1417
-- **Inscripción:** Abierta
+- **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-10-20
-- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1417
-- **Última actualización de este registro (Argentina):** 2026-10-15 08:34:17
+- **Última actualización de este registro (Argentina):** 2026-10-21 00:00:00
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
 **Respuesta frecuente oficial (dato del CRM):**
 
