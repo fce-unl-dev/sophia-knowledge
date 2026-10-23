@@ -17,7 +17,7 @@ La Maestría en Contabilidad y Auditoría (MCyA) de la FCE-UNL es un posgrado pr
 ## Modalidad y duración
 
 -   **Modalidad**: Presencial con dictado de sus clases combinando asistencia presencial, online y mixta (Zoom)
--   **Días y horarios de cursada**: Viernes de 17 a 21 hs y sábados de 8:30 a 12:30 hs (carga semanal de 8 hs)
+-   **Días y horarios de cursada**: Viernes de 17 a 21 hs y sábados de 9 a 13 hs (carga semanal de 8 hs)
 -   **Lugar**: FCE-UNL, Moreno 2557, Santa Fe (con opción Zoom)
 -   **Idioma**: Español
 -   **Duración cursada**: 2 años
@@ -85,23 +85,9 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 -   **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
 -   **Proceso de admisión**: Evaluación por el Comité Académico
 
-## Aranceles e inscripción
+## Información complementaria
 
--   **Matrícula**: **A confirmar para ciclo 2027** (valores se informan a partir de mediados de septiembre)
--   **Cuotas**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
--   **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
--   **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mcya@fce.unl.edu.ar
--   **Estado actual de inscripción**: Abierta a partir de mediados de septiembre para el ciclo 2027 (fecha límite informada en CRM: 2027-02-28). Confirmar la vigencia antes de iniciar el trámite.
--   **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/ (enlace informado en la respuesta frecuente del CRM; consultar con mcya@fce.unl.edu.ar ante dudas).
-
-## Próxima cohorte
-
--   **Fecha de inicio**: **2027-03**
--   **Estado**: Abierta
--   **Fuente del dato**: https://www.fce.unl.edu.ar/mcya/index.php?act=showNoticia&id=778
--   **Última actualización del dato**: **2026-10-02**
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+La facultad confirmó el horario de sábados de 9 a 13 para la consulta sobre el ciclo 2027–2028. Los detalles de pago y becas no están confirmados en el material consultado: consultar con mcya@fce.unl.edu.ar. El inicio previsto es marzo de 2027.
 
 ## Contacto
 
@@ -138,6 +124,8 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ## Fuentes consultadas
 
+- Respuestas de la facultad a las consultas sobre posgrados, incorporadas el 23/10/2026: https://docs.google.com/document/d/1Ej4GRWCx5sAbfWIHOjGf5s4jwXT1a3AexFnPXqsbafU/edit
+
 -   https://www.fce.unl.edu.ar/mcya/ (Información general)
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=199 (Presentación de la carrera, Tipo, Acreditación)
 -   https://www.fce.unl.edu.ar/mcya/index.php?act=showSubcategoria&id=201 (Cursado y evaluación, Trabajo Final)
@@ -156,3 +144,27 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 ---
 
 **Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-15 por pipeline de scraping.
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1271 -->
+### Información oficial del CRM — Maestría en Contabilidad y Auditoría
+
+- **ID de propuesta:** 1271
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-02-28
+- **Última actualización de este registro (Argentina):** 2026-10-02 18:17:33
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> ¡Hola\! Muchas gracias por tu interés en la Maestría en Contabilidad y Auditoría de la FCE UNL \(requiere título de Contador/a\)\.
+> Datos clave:
+> Cursado: Presencial con apoyo virtual \(Zoom\)\. Viernes de 17 a 21 h y sábados de 9 a 13 h, a partir de marzo de 2027\.
+> Plan de estudios: www\.fce\.unl\.edu\.ar/mcya
+> Pasos para inscribirte \(ciclo 2027\-2028\):
+> Completá la preinscripción en este enlace\. https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Coordinemos una breve entrevista con las autoridades\.
+> Aboná la matrícula y cargá el comprobante\.
+> Doble titulación con la Univ\. de Sevilla:
+> A partir de 2027 hay un convenio para cursar un período en España \(oct\. 2027 \- feb\. 2028\) y postularse a becas AUIP \(que cubren pasaje, alojamiento y manutención\)\. Para postularte a las becas, debés presentar CV y nota de motivos por Mesa de Entradas \(¡Atención: la fecha límite es el 31 de octubre de 2026\!\)\.
+> Escribinos si te queda alguna duda\. ¡Saludos\!
+<!-- posgrado-crm:end -->

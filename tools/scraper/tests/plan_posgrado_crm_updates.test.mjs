@@ -150,7 +150,7 @@ test('quarantine does not hide unknown open IDs, missing mapped records or malfo
     { code: 'invalid_json' });
 });
 
-test('checked-in documents keep the six known conflicts isolated by exact route', async () => {
+test('checked-in documents accept the six faculty-reconciled routes', async () => {
   const liveIndex = JSON.parse(await readFile(join(root, 'indice.json'), 'utf8'));
   const paths = new Set([...Object.values(routesDefault.carreras).map(route => route[0]),
     ...Object.values(routesDefault.cursos)]);
@@ -160,8 +160,7 @@ test('checked-in documents keep the six known conflicts isolated by exact route'
     record('carreras', Number(id), { id_carrera: careerId }));
   const courses = Object.keys(routesDefault.cursos).map(id => record('cursos', Number(id)));
   const result = plan(feeds({ careers, courses }), documents, routesDefault, liveIndex);
-  assert.deepEqual(result.quarantined.map(entry => entry.id).sort(),
-    ['carreras:1073', 'carreras:1074', 'carreras:1078', 'carreras:1271', 'cursos:1418', 'cursos:1426']);
+  assert.deepEqual(result.quarantined, []);
   assert.deepEqual(result.anomalies, []);
   const quarantinedPaths = new Set(result.quarantined.map(entry => entry.path));
   // Synthetic FAQ text differs from the checked-in managed blocks, so all safe paths change.
@@ -169,6 +168,53 @@ test('checked-in documents keep the six known conflicts isolated by exact route'
   assert.ok(result.anomalies.every(issue => issue.code !== 'legacy_dynamic_claims' ||
     !quarantinedPaths.has(issue.path)));
   assert.ok(result.updates.every(update => !quarantinedPaths.has(update.path)));
+  assert.match(documents['posgrados/dap.md'], /ingreso condicionado sin ese título/);
+  assert.match(documents['posgrados/edgop.md'], /podrían realizarse encuentros sincrónicos/);
+  assert.match(documents['posgrados/edgop.md'], /Convenio UPCN.*descuento del 20%/);
+  assert.match(documents['posgrados/mba.md'], /Comercialización Internacional, no se ofrece actualmente/);
+  assert.match(documents['posgrados/mcya.md'], /sábados de 9 a 13 hs/);
+  for (const id of ['1418', '1426']) {
+    assert.match(documents[routesDefault.cursos[id]], /prioridad para fechas de inicio y períodos de inscripción/);
+  }
+});
+
+test('CRM workflow retains the full report on failure and exposes only safe identifiers', async () => {
+  const workflow = await readFile(join(root, '.github/workflows/sync-posgrado-crm-kb.yml'), 'utf8');
+  assert.match(workflow, /name: Preserve CRM diagnostic report\n\s+if: always\(\)\n\s+uses: actions\/upload-artifact@v4/);
+  assert.match(workflow, /path: \$\{\{ runner.temp \}\}\/posgrado-crm-report.json/);
+  assert.ok(workflow.includes('record: \\(.id | safe)'));
+  assert.ok(workflow.includes('^[a-zA-Z0-9_:-]+$'));
+});
+
+test('faculty-confirmed DAP and EDGOP qualifications survive future CRM FAQ changes', () => {
+  for (const [id, careerId, path, qualification] of [
+    [1073, 18, 'posgrados/dap.md', 'Sin maestría, el ingreso puede ser condicionado.'],
+    [1078, 21, 'posgrados/edgop.md', 'Actualmente asincrónica; pueden realizarse encuentros sincrónicos.'],
+  ]) {
+    const customRoutes = { ...routes, carreras: { [id]: [path, careerId] } };
+    const raw = feeds({ careers: [record('carreras', id, { id_carrera: careerId,
+      respuesta_frecuente: 'EXCLUSIVE_FAQ_CLAIM: sin excepciones ni encuentros sincrónicos.',
+    })] });
+    const documents = { [path]: `# Carrera\n\n${qualification}\n`, [coursePath]: '# Curso\n' };
+    const customIndex = { items: [{ path }, { path: coursePath }] };
+    const first = plan(raw, documents, customRoutes, customIndex);
+    assert.deepEqual(first.anomalies, []);
+    const content = first.updates.find(update => update.path === path).content;
+    assert.ok(content.includes(qualification));
+    assert.doesNotMatch(content, /EXCLUSIVE_FAQ_CLAIM/);
+    assert.match(content, /2026-11-01/);
+    assert.match(content, /Inscripción.*Abierta/);
+    assert.match(content, /aclaraciones académicas/);
+    const next = JSON.parse(raw.carreras);
+    next.carreras[0].inscripcion.fecha_limite = '2026-12-15';
+    next.carreras[0].respuesta_frecuente = 'NEW_EXCLUSIVE_FAQ_CLAIM';
+    raw.carreras = JSON.stringify(next);
+    const second = plan(raw, { ...documents, [path]: content }, customRoutes, customIndex);
+    const revised = second.updates.find(update => update.path === path).content;
+    assert.ok(revised.includes(qualification));
+    assert.match(revised, /2026-12-15/);
+    assert.doesNotMatch(revised, /NEW_EXCLUSIVE_FAQ_CLAIM/);
+  }
 });
 
 test('unknown open IDs quarantine; closed unmapped IDs are logged without deleting anything', () => {
@@ -202,6 +248,7 @@ test('closed cohorts label FAQ prices as historical and escape untrusted Markdow
 
 test('CRM FAQ quotes preserve line breaks without trailing whitespace', () => {
   const rawFeeds = feeds({ courses: [record('cursos', 1415, {
+    nombre: 'Programa 1415 \t',
     respuesta_frecuente: 'Primera línea  \r\n\r\nSegunda línea \t',
   })] });
   const result = plan(rawFeeds);
