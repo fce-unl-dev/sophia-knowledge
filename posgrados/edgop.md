@@ -16,7 +16,7 @@ La Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP)
 
 ## Modalidad y duración
 
-- **Modalidad**: A distancia (virtual) — actividades sincrónicas y asincrónicas
+- **Modalidad**: A distancia (virtual) — actualmente asincrónica, con posibilidad de encuentros sincrónicos
 - **Días y horarios de cursada**: Sin franja fija — actividades virtuales según calendario académico
 - **Lugar**: 100% online (virtual)
 - **Idioma**: Español
@@ -175,23 +175,11 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 - **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con edgop@fce.unl.edu.ar
 - **Proceso de admisión**: Evaluación por el Comité Académico
 
-## Aranceles e inscripción
+## Información complementaria
 
-- **Matrícula**: **A confirmar para ciclo 2027**
-- **Cuotas**: Sin datos confirmados en el material consultado — consultar con edgop@fce.unl.edu.ar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con edgop@fce.unl.edu.ar
-- **Becas disponibles**: Convenio Específico de colaboración entre la Universidad Nacional del Litoral y la Unión del Personal Civil de la Nación-Seccional Santa Fe, por el que se otorga un descuento del 20% (Veinte por ciento) sobre el costo total de la Carrera a todos/as los/as profesionales que la entidad gremial informe a las autoridades de la EDGOP- Especialización en Dirección y Gestión de Organizaciones Públicas y a las autoridades de la Facultad de Ciencias Económicas de la UNL.
-- **Estado actual de inscripción**: Cerrada — próxima apertura de inscripciones en **Diciembre 2026** para el ciclo **2027**
-- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
+La facultad confirmó que las actividades actualmente son asincrónicas, pero podrían realizarse encuentros sincrónicos. No garantizar una modalidad totalmente asincrónica ni ausencia de horarios de encuentro. También confirmó noviembre de 2026 como mes previsto de apertura para el ciclo 2027, en lugar de diciembre. Para la disponibilidad y el plazo actuales, consultar el bloque del CRM al final de esta ficha. El inicio de clases de 2027 está por confirmar. Los detalles de pago no están confirmados en el material consultado: consultar con edgop@fce.unl.edu.ar.
 
-## Próxima cohorte
-
-- **Fecha de inicio**: A confirmar para ciclo **2027**
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/edgop/index.php?act=showNoticia&id=779 (Novedades)
-- **Última actualización del dato**: 2026-09-14
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+**Convenio UPCN:** el Convenio Específico de colaboración entre la Universidad Nacional del Litoral y la Unión del Personal Civil de la Nación-Seccional Santa Fe contempla un descuento del 20% sobre el costo total de la carrera para profesionales que la entidad gremial informe a las autoridades de EDGOP y de la FCE-UNL. Consultar las condiciones aplicables con la carrera; este convenio no determina un arancel vigente.
 
 ## Contacto
 
@@ -237,6 +225,8 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ## Fuentes consultadas
 
+- Respuestas de la facultad a las consultas sobre posgrados, incorporadas el 23/10/2026: https://docs.google.com/document/d/1Ej4GRWCx5sAbfWIHOjGf5s4jwXT1a3AexFnPXqsbafU/edit
+
 - https://fce.unl.edu.ar/edgop/ (Información de interés)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=175 (Presentación de la carrera, acreditación, Centro TOP, articulación con MAP y DAP)
 - https://www.fce.unl.edu.ar/edgop/index.php?act=showSubcategoria&id=117 (Duración de la carrera)
@@ -255,3 +245,15 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 ---
 
 **Última revisión humana**: 2026-10-14
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1078 -->
+### Información oficial del CRM — Especialización en Dirección y Gestión de Organizaciones Públicas
+
+- **ID de propuesta:** 1078
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-08-07
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:03:31
+
+Las aclaraciones académicas y de admisión se mantienen en la ficha curada, según la confirmación de la facultad. La respuesta libre del CRM no se reproduce porque omite esas salvedades.
+<!-- posgrado-crm:end -->

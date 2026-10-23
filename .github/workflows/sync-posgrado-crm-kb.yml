@@ -82,7 +82,8 @@ jobs:
           echo "### Official CRM sync: $status" >> "$GITHUB_STEP_SUMMARY"
           jq -r '"- Updates: \(.updates | length); quarantined records: \(.quarantined | length); anomalies: \(.anomalies | length); errors: \(.errors | length).", "- Basicos is deferred; no manually curated general guidance is replaced."' "$report" >> "$GITHUB_STEP_SUMMARY"
           if [ "$exit_code" -ne 0 ] || [ "$status" = error ] || [ "$status" = needs_review ]; then
-            jq -r '(.errors // [] | .[] | "- Error: \(.code // "unknown")"), (.anomalies // [] | .[] | "- Anomaly: \(.code // "unknown")")' "$report" >> "$GITHUB_STEP_SUMMARY"
+            # Restrict identifiers to contract tokens before writing Markdown.
+            jq -r 'def safe: if type == "string" and test("^[a-zA-Z0-9_:-]+$") then . else "unknown" end; (.errors // [] | .[] | "- Error: \(.code | safe)"), (.anomalies // [] | .[] | "- Anomaly: \(.code | safe); record: \(.id | safe)")' "$report" >> "$GITHUB_STEP_SUMMARY"
             echo 'CRM sync failed or needs investigation; no PR will be created.' >&2
             exit 1
           fi
@@ -91,6 +92,15 @@ jobs:
             echo "Unexpected CRM sync status '$status' for mode '$MODE'." | tee -a "$GITHUB_STEP_SUMMARY" >&2
             exit 1
           fi
+
+      - name: Preserve CRM diagnostic report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: posgrado-crm-report
+          path: ${{ runner.temp }}/posgrado-crm-report.json
+          if-no-files-found: warn
+          retention-days: 14
 
       - name: Refresh canonical freshness after CRM updates
         id: freshness

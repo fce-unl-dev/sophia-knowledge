@@ -4,6 +4,9 @@ import { parsePosgradoFeed } from './posgrado_json_contract.mjs';
 
 const BEGIN = '<!-- posgrado-crm:begin -->';
 const END = '<!-- posgrado-crm:end -->';
+// Faculty clarification: these FAQs omit admission/delivery exceptions. Publish
+// structured enrollment fields only; the curated academic text remains authoritative.
+const CURATED_ACADEMIC_FAQ = new Set(['carreras:1073', 'carreras:1078']);
 const QUARANTINE_REASONS = new Set([
   'faq_start_date_conflicts_with_academic_pdf',
   'faq_degree_or_admission_conflicts_with_academic_source',
@@ -52,15 +55,17 @@ function render(record) {
     ? `- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=${item.id_posgrado}\n`
     : '';
   const historical = open ? '' : '\n> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.\n';
+  const faq = CURATED_ACADEMIC_FAQ.has(record.id)
+    ? '\nLas aclaraciones académicas y de admisión se mantienen en la ficha curada, según la confirmación de la facultad. La respuesta libre del CRM no se reproduce porque omite esas salvedades.\n'
+    : `${historical}\n**Respuesta frecuente oficial (dato del CRM):**\n\n${quoteData(item.respuesta_frecuente)}\n`;
   return `${BEGIN}\n<!-- posgrado-crm:id ${record.id} -->\n` +
-    `### Información oficial del CRM — ${markdownData(item.nombre)}\n\n` +
+    `### Información oficial del CRM — ${markdownData(item.nombre).trim()}\n\n` +
     `- **ID de propuesta:** ${item.id_posgrado}\n` +
     `- **Inscripción:** ${open ? 'Abierta' : 'Cerrada'}\n` +
     `- **Fecha límite de inscripción:** ${deadline}\n` +
     courseEnrollment +
     `- **Última actualización de este registro (Argentina):** ${record.updatedAt}\n` +
-    `${historical}\n**Respuesta frecuente oficial (dato del CRM):**\n\n` +
-    `${quoteData(item.respuesta_frecuente)}\n${END}`;
+    `${faq}${END}`;
 }
 
 function validateRoutes(routes, index, documents) {

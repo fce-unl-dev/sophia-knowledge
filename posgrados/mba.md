@@ -29,7 +29,7 @@ La Maestría en Administración de Empresas (MBA) de la FCE-UNL es una carrera d
 ### Estructura general
 Estructura curricular flexible basada en créditos académicos. Se compone de un Módulo General, un Módulo Específico cuyo plan publicado contempla tres menciones y un Trabajo Final. La oferta efectiva debe verificarse por cohorte: no todas las menciones del plan se ofrecen necesariamente en cada edición.
 
-**Oferta anunciada para la edición 2026:** Dirección de Negocios y Finanzas de Empresas, según el anuncio específico de esa edición. Esto no confirma la oferta 2027 ni permite concluir que Comercialización Internacional fue eliminada del plan. Para una consulta sobre la próxima cohorte, confirmar sus menciones efectivamente ofrecidas con la carrera.
+**Oferta actual confirmada por la facultad (incorporada el 23/10/2026):** Dirección de Negocios y Finanzas de Empresas. La tercera mención del plan, Comercialización Internacional, no se ofrece actualmente. Esto no implica su eliminación del plan de estudios.
 
 ### Módulos / asignaturas
 
@@ -40,7 +40,7 @@ Estructura curricular flexible basada en créditos académicos. Se compone de un
 - Sistemas de Información para la Toma de Decisiones
 - Finanzas de la Empresa
 
-**Módulo Específico** (6 asignaturas: 4 obligatorias + 2 optativas. Total: 18 créditos. Cada asignatura: 45 hs = 3 créditos.) Tres menciones a elegir:
+**Módulo Específico** (6 asignaturas: 4 obligatorias + 2 optativas. Total: 18 créditos. Cada asignatura: 45 hs = 3 créditos.) El plan contempla tres menciones; la oferta actual se limita a Dirección de Negocios y Finanzas de Empresas:
 
 *Mención en Dirección de Negocios:*
 - Estrategias Competitivas
@@ -142,23 +142,9 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 - **Documentación a presentar**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
 - **Proceso de admisión**: El Comité Académico evaluará a cada aspirante en forma individual analizando sus antecedentes y realizando entrevistas personales.
 
-## Aranceles e inscripción
+## Información complementaria
 
-- **Matrícula**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
-- **Cuotas**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con mba@fce.unl.edu.ar
-- **Estado actual de inscripción**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
-- **Link de pre-inscripción**: https://www.fce.unl.edu.ar/carreras_posgrado/index.php?act=showFormularioI&idCurso=1074#superior
-
-## Próxima cohorte
-
-- **Fecha de inicio**: **A confirmar para 2027**
-- **Estado**: Cerrada — próxima cohorte en **2027** (apertura de inscripciones en **Diciembre 2026**)
-- **Fuente del dato**: https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
-- **Última actualización del dato**: 2026-10-19
-
-> Nota: La cohorte 2026 ya inició en abril. Para información sobre la próxima cohorte (2027), se recomienda consultar con mba@fce.unl.edu.ar.
+La facultad confirmó noviembre de 2026 como mes previsto de apertura para el ciclo 2027, en lugar de diciembre. Para la disponibilidad y el plazo actuales, consultar el bloque del CRM al final de esta ficha. El inicio de clases de 2027 está por confirmar; la cohorte 2026 comenzó en abril. Los detalles de pago y becas no están confirmados en el material consultado: consultar con mba@fce.unl.edu.ar.
 
 ## Contacto
 
@@ -182,6 +168,8 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 
 ## Fuentes consultadas
 
+- Respuestas de la facultad a las consultas sobre posgrados, incorporadas el 23/10/2026: https://docs.google.com/document/d/1Ej4GRWCx5sAbfWIHOjGf5s4jwXT1a3AexFnPXqsbafU/edit
+
 - https://fce.unl.edu.ar/mba/ (Página principal)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=40 (Introducción)
 - https://www.fce.unl.edu.ar/mba/index.php?act=showSubcategoria&id=22 (Modalidad y duración)
@@ -203,3 +191,34 @@ Todas las asignaturas son dictadas por especialistas expertos de reconocida tray
 ---
 
 **Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-19 por pipeline de scraping.
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1074 -->
+### Información oficial del CRM — Maestría en Administración de Empresas
+
+- **ID de propuesta:** 1074
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:11:28
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> La Maestría en Administración de Empresas ofrece estudios de posgrado de alto nivel académico a profesionales que buscan un desarrollo integral en management para actuar en un entorno globalizado\.  La carrera se crea en 1999 y, hasta el presente, se han formado más de trescientos \(300\) profesionales que se desenvuelven en empresas e instituciones de la región y del país\. Su objetivo fundamental es profundizar en la formación académico \- profesional de sus participantes y sus características distintivas son:
+> \- Carrera de tipo profesional orientada al entrenamiento de las habilidades propias de los cargos de Alta Dirección\.
+> \- Aplicación de metodologías orientadas al trabajo en equipo, el análisis de casos y la investigación aplicada\.
+> \- Fuerte vinculación con el medio empresario de la región y del país\.
+> \- Estructura curricular flexible basada en un sistema de créditos académicos y la elección de asignaturas optativas conforme al perfil de los/as estudiantes\.
+> \- Cuerpo de docentes de alto nivel académico y profesional\.
+> \- Internacionalización creciente a través de la creación de carreras de doble titulación que implican el intercambio de estudiantes y docentes\.
+> En especial, ofrece dos menciones: Dirección de Negocios y Finanzas de Empresas\.
+> La modalidad de dictado es presencial, viernes por la tarde y sabado por la mañana, en forma semanal en la FCE UNL \(Moreno 2557\- Santa Fe\), previendo el dictado de algunas clases por zoom\.
+> Para mas información podes acceder a: www\.fce\.unl\.edu\.ar/mba
+> Si estas interesado/a, se abrirá nueva inscripción en Noviembre de este año para el ciclo 2027, la cual verás publicada ingresando a: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Los valores de matricula se informan a partir de dicha fecha\.
+> Gracias por tu interes, quedamos a disposición\.
+> Saludos,
+> Secretaria de Posgrado
+> FCE\-UNL
+> E\.mail: posgrado@fce\.unl\.edu\.ar
+> Whatsapp \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->
