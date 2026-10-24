@@ -143,7 +143,7 @@ La facultad confirmó el horario de sábados de 9 a 13 para la consulta sobre el
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-15 por pipeline de scraping.
+**Última revisión humana**: 2026-10-24
 
 <!-- posgrado-crm:begin -->
 <!-- posgrado-crm:id carreras:1271 -->

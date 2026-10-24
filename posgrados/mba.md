@@ -190,7 +190,7 @@ La facultad confirmó noviembre de 2026 como mes previsto de apertura para el ci
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-19 por pipeline de scraping.
+**Última revisión humana**: 2026-10-24
 
 <!-- posgrado-crm:begin -->
 <!-- posgrado-crm:id carreras:1074 -->
