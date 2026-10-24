@@ -46,8 +46,8 @@
     {
       "kind": "carreras",
       "id": "carreras:1079",
-      "updatedAtMs": 1791932737000,
-      "contentHash": "7b48f59bb91021c45958d4167c33a1608fada50f0cec5a6be3f3ec5b7d86dce3"
+      "updatedAtMs": 1792703934000,
+      "contentHash": "abf236fb76a44a17fdf06a71d6db71b6eced831eb3b62a34df64e46535a0512b"
     },
     {
       "kind": "carreras",
@@ -280,8 +280,8 @@
     {
       "kind": "cursos",
       "id": "cursos:1422",
-      "updatedAtMs": 1790718250000,
-      "contentHash": "6b3e5e7bdf50467b0f9ab33aed5d6a967d94fbaffd31358aa0f51c3f5aba10e4"
+      "updatedAtMs": 1792810800000,
+      "contentHash": "8f7bb33fe2cfd3faab4ab5aa9fb551a806b6c7a8a2d9d285c09ea3ad157bcd34"
     },
     {
       "kind": "cursos",

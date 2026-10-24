@@ -171,6 +171,24 @@ test('known quarantine leaves its document alone while other records can update'
   assert.equal(snapshot.records.length, 3);
 });
 
+test('faculty clarification never accepts disappearance of persisted carreras:1079', async t => {
+  const root = await setup(t);
+  const data = feeds();
+  data.carreras.carreras.push(item('carreras', 1079, { inscripcion: {
+    estado: 'CERRADA', esta_abierta: false, fecha_limite: '2026-09-30',
+  } }));
+  data.carreras.cantidad_registros++;
+  assert.equal((await run(root, data, true)).status, 'updated');
+  const before = await readFile(join(root, CAREER), 'utf8');
+  const snapshot = await readFile(join(root, SNAPSHOT), 'utf8');
+  const result = await run(root, feeds(), true);
+  assert.equal(result.status, 'needs_review');
+  assert.deepEqual(result.updates, []);
+  assert.ok(result.anomalies.some(issue => issue.code === 'missing_record' && issue.id === 'carreras:1079'));
+  assert.equal(await readFile(join(root, CAREER), 'utf8'), before);
+  assert.equal(await readFile(join(root, SNAPSHOT), 'utf8'), snapshot);
+});
+
 test('staging failure cannot partially modify documents or snapshot', async t => {
   const root = await setup(t);
   const missing = 'tools/scraper/no-such-directory/state.json';

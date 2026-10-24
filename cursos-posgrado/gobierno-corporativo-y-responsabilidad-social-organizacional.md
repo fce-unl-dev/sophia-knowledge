@@ -352,10 +352,11 @@ accediendo a https://servicios.unl.edu.ar/firmadigital/
 ### Información oficial del CRM — GOBIERNO CORPORATIVO Y RESPONSABILIDAD SOCIAL ORGANIZACIONAL 2026
 
 - **ID de propuesta:** 1422
-- **Inscripción:** Abierta
+- **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-10-23
-- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1422
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+- **Última actualización de este registro (Argentina):** 2026-10-24 00:00:00
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
 **Respuesta frecuente oficial (dato del CRM):**
 

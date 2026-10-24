@@ -12,12 +12,12 @@ Curso de posgrado de la Facultad de Ciencias Económicas (FCE-UNL). Información
 
 ## Modalidad y duración
 
-- **Fecha de inicio publicada**: 23/09/2026
+- **Fechas vigentes**: consultar el bloque oficial del CRM al final de esta ficha. Las fechas del programa PDF son históricas y no prevalecen sobre el JSON.
 - **Modalidad y carga horaria**: ver detalle del programa más abajo (según la ficha oficial).
 
 ## Programa (según ficha oficial)
 
-> El siguiente contenido fue extraído del documento oficial del curso. Para el detalle formal, consultá la ficha publicada y la Secretaría de Posgrado.
+> El siguiente contenido fue extraído del documento oficial del curso. Sus fechas y cronogramas pueden estar desactualizados; se conservan como parte del programa académico, no como calendario vigente. Para el detalle formal, consultá la ficha publicada y la Secretaría de Posgrado.
 
 Curso de posgrado Análisis Espacial para la Innovación en el Desarrollo Sostenible 
  
@@ -156,13 +156,9 @@ Cronograma de dictado
 Clases virtuales: días miércoles, del 23/09 al 25/11 de 2026 
 Taller presencial: viernes 4/12/2026 (ciudad de Córdoba).
 
-## Aranceles e inscripción
+## Criterio de actualización
 
-- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado de inscripción (consulta del 2026-10-02)**: Cerrada en el CRM de Posgrado (`id_posgrado: 1426`; fecha límite informada: 2026-09-28).
-- **Sistema de preinscripción (inscripción cerrada)**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426
-- **Sistema de inscripción**: La preinscripción se realiza en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados) cuando está habilitada; este curso no tiene inscripción abierta según el CRM consultado.
-- **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (consulta del 2026-10-02; JSON generado a las 19:27:25, hora local del CRM; registro actualizado el 2026-09-29 a las 18:44:10).
+La facultad confirmó que el JSON del CRM, leído directamente de la base administrada por Posgrado, tiene prioridad para fechas de inicio y períodos de inscripción frente a programas PDF que no se actualizan con cada cambio. Consultar los datos del CRM al final de esta ficha; no reutilizar las fechas históricas del extracto académico.
 
 ## Contacto
 
@@ -172,6 +168,8 @@ Taller presencial: viernes 4/12/2026 (ciudad de Córdoba).
 
 ## Fuentes consultadas
 
+- Respuestas de la facultad a las consultas sobre posgrados, incorporadas el 23/10/2026: https://docs.google.com/document/d/1Ej4GRWCx5sAbfWIHOjGf5s4jwXT1a3AexFnPXqsbafU/edit
+
 - Catálogo oficial de cursos de posgrado: https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/
 - Ficha oficial del curso: https://www.fce.unl.edu.ar/media/cursos-posgrado/1426.pdf
 
@@ -179,3 +177,40 @@ Taller presencial: viernes 4/12/2026 (ciudad de Córdoba).
 
 **Última revisión automática**: 2026-08-28 (candidato generado por el scraper determinístico de cursos de posgrado)
 **Revisión humana**: pendiente
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id cursos:1426 -->
+### Información oficial del CRM — Análisis Espacial para la Innovación en el Desarrollo Sostenible 2026
+
+- **ID de propuesta:** 1426
+- **Inscripción:** Cerrada
+- **Fecha límite de inscripción:** 2026-09-28
+- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto\. El curso ANALISIS ESPACIAL PARA LA INNOVACION EN EL DESAROLLO SOSTENIBLE inicia el dia 30/9 \. El mismo forma parte del Plan de Estudio de la Maestria en Innovación y Desarrollo Sostenible\.
+> Cuerpo docente
+> Esp\. Agrim\. Mario Piumetto, CET, FCEFyN, UNC\.
+> Mg\. Maria Fernanda Andres \(UNL\)\.
+> Dr\. Gerardo Carpentieri, University of Naples Federico II, Italia\.
+>
+> Destinatarios
+> Profesionales de diversas disciplinas vinculadas con la gestión, la ciencia, la tecnología y las políticas públicas, que busquen adquirir herramientas avanzadas para diseñar e implementar
+> soluciones innovadoras orientadas a la sostenibilidad\.
+> Objetivo general
+> Introducir a los alumnos en el aprovechamiento de las tecnologías geoespaciales, en particular los SIG, los datos geográficos y su análisis, para impulsar una mayor innovación en la gestión y la toma de decisiones en las organizaciones\.
+>
+>  Cronograma de dictado
+> Clases virtuales: días miércoles a partir del 30/9 de 2026
+> Taller presencial en ciudad de Córdoba\.
+>  Se utiliza la plataforma de UNL para subir material, foros, actividades, exámenes\.
+> El costo del curso es ARS 600\.000 al contado o dos cuotas \(septiembre y octubre\)\. Una vez que complete la ficha de inscripción te enviarán desde tesoreria el link para efectuar el pago\.
+> Las inscripciones se realizan ingresando en https://www\.fce\.unl\.edu\.ar/posgrado/categorias/cursos\-de\-posgrado/
+> Quedamos a disposición ante cualquier consulta\.
+> Saludos
+> Secretaria de Posgrado
+> FCE UNL
+<!-- posgrado-crm:end -->

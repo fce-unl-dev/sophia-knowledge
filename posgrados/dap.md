@@ -67,7 +67,7 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ## Requisitos de admisión
 
-- **Título previo requerido**: Título universitario de grado, de carreras de no menos de cuatro años de duración, provenientes de Universidades argentinas o extranjeras legalmente reconocidas.
+- **Título previo requerido**: La facultad confirmó que se requiere maestría; quien no posea ese título puede ser evaluado para un ingreso condicionado. La admisión no es automática y corresponde al Comité Académico. La página de admisión contempla título universitario de grado de al menos cuatro años.
 - **Idiomas**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
 - **Otros antecedentes**: Currículum Vitae para evaluar sus antecedentes y condiciones; entrevista personal.
 - **Documentación a presentar**: Currículum Vitae
@@ -75,25 +75,11 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
     - Ingreso Directo: para quienes posean Maestría en Administración Pública o Políticas Públicas.
     - Ingreso condicionado: a la satisfacción de créditos adicionales.
 
-**Alcance de los requisitos publicados (verificado el 13/10/2026):** la página de admisión y el folleto oficial distinguen elegibilidad con título de grado de al menos cuatro años de ingreso directo con maestría en Administración Pública o Políticas Públicas. No presentar la maestría como requisito universal ni garantizar admisión: la decisión corresponde al Comité Académico. La FAQ del CRM para `id_posgrado: 1073` exige maestría; esa diferencia no está reconciliada para la próxima cohorte y debe confirmarse con la carrera antes de afirmar requisitos específicos de 2027.
+**Aclaración de la facultad (incorporada el 23/10/2026):** la maestría es el requisito previsto, pero puede admitirse ingreso condicionado sin ese título. No excluir automáticamente a quien no tenga maestría ni garantizar su admisión; consultar el caso con el Comité Académico. Esta confirmación reconcilia la FAQ del CRM con las situaciones de ingreso publicadas.
 
-## Aranceles e inscripción
+## Información complementaria
 
-- **Matrícula**: A confirmar para ciclo 2027
-- **Cuotas**: A confirmar para ciclo 2027
-- **Modalidad de pago**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
-- **Becas disponibles**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
-- **Estado actual de inscripción**: Cerrada — próxima cohorte en **Abril 2027**
-- **Link de pre-inscripción**: Sin datos confirmados en el material consultado — consultar con dap@fce.unl.edu.ar
-
-## Próxima cohorte
-
-- **Fecha de inicio**: **2027-04**
-- **Estado**: Por confirmar
-- **Fuente del dato**: https://www.fce.unl.edu.ar/dap/index.php?act=showNoticia&id=540 (Novedades - Inscripciones a la carrera)
-- **Última actualización del dato**: **2026-09-17**
-
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+El inicio previsto para la cohorte 2027 es abril, según el anuncio académico citado en las fuentes. Los detalles de pago y becas no están confirmados en el material consultado: consultar con dap@fce.unl.edu.ar. La duración académica publicada se conserva; estas respuestas de la facultad no resuelven diferencias de duración con la FAQ.
 
 ## Contacto
 
@@ -121,6 +107,8 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 
 ## Fuentes consultadas
 
+- Respuestas de la facultad a las consultas sobre posgrados, incorporadas el 23/10/2026: https://docs.google.com/document/d/1Ej4GRWCx5sAbfWIHOjGf5s4jwXT1a3AexFnPXqsbafU/edit
+
 - https://fce.unl.edu.ar/dap/ (Información de interés general)
 - https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=173 (Presentación de la carrera, Acreditación CONEAU, Carreras compartidas)
 - https://www.fce.unl.edu.ar/dap/index.php?act=showSubcategoria&id=134 (Sede Administrativa, Lugar)
@@ -142,3 +130,15 @@ Comprende tanto profesores estables como invitados, contemplando una importante 
 ---
 
 **Última revisión humana**: 2026-10-14
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1073 -->
+### Información oficial del CRM — Doctorado en Administración Pública
+
+- **ID de propuesta:** 1073
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-10-13 20:13:57
+
+Las aclaraciones académicas y de admisión se mantienen en la ficha curada, según la confirmación de la facultad. La respuesta libre del CRM no se reproduce porque omite esas salvedades.
+<!-- posgrado-crm:end -->
