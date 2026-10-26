@@ -2,14 +2,14 @@
   "slug": "gto",
   "url": "https://www.fce.unl.edu.ar/gto/",
   "strategy": "fce-microsite",
-  "content_hash": "93a6a81ff0f8ccf623b01537c34ceb42b9f25e218b593fbc917da8fbb497057f",
-  "previous_hash": "5ce1fa1bbe288919d10e54bc80b8c8c5ef48f629494bcebf671916e2157cf119",
+  "content_hash": "6e23c708d181c4249ad1986d84f0d1bc62fc78fa04307367f153b1bcc3d63766",
+  "previous_hash": "93a6a81ff0f8ccf623b01537c34ceb42b9f25e218b593fbc917da8fbb497057f",
   "pages_count": 12,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/gto/",
-      "title": "INFORMACIÓN DE INTERÉS",
-      "length": 26
+      "title": "Desarrollá las habilidades clave para destacar en el mundo laboral",
+      "length": 251
     },
     {
       "url": "https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=212",
@@ -67,6 +67,6 @@
       "length": 454
     }
   ],
-  "scraped_at": "2026-09-10T10:23:48.702Z",
-  "last_checked_at": "2026-09-10T10:23:48.702Z"
+  "scraped_at": "2026-10-26T11:57:48.022Z",
+  "last_checked_at": "2026-10-26T11:57:48.022Z"
 }

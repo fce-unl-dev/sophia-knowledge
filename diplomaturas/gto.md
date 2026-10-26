@@ -77,6 +77,8 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 - **Fuente del dato**: https://www.fce.unl.edu.ar/gto/index.php?act=showCategoria&id=182
 - **Última actualización del dato**: 2026-09-10
 
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+
 ## Contacto
 
 - **Director/a académico/a**: Sin datos confirmados en el material consultado
@@ -89,14 +91,15 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 ## Información adicional relevante
 
 - **Marco normativo**: Aprobada por Resolución de Consejo Directivo FCE N° 891/22.
-- **Origen de la propuesta**: La Diplomatura surge como respuesta emergente a un perfil laboral solicitado por empresarios locales y de la región, que requiere un "auxiliar" del área administrativa con manejo de herramientas digitales (planillas de datos, conocimiento de leyes y cuestiones impositivas, liquidaciones, ajustes por inflación, carga de facturas y facturación, gestión de documentación, conciliaciones bancarias, homebanking, y manejo de Excel, Tango, SIAp, entre otros sistemas), además de tareas administrativas, atención al cliente, comunicación interna y asistencia a distintas áreas.
+- **Origen de la propuesta**: La Diplomatura surge como respuesta emergente a un perfil laboral solicitado por empresarios locales y de la región, que requiere un "auxiliar" del área administrativa con manejo de herramientas digitales (planillas de datos, conocimiento de leyes y cuestiones impositivas, liquidaciones, ajustes por inflación, carga de facturas y facturación, gestión de documentación, conciliaciones bancarias, homebanking, y manejo de Excel, Tango, SIAp, entre otros sistemas), además de tareas administrativas, atención al cliente, comunicación interna y asistencia a distintas áreas. Los actores consultados en el relevamiento también refirieron a la predisposición, capacidad para la multitarea, proactividad, flexibilidad, trabajo en equipo, iniciativa, puntualidad y responsabilidad como aptitudes o competencias clave.
 - **Modalidad de cursada flexible**: El dictado es mediante Presencialidad Mixta, según RES. CIN 1716/22, promoviendo una integración presencial/virtual con el uso de plataformas tipo ZOOM para actividades sincrónicas a distancia.
 - **Dossier Informativo**: Existe un [Dossier Informativo Completo](https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Diplomatura-Gesti%C3%B3n-de-las-Organizaciones-2026.pdf) descargable desde la web oficial con toda la información detallada.
 
 ## Fuentes consultadas
 
 - https://www.fce.unl.edu.ar/gto/ (Información general del programa)
-- https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=212 (Presentación de la carrera y justificación)
+- https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=212 (Presentación de la carrera, justificación, Resolución CD 891/22)
+- https://www.fce.unl.edu.ar/wp-content/uploads/2017/10/Res_891_-_Aprueba_creaci_n_de_Diplomatura_GESTI_N_PARA_EL_TRABAJO_EN_ORGANIZACIONES.pdf (Resolución CD 891/22)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=217 (Objetivos)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=220 (Requisitos de ingreso)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=215 (Duración)
@@ -112,4 +115,4 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 
 ---
 
-**Última revisión humana**: 2026-09-10
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-26 por pipeline de scraping.
