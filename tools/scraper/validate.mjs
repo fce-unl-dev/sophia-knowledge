@@ -305,7 +305,7 @@ async function main() {
   });
 
   if (values.help || !values.file) {
-    console.log(`Sophia KB validator
+    console.log(`Luca KB validator
 
 Uso:
   node validate.mjs --file=state/mba.candidate.md [--current=../posgrados/mba.md] [--skip-network]

@@ -432,7 +432,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia sections proposal generator
+    console.log(`Luca sections proposal generator
 
 Uso:
   node propose_sections_update.mjs [--kb-root=../..] [--section=academica] [--force] [--dry-run] [--pr-body=/tmp/pr.md] [--threshold=200] [--model=gemini-2.5-pro]

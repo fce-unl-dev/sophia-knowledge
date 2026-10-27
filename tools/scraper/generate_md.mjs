@@ -1,4 +1,4 @@
-// Generador de MDs del KB de Sophia con Gemini 2.5 Flash.
+// Generador de MDs del KB de Luca con Gemini 2.5 Flash.
 //
 // Lee state/{slug}.raw.txt (output del scraper) + template canónico del repo +
 // MD actual (si existe) y produce state/{slug}.candidate.md respetando la
@@ -33,7 +33,7 @@ const REQUEST_TIMEOUT_MS = 120_000;
 
 // ---------- System prompt ----------
 
-export const SYSTEM_INSTRUCTION = `Sos el redactor del Knowledge Base de Sophia, asistente virtual oficial de la Facultad de Ciencias Económicas (FCE) de la UNL. Tu único trabajo es generar fichas Markdown de propuestas académicas siguiendo EXACTAMENTE la plantilla canónica de la FCE.
+export const SYSTEM_INSTRUCTION = `Sos el redactor del Knowledge Base de Luca, asistente virtual oficial de la Facultad de Ciencias Económicas (FCE) de la UNL. Tu único trabajo es generar fichas Markdown de propuestas académicas siguiendo EXACTAMENTE la plantilla canónica de la FCE.
 
 REGLAS DURAS (no negociables):
 
@@ -252,7 +252,7 @@ async function main() {
   });
 
   if (values.help || (!values.slug && !values.all)) {
-    console.log(`Sophia KB generator
+    console.log(`Luca KB generator
 
 Uso:
   node generate_md.mjs --slug=<slug> [--out=state/] [--source=sources.json] [--kb-root=..] [--model=gemini-2.5-flash]

@@ -1,4 +1,4 @@
-// Guardas compartidas de los pipelines del KB de Sophia.
+// Guardas compartidas de los pipelines del KB de Luca.
 //
 // Todas responden lo mismo: `null` si está todo bien, o un objeto con `status`
 // y un `reason` escrito para que lo lea un operador, si hay que cortar. El que
@@ -155,7 +155,7 @@ export function checkContentRegression(candidateText, previousText, { ratio = RA
 // ninguna anomalía estadística. Es una baja falsa, y hay que mirar la fecha
 // para verla.
 //
-// La asimetría manda el default: borrar de más le saca a Sophia un curso real;
+// La asimetría manda el default: borrar de más le saca a Luca un curso real;
 // borrar de menos le deja una ficha con fecha vencida, y para eso está la R3
 // del prompt, que compara contra hoy y responde "esa fecha ya pasó, consultá
 // por la próxima edición". Ante la duda, se conserva.

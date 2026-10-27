@@ -174,7 +174,7 @@ jobs:
           if [ -z "$triggered_by" ]; then triggered_by="cron automático"; fi
 
           cat > /tmp/pr_body.md <<EOF
-          Pipeline automático de sync del KB de Sophia.
+          Pipeline automático de sync del KB de Luca.
 
           **Disparado por**: $triggered_by
           **Fuente**: \`$slug\`

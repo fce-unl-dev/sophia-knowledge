@@ -430,7 +430,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia courses proposal generator\n\nUso:\n  node propose_courses_update.mjs [--kb-root=../..] [--force] [--dry-run] [--pr-body=/tmp/pr.md] [--model=gemini-2.5-pro]\n`);
+    console.log(`Luca courses proposal generator\n\nUso:\n  node propose_courses_update.mjs [--kb-root=../..] [--force] [--dry-run] [--pr-body=/tmp/pr.md] [--model=gemini-2.5-pro]\n`);
     process.exit(0);
   }
 

@@ -581,7 +581,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia deterministic courses scraper\n\nUso:\n  node scrape_courses.mjs [--write-candidates]\n\nOpciones:\n  --url=<url>              URL del listado oficial\n  --out=<dir>              Directorio de salida dentro de tools/scraper\n  --kb-root=<dir>          Raíz del repo para leer indice.json\n  --write-candidates       Escribe candidates/*.candidate.md\n  --no-write               Solo imprime report JSON\n`);
+    console.log(`Luca deterministic courses scraper\n\nUso:\n  node scrape_courses.mjs [--write-candidates]\n\nOpciones:\n  --url=<url>              URL del listado oficial\n  --out=<dir>              Directorio de salida dentro de tools/scraper\n  --kb-root=<dir>          Raíz del repo para leer indice.json\n  --write-candidates       Escribe candidates/*.candidate.md\n  --no-write               Solo imprime report JSON\n`);
     process.exit(0);
   }
 

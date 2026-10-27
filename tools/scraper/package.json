@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Pipeline de scraping del KB de Sophia (FCE-UNL). Corre desde GitHub Actions o local.",
+  "description": "Pipeline de scraping del KB de Luca (FCE-UNL). Corre desde GitHub Actions o local.",
   "engines": {
     "node": ">=22"
   },

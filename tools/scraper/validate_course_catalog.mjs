@@ -129,7 +129,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia course catalog validator\n\nUso:\n  node validate_course_catalog.mjs --catalog=<catalog.json>\n  node validate_course_catalog.mjs --run-scraper\n`);
+    console.log(`Luca course catalog validator\n\nUso:\n  node validate_course_catalog.mjs --catalog=<catalog.json>\n  node validate_course_catalog.mjs --run-scraper\n`);
     process.exit(0);
   }
 

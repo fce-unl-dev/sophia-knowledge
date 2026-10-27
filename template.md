@@ -56,7 +56,7 @@
 
 ## Aranceles e inscripción
 
-- **Matrícula**: {Monto exacto en pesos. Ej: **$ 15.000**. Si no está definido o es del año pasado, escribir: **A confirmar para ciclo 2026/2027** para evitar que Sophia informe precios desactualizados como vigentes}
+- **Matrícula**: {Monto exacto en pesos. Ej: **$ 15.000**. Si no está definido o es del año pasado, escribir: **A confirmar para ciclo 2026/2027** para evitar que Luca informe precios desactualizados como vigentes}
 - **Cuotas**: {Cantidad y monto. Ej: **10 cuotas de $ 20.000** (valor a mayo 2026) o **A consultar**}
 - **Modalidad de pago**: {Sistema Mercurio UNL, transferencia bancaria, etc.}
 - **Becas disponibles**: {Descuentos para graduados, docentes, convenios, etc., con su respectivo enlace si lo hubiera}
@@ -65,12 +65,12 @@
 
 ## Próxima cohorte
 
-- **Fecha de inicio**: {Formato AAAA-MM-DD o AAAA-MM. Ej: **2026-08-15** o **2026-08**. Si no hay fecha firme, escribir **A confirmar**. Importante: Si la fecha que ponés aquí ya pasó en el calendario real, Sophia le dirá al usuario que la cohorte ya comenzó o finalizó}
+- **Fecha de inicio**: {Formato AAAA-MM-DD o AAAA-MM. Ej: **2026-08-15** o **2026-08**. Si no hay fecha firme, escribir **A confirmar**. Importante: Si la fecha que ponés aquí ya pasó en el calendario real, Luca le dirá al usuario que la cohorte ya comenzó o finalizó}
 - **Estado**: {Abierta | Cerrada | Por confirmar}
 - **Fuente del dato**: {URL de la web de la FCE o número de resolución que aprueba esta cohorte}
 - **Última actualización del dato**: {AAAA-MM-DD de la última verificación humana. Ej: **2026-05-22**}
 
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 

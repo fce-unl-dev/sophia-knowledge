@@ -131,7 +131,7 @@ describe('buildSectionCandidateMarkdown', () => {
     assert.match(md, /^# Calendario/);
     assert.match(md, /## Para qué sirve/);
     assert.match(md, /## Información publicada/);
-    assert.match(md, /## Advertencias para Sophia/);
+    assert.match(md, /## Advertencias para Luca/);
     assert.match(md, /## Fuentes consultadas/);
     assert.match(md, /\*\*Revisión humana\*\*: pendiente/);
     assert.match(md, /2026-05-29/);
