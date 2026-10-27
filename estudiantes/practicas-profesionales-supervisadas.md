@@ -36,7 +36,7 @@
   - Pedidos Vencidos: https://www.fce.unl.edu.ar/estudiantes/pps-pedidos-vencidos/
   - Listado de Preseleccionados: https://www.fce.unl.edu.ar/estudiantes/pps-listados-de-preseleccionados/
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de iframe, Google Sheets, sistemas externos ni datos nominales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.

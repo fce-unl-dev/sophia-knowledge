@@ -4,13 +4,13 @@ Fecha: 2026-05-19
 
 ## Objetivo
 
-Definir cómo puede operar la automatización de actualización del KB de Sophia sin romper el principio rector del proyecto:
+Definir cómo puede operar la automatización de actualización del KB de Luca sin romper el principio rector del proyecto:
 
 > Automatizar detección y propuesta vía PR, no merge automático ni actualización directa a producción.
 
 ## Fuente vigente
 
-- La fuente publicada que consume Sophia es `indice.json` + los Markdown listados allí.
+- La fuente publicada que consume Luca es `indice.json` + los Markdown listados allí.
 - Las fuentes externas (web FCE, Google Sheets, Drive u otras) son **fuentes primarias para detectar cambios**, no reemplazan al KB publicado.
 - Las herramientas en `/tools/scraper/` son automatización de apoyo y no deben considerarse fuente vigente por sí mismas.
 
@@ -109,7 +109,7 @@ Reglas:
 1. Crear 1 MD por página/subpágina relevante.
 2. Para planillas Google Sheets, crear snapshots Markdown estructurados.
 3. Incluir fuente primaria, fecha de lectura y, si está disponible, última modificación detectada.
-4. No dejar solo el link si Sophia debe responder sobre el contenido de la planilla.
+4. No dejar solo el link si Luca debe responder sobre el contenido de la planilla.
 5. Separar snapshots por año académico cuando corresponda.
 
 ## Uso del workflow `Sync KB`

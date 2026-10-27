@@ -662,12 +662,12 @@
   - Exámenes: https://www.fce.unl.edu.ar/estudiantes/?post_type=post&p=44
   - Exámenes Finales: https://www.fce.unl.edu.ar/estudiantes/?post_type=post&p=46
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Requiere revisión humana: iframe detectado.
 - Requiere revisión humana: links a Google Sheets detectados.
 - No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.
-- Sophia debe responder basándose en las tablas del "Snapshot Oficial" provistas en este documento. Si la materia o fecha buscada no figura en el snapshot, debe indicar al alumno que consulte la planilla oficial enlazada o sistema respectivo.
+- Luca debe responder basándose en las tablas del "Snapshot Oficial" provistas en este documento. Si la materia o fecha buscada no figura en el snapshot, debe indicar al alumno que consulte la planilla oficial enlazada o sistema respectivo.
 
 ## Fuentes consultadas
 

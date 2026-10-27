@@ -77,7 +77,7 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 - **Fuente del dato**: https://www.fce.unl.edu.ar/gto/index.php?act=showCategoria&id=182
 - **Última actualización del dato**: 2026-09-10
 
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 

@@ -25,7 +25,7 @@
 
 ## Enlaces relacionados (no ingeridos)
 
-Sophia debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
+Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
   - https://www.fce.unl.edu.ar/institucional/wp-content/uploads/sites/5/2018/09/Informe-sobre-los-resultados-del-SGC-final.pdf
@@ -198,7 +198,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - Concursos No Docentes: https://www.fce.unl.edu.ar/institucional/concursos-no-docentes/concursos-no-docentes/
   - FCE en números: https://www.fce.unl.edu.ar/institucional/numeros/fce-en-numeros/
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

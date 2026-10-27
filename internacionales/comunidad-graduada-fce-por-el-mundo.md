@@ -25,7 +25,7 @@
 - Fortalecer la red internacional de graduados: Establecer una comunidad sólida de graduados que promueva la colaboración, el intercambio cultural y profesional, y el desarrollo de oportunidades mutuas.
 - Articular oportunidades laborales en clave de internacionalización: Utilizar esta red para facilitar la inserción de los recién graduados en el mercado laboral internacional a través de mentorías, pasantías y oportunidades de empleo.
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

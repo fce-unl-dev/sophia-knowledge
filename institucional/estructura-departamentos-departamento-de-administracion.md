@@ -17,7 +17,7 @@
 - El Departamento de Administración y Humanidades está compuesto por las siguientes cátedras: Administración de Operaciones, Administración de Recursos Humanos, Administración I, Administración II, Administración III, Administración IV, Administración Pública, Comercialización, Contabilidad para Administradores, Costos y Gestión, Dirección Estratégica, Finanzas y Mercados de Capitales, Gestión de la Innovación, Gestión de Sistemas Administrativos, Gestión y Políticas Públicas, Informática, Inglés para las Ciencias Económicas, Inteligencia de Mercado, Introducción a las Ciencias Sociales, Metodología de la investigación, Negocios internacionales, Planeamiento y Control, Psicología Organizacional y del Trabajo, Seminario de Práctica Profesional – Plan de Negocio, Sistemas de Información Gerencial y Sociología de las Organizaciones.
 - Director: Walter Ariel Lugo
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

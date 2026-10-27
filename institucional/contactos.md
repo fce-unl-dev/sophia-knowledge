@@ -15,7 +15,7 @@
 - **Secretaría Académica**: academica@fce.unl.edu.ar
 - **Relaciones Internacionales**: internacional@fce.unl.edu.ar
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - El número **+54 9 342 449 1939** es WhatsApp de Posgrado. El número **(0342) 4571179 / 3425818810**
   es teléfono de LÍNEA (Bedelía/Tesorería): NO lo presentes como WhatsApp ni sugieras enviar

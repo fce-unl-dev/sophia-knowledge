@@ -25,7 +25,7 @@
 - – Res. C.S. Nº 503 del 25-10-18 Expte. Nº FCE-0941908-18 Aprueba Correlatividades Contador Publico
 - Programas de asignaturas del plan 2019
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

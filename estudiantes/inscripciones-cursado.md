@@ -979,12 +979,12 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
   - https://docs.google.com/forms/d/e/1FAIpQLSdPcF2nbAm3T-aHBIwD2m-ZoeGQsRODiBSu3Dd2VYY-ZUzt0A/viewform?usp=publish-editor: https://docs.google.com/forms/d/e/1FAIpQLSdPcF2nbAm3T-aHBIwD2m-ZoeGQsRODiBSu3Dd2VYY-ZUzt0A/viewform?usp=publish-editor
   - VER INFORMACIÓN DE AÑOS ANTERIORES: https://www.fce.unl.edu.ar/estudiantes/info-sobre-inscripciones-a-cursado-anos-anteriores/
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Requiere revisión humana: links a Google Sheets detectados.
 - Requiere revisión humana: posibles datos personales/listados nominales.
 - No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.
-- Sophia debe responder basándose en las tablas del "Snapshot Oficial" provistas en este documento. Si la materia o fecha buscada no figura en el snapshot, debe indicar al alumno que consulte la planilla oficial enlazada o sistema respectivo.
+- Luca debe responder basándose en las tablas del "Snapshot Oficial" provistas en este documento. Si la materia o fecha buscada no figura en el snapshot, debe indicar al alumno que consulte la planilla oficial enlazada o sistema respectivo.
 
 ## Fuentes consultadas
 

@@ -1,6 +1,6 @@
 # Guía de Operación y Redacción para Editores de la FCE-UNL
 
-Esta guía fue diseñada especialmente para coordinadores, administrativos y directores de áreas de la Facultad de Ciencias Económicas que tienen la responsabilidad de mantener actualizada la información de **Sophia** (asistente virtual).
+Esta guía fue diseñada especialmente para coordinadores, administrativos y directores de áreas de la Facultad de Ciencias Económicas que tienen la responsabilidad de mantener actualizada la información de **Luca** (asistente virtual).
 
 Aquí aprenderás a editar los archivos de contenido sin necesidad de tener conocimientos previos de programación, entendiendo la tecnología a través de analogías sencillas de la administración pública y universitaria.
 
@@ -12,15 +12,15 @@ Para colaborar con el equipo técnico de desarrollo, a veces escucharás términ
 
 | Término Técnico | Equivalente Administrativo | ¿Qué significa en la práctica? |
 |---|---|---|
-| **Repositorio (Repo)** | **Mesa de Entradas Digital / Archivo General** | Es la carpeta centralizada en la nube donde se guardan de manera ordenada todos los archivos de texto que consume Sophia. |
+| **Repositorio (Repo)** | **Mesa de Entradas Digital / Archivo General** | Es la carpeta centralizada en la nube donde se guardan de manera ordenada todos los archivos de texto que consume Luca. |
 | **Commit** | **Firmar y Guardar en Borrador** | Es la acción de guardar tus modificaciones en un archivo. Cada commit genera un registro permanente de quién hizo el cambio y a qué hora. |
-| **Rama (Branch)** | **Copia de Expediente para Trabajo** | Es una sección separada del archivo para que hagas tus cambios sin modificar el original que está leyendo Sophia en producción. |
+| **Rama (Branch)** | **Copia de Expediente para Trabajo** | Es una sección separada del archivo para que hagas tus cambios sin modificar el original que está leyendo Luca en producción. |
 | **Pull Request (PR)** | **Nota de Elevación / Proyecto de Resolución** | Es una solicitud formal donde le dices al administrador del sistema: *"Hice estos cambios en mi copia de expediente, por favor revísenlos y autoricen su incorporación al archivo definitivo"*. |
 | **Merge** | **Firma del Decano / Homologación** | Es el acto de aprobar y fusionar tu propuesta de cambio dentro del archivo definitivo (`main`). Una vez que se hace el merge, el cambio pasa a estar vigente. |
-| **Deploy** | **Publicación en el Boletín Oficial** | Es el proceso automático que toma los archivos del repositorio oficial y los pone a disposición de Sophia en la web y en WhatsApp. |
+| **Deploy** | **Publicación en el Boletín Oficial** | Es el proceso automático que toma los archivos del repositorio oficial y los pone a disposición de Luca en la web y en WhatsApp. |
 | **Markdown (.md)** | **Texto con Formato Simple** | Es el formato de los archivos del repositorio. Permite escribir textos comunes pero agregando marcas simples (como asteriscos para las negritas o guiones para listas) para que se vean bien en el chat. |
-| **JSON (como `indice.json`)** | **Índice Temático o Catálogo** | Un tipo de archivo especial que funciona como el índice de un libro. Le indica a Sophia exactamente qué archivos del repositorio debe leer y cuáles ignorar. |
-| **RAG (Recuperación Vectorial)** | **Buscar en la biblioteca por palabras clave** | Una tecnología antigua donde el robot buscaba pedacitos de textos en una base de datos gigante. En su lugar, ahora usamos **Inyección en Contexto**, que equivale a **entregarle a Sophia la carpeta con todos los textos oficiales organizados en la mano** cada vez que empieza a hablar, evitando que delire o invente información. |
+| **JSON (como `indice.json`)** | **Índice Temático o Catálogo** | Un tipo de archivo especial que funciona como el índice de un libro. Le indica a Luca exactamente qué archivos del repositorio debe leer y cuáles ignorar. |
+| **RAG (Recuperación Vectorial)** | **Buscar en la biblioteca por palabras clave** | Una tecnología antigua donde el robot buscaba pedacitos de textos en una base de datos gigante. En su lugar, ahora usamos **Inyección en Contexto**, que equivale a **entregarle a Luca la carpeta con todos los textos oficiales organizados en la mano** cada vez que empieza a hablar, evitando que delire o invente información. |
 
 ---
 
@@ -49,13 +49,13 @@ El mantenimiento de la información se hace a través de la plataforma GitHub. P
 
 ### Paso 4: Elevar para revisión técnica
 1. En la pantalla que aparece, haz clic en el botón verde **"Create pull request"** (Crear solicitud de revisión).
-2. Esto notificará a los administradores técnicos de la facultad para que verifiquen la estructura. Una vez aprobado, ellos realizarán el **Merge** y la información impactará en Sophia de forma automática.
+2. Esto notificará a los administradores técnicos de la facultad para que verifiquen la estructura. Una vez aprobado, ellos realizarán el **Merge** y la información impactará en Luca de forma automática.
 
 ---
 
 ## ✍️ Reglas de Redacción de Contenidos
 
-Para asegurar que Sophia interprete correctamente la información y no confunda a los alumnos, debés seguir estas pautas al escribir:
+Para asegurar que Luca interprete correctamente la información y no confunda a los alumnos, debés seguir estas pautas al escribir:
 
 ### 1. Respetar la plantilla oficial (`template.md`)
 Cada carrera o programa debe seguir la misma estructura. Si das de alta un programa nuevo, copia el contenido de [template.md](template.md) y rellena los campos correspondientes. Esto ayuda a que el robot localice de manera predecible datos clave como contactos, aranceles o directores.
@@ -69,13 +69,13 @@ En WhatsApp, el formato complejo se rompe. Sigue estas reglas de estilo:
   > **No uses títulos Markdown con `#`**: Los títulos como `# Título` o `## Subtítulo` se ven con los numerales literalmente en la pantalla de WhatsApp. En su lugar, escribe una línea corta en negrita y pon un espacio abajo (ej. `**Requisitos de ingreso:**`).
 
 ### 3. Cuidado extremo con las fechas (Razonamiento Temporal)
-Sophia calcula qué día es hoy antes de responder. Si un texto dice *"Las inscripciones abren el 5 de marzo"* y hoy es 10 de marzo, Sophia sabrá que esa fecha ya pasó y le dirá al usuario que las inscripciones cerraron.
+Luca calcula qué día es hoy antes de responder. Si un texto dice *"Las inscripciones abren el 5 de marzo"* y hoy es 10 de marzo, Luca sabrá que esa fecha ya pasó y le dirá al usuario que las inscripciones cerraron.
 - **Sé explícito con el año**: Escribe siempre el año completo (ej. `15 de diciembre de 2026`). Si ponés solo "diciembre", el robot podría asumir que es del año en curso o del próximo de forma ambigua.
 - **Marca de "Ya pasó" o "A confirmar"**: Si una fecha es del año pasado y aún no se definió la nueva, indícalo expresamente: `Próxima fecha: a confirmar por secretaría para el ciclo 2026/2027`.
 
 ### 4. Evitar duplicar información (Un único archivo por curso)
 - Para los cursos de formación profesional, se debe tener **exactamente un archivo Markdown por curso** en la carpeta `/cursos/`.
-- No crees un archivo general que diga *"Cursos del mes"* porque duplicará las fechas y costos que ya están en los archivos individuales. Si cambias un costo en un lado y te olvidas del otro, Sophia dará respuestas contradictorias.
+- No crees un archivo general que diga *"Cursos del mes"* porque duplicará las fechas y costos que ya están en los archivos individuales. Si cambias un costo en un lado y te olvidas del otro, Luca dará respuestas contradictorias.
 
 ### 5. Declarar fuentes al final de cada documento
 Cada archivo de contenido debe cerrar con una sección de respaldo documental estructurada así:

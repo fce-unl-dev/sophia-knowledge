@@ -157,7 +157,7 @@
 - Acta 09/11/2017 | Anexo
 - Acta 12/10/2017 | Anexo
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

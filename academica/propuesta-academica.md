@@ -45,7 +45,7 @@
 - Maestría en Desarrollo y Políticas Públicas (Propuesta académica impulsada por la Facultad de Ciencias Jurídicas y Sociales, de Humanidades y Ciencias y de Ciencias Económicas de la Universidad Nacional del Litoral)
 - Especialización en Gestión y Vinculación Tecnológica (Carrera compartida con diez Unidades Académicas de la UNL, con sede administrativa en la Facultad de Bioquímica y Ciencias Biológicas de la UNL)
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

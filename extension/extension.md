@@ -25,7 +25,7 @@
 
 ## Enlaces relacionados (no ingeridos)
 
-Sophia debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
+Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
   - https://www.fce.unl.edu.ar/extension/categorias/actividades/wp-content/uploads/sites/8/2019/12/UNL_Res.-C.S.-N%C2%BA-16-del-28-03-19-Reglamento-SIPPE.pdf
@@ -33,7 +33,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
 - **Subpáginas que no se pudieron descargar** durante la revisión automática:
   - https://www.fce.unl.edu.ar/extension/categorias/cursos-de-formacion (HTTP 404 on https://www.fce.unl.edu.ar/extension/categorias/cursos-de-formacion)
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

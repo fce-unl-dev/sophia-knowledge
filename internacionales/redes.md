@@ -28,7 +28,7 @@
 - El Presidente actual es el PhD. Ki-Chan Kim, quien también fuera Presidente de la Asia Council for Small Business (ACSB), Profesor del Departamento de Administración y Negocios y Vice Rector de la Universidad Católica de Corea.
 - El último encuentro anual del ICSB se realizó en Dubai. En este evento participaron por parte de la Facultad de Ciencias Económicas la Pro. María Fernanda Andrés junto con el Prof. Rubén Ascúa (ex Presidente de la ICSB). Nuestra Universidad es co-organizadora de la realización de esta Conferencia en el año 2017.
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

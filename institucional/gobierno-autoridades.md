@@ -24,7 +24,7 @@
 - **Secretaría de Planeamiento y Coordinación**: Esp. Emir Espinoza — planeamiento@fce.unl.edu.ar (interno 153)
 - **Coordinación de Relaciones Internacionales**: Mg. Soledad Lopez Cuesta — internacional@fce.unl.edu.ar
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - El Mg. Darío Mejías es **Vicedecano y, a la vez, Secretario de Investigación y Vinculación
   Tecnológica**. Si preguntan por cualquiera de los dos cargos, la respuesta es Mejías.

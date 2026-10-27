@@ -111,7 +111,7 @@ Trabajo Final Integrador de carácter individual sobre una temática en particul
 - **Fuente del dato**: https://www.fce.unl.edu.ar/ecyap/index.php?act=showNoticia&id=780
 - **Última actualización del dato**: 2026-09-03
 
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 

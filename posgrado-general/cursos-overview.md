@@ -64,7 +64,7 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **Fuente del dato**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Última actualización del dato**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 

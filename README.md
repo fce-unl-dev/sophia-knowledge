@@ -1,24 +1,26 @@
-# Sophia — Base de Conocimiento (FCE-UNL)
+# Luca — Base de Conocimiento (FCE-UNL)
 
-Este repositorio contiene la **base de conocimiento oficial** de **Sophia**, la asistente virtual de la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral (FCE-UNL).
+Este repositorio contiene la **base de conocimiento oficial** de **Luca**, el asistente virtual de la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral (FCE-UNL).
 
-Aquí reside la **única fuente de verdad** que Sophia consulta en tiempo real para responder a los usuarios por chat web y WhatsApp. Cada archivo aquí guardado ha sido redactado, verificado y aprobado por personas de la institución.
+El nombre técnico del repositorio sigue siendo `sophia-knowledge`; el cambio de marca no modifica sus URLs ni contratos de integración.
+
+Aquí reside la **única fuente de verdad** que Luca consulta en tiempo real para responder a los usuarios por chat web y WhatsApp. Cada archivo aquí guardado ha sido redactado, verificado y aprobado por personas de la institución.
 
 ---
 
 ## 📖 Sección 1: Para Editores y Personal de la Facultad (No Técnicos)
 
-Si sos coordinador, administrativo o responsable de un área en la FCE y necesitás actualizar la información que Sophia utiliza para responder (por ejemplo, corregir la fecha de un trámite, agregar un nuevo curso o cambiar un número de contacto), esta sección es para vos.
+Si sos coordinador, administrativo o responsable de un área en la FCE y necesitás actualizar la información que Luca utiliza para responder (por ejemplo, corregir la fecha de un trámite, agregar un nuevo curso o cambiar un número de contacto), esta sección es para vos.
 
 ### ¿Cómo funciona la base de conocimiento?
-A diferencia de otros sistemas que leen directamente la web (lo que a veces genera que Sophia responda con información vieja o confusa de años anteriores), Sophia lee **exclusivamente** los archivos de este repositorio. Si la información no está escrita aquí de forma clara, Sophia dirá honestamente que no la sabe y derivará la consulta a un operador humano.
+A diferencia de otros sistemas que leen directamente la web (lo que a veces genera que Luca responda con información vieja o confusa de años anteriores), Luca lee **exclusivamente** los archivos de este repositorio. Si la información no está escrita aquí de forma clara, Luca dirá honestamente que no la sabe y derivará la consulta a un operador humano.
 
 ### ¿Cómo actualizar la información?
 El proceso de actualización sigue un flujo de control de calidad institucional simple:
-1. **Propuesta de Cambio**: Creás una propuesta con el cambio (por ejemplo, editando un archivo de texto directamente en la web de GitHub o solicitando la modificación desde el panel administrativo de Sophia).
-2. **Revisión**: El equipo técnico o el administrador del sistema revisa que el archivo esté bien formateado y que no rompa las reglas de Sophia.
+1. **Propuesta de Cambio**: Creás una propuesta con el cambio (por ejemplo, editando un archivo de texto directamente en la web de GitHub o solicitando la modificación desde el panel administrativo de Luca).
+2. **Revisión**: El equipo técnico o el administrador del sistema revisa que el archivo esté bien formateado y que no rompa las reglas de Luca.
 3. **Aprobación y Publicación**: Se aprueba la propuesta y los cambios se guardan en el sistema.
-4. **Publicación en Producción**: Sophia descarga la información actualizada y comienza a usarla para responder en su próximo ciclo de actualización automática (o inmediatamente si se fuerza la actualización desde el panel).
+4. **Publicación en Producción**: Luca descarga la información actualizada y comienza a usarla para responder en su próximo ciclo de actualización automática (o inmediatamente si se fuerza la actualización desde el panel).
 
 ### Guía Completa de Edición
 Para ver el paso a paso detallado, cómo dar de alta nuevos cursos, cómo usar plantillas y explicaciones sencillas de todos los términos, consulta la:
@@ -41,7 +43,7 @@ El agente de producción (arquitectura consolidada: KB completa inyectada en el 
 
 ```
 ├── README.md               # Este archivo de bienvenida y referencia rápida.
-├── indice.json             # Manifiesto/Índice dinámico de archivos consumidos por Sophia.
+├── indice.json             # Manifiesto/Índice dinámico de archivos consumidos por Luca.
 ├── routing_metadata.json   # Reglas de enrutamiento y derivación a operadores humanos.
 ├── template.md             # Plantilla canónica que deben seguir los documentos académicos.
 ├── freshness.md            # Registro de frescura y última revisión humana general.

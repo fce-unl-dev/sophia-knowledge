@@ -16,7 +16,7 @@
 - BIBLIOTECA VIRTUAL DE TESIS DE GRADO Y POSGRADO UNL
 - Aquí se puede consultar información sobre las tesis de grado y posgrado que se realizan en las distintas unidades académicas de la UNL. Por intermedio de esta biblioteca se busca preservar la producción académica de la UNL, difundir los resultados de la actividad que se realiza en cada Facultad, ofrecer a los autores de las tesis un medio para incrementar la visibilidad de su trabajo y mejorar el control bibliográfico de las tesis.
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

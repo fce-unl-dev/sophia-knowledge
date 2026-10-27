@@ -15,7 +15,7 @@
 - Organización de Gestión
 - El gobierno de la Facultad de Ciencias Económicas está regido por las normativas establecidas por la Universidad Nacional del Litoral. Es ejercido por distintos órganos colegiados, con representación plural de todos los claustros que forman parte de la vida institucional. Son órganos de gobierno de la Universidad la Asamblea Universitaria, el Consejo Superior y el Rector y, en el ámbito de las Facultades, los Consejos Directivos y Decano respectivo.
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

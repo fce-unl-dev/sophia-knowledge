@@ -31,7 +31,7 @@
 - – Consideraciones a tener en cuenta a la hora de ejecutar los fondos de un proyecto CAID
 - – Información referida a pedidos de cambios, de rubros y consideraciones para el caso de la compra de bibliografía
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

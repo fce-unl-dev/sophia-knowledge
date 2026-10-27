@@ -1,6 +1,6 @@
 # sophia-knowledge
 
-Base de conocimiento de Sophia, asistente virtual de la FCE-UNL. El contenido en Markdown lo
+Base de conocimiento de Luca, asistente virtual de la FCE-UNL. El contenido en Markdown lo
 sincronizan pipelines automáticos desde la web oficial y desde Drive. `tools/scraper/` es el
 pipeline; el resto del repo es contenido generado.
 

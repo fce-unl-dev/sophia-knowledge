@@ -14,7 +14,7 @@
 - Son bienvenidas nuevas adicionales al repositorio de toda la #ComunidadFCE, podés enviar tu propuesta a webmaster@fce.unl.edu.ar
 - ¿Querés comenzar a aprender Python para poder usar las soluciones que podes encontrar en el repositorio?, tenemos una propuesta, se encuentran abiertas las inscripciones al curso de formación cuya información encontrarás aquí
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

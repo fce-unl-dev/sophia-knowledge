@@ -26,7 +26,7 @@
 - Desde el Departamento invitamos a los docentes a que el conocimiento trascienda las aulas y tenga un impacto real en el entorno, buscando acercar el asesoramiento técnico al sector privado y público.
 - Director: Lic. Germán Rollandi
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

@@ -27,7 +27,7 @@
   - TUTORIAL para Reinscripción anual: https://docs.google.com/document/d/1iqtQOiFfJtdS4R2CwLvZESJ3XlJP53SPeZomnyP1ayU/edit?usp=sharing
   - TUTORIAL para inscripción a cursar y obtener certificado de alumno regular: https://www.youtube.com/watch?v=2ObYfbHdzm0
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Requiere revisión humana: posibles datos personales/listados nominales.
 - Requiere revisión humana: links a sistemas externos.

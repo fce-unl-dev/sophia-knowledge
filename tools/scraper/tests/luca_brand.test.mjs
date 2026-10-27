@@ -20,6 +20,20 @@ test('deterministic templates emit warnings for Luca, not the retired public nam
     assert.match(source, /Advertencias para Luca/);
     assert.doesNotMatch(source, /Advertencias para Sophia/);
   }
+  const readme = await readFile(new URL('../../../README.md', import.meta.url), 'utf8');
+  assert.match(readme, /^# Luca/);
+  assert.match(readme, /sophia-knowledge/);
+});
+
+test('published operational guidance uses the current assistant name', async () => {
+  const root = new URL('../../../', import.meta.url);
+  const index = JSON.parse(await readFile(new URL('indice.json', root), 'utf8'));
+  for (const item of index.items) {
+    const markdown = await readFile(new URL(item.path, root), 'utf8');
+    // Historical review attribution is evidence, not the assistant's identity.
+    const guidance = markdown.split('\n').filter(line => !line.startsWith('**Revisado por**:')).join('\n');
+    assert.doesNotMatch(guidance, /Advertencias para Sophia|Sophia debe|Sophia no debería|respuesta de Sophia|consultas específicas de Sophia/i, item.path);
+  }
 });
 
 test('canonical academic template cannot reintroduce the retired assistant name', async () => {

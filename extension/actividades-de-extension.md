@@ -22,7 +22,7 @@
 - Tel.: +54 (0342) 4571180/81 – Int. 103
 - E-mail: seyc@fce.unl.edu.ar
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

@@ -22,7 +22,7 @@
 
 ## Enlaces relacionados (no ingeridos)
 
-Sophia debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
+Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
   - https://www.fce.unl.edu.ar/ciencia/wp-content/uploads/sites/7/2018/09/Resoluc-D-214-23-Base-de-datos-Posgrado.pdf
@@ -32,7 +32,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - Cursos de Formación: https://www.fce.unl.edu.ar/ciencia/cursos-de-formacion/
   - Convocatorias anteriores: https://www.fce.unl.edu.ar/ciencia/convocatorias-anteriores/
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

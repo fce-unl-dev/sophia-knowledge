@@ -22,7 +22,7 @@
 
 ## Enlaces relacionados (no ingeridos)
 
-Sophia debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
+Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/plan-cp2026.pdf
@@ -119,7 +119,7 @@ Sophia debe entregar estos enlaces para que el usuario los abra; no se incorpor�
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/PLAN-DE-ESTUDIO-tagp.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res._C.S._N__107_del_11-06-20_Expte._N_REC-1035159-20_Modifica_denominacion_Plan_estudios_Tecnicatura_Universitaria_en__Control_Auditoria__Gubernamental_FCE-1.pdf
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

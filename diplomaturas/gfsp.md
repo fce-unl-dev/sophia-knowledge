@@ -92,7 +92,7 @@ Equipo docente con experiencia en el campo académico y profesional en administr
 -   **Fuente del dato**: https://www.fce.unl.edu.ar/gfsp/index.php?act=showCategoria&id=185
 -   **Última actualización del dato**: **2026-05-30**
 
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 

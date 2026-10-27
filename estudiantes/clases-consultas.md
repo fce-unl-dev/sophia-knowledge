@@ -47,7 +47,7 @@
   - Estudiantes: https://www.fce.unl.edu.ar/estudiantes
   - Art. 3: https://www.fce.unl.edu.ar/academica/regimen-de-ensenanza/
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Requiere revisión humana: links a sistemas externos.
 - Requiere revisión humana: una o más subpáginas no pudieron descargarse.
