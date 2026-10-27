@@ -168,7 +168,7 @@ async function main() {
   const outputData = {
     version: 1,
     lastUpdated: new Date().toISOString().split('T')[0],
-    description: 'Metadatos de ruteo estático para derivar consultas de Sophia según sector de contenido.',
+    description: 'Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.',
     stats,
     mappings,
   };

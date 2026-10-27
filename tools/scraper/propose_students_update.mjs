@@ -407,7 +407,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia students proposal generator\n\nUso:\n  node propose_students_update.mjs [--kb-root=../..] [--force] [--dry-run] [--pr-body=/tmp/pr.md] [--model=gemini-2.5-pro]\n`);
+    console.log(`Luca students proposal generator\n\nUso:\n  node propose_students_update.mjs [--kb-root=../..] [--force] [--dry-run] [--pr-body=/tmp/pr.md] [--model=gemini-2.5-pro]\n`);
     process.exit(0);
   }
 

@@ -178,7 +178,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia KB URL validator\n\nUso:\n  node validate_links.mjs [--network] [--kb-root=../..] [--json]\n`);
+    console.log(`Luca KB URL validator\n\nUso:\n  node validate_links.mjs [--network] [--kb-root=../..] [--json]\n`);
     process.exit(0);
   }
 

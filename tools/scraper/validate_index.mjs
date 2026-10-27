@@ -1,4 +1,4 @@
-// Validador del índice publicado del KB de Sophia.
+// Validador del índice publicado del KB de Luca.
 //
 // Checks sin red:
 //   - indice.json parsea y tiene estructura mínima.
@@ -242,7 +242,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia KB index validator\n\nUso:\n  node validate_index.mjs [--kb-root=../..] [--json]\n`);
+    console.log(`Luca KB index validator\n\nUso:\n  node validate_index.mjs [--kb-root=../..] [--json]\n`);
     process.exit(0);
   }
 

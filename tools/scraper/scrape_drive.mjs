@@ -223,7 +223,7 @@ async function findPotentialDuplicates(fileName, fileFolder, indexItems, kbRoot)
 }
 
 // Gemini duplicate check
-const DEDUPLICATE_SYSTEM_PROMPT = `Sos un auditor de contenido para la base de conocimientos de Sophia.
+const DEDUPLICATE_SYSTEM_PROMPT = `Sos un auditor de contenido para la base de conocimientos de Luca.
 Tu tarea es comparar el texto extraído de un nuevo documento recibido desde Google Drive con el contenido de documentos existentes en la base de conocimientos (KB) para determinar si la información del nuevo documento ya está completamente cubierta (es un duplicado) o si aporta información nueva y complementaria.
 
 Responde ÚNICAMENTE en formato JSON con la siguiente estructura (sin bloques de código markdown, solo el JSON crudo):
@@ -288,7 +288,7 @@ Compara el nuevo documento con los existentes y responde en el formato JSON requ
 
 // Fallback IA: cuando la carpeta de Drive no matchea ningún alias de la
 // taxonomía, le pedimos a Gemini que elija el sector canónico más apropiado.
-const SECTOR_CLASSIFY_SYSTEM_PROMPT = `Sos un clasificador de contenido para la base de conocimientos de Sophia, asistente virtual de la Facultad de Ciencias Económicas (FCE) de la UNL.
+const SECTOR_CLASSIFY_SYSTEM_PROMPT = `Sos un clasificador de contenido para la base de conocimientos de Luca, asistente virtual de la Facultad de Ciencias Económicas (FCE) de la UNL.
 Un responsable de la facultad subió un documento a Google Drive. Tu tarea es elegir el SECTOR canónico al que pertenece, de la lista provista.
 Respondé ÚNICAMENTE con JSON crudo (sin bloques markdown), con esta estructura:
 { "sector": "<id-del-sector>", "confidence": <número entre 0 y 1> }
@@ -391,7 +391,7 @@ ${mdTable}
 }
 
 // Gemini formatting for text documents
-const FORMAT_SYSTEM_PROMPT = `Sos el redactor del Knowledge Base de Sophia, asistente virtual oficial de la Facultad de Ciencias Económicas (FCE) de la UNL. Tu trabajo es formatear y estructurar un texto extraído de un documento de Google Drive en una ficha Markdown de complemento siguiendo la plantilla provista.
+const FORMAT_SYSTEM_PROMPT = `Sos el redactor del Knowledge Base de Luca, asistente virtual oficial de la Facultad de Ciencias Económicas (FCE) de la UNL. Tu trabajo es formatear y estructurar un texto extraído de un documento de Google Drive en una ficha Markdown de complemento siguiendo la plantilla provista.
 
 REGLAS DURAS:
 1. Estructura: generá únicamente:
@@ -595,7 +595,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia Google Drive Scraper
+    console.log(`Luca Google Drive Scraper
     
 Uso:
   node scrape_drive.mjs --write-candidates [--force] [--kb-root=...] [--out=...] [--model=...]

@@ -1,9 +1,9 @@
 # Pipeline de sync del KB
 
-Pipeline de automatización del KB de Sophia. Disparable manualmente desde:
+Pipeline de automatización del KB de Luca. Disparable manualmente desde:
 
 1. **UI de GitHub Actions** → workflow "Sync KB" → "Run workflow".
-2. **Dashboard admin del agente Sophia** (pendiente) → llama al workflow vía GitHub API.
+2. **Dashboard admin del agente Luca** (pendiente) → llama al workflow vía GitHub API.
 3. **Local** (para debug o smoke test) → ver sección "Correr local".
 
 ## Componentes

@@ -1,7 +1,7 @@
 name: Ingest Drive
 
 # Ingesta los complementos cargados en la carpeta de Google Drive de la facultad
-# al KB de Sophia (carpeta complementos/). Dos fases del mismo script:
+# al KB de Luca (carpeta complementos/). Dos fases del mismo script:
 #   1. scrape_drive.mjs --write-candidates  → baja archivos de Drive, dedup con
 #      Gemini, genera candidatos + state/complementos/drive.meta.json.
 #   2. scrape_drive.mjs --apply              → mueve candidatos a complementos/,
@@ -194,7 +194,7 @@ jobs:
             commit_message="chore(kb): ingest Drive complements (requires_review)"
 
             cat > /tmp/drive-pr-body.md <<EOF
-          Ingesta automática de complementos desde Google Drive al KB de Sophia.
+          Ingesta automática de complementos desde Google Drive al KB de Luca.
 
           **Disparado por**: $triggered_by
           **Carpeta destino**: \`complementos/\`

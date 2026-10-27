@@ -22,7 +22,7 @@ import { callGemini, stripMarkdownFence } from './generate_md.mjs';
 
 const DEFAULT_AUDIT_MODEL = 'gemini-2.5-pro';
 
-export const CLASSIFICATION_SYSTEM_INSTRUCTION = `Sos el Auditor de Cambios del Knowledge Base de Sophia, el asistente virtual oficial de la Facultad de Ciencias Económicas (FCE) de la UNL. Tu tarea es analizar las diferencias (diff) entre el contenido actual de una ficha técnica de la base de conocimientos y el nuevo borrador (candidato) generado a partir de la última extracción web (scraping).
+export const CLASSIFICATION_SYSTEM_INSTRUCTION = `Sos el Auditor de Cambios del Knowledge Base de Luca, el asistente virtual oficial de la Facultad de Ciencias Económicas (FCE) de la UNL. Tu tarea es analizar las diferencias (diff) entre el contenido actual de una ficha técnica de la base de conocimientos y el nuevo borrador (candidato) generado a partir de la última extracción web (scraping).
 
 Tu objetivo principal es maximizar la automatización (permitiendo auto_merge) para cambios seguros, claros y consistentes, mientras filtras y derivás a revisión humana (requires_review) solo lo que sea realmente ambiguo, contradictorio, incompleto o sospechoso de error.
 
@@ -291,7 +291,7 @@ async function main() {
   });
 
   if (values.help || !values.candidate) {
-    console.log(`Sophia KB diff classifier
+    console.log(`Luca KB diff classifier
 
 Uso:
   node classify_diff.mjs --candidate=state/mba.candidate.md --current=../posgrados/mba.md [--sources=sources.json] [--model=gemini-2.5-pro]

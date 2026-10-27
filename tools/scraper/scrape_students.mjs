@@ -464,7 +464,7 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
     // activo, una consulta que nombra a un profesor se rutea al sector
     // `docentes` —lo semánticamente obvio— y ese sector no tenía ni un dato de
     // docente, porque el índice vivía enterrado acá dentro, en el sector
-    // `tramites_bedelia`. Sophia terminaba atribuyendo materias a docentes
+    // `tramites_bedelia`. Luca terminaba atribuyendo materias a docentes
     // equivocados. Separarlo pone el dato en el cajón que ya tenía la etiqueta
     // correcta, y de paso le saca ~14.600 tokens a este documento, que es el
     // más pesado de la KB.
@@ -489,7 +489,7 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
   appendLinkGroup(lines, 'Otros enlaces', otherLinks);
   lines.push('');
 
-  lines.push('## Advertencias para Sophia');
+  lines.push('## Advertencias para Luca');
   lines.push('');
   if (summary.requires_review) {
     for (const reason of summary.review_reasons) lines.push(`- Requiere revisión humana: ${reason}.`);
@@ -498,7 +498,7 @@ export function buildTopicMarkdown(result, { today = todayIsoDate() } = {}) {
   }
   lines.push('- No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.');
   if (examSchedules || classSchedules) {
-    lines.push('- Sophia debe responder basándose en las tablas del "Snapshot Oficial" provistas en este documento. Si la materia o fecha buscada no figura en el snapshot, debe indicar al alumno que consulte la planilla oficial enlazada o sistema respectivo.');
+    lines.push('- Luca debe responder basándose en las tablas del "Snapshot Oficial" provistas en este documento. Si la materia o fecha buscada no figura en el snapshot, debe indicar al alumno que consulte la planilla oficial enlazada o sistema respectivo.');
   } else {
     lines.push('- Si una subpágina enlaza una planilla o iframe con fechas, responder sobre esos datos solo si existe snapshot Markdown revisado.');
   }
@@ -559,7 +559,7 @@ export function buildTeacherIndexMarkdown(result, { today = todayIsoDate() } = {
   lines.push(tabla);
   lines.push('');
 
-  lines.push('## Advertencias para Sophia');
+  lines.push('## Advertencias para Luca');
   lines.push('');
   lines.push('- Responder EXCLUSIVAMENTE desde la tabla de este documento. Si el apellido buscado no figura, decirlo y derivar a SIU Guaraní o Bedelía — nunca deducir la materia de un docente por parecido de nombre ni por otra tabla.');
   lines.push('- La planilla está sujeta a cambios durante el cuatrimestre. Al dar un horario o una comisión, sugerir confirmarlo en el sistema oficial.');
@@ -711,7 +711,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia students topic scraper\n\nUso:\n  node scrape_students.mjs [--write-candidates]\n  node scrape_students.mjs --slug=estudiantes-examenes --write-candidates\n\nOpciones:\n  --out=<dir>           directorio de salida\n  --slug=<slug>         procesa solo un tema del menú estudiantes\n  --write-candidates    escribe candidates/*.candidate.md\n  --no-write            solo imprime report JSON\n`);
+    console.log(`Luca students topic scraper\n\nUso:\n  node scrape_students.mjs [--write-candidates]\n  node scrape_students.mjs --slug=estudiantes-examenes --write-candidates\n\nOpciones:\n  --out=<dir>           directorio de salida\n  --slug=<slug>         procesa solo un tema del menú estudiantes\n  --write-candidates    escribe candidates/*.candidate.md\n  --no-write            solo imprime report JSON\n`);
     process.exit(0);
   }
 

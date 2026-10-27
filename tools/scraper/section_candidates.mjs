@@ -9,7 +9,7 @@
 //     rama, no generan MD propio.
 //   - Sector y carpeta destino se derivan de la taxonomía canónica (kbFolder).
 //   - Señales de datos personales marcan requires_review (no se bloquea: toda la
-//     info es pública; Sophia entrega el link y el usuario lo abre).
+//     info es pública; Luca entrega el link y el usuario lo abre).
 //
 // Funciones puras y deterministas: NO hace red ni I/O. El orquestador
 // (propose_sections_update.mjs) materializa, clasifica el diff y arma el PR.
@@ -100,7 +100,7 @@ function appendLinksAppendix(lines, { lowContent = [], documentLinks = [], pendi
 
   lines.push('## Enlaces relacionados (no ingeridos)');
   lines.push('');
-  lines.push('Sophia debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.');
+  lines.push('Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.');
   lines.push('');
 
   if (documentLinks.length) {
@@ -141,7 +141,7 @@ export function buildSectionCandidateMarkdown({ page, sector, today, reviewReaso
 
   if (appendix) appendLinksAppendix(lines, appendix);
 
-  lines.push('## Advertencias para Sophia');
+  lines.push('## Advertencias para Luca');
   lines.push('');
   if (reviewReasons.length) {
     for (const r of reviewReasons) lines.push(`- Requiere revisión humana: ${r}.`);
@@ -175,7 +175,7 @@ export function buildSectionLandingMarkdown({ sector, today, lowContent = [], do
   lines.push('- Candidato automático: requiere revisión humana antes de mergearse.');
   lines.push('');
   appendLinksAppendix(lines, { lowContent, documentLinks, pendingLinks, errored, truncated });
-  lines.push('## Advertencias para Sophia');
+  lines.push('## Advertencias para Luca');
   lines.push('');
   lines.push('- Entregar los enlaces de arriba para que el usuario los abra; no se ingirió su contenido.');
   lines.push('');

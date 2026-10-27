@@ -227,7 +227,7 @@ async function main() {
   });
 
   if (values.help) {
-    console.log(`Sophia KB Freshness Report
+    console.log(`Luca KB Freshness Report
 
 Uso:
   node freshness_report.mjs [--kb-root=../..] [--format=table|md|json] [--reference-date=YYYY-MM-DD] [--out=report.md]

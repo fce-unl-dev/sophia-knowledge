@@ -141,7 +141,7 @@ async function main() {
   });
 
   if (values.help || !values.slug) {
-    console.log(`Sophia KB pipeline orchestrator
+    console.log(`Luca KB pipeline orchestrator
 
 Uso:
   node run_pipeline.mjs --slug=mba [--mode=refresh|force|dry-run]
