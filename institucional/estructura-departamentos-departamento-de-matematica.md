@@ -19,7 +19,7 @@
 - Desde esta perspectiva, el Departamento se proyecta como una comunidad académica participativa, innovadora y comprometida con la excelencia. Se busca integrar y potenciar las acciones en enseñanza, investigación, extensión y gestión, fortaleciendo una formación matemática significativa, actualizada y plenamente articulada con los desafíos del campo profesional y social
 - Directora: Claudia Zanabria
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

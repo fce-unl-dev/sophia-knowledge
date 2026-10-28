@@ -17,7 +17,7 @@
 - El Departamento Jurídico está compuesto por las siguientes cátedras: Instituciones de Derecho I, Instituciones de Derecho II, Derecho del Trabajo e Instituciones de la Seguridad Social, Sociedades, Concursos y Títulos Valores, e Instituciones de Derecho III.
 - Director: Leonardo Deb
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

@@ -2,7 +2,7 @@
 
 Información oficial sobre el ingreso 2026 a las carreras de grado de la Facultad de Ciencias Económicas de la UNL. Las inscripciones para esta cohorte se desarrollaron entre el 1° de noviembre y el 10 de diciembre de 2025, por lo que al momento de armar este draft (2026-05-17) el período ya está cerrado y los ingresantes están cursando.
 
-> NOTA AL REVISOR: este draft documenta el ingreso **2026** (cohorte actual). Para consultas sobre futuros ingresos (2027), Sophia debe derivar a difusion@fce.unl.edu.ar y a la página oficial de UNL ingreso (https://www.unl.edu.ar/ingresounl/). El proceso de inscripción típicamente se reabre entre octubre y diciembre del año anterior.
+> NOTA AL REVISOR: este draft documenta el ingreso **2026** (cohorte actual). Para consultas sobre futuros ingresos (2027), Luca debe derivar a difusion@fce.unl.edu.ar y a la página oficial de UNL ingreso (https://www.unl.edu.ar/ingresounl/). El proceso de inscripción típicamente se reabre entre octubre y diciembre del año anterior.
 
 ---
 
@@ -43,7 +43,7 @@ Instructivo oficial paso a paso de la UNL: https://www.unl.edu.ar/ingresounl/pas
 
 ## Documentación requerida
 
-> NOTA AL REVISOR: el listado específico de documentos no figura textualmente en la página de la FCE. Se gestiona vía UNL central (paso a paso UNL). Para una respuesta de Sophia, derivar al instructivo UNL: https://www.unl.edu.ar/ingresounl/pasoapaso/ y a difusion@fce.unl.edu.ar.
+> NOTA AL REVISOR: el listado específico de documentos no figura textualmente en la página de la FCE. Se gestiona vía UNL central (paso a paso UNL). Para una respuesta de Luca, derivar al instructivo UNL: https://www.unl.edu.ar/ingresounl/pasoapaso/ y a difusion@fce.unl.edu.ar.
 
 ## Cursillo de ingreso / nivelación
 
@@ -63,7 +63,7 @@ Universitarios (IEU)**.
 - **Fuente**: https://www.unl.edu.ar/ingresounl/cursosarticulacion/
 
 > Nota: las fechas corresponden a la cohorte 2026. Si la consulta es sobre una cohorte
-> posterior, Sophia debe indicar que la fecha puede haber cambiado y derivar a
+> posterior, Luca debe indicar que la fecha puede haber cambiado y derivar a
 > difusion@fce.unl.edu.ar.
 
 > NOTA AL REVISOR: además del IEU, la UNL ofrece cursos de articulación **disciplinares**
@@ -71,7 +71,7 @@ Universitarios (IEU)**.
 > Agronomía, Bioquímica, Ciencias Médicas y Veterinarias — **no menciona Ciencias
 > Económicas**. Falta confirmar con difusion@fce.unl.edu.ar si las carreras de la FCE
 > tienen algún curso disciplinar además del IEU. Hasta confirmarlo, este documento no lo
-> afirma y Sophia no debería inventarlo.
+> afirma y Luca no debería inventarlo.
 
 ## Contacto
 

@@ -28,7 +28,7 @@
 - The proposed assignments will be based on real companies of the region of the School of Economics, UNL, Santa Fe, Argentina, and they will be focused on any aspect of their international performance. Due to its characteristics, the entire program is conducted in English.
 - Contact information: gcp@unl.edu.ar
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

@@ -35,7 +35,7 @@
 - **Otros enlaces**:
   - Estudiantes: https://www.fce.unl.edu.ar/estudiantes
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Requiere revisión humana: links a sistemas externos.
 - No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.

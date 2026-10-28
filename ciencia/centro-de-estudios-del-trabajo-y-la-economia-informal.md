@@ -13,7 +13,7 @@
 - Además de su rol investigativo, el CETEI se propone ser un referente regional en la temática, brindando información útil para actores públicos, sindicales y empresariales. Entre sus funciones se destacan el diseño de proyectos de investigación, la formación de recursos humanos, la transferencia de resultados al medio y la colaboración con instituciones afines tanto nacionales como internacionales. Su estructura organizativa incluye un director, un consejo asesor y una secretaría técnico-administrativa, y se nutre de miembros plenos, adherentes y colaboradores que participan activamente en sus actividades. En esencia, el CETEI representa una apuesta institucional por abordar con profundidad y compromiso una problemática central en los mercados laborales latinoamericanos.
 - VER RESOLUCIÓN
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

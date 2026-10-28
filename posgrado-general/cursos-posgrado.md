@@ -70,7 +70,7 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **Última actualización del dato**: **2026-09-24**
 - **Fuente del estado de inscripción**: https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.doMostrarCursos (consulta del 2026-10-02; JSON generado a las 19:27:25, hora local del CRM; el registro `id_posgrado: 1402` fue actualizado el 2026-10-01 a las 08:04:26).
 
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 **Cursos con inicio publicado (cohorte 2026; estado de inscripción verificado en el CRM el 2026-10-02):**
 - **Análisis Espacial para la Innovación en el Desarrollo Sostenible**: Inicio: **2026-09-30**. **Inscripción cerrada** (`id_posgrado: 1426`; fecha límite informada: 2026-09-28). Curso ofrecido en el marco de la Maestría en Innovación para el Desarrollo Sostenible ([ver carrera](http://www.fce.unl.edu.ar/sitios/mids)). [Más información](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showMasInfo&idCurso=1426) | [Consultas](https://www.fce.unl.edu.ar/cursos_posgrado/index.php?act=showFormularioI&idCurso=1426#superior) | [Sistema de preinscripción (inscripción cerrada)](https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1426#superior)

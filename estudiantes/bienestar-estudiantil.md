@@ -130,7 +130,7 @@
   - Bienestar Estudiantil: https://www.fce.unl.edu.ar/estudiantes/?post_type=post&p=5
   - Movilidad estudiantil: https://www.fce.unl.edu.ar/estudiantes/?post_type=post&p=11
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Requiere revisión humana: posibles datos personales/listados nominales.
 - Requiere revisión humana: links a sistemas externos.

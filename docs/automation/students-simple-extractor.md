@@ -43,7 +43,7 @@ Cada candidato MD incluye:
 2. la página principal del tema;
 3. las subpáginas relacionadas con ese mismo título/tema;
 4. enlaces relevantes detectados;
-5. advertencias para Sophia;
+5. advertencias para Luca;
 6. fuentes consultadas.
 
 Esto replica el criterio usado en el resto del KB: no se crea un MD por cada URL técnica si varias URLs forman un mismo bloque temático para el usuario.

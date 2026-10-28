@@ -29,7 +29,7 @@
 - Carreras
 - La Facultad cuenta con carreras de Pregrado, carreras de Grado, carreras de Posgrado. Cada una de ellas institucionalizadas mediante Planes de Estudio, aprobados por los órganos pertinentes que responden a las normativas nacionales argentinas en cuanto a carga horaria, exigencias de admisión, permanencia, evaluación de los conocimientos, etcétera. Y sus respectivos objetivos y misiones están enmarcados en los propios de la Universidad Nacional del Litoral.
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

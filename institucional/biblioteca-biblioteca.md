@@ -26,7 +26,7 @@
 - – Portal de Revistas – Ediciones UNL
 - – Normas IRAM (9000 normas a texto completo y actualizadas) – Solicitar usuario y contraseña a Biblioteca.
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

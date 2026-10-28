@@ -57,7 +57,7 @@
 - 2º cuatrimestre: 18 de agosto al 28 de noviembre de 2025
 - Receso Invernal: 07 al 18 de julio de 2025
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

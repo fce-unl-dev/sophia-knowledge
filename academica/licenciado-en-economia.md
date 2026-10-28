@@ -23,7 +23,7 @@
 - Res. C.S. Nº 637 del 12-12-19 Expte. Nº FCE-1013233-19 aprobación del Plan Transición Licenciatura en Economía
 - Programa de asignaturas del plan 2019
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

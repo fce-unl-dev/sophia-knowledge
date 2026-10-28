@@ -441,7 +441,7 @@
 | Veronica, Valetti | 1015 - Matemática como Lenguaje - Anual | Com. N° 11 | Martes — 10:30 A 13:15 |
 | Veronica, Valetti | 1015 - Matemática como Lenguaje - Anual | Com. N° 11 | Jueves — 10:30 A 13:15 |
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Responder EXCLUSIVAMENTE desde la tabla de este documento. Si el apellido buscado no figura, decirlo y derivar a SIU Guaraní o Bedelía — nunca deducir la materia de un docente por parecido de nombre ni por otra tabla.
 - La planilla está sujeta a cambios durante el cuatrimestre. Al dar un horario o una comisión, sugerir confirmarlo en el sistema oficial.

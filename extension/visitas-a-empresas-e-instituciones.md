@@ -12,7 +12,7 @@
 - El ciclo de visitas denominado “Conociendo empresas e instituciones de la región” tiene como objetivo concretar acciones destinadas a fortalecer y complementar la formación académica a través del acercamiento de estudiantes y docentes con distintas empresas u organismos vinculados al ámbito profesional de las diferentes careras de grado de la FCE.
 - Este vínculo permite conocer la complejidad de las empresas que se desempeñan en el ámbito local y posibilitar un contacto con la realidad para realizar un análisis crítico de su entorno y generar respuestas innovadoras que ayuden a resolver problemáticas actuales.
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de datos personales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados ni detrás de login; derivar al sistema o enlace oficial correspondiente.

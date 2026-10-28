@@ -67,7 +67,7 @@ https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32
 - **Fuente del dato**: Sin datos confirmados en el material consultado
 - **Última actualización del dato**: Sin datos confirmados en el material consultado
 
-> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Sophia debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
+> Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
 ## Contacto
 
@@ -82,7 +82,7 @@ https://www.fhuc.unl.edu.ar/doctoradoestudiossociales/?post_type=post&p=32
 
 - Es **una carrera compartida** entre distintas unidades académicas de la UNL (FHUC, FCJS, FCE, etc.). La sede administrativa es FHUC.
 - La acreditación CONEAU **categoría A** es la máxima distinción que otorga el organismo.
-- Para consultas específicas de Sophia (FCE-UNL), el contacto y la información detallada deben dirigirse a la **FHUC**, que es la unidad sede.
+- Para consultas específicas de Luca (FCE-UNL), el contacto y la información detallada deben dirigirse a la **FHUC**, que es la unidad sede.
 
 ## Fuentes consultadas
 

@@ -142,7 +142,7 @@
   - Normas y Procedimientos de Enseñanza: https://www.fce.unl.edu.ar/academica/regimen-de-ensenanza/
   - Estudiantes: https://www.fce.unl.edu.ar/estudiantes
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - Requiere revisión humana: posibles datos personales/listados nominales.
 - Requiere revisión humana: links a sistemas externos.

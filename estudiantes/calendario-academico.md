@@ -20,7 +20,7 @@
   - Estudiantes: https://www.fce.unl.edu.ar/estudiantes
   - Ver calendario académico publicado en la sección Académica (ingresar aquí): https://www.fce.unl.edu.ar/academica/calendario-academico/
 
-## Advertencias para Sophia
+## Advertencias para Luca
 
 - No se detectaron señales automáticas de iframe, Google Sheets, sistemas externos ni datos nominales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.
