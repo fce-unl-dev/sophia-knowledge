@@ -75,7 +75,7 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 - **Fecha de inicio**: 2027-04 (por confirmar)
 - **Estado**: Cerrada para 2026 — próxima cohorte en abril 2027 (por confirmar)
 - **Fuente del dato**: https://www.fce.unl.edu.ar/gto/index.php?act=showCategoria&id=182
-- **Última actualización del dato**: 2026-09-10
+- **Última actualización del dato**: 2026-10-29
 
 > Nota: Si la fecha indicada ya pasó respecto a la fecha actual, Luca debe declararlo explícitamente y derivar al contacto oficial para confirmar la próxima cohorte.
 
@@ -99,7 +99,6 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 
 - https://www.fce.unl.edu.ar/gto/ (Información general del programa)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=212 (Presentación de la carrera, justificación, Resolución CD 891/22)
-- https://www.fce.unl.edu.ar/wp-content/uploads/2017/10/Res_891_-_Aprueba_creaci_n_de_Diplomatura_GESTI_N_PARA_EL_TRABAJO_EN_ORGANIZACIONES.pdf (Resolución CD 891/22)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=217 (Objetivos)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=220 (Requisitos de ingreso)
 - https://www.fce.unl.edu.ar/gto/index.php?act=showSubcategoria&id=215 (Duración)
@@ -112,7 +111,8 @@ Equipo docente con amplia trayectoria en empresas y organizaciones de la región
 - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Diplomatura-Gesti%C3%B3n-de-las-Organizaciones-2026.pdf (Dossier Informativo)
 - https://servicios.unl.edu.ar/bienestar/inscripcion/4779 (Link de inscripción online)
 - https://www.fce.unl.edu.ar/media/diplomaturas/inscripcionGTO.pdf (Instructivo de inscripción)
+- https://www.fce.unl.edu.ar/wp-content/uploads/2017/10/Res_891_-_Aprueba_creaci_n_de_Diplomatura_GESTI_N_PARA_EL_TRABAJO_EN_ORGANIZACIONES.pdf (Resolución CD 891/22)
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-26 por pipeline de scraping.
+**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-10-29 por pipeline de scraping.
