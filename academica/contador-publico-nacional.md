@@ -11,13 +11,19 @@
 - Contador Público/ Contador Público Nacional
 - ESTA SECCIÓN:
 - Carreras de grado
-- Licenciado en Administración
-- Licenciado en Economía
-- Título: Contador Público
-- Duración nominal del plan publicado como 2019: 5 años, según la Resolución C.S. 502/2018 y el catálogo oficial UNL. Este dato no acredita la vigencia de una reforma para una cohorte futura.
-- Perfil del Graduado:
-- El Contador Público que egresa de la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral está formado en el contexto de las disciplinas sociales y económicas, es capaz de comprender las relaciones productivas, laborales, tecnológicas y culturales que se gestan a partir de la Modernidad y la dinámica de cambio que se generan en las organizaciones. Posee conocimientos que le permiten percibir la naturaleza de las ciencias que nutren su quehacer cotidiano. En este contexto, cuenta con saberes que le posibilitan la reflexión sobre la construcción y el ejercicio de la ciudadanía a nivel nacional e internacional, a través de la internacionalización de los contenidos del curriculum.
-- Es un profesional que ejerce su oficio sustentado en valores éticos, con capacidad crítica y autocrítica, con disposición a trabajar en los problemas concretos y acuciantes de su medio mostrando sensibilidad y responsabilidad social. Se trata de un profesional con capacidad para dirigir, liderar y planificar, con visión de futuro y con competencias para analizar variables que posibilitan la toma de decisiones. Asimismo, posee herramientas teóricas y metodológicas para asesorar, para crear situaciones nuevas, para diseñar nuevos dispositivos y para trabajar en equipo en pos de la resolución de conflictos complejos. Cuenta con formación académica en las áreas de contabilidad, costos, tributación, auditoría, finanzas, administración, recursos humanos, economía y derecho. Cuenta con un adecuado manejo de herramientas informáticas ligadas al área de las ciencias económicas. Estos saberes son sólidos en cuanto producen una articulación entre la teoría y la práctica que posibilitan una regulación de ambos tipos de conocimientos. La práctica no es formadora por sí misma si no es objeto de una lectura desde un referente teórico, del mismo modo que una actividad teorizante no es formativa si vaga muy lejos de las restricciones de la práctica. Posee conocimientos epistemológicos y metodológicos que lo capacita para participar en proyectos de investigación llevados a cabo por entidades profesionales y en desarrollos de sistemas de información generando nuevos conocimientos y ampliando el acervo científico y tecnológico de las ciencias económicas. En este marco formativo, el perfil del egresado es generalista y le posibilita desempeñar sus funciones en diversos ámbitos laborales: en organizaciones sin fines de lucro, en emprendimientos, en empresas locales, nacionales e internacionales, en la administración pública y como profesional independiente, entre otras.
+- Licenciatura en Administración
+- Licenciatura en Economía
+- Denominación de la Carrera: Contador Público
+- Título que otorga: Contador/a Público/a
+- Duración: 4 años.
+- Perfil de la graduada y del graduado:
+- El objeto del ejercicio profesional de la Contadora Pública y el Contador Público es la información de la actividad socioeconómica, en todas sus formas, generada por individuos o entidades, cualquiera sea su forma jurídica, persigan o no fines de lucro, interactuando entre sí y en su vinculación con el contexto. La información contable gravita significativamente en los negocios públicos y privados y en la vida de las personas, por lo cual hay organismos nacionales e internacionales que se encargan de estandarizar el lenguaje contable para que sea fácilmente decodificable y utilizable por interesados ajenos a la entidad emisora. La Contadora Pública y el Contador Público emiten informes referidos a distintos aspectos de sus incumbencias profesionales y opinión fundada sobre la razonabilidad de la información contable de modo que resulte
+- confiable a los usuarios al tomar decisiones con implicancias patrimoniales, económicas, y financieras, entre otras. Es entonces que la actividad de la Contadora Pública y el Contador Público está regulada legalmente en jurisdicción nacional y provincial, y además está enmarcada por los ordenamientos civil y comercial, laboral, tributario, penal y procesal, y por los regímenes de la actividad bancaria, aseguradora, de la oferta pública de activos y de jubilaciones, entre otros. El ejercicio profesional de la Contadora Pública y el Contador Público está regido por la estricta observancia del ordenamiento ético y legal, y comprometido con el desarrollo sostenible y el aprovechamiento eficiente y sustentable de los recursos.
+- La carrera de Contador Público deberá tener los alcances del título explícitamente definidos por la institución universitaria sobre la base de: a) las actividades reservadas definidas para el título; b) las leyes que regulan el ejercicio de la actividad y los ordenamientos, reglamentos y regímenes que establecen sus intervenciones profesionales; c) su proyecto institucional; y d) aquellos acuerdos sobre alcances de título establecidos con otras instituciones a la que pertenezca, tales como el Consejo de Decanas y Decanos de Facultades de Ciencias Económicas de Universidades Nacionales. Las actividades reservadas son parte constitutiva de los alcances del título como un subconjunto de estos.
+- El objetivo de los alcances del título es dotar a la graduada Contadora Pública y al graduado Contador Público de una adecuada formación científica, técnica, profesional y humanística que lo habilite para ejercer, aprender, desarrollar y emprender la disciplina, con actitud ética, crítica y creativa.
+- Plan de estudios 2027:
+- – Res. C.S. 481/2026. Modificación del plan de estudios de Contador Público
+- – Res. C.S. 482/2026. Correlatividades de Contador Público
 - Plan de estudios 2019:
 - – Res. C.S. 502/2018. Modificación del plan de estudios de Contador Público.
 - – Res. C.S. Nº 504 del 25-11-18 Expte. Nº FCE-0941913-18 Aprueba Plan Transición Contador Publico
@@ -33,10 +39,8 @@
 ## Fuentes consultadas
 
 - Contador Público/ Contador Público Nacional: https://www.fce.unl.edu.ar/academica/contador-publico-nacional/
-- Catálogo oficial UNL (duración nominal): https://www.unl.edu.ar/carreras/contador-publico-nacional/
-- Resolución C.S. 502/2018 del 25/10/2018, plan de estudios, página 3: https://www.fce.unl.edu.ar/media/plan_nuevo/Res.%20C.S.%20Nordm%20502%20del%2025-10-18%20Expte.NordmFCE-0941917-18%20Modificacion%20Plan%20de%20Estudios%20Contador%20Publico.pdf
 
 ---
 
-**Última revisión automática**: 2026-09-28 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

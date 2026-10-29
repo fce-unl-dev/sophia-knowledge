@@ -209,5 +209,5 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
 
 ---
 
-**Última revisión automática**: 2026-10-22 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
