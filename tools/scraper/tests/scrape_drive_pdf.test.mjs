@@ -32,6 +32,10 @@ describe('extractPdfText (PDF multimodal-first)', () => {
     assert.equal(part.inlineData.mimeType, 'application/pdf');
     assert.equal(part.inlineData.data, buffer.toString('base64'));
     assert.equal(captured.temperature, 0);
+    // Plazo largo y sin razonamiento: con los defaults abortaban los PDF largos (30/10/2026).
+    assert.equal(captured.timeoutMs, 300_000);
+    assert.equal(captured.thinkingBudget, 0);
+    assert.equal(captured.maxOutputTokens, 65536);
   });
 
   test('si el multimodal falla, cae a pdf-parse', async () => {

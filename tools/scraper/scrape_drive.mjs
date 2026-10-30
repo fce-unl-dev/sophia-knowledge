@@ -436,7 +436,7 @@ Generá el archivo markdown estructurado según la plantilla hasta la sección "
     userPrompt,
     model,
     temperature: 0.2,
-    maxOutputTokens: 65536,
+    ...TRANSCRIPTION_CALL,
   });
 
   return { text: stripMarkdownFence(text), finishReason: raw?.candidates?.[0]?.finishReason ?? null };
@@ -447,6 +447,13 @@ Generá el archivo markdown estructurado según la plantilla hasta la sección "
 // pdf-parse (solo texto) deja vacías — ej. el cuadro de correlatividades de la
 // Res. 503 quedó sin filas porque venía escaneado.
 export const PDF_EXTRACTION_SYSTEM = 'Sos un extractor de texto fiel de documentos institucionales. Te paso un PDF. Devolvé TODO su contenido textual en texto plano o markdown, SIN resumir, interpretar ni omitir nada. Reproducí las TABLAS completas en markdown, con TODAS sus filas y columnas (incluí celdas vacías como "—"). No agregues comentarios tuyos: solo el contenido del documento. PRIVACIDAD (IMPORTANTE): muchos manuales traen CAPTURAS DE PANTALLA o EJEMPLOS con datos personales reales de una persona física concreta. NO transcribas esos datos personales de ejemplo: si ves un nombre y apellido junto a un DNI/número de documento, legajo, email personal o teléfono particular en una captura o ejemplo, reemplazalos por un marcador genérico ("[nombre de ejemplo]", "DNI XXXXXXXX", "ejemplo@correo", "[teléfono]"). Esto aplica SOLO a datos personales de ejemplo/captura. SÍ debés conservar tal cual los datos institucionales públicos: nombres de autoridades en su cargo, emails de áreas o secretarías (ej. posgrado@...), teléfonos institucionales y números de resolución.';
+
+// Opciones de las dos llamadas que transcriben documentos (extracción
+// multimodal y formateo). Transcribir no necesita razonamiento, y con él
+// activado los documentos largos superaban el plazo de 120 s: en la corrida
+// del 30/10/2026 siete PDF de los planes 2027 abortaron por tiempo y la tabla
+// de correlatividades de Lic. en Economía cayó a pdf-parse, que no la ve.
+export const TRANSCRIPTION_CALL = Object.freeze({ timeoutMs: 300_000, maxOutputTokens: 65536, thinkingBudget: 0 });
 
 // Extrae el texto de un PDF. Estrategia multimodal-first: si hay apiKey, Gemini
 // lee el PDF completo (incluye tablas como imagen); si no hay apiKey (dev/test)
@@ -478,6 +485,7 @@ export async function extractPdfText(buffer, {
       userPrompt: 'Extraé el contenido completo de este PDF (texto y tablas) en markdown.',
       fileParts: [{ inlineData: { mimeType: 'application/pdf', data: buffer.toString('base64') } }],
       temperature: 0,
+      ...TRANSCRIPTION_CALL,
     });
     const ocr = (text || '').trim();
     // Nos quedamos con el multimodal salvo que, por alguna anomalía, venga más

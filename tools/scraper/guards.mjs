@@ -73,6 +73,9 @@ export function checkRawFloor(rawText, { minRawChars = DEFAULT_MIN_RAW_CHARS, la
 const HOLLOW_COMPLEMENT_MARKERS = [
   /contenido no provisto/i,
   /no provist[oa]s? en el texto extra[ií]do/i,
+  // Variante de la corrida forzada del 30/10/2026 sobre la misma tabla.
+  /no (?:fue|fueron) provist[oa]s?/i,
+  /no (?:est[áa]n?|se encuentran?) disponibles? en el texto/i,
   /no (?:se )?(?:incluye|incluido|proporcionad[oa]|proporciona) en el texto extra[ií]do/i,
 ];
 
