@@ -10,7 +10,7 @@ import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
-import { checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
+import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
 
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));
@@ -428,15 +428,18 @@ TAREA:
 Generá el archivo markdown estructurado según la plantilla hasta la sección "## Contenido" inclusive. No agregues "## Metadatos del Documento" ni "## Fuentes consultadas". Devuelve solo el markdown listo para escribir a archivo.
 `;
 
-  const { text } = await callGemini({
+  // gemini-2.5-flash descuenta el razonamiento del mismo tope de salida: con el
+  // default de 16.384, un plan de estudios completo salía cortado o vacío.
+  const { text, raw } = await callGemini({
     apiKey,
     systemInstruction: FORMAT_SYSTEM_PROMPT,
     userPrompt,
     model,
     temperature: 0.2,
+    maxOutputTokens: 65536,
   });
 
-  return stripMarkdownFence(text);
+  return { text: stripMarkdownFence(text), finishReason: raw?.candidates?.[0]?.finishReason ?? null };
 }
 
 // Prompt de extracción multimodal fiel. Gemini lee el PDF nativo (texto +
@@ -860,8 +863,11 @@ Env:
     let sector = resolveSectorFromDrivePath(file.path) || undefined;
     const prevFile = driveState.files[file.id];
     
-    // Check if unchanged
-    const hasChanged = values['force'] || !prevFile || prevFile.modifiedTime !== file.modifiedTime || prevFile.slug !== slug;
+    // Check if unchanged. Un archivo que falló se reintenta aunque Drive no lo
+    // haya modificado: su estado de error guarda el mismo modifiedTime y, sin
+    // esta condición, quedaría salteado para siempre.
+    const hasChanged = values['force'] || !prevFile || prevFile.status === 'error'
+      || prevFile.modifiedTime !== file.modifiedTime || prevFile.slug !== slug;
 
     if (!hasChanged) {
       console.log(`[Skip] ${file.path} sin cambios desde ${file.modifiedTime}`);
@@ -953,8 +959,8 @@ Env:
         const mdTable = csvToMarkdownTable(extractedText);
         mdContent = formatCsvAsMarkdownComplement(file.name, file.id, file.modifiedTime, file.webViewLink, mdTable);
       } else {
-        const geminiContent = await formatComplementWithGemini(apiKey, file, extractedText, templateContent, values['model']);
-        
+        const { text: geminiContent, finishReason } = await formatComplementWithGemini(apiKey, file, extractedText, templateContent, values['model']);
+
         let cleanedGeminiContent = sanitizeKbMarkdown(geminiContent.trim());
         // Remove any trailing lines like "---" or "## Metadatos del Documento" / "## Fuentes consultadas" if Gemini generated them anyway
         const metadataIdx = cleanedGeminiContent.search(/^##\s+Metadatos del Documento/mi);
@@ -966,6 +972,13 @@ Env:
         if (cleanedGeminiContent.endsWith('---')) {
           cleanedGeminiContent = cleanedGeminiContent.slice(0, -3).trim();
         }
+
+        // Cae al catch: el archivo queda en error y se reintenta en la próxima corrida.
+        const formatHit = checkFormattedComplement(cleanedGeminiContent, {
+          finishReason,
+          label: `el documento "${file.path}"`,
+        });
+        if (formatHit) throw new Error(formatHit.reason);
 
         mdContent = `${cleanedGeminiContent}
 

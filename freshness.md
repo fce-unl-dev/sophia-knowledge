@@ -123,21 +123,20 @@
 | `cursos/teoria-de-juegos-fundamentos-matematicos-y-aplicaciones-en-economia-administracion-y-marketing.md` | Pendiente / N/D | 🔴 N/D | 🔴 38 d (2026-09-04) |
 | `cursos/tokenizacion-de-activos-de-la-economia-real-en-argentina.md` | Pendiente / N/D | 🔴 N/D | 🔴 38 d (2026-09-04) |
 | `cursos/trading-profesional-basado-en-evidencia.md` | Pendiente / N/D | 🔴 N/D | 🔴 38 d (2026-09-04) |
-| `estudiantes/beneficios-posgrados-fce-unl.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/bienestar-estudiantil.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/calendario-academico.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/centro-estudiantes.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/clases-consultas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/examenes.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/horarios-atencion.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/ingreso-2026.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/inscripciones-cursado.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/pasantias-rentadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/practicas-profesionales-supervisadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/sica.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-10-13) |
-| `diplomaturas/gto.md` | Draft autogenerado | 🟡 -13 d (2026-10-26) | 🟢 -14 d (2026-10-26) |
+| `estudiantes/beneficios-posgrados-fce-unl.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/bienestar-estudiantil.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/calendario-academico.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/centro-estudiantes.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/clases-consultas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/examenes.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/horarios-atencion.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/ingreso-2026.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/inscripciones-cursado.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/pasantias-rentadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/practicas-profesionales-supervisadas.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/sica.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 N/D |
 | `operativos/ingreso-2026.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
 | `posgrado-general/becas-docentes.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
@@ -175,3 +174,4 @@
 | `posgrados/mcya.md` | Revisado | 🟢 -11 d (2026-10-24) | 🟢 -3 d (2026-10-15) |
 | `posgrados/ecyap.md` | Revisado | 🟢 -11 d (2026-10-24) | 🟢 -7 d (2026-10-19) |
 | `posgrados/mba.md` | Revisado | 🟢 -11 d (2026-10-24) | 🟢 -7 d (2026-10-19) |
+| `diplomaturas/gto.md` | Revisado | 🟢 -17 d (2026-10-30) | 🟢 -17 d (2026-10-29) |

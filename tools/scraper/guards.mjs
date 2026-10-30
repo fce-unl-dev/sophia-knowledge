@@ -11,6 +11,8 @@
 //   checkRawRegression   el scrape encogió respecto de la corrida anterior
 //   checkRemovalRatio    las bajas se comen un porcentaje del inventario y no
 //                        hay altas que las compensen
+//   checkFormattedComplement  el modelo devolvió un complemento vacío,
+//                        cortado o con marcadores de "contenido no provisto"
 
 // Piso de contenido útil para fichas web generadas desde una plantilla. Con la
 // plantilla en el prompt y un scrape vacío, el modelo completa con su
@@ -61,6 +63,45 @@ export function checkRawFloor(rawText, { minRawChars = DEFAULT_MIN_RAW_CHARS, la
     raw_length: rawLength,
     min_raw_chars: minRawChars,
   };
+}
+
+// Frases con las que el formateador admite que no tuvo el contenido de un
+// apartado. Caso real (PR #341, 30/10/2026): la tabla de correlatividades de
+// Lic. en Economía 2027 salió como "*(Contenido no provisto en el texto
+// extraído)*" en todas sus celdas, y el plan de Contador Público 2027 salió
+// sin cuerpo. Las dos pasaban el piso del texto extraído, que sí era bueno.
+const HOLLOW_COMPLEMENT_MARKERS = [
+  /contenido no provisto/i,
+  /no provist[oa]s? en el texto extra[ií]do/i,
+  /no (?:se )?(?:incluye|incluido|proporcionad[oa]|proporciona) en el texto extra[ií]do/i,
+];
+
+// Valida lo que devolvió el modelo al formatear un complemento, antes de
+// guardarlo. Mismo contrato que las demás guardas: `null` si está bien.
+export function checkFormattedComplement(formattedText, { finishReason = null, minDocChars = DEFAULT_MIN_DOC_CHARS, label = 'este documento' } = {}) {
+  if (finishReason === 'MAX_TOKENS') {
+    return {
+      status: 'truncated-format',
+      reason: `el formateo de ${label} se cortó por límite de tokens de salida. Guardarlo dejaría el documento incompleto sin aviso.`,
+    };
+  }
+  const length = usefulTextLength(formattedText);
+  if (length < minDocChars) {
+    return {
+      status: 'hollow-format',
+      reason: `el formateo de ${label} devolvió ${length} caracteres útiles, por debajo del mínimo de ${minDocChars}, aunque el texto extraído superó el piso.`,
+      formatted_length: length,
+      min_doc_chars: minDocChars,
+    };
+  }
+  const marker = HOLLOW_COMPLEMENT_MARKERS.find((pattern) => pattern.test(formattedText));
+  if (marker) {
+    return {
+      status: 'placeholder-format',
+      reason: `el formateo de ${label} declara contenido faltante ("${formattedText.match(marker)[0]}"). El documento quedaría con apartados vacíos.`,
+    };
+  }
+  return null;
 }
 
 // Regresión contra el tamaño de la corrida anterior. Un tamaño previo ausente,
