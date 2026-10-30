@@ -145,7 +145,8 @@ jobs:
 
           mkdir -p "$(dirname "$kb_path")"
           cp "tools/scraper/state/$slug.candidate.md" "$kb_path"
-          git add "$kb_path" "tools/scraper/state/$slug.meta.json"
+          node tools/scraper/check_freshness_report.mjs --kb-root=. --write
+          git add freshness.md "$kb_path" "tools/scraper/state/$slug.meta.json"
 
           if git diff --cached --quiet; then
             echo "No candidate diff for $slug"
