@@ -92,7 +92,9 @@ export function buildUserPrompt({ template, currentMd, rawText, sourceUrl, today
 
 // ---------- Gemini call ----------
 
-export async function callGemini({ apiKey, systemInstruction, userPrompt, model = DEFAULT_MODEL, fetchImpl = fetch, temperature = 0.2, maxOutputTokens = 16384, fileParts = [] } = {}) {
+// `thinkingBudget` solo se envía si se pide: 0 apaga el razonamiento de
+// gemini-2.5-flash, que de otro modo consume del mismo tope de salida.
+export async function callGemini({ apiKey, systemInstruction, userPrompt, model = DEFAULT_MODEL, fetchImpl = fetch, temperature = 0.2, maxOutputTokens = 16384, fileParts = [], timeoutMs = REQUEST_TIMEOUT_MS, thinkingBudget } = {}) {
   if (!apiKey) throw new Error('callGemini: missing apiKey (set GEMINI_API_KEY)');
 
   // fileParts: partes multimodales opcionales (ej. { inlineData: { mimeType, data } })
@@ -102,11 +104,16 @@ export async function callGemini({ apiKey, systemInstruction, userPrompt, model 
   const body = {
     systemInstruction: { parts: [{ text: systemInstruction }] },
     contents: [{ role: 'user', parts: userParts }],
-    generationConfig: { temperature, maxOutputTokens, responseMimeType: 'text/plain' },
+    generationConfig: {
+      temperature,
+      maxOutputTokens,
+      responseMimeType: 'text/plain',
+      ...(thinkingBudget === undefined ? {} : { thinkingConfig: { thinkingBudget } }),
+    },
   };
 
   const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  const timer = setTimeout(() => controller.abort(), timeoutMs);
   let res;
   try {
     res = await fetchImpl(`${GEMINI_URL(model)}?key=${encodeURIComponent(apiKey)}`, {

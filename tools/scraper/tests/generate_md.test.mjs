@@ -130,7 +130,29 @@ describe('callGemini', () => {
     assert.equal(body.systemInstruction.parts[0].text, 'SYS');
     assert.equal(body.contents[0].parts[0].text, 'USR');
     assert.equal(body.generationConfig.temperature, 0.2);
+    assert.equal(body.generationConfig.thinkingConfig, undefined);
     assert.equal(r.raw.usageMetadata.totalTokenCount, 150);
+  });
+
+  test('envía thinkingConfig solo cuando se pide un presupuesto', async () => {
+    let captured;
+    const fetchImpl = async (url, init) => {
+      captured = JSON.parse(init.body);
+      return makeFetchOk('x')(url, init);
+    };
+    await callGemini({ apiKey: 'k', systemInstruction: 's', userPrompt: 'u', thinkingBudget: 0, maxOutputTokens: 65536, fetchImpl });
+    assert.deepEqual(captured.generationConfig.thinkingConfig, { thinkingBudget: 0 });
+    assert.equal(captured.generationConfig.maxOutputTokens, 65536);
+  });
+
+  test('aborta al vencer timeoutMs', async () => {
+    const fetchImpl = (url, init) => new Promise((_resolve, reject) => {
+      init.signal.addEventListener('abort', () => reject(new Error('This operation was aborted')));
+    });
+    await assert.rejects(
+      () => callGemini({ apiKey: 'k', systemInstruction: 's', userPrompt: 'u', timeoutMs: 20, fetchImpl }),
+      /aborted/,
+    );
   });
 
   test('respeta model override', async () => {

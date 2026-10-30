@@ -61,6 +61,12 @@ describe('checkFormattedComplement', () => {
     assert.match(hit.reason, /Contenido no provisto/);
   });
 
+  test('corta la variante "no fue provisto" de la corrida forzada', () => {
+    const variant = COMPLETE.replace(/\| Microeconomía I[\s\S]*$/,
+      '**Nota:** El contenido detallado de la tabla de correlatividades del anexo no fue provisto en el texto original extraído.');
+    assert.equal(checkFormattedComplement(variant).status, 'placeholder-format');
+  });
+
   test('corta una salida truncada por límite de tokens aunque parezca completa', () => {
     const hit = checkFormattedComplement(COMPLETE, { finishReason: 'MAX_TOKENS' });
     assert.equal(hit.status, 'truncated-format');
@@ -79,7 +85,8 @@ describe('checkFormattedComplement', () => {
 describe('scrape_drive conecta la guarda y reintenta los errores', () => {
   test('el formateo devuelve finishReason y valida antes de guardar', async () => {
     const source = await readFile(join(here, '../scrape_drive.mjs'), 'utf8');
-    assert.match(source, /maxOutputTokens: 65536/);
+    assert.match(source, /TRANSCRIPTION_CALL = Object\.freeze\(\{ timeoutMs: 300_000, maxOutputTokens: 65536, thinkingBudget: 0 \}\)/);
+    assert.match(source, /FORMAT_SYSTEM_PROMPT,[\s\S]{0,120}\.\.\.TRANSCRIPTION_CALL/);
     assert.match(source, /checkFormattedComplement\(cleanedGeminiContent, \{\s*finishReason,/);
     assert.ok(source.indexOf('checkFormattedComplement(cleanedGeminiContent') < source.indexOf('mdContent = `${cleanedGeminiContent}'));
   });
@@ -91,9 +98,8 @@ describe('scrape_drive conecta la guarda y reintenta los errores', () => {
     const validateAt = workflow.indexOf('- name: Validate proposed KB before Git mutation');
     assert.ok(applyAt >= 0 && applyAt < freshnessAt && freshnessAt < validateAt);
     const step = workflow.slice(freshnessAt, validateAt);
-    assert.match(step, /freshness_report\.mjs --kb-root=\.\.\/\.\. --format=md --reference-date="\$reference_date" --out=freshness\.md/);
-    assert.match(step, /check_freshness_report\.mjs --kb-root=\./);
-    assert.match(workflow, /git add complementos indice\.json routing_metadata\.json freshness\.md/);
+    assert.match(step, /check_freshness_report\.mjs --kb-root=\. --write\n\s+node tools\/scraper\/check_freshness_report\.mjs --kb-root=\.\n/);
+    assert.match(workflow, /git add freshness\.md complementos indice\.json routing_metadata\.json/);
   });
 
   test('un archivo en estado de error no se saltea como "sin cambios"', async () => {
