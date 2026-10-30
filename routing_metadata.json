@@ -3,7 +3,7 @@
   "lastUpdated": "2026-10-30",
   "description": "Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.",
   "stats": {
-    "academica": 17,
+    "academica": 25,
     "institucional": 24,
     "ciencia": 22,
     "extension": 6,
@@ -13,7 +13,7 @@
     "posgrados_cursos_sin_titulo": 28,
     "grado": 12,
     "tramites_bedelia": 7,
-    "normativa": 10
+    "normativa": 16
   },
   "mappings": {
     "academica/academica.md": {
@@ -1043,6 +1043,90 @@
       "displayName": "Posgrados (Graduados)",
       "title": "Especialización en Tributación",
       "category": "Especialización"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Propuesta de Cursado 2027 para Contador Público",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-propuestas-cursado.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Propuesta de Cursado 2027 para la Licenciatura en Administración",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-propuestas-cursado.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Propuesta de Cursado 2027 para la Licenciatura en Economía (LE)",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-transicion-rdcd-fce-1305429-26-779.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Plan de Transición de la Licenciatura en Economía (Resolución C.D. N° 779/26)",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-transicion-rdcd-fce-1305430-26-777.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "CP - Transición - RDCD_FCE-1305430-26_777",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-transicion-rdcd-fce-1305428-26-778.md": {
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
+      "title": "Plan de Transición y Régimen de Equivalencias para la Licenciatura en Administración (Resolución C.D. N° 778/26)",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-486-26-fce-1303858-26-correlatividades-lic-economia.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Régimen de Correlatividades - Licenciatura en Economía (Resolución C.S. N° 486/26)",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-485-26-fce-1303856-26-modif-lic-econom-a-0a.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Modificación del Plan de Estudios de la Licenciatura en Economía (Resolución CS N° 485/26)",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-483-26-fce-1303854-26-modif-lic-administracion.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "RESOLUCIÓN CS N.º 483/26 - Modificación del Plan de Estudios de la Licenciatura en Administración",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-anterior-cpn-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
+      "title": "CPN Res_ C_S_ Nº 503 del 25-10-18 Expte_ Nº FCE-0941908-18 Aprueba Correlatividades Contador Publico",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-635-del-12-12-19-expte-nordm-fce-1013240-19-aprob-correlatividades-licenciatura-en-economia.md": {
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
+      "title": "Resolución C.S. N° 635/19 - Régimen de Correlatividades Licenciatura en Economía",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-632-del-12-12-19-expte-nordm-fce-1013235-19-modifica-plan-estudio-licenciatura-en-economia.md": {
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
+      "title": "Resolución C.S. N° 632/19 - Modificación del Plan de Estudios de la Licenciatura en Economía",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-anterior-la-res-c-s-nordm-631-del-12-12-19-expte-nordm-fce-1013236-19-plan-de-estudios-licenciatura-en-administracion-fce.md": {
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
+      "title": "Resolución C.S. N° 631/19 - Plan de Estudios Licenciatura en Administración FCE",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-anterior-cpn-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md": {
+      "sector": "normativa",
+      "displayName": "Normativa y Reglamentos",
+      "title": "CPN Res. C.S. 502 del 25-10-18 Expte. FCE-0941917-18 Modificación Plan de Estudios Contador Público",
+      "category": "Complementario"
     }
   }
 }
