@@ -108,7 +108,8 @@ jobs:
           git config user.email 'bot@fce.unl.edu.ar'
           git checkout -B "$branch"
 
-          git add indice.json routing_metadata.json \
+          node tools/scraper/check_freshness_report.mjs --kb-root=. --write
+          git add freshness.md indice.json routing_metadata.json \
             academica docentes institucional ciencia extension internacionales
 
           if git diff --cached --quiet; then

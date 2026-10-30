@@ -1,6 +1,6 @@
 import { afterEach, describe, test } from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdtemp, mkdir, rm, writeFile } from 'node:fs/promises';
+import { mkdtemp, mkdir, rm, writeFile, readFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -97,5 +97,19 @@ describe('freshness report', () => {
       () => checkFreshnessReport({ kbRoot, stateDir }),
       /freshness\.md está desactualizado/,
     );
+    await checkFreshnessReport({ kbRoot, stateDir, write: true });
+    await checkFreshnessReport({ kbRoot, stateDir });
   });
+});
+
+
+describe('proposal freshness contract', () => {
+  for (const workflow of ['ingest-drive', 'propose-students-kb', 'sync-kb', 'propose-sections-kb', 'propose-courses-kb', 'propose-posgrado-courses-kb']) {
+    test(workflow + ' regenerates and stages the report', async () => {
+      const source = await readFile(new URL('../../../.github/workflows/' + workflow + '.yml', import.meta.url), 'utf8');
+      const refresh = source.indexOf('node tools/scraper/check_freshness_report.mjs --kb-root=. --write');
+      const stage = source.indexOf('git add freshness.md');
+      assert.ok(refresh >= 0 && stage > refresh);
+    });
+  }
 });

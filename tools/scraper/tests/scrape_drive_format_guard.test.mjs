@@ -91,9 +91,8 @@ describe('scrape_drive conecta la guarda y reintenta los errores', () => {
     const validateAt = workflow.indexOf('- name: Validate proposed KB before Git mutation');
     assert.ok(applyAt >= 0 && applyAt < freshnessAt && freshnessAt < validateAt);
     const step = workflow.slice(freshnessAt, validateAt);
-    assert.match(step, /freshness_report\.mjs --kb-root=\.\.\/\.\. --format=md --reference-date="\$reference_date" --out=freshness\.md/);
-    assert.match(step, /check_freshness_report\.mjs --kb-root=\./);
-    assert.match(workflow, /git add complementos indice\.json routing_metadata\.json freshness\.md/);
+    assert.match(step, /check_freshness_report\.mjs --kb-root=\. --write\n\s+node tools\/scraper\/check_freshness_report\.mjs --kb-root=\.\n/);
+    assert.match(workflow, /git add freshness\.md complementos indice\.json routing_metadata\.json/);
   });
 
   test('un archivo en estado de error no se saltea como "sin cambios"', async () => {
