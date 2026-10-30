@@ -111,6 +111,18 @@ jobs:
             echo "confirmed_removal_applied=false" >> "$GITHUB_OUTPUT"
           fi
 
+      # freshness.md se deriva de indice.json: sin regenerarlo, toda alta o baja
+      # de complementos hace fallar Validate KB en la PR (caso #341, 30/10/2026).
+      - name: Refresh canonical freshness after Drive updates
+        if: inputs.mode != 'dry-run'
+        run: |
+          set -euo pipefail
+          # Keep the reference date; regeneration does not assert a human review.
+          reference_date=$(sed -n 's/^\*\*Generado el:\*\* \([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]\)$/\1/p' freshness.md)
+          test -n "$reference_date" || { echo 'Missing freshness reference date.' >&2; exit 1; }
+          node tools/scraper/freshness_report.mjs --kb-root=../.. --format=md --reference-date="$reference_date" --out=freshness.md
+          node tools/scraper/check_freshness_report.mjs --kb-root=.
+
       # Fail before git config, checkout, staging, commit, push or PR mutation.
       # These are the same deterministic validations used by Validate KB.
       - name: Validate proposed KB before Git mutation
@@ -136,7 +148,7 @@ jobs:
           git config user.email 'bot@fce.unl.edu.ar'
           git checkout -B "$branch"
 
-          git add complementos indice.json routing_metadata.json \
+          git add complementos indice.json routing_metadata.json freshness.md \
             tools/scraper/state/complementos/drive.meta.json
 
           if git diff --cached --quiet; then
