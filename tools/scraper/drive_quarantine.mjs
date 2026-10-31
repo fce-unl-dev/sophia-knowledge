@@ -35,7 +35,7 @@ const RULES = [
   },
   {
     kind: 'transcripcion-incompleta',
-    test: (message) => /declara contenido faltante|caracteres útiles.*aunque el texto extraído/i.test(message),
+    test: (message) => /declara contenido faltante|caracteres útiles.*aunque el texto extraído|no conservó las tablas|identificadores del original/i.test(message),
     advice: () => 'No se pudo transcribir parte del contenido (frecuente con tablas como imagen). Se reintenta solo; si persiste, subí la tabla como Hoja de cálculo de Google.',
   },
   {

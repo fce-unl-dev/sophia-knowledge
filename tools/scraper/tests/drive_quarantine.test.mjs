@@ -28,6 +28,11 @@ describe('diagnoseDriveError', () => {
       'el formateo de el documento "LE 486.pdf" declara contenido faltante ("Contenido no provisto"). El documento quedaría con apartados vacíos.', /Hoja de cálculo de Google/],
     ['transcripcion-incompleta', pdf,
       'el formateo de el documento "x.pdf" devolvió 0 caracteres útiles, por debajo del mínimo de 200, aunque el texto extraído superó el piso.', /Se reintenta solo/],
+    // Mensajes reales de la corrida 41203878724 (31/10/2026).
+    ['transcripcion-incompleta', pdf,
+      'el formateo de el documento "LA 484.pdf" perdió 3 de 3 identificadores del original (fce-1303857-26, 755/26, 483/26). Probablemente resumió contenido que debía transcribir.', /Se reintenta solo/],
+    ['transcripcion-incompleta', pdf,
+      'el formateo de el documento "CP 482.pdf" no conservó las tablas: faltan [[TABLA_2]]. El documento quedaría con tablas perdidas.', /Hoja de cálculo de Google/],
     ['transitorio', pdf, 'This operation was aborted', /no hace falta hacer nada/],
     ['transitorio', pdf, 'Gemini response sin texto: {"candidates":[]}', /no hace falta hacer nada/],
     ['otro', pdf, 'algo inesperado', /log de la corrida/],

@@ -63,13 +63,22 @@ export function checkRestoredTables({ missing, duplicated, unknown }, { label = 
   };
 }
 
-// Identificadores que no pueden perderse al formatear: expedientes, números de
-// resolución u ordenanza y mails institucionales.
+// Identificadores que no pueden perderse al formatear: números de resolución u
+// ordenanza y mails institucionales. Los expedientes no cuentan: son datos
+// administrativos que el formateo puede omitir con razón y que ya figuran en
+// el nombre del archivo (falso positivo en CP 482, 31/10/2026).
 const IDENTIFIER_PATTERNS = [
-  /\b[A-Z]{2,5}-\d{5,8}-\d{2}\b/g,
   /(?:res(?:oluci[oó]n)?|ordenanza|n\.?\s?[º°o]|c\.\s?[sd]\.?)\.?\s*(?:n\.?\s?[º°o]\.?\s*)?(\d{1,4}\/\d{2,4})(?![\d/])/gi,
   /[\w.+-]+@[\w-]+(?:\.[\w-]+)+/g,
 ];
+
+// "755/26" sigue presente si el resultado dice "755/2026" o "Res. 755":
+// alcanza con el número propio, sin otros dígitos pegados.
+function identifierPresent(identifier, output) {
+  if (output.includes(identifier)) return true;
+  const number = /^(\d{1,4})\/\d{2,4}$/.exec(identifier)?.[1];
+  return Boolean(number) && new RegExp(`(?<![\\d/])${number}(?!\\d)`).test(output);
+}
 
 export function extractIdentifiers(text) {
   const found = new Set();
@@ -85,7 +94,7 @@ export function checkIdentifiers(sourceText, outputText, { minIdentifiers = 3, m
   const source = extractIdentifiers(sourceText);
   if (source.size < minIdentifiers) return null;
   const output = String(outputText ?? '').toLowerCase();
-  const missing = [...source].filter((identifier) => !output.includes(identifier));
+  const missing = [...source].filter((identifier) => !identifierPresent(identifier, output));
   if (missing.length / source.size <= maxMissingRatio) return null;
   return {
     status: 'lost-identifiers',

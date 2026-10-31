@@ -104,6 +104,16 @@ jobs:
           node drive_quarantine.mjs markdown "$report" > "$RUNNER_TEMP/drive-quarantine.md"
           cat "$RUNNER_TEMP/drive-quarantine.md" >> "$GITHUB_STEP_SUMMARY"
 
+      # Lo que la guarda rechazó, para inspeccionarlo en vez de adivinar.
+      - name: Upload rejected Drive transcriptions
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: drive-rejected-${{ github.run_id }}
+          path: tools/scraper/state/complementos/rejected/
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Stop on dry-run
         if: inputs.mode == 'dry-run'
         run: |
