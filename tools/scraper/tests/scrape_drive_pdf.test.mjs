@@ -38,6 +38,18 @@ describe('extractPdfText (PDF multimodal-first)', () => {
     assert.equal(captured.maxOutputTokens, 65536);
   });
 
+  test('avisa cuando la extracción multimodal no termina en STOP', async () => {
+    const warnings = [];
+    await extractPdfText(buffer, {
+      apiKey: 'KEY',
+      pdfParseImpl: async () => ({ text: 'texto plano', numpages: 1 }),
+      callGeminiImpl: async () => ({ text: '| a |\n'.repeat(10), raw: { candidates: [{ finishReason: 'MAX_TOKENS' }] } }),
+      logImpl: { warn: (message) => warnings.push(message) },
+    });
+    assert.equal(warnings.length, 1);
+    assert.match(warnings[0], /MAX_TOKENS: \d+ caracteres \(pdf-parse: 11\)/);
+  });
+
   test('si el multimodal falla, cae a pdf-parse', async () => {
     const out = await extractPdfText(buffer, {
       apiKey: 'KEY',
