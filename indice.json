@@ -1,5 +1,5 @@
 {
-  "version": 66,
+  "version": 67,
   "lastUpdated": "2026-10-31",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
@@ -1161,6 +1161,20 @@
       "category": "Complementario",
       "sector": "academica",
       "canonicalUrl": "https://drive.google.com/file/d/1ZZutyUOhnsZTeZtyaGngkU4hdoaY0Mv7/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-481-26-fce-1303853-26-modif-contador-publico.md",
+      "title": "Modificación del Plan de Estudios de la Carrera de Contador Público (Resolución CS N° 481/26)",
+      "category": "Complementario",
+      "sector": "academica",
+      "canonicalUrl": "https://drive.google.com/file/d/1XBkB87WYxCmUiPu_rqAkAlnjK8SKH3CE/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/04-posgrado-info-costos-carrera-para-la-ia.md",
+      "title": "Info costos carrera para la IA",
+      "category": "Complementario",
+      "sector": "posgrados_graduados",
+      "canonicalUrl": "https://docs.google.com/spreadsheets/d/1z9qO4IpYjOW5jC2ccsRHUaqnFmK0rOWX9Tzy6rneY_k/edit?usp=drivesdk"
     }
   ]
 }

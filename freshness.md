@@ -54,6 +54,7 @@
 | `complementos/02-grado-res-c-s-n-504-del-25-11-18-expte-n-fce-0941913-18-aprueba-plan-transicion-contador-publico.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/02-grado-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/02-grado-resolucion2598-2023.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `complementos/04-posgrado-info-costos-carrera-para-la-ia.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/04-posgrado-manual-alumnos-carga-de-comprobantes-de-pago.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/04-posgrado-requisitos-de-inscripcion-curso-posgrado.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/06-reglamentos-y-normas-deroga-resoluciones-anteriores-re.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
@@ -66,6 +67,7 @@
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-la-res-c-s-nordm-631-del-12-12-19-expte-nordm-fce-1013236-19-plan-de-estudios-licenciatura-en-administracion-fce.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-632-del-12-12-19-expte-nordm-fce-1013235-19-modifica-plan-estudio-licenciatura-en-economia.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-635-del-12-12-19-expte-nordm-fce-1013240-19-aprob-correlatividades-licenciatura-en-economia.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-481-26-fce-1303853-26-modif-contador-publico.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-transicion-rdcd-fce-1305430-26-777.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-483-26-fce-1303854-26-modif-lic-administracion.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |

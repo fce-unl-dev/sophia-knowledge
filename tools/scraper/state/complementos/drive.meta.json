@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-10-31T12:36:38.778Z",
+  "lastSynced": "2026-10-31T13:10:04.906Z",
   "files": {
     "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07": {
       "id": "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07",
@@ -147,9 +147,11 @@
       "modifiedTime": "2026-10-29T20:52:27.788Z",
       "path": "15-Cambio de Planes de Estudio 2027/nuevo/CP 481_26_FCE-1303853-26_Modif__Contador_Publico.pdf",
       "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-cp-481-26-fce-1303853-26-modif-contador-publico",
-      "status": "error",
-      "error": "el formateo de el documento \"15-Cambio de Planes de Estudio 2027/nuevo/CP 481_26_FCE-1303853-26_Modif__Contador_Publico.pdf\" se cortó por límite de tokens de salida. Guardarlo dejaría el documento incompleto sin aviso.",
-      "lastProcessed": "2026-10-30T23:36:00.771Z"
+      "sector": "academica",
+      "status": "synchronized",
+      "hash": "af3b6b52b9903eebfb17675f978d46d8fed81f3b84085ff532325427a5d87856",
+      "webViewLink": "https://drive.google.com/file/d/1XBkB87WYxCmUiPu_rqAkAlnjK8SKH3CE/view?usp=drivesdk",
+      "lastProcessed": "2026-10-31T13:10:04.845Z"
     },
     "1sa3DjCYyY_lLh0zkKsUZzFb2rYvuBWqT": {
       "id": "1sa3DjCYyY_lLh0zkKsUZzFb2rYvuBWqT",
@@ -289,11 +291,10 @@
       "path": "04-Posgrado/Info costos carrera para la IA",
       "slug": "04-posgrado-info-costos-carrera-para-la-ia",
       "sector": "posgrados_graduados",
-      "status": "error",
+      "status": "synchronized",
       "hash": "44b4a9628c953d61c141a654be42fffb5d2d5c32db61f7098e8df8ebc7d6b1e3",
       "webViewLink": "https://docs.google.com/spreadsheets/d/1z9qO4IpYjOW5jC2ccsRHUaqnFmK0rOWX9Tzy6rneY_k/edit?usp=drivesdk",
-      "lastProcessed": "2026-10-31T12:36:38.233Z",
-      "error": "candidato ausente al aplicar"
+      "lastProcessed": "2026-10-31T13:10:04.846Z"
     },
     "1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN": {
       "id": "1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN",
