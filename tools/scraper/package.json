@@ -15,6 +15,7 @@
     "test": "node --test 'tests/*.test.mjs'"
   },
   "dependencies": {
+    "fflate": "^0.8.3",
     "googleapis": "^171.4.0",
     "mammoth": "^1.12.0",
     "pdf-parse": "^1.1.1"
