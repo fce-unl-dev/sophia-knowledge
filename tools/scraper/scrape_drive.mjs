@@ -3,6 +3,7 @@ import pdf from 'pdf-parse';
 import mammoth from 'mammoth';
 import { parseCsv } from './scrape_sheets.mjs';
 import { callGemini, stripMarkdownFence } from './generate_md.mjs';
+import { checkIdentifiers, checkRestoredTables, protectTables, restoreTables } from './table_preservation.mjs';
 import { resolveSectorFromDrivePath, parseSectorResponse, SECTOR_NAMES } from './generate_routing_metadata.mjs';
 import { readFile, writeFile, mkdir, unlink } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -11,7 +12,6 @@ import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
 import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
-import { checkIdentifiers, checkRestoredTables, protectTables, restoreTables } from './table_preservation.mjs';
 
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));

@@ -2,6 +2,9 @@
 
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 import { checkIdentifiers, checkRestoredTables, extractIdentifiers, protectTables, restoreTables, tableMarker } from '../table_preservation.mjs';
 
@@ -91,5 +94,29 @@ describe('checkIdentifiers', () => {
 
   test('con menos de tres identificadores no opina', () => {
     assert.equal(checkIdentifiers('Res. 1/26 y Res. 2/26', 'nada'), null);
+  });
+});
+
+describe("integración con la ingesta de Drive", () => {
+  const here = dirname(fileURLToPath(import.meta.url));
+  const scrapeSource = () => readFile(join(here, "../scrape_drive.mjs"), "utf8");
+
+  test("las tablas van como marcadores al modelo y se controlan antes de guardar", async () => {
+    const source = await scrapeSource();
+    const protectAt = source.indexOf("protectTables(extractedText, { sanitize: sanitizeKbMarkdown })");
+    const formatAt = source.indexOf("formatComplementWithGemini(apiKey, file, protectedText");
+    const restoreAt = source.indexOf("restoreTables(cleanedGeminiContent, tables)");
+    const saveAt = source.indexOf("mdContent = `${cleanedGeminiContent}");
+    assert.ok(protectAt > 0 && protectAt < formatAt && formatAt < restoreAt && restoreAt < saveAt);
+    assert.match(source.slice(restoreAt, saveAt), /checkRestoredTables\(restored, \{ label \}\)\s*\|\| checkFormattedComplement\([\s\S]*?\|\| checkIdentifiers\(extractedText, cleanedGeminiContent, \{ label \}\)/);
+  });
+
+  test("el prompt ya no pide resumir tablas y explica los marcadores", async () => {
+    const source = await scrapeSource();
+    const start = source.indexOf("const FORMAT_SYSTEM_PROMPT");
+    const prompt = source.slice(start, source.indexOf("`;", start));
+    assert.doesNotMatch(prompt, /resumen estructurado|visión general sintética|NO intentes transcribir/);
+    assert.match(prompt, /\[\[TABLA_1\]\]/);
+    assert.match(prompt, /Copiá cada marcador exactamente una vez/);
   });
 });
