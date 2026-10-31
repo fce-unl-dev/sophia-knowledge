@@ -26,9 +26,7 @@ Planilla de datos complementarios extraída de Google Drive.
 | Diplomatura Universitaria Superior en fortalecimiento y desarrollo de las empresas familiares | no hay fecha definida | no hay fecha definida | Actualmente no hay información de costo/Valores de Matricula. |
 | Diplomatura Universitaria Superior en Operatoria y Analisis de mercados financieros | abr-27 | dic-26 | Actualmente no hay información de costo/Valores de Matricula. Se dispondrá de los mismos con la apertura de inscripciones |
 | Diplomatura Universitaria Superior en empresas en crisis y procesos de insolvencia | no hay fecha definida | no hay fecha definida | Actualmente no hay información de costo/Valores de Matricula. |
-| Diplomatura Universitaria Superior en bionegocios | oct-26 | estan abiertas | Información de contacto
-WhatsApp: 362 421 5114
-ecoposgrado@comunidad.unne.edu.ar |
+| Diplomatura Universitaria Superior en bionegocios | oct-26 | estan abiertas | Información de contacto · WhatsApp: 362 421 5114 · ecoposgrado@comunidad.unne.edu.ar |
 
 ---
 
