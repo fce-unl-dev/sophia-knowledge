@@ -12,6 +12,7 @@ import { join, dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
+import { applyProvisionalNotice, isProvisional, stripProvisionalTag } from './provisional_notice.mjs';
 import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
 import { diagnoseDriveError, writeRunReport } from './drive_quarantine.mjs';
 
@@ -1004,14 +1005,18 @@ Env:
   const runErrors = [];
 
   for (const file of driveFiles) {
-    const slug = slugify(file.path.replace(/\.[^/.]+$/, ""));
+    // La marca [PROVISORIO] no cuenta para el slug: al quitarla se regenera el mismo documento.
+    const slug = slugify(stripProvisionalTag(file.path).replace(/\.[^/.]+$/, ""));
+    const provisional = isProvisional(file);
     let sector = resolveSectorFromDrivePath(file.path) || undefined;
     const prevFile = driveState.files[file.id];
     
     // Check if unchanged. Un archivo que falló, o un candidato que nunca llegó
     // al KB, se reintenta aunque Drive no lo haya modificado: su estado guarda
     // el mismo modifiedTime y, sin esta condición, quedaría salteado para siempre.
+    // Poner o quitar la marca [PROVISORIO] obliga a regenerar el documento.
     const hasChanged = values['force'] || !prevFile || RETRY_STATUSES.has(prevFile.status)
+      || Boolean(prevFile.provisional) !== provisional
       || prevFile.modifiedTime !== file.modifiedTime || prevFile.slug !== slug;
 
     if (!hasChanged) {
@@ -1060,7 +1065,8 @@ Env:
       // salteara acá, no generaría candidato y quedaría trabado para siempre
       // (planilla de costos de posgrado, 31/10/2026).
       const textHash = getSha256(extractedText);
-      if (prevFile && prevFile.hash === textHash && !values['force'] && !RETRY_STATUSES.has(prevFile.status)) {
+      if (prevFile && prevFile.hash === textHash && !values['force'] && !RETRY_STATUSES.has(prevFile.status)
+        && Boolean(prevFile.provisional) === provisional) {
         console.log(`  [Skip] ${file.path} tiene el mismo contenido hash.`);
         newFilesState[file.id] = {
           ...prevFile,
@@ -1167,6 +1173,8 @@ Env:
         mdContent += '\n';
       }
 
+      if (provisional) mdContent = applyProvisionalNotice(mdContent);
+
       // 5. Save candidate file
       if (values['write-candidates']) {
         const candPath = join(candidatesDir, `${slug}.md`);
@@ -1182,6 +1190,7 @@ Env:
           path: file.path,
           slug,
           sector,
+          provisional,
           status: 'candidate',
           hash: textHash,
           webViewLink: file.webViewLink,
