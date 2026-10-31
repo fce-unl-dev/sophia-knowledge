@@ -941,9 +941,12 @@ Env:
         }
       }
 
-      // 2. Hash check
+      // 2. Hash check. Solo saltea lo que ya está sincronizado: un reintento
+      // (error o candidato que nunca llegó al KB) tiene el mismo hash y, si se
+      // salteara acá, no generaría candidato y quedaría trabado para siempre
+      // (planilla de costos de posgrado, 31/10/2026).
       const textHash = getSha256(extractedText);
-      if (prevFile && prevFile.hash === textHash && !values['force']) {
+      if (prevFile && prevFile.hash === textHash && !values['force'] && !RETRY_STATUSES.has(prevFile.status)) {
         console.log(`  [Skip] ${file.path} tiene el mismo contenido hash.`);
         newFilesState[file.id] = {
           ...prevFile,

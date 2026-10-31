@@ -108,4 +108,11 @@ describe('scrape_drive conecta la guarda y reintenta los errores', () => {
     const { RETRY_STATUSES } = await import('../scrape_drive.mjs');
     assert.deepEqual([...RETRY_STATUSES].sort(), ['candidate', 'error']);
   });
+
+  test('un reintento con el mismo contenido no se saltea por hash', async () => {
+    // Caso real 31/10/2026: la planilla de costos se reintentaba, el hash
+    // coincidía, no se generaba candidato y el apply volvía a fallar.
+    const source = await readFile(join(here, '../scrape_drive.mjs'), 'utf8');
+    assert.match(source, /prevFile\.hash === textHash && !values\['force'\] && !RETRY_STATUSES\.has\(prevFile\.status\)/);
+  });
 });
