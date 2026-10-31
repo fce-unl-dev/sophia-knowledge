@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-10-31T13:33:59.920Z",
+  "lastSynced": "2026-10-31T13:53:28.346Z",
   "files": {
     "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07": {
       "id": "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07",
@@ -138,9 +138,11 @@
       "modifiedTime": "2026-10-29T20:52:34.660Z",
       "path": "15-Cambio de Planes de Estudio 2027/nuevo/CP 482_26_FCE-1303855-26_Correlatividades_-_CP.pdf",
       "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-cp-482-26-fce-1303855-26-correlatividades-cp",
-      "status": "error",
-      "error": "el formateo de el documento \"15-Cambio de Planes de Estudio 2027/nuevo/CP 482_26_FCE-1303855-26_Correlatividades_-_CP.pdf\" se cortó por límite de tokens de salida. Guardarlo dejaría el documento incompleto sin aviso.",
-      "lastProcessed": "2026-10-30T23:30:47.702Z"
+      "sector": "academica",
+      "status": "synchronized",
+      "hash": "20fcbd5f3bd0c0a316e3806292f765565e58fce460a82020a903f4e3432d27b7",
+      "webViewLink": "https://drive.google.com/file/d/1nXq6P5uWg1kLpoeTwj5L9h-74Zp-eA8Z/view?usp=drivesdk",
+      "lastProcessed": "2026-10-31T13:53:28.297Z"
     },
     "1XBkB87WYxCmUiPu_rqAkAlnjK8SKH3CE": {
       "id": "1XBkB87WYxCmUiPu_rqAkAlnjK8SKH3CE",
