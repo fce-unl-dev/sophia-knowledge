@@ -14,6 +14,7 @@ import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
 import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
 import { diagnoseDriveError, writeRunReport } from './drive_quarantine.mjs';
+import { checkUploadHygiene, fileSummary, personalDataWarning, scanPersonalData } from './drive_upload_checks.mjs';
 
 export const RUN_REPORT_FILE = 'last_run_report.json';
 export const REJECTED_DIR = 'rejected';
@@ -683,7 +684,8 @@ async function listFilesRecursively(drive, folderId, folderPath = '') {
   do {
     const res = await drive.files.list({
       q: `'${folderId}' in parents and trashed = false`,
-      fields: 'nextPageToken, files(id, name, mimeType, modifiedTime, md5Checksum, size, webViewLink)',
+      // Quién subió o modificó cada archivo: a esa persona le llega el aviso.
+      fields: 'nextPageToken, files(id, name, mimeType, modifiedTime, md5Checksum, size, webViewLink, lastModifyingUser(displayName, emailAddress), owners(displayName, emailAddress))',
       pageToken,
     });
     const items = res.data.files || [];
@@ -1002,6 +1004,9 @@ Env:
   let skippedDuplicate = 0;
   let errorCount = 0;
   const runErrors = [];
+  const runProcessed = [];
+  // Avisos de higiene sobre el inventario completo (no bloquean la ingesta).
+  const runWarnings = checkUploadHygiene(driveFiles);
 
   for (const file of driveFiles) {
     const slug = slugify(file.path.replace(/\.[^/.]+$/, ""));
@@ -1040,6 +1045,9 @@ Env:
       // Tablas inventadas o con materias faltantes en la transcripción (LA 484).
       const sanityHit = checkTranscriptionSanity(extractedText, { label: `el documento "${file.path}"` });
       if (sanityHit) throw new Error(sanityHit.reason);
+
+      const personalData = scanPersonalData(extractedText);
+      if (personalData.length) runWarnings.push(personalDataWarning(file, personalData));
 
       // La carpeta no matcheó ningún alias: resolvemos el sector con IA.
       if (!sector) {
@@ -1205,6 +1213,7 @@ Env:
       }
 
       processedCount++;
+      runProcessed.push(fileSummary(file));
 
     } catch (err) {
       console.error(`  [Error] No se pudo procesar ${file.path}:`, err.message);
@@ -1314,7 +1323,7 @@ Env:
 
   // Reporte de la corrida para la cuarentena visible (resumen, PR e issue).
   // No se commitea: describe esta corrida, no el estado del KB.
-  await writeRunReport(join(stateDir, RUN_REPORT_FILE), runErrors);
+  await writeRunReport(join(stateDir, RUN_REPORT_FILE), runErrors, undefined, { processed: runProcessed, warnings: runWarnings });
 
   // Summary Report
   console.log('\n--- Resumen de Ingesta ---');

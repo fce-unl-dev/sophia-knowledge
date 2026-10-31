@@ -20,17 +20,15 @@ test('una celda de planilla con saltos de línea o barras no rompe la tabla', ()
   assert.equal(lines[3], '| A \\| B | x |');
 });
 
-test('el scrape guarda lo rechazado y el workflow lo sube como artefacto', async () => {
+test('el scrape guarda lo rechazado y solo sale por mail al responsable', async () => {
   const source = await readFile(join(here, '../scrape_drive.mjs'), 'utf8');
   assert.equal(REJECTED_DIR, 'rejected');
   const hitAt = source.indexOf('if (formatHit) {');
   const block = source.slice(hitAt, source.indexOf('throw new Error(formatHit.reason)', hitAt));
   assert.match(block, /writeFile\(join\(stateDir, REJECTED_DIR, `\$\{slug\}\.md`\)/);
 
+  // El repo es público: un artefacto del run lo podría bajar cualquiera.
   const workflow = await readFile(join(here, '../../../.github/workflows/ingest-drive.yml'), 'utf8');
-  const step = workflow.slice(workflow.indexOf('- name: Upload rejected Drive transcriptions'), workflow.indexOf('- name: Stop on dry-run'));
-  assert.match(step, /if: always\(\)/);
-  assert.match(step, /uses: actions\/upload-artifact@v4/);
-  assert.match(step, /path: tools\/scraper\/state\/complementos\/rejected\//);
-  assert.match(step, /if-no-files-found: ignore/);
+  assert.doesNotMatch(workflow, /upload-artifact/);
+  assert.match(workflow, /send_drive_notifications\.mjs \\\n\s+tools\/scraper\/state\/complementos\/last_run_report\.json "\$state" \\\n\s+tools\/scraper\/state\/complementos\/rejected/);
 });

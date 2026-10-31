@@ -104,16 +104,6 @@ jobs:
           node drive_quarantine.mjs markdown "$report" > "$RUNNER_TEMP/drive-quarantine.md"
           cat "$RUNNER_TEMP/drive-quarantine.md" >> "$GITHUB_STEP_SUMMARY"
 
-      # Lo que la guarda rechazó, para inspeccionarlo en vez de adivinar.
-      - name: Upload rejected Drive transcriptions
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: drive-rejected-${{ github.run_id }}
-          path: tools/scraper/state/complementos/rejected/
-          if-no-files-found: ignore
-          retention-days: 14
-
       - name: Stop on dry-run
         if: inputs.mode == 'dry-run'
         run: |
@@ -296,6 +286,50 @@ jobs:
           elif [ -n "$number" ]; then
             gh issue close "$number" --comment "La corrida $run_url procesó todos los archivos de Drive."
           fi
+
+      # Aviso a quien subió cada documento: qué problema tuvo, qué hacer la
+      # próxima vez y cuándo quedó resuelto. Solo envía si la variable del repo
+      # DRIVE_NOTIFY_UPLOADERS es true; si no, muestra la vista previa en el
+      # resumen. El repo es público: el estado vive en su propia rama y guarda
+      # claves archivo+versión+tipo, nunca mails. Las transcripciones rechazadas
+      # van solo al responsable, por mail, nunca como artefacto público.
+      - name: Notify uploaders
+        if: always() && inputs.mode != 'dry-run' && steps.scrape.outcome == 'success'
+        env:
+          DRIVE_NOTIFY_UPLOADERS: ${{ vars.DRIVE_NOTIFY_UPLOADERS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NOTIFICATION_EMAIL_FROM: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
+          NOTIFICATION_EMAIL_TO: ${{ secrets.NOTIFICATION_EMAIL_TO }}
+        run: |
+          set -euo pipefail
+          state_branch=drive-notifications-state
+          state="$RUNNER_TEMP/notifications.json"
+          if git fetch --quiet origin "$state_branch" 2>/dev/null; then
+            git show "FETCH_HEAD:notifications.json" > "$state" 2>/dev/null || echo '{}' > "$state"
+          else
+            echo '{}' > "$state"
+          fi
+          before=$(sha256sum "$state")
+          node tools/scraper/send_drive_notifications.mjs \
+            tools/scraper/state/complementos/last_run_report.json "$state" \
+            tools/scraper/state/complementos/rejected >> "$GITHUB_STEP_SUMMARY"
+          if [ "$(sha256sum "$state")" = "$before" ]; then exit 0; fi
+          dir="$RUNNER_TEMP/notifications-state"
+          git worktree add --detach "$dir" >/dev/null
+          cd "$dir"
+          if git fetch --quiet origin "$state_branch" 2>/dev/null; then
+            git checkout --quiet FETCH_HEAD
+          else
+            git checkout --quiet --orphan "$state_branch"
+            git rm -rf --quiet .
+          fi
+          cp "$state" notifications.json
+          git add notifications.json
+          git -c user.name='sophia-kb-bot' -c user.email='bot@fce.unl.edu.ar' commit --quiet -m 'chore: estado de avisos de Drive'
+          git push --quiet origin "HEAD:refs/heads/$state_branch"
 
       # Las bajas masivas ya quedaron bloqueadas por la guarda del scraper, pero
       # un run verde no las haría notar: sin esto el pipeline vuelve a fallar en
