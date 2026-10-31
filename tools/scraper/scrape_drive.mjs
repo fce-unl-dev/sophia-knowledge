@@ -1,6 +1,7 @@
 import { google } from 'googleapis';
 import pdf from 'pdf-parse';
 import mammoth from 'mammoth';
+import { pptxToText, xlsxToMarkdown } from './office_formats.mjs';
 import { parseCsv } from './scrape_sheets.mjs';
 import { callGemini, stripMarkdownFence } from './generate_md.mjs';
 import { resolveSectorFromDrivePath, parseSectorResponse, SECTOR_NAMES } from './generate_routing_metadata.mjs';
@@ -11,15 +12,14 @@ import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
 import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
-import { pptxToText, xlsxToMarkdown } from './office_formats.mjs';
-
-export const XLSX_MIME = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
-export const PPTX_MIME = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
-export const IMAGE_MIMES = new Set(['image/png', 'image/jpeg', 'image/webp']);
 
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));
 const defaultStateDir = resolve(here, 'state/complementos');
+
+export const XLSX_MIME = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+export const PPTX_MIME = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
+export const IMAGE_MIMES = new Set(['image/png', 'image/jpeg', 'image/webp']);
 const defaultKbRoot = resolve(here, '../..');
 
 // Helper to calculate sha256 hash of a string or buffer
