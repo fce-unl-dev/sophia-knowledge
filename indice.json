@@ -1,6 +1,6 @@
 {
-  "version": 65,
-  "lastUpdated": "2026-10-30",
+  "version": 66,
+  "lastUpdated": "2026-10-31",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -1154,6 +1154,13 @@
       "category": "Complementario",
       "sector": "academica",
       "canonicalUrl": "https://drive.google.com/file/d/16YPLZ1JP45NyvZKgNdxhQTunMERmWjJ6/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/15-cambio-de-planes-de-estudio-2027-anterior-la-441-25-fce-1246305-25-correlatividades-lic-administracion.md",
+      "title": "Régimen de Correlatividades de la Licenciatura en Administración (Res. C.S. N° 441/25)",
+      "category": "Complementario",
+      "sector": "academica",
+      "canonicalUrl": "https://drive.google.com/file/d/1ZZutyUOhnsZTeZtyaGngkU4hdoaY0Mv7/view?usp=drivesdk"
     }
   ]
 }
