@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-10-30T23:53:04.879Z",
+  "lastSynced": "2026-10-31T12:36:38.778Z",
   "files": {
     "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07": {
       "id": "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07",
@@ -197,9 +197,11 @@
       "modifiedTime": "2026-10-29T20:54:14.668Z",
       "path": "15-Cambio de Planes de Estudio 2027/anterior/LA 441_25_FCE-1246305-25_Correlatividades_Lic__Administracion.pdf",
       "slug": "15-cambio-de-planes-de-estudio-2027-anterior-la-441-25-fce-1246305-25-correlatividades-lic-administracion",
-      "status": "error",
-      "error": "el formateo de el documento \"15-Cambio de Planes de Estudio 2027/anterior/LA 441_25_FCE-1246305-25_Correlatividades_Lic__Administracion.pdf\" se cortó por límite de tokens de salida. Guardarlo dejaría el documento incompleto sin aviso.",
-      "lastProcessed": "2026-10-30T23:47:31.885Z"
+      "sector": "academica",
+      "status": "synchronized",
+      "hash": "56b3859da290005dd3f4986ce57971d02a46756b546bd9134e28eb1c058c922c",
+      "webViewLink": "https://drive.google.com/file/d/1ZZutyUOhnsZTeZtyaGngkU4hdoaY0Mv7/view?usp=drivesdk",
+      "lastProcessed": "2026-10-31T12:36:38.743Z"
     },
     "1apuo0yvftD1k4HOSjaaM_6q54KO2jThK": {
       "id": "1apuo0yvftD1k4HOSjaaM_6q54KO2jThK",
@@ -287,10 +289,11 @@
       "path": "04-Posgrado/Info costos carrera para la IA",
       "slug": "04-posgrado-info-costos-carrera-para-la-ia",
       "sector": "posgrados_graduados",
-      "status": "candidate",
+      "status": "error",
       "hash": "44b4a9628c953d61c141a654be42fffb5d2d5c32db61f7098e8df8ebc7d6b1e3",
       "webViewLink": "https://docs.google.com/spreadsheets/d/1z9qO4IpYjOW5jC2ccsRHUaqnFmK0rOWX9Tzy6rneY_k/edit?usp=drivesdk",
-      "lastProcessed": "2026-10-30T23:53:03.891Z"
+      "lastProcessed": "2026-10-31T12:36:38.233Z",
+      "error": "candidato ausente al aplicar"
     },
     "1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN": {
       "id": "1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN",

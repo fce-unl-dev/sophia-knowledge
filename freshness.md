@@ -62,6 +62,7 @@
 | `complementos/06-reglamentos-y-normas-resolucion-cd640-25.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-cpn-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-cpn-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `complementos/15-cambio-de-planes-de-estudio-2027-anterior-la-441-25-fce-1246305-25-correlatividades-lic-administracion.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-la-res-c-s-nordm-631-del-12-12-19-expte-nordm-fce-1013236-19-plan-de-estudios-licenciatura-en-administracion-fce.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-632-del-12-12-19-expte-nordm-fce-1013235-19-modifica-plan-estudio-licenciatura-en-economia.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-635-del-12-12-19-expte-nordm-fce-1013240-19-aprob-correlatividades-licenciatura-en-economia.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
