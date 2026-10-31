@@ -3,7 +3,7 @@
   "lastUpdated": "2026-10-31",
   "description": "Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.",
   "stats": {
-    "academica": 27,
+    "academica": 28,
     "institucional": 24,
     "ciencia": 22,
     "extension": 6,
@@ -1144,6 +1144,12 @@
       "sector": "posgrados_graduados",
       "displayName": "Posgrados (Graduados)",
       "title": "Info costos carrera para la IA",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-484-26-fce-1303857-26-correlatividades-la.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Régimen de Correlatividades de la Licenciatura en Administración (Resolución CS n.º 484/26)",
       "category": "Complementario"
     }
   }
