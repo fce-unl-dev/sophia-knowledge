@@ -1,7 +1,7 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { extractPdfText, PDF_EXTRACTION_SYSTEM } from '../scrape_drive.mjs';
+import { extractPdfText, PDF_CHUNK_MAX_OUTPUT_TOKENS, PDF_CHUNK_PAGES, PDF_EXTRACTION_SYSTEM, TranscriptionLoopError } from '../scrape_drive.mjs';
 
 const buffer = Buffer.from('%PDF-1.7 fake bytes');
 const silentLog = { warn() {} };
@@ -35,19 +35,67 @@ describe('extractPdfText (PDF multimodal-first)', () => {
     // Plazo largo y sin razonamiento: con los defaults abortaban los PDF largos (30/10/2026).
     assert.equal(captured.timeoutMs, 300_000);
     assert.equal(captured.thinkingBudget, 0);
-    assert.equal(captured.maxOutputTokens, 65536);
+    // Tope por tramo: un bucle se corta rápido (LA 484, 31/10/2026).
+    assert.equal(captured.maxOutputTokens, PDF_CHUNK_MAX_OUTPUT_TOKENS);
+    assert.match(captured.userPrompt, /contenido completo/);
   });
 
-  test('avisa cuando la extracción multimodal no termina en STOP', async () => {
-    const warnings = [];
-    await extractPdfText(buffer, {
-      apiKey: 'KEY',
-      pdfParseImpl: async () => ({ text: 'texto plano', numpages: 1 }),
-      callGeminiImpl: async () => ({ text: '| a |\n'.repeat(10), raw: { candidates: [{ finishReason: 'MAX_TOKENS' }] } }),
-      logImpl: { warn: (message) => warnings.push(message) },
+  describe('lectura por tramos de páginas', () => {
+    // Doble que contesta según el rango pedido y simula bucles en los rangos indicados.
+    function pagedGemini(loopRanges = []) {
+      const prompts = [];
+      const impl = async ({ userPrompt }) => {
+        prompts.push(userPrompt);
+        const single = /SOLO la página (\d+)/.exec(userPrompt);
+        const range = /SOLO las páginas (\d+) a (\d+)/.exec(userPrompt);
+        const key = single ? `${single[1]}-${single[1]}` : range ? `${range[1]}-${range[2]}` : '1-todo';
+        if (loopRanges.includes(key)) return { text: '|---'.repeat(50), raw: { candidates: [{ finishReason: 'MAX_TOKENS' }] } };
+        return { text: `[páginas ${key}]`, raw: { candidates: [{ finishReason: 'STOP' }] } };
+      };
+      return { impl, prompts };
+    }
+
+    test('parte un PDF largo en tramos de cuatro páginas, en orden', async () => {
+      const { impl, prompts } = pagedGemini();
+      const out = await extractPdfText(buffer, {
+        apiKey: 'KEY', pdfParseImpl: async () => ({ text: 'x', numpages: 10 }), callGeminiImpl: impl, logImpl: silentLog,
+      });
+      assert.equal(PDF_CHUNK_PAGES, 4);
+      assert.equal(out, '[páginas 1-4]\n\n[páginas 5-8]\n\n[páginas 9-10]');
+      assert.match(prompts[0], /Este PDF tiene 10 páginas\. Transcribí SOLO las páginas 1 a 4 \(inclusive\)/);
     });
-    assert.equal(warnings.length, 1);
-    assert.match(warnings[0], /MAX_TOKENS: \d+ caracteres \(pdf-parse: 11\)/);
+
+    test('un tramo en bucle se parte en dos y solo se repite ese tramo', async () => {
+      const warnings = [];
+      const { impl, prompts } = pagedGemini(['5-8']);
+      const out = await extractPdfText(buffer, {
+        apiKey: 'KEY', pdfParseImpl: async () => ({ text: 'x', numpages: 8 }), callGeminiImpl: impl,
+        logImpl: { warn: (message) => warnings.push(message) },
+      });
+      assert.equal(out, '[páginas 1-4]\n\n[páginas 5-6]\n\n[páginas 7-8]');
+      assert.equal(prompts.length, 4);
+      assert.match(warnings[0], /páginas 5-8 terminaron con MAX_TOKENS/);
+    });
+
+    test('una página sola en bucle va a la cuarentena, no a pdf-parse', async () => {
+      // 3 páginas entran en un solo tramo: si ese tramo entra en bucle se
+      // parte en 1-2 y 3, y la página 3 sola vuelve a entrar en bucle.
+      const { impl } = pagedGemini(['1-todo', '3-3']);
+      await assert.rejects(
+        () => extractPdfText(buffer, {
+          apiKey: 'KEY', pdfParseImpl: async () => ({ text: 'x', numpages: 3 }), callGeminiImpl: impl, logImpl: silentLog,
+        }),
+        (error) => error instanceof TranscriptionLoopError && /la página 3 entró en un bucle.*límite de tokens de salida/.test(error.message),
+      );
+    });
+
+    test('sin cantidad de páginas, un bucle en la lectura completa va a la cuarentena', async () => {
+      const { impl } = pagedGemini(['1-todo']);
+      await assert.rejects(
+        () => extractPdfText(buffer, { apiKey: 'KEY', pdfParseImpl: async () => { throw new Error('pdf roto'); }, callGeminiImpl: impl, logImpl: silentLog }),
+        TranscriptionLoopError,
+      );
+    });
   });
 
   test('si el multimodal falla, cae a pdf-parse', async () => {
