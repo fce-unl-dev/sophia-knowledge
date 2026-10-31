@@ -68,6 +68,7 @@
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-632-del-12-12-19-expte-nordm-fce-1013235-19-modifica-plan-estudio-licenciatura-en-economia.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-635-del-12-12-19-expte-nordm-fce-1013240-19-aprob-correlatividades-licenciatura-en-economia.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-481-26-fce-1303853-26-modif-contador-publico.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-482-26-fce-1303855-26-correlatividades-cp.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-transicion-rdcd-fce-1305430-26-777.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-483-26-fce-1303854-26-modif-lic-administracion.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |

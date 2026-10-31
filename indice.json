@@ -1,5 +1,5 @@
 {
-  "version": 68,
+  "version": 69,
   "lastUpdated": "2026-10-31",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
@@ -1182,6 +1182,13 @@
       "category": "Complementario",
       "sector": "academica",
       "canonicalUrl": "https://drive.google.com/file/d/1BdwJt37fmzc9MHGz7tiywHFjlwOhndYj/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-482-26-fce-1303855-26-correlatividades-cp.md",
+      "title": "Régimen de Correlatividades de la carrera de Contador Público (Resolución CS n.º 482/26)",
+      "category": "Complementario",
+      "sector": "academica",
+      "canonicalUrl": "https://drive.google.com/file/d/1nXq6P5uWg1kLpoeTwj5L9h-74Zp-eA8Z/view?usp=drivesdk"
     }
   ]
 }
