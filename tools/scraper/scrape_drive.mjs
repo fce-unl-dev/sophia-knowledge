@@ -1,6 +1,7 @@
 import { google } from 'googleapis';
 import pdf from 'pdf-parse';
 import mammoth from 'mammoth';
+import { pptxToText, xlsxToMarkdown } from './office_formats.mjs';
 import { parseCsv } from './scrape_sheets.mjs';
 import { callGemini, stripMarkdownFence } from './generate_md.mjs';
 import { resolveSectorFromDrivePath, parseSectorResponse, SECTOR_NAMES } from './generate_routing_metadata.mjs';
@@ -18,6 +19,10 @@ export const RUN_REPORT_FILE = 'last_run_report.json';
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));
 const defaultStateDir = resolve(here, 'state/complementos');
+
+export const XLSX_MIME = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet';
+export const PPTX_MIME = 'application/vnd.openxmlformats-officedocument.presentationml.presentation';
+export const IMAGE_MIMES = new Set(['image/png', 'image/jpeg', 'image/webp']);
 const defaultKbRoot = resolve(here, '../..');
 
 // Helper to calculate sha256 hash of a string or buffer
@@ -518,6 +523,28 @@ export async function extractPdfText(buffer, {
   }
 }
 
+export const IMAGE_EXTRACTION_SYSTEM = PDF_EXTRACTION_SYSTEM.replace('Te paso un PDF.', 'Te paso la imagen de un documento (afiche, captura, tabla o foto de un papel).');
+
+// Una imagen no tiene texto embebido: la lectura multimodal es la única vía.
+// Sin credenciales falla, y el archivo queda en la cuarentena en vez de entrar vacío.
+export async function extractImageText(buffer, mimeType, {
+  apiKey = null,
+  model = 'gemini-2.5-flash',
+  callGeminiImpl = callGemini,
+} = {}) {
+  if (!apiKey) throw new Error('No se puede leer una imagen sin GEMINI_API_KEY');
+  const { text } = await callGeminiImpl({
+    apiKey,
+    model,
+    systemInstruction: IMAGE_EXTRACTION_SYSTEM,
+    userPrompt: 'Extraé todo el texto de esta imagen (incluidas las tablas) en markdown.',
+    fileParts: [{ inlineData: { mimeType, data: buffer.toString('base64') } }],
+    temperature: 0,
+    ...TRANSCRIPTION_CALL,
+  });
+  return (text || '').trim();
+}
+
 // Extractor function based on MIME type
 async function extractTextFromFile(drive, file, { apiKey = null, model = 'gemini-2.5-flash' } = {}) {
   const mimeType = file.mimeType;
@@ -541,6 +568,15 @@ async function extractTextFromFile(drive, file, { apiKey = null, model = 'gemini
     return res.data;
   }
 
+  if (mimeType === 'application/vnd.google-apps.presentation') {
+    // Google Slides se exporta a texto plano desde Drive, sin librerías.
+    const res = await drive.files.export({
+      fileId,
+      mimeType: 'text/plain',
+    }, { responseType: 'text' });
+    return res.data;
+  }
+
   // Binary files download
   const res = await drive.files.get({
     fileId,
@@ -550,6 +586,18 @@ async function extractTextFromFile(drive, file, { apiKey = null, model = 'gemini
 
   if (mimeType === 'application/pdf') {
     return extractPdfText(buffer, { apiKey, model });
+  }
+
+  if (mimeType === XLSX_MIME) {
+    return xlsxToMarkdown(buffer);
+  }
+
+  if (mimeType === PPTX_MIME) {
+    return pptxToText(buffer);
+  }
+
+  if (IMAGE_MIMES.has(mimeType)) {
+    return extractImageText(buffer, mimeType, { apiKey, model });
   }
 
   if (mimeType === 'application/vnd.openxmlformats-officedocument.wordprocessingml.document') {
@@ -997,6 +1045,9 @@ Env:
       if (isCsv) {
         const mdTable = csvToMarkdownTable(extractedText);
         mdContent = formatCsvAsMarkdownComplement(file.name, file.id, file.modifiedTime, file.webViewLink, mdTable);
+      } else if (file.mimeType === XLSX_MIME) {
+        // Las tablas de Excel ya salen en markdown: copiarlas sin modelo.
+        mdContent = formatCsvAsMarkdownComplement(file.name, file.id, file.modifiedTime, file.webViewLink, extractedText);
       } else {
         const { text: geminiContent, finishReason } = await formatComplementWithGemini(apiKey, file, extractedText, templateContent, values['model']);
 
