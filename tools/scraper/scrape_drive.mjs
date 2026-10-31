@@ -16,6 +16,7 @@ import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN
 import { diagnoseDriveError, writeRunReport } from './drive_quarantine.mjs';
 
 export const RUN_REPORT_FILE = 'last_run_report.json';
+export const REJECTED_DIR = 'rejected';
 
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));
@@ -365,10 +366,14 @@ export function sanitizeKbMarkdown(md) {
 }
 
 // Convert CSV to Markdown table
-function csvToMarkdownTable(csvText) {
+export function csvToMarkdownTable(csvText) {
   const rows = parseCsv(csvText);
   if (rows.length === 0) return '';
-  const cleanRows = rows.map(r => r.map(c => (c || '').trim())).filter(r => r.length > 0 && r.some(c => c !== ''));
+  // Un salto de línea o una barra dentro de una celda rompen la tabla markdown
+  // (planilla de costos de posgrado, 31/10/2026: contacto en tres renglones).
+  const cleanRows = rows
+    .map(r => r.map(c => (c || '').trim().replace(/\|/g, '\\|').replace(/\s*\n\s*/g, ' · ')))
+    .filter(r => r.length > 0 && r.some(c => c !== ''));
   if (cleanRows.length === 0) return '';
   
   const header = cleanRows[0];
@@ -1118,6 +1123,10 @@ Env:
           || checkIdentifiers(extractedText, cleanedGeminiContent, { label });
         if (formatHit) {
           console.log(`  [Formateo] ${formatHit.status}: texto extraído ${extractedText.length} caracteres, salida ${cleanedGeminiContent.length}`);
+          // Se guarda lo rechazado para poder inspeccionarlo (artefacto del run, no se commitea).
+          await mkdir(join(stateDir, REJECTED_DIR), { recursive: true });
+          await writeFile(join(stateDir, REJECTED_DIR, `${slug}.md`),
+            `<!-- ${formatHit.status}: ${formatHit.reason.replace(/--+/g, '-')} -->\n\n${cleanedGeminiContent}\n`, 'utf8');
           throw new Error(formatHit.reason);
         }
 

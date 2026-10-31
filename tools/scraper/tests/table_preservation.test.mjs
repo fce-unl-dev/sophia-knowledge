@@ -75,9 +75,20 @@ describe('restoreTables', () => {
 });
 
 describe('checkIdentifiers', () => {
-  test('reconoce expedientes, resoluciones y mails, no fechas', () => {
+  test('reconoce resoluciones y mails; no fechas ni expedientes', () => {
     const ids = extractIdentifiers(`${SOURCE}\nInscripciones del 10/12 al 20/12. Ordenanza C.S. N° 4/18.`);
-    assert.deepEqual([...ids].sort(), ['4/18', '482/26', '752/26', 'academica@fce.unl.edu.ar', 'fce-1303855-26']);
+    assert.deepEqual([...ids].sort(), ['4/18', '482/26', '752/26', 'academica@fce.unl.edu.ar']);
+  });
+
+  test('omitir el expediente no cuenta como pérdida (falso positivo de CP 482)', () => {
+    const output = 'Res. CS 482/26, que reemplaza la 752/26. Contacto: academica@fce.unl.edu.ar';
+    assert.equal(checkIdentifiers(SOURCE, output), null);
+  });
+
+  test('una resolución escrita con otro formato sigue presente', () => {
+    const output = 'Resolución C.S. N° 482 del 2026, que reemplaza la Res. CD 752/2026. Contacto: academica@fce.unl.edu.ar';
+    assert.equal(checkIdentifiers(SOURCE, output), null);
+    assert.ok(checkIdentifiers(SOURCE, 'Res. 4820/26 y 1752/26 · academica@fce.unl.edu.ar'), 'otros números que solo contienen los dígitos no cuentan');
   });
 
   test('acepta un formateo que conserva los identificadores', () => {
@@ -88,8 +99,8 @@ describe('checkIdentifiers', () => {
   test('corta un formateo que resumió de más', () => {
     const hit = checkIdentifiers(SOURCE, 'Resolución sobre correlatividades de Contador Público.', { label: 'el documento "CP 482.pdf"' });
     assert.equal(hit.status, 'lost-identifiers');
-    assert.equal(hit.missing.length, 4);
-    assert.match(hit.reason, /perdió 4 de 4 identificadores/);
+    assert.equal(hit.missing.length, 3);
+    assert.match(hit.reason, /perdió 3 de 3 identificadores/);
   });
 
   test('con menos de tres identificadores no opina', () => {
