@@ -122,6 +122,18 @@ export function consumeDriveRemovalConfirmation(driveState, validation, removedF
   delete driveState.removal_anomaly;
 }
 
+// Slugs que todavía pertenecen a un archivo vivo del estado. Un archivo
+// reemplazado en Drive por otro con el mismo nombre y distinto tipo comparte
+// slug con su baja (caso real 30/10/2026: "Info costos carrera para la IA.xlsx"
+// → Hoja de cálculo de Google): borrar por slug borraría el reemplazo.
+// Estados que se vuelven a procesar aunque Drive no informe cambios. Después de
+// un apply no debería quedar ningún "candidate": si queda, nunca llegó al KB.
+export const RETRY_STATUSES = new Set(['error', 'candidate']);
+
+export function liveSlugs(files) {
+  return new Set(Object.values(files || {}).filter((file) => file && file.status !== 'deleted').map((file) => file.slug));
+}
+
 export function driveRemovalConfirmationContinuation(identity, anomalyBranch = 'kb-sync/update-drive') {
   const branch = `chore/confirm-drive-removal-${identity.digest.slice('sha256:'.length, 'sha256:'.length + 12)}`;
   return [
@@ -478,7 +490,7 @@ export async function extractPdfText(buffer, {
   if (!apiKey) return parsedText; // sin credenciales (dev/test) → solo pdf-parse
 
   try {
-    const { text } = await callGeminiImpl({
+    const { text, raw } = await callGeminiImpl({
       apiKey,
       model,
       systemInstruction: PDF_EXTRACTION_SYSTEM,
@@ -488,6 +500,12 @@ export async function extractPdfText(buffer, {
       ...TRANSCRIPTION_CALL,
     });
     const ocr = (text || '').trim();
+    // Diagnóstico: cuatro planes 2027 llegan al tope de salida en el formateo y
+    // no se sabe si el bucle de repetición nace acá o allá.
+    const finishReason = raw?.candidates?.[0]?.finishReason;
+    if (finishReason && finishReason !== 'STOP') {
+      logImpl.warn?.(`[PDF] extracción multimodal terminó con ${finishReason}: ${ocr.length} caracteres (pdf-parse: ${parsedText.length})`);
+    }
     // Nos quedamos con el multimodal salvo que, por alguna anomalía, venga más
     // pobre que pdf-parse (en cuyo caso preservamos el texto plano).
     return ocr.length >= parsedText.length ? ocr : parsedText;
@@ -754,23 +772,32 @@ Env:
           await unlink(candPath);
         } catch {}
       } else {
+        // Queda en error para que la próxima corrida lo vuelva a procesar; como
+        // "candidate" se saltearía para siempre por no tener cambios en Drive.
         console.error(`ERROR: No se encontró el archivo candidato: ${candPath}`);
+        file.status = 'error';
+        file.error = 'candidato ausente al aplicar';
       }
     }
 
     // 2. Handle deleted files. Massive removals reached here only after the
     // state-bound confirmation was independently recomputed above.
+    const keepSlugs = liveSlugs(driveState.files);
     for (const file of deletedFiles) {
       const slug = file.slug;
       const targetPath = join(compRoot, `${slug}.md`);
       const relPath = `complementos/${slug}.md`;
 
-      if (existsSync(targetPath)) {
-        await unlink(targetPath);
-        console.log(`Eliminado del KB: ${relPath}`);
+      if (keepSlugs.has(slug)) {
+        console.log(`Baja sin borrar ${relPath}: el slug pertenece a un archivo vigente.`);
+      } else {
+        if (existsSync(targetPath)) {
+          await unlink(targetPath);
+          console.log(`Eliminado del KB: ${relPath}`);
+        }
+        itemsMap.delete(relPath);
       }
-      itemsMap.delete(relPath);
-      
+
       // Remove from state entirely
       delete driveState.files[file.id];
     }
@@ -871,10 +898,10 @@ Env:
     let sector = resolveSectorFromDrivePath(file.path) || undefined;
     const prevFile = driveState.files[file.id];
     
-    // Check if unchanged. Un archivo que falló se reintenta aunque Drive no lo
-    // haya modificado: su estado de error guarda el mismo modifiedTime y, sin
-    // esta condición, quedaría salteado para siempre.
-    const hasChanged = values['force'] || !prevFile || prevFile.status === 'error'
+    // Check if unchanged. Un archivo que falló, o un candidato que nunca llegó
+    // al KB, se reintenta aunque Drive no lo haya modificado: su estado guarda
+    // el mismo modifiedTime y, sin esta condición, quedaría salteado para siempre.
+    const hasChanged = values['force'] || !prevFile || RETRY_STATUSES.has(prevFile.status)
       || prevFile.modifiedTime !== file.modifiedTime || prevFile.slug !== slug;
 
     if (!hasChanged) {
@@ -986,7 +1013,10 @@ Env:
           finishReason,
           label: `el documento "${file.path}"`,
         });
-        if (formatHit) throw new Error(formatHit.reason);
+        if (formatHit) {
+          console.log(`  [Formateo] ${formatHit.status}: texto extraído ${extractedText.length} caracteres, salida ${cleanedGeminiContent.length}`);
+          throw new Error(formatHit.reason);
+        }
 
         mdContent = `${cleanedGeminiContent}
 
@@ -1123,6 +1153,7 @@ Env:
     }
   } else {
     delete driveState.removal_anomaly;
+    const keepSlugs = liveSlugs(newFilesState);
     for (const prevId of Object.keys(driveState.files)) {
       if (!listedIds.has(prevId)) {
         const prevFile = driveState.files[prevId];
@@ -1135,7 +1166,7 @@ Env:
           };
 
           const candPath = join(candidatesDir, `${prevFile.slug}.md`);
-          if (existsSync(candPath)) {
+          if (!keepSlugs.has(prevFile.slug) && existsSync(candPath)) {
             try {
               await unlink(candPath);
             } catch {}

@@ -104,6 +104,8 @@ describe('scrape_drive conecta la guarda y reintenta los errores', () => {
 
   test('un archivo en estado de error no se saltea como "sin cambios"', async () => {
     const source = await readFile(join(here, '../scrape_drive.mjs'), 'utf8');
-    assert.match(source, /const hasChanged = values\['force'\] \|\| !prevFile \|\| prevFile\.status === 'error'/);
+    assert.match(source, /const hasChanged = values\['force'\] \|\| !prevFile \|\| RETRY_STATUSES\.has\(prevFile\.status\)/);
+    const { RETRY_STATUSES } = await import('../scrape_drive.mjs');
+    assert.deepEqual([...RETRY_STATUSES].sort(), ['candidate', 'error']);
   });
 });
