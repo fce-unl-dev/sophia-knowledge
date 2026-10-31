@@ -10,6 +10,7 @@ Una copia de este texto está en la misma carpeta de Drive como **"LEEME (NO_IND
 2. Los transcribe, los ordena y propone incorporarlos a la base de Luca en una **revisión** (un pull request en GitHub).
 3. Una persona revisa el contenido y lo aprueba. Recién ahí Luca empieza a usarlo, en menos de una hora.
 4. Si un archivo no se pudo procesar, **no entra incompleto**: aparece en el issue [**Drive: documentos no procesados**](https://github.com/fce-unl-dev/sophia-knowledge/issues?q=is%3Aissue+is%3Aopen+label%3Adrive-no-procesados) con el motivo y qué hacer. Se reintenta solo en la corrida siguiente.
+5. **Te avisamos por mail.** Si un documento que subiste tuvo un problema, te llega un correo con qué pasó y qué hacer; y otro cuando quedó resuelto. También avisa si el archivo está suelto en la carpeta principal, tiene un nombre genérico, parece duplicado o incluye datos personales.
 
 ## Formatos
 
@@ -33,8 +34,9 @@ Una copia de este texto está en la misma carpeta de Drive como **"LEEME (NO_IND
 4. **Si cambiás el formato, borrá el anterior.** Por ejemplo, si convertís un Excel a Hoja de cálculo de Google, eliminá el `.xlsx` original.
 5. **Nombres descriptivos.** "Res. CS 481-26 Plan Contador Público 2027" ayuda; "documento final (2)" no.
 6. **Usá la carpeta que corresponde al tema** (`02-Grado`, `04-Posgrado`, `06-Reglamentos y normas`, etc.). La carpeta define en qué tema lo busca Luca.
-7. **Nada de datos personales.** No subas listados de estudiantes, DNI, teléfonos o mails personales. Los datos institucionales (autoridades, mails de áreas) sí.
+7. **Nada de datos personales.** No subas listados de estudiantes, DNI, teléfonos o mails personales: todo lo que entra a la base de Luca queda publicado. Los datos institucionales (autoridades, mails de áreas) sí.
 8. **Borradores en una carpeta `NO_INDEXAR`.** Todo lo que tenga `NO_INDEXAR` en el nombre del archivo o de la carpeta se ignora.
+9. **Si todavía puede cambiar, marcalo `[PROVISORIO]`.** Agregá `[PROVISORIO]` al nombre del archivo, por ejemplo "[PROVISORIO] LA 484 Correlatividades 2027". Luca va a advertir que la información no es definitiva. Cuando quede firme, quitá la marca del nombre (o subí la versión definitiva con *Administrar versiones*) y el aviso desaparece solo.
 
 ## Si algo no aparece en Luca
 
