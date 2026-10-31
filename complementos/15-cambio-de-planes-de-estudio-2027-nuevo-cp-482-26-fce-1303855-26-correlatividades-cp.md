@@ -40,9 +40,7 @@ A continuación se presentan las tablas con el régimen de correlatividades para
 | 8 Medición Contable           | Fundamentos de Contabilidad (aprobada) - Sistemas Contables (aprobada) | Fundamentos de Contabilidad (aprobada) Sistemas Contables (regular) |
 | 9 Matemática Aplicada         | Matemática Básica (aprobada)                                            | Matemática Básica (aprobada)                             |
 | 10 Derecho Laboral y Seguridad Social | Instituciones del Derecho (aprobada)                                    | Instituciones del Derecho (regular)                      |
-
 | 11 Matemática Financiera          | Matemática Básica (aprobada) - Matemática Aplicada (aprobada)                               | Matemática Básica (aprobada) - Matemática Aplicada (regular)                               |
-| :--- | :--- | :--- |
 | 12 Economía Aplicada              | Economía Básica (aprobada)                                                                  | Economía Básica (regular)                                                                  |
 | 13 Administración y Finanzas Públicas | Instituciones del Derecho (aprobada) - Administración General (aprobada)                    | Instituciones del Derecho (aprobada) - Administración General (aprobada)                   |
 | 14 Taller de Práctica Integradora I | Sistemas Contables (aprobada) - Instituciones del Derecho (aprobada) - Economía Básica (aprobada) | Sistemas Contables (aprobada) - Instituciones del Derecho (aprobada) - Economía Básica (aprobada) |
@@ -56,9 +54,7 @@ A continuación se presentan las tablas con el régimen de correlatividades para
 | 21 Optativa I / Electiva I        | * | * |
 | **4º AÑO**                      | | |
 | 22 Teoría y Técnica Impositiva I (Consumo) | Instituciones del Derecho (aprobada) - Organización Jurídica de la Empresa (aprobada)       | Instituciones del Derecho (aprobada) - Organización Jurídica de la Empresa (regular)       |
-
 | 23 Procesos de Insolvencia          | Derecho Laboral y Seguridad Social (aprobada) - Organización Jurídica de la Empresa (aprobada) | Derecho Laboral y Seguridad Social (aprobada) - Organización Jurídica de la Empresa (regular) |
-| :--- | :--- | :--- |
 | 24 Auditoría                        | Informes Contables (aprobada) - Organización Jurídica de la Empresa (aprobada)                 | Informes Contables (aprobada) - Organización Jurídica de la Empresa (regular)                 |
 | 25 Optativa / Electiva II           | * | * |
 | 26 Teoría y Técnica Impositiva II (Ganancias) | Informes Contables (aprobada) - Organización Jurídica de la Empresa (aprobada) - Teoría y Técnica Impositiva I (Consumo) (aprobada) | Informes Contables (aprobada) - Organización Jurídica de la Empresa (aprobada) - Teoría y Técnica Impositiva I (Consumo) (regular) |

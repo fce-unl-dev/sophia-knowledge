@@ -104,6 +104,16 @@ export function checkFormattedComplement(formattedText, { finishReason = null, m
       reason: `el formateo de ${label} declara contenido faltante ("${formattedText.match(marker)[0]}"). El documento quedaría con apartados vacíos.`,
     };
   }
+  // La plantilla repetida: caso real "LA - propuestas cursado" (#341), con tres
+  // versiones distintas del documento una detrás de otra.
+  const sections = (String(formattedText).match(/^##\s+Contenido\s*$/gm) || []).length;
+  const titles = (String(formattedText).match(/^#\s+\S/gm) || []).length;
+  if (sections > 1 || titles > 1) {
+    return {
+      status: 'repeated-format',
+      reason: `el formateo de ${label} repite la estructura de la plantilla (${titles} títulos, ${sections} secciones "Contenido"). El documento quedaría duplicado.`,
+    };
+  }
   return null;
 }
 

@@ -6,7 +6,7 @@ import { readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { checkIdentifiers, checkRestoredTables, extractIdentifiers, protectTables, restoreTables, tableMarker } from '../table_preservation.mjs';
+import { checkIdentifiers, checkRestoredTables, checkTranscriptionSanity, extractIdentifiers, joinTranscribedChunks, protectTables, restoreTables, tableMarker } from '../table_preservation.mjs';
 
 const CORRELATIVIDADES = `| Asignatura | Correlatividad para aprobar | Correlatividad para cursar |
 | :--- | :--- | :--- |
@@ -130,4 +130,97 @@ describe("integración con la ingesta de Drive", () => {
     assert.match(prompt, /\[\[TABLA_1\]\]/);
     assert.match(prompt, /Copiá cada marcador exactamente una vez/);
   });
+});
+
+describe("joinTranscribedChunks", () => {
+  const HEADER = "| Asignaturas | Correlatividad para aprobar o promocionar | Correlatividad para cursar |";
+  const tramo1 = [
+    "Anexo: régimen de correlatividades",
+    "",
+    HEADER,
+    "| :--- | :--- | :--- |",
+    "| 9 Matemática Aplicada | Matemática Básica (aprobada) | |",
+    "| 10 Derecho Laboral y Seguridad Social | Instituciones del Derecho (aprobada) | |",
+  ].join("\n");
+
+  test("une la tabla cuando el tramo siguiente toma una fila de datos como encabezado (CP 482)", () => {
+    const tramo2 = [
+      "| 11 Matemática Financiera | Matemática Básica (aprobada) - Matemática Aplicada (aprobada) | |",
+      "| :--- | :--- | :--- |",
+      "| 12 Economía Aplicada | Economía Básica (aprobada) | |",
+    ].join("\n");
+    const joined = joinTranscribedChunks([tramo1, tramo2]);
+    assert.equal(joined.match(/^\| :---/gm).length, 1, "un solo separador");
+    assert.match(joined, /\| 10 Derecho Laboral[^\n]*\n\| 11 Matemática Financiera[^\n]*\n\| 12 Economía Aplicada/);
+    assert.equal(protectTables(joined).tables.length, 1);
+  });
+
+  test("descarta el encabezado repetido por el tramo siguiente", () => {
+    const tramo2 = [`  ${HEADER.toUpperCase()}`, "|---|---|---|", "| 11 Matemática Financiera | Matemática Básica (aprobada) | |"].join("\n");
+    const joined = joinTranscribedChunks([tramo1, tramo2]);
+    assert.equal(joined.split("\n").filter((line) => line.toLowerCase().includes("asignaturas")).length, 1);
+    assert.equal(protectTables(joined).tables[0].split("\n").length, 5);
+  });
+
+  test("tres tramos de la misma tabla quedan en una sola", () => {
+    const fila = (n) => `| ${n} Materia ${n} | | |`;
+    const joined = joinTranscribedChunks([tramo1, `${fila(11)}\n| :--- | :--- | :--- |\n${fila(12)}`, `${fila(23)}\n| :--- | :--- | :--- |\n${fila(24)}`]);
+    const { tables } = protectTables(joined);
+    assert.equal(tables.length, 1);
+    assert.equal(tables[0].split("\n").length, 8);
+  });
+
+  test("no une tablas con distinta cantidad de columnas ni tramos que no empiezan en tabla", () => {
+    const otraTabla = "| Año | Materias |\n|---|---|\n| 1º | 6 |";
+    assert.equal(protectTables(joinTranscribedChunks([tramo1, otraTabla])).tables.length, 2);
+    const conTexto = joinTranscribedChunks([tramo1, "ARTÍCULO 2º.- Inscríbase.", "Fin"]);
+    assert.match(conTexto, /\| 10 Derecho[^\n]*\n\nARTÍCULO 2º\.- Inscríbase\.\n\nFin$/);
+  });
+
+  test("ignora tramos vacíos", () => {
+    assert.equal(joinTranscribedChunks(["", "  uno ", null, "dos"]), "uno\n\ndos");
+  });
+});
+
+test("la lectura por tramos une las tablas al juntar los tramos", async () => {
+  const source = await readFile(join(dirname(fileURLToPath(import.meta.url)), "../scrape_drive.mjs"), "utf8");
+  assert.match(source, /const ocr = joinTranscribedChunks\(chunks\);/);
+});
+
+describe('checkTranscriptionSanity', () => {
+  const header = '| Asignaturas | Para aprobar | Para cursar |\n| :--- | :--- | :--- |';
+  const filas = (desde, hasta) => Array.from({ length: hasta - desde + 1 }, (_, i) => `| ${desde + i} Materia ${desde + i} | — | — |`).join('\n');
+
+  test('acepta una tabla completa y numerada (CP 482)', () => {
+    assert.equal(checkTranscriptionSanity(`${header}\n| **1º AÑO** | | |\n${filas(1, 29)}`), null);
+  });
+
+  test('detecta la tabla inventada en inglés de LA 484', () => {
+    const inventada = '| Rank | Word |\n|---|---|\n' + ['the', 'be', 'to', 'of', 'and', 'a', 'in', 'that', 'have', 'I', 'it', 'for', 'not', 'on', 'with'].map((word, i) => `| ${i + 1} | ${word} |`).join('\n');
+    const hit = checkTranscriptionSanity(`${header}\n${filas(1, 30)}\n\n${inventada}`, { label: 'el documento "LA 484.pdf"' });
+    assert.equal(hit.status, 'hallucinated-table');
+    assert.match(hit.reason, /LA 484\.pdf.*inglés.*inventó contenido/);
+  });
+
+  test('detecta las materias faltantes de LA 484 (11 → 28)', () => {
+    const hit = checkTranscriptionSanity(`${header}\n${filas(1, 11)}\n${filas(28, 30)}`);
+    assert.equal(hit.status, 'numbering-gaps');
+    assert.match(hit.reason, /hasta 30 pero faltan 16 \(12, 13, 14/);
+  });
+
+  test('no opina sobre tablas cortas, sin numerar o con códigos grandes', () => {
+    assert.equal(checkTranscriptionSanity(`${header}\n${filas(1, 3)}\n${filas(8, 9)}`), null);
+    assert.equal(checkTranscriptionSanity('| Año | Materias |\n|---|---|\n| 1º | 6 |'), null);
+    assert.equal(checkTranscriptionSanity('| Código | Materia |\n|---|---|\n| 1015 | Matemática |\n| 2035 | Contabilidad II |'), null);
+  });
+
+  test('unas pocas palabras en inglés legítimas no disparan la guarda', () => {
+    assert.equal(checkTranscriptionSanity('| Materia | Observaciones |\n|---|---|\n| Inglés I | Contenidos: to be, have, the |'), null);
+  });
+});
+
+test('el scrape frena una transcripción alucinada antes de formatear', async () => {
+  const source = await readFile(join(dirname(fileURLToPath(import.meta.url)), '../scrape_drive.mjs'), 'utf8');
+  const sanityAt = source.indexOf('checkTranscriptionSanity(extractedText');
+  assert.ok(sanityAt > source.indexOf('checkRawFloor(extractedText') && sanityAt < source.indexOf('formatComplementWithGemini(apiKey, file, protectedText'));
 });
