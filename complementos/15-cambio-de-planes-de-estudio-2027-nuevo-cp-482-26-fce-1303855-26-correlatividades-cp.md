@@ -6,6 +6,8 @@ Este documento complementario detalla el Régimen de Correlatividades para cursa
 
 ## Contenido
 
+> **Régimen en conformación (actualizado a octubre de 2026).** Este régimen de correlatividades es nuevo y algunas correlatividades todavía no están definidas: pueden completarse o modificarse en las próximas semanas. Una celda vacía o con guion no significa que la asignatura no tenga correlatividades, sino que no figura en esta versión. Ante una consulta concreta, sugerir confirmar con Bedelía.
+
 ### Resolución CS n.º 482
 
 **VISTO** que obra Res. CD n.° 754/26 de la Facultad de Ciencias Económicas vinculada con la modificación del Régimen de Correlatividades correspondiente al Plan de Estudios de la carrera de grado de Contador Público y
