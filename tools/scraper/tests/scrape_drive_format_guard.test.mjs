@@ -108,4 +108,22 @@ describe('scrape_drive conecta la guarda y reintenta los errores', () => {
     const { RETRY_STATUSES } = await import('../scrape_drive.mjs');
     assert.deepEqual([...RETRY_STATUSES].sort(), ['candidate', 'error']);
   });
+
+  test('las tablas van como marcadores al modelo y se controlan antes de guardar', async () => {
+    const source = await readFile(join(here, '../scrape_drive.mjs'), 'utf8');
+    const protectAt = source.indexOf('protectTables(extractedText, { sanitize: sanitizeKbMarkdown })');
+    const formatAt = source.indexOf('formatComplementWithGemini(apiKey, file, protectedText');
+    const restoreAt = source.indexOf('restoreTables(cleanedGeminiContent, tables)');
+    const saveAt = source.indexOf('mdContent = `${cleanedGeminiContent}');
+    assert.ok(protectAt > 0 && protectAt < formatAt && formatAt < restoreAt && restoreAt < saveAt);
+    assert.match(source.slice(restoreAt, saveAt), /checkRestoredTables\(restored, \{ label \}\)\s*\|\| checkFormattedComplement\([\s\S]*?\|\| checkIdentifiers\(extractedText, cleanedGeminiContent, \{ label \}\)/);
+  });
+
+  test('el prompt ya no pide resumir tablas y explica los marcadores', async () => {
+    const source = await readFile(join(here, '../scrape_drive.mjs'), 'utf8');
+    const prompt = source.slice(source.indexOf('const FORMAT_SYSTEM_PROMPT'), source.indexOf('`;', source.indexOf('const FORMAT_SYSTEM_PROMPT')));
+    assert.doesNotMatch(prompt, /resumen estructurado|visión general sintética|NO intentes transcribir/);
+    assert.match(prompt, /\[\[TABLA_1\]\]/);
+    assert.match(prompt, /Copiá cada marcador exactamente una vez/);
+  });
 });

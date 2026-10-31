@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
 import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
+import { checkIdentifiers, checkRestoredTables, protectTables, restoreTables } from './table_preservation.mjs';
 
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));
@@ -415,7 +416,7 @@ REGLAS DURAS:
 2. No inventes información: confórmate estrictamente al texto provisto. Si faltan datos, pon "No publicado" o similar, pero preserva todo el contenido real e importante.
 3. Formato limpio: usa subtítulos (H3 o H4), listas viñetadas, negritas y tablas markdown para que el contenido sea legible.
 4. Tono neutral y técnico: sin preámbulos, saludos, ni formalidades de redacción institucional.
-5. Gestión de longitud: Si el documento original contiene tablas gigantes (con decenas/cientos de filas de datos repetitivos, como listas de correlatividades, materias) o es extremadamente extenso (más de 5,000 palabras), NO intentes transcribir toda la información o tablas de forma literal exhaustiva. En su lugar, realiza un resumen estructurado claro de las resoluciones, artículos clave o reglas de negocio principales, y proporciona una visión general sintética de las tablas. Nunca repitas cientos de filas de tablas, ya que excede los límites del modelo y causa truncamientos.
+5. Tablas: el texto trae marcadores como [[TABLA_1]], [[TABLA_2]]. Cada uno representa una tabla completa que el sistema insertará después, tal cual. Copiá cada marcador exactamente una vez, solo, en su propia línea y en el lugar que le corresponde; podés agregar antes un subtítulo o una frase que la presente. No transcribas, resumas ni recrees esas tablas, y no inventes marcadores. El resto del contenido (artículos, resoluciones, requisitos, materias, cargas horarias) transcribilo completo: Luca necesita los datos exactos, no un resumen.
 6. Devuelve ÚNICAMENTE el markdown estructurado de la sección de Contenido (H1, descripción, divisor, y ## Contenido), sin bloques de código markdown envolventes (\`\`\`markdown ... \`\`\`), sin notas al principio o al final.
 `;
 
@@ -472,6 +473,40 @@ export const TRANSCRIPTION_CALL = Object.freeze({ timeoutMs: 300_000, maxOutputT
 // o el modelo falla, cae a pdf-parse (solo texto). Con temperatura 0 el output
 // es estable entre corridas, así que el hash incremental sigue funcionando.
 // Deps inyectables para test (callGeminiImpl, pdfParseImpl, logImpl).
+// Lectura multimodal por tramos de páginas. Corrida del 31/10/2026: las
+// correlatividades de Lic. en Administración 2027 (LA 484) se transcribieron
+// en una sola llamada como 142.374 caracteres cuando el texto real tenía
+// ~6.400: el modelo entró en bucle y llegó al tope. Con tramos chicos y un tope
+// acorde, un bucle se corta rápido y solo se repite ese tramo, partido en dos.
+export const PDF_CHUNK_PAGES = 4;
+export const PDF_CHUNK_MAX_OUTPUT_TOKENS = 16384;
+
+// Una página sola que sigue en bucle no tiene arreglo automático: el documento
+// va a la cuarentena en vez de caer a pdf-parse, que pierde las tablas.
+export class TranscriptionLoopError extends Error {}
+
+function pageRangePrompt(first, last, total) {
+  const pages = first === last ? `SOLO la página ${first}` : `SOLO las páginas ${first} a ${last} (inclusive)`;
+  return `Este PDF tiene ${total} páginas. Transcribí ${pages}, con texto y tablas en markdown. No incluyas contenido de otras páginas.`;
+}
+
+async function transcribePdfPages(first, last, total, request, logImpl) {
+  const { text, raw } = await request(first === 1 && last === total
+    ? 'Extraé el contenido completo de este PDF (texto y tablas) en markdown.'
+    : pageRangePrompt(first, last, total));
+  const finishReason = raw?.candidates?.[0]?.finishReason;
+  if (finishReason !== 'MAX_TOKENS') return [(text || '').trim()];
+  logImpl.warn?.(`[PDF] páginas ${first}-${last} terminaron con MAX_TOKENS (${(text || '').length} caracteres): se reparten en tramos más chicos`);
+  if (first === last) {
+    throw new TranscriptionLoopError(`la página ${first} entró en un bucle de repetición al transcribirse (límite de tokens de salida)`);
+  }
+  const middle = Math.floor((first + last) / 2);
+  return [
+    ...await transcribePdfPages(first, middle, total, request, logImpl),
+    ...await transcribePdfPages(middle + 1, last, total, request, logImpl),
+  ];
+}
+
 export async function extractPdfText(buffer, {
   apiKey = null,
   model = 'gemini-2.5-flash',
@@ -480,36 +515,42 @@ export async function extractPdfText(buffer, {
   logImpl = console,
 } = {}) {
   let parsedText = '';
+  let totalPages = 0;
   try {
     const data = await pdfParseImpl(buffer);
     parsedText = (data?.text || '').trim();
+    totalPages = Number(data?.numpages) || 0;
   } catch (err) {
     logImpl.warn?.(`[PDF] pdf-parse falló: ${err.message}`);
   }
 
   if (!apiKey) return parsedText; // sin credenciales (dev/test) → solo pdf-parse
 
+  const request = (userPrompt) => callGeminiImpl({
+    apiKey,
+    model,
+    systemInstruction: PDF_EXTRACTION_SYSTEM,
+    userPrompt,
+    fileParts: [{ inlineData: { mimeType: 'application/pdf', data: buffer.toString('base64') } }],
+    temperature: 0,
+    ...TRANSCRIPTION_CALL,
+    maxOutputTokens: PDF_CHUNK_MAX_OUTPUT_TOKENS,
+  });
+
   try {
-    const { text, raw } = await callGeminiImpl({
-      apiKey,
-      model,
-      systemInstruction: PDF_EXTRACTION_SYSTEM,
-      userPrompt: 'Extraé el contenido completo de este PDF (texto y tablas) en markdown.',
-      fileParts: [{ inlineData: { mimeType: 'application/pdf', data: buffer.toString('base64') } }],
-      temperature: 0,
-      ...TRANSCRIPTION_CALL,
-    });
-    const ocr = (text || '').trim();
-    // Diagnóstico: cuatro planes 2027 llegan al tope de salida en el formateo y
-    // no se sabe si el bucle de repetición nace acá o allá.
-    const finishReason = raw?.candidates?.[0]?.finishReason;
-    if (finishReason && finishReason !== 'STOP') {
-      logImpl.warn?.(`[PDF] extracción multimodal terminó con ${finishReason}: ${ocr.length} caracteres (pdf-parse: ${parsedText.length})`);
+    // Sin cantidad de páginas conocida se transcribe entero; un bucle ahí no
+    // tiene cómo repartirse y va a la cuarentena.
+    const total = totalPages || 1;
+    const chunks = [];
+    for (let first = 1; first <= total; first += PDF_CHUNK_PAGES) {
+      chunks.push(...await transcribePdfPages(first, Math.min(first + PDF_CHUNK_PAGES - 1, total), total, request, logImpl));
     }
+    const ocr = chunks.filter(Boolean).join('\n\n');
     // Nos quedamos con el multimodal salvo que, por alguna anomalía, venga más
     // pobre que pdf-parse (en cuyo caso preservamos el texto plano).
     return ocr.length >= parsedText.length ? ocr : parsedText;
   } catch (err) {
+    if (err instanceof TranscriptionLoopError) throw err;
     logImpl.warn?.(`[PDF] extracción multimodal falló, uso pdf-parse: ${err.message}`);
     return parsedText;
   }
@@ -994,7 +1035,9 @@ Env:
         const mdTable = csvToMarkdownTable(extractedText);
         mdContent = formatCsvAsMarkdownComplement(file.name, file.id, file.modifiedTime, file.webViewLink, mdTable);
       } else {
-        const { text: geminiContent, finishReason } = await formatComplementWithGemini(apiKey, file, extractedText, templateContent, values['model']);
+        // Las tablas no pasan por el modelo: van como marcadores y vuelven intactas.
+        const { text: protectedText, tables } = protectTables(extractedText, { sanitize: sanitizeKbMarkdown });
+        const { text: geminiContent, finishReason } = await formatComplementWithGemini(apiKey, file, protectedText, templateContent, values['model']);
 
         let cleanedGeminiContent = sanitizeKbMarkdown(geminiContent.trim());
         // Remove any trailing lines like "---" or "## Metadatos del Documento" / "## Fuentes consultadas" if Gemini generated them anyway
@@ -1009,10 +1052,12 @@ Env:
         }
 
         // Cae al catch: el archivo queda en error y se reintenta en la próxima corrida.
-        const formatHit = checkFormattedComplement(cleanedGeminiContent, {
-          finishReason,
-          label: `el documento "${file.path}"`,
-        });
+        const label = `el documento "${file.path}"`;
+        const restored = restoreTables(cleanedGeminiContent, tables);
+        cleanedGeminiContent = restored.text;
+        const formatHit = checkRestoredTables(restored, { label })
+          || checkFormattedComplement(cleanedGeminiContent, { finishReason, label })
+          || checkIdentifiers(extractedText, cleanedGeminiContent, { label });
         if (formatHit) {
           console.log(`  [Formateo] ${formatHit.status}: texto extraído ${extractedText.length} caracteres, salida ${cleanedGeminiContent.length}`);
           throw new Error(formatHit.reason);

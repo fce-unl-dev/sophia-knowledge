@@ -1,0 +1,95 @@
+// Preservación de tablas y control de identificadores al formatear complementos.
+
+import { test, describe } from 'node:test';
+import assert from 'node:assert/strict';
+
+import { checkIdentifiers, checkRestoredTables, extractIdentifiers, protectTables, restoreTables, tableMarker } from '../table_preservation.mjs';
+
+const CORRELATIVIDADES = `| Asignatura | Correlatividad para aprobar | Correlatividad para cursar |
+| :--- | :--- | :--- |
+| Contabilidad II | Contabilidad I | Contabilidad I (regular) |
+| Costos I | Contabilidad II | Contabilidad II (regular) |`;
+
+const SOURCE = `RESOLUCIÓN C.S. N° 482/26 — Expte. FCE-1303855-26
+
+Visto la Res. C.D. n.º 752/26 que propone el régimen de correlatividades.
+
+${CORRELATIVIDADES}
+
+Consultas: academica@fce.unl.edu.ar
+
+| Año | Materias |
+|---|---|
+| 1º | 6 |`;
+
+describe('protectTables', () => {
+  test('reemplaza cada tabla por un marcador y la guarda entera', () => {
+    const { text, tables } = protectTables(SOURCE);
+    assert.equal(tables.length, 2);
+    assert.equal(tables[0], CORRELATIVIDADES);
+    assert.match(text, /\n\[\[TABLA_1\]\]\n/);
+    assert.match(text, /\[\[TABLA_2\]\]/);
+    assert.doesNotMatch(text, /Contabilidad II/);
+    assert.match(text, /Expte\. FCE-1303855-26/);
+  });
+
+  test('no confunde una línea suelta con barras con una tabla', () => {
+    const { tables } = protectTables('Opciones: | A | B |\n| sin separador |\nTexto');
+    assert.equal(tables.length, 0);
+  });
+
+  test('aplica el limpiador a cada tabla guardada', () => {
+    const { tables } = protectTables(`| A |\n| :${'-'.repeat(5000)} |\n| 1 |`, { sanitize: (table) => table.replace(/-{4,}/g, '---') });
+    assert.equal(tables[0], '| A |\n| :--- |\n| 1 |');
+  });
+});
+
+describe('restoreTables', () => {
+  const { text, tables } = protectTables(SOURCE);
+
+  test('vuelve a insertar las tablas exactas, aunque el marcador venga en negrita o código', () => {
+    const formatted = `# Correlatividades CP\n\n## Contenido\n\n**[[TABLA_1]]**\n\nResumen por año:\n\n\`[[TABLA_2]]\``;
+    const restored = restoreTables(formatted, tables);
+    assert.equal(checkRestoredTables(restored), null);
+    assert.ok(restored.text.includes(CORRELATIVIDADES));
+    assert.doesNotMatch(restored.text, /TABLA_/);
+  });
+
+  test('detecta marcadores perdidos, repetidos o inventados', () => {
+    const restored = restoreTables(`${tableMarker(1)}\n${tableMarker(1)}\n${tableMarker(7)}`, tables);
+    assert.deepEqual(restored.missing, [2]);
+    assert.deepEqual(restored.duplicated, [1]);
+    assert.deepEqual(restored.unknown, [7]);
+    const hit = checkRestoredTables(restored, { label: 'el documento "CP 482.pdf"' });
+    assert.equal(hit.status, 'lost-tables');
+    assert.match(hit.reason, /CP 482\.pdf.*faltan \[\[TABLA_2\]\].*se repiten \[\[TABLA_1\]\].*inexistentes \[\[TABLA_7\]\]/);
+  });
+
+  test('un documento sin tablas no exige marcadores', () => {
+    assert.equal(checkRestoredTables(restoreTables('# Solo texto', [])), null);
+    assert.ok(text.length > 0);
+  });
+});
+
+describe('checkIdentifiers', () => {
+  test('reconoce expedientes, resoluciones y mails, no fechas', () => {
+    const ids = extractIdentifiers(`${SOURCE}\nInscripciones del 10/12 al 20/12. Ordenanza C.S. N° 4/18.`);
+    assert.deepEqual([...ids].sort(), ['4/18', '482/26', '752/26', 'academica@fce.unl.edu.ar', 'fce-1303855-26']);
+  });
+
+  test('acepta un formateo que conserva los identificadores', () => {
+    const output = 'Res. CS 482/26 (Expte. FCE-1303855-26), que reemplaza la 752/26. Contacto: academica@fce.unl.edu.ar';
+    assert.equal(checkIdentifiers(SOURCE, output), null);
+  });
+
+  test('corta un formateo que resumió de más', () => {
+    const hit = checkIdentifiers(SOURCE, 'Resolución sobre correlatividades de Contador Público.', { label: 'el documento "CP 482.pdf"' });
+    assert.equal(hit.status, 'lost-identifiers');
+    assert.equal(hit.missing.length, 4);
+    assert.match(hit.reason, /perdió 4 de 4 identificadores/);
+  });
+
+  test('con menos de tres identificadores no opina', () => {
+    assert.equal(checkIdentifiers('Res. 1/26 y Res. 2/26', 'nada'), null);
+  });
+});
