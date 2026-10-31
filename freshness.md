@@ -71,6 +71,7 @@
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-transicion-rdcd-fce-1305430-26-777.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-483-26-fce-1303854-26-modif-lic-administracion.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
+| `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-484-26-fce-1303857-26-correlatividades-la.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-propuestas-cursado.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-transicion-rdcd-fce-1305428-26-778.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
 | `complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-485-26-fce-1303856-26-modif-lic-econom-a-0a.md` | Pendiente / N/D | 🔴 N/D | 🔴 N/D |
