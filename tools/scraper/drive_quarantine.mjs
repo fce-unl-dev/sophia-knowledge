@@ -8,6 +8,7 @@
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { fileSummary } from './drive_upload_checks.mjs';
 
 const FORMAT_ADVICE = {
   'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet': 'Guardalo como Hoja de cálculo de Google en la misma carpeta.',
@@ -49,10 +50,8 @@ export function diagnoseDriveError(file, message) {
   const text = String(message || '');
   const rule = RULES.find((candidate) => candidate.test(text));
   return {
-    path: file.path,
-    name: file.name,
+    ...fileSummary(file),
     mimeType: file.mimeType,
-    webViewLink: file.webViewLink || null,
     kind: rule?.kind || 'otro',
     advice: rule ? rule.advice(file) : 'Revisar el log de la corrida de Ingest Drive.',
     reason: text,
@@ -89,8 +88,9 @@ export function renderQuarantineMarkdown(errors, { heading = '## No procesados' 
   ].join('\n');
 }
 
-export async function writeRunReport(path, errors, now = new Date()) {
-  const report = { generatedAt: now.toISOString(), errors };
+// processed: archivos que esta corrida procesó bien; warnings: avisos de higiene.
+export async function writeRunReport(path, errors, now = new Date(), { processed = [], warnings = [] } = {}) {
+  const report = { generatedAt: now.toISOString(), errors, processed, warnings };
   await writeFile(path, JSON.stringify(report, null, 2) + '\n', 'utf8');
   return report;
 }

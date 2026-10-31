@@ -99,7 +99,7 @@ describe('integración con la ingesta', () => {
   test('el scrape registra cada error y escribe el reporte', async () => {
     const source = await readFile(join(here, '../scrape_drive.mjs'), 'utf8');
     assert.match(source, /runErrors\.push\(diagnoseDriveError\(file, err\.message\)\)/);
-    assert.match(source, /await writeRunReport\(join\(stateDir, RUN_REPORT_FILE\), runErrors\)/);
+    assert.match(source, /await writeRunReport\(join\(stateDir, RUN_REPORT_FILE\), runErrors, undefined, \{ processed: runProcessed, warnings: runWarnings \}\)/);
   });
 
   test('el workflow publica el resumen, suma la sección a la PR y mantiene el issue', async () => {
