@@ -61,6 +61,14 @@ describe('checkFormattedComplement', () => {
     assert.match(hit.reason, /Contenido no provisto/);
   });
 
+  test('corta la plantilla repetida (propuestas de cursado de LA, #341)', () => {
+    const repetida = `${COMPLETE}\n\n---\n\n## Contenido\n\n${COMPLETE.split('## Contenido')[1]}`;
+    const hit = checkFormattedComplement(repetida);
+    assert.equal(hit.status, 'repeated-format');
+    assert.match(hit.reason, /1 títulos, 2 secciones "Contenido"/);
+    assert.equal(checkFormattedComplement(`${COMPLETE}\n\n# Otro título`).status, 'repeated-format');
+  });
+
   test('corta la variante "no fue provisto" de la corrida forzada', () => {
     const variant = COMPLETE.replace(/\| Microeconomía I[\s\S]*$/,
       '**Nota:** El contenido detallado de la tabla de correlatividades del anexo no fue provisto en el texto original extraído.');

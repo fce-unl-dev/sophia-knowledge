@@ -18,6 +18,41 @@ const MARKER = /\*{0,2}`?\[\[TABLA_(\d+)\]\]`?\*{0,2}/g;
 
 export const tableMarker = (index) => `[[TABLA_${index}]]`;
 
+// Cantidad de columnas de una fila markdown (las barras escapadas no cuentan).
+const columnCount = (line) => line.trim().replace(/\\\|/g, '').replace(/^\||\|$/g, '').split('|').length;
+const normalizeRow = (line) => line.replace(/\s+/g, ' ').trim().toLowerCase();
+
+// Une los tramos de páginas transcriptos por separado. Si un tramo termina en
+// una tabla y el siguiente empieza con filas de la misma cantidad de columnas,
+// es la misma tabla cortada por el tramo: el siguiente trae como "encabezado"
+// su primera fila de datos, o repite el encabezado real, más un separador.
+// Caso real: CP 482 (31/10/2026) quedó partida en tres tablas.
+export function joinTranscribedChunks(chunks) {
+  let joined = '';
+  for (const chunk of chunks.map((text) => String(text ?? '').trim()).filter(Boolean)) {
+    if (!joined) {
+      joined = chunk;
+      continue;
+    }
+    const previous = joined.split('\n');
+    const next = chunk.split('\n');
+    const lastRow = previous.at(-1);
+    if (TABLE_LINE.test(lastRow) && TABLE_LINE.test(next[0]) && columnCount(lastRow) === columnCount(next[0])) {
+      let start = previous.length - 1;
+      while (start > 0 && TABLE_LINE.test(previous[start - 1])) start--;
+      const header = previous[start];
+      let rest = next;
+      if (SEPARATOR_LINE.test(next[1] ?? '')) {
+        rest = normalizeRow(next[0]) === normalizeRow(header) ? next.slice(2) : [next[0], ...next.slice(2)];
+      }
+      joined = [...previous, ...rest].join('\n');
+    } else {
+      joined = `${joined}\n\n${chunk}`;
+    }
+  }
+  return joined;
+}
+
 // Reemplaza cada tabla markdown (encabezado + separador + filas) por un marcador.
 // `sanitize` limpia cada tabla guardada (p. ej. colapsar separadores gigantes).
 export function protectTables(text, { sanitize = (table) => table } = {}) {
@@ -61,6 +96,50 @@ export function checkRestoredTables({ missing, duplicated, unknown }, { label = 
     status: 'lost-tables',
     reason: `el formateo de ${label} no conservó las tablas: ${parts.join('; ')}. El documento quedaría con tablas perdidas.`,
   };
+}
+
+// Señales de una transcripción alucinada en las tablas. Caso real: LA 484
+// (31/10/2026) entró con la tabla de correlatividades repetida, las materias
+// 12 a 27 ausentes y una tabla inventada "| Rank | Word |" con "the", "be",
+// "to"... Todas eran tablas bien formadas: ninguna otra guarda lo detectaba.
+const ENGLISH_FUNCTION_WORDS = /\b(the|be|to|of|and|that|have|it|for|not|on|with|you|this|but|his|by|from|they|we|say|her|she|what|which|would|there|their)\b/gi;
+
+function tableRows(text) {
+  return String(text ?? '').split('\n').filter((line) => TABLE_LINE.test(line) && !SEPARATOR_LINE.test(line));
+}
+
+function rowCells(line) {
+  return line.trim().replace(/^\||\|$/g, '').split(/(?<!\\)\|/).map((cell) => cell.trim());
+}
+
+export function checkTranscriptionSanity(text, { label = 'este documento' } = {}) {
+  const rows = tableRows(text);
+  const englishWords = new Set([...rows.join(' ').matchAll(ENGLISH_FUNCTION_WORDS)].map((match) => match[1].toLowerCase()));
+  if (englishWords.size >= 8) {
+    return {
+      status: 'hallucinated-table',
+      reason: `la transcripción de ${label} trae tablas con texto en inglés que no está en el original (${[...englishWords].slice(0, 6).join(', ')}…). El modelo inventó contenido.`,
+    };
+  }
+
+  // Filas repetidas no alcanzan como señal: un plan de estudios repite con
+  // razón las materias del ciclo básico en la tabla del título final.
+
+  // Numeración de filas (materias 1..N) con huecos grandes.
+  const numbers = rows.map((row) => /^\**\s*(\d{1,3})\b/.exec(rowCells(row)[0])?.[1]).filter(Boolean).map(Number);
+  const max = numbers.length ? Math.max(...numbers) : 0;
+  if (max >= 10 && max <= 150) {
+    const present = new Set(numbers);
+    const missing = [];
+    for (let number = 1; number <= max; number++) if (!present.has(number)) missing.push(number);
+    if (missing.length / max > 0.25) {
+      return {
+        status: 'numbering-gaps',
+        reason: `la transcripción de ${label} numera filas hasta ${max} pero faltan ${missing.length} (${missing.slice(0, 8).join(', ')}${missing.length > 8 ? '…' : ''}). Se perdió parte de la tabla.`,
+      };
+    }
+  }
+  return null;
 }
 
 // Identificadores que no pueden perderse al formatear: números de resolución u

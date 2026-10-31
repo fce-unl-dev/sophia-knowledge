@@ -4,7 +4,7 @@ import mammoth from 'mammoth';
 import { pptxToText, xlsxToMarkdown } from './office_formats.mjs';
 import { parseCsv } from './scrape_sheets.mjs';
 import { callGemini, stripMarkdownFence } from './generate_md.mjs';
-import { checkIdentifiers, checkRestoredTables, protectTables, restoreTables } from './table_preservation.mjs';
+import { checkIdentifiers, checkRestoredTables, checkTranscriptionSanity, joinTranscribedChunks, protectTables, restoreTables } from './table_preservation.mjs';
 import { resolveSectorFromDrivePath, parseSectorResponse, SECTOR_NAMES } from './generate_routing_metadata.mjs';
 import { readFile, writeFile, mkdir, unlink } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -569,7 +569,8 @@ export async function extractPdfText(buffer, {
     for (let first = 1; first <= total; first += PDF_CHUNK_PAGES) {
       chunks.push(...await transcribePdfPages(first, Math.min(first + PDF_CHUNK_PAGES - 1, total), total, request, logImpl));
     }
-    const ocr = chunks.filter(Boolean).join('\n\n');
+    // Une las tablas que un corte de tramo dejó partidas.
+    const ocr = joinTranscribedChunks(chunks);
     // Nos quedamos con el multimodal salvo que, por alguna anomalía, venga más
     // pobre que pdf-parse (en cuyo caso preservamos el texto plano).
     return ocr.length >= parsedText.length ? ocr : parsedText;
@@ -1035,6 +1036,10 @@ Env:
         hint: 'Revisá si el PDF es una imagen escaneada sin texto embebido o si la descarga vino truncada.',
       });
       if (floorHit) throw new Error(floorHit.reason);
+
+      // Tablas inventadas o con materias faltantes en la transcripción (LA 484).
+      const sanityHit = checkTranscriptionSanity(extractedText, { label: `el documento "${file.path}"` });
+      if (sanityHit) throw new Error(sanityHit.reason);
 
       // La carpeta no matcheó ningún alias: resolvemos el sector con IA.
       if (!sector) {
