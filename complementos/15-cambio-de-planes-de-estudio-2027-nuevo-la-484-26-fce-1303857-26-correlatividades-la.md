@@ -6,6 +6,8 @@ Este documento detalla el régimen de correlatividades para cursar y aprobar/pro
 
 ## Contenido
 
+> **Régimen en conformación (actualizado a octubre de 2026).** Este régimen de correlatividades es nuevo y algunas correlatividades todavía no están definidas: pueden completarse o modificarse en las próximas semanas. Una celda vacía o con guion no significa que la asignatura no tenga correlatividades, sino que no figura en esta versión. Ante una consulta concreta, sugerir confirmar con Bedelía.
+
 ### Resolución CS n.º 484/26
 
 **VISTO:**
@@ -21,7 +23,7 @@ Que la Resolución CS n.º 483/26 modificó el Plan de Estudios de la carrera, d
 
 ### Anexo: Régimen de Correlatividades de la Licenciatura en Administración
 
-Régimen de correlatividades para cursar y para aprobar o promocionar las asignaturas del plan de estudios aprobado por Res. CS n.º 483/26. Tabla transcripta del anexo de la Res. CS n.º 484/26 y verificada contra el PDF oficial. Un guion (—) indica que la asignatura no tiene correlatividades.
+Régimen de correlatividades para cursar y para aprobar o promocionar las asignaturas del plan de estudios aprobado por Res. CS n.º 483/26. Tabla transcripta del anexo de la Res. CS n.º 484/26 y verificada contra el PDF oficial. Un guion (—) indica que el anexo no consigna correlatividad para esa asignatura.
 
 | Nº | Asignatura | Correlatividad para aprobar o promocionar | Correlatividad para cursar |
 | :--- | :--- | :--- | :--- |
