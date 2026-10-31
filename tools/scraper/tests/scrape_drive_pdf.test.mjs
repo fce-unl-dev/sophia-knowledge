@@ -1,7 +1,7 @@
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { extractPdfText, PDF_CHUNK_MAX_OUTPUT_TOKENS, PDF_CHUNK_PAGES, PDF_EXTRACTION_SYSTEM, TranscriptionLoopError } from '../scrape_drive.mjs';
+import { extractPdfText, PAGE_RETRY_TEMPERATURES, PDF_CHUNK_MAX_OUTPUT_TOKENS, PDF_CHUNK_PAGES, PDF_EXTRACTION_SYSTEM, TranscriptionLoopError } from '../scrape_drive.mjs';
 
 const buffer = Buffer.from('%PDF-1.7 fake bytes');
 const silentLog = { warn() {} };
@@ -87,6 +87,39 @@ describe('extractPdfText (PDF multimodal-first)', () => {
         }),
         (error) => error instanceof TranscriptionLoopError && /la página 3 entró en un bucle.*límite de tokens de salida/.test(error.message),
       );
+    });
+
+    test('una página sola en bucle se reintenta con más temperatura antes de rendirse', async () => {
+      // Caso de CP 482 (31/10/2026): la página 3 entraba en bucle a temperatura 0.
+      const calls = [];
+      const warnings = [];
+      const impl = async ({ userPrompt, temperature }) => {
+        const page = /SOLO la página (\d+)/.exec(userPrompt)?.[1];
+        calls.push([page ?? 'tramo', temperature]);
+        if (!page) return { text: '|---'.repeat(50), raw: { candidates: [{ finishReason: 'MAX_TOKENS' }] } };
+        if (page === '2' && temperature === 0) return { text: '|---'.repeat(50), raw: { candidates: [{ finishReason: 'MAX_TOKENS' }] } };
+        return { text: `[página ${page}]`, raw: { candidates: [{ finishReason: 'STOP' }] } };
+      };
+      const out = await extractPdfText(buffer, {
+        apiKey: 'KEY', pdfParseImpl: async () => ({ text: 'x', numpages: 2 }), callGeminiImpl: impl,
+        logImpl: { warn: (message) => warnings.push(message) },
+      });
+      assert.equal(out, '[página 1]\n\n[página 2]');
+      assert.deepEqual(calls, [['tramo', 0], ['1', 0], ['2', 0], ['2', PAGE_RETRY_TEMPERATURES[0]]]);
+      assert.match(warnings.at(-1), /página 2 terminó con MAX_TOKENS \(temperatura 0\): se reintenta con temperatura 0\.5/);
+    });
+
+    test('se agotan los reintentos de temperatura y recién ahí va a la cuarentena', async () => {
+      const temperatures = [];
+      const impl = async ({ temperature }) => {
+        temperatures.push(temperature);
+        return { text: '|---'.repeat(50), raw: { candidates: [{ finishReason: 'MAX_TOKENS' }] } };
+      };
+      await assert.rejects(
+        () => extractPdfText(buffer, { apiKey: 'KEY', pdfParseImpl: async () => ({ text: 'x', numpages: 1 }), callGeminiImpl: impl, logImpl: silentLog }),
+        TranscriptionLoopError,
+      );
+      assert.deepEqual(temperatures, [0, ...PAGE_RETRY_TEMPERATURES]);
     });
 
     test('sin cantidad de páginas, un bucle en la lectura completa va a la cuarentena', async () => {
