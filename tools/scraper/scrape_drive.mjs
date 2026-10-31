@@ -503,16 +503,27 @@ function pageRangePrompt(first, last, total) {
   return `Este PDF tiene ${total} páginas. Transcribí ${pages}, con texto y tablas en markdown. No incluyas contenido de otras páginas.`;
 }
 
-async function transcribePdfPages(first, last, total, request, logImpl) {
+// Una página sola en bucle se reintenta con más temperatura: a 0 el modelo
+// siempre elige el token más probable, que es justo lo que alimenta la
+// repetición. Caso real: la página 3 de CP 482 se leyó bien en una corrida y
+// entró en bucle en la siguiente (31/10/2026).
+export const PAGE_RETRY_TEMPERATURES = [0.5, 1];
+
+async function transcribePdfPages(first, last, total, request, logImpl, attempt = 0) {
+  const temperature = attempt === 0 ? 0 : PAGE_RETRY_TEMPERATURES[attempt - 1];
   const { text, raw } = await request(first === 1 && last === total
     ? 'Extraé el contenido completo de este PDF (texto y tablas) en markdown.'
-    : pageRangePrompt(first, last, total));
+    : pageRangePrompt(first, last, total), temperature);
   const finishReason = raw?.candidates?.[0]?.finishReason;
   if (finishReason !== 'MAX_TOKENS') return [(text || '').trim()];
-  logImpl.warn?.(`[PDF] páginas ${first}-${last} terminaron con MAX_TOKENS (${(text || '').length} caracteres): se reparten en tramos más chicos`);
   if (first === last) {
+    if (attempt < PAGE_RETRY_TEMPERATURES.length) {
+      logImpl.warn?.(`[PDF] página ${first} terminó con MAX_TOKENS (temperatura ${temperature}): se reintenta con temperatura ${PAGE_RETRY_TEMPERATURES[attempt]}`);
+      return transcribePdfPages(first, last, total, request, logImpl, attempt + 1);
+    }
     throw new TranscriptionLoopError(`la página ${first} entró en un bucle de repetición al transcribirse (límite de tokens de salida)`);
   }
+  logImpl.warn?.(`[PDF] páginas ${first}-${last} terminaron con MAX_TOKENS (${(text || '').length} caracteres): se reparten en tramos más chicos`);
   const middle = Math.floor((first + last) / 2);
   return [
     ...await transcribePdfPages(first, middle, total, request, logImpl),
@@ -539,13 +550,13 @@ export async function extractPdfText(buffer, {
 
   if (!apiKey) return parsedText; // sin credenciales (dev/test) → solo pdf-parse
 
-  const request = (userPrompt) => callGeminiImpl({
+  const request = (userPrompt, temperature = 0) => callGeminiImpl({
     apiKey,
     model,
     systemInstruction: PDF_EXTRACTION_SYSTEM,
     userPrompt,
     fileParts: [{ inlineData: { mimeType: 'application/pdf', data: buffer.toString('base64') } }],
-    temperature: 0,
+    temperature,
     ...TRANSCRIPTION_CALL,
     maxOutputTokens: PDF_CHUNK_MAX_OUTPUT_TOKENS,
   });
