@@ -4,6 +4,8 @@ Esta guía fue diseñada especialmente para coordinadores, administrativos y dir
 
 Aquí aprenderás a editar los archivos de contenido sin necesidad de tener conocimientos previos de programación, entendiendo la tecnología a través de analogías sencillas de la administración pública y universitaria.
 
+Si en vez de editar archivos acá subís documentos a la carpeta de Google Drive, seguí la [guía de carga en Drive](GUIA_CARGA_DRIVE.md).
+
 ---
 
 ## 🔍 Glosario de Equivalencias Tecnológicas
