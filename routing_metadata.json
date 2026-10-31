@@ -3,13 +3,13 @@
   "lastUpdated": "2026-10-31",
   "description": "Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.",
   "stats": {
-    "academica": 26,
+    "academica": 27,
     "institucional": 24,
     "ciencia": 22,
     "extension": 6,
     "internacionales": 8,
     "docentes": 4,
-    "posgrados_graduados": 33,
+    "posgrados_graduados": 34,
     "posgrados_cursos_sin_titulo": 28,
     "grado": 12,
     "tramites_bedelia": 7,
@@ -1132,6 +1132,18 @@
       "sector": "academica",
       "displayName": "Académica",
       "title": "Régimen de Correlatividades de la Licenciatura en Administración (Res. C.S. N° 441/25)",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-481-26-fce-1303853-26-modif-contador-publico.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Modificación del Plan de Estudios de la Carrera de Contador Público (Resolución CS N° 481/26)",
+      "category": "Complementario"
+    },
+    "complementos/04-posgrado-info-costos-carrera-para-la-ia.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Info costos carrera para la IA",
       "category": "Complementario"
     }
   }
