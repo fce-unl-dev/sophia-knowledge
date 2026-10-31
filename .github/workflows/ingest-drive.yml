@@ -51,6 +51,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 concurrency:
   group: ingest-drive
@@ -90,6 +91,18 @@ jobs:
             extra_args="--force"
           fi
           node scrape_drive.mjs --write-candidates $extra_args
+
+      # Cuarentena visible: cada archivo que no entró al KB aparece en el resumen
+      # del run, con qué hacer, aunque la corrida no genere PR.
+      - name: Publish unprocessed Drive files
+        if: always()
+        working-directory: tools/scraper
+        run: |
+          set -euo pipefail
+          report=state/complementos/last_run_report.json
+          node drive_quarantine.mjs warnings "$report"
+          node drive_quarantine.mjs markdown "$report" > "$RUNNER_TEMP/drive-quarantine.md"
+          cat "$RUNNER_TEMP/drive-quarantine.md" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Stop on dry-run
         if: inputs.mode == 'dry-run'
@@ -231,6 +244,10 @@ jobs:
           EOF
           fi
 
+          if [ -s "$RUNNER_TEMP/drive-quarantine.md" ]; then
+            { echo; cat "$RUNNER_TEMP/drive-quarantine.md"; } >> /tmp/drive-pr-body.md
+          fi
+
           git commit -m "$commit_message"
           git push -f origin "$branch"
 
@@ -245,6 +262,30 @@ jobs:
           gh pr edit "$branch" \
             --title "$title" \
             --body-file /tmp/drive-pr-body.md
+
+      # Un issue abierto lista los archivos pendientes mientras existan y se
+      # cierra solo cuando una corrida los procesa todos. Requiere un scrape
+      # completo: sin reporte confiable no se cierra nada.
+      - name: Track unprocessed Drive files in an issue
+        if: always() && inputs.mode != 'dry-run' && steps.scrape.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          count=$(node tools/scraper/drive_quarantine.mjs count tools/scraper/state/complementos/last_run_report.json)
+          run_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          gh label create drive-no-procesados --color B91C1C --description "Archivos de Drive que la ingesta no pudo incorporar al KB" 2>/dev/null || true
+          number=$(gh issue list --label drive-no-procesados --state open --json number --jq '.[0].number // empty')
+          if [ "$count" -gt 0 ]; then
+            { cat "$RUNNER_TEMP/drive-quarantine.md"; echo; echo "Última corrida: $run_url"; } > "$RUNNER_TEMP/drive-issue.md"
+            if [ -n "$number" ]; then
+              gh issue edit "$number" --body-file "$RUNNER_TEMP/drive-issue.md"
+            else
+              gh issue create --title 'Drive: documentos no procesados' --label drive-no-procesados --body-file "$RUNNER_TEMP/drive-issue.md"
+            fi
+          elif [ -n "$number" ]; then
+            gh issue close "$number" --comment "La corrida $run_url procesó todos los archivos de Drive."
+          fi
 
       # Las bajas masivas ya quedaron bloqueadas por la guarda del scraper, pero
       # un run verde no las haría notar: sin esto el pipeline vuelve a fallar en

@@ -11,6 +11,9 @@ import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 import { createHash } from 'node:crypto';
 import { checkFormattedComplement, checkRawFloor, checkRemovalRatio, DEFAULT_MIN_DOC_CHARS } from './guards.mjs';
+import { diagnoseDriveError, writeRunReport } from './drive_quarantine.mjs';
+
+export const RUN_REPORT_FILE = 'last_run_report.json';
 
 // Setup directories
 const here = dirname(fileURLToPath(import.meta.url));
@@ -892,6 +895,7 @@ Env:
   let skippedUnchanged = 0;
   let skippedDuplicate = 0;
   let errorCount = 0;
+  const runErrors = [];
 
   for (const file of driveFiles) {
     const slug = slugify(file.path.replace(/\.[^/.]+$/, ""));
@@ -1081,6 +1085,7 @@ Env:
     } catch (err) {
       console.error(`  [Error] No se pudo procesar ${file.path}:`, err.message);
       errorCount++;
+      runErrors.push(diagnoseDriveError(file, err.message));
       newFilesState[file.id] = prevFile || {
         id: file.id,
         name: file.name,
@@ -1182,6 +1187,10 @@ Env:
   driveState.files = newFilesState;
   await writeFile(statePath, JSON.stringify(driveState, null, 2) + '\n', 'utf8');
   console.log(`drive.meta.json actualizado en ${statePath}`);
+
+  // Reporte de la corrida para la cuarentena visible (resumen, PR e issue).
+  // No se commitea: describe esta corrida, no el estado del KB.
+  await writeRunReport(join(stateDir, RUN_REPORT_FILE), runErrors);
 
   // Summary Report
   console.log('\n--- Resumen de Ingesta ---');
