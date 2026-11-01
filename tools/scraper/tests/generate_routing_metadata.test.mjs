@@ -128,6 +128,51 @@ describe('overrides de taxonomía (alta prioridad sobre matchOrder)', () => {
   });
 });
 
+describe('cambio de planes 2027', () => {
+  const doc = (slug, sector) => ({
+    path: `complementos/15-cambio-de-planes-de-estudio-2027-${slug}.md`,
+    title: slug,
+    category: 'Complementario',
+    sector,
+  });
+
+  test('la carpeta de Drive resuelve a academica sin pasar por la IA', () => {
+    assert.equal(
+      resolveSectorFromDrivePath('15-Cambio de Planes de Estudio 2027/nuevo/LA - transicion.pdf'),
+      'academica',
+    );
+  });
+
+  test('los planes de transición de las tres carreras quedan juntos en academica', () => {
+    // El 31/10/2026 la IA dejó LA 778 en normativa y CP 777 / LE 779 en academica.
+    for (const [slug, sector] of [
+      ['nuevo-la-transicion-rdcd-fce-1305428-26-778', 'normativa'],
+      ['nuevo-cp-transicion-rdcd-fce-1305430-26-777', 'academica'],
+      ['nuevo-le-transicion-rdcd-fce-1305429-26-779', 'academica'],
+    ]) {
+      assert.equal(classifyItem(doc(slug, sector)), 'academica', slug);
+    }
+  });
+
+  test('las correlatividades vigentes del plan anterior van a academica', () => {
+    for (const slug of [
+      'anterior-cpn-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico',
+      'anterior-le-res-c-s-nordm-635-del-12-12-19-expte-nordm-fce-1013240-19-aprob-correlatividades-licenciatura-en-economia',
+      'anterior-la-441-25-fce-1246305-25-correlatividades-lic-administracion',
+    ]) {
+      assert.equal(classifyItem(doc(slug, 'normativa')), 'academica', slug);
+    }
+  });
+
+  test('el texto completo de un plan anterior sigue en normativa', () => {
+    const item = doc(
+      'anterior-cpn-res-c-s-nordm-502-del-25-10-18-expte-nordmfce-0941917-18-modificacion-plan-de-estudios-contador-publico',
+      'academica',
+    );
+    assert.equal(classifyItem(item), 'normativa');
+  });
+});
+
 describe('parseSectorResponse (fallback IA)', () => {
   test('JSON válido con confianza alta → sector elegido', () => {
     const out = parseSectorResponse('{"sector":"docentes","confidence":0.9}');
