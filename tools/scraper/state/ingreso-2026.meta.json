@@ -2,16 +2,16 @@
   "slug": "ingreso-2026",
   "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/",
   "strategy": "fce-wordpress",
-  "content_hash": "893492b273947e40ef0366e5711ad508330c007c5e7379c0d2537eb032ba84e4",
+  "content_hash": "d4e17814fbeeaa680b143f852af067f53806f7780fbc4ddc13856cda69e086ab",
   "previous_hash": "893492b273947e40ef0366e5711ad508330c007c5e7379c0d2537eb032ba84e4",
   "pages_count": 1,
   "pages": [
     {
       "url": "https://www.fce.unl.edu.ar/academica/categorias/ingreso-2026/",
       "title": "INGRESO A CARRERAS DE GRADO",
-      "length": 1946
+      "length": 1534
     }
   ],
-  "scraped_at": "2026-05-18T20:17:37.670Z",
-  "last_checked_at": "2026-05-18T20:17:37.670Z"
+  "scraped_at": "2026-11-02T14:21:22.394Z",
+  "last_checked_at": "2026-11-02T14:21:22.394Z"
 }
