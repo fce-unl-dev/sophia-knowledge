@@ -139,11 +139,9 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 ### Información oficial del CRM — Especialización en Tributación
 
 - **ID de propuesta:** 1077
-- **Inscripción:** Cerrada
-- **Fecha límite de inscripción:** 2025-05-09
-- **Última actualización de este registro (Argentina):** 2026-10-13 20:12:51
-
-> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-11-02 07:24:35
 
 **Respuesta frecuente oficial (dato del CRM):**
 

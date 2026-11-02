@@ -133,7 +133,7 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - **ID de propuesta:** 1337
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-10-15 12:55:17
+- **Última actualización de este registro (Argentina):** 2026-11-02 07:22:10
 
 **Respuesta frecuente oficial (dato del CRM):**
 

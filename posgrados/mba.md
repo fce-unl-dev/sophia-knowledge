@@ -199,7 +199,7 @@ La facultad confirmó noviembre de 2026 como mes previsto de apertura para el ci
 - **ID de propuesta:** 1074
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-10-13 20:11:28
+- **Última actualización de este registro (Argentina):** 2026-11-02 07:24:49
 
 **Respuesta frecuente oficial (dato del CRM):**
 
