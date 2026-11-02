@@ -9,6 +9,11 @@
 
 - Académica » Cambio 2026 de Planes de Estudio » Cambio 2026 de Planes de Estudio
 - Cambio 2026 de Planes de Estudio
+- Elección de Carrera
+- Desde el 19 de octubre y hasta el 30 de octubre, los y las estudiantes del Bachiller Universitario en Ciencias Económicas deberán elegir la carrera que querrán seguir: Contador/a Pública, Licenciatura en Administración o Licenciatura en Economía.
+- Esta elección es OBLIGATORIA para todos/as los/as estudiantes que no hayan elegido carrera. Se deja sin efecto el requisito de “5 materias de primer año aprobadas” para realizar el trámite.
+- Formulario para elección de carrera en el siguiente link:
+- COMPLETÁ EL FORMULARIO ONLINE
 - Presentación de Resultados de las Encuestas
 - En el marco del proceso de revisión y evaluación curricular de las carreras de Contador Público, Licenciatura en Administración y Licenciatura en Economía, se puso a disposición de la Comisión de Evaluación Curricular del Consejo Directivo la presentación elaborada por la Socióloga Virginia Trevignani y su equipo.
 - Esta presentación muestra los resultados del relevamiento realizado a docentes y estudiantes, constituyendo un insumo fundamental para el análisis y las propuestas de mejora de nuestra comunidad académica.
@@ -17,6 +22,10 @@
 - Normativa
 - Resolución 2598/2023 Ministerio de Educación
 - Resolución 556/2025 Ministerio de Capital Humano, Secretaría de Educación
+- Las Resoluciones de C.S. y C.D. respecto a los nuevos planes, correlatividades y plan de transición están disponibles en los apartados de cada carrera:
+- Contador Público/ Contador Público Nacional
+- Licenciatura en Administración
+- Licenciatura en Economía
 - Presentaciones en Jornadas y Encuentros
 - Jornada de presentación de los nuevos planes de estudio
 - Socialización de las nuevas propuestas curriculares
@@ -40,5 +49,5 @@
 
 ---
 
-**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

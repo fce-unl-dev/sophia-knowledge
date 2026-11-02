@@ -24,6 +24,7 @@
 - Plan de estudios 2027:
 - – Res. C.S. 481/2026. Modificación del plan de estudios de Contador Público
 - – Res. C.S. 482/2026. Correlatividades de Contador Público
+- – Res. C.D. 777/2026. Plan de transición de Contador Público
 - Plan de estudios 2019:
 - – Res. C.S. 502/2018. Modificación del plan de estudios de Contador Público.
 - – Res. C.S. Nº 504 del 25-11-18 Expte. Nº FCE-0941913-18 Aprueba Plan Transición Contador Publico
@@ -42,5 +43,5 @@
 
 ---
 
-**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

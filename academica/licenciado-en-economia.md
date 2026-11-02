@@ -21,6 +21,7 @@
 - Plan de estudios 2027:
 - – Res. C.S. Nº 485/2026. Modificación del Plan de Estudio de la Licenciatura en Economía
 - – Res. C.S. Nº 486/2026. Correlatividades de la Licenciatura en Economía
+- – Res. C.D. Nº 779/2026. Plan de Transición de la Licenciatura en Economía
 - Plan de estudios 2019:
 - – Res. C.S. Nº 632 del 12-12-19 Expte. Nº FCE-1013235-19 Modifica Plan Estudio Licenciatura en Economía
 - – Res. C.S. Nº 635 del 12-12-19 Expte. Nº FCE-1013240-19 aprobación de Correlatividades Licenciatura en Economía
@@ -38,5 +39,5 @@
 
 ---
 
-**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
