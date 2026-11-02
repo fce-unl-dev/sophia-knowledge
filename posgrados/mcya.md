@@ -152,7 +152,7 @@ La facultad confirmó el horario de sábados de 9 a 13 para la consulta sobre el
 - **ID de propuesta:** 1271
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-02-28
-- **Última actualización de este registro (Argentina):** 2026-10-02 18:17:33
+- **Última actualización de este registro (Argentina):** 2026-11-02 07:25:11
 
 **Respuesta frecuente oficial (dato del CRM):**
 

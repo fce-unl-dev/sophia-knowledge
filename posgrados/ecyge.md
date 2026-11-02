@@ -166,7 +166,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1254
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-10-13 20:07:36
+- **Última actualización de este registro (Argentina):** 2026-11-02 07:24:56
 
 **Respuesta frecuente oficial (dato del CRM):**
 

@@ -271,7 +271,7 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 - **ID de propuesta:** 1080
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-10-15 12:52:46
+- **Última actualización de este registro (Argentina):** 2026-11-02 07:22:29
 
 **Respuesta frecuente oficial (dato del CRM):**
 
