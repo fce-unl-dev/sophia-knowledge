@@ -126,4 +126,4 @@ La FCE-UNL forma parte del Sistema Universitario Nacional argentino, con título
 
 ---
 
-**Última revisión humana**: PENDIENTE — draft autogenerado el 2026-11-02 por pipeline de scraping.
+**Última revisión humana**: 2026-11-02
