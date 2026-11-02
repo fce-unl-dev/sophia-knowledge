@@ -156,8 +156,8 @@
 | `estudiantes/sica.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
 | `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
 | `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 -18 d (2026-10-30) |
+| `operativos/ingreso-2026.md` | Draft autogenerado | 🟡 -20 d (2026-11-02) | 🟢 -21 d (2026-11-02) |
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 N/D |
-| `operativos/ingreso-2026.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
 | `posgrado-general/becas-docentes.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
 | `posgrado-general/beneficios-graduados.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
 | `posgrado-general/carreras-otras-unidades-overview.md` | Revisado | 🟢 145 d (2026-05-21) | 🔴 147 d (2026-05-18) |
