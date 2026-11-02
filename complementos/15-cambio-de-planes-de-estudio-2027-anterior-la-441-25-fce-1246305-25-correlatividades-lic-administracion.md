@@ -33,7 +33,7 @@ A continuación, se presenta la tabla con las correlatividades de aprobación y 
 | 14 | Contabilidad para Administradores | Contabilidad I | /// |
 | 15 | Metodología de la Investigación | Introducción a las Ciencias Sociales | /// |
 | 16 | Psicología Organizacional y del Trabajo | Administración I, Introducción a las Ciencias Sociales | /// |
-| 17 | Gestión de Sistemas | Administración I | /// |
+| 17 | Gestión de Sistemas Administrativos | Administración I, Informática | /// |
 | 18 | Instituciones de Derecho III | Instituciones de Derecho II | /// |
 | 19 | Microeconomía | Introducción a la Economía, Cálculo para Ciencias Económicas | /// |
 | **4º Año** | | | |
