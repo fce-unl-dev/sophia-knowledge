@@ -16,52 +16,58 @@ El plan de estudios para la cohorte 2027 ha sido diseñado para ofrecer una form
 
 #### 1º Año
 
-| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC | Evaluación |
-|:---|:---|:---|:---|:---|
-| 1  | Matemática para Administradores         | Exclusivo cohorte 2027 | No aplica | Promoción |
-| 2  | Introducción a la Economía             | Exclusivo cohorte 2027 | Propuestas para plan 2019 (4 comisiones de seguimiento: LE 1LA 1 y 2 para CP) | Examen final |
-| 3  | Fundamentos de Administración          | Exclusivo cohorte 2027 | Propuestas para plan 2019 (materia diferente por carrera) | Promoción |
-| 4  | Instituciones del Derecho              | Derecho II ofrece complemento. Derecho II ofrece exámenes. Juntas ofrecerán una propuesta que integre las dos materias. | Exclusivo cohorte 2027 | No publicado |
-| 5  | Tecnologías de la Información          | Exclusivo cohorte 2027 | No aplica | No publicado |
-| 6  | Planeamiento y Control Organizacional  | Propuestas para plan 2019 (2 cuatrimestres de 3 comisiones c/u) | Exclusivo cohorte 2027 | No publicado |
-| 7  | Optativa I                             | Exclusivo cohorte 2027 | No aplica | No publicado |
+| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
+|---|---|---|---|
+| 1 | Matemática para Administradores | Exclusivo cohorte 2027 - Evaluación: promoción | Propuestas para plan 2019 - Evaluación: promoción |
+| 2 | Introducción a la Economía | Exclusivo cohorte 2027 - Evaluación: examen final | Propuestas para plan 2019 (4 comisiones de seguimiento: LE 1LA 1 y 2 para CP) - Evaluación: examen final |
+| 3 | Fundamentos de Administración | Exclusivo cohorte 2027. Propuestas para plan 2019 - Evaluación: promoción | Propuestas para plan 2019 (materia diferente por carrera) - Evaluación: promoción |
+| 4 | Instituciones del Derecho | Derecho II ofrece complemento. Derecho II ofrece exámenes. Juntas ofrecerán una propuesta que integre las dos materias. | Exclusivo cohorte 2027 |
+| 5 | Tecnologías de la Información | Exclusivo cohorte 2027 | — |
+| 6 | Planeamiento y Control Organizacional | Propuestas para plan 2019 (2 cuatrimestres de 3 comisiones c/u) | Exclusivo cohorte 2027 |
+| 7 | Optativa I | Exclusivo cohorte 2027 | — |
 
 #### 2º Año
 
-| Nº | Asignaturas del Nuevo Plan de Estudios | Observaciones |
-|:---|:---|:---|
-| 8  | Estadística para Administradores (*)   | Levantar correlatividad de cálculo |
-| 9  | Metodología de la Investigación en Administración | No publicado |
-| 10 | Derecho de las organizaciones          | No publicado |
-| 11 | Economía para la Administración        | No publicado |
-| 11 | Matemática Financiera                  | No publicado |
-| 12 | Contabilidad y Tributación para Administradores | No publicado |
-| 13 | Estado y Gestión Pública               | No publicado |
-|    | Optativa II                            | No publicado |
-|    | (*): 4 comisiones para Administración  | No publicado |
+| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
+|---|---|---|---|
+| 8 | Estadística para Administradores (*) | Levantar correlatividad de cálculo | — |
+| 9 | Metodología de la Investigación en Administración | — | — |
+| 10 | Derecho de las organizaciones | — | — |
+| 11 | Economía para la Administración | — | — |
+| 11 | Matemática Financiera | — | — |
+| 12 | Contabilidad y Tributación para Administradores | — | — |
+| 13 | Estado y Gestión Pública | — | — |
+|  | Optativa II | — | — |
+
+(*): 4 comisiones para Administración.
 
 #### 3º Año
 
-| Nº | Asignaturas del Nuevo Plan de Estudios | Equivalencias con asignaturas del Plan C.S. N° 631/19 |
-|:---|:---|:---|
-| 14 | Gestión de Sistemas Administrativos    | Gestión de Sistemas Administrativos                   |
-| 15 | Gestión de Recursos Humanos            | Administración de Recursos Humanos                    |
-| 16 | Costos para la Gestión                 | Costos y Gestión                                      |
-| 17 | Marketing                              | Comercialización                                      |
-| 18 | Administración de Operaciones          | Administración de Operaciones                         |
-| 19 | Sociología de las Organizaciones       | Sociología de las Organizaciones                      |
+| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
+|---|---|---|---|
+| 14 | Gestión de Sistemas Administrativos | Gestión de Sistemas Administrativos | — |
+| 15 | Gestión de Recursos Humanos | Administración de Recursos Humanos | — |
+| 16 | Costos para la Gestión | Costos y Gestión | — |
+| 17 | Marketing | Comercialización | — |
+| 18 | Administración de Operaciones | Administración de Operaciones | — |
+| 19 | Sociología de las Organizaciones | Sociología de las Organizaciones | — |
 
 #### 4º Año
 
+| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
+|---|---|---|---|
+| 20 | Análisis de Datos para la Toma de Decisiones | Inteligencia de Mercados | — |
+| 21 | Gestión de la Innovación | Gestión de la Innovación | — |
+
 | Nº | Asignaturas del Nuevo Plan de Estudios | Equivalencias con asignaturas del Plan C.S. N° 631/19 |
-|:---|:---|:---|
-| 20 | Análisis de Datos para la Toma de Decisiones | Inteligencia de Mercados                              |
-| 21 | Gestión de la Innovación               | Gestión de la Innovación                              |
-| 22 | Sistemas de Gestión de la Información  | Sistemas de Información Gerencial                     |
-| 23 | Gestión Financiera y Mercados          | Finanzas y Mercado de Capitales                       |
-| 24 | Dirección Estratégica                  | Dirección Estratégica                                 |
-| 25 | Gestión de las Relaciones Económicas Internacionales | Negocios Internacionales                              |
-| 26 | Trabajo Final Integrador               | Seminario de Práctica Profesional – Plan de Negocios  |
+|---|---|---|
+| 22 | Sistemas de Gestión de la Información | Sistemas de Información Gerencial |
+| 23 | Gestión Financiera y Mercados | Finanzas y Mercado de Capitales |
+| 24 | Dirección Estratégica | Dirección Estratégica |
+| 25 | Gestión de las Relaciones Económicas Internacionales | Negocios Internacionales |
+| 26 | Trabajo Final Integrador | Seminario de Práctica Profesional – Plan de Negocios |
+
+*Nota: «—» indica que la celda está vacía en el documento oficial de origen.*
 
 ### 3. Cronograma General de Implementación (ANEXO II)
 

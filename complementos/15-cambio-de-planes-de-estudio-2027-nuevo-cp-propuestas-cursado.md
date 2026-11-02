@@ -26,8 +26,8 @@ Este documento detalla la propuesta de cursado para el año 2027 de las asignatu
 | 9 | Matemática Aplicada (*) | Propuestas para plan 2019. Se levanta la correlativa de Matemática - Cálculo. Evaluación: promoción. | Evaluación: promoción |
 | 10 | Derecho Laboral y Seguridad Social | Propuesta para plan 2019 | Propuesta para plan 2019 |
 | 11 | Matemática Financiera | Propuesta para plan 2019 | Propuesta para plan 2019 |
-| 12 | Economía Aplicada | No publicado | No publicado |
-| 13 | Administración y Finanzas Públicas | No publicado | No publicado |
+| 12 | Economía Aplicada | — | — |
+| 13 | Administración y Finanzas Públicas | — | — |
 | 14 | Taller de Práctica Integradora I | Propuesta para plan 2019 | Propuesta para plan 2019 con algún levantamiento de correlatividades. |
 
 (*) Nota: 7 comisiones para CP.
@@ -36,23 +36,25 @@ Este documento detalla la propuesta de cursado para el año 2027 de las asignatu
 
 | Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
 |---|---|---|---|
-| 15 | Informes Contables | No publicado | No publicado |
+| 15 | Informes Contables | — | — |
 | 16 | Finanzas de Empresas | Dictado de Administración III para plan 2019 | Dictado de Administración III para plan 2019 |
 | 17 | Tecnologías de la Información | Informática para plan 2019 adaptada a la nueva asignatura | Informática para plan 2019 adaptada a la nueva asignatura |
-| 18 | Historia Social y Económica | Historia Social y Económica Argentina | No publicado |
-| 19 | Contabilidad de Gestión y Costos | Costos I y Costos II | No publicado |
-| 20 | Organización Jurídica de la Empresa | Sociedades | No publicado |
+| 18 | Historia Social y Económica | Historia Social y Económica Argentina | — |
+| 19 | Contabilidad de Gestión y Costos | Costos I y Costos II | — |
+| 20 | Organización Jurídica de la Empresa | Sociedades | — |
 
 ### 4º Año
 
 | Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
 |---|---|---|---|
-| 21 | Teoría y Técnica Impositiva I (Consumo) | Teoría y Técnica Impositiva II | No publicado |
-| 22 | Procesos de Insolvencia | Concursos y Títulos Valores | No publicado |
-| 23 | Auditoría | Auditoría | No publicado |
-| 24 | Teoría y Técnica Impositiva II (Ganancias) | Teoría y Técnica Impositiva I | No publicado |
-| 25 | Taller de Práctica Integradora II | Taller de Práctica Integradora II | No publicado |
-| 26 | Práctica Profesional Supervisada | Práctica Profesional Supervisada | No publicado |
+| 21 | Teoría y Técnica Impositiva I (Consumo) | Teoría y Técnica Impositiva II | — |
+| 22 | Procesos de Insolvencia | Concursos y Títulos Valores | — |
+| 23 | Auditoría | Auditoría | — |
+| 24 | Teoría y Técnica Impositiva II (Ganancias) | Teoría y Técnica Impositiva I | — |
+| 25 | Taller de Práctica Integradora II | Taller de Práctica Integradora II | — |
+| 26 | Práctica Profesional Supervisada | Práctica Profesional Supervisada | — |
+
+*Nota: «—» indica que la celda está vacía en el documento oficial de origen.*
 
 ---
 

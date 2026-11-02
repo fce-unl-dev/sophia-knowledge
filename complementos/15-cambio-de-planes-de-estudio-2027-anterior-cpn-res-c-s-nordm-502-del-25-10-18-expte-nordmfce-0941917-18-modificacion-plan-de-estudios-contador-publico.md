@@ -182,7 +182,6 @@ El avance hacia el Ciclo Especializado está enmarcado en las correlatividades c
 |            | Instituciones de Derecho II              | 75            |
 |            | Macroeconomía                            | 75            |
 |            | Taller de Práctica Integradora I         | 90            |
-|            | Estadística                              | 90            |
 |            | **TOTAL HORAS 2º AÑO**                   | **555**       |
 | **3º año** | Contabilidad III                         | 75            |
 |            | Sociedades                               | 75            |
@@ -190,6 +189,7 @@ El avance hacia el Ciclo Especializado está enmarcado en las correlatividades c
 |            | Microeconomía                            | 75            |
 |            | Administración II                        | 60            |
 |            | Finanzas Públicas                        | 60            |
+|            | Estadística                              | 90            |
 |            | Inglés para las Ciencias Económicas      | 60            |
 |            | **TOTAL HORAS 3º AÑO**                   | **570**       |
 | **4º año** | Teoría y Técnica Impositiva I - anual    | 120           |
@@ -276,7 +276,6 @@ El enfoque de los contenidos se realiza en un marco de interdisciplinariedad, re
 *   **Instituciones de Derecho II (75 horas):** Comprender la importancia del conocimiento de las instituciones de Derecho Privado, conocer su contenido básico, comprender sus funciones y finalidad, relacionarlas con las ciencias económicas, identificarlas en situaciones concretas, interpretar la norma.
 *   **Macroeconomía (75 horas):** Analizar el funcionamiento de un sistema económico, identificar conocimientos analíticos básicos en teoría macroeconómica, generar un criterio propio de análisis de la realidad económica.
 *   **Taller de Práctica Integradora I (90 horas):** Resignificar contenidos teóricos de las áreas fundantes de las Ciencias Económicas, desarrollar habilidades para abordar problemas de baja complejidad, analizar casos relacionados con la realidad local.
-*   **Estadística (90 horas):** Reconocer conceptos fundamentales de la Estadística, desarrollar concepción aleatoria de la realidad, apreciar poder de uso de modelo probabilístico, iniciar comprensión de relación entre Teoría de Probabilidad e Inferencia Estadística, apreciar diversidad de métodos estadísticos, hacer inferencias, adoptar fundamentos del pensamiento inductivo.
 
 ##### TERCER AÑO
 
@@ -286,7 +285,7 @@ El enfoque de los contenidos se realiza en un marco de interdisciplinariedad, re
 *   **Microeconomía (75 horas):** Conocer categorías básicas del análisis económico, analizar, describir y predecir comportamiento de actores económicos, incorporar esquemas y metodologías de análisis, manejar herramientas microeconómicas, tomar decisiones, valorar importancia de la materia.
 *   **Administración II (60 horas):** Reconocer objetivos y alcances de la función de Recursos Humanos, interpretar factores determinantes del comportamiento humano en el trabajo, identificar impacto en la gestión de recursos humanos de paradigmas organizacionales.
 *   **Finanzas Públicas (60 horas):** Adquirir herramientas teóricas para el estudio de actividades del Estado, reconocer rol del Estado en la economía moderna, entender fallas del mercado y del Estado, distinguir componentes del Presupuesto Público, identificar principios constitucionales y socioeconómicos de la tributación, dimensionar importancia de relaciones fiscales intergubernamentales, comprender problemas de Política Fiscal.
-*   **Estadística (90 horas):** (Repetido, ver Segundo Año)
+*   **Estadística (90 horas):** Reconocer conceptos fundamentales de la Estadística, desarrollar concepción aleatoria de la realidad, apreciar poder de uso de modelo probabilístico, iniciar comprensión de relación entre Teoría de Probabilidad e Inferencia Estadística, apreciar diversidad de métodos estadísticos, hacer inferencias, adoptar fundamentos del pensamiento inductivo.
 *   **Inglés para las Ciencias Económicas (60 horas):** Desarrollar repertorio lingüístico, promover autonomía académica, desarrollar competencia intercultural, mejorar competencia socio-comunicacional, desarrollar macro-destrezas, desarrollar conocimiento básico de géneros disciplinares.
 
 ##### CUARTO AÑO

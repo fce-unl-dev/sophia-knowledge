@@ -40,7 +40,7 @@ Este anexo detalla las correlatividades necesarias para cursar y para aprobar o 
 | 14 Microeconomía II               | Matemática II (aprobada) - Microeconomía I (aprobada)                                                  | Matemática II (aprobada) - Microeconomía I (aprobada)                                   |
 | 15 Historia Económica Argentina   | Macroeconomía I (aprobada) - Finanzas Públicas (aprobada)                                              | Macroeconomía I (aprobada) - Finanzas Públicas (regular)                                |
 | 16 Optativa I / Electiva I        | * | * |
-| 17 Evaluación de Proyectos        | Matemática III (aprobada) - Estadística II (aprobada)                                                  | Matemática III (aprobada) - Estadística II (regular)                                    |
+| 17 Evaluación de Proyectos        | Matemática III (aprobada) - Estadística III (aprobada) (Así figura en la resolución; el plan 485/26 no tiene una materia Estadística III. Consultá en Bedelía.)                                                  | Matemática III (aprobada) - Estadística II (regular)                                    |
 | 18 Econometría I                  | Estadística II (aprobada)                                                                              | Estadística II (aprobada)                                                               |
 | 19 Optativa II / Electiva II      | * | * |
 | 20 Economía Internacional         | Macroeconomía I (aprobada)                                                                             | Macroeconomía I (aprobada)                                                              |

@@ -13,35 +13,37 @@ La siguiente tabla presenta la distribución de las asignaturas del nuevo Plan d
 | Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
 |---|---|---|---|
 | **1º AÑO** | | | |
-| 1 | Matemática I | X | |
-| 2 | Introducción a la Economía | X | |
-| 3 | Derecho para Economistas | X | |
-| 4 | Contabilidad para Economistas | X | |
-| 5 | Matemática II | | X |
-| 6 | Historia del Pensamiento Económico | | X |
+| 1 | Matemática I | — | — |
+| 2 | Introducción a la Economía | — | — |
+| 3 | Derecho para Economistas | — | — |
+| 4 | Contabilidad para Economistas | — | — |
+| 5 | Matemática II | — | — |
+| 6 | Historia del Pensamiento Económico | — | — |
 | **2º AÑO** | | | |
-| 7 | Microeconomía I | X | |
-| 8 | Matemática III | X | |
-| 9 | Sociología Económica | X | |
-| 10 | Estadística I | | X |
-| 11 | Estadística II | | X |
-| 12 | Finanzas Públicas | | X |
-| 13 | Macroeconomía I | | X |
+| 7 | Microeconomía I | — | — |
+| 8 | Matemática III | — | — |
+| 9 | Sociología Económica | — | — |
+| 10 | Estadística I | — | — |
+| 11 | Estadística II | — | — |
+| 12 | Finanzas Públicas | — | — |
+| 13 | Macroeconomía I | — | — |
 | **3º AÑO** | | | |
-| 14 | Microeconomía II | Organización Industrial | |
-| 15 | Historia y Estructura Económica Argentina | Historia y Estructura Económica Argentina | |
-| 16 | Evaluación de Proyectos | Evaluación de Proyectos | |
-| 17 | Econometría I | Econometría | |
-| 18 | Economía Internacional | Economía Internacional | |
-| 19 | Macroeconomía II | Macroeconomía II | |
+| 14 | Microeconomía II | Organización Industrial | — |
+| 15 | Historia y Estructura Económica Argentina | Historia y Estructura Económica Argentina | — |
+| 16 | Evaluación de Proyectos | Evaluación de Proyectos | — |
+| 17 | Econometría I | Econometría | — |
+| 18 | Economía Internacional | Economía Internacional | — |
+| 19 | Macroeconomía II | Macroeconomía II | — |
 | **4º AÑO** | | | |
-| 20 | Econometría II | Econometría | |
-| 21 | Economía Laboral | Economía Laboral | |
-| 22 | Política Económica Argentina | Política Económica Argentina | |
-| 23 | Desarrollo Económico | Desarrollo Económico | |
-| 24 | Finanzas y Mercados de Capitales | Riesgo, Incertidumbre y Mercados Financieros | |
-| 25 | Economía Monetaria y Financiera | Economía Monetaria | |
-| 26 | Seminario de Tesina/Acreditación | Metodología de la Investigación | |
+| 20 | Econometría II | Econometría | — |
+| 21 | Economía Laboral | Economía Laboral | — |
+| 22 | Política Económica Argentina | Política Económica Argentina | — |
+| 23 | Desarrollo Económico | Desarrollo Económico | — |
+| 24 | Finanzas y Mercados de Capitales | Riesgo, Incertidumbre y Mercados Financieros | — |
+| 25 | Economía Monetaria y Financiera | Economía Monetaria | — |
+| 26 | Seminario de Tesina/Acreditación | Metodología de la Investigación | — |
+
+*Nota: «—» indica que la celda está vacía en el documento oficial de origen.*
 
 ### ANEXO II: Cronograma General de Implementación
 
