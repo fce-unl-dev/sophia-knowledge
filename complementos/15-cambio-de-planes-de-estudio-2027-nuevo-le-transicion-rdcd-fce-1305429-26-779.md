@@ -124,6 +124,8 @@ Las disposiciones del presente régimen se interpretarán procurando favorecer l
 | 25 | Economía Monetaria y Financiera | Economía Monetaria |
 | 26 | Seminario de Tesina/Acreditación | Metodología de la Investigación y Seminario de Formulación de Proyecto de Tesina |
 
+*Nota: así figura la materia 15 en la resolución 779/26 (en ambas columnas). En el nuevo plan de Licenciatura en Economía (Res. C.S. N° 485/26) esta asignatura se llama "Historia Económica Argentina".*
+
 ### ANEXO III - RES. C.D. N° 779/26
 
 #### CRONOGRAMA GENERAL DE IMPLEMENTACIÓN
