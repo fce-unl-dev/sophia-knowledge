@@ -1,5 +1,5 @@
 {
-  "lastSynced": "2026-10-31T13:53:28.346Z",
+  "lastSynced": "2026-11-02T19:03:57.838Z",
   "files": {
     "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07": {
       "id": "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07",
@@ -291,14 +291,15 @@
       "id": "1z9qO4IpYjOW5jC2ccsRHUaqnFmK0rOWX9Tzy6rneY_k",
       "name": "Info costos carrera para la IA",
       "mimeType": "application/vnd.google-apps.spreadsheet",
-      "modifiedTime": "2026-10-30T21:45:39.586Z",
+      "modifiedTime": "2026-11-02T16:14:26.967Z",
       "path": "04-Posgrado/Info costos carrera para la IA",
       "slug": "04-posgrado-info-costos-carrera-para-la-ia",
       "sector": "posgrados_graduados",
+      "provisional": false,
       "status": "synchronized",
-      "hash": "44b4a9628c953d61c141a654be42fffb5d2d5c32db61f7098e8df8ebc7d6b1e3",
+      "hash": "3ef274d905ee72815b549d98a75ebace0e315f4a3ba01296abb3d70c46156198",
       "webViewLink": "https://docs.google.com/spreadsheets/d/1z9qO4IpYjOW5jC2ccsRHUaqnFmK0rOWX9Tzy6rneY_k/edit?usp=drivesdk",
-      "lastProcessed": "2026-10-31T13:10:04.846Z"
+      "lastProcessed": "2026-11-02T19:03:57.803Z"
     },
     "1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN": {
       "id": "1druV6z8Ar5K7leWgW40ijBqDnpLDKoMN",
