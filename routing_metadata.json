@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "lastUpdated": "2026-10-31",
+  "lastUpdated": "2026-11-01",
   "description": "Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.",
   "stats": {
-    "academica": 29,
+    "academica": 32,
     "institucional": 24,
     "ciencia": 22,
     "extension": 6,
@@ -13,7 +13,7 @@
     "posgrados_cursos_sin_titulo": 28,
     "grado": 12,
     "tramites_bedelia": 7,
-    "normativa": 16
+    "normativa": 13
   },
   "mappings": {
     "academica/academica.md": {
@@ -1075,8 +1075,8 @@
       "category": "Complementario"
     },
     "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-transicion-rdcd-fce-1305428-26-778.md": {
-      "sector": "normativa",
-      "displayName": "Normativa y Reglamentos",
+      "sector": "academica",
+      "displayName": "Académica",
       "title": "Plan de Transición y Régimen de Equivalencias para la Licenciatura en Administración (Resolución C.D. N° 778/26)",
       "category": "Complementario"
     },
@@ -1099,14 +1099,14 @@
       "category": "Complementario"
     },
     "complementos/15-cambio-de-planes-de-estudio-2027-anterior-cpn-res-c-s-n-503-del-25-10-18-expte-n-fce-0941908-18-aprueba-correlatividades-contador-publico.md": {
-      "sector": "normativa",
-      "displayName": "Normativa y Reglamentos",
+      "sector": "academica",
+      "displayName": "Académica",
       "title": "CPN Res_ C_S_ Nº 503 del 25-10-18 Expte_ Nº FCE-0941908-18 Aprueba Correlatividades Contador Publico",
       "category": "Complementario"
     },
     "complementos/15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-635-del-12-12-19-expte-nordm-fce-1013240-19-aprob-correlatividades-licenciatura-en-economia.md": {
-      "sector": "normativa",
-      "displayName": "Normativa y Reglamentos",
+      "sector": "academica",
+      "displayName": "Académica",
       "title": "Resolución C.S. N° 635/19 - Régimen de Correlatividades Licenciatura en Economía",
       "category": "Complementario"
     },

@@ -50,6 +50,19 @@
       "sector": "tramites_bedelia"
     },
     {
+      "description": "Cambio de planes 2027: todo lo nuevo (planes, correlatividades, planes de transición con su tabla de equivalencias y propuestas de cursado de CP, LA y LE) va junto a `academica`, que es adonde el clasificador manda las consultas sobre planes y correlatividades. La carpeta de Drive no tiene alias en la taxonomía, así que el sector lo elegía la IA documento por documento: el 31/10/2026 dejó el plan de transición de LA (Res. C.D. 778/26) en `normativa` y los de CP y LE en `academica`, y una consulta por equivalencias de LA no veía su tabla. Las correlatividades del plan anterior se suman acá porque siguen vigentes para quienes cursan ese plan hasta el 31/03/2029 y son cortas; los textos completos de los planes anteriores siguen en `normativa`. `force: true` porque estos docs traen sector explícito de la ingesta y tiene que ganarle también al override de resoluciones.",
+      "force": true,
+      "match": {
+        "pathIncludes": [
+          "15-cambio-de-planes-de-estudio-2027-nuevo-",
+          "15-cambio-de-planes-de-estudio-2027-anterior-cpn-res-c-s-n-503-",
+          "15-cambio-de-planes-de-estudio-2027-anterior-la-441-25-",
+          "15-cambio-de-planes-de-estudio-2027-anterior-le-res-c-s-nordm-635-"
+        ]
+      },
+      "sector": "academica"
+    },
+    {
       "description": "Resoluciones y reglamentos archivados en carpetas temáticas de Drive (02-grado, 04-posgrado). Son texto legal completo, largo, que ningún estudiante pide por su nombre: infla el sector donde caiga y empuja el dato útil al medio del contexto. El caso testigo es la Res. C.S. 502/18 de modificación del plan de Contador Público, 68.800 caracteres — el 20% del sector `grado` en un solo documento. `force: true` porque estos docs traen sector explícito de la carpeta de Drive y sin eso el override no se evaluaría. El contenido de cara al estudiante NO se toca: por ejemplo el reglamento de PPS se va a normativa, pero estudiantes/practicas-profesionales-supervisadas.md se queda en grado.",
       "force": true,
       "match": {
@@ -63,7 +76,7 @@
       "displayName": "Académica",
       "kbFolder": "academica",
       "webPathPrefixes": ["/academica"],
-      "driveFolderAliases": ["academica", "aulas-virtuales", "calendarios-y-cronogramas"],
+      "driveFolderAliases": ["academica", "aulas-virtuales", "calendarios-y-cronogramas", "cambio-de-planes-de-estudio-2027"],
       "match": { "pathPrefix": ["academica/"] }
     },
     "institucional": {
