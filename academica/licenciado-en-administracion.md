@@ -34,6 +34,7 @@
 - Plan de estudios 2027:
 - – Res. C.S. Nº 483/2026. Modificación del Plan de Estudios de la Licenciatura en Administración
 - – Res. C.S. Nº 484/2026. Correlatividades de la Licenciatura en Administración
+- – Res. C.D. Nº 778/2026. Plan de Transición de la Licenciatura en Administración
 - Plan de estudios 2019:
 - – Res. C.S. Nº 631 del 12-12-19 Expte. Nº FCE-1013236-19 Plan de Estudios Licenciatura en Administración
 - – Res. C.D. Nº 441 del 24-07-25 Expte.Nº FCE-1246305-25 Correlatividades Licenciatura en Administración
@@ -52,5 +53,5 @@
 
 ---
 
-**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

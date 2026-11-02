@@ -25,9 +25,6 @@
 Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/plan-cp2026.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/plan-la2026.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/plan-le2026.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-701-Calendario-Acad%C3%A9mico-2025-grado.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/FCE_Relevamiento-versi%C3%B3n-final-12.08.26.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/NUEVO_PLAN_powerCharla-3_organized.pdf
@@ -50,6 +47,17 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Nota-Seguros-Decana-Dillon.docx
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/481_26_FCE-1303853-26_Modif__Contador_Publico.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/482_26_FCE-1303855-26_Correlatividades_-_CP.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/CPN-transicion-RDCD_FCE-1305430-26_777.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/483_26_FCE-1303854-26_Modif_Lic_Administracion.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/484_26_FCE-1303857-26_Correlatividades_LA.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/LA-transicion-RDCD_FCE-1305428-26_778.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/441_25_FCE-1246305-25_Correlatividades_Lic__Administracion.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/RDCD_FCE-1151835-23_286-CORRELATIVIDAD-DIRECCI%C3%93N-ESTRAT%C3%89GICA.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/485_26_FCE-1303856-26_Modif_Lic_Econom_a_0A.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/486_26_FCE-1303858-26_Correlatividades_Lic_economia.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/LE-transicion-RDCD_FCE-1305429-26_779.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/PLAN-DE-ESTUDIO-tagp.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res._C.S._N__107_del_11-06-20_Expte._N_REC-1035159-20_Modifica_denominacion_Plan_estudios_Tecnicatura_Universitaria_en__Control_Auditoria__Gubernamental_FCE-1.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-705-Aprueba-programa-ADMINISTRACI%C3%93N-I-%E2%80%93-CP-LA-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-735-Aprueba-programa-INTRODUCCI%C3%93N-A-LA-ECONOM%C3%8DA-%E2%80%93-CP-LA-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-712-Aprueba-programa-CONTABILIDAD-I-%E2%80%93-CP.pdf
@@ -83,10 +91,6 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-711-Aprueba-programa-CONCURSOS-Y-T%C3%8DTULOS-VALORES-%E2%80%93-CP.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-171-Programa-HISTORIA-SOCIAL-Y-ECON%C3%93MICA-ARGENTINA-CP.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/pps-747-24-doc_nuxeo_DDlbSMkIHv.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/483_26_FCE-1303854-26_Modif_Lic_Administracion.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/484_26_FCE-1303857-26_Correlatividades_LA.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/441_25_FCE-1246305-25_Correlatividades_Lic__Administracion.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/RDCD_FCE-1151835-23_286-CORRELATIVIDAD-DIRECCI%C3%93N-ESTRAT%C3%89GICA.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-717-Aprueba-programa-CONTABILIDAD-PARA-ADMINISTRADORES-%E2%80%93-LA.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-728-Aprueba-programa-GESTI%C3%93N-DE-SISTEMAS-ADMINISTRATIVOS-LA.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-733-Aprueba-programa-INSTITUCIONES-DE-DERECHO-III-LA.pdf
@@ -102,8 +106,6 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-727-Aprueba-programa-GESTI%C3%93N-DE-LA-INNOVACI%C3%93N-%E2%80%93-LA.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-746-Aprueba-programa-SOCIOLOG%C3%8DA-DE-LAS-ORGANIZACIONES-LA.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-744-Aprueba-programa-NEGOCIOS-INTERNACIONALES-LA.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/485_26_FCE-1303856-26_Modif_Lic_Econom_a_0A.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/486_26_FCE-1303858-26_Correlatividades_Lic_economia.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-729-Aprueba-programa-HISTORIA-DEL-PENSAMIENTO-ECON%C3%93MICO-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-085-Modifica-Programa-de-MATEMATICA-PARA-ECONOMISTAS.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-789-Aprueba-programa-ECONOM%C3%8DA-DEL-SECTOR-P%C3%9ABLICO-LE.pdf
@@ -122,8 +124,6 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Econom%C3%ADa-Ambiental-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-794-Aprueba-programa-POL%C3%8DTICA-ECON%C3%93MICA-ARGENTINA-LE.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/RDCD_FCE-1145931-23_237-PROGRAMA-OI.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/PLAN-DE-ESTUDIO-tagp.pdf
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res._C.S._N__107_del_11-06-20_Expte._N_REC-1035159-20_Modifica_denominacion_Plan_estudios_Tecnicatura_Universitaria_en__Control_Auditoria__Gubernamental_FCE-1.pdf
 
 ## Advertencias para Luca
 
@@ -136,5 +136,5 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
 
 ---
 
-**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

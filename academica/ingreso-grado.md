@@ -10,29 +10,22 @@
 - Académica » Ingreso 2026 » INGRESO A CARRERAS DE GRADO
 - INGRESO A CARRERAS DE GRADO
 - Elegir una carrera universitaria es un paso importante. En la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral te acompañamos en ese comienzo, brindándote información clara y herramientas para que puedas iniciar tu trayectoria académica con confianza y pertenencia a la comunidad universitaria.
-- Inscripción a carreras presenciales – Ingreso 2026
-- Las inscripciones para el ingreso 2026 estuvieron abiertas del 1º de noviembre al 10 de diciembre de 2025.
-- El proceso de inscripción se realizó de manera online y constó de dos pasos principales:
+- Inscripción a carreras presenciales – Ingreso 2027
+- Las inscripciones para el ingreso 2027 estarán abiertas del 1º de noviembre al 10 de diciembre de 2026.
+- El proceso de inscripción se realizará de manera online y constará de dos pasos principales:
 - • Completar la ficha de datos personales
 - • Subir la documentación solicitada por el sistema
 - Podés consultar el paso a paso detallado en el siguiente enlace:
-- 👉 https://www.unl.edu.ar/ingresounl/pasoapaso/
-- Al momento de inscribirte, es importante que selecciones la opción Bachiller en Ciencias Económicas.
-- Este Bachiller constituye el ciclo común inicial de las tres carreras de grado que se dictan en la FCE. Una vez finalizado, podrás optar por la carrera que desees continuar.
+- https://www.unl.edu.ar/ingresounl/pasoapaso/
+- Al momento de inscribirte, es importante que selecciones la carrera que quieras cursar: Contador Publico, Licenciatura en Administración o Licenciatura en Economía.
 - ¿Qué podés estudiar en la FCE?
 - En la Facultad de Ciencias Económicas podés formarte en alguna de las siguientes carreras de grado:
 - Contador Público
 - Conocer todo sobre esta carrera (click aquí)
-- Ver plan de estudio (click aquí)
-- Conocer el detalle de cada asignatura de esta carrera (click aquí)
 - Licenciatura en Administración
 - Conocer todo sobre esta carrera (click aquí)
-- Ver plan de estudio (click aquí)
-- Conocer el detalle de cada asignatura de esta carrera (click aquí)
 - Licenciatura en Economía
 - Conocer todo sobre esta carrera (click aquí)
-- Ver plan de estudio (click aquí)
-- Conocer el detalle de cada asignatura de esta carrera (click aquí)
 - Ser parte de la FCE implica integrarte a una comunidad académica comprometida con la formación de calidad, la vida universitaria y el desarrollo profesional. Te esperamos para empezar juntos este nuevo camino.
 
 ## Advertencias para Luca
@@ -46,5 +39,5 @@
 
 ---
 
-**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

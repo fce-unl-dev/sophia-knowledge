@@ -15,7 +15,7 @@
 - Números anteriores
 - “Documentos y Aportes en Administración Pública y Gestión Estatal” es una publicación periódica semestral del Magíster en Administración Pública de la Facultad de Ciencias Económicas de la Universidad Nacional del Litoral (Santa Fe). La revista es un espacio de difusión científica sobre la temática vinculada al estudio y la formulación de las políticas públicas y la gestión y administración estatal.
 - Último número
-- Año 24 Num. 43 (2024)
+- Año 25 Num. 44 (2024)
 
 ## Advertencias para Luca
 
@@ -28,5 +28,5 @@
 
 ---
 
-**Última revisión automática**: 2026-10-29 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-02 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
