@@ -139,7 +139,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1103
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-04-12
-- **Última actualización de este registro (Argentina):** 2026-10-13 20:05:16
+- **Última actualización de este registro (Argentina):** 2026-11-03 13:03:21
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
@@ -150,7 +150,8 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 > a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
 > b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
 > c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
-> La apertura de inscripciones a carreras de posgrados sera a partir de Noviembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+> Actualmente se dicta baja la modalidad a distancia \(100% vitual con actividades asincronicas\)\. La apertura de inscripciones será durante este mes de noviembre para el ciclo 2027\.
+> Los valores de matricula se informan a partir de la apertura de inscripciones\.
 > Quedamos a disposición ante cualquier consulta al respecto\.
 > Saludos,
 > Secretaria de Posgrado
@@ -166,7 +167,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1254
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-02 07:24:56
+- **Última actualización de este registro (Argentina):** 2026-11-03 13:01:57
 
 **Respuesta frecuente oficial (dato del CRM):**
 
@@ -176,7 +177,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 > a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
 > b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
 > c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
-> La apertura de inscripciones a carreras de posgrados sera a partir de Noviembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+> La apertura de inscripciones a carreras de posgrados seran durante este mes de noviembre para el ciclo 2027\. Los valores de matricula se informan a partir de la apertura de inscripciones\.
 > Quedamos a disposición\.
 > Saludos,
 > Secretaria de Posgrado

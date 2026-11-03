@@ -253,7 +253,7 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 - **ID de propuesta:** 1078
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-08-07
-- **Última actualización de este registro (Argentina):** 2026-10-13 20:03:31
+- **Última actualización de este registro (Argentina):** 2026-11-03 13:03:44
 
 Las aclaraciones académicas y de admisión se mantienen en la ficha curada, según la confirmación de la facultad. La respuesta libre del CRM no se reproduce porque omite esas salvedades.
 <!-- posgrado-crm:end -->

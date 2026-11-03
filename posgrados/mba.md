@@ -199,7 +199,7 @@ La facultad confirmó noviembre de 2026 como mes previsto de apertura para el ci
 - **ID de propuesta:** 1074
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-02 07:24:49
+- **Última actualización de este registro (Argentina):** 2026-11-03 13:00:45
 
 **Respuesta frecuente oficial (dato del CRM):**
 
@@ -213,8 +213,8 @@ La facultad confirmó noviembre de 2026 como mes previsto de apertura para el ci
 > En especial, ofrece dos menciones: Dirección de Negocios y Finanzas de Empresas\.
 > La modalidad de dictado es presencial, viernes por la tarde y sabado por la mañana, en forma semanal en la FCE UNL \(Moreno 2557\- Santa Fe\), previendo el dictado de algunas clases por zoom\.
 > Para mas información podes acceder a: www\.fce\.unl\.edu\.ar/mba
-> Si estas interesado/a, se abrirá nueva inscripción en Noviembre de este año para el ciclo 2027, la cual verás publicada ingresando a: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
-> Los valores de matricula se informan a partir de dicha fecha\.
+> Si estas interesado/a, se abrirá nueva inscripción durante este mes de noviembre para el ciclo 2027, la cual verás publicada ingresando a: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Los valores de matricula se informan a partir de la apertura de inscripciones\.
 > Gracias por tu interes, quedamos a disposición\.
 > Saludos,
 > Secretaria de Posgrado

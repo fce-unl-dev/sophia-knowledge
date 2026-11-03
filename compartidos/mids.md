@@ -134,7 +134,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - **ID de propuesta:** 1425
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2026-12-31
-- **Última actualización de este registro (Argentina):** 2026-11-02 07:22:36
+- **Última actualización de este registro (Argentina):** 2026-11-03 12:26:48
 
 **Respuesta frecuente oficial (dato del CRM):**
 
@@ -144,7 +144,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 > A partir de una visión sistémica del desarrollo, la propuesta formativa se orienta a construir capacidades para la acción transformadora, combinando enfoques cuantitativos, cualitativos y participativos, con fuerte énfasis en la contextualización territorial\.
 > Es una carrera compartida entre la Facultad de Ciencias Económicas \(FCE\-UNL\) y la Facultad de Ciencias Exactas, Físicas y Naturales \(FCEFyN\-UNC\)\. Desarrollada en el marco del proyecto USGAT \(Unleashing Sustainable Growth through Applied Technologies\), financiado por el Programa Erasmus\+ \(CBHE\) de la Unión Europea, con la participación de 7 universidades de América Latina \(Colombia, Ecuador y Perú\) y 3 universidades europeas \(España e Italia\)\.
 > Para mas información podes acceder a: https://www\.fce\.unl\.edu\.ar/sitios/mids/
-> Su modalidad de dictado es presencial\. A mediados de octubre 2026 se abriran inscripciones para el ciclo 2027\.
+> Su modalidad de dictado es presencial\. Durante este mes de noviembre abrimos inscripción para el ciclo 2027\. Los valores serán informados una vez abiertas inscripciones\.
 > Quedamos a disposición ante cualquier consulta\.
 > Saludos
 > Secretaria de Posgrado

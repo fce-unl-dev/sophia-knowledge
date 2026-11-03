@@ -133,7 +133,7 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - **ID de propuesta:** 1337
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-02 07:22:10
+- **Última actualización de este registro (Argentina):** 2026-11-03 12:56:25
 
 **Respuesta frecuente oficial (dato del CRM):**
 
@@ -141,8 +141,7 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 > El cursado será los viernes por la tarde \(de 17 a 21 hs\) y sábados por la mañana \(de 9 a 12\.30 hs\)\. Tiene una duración entre 7 y 9 meses\. El requisito inicial para inscribirse en dicha Diplomatura es poseer TITULO DE GRADO\.
 > Tiene como objetivo brindar a profesionales de diferentes carreras, especialmente provenientes de las ciencias económicas, una primera incursión especializada en mercados financieros, a fin de que no solo puedan tener un mejor desempeño en sus tareas si trabajan en el sector, sino que también cuenten con una base que les permita realizar estudios de posgrados relacionados con la especialidad\. La idea es realizar una aproximación al mundo de los mercados financieros, para poder comprender cómo funcionan en la actualidad, qué cambios ha generado el avance de la tecnología de la información, qué activos financieros se negocian, cómo se analizan, quiénes invierten, y cuáles son las estrategias de los distintos tipos de inversores\.
 > Para conocer mas de la carrera podes ingresar a https://fce\.unl\.edu\.ar/diplomercados/
-> Una nueva apertura de inscripciones a carreras de posgrados sera a partir de Diciembre 2026 para el ciclo 2027\.
-> Los valores de matricula se informan a partir de dicha fecha\.
+> Durante este mes de noviembre, abriremos inscripciones para el ciclo 2027\. Los valores estaran disponibles cuando abran dichas inscripciones\.
 > Quedamos a disposición ante cualquier otra consulta o aclaración\.
 > Saludos,
 >

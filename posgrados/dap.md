@@ -138,7 +138,7 @@ El inicio previsto para la cohorte 2027 es abril, según el anuncio académico c
 - **ID de propuesta:** 1073
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-02 07:24:14
+- **Última actualización de este registro (Argentina):** 2026-11-03 12:56:55
 
 Las aclaraciones académicas y de admisión se mantienen en la ficha curada, según la confirmación de la facultad. La respuesta libre del CRM no se reproduce porque omite esas salvedades.
 <!-- posgrado-crm:end -->
