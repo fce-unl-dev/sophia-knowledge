@@ -10,14 +10,14 @@
     {
       "kind": "carreras",
       "id": "carreras:1073",
-      "updatedAtMs": 1793615054000,
-      "contentHash": "dd749b90293441e0a0ae3faf17ac17f540cf7b6c7e95f74eaa17939b26e2e18c"
+      "updatedAtMs": 1793721415000,
+      "contentHash": "e48468e739b09fa4d303c81388793c798e072e54e5b4699230725bf386647b9a"
     },
     {
       "kind": "carreras",
       "id": "carreras:1074",
-      "updatedAtMs": 1793615089000,
-      "contentHash": "710c9035d02285d70000334c33292877edefc1b2998b037deda2710882e09fec"
+      "updatedAtMs": 1793721645000,
+      "contentHash": "1b9ca79d2b405ef4aaa95e5c1e586615dbece0c7653f20e3bd3e4f9f9bb56f17"
     },
     {
       "kind": "carreras",
@@ -28,20 +28,20 @@
     {
       "kind": "carreras",
       "id": "carreras:1076",
-      "updatedAtMs": 1793614966000,
-      "contentHash": "df9774105cf76ea5c80dc9c75f251d227c42e39eac3c45ebac7c2839e7c2efc6"
+      "updatedAtMs": 1793721434000,
+      "contentHash": "dc82dc044311048d6d71a22e7b5fe623dcbf48e5e011fc99ca1869e915e42a75"
     },
     {
       "kind": "carreras",
       "id": "carreras:1077",
-      "updatedAtMs": 1793615075000,
-      "contentHash": "27d0b1e3dfdf4a7c776e790519a08825bb6c7344a71dfa4b661cfd9703ed2ca1"
+      "updatedAtMs": 1793721675000,
+      "contentHash": "9c322ef8a4f2ded4f2c2e075106cc320ab105cba8e5210f81137503ab41d313b"
     },
     {
       "kind": "carreras",
       "id": "carreras:1078",
-      "updatedAtMs": 1791932611000,
-      "contentHash": "dec0786da26c8e0b7abe326b862ec8b5a4b0c77b224d84faea9689b378f246dd"
+      "updatedAtMs": 1793721824000,
+      "contentHash": "6e046102034ceee212e0cba23756fbfe8aceff28ff07ca319a64d66b76b25675"
     },
     {
       "kind": "carreras",
@@ -52,14 +52,14 @@
     {
       "kind": "carreras",
       "id": "carreras:1080",
-      "updatedAtMs": 1793614949000,
-      "contentHash": "c24d4a75243add67617b8a0354baf5b7d2bb5793dd769be316ffd00731183359"
+      "updatedAtMs": 1793721866000,
+      "contentHash": "cb075061b06b8c867d6248b4996b55f26eb9b789cf4035a1f156172356aa997c"
     },
     {
       "kind": "carreras",
       "id": "carreras:1103",
-      "updatedAtMs": 1791932716000,
-      "contentHash": "6ac8f9a224ea99a7678f37ff6e04c8e60b7e658b417678c2138354610a3a5ea5"
+      "updatedAtMs": 1793721801000,
+      "contentHash": "5c94341b5b4ad2f57df6183ffa54634c6568aea335ab7d7b48d6cb0b92e09a86"
     },
     {
       "kind": "carreras",
@@ -70,8 +70,8 @@
     {
       "kind": "carreras",
       "id": "carreras:1254",
-      "updatedAtMs": 1793615096000,
-      "contentHash": "1d3ebfa17e09fcac9e61c7c8cc29ef254656a7a210656d0283323c7c01ca2b03"
+      "updatedAtMs": 1793721717000,
+      "contentHash": "2d36e7910465e03f71706f0e3d91807f6f085c9e3f8c9d5f0b114fb6ff1b21ef"
     },
     {
       "kind": "carreras",
@@ -94,8 +94,8 @@
     {
       "kind": "carreras",
       "id": "carreras:1337",
-      "updatedAtMs": 1793614930000,
-      "contentHash": "084b265d8ba8a60f3d389f51d015ddc91ddcddac5b3829b5f08cda1ce6c37d84"
+      "updatedAtMs": 1793721385000,
+      "contentHash": "8129b20314955bdfde21c1877b08e3253cb166210cfe899799c0106adab3aef8"
     },
     {
       "kind": "carreras",
@@ -112,8 +112,8 @@
     {
       "kind": "carreras",
       "id": "carreras:1425",
-      "updatedAtMs": 1793614956000,
-      "contentHash": "19d1fef7127d413c91f4558681ba1a6def90a4814198fee83063e458c5f2509c"
+      "updatedAtMs": 1793719608000,
+      "contentHash": "c66debaba7ee074947f256cc8f3710184d49e34b2ac4fefa747514d346b8c5aa"
     },
     {
       "kind": "cursos",

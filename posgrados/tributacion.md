@@ -141,14 +141,14 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 - **ID de propuesta:** 1077
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-02 07:24:35
+- **Última actualización de este registro (Argentina):** 2026-11-03 13:01:15
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > Muchas gracias por tu intereses en la Especialización en Tributación\. Dicha carrera tienen como objetivo profundizar la formación del profesional en ciencias económicas, en el área tributaria a través de un entrenamiento intensivo que brinda herramientas teóricas y prácticas tanto para el asesoramiento a los contribuyentes como para la actuación del profesional ante o en los organismos públicos, formando graduados capaces de contribuir al desarrollo de la región y del país en este ámbito disciplinario\.
 > El cursado es quincenal, viernes por la tarde y sabados por la mañana bajo la modalidad HIBRIDA, pudiendo el alumno optar por el cursado en forma presencial en la FCE UNL \(Moreno 2557\- Santa Fe\) o por zoom \(MODALIDAD HIBRIDA\)\.
 > Para mas información podés acceder a : www\.fce\.unl\.edu\.ar/tributacion
-> La apertura de inscripciones  sera a partir de Noviembre 2026 para el ciclo 2027\. Los valores de matricula se informan a partir de dicha fecha\.
+> La apertura de inscripciones  sera durante este mes de noviembre para el ciclo 2027\. Los valores de matricula se informan a partir de la apertura de inscripciones
 > Quedamos a disposición\.
 > Saludos,
 > Secretaria de Posgrado

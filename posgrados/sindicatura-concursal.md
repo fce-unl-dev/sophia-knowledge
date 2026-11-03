@@ -271,15 +271,15 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 - **ID de propuesta:** 1080
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-02 07:22:29
+- **Última actualización de este registro (Argentina):** 2026-11-03 13:04:26
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > La Especialización en Sindicatura Concursal tienen como propósito brindar a los Contadores una capacitación integral relacionada con las problemáticas que se pueden presentar en  las empresas en crisis, la intervención de los contadores en las soluciones preventivas planteadas por nuestro ordenamiento legal; y la actuación de los síndicos\.
 > La carrera tiene una duración de 2 años\. Para más información de la carrera \-plan de estudio, materias, docentes\-, consultar en  fce\.unl\.edu\.ar/sindicatura/\.
 > Es posible la apertura de una nueva edición en Abril 2027 \(modalidad presencial y virtual\)\.
-> Las inscripciones abririan en Noviembre 2026, verás la información publicada en la web de la facultad ingresando en www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
-> Los valores de matricula se informan a partir de dicha fecha\.
+> Las inscripciones abriran durante este mes de noviembre verás la información publicada en la web de la facultad ingresando en www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Los valores de matricula se informan a partir de la apertura de inscripciones\.
 > A disposición para consultas o cualquier aclaración al respecto\.
 > Saludos,
 > Secretaria de Posgrado
