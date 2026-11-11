@@ -73,10 +73,11 @@ La facultad confirmó que el JSON del CRM, leído directamente de la base admini
 ### Información oficial del CRM — ANÁLISIS INSTITUCIONAL DE ORGANIZACIONES PÚBLICAS 2026
 
 - **ID de propuesta:** 1418
-- **Inscripción:** Abierta
+- **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-11-10
-- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1418
-- **Última actualización de este registro (Argentina):** 2026-10-15 08:36:10
+- **Última actualización de este registro (Argentina):** 2026-11-11 00:00:00
+
+> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
 **Respuesta frecuente oficial (dato del CRM):**
 
