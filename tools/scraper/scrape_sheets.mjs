@@ -65,71 +65,49 @@ export function parseCsv(text) {
 
 // Parsea el CSV irregular de exámenes finales
 export function parseExamCsv(csvContent, turnName) {
-  const rows = parseCsv(csvContent);
   const exams = [];
-  
-  let currentDay = '';
-  let currentDate = '';
-  let currentInscripcion = '';
+  const days = new Set(['lunes', 'martes', 'miércoles', 'miercoles', 'jueves', 'viernes', 'sábado', 'sabado']);
+  const datePattern = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+  let block = null;
 
-  for (let i = 0; i < rows.length; i++) {
-    const row = rows[i].map(cell => (cell || '').trim());
-    if (row.length === 0 || row.every(cell => cell === '')) {
-      continue;
-    }
-
-    // 1. Detectar si es una fila de fecha/día de examen
-    // Ejemplo: col 0 = "Miércoles", col 1 = "29/4/2026" o col 0 = "Fecha Examen"
-    const col0 = row[0] || '';
-    const col1 = row[1] || '';
-    
-    if (col0.toLowerCase() === 'fecha examen') {
-      continue; // es la fila cabecera
-    }
-
-    // Un día válido suele ser Lunes, Martes, Miércoles, Jueves, Viernes, Sábado
-    const diasSemana = ['lunes', 'martes', 'miércoles', 'miercoles', 'jueves', 'viernes', 'sábado', 'sabado'];
-    const esDia = diasSemana.includes(col0.toLowerCase());
-    const esFecha = /^\d{1,2}\/\d{1,2}\/\d{4}$/.test(col1);
-
-    if (esDia && esFecha) {
-      currentDay = col0;
-      currentDate = col1;
-      continue;
-    }
-
-    // 2. Detectar fila de inscripción
-    // Ejemplo: col 0 = "Desde el", col 1 = "22/4/2026", col 2 = "al", col 3 = "27/4/2026"
-    // O col 0 = "Inscripción"
-    if (col0.toLowerCase() === 'inscripción' || col0.toLowerCase() === 'inscripcion') {
-      continue; // cabecera de inscripción
-    }
-
-    if (col0.toLowerCase() === 'desde el' && row[2]?.toLowerCase() === 'al') {
-      currentInscripcion = `Desde el ${row[1]} al ${row[3]}`;
-    }
-
-    // 3. Detectar materia
-    // Las columnas relevantes para la materia son:
-    // col 4: Código (ej. 3160, 1015, FCE5145)
-    // col 5: Actividad/Materia (ej. Habilitante de Sociedades)
-    // col 6: Hora (ej. 09:00 Hs)
-    const code = row[4] || '';
-    const name = row[5] || '';
-    const time = row[6] || '';
-
-    if (code && name) {
+  // A date block can list subjects before its registration range, including
+  // in the same rows as the date and registration headers.
+  const flushBlock = () => {
+    if (!block) return;
+    for (const subject of block.subjects) {
       exams.push({
         turno: turnName,
-        dia: currentDay,
-        fecha: currentDate,
-        inscripcion: currentInscripcion,
-        codigo: code,
-        materia: name,
-        hora: time
+        dia: block.day,
+        fecha: block.date,
+        inscripcion: block.registration,
+        ...subject,
       });
     }
+    block = null;
+  };
+
+  for (const cells of parseCsv(csvContent)) {
+    const [label = '', firstDate = '', rangeSeparator = '', endDate = '', code = '', name = '', time = ''] =
+      cells.map((cell) => cell.trim());
+    const key = label.toLowerCase();
+
+    if (key === 'fecha examen') {
+      flushBlock();
+      continue;
+    }
+    if (days.has(key) && datePattern.test(firstDate)) {
+      flushBlock();
+      block = { day: label, date: firstDate, registration: '', subjects: [] };
+    }
+    if (!block) continue;
+
+    if (key === 'desde el' && rangeSeparator.toLowerCase() === 'al'
+      && datePattern.test(firstDate) && datePattern.test(endDate)) {
+      block.registration = `Desde el ${firstDate} al ${endDate}`;
+    }
+    if (code && name) block.subjects.push({ codigo: code, materia: name, hora: time });
   }
+  flushBlock();
 
   return exams;
 }
