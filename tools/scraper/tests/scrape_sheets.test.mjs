@@ -2,12 +2,58 @@ import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
+  parseExamCsv,
   splitDocentes,
   normalizeTeacherKey,
   generateScheduleByTeacherTable,
   generateSchedulesMarkdownTables,
   parseComisionesFromText,
 } from '../scrape_sheets.mjs';
+
+describe('parseExamCsv', () => {
+  test('conserva habilitantes en filas compartidas y aplica la inscripción de cada fecha', () => {
+    const csv = [
+      'Fecha Examen,,,,Cod,Actividad,Hora de Inicio',
+      'Martes,24/11/2026,,,,,',
+      'Inscripción,,,,3130,Habilitante de Derecho del Trabajo,18:00 Hs',
+      'Desde el,18/11/2026,al,23/11/2026,,,',
+      '',
+      'Fecha Examen,,,,Cod,Actividad,Hora de Inicio',
+      'Miércoles,25/11/2026,,,3160,Habilitante de Sociedades,09:00 Hs',
+      'Inscripción,,,,,,',
+      'Desde el,18/11/2026,al,23/11/2026,5135,Habilitante de Concursos,09:00 Hs',
+      'Viernes,4/12/2026,,,3160,Sociedades - Final Escrito,09:00 Hs',
+      'Inscripción,,,,3130,Derecho del Trabajo,15:00 Hs',
+      'Desde el,27/11/2026,al,2/12/2026,,,',
+    ].join('\r\n');
+    const exams = parseExamCsv(csv, 'Quinto turno 2026');
+    assert.ok(exams.every((exam) => exam.turno === 'Quinto turno 2026'));
+    assert.deepEqual(exams.map(({ dia, fecha, codigo, materia, hora, inscripcion }) =>
+      [dia, fecha, codigo, materia, hora, inscripcion]), [
+      ['Martes', '24/11/2026', '3130', 'Habilitante de Derecho del Trabajo', '18:00 Hs', 'Desde el 18/11/2026 al 23/11/2026'],
+      ['Miércoles', '25/11/2026', '3160', 'Habilitante de Sociedades', '09:00 Hs', 'Desde el 18/11/2026 al 23/11/2026'],
+      ['Miércoles', '25/11/2026', '5135', 'Habilitante de Concursos', '09:00 Hs', 'Desde el 18/11/2026 al 23/11/2026'],
+      ['Viernes', '4/12/2026', '3160', 'Sociedades - Final Escrito', '09:00 Hs', 'Desde el 27/11/2026 al 2/12/2026'],
+      ['Viernes', '4/12/2026', '3130', 'Derecho del Trabajo', '15:00 Hs', 'Desde el 27/11/2026 al 2/12/2026'],
+    ]);
+  });
+
+  test('una fecha sin rango válido no hereda inscripciones de otro bloque', () => {
+    const csv = [
+      'Lunes,30/11/2026,,,,,',
+      'Desde el,23/11/2026,al,26/11/2026,1001,Materia A,09:00 Hs',
+      'Martes,1/12/2026,,,1002,Materia B,10:00 Hs',
+      'Inscripcion,,,,1003,Materia C,11:00 Hs',
+      'Desde el,24/11/2026,al,,,,',
+    ].join('\n');
+    const exams = parseExamCsv(csv, 'Quinto turno 2026');
+    assert.deepEqual(exams.map(({ fecha, codigo, inscripcion }) => [fecha, codigo, inscripcion]), [
+      ['30/11/2026', '1001', 'Desde el 23/11/2026 al 26/11/2026'],
+      ['1/12/2026', '1002', ''],
+      ['1/12/2026', '1003', ''],
+    ]);
+  });
+});
 
 describe('splitDocentes', () => {
   test('separa co-docentes por <br>', () => {
