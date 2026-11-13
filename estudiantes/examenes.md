@@ -59,7 +59,7 @@
 
 ## Cronograma de Exámenes Finales (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-11-11
+**Última actualización de planilla**: 2026-11-13
 
 ### Primer turno 2026
 
@@ -767,5 +767,5 @@
 
 ---
 
-**Última revisión automática**: 2026-10-30 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-11-13 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
