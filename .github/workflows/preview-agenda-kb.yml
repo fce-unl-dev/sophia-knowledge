@@ -5,9 +5,16 @@ on:
     # 07:17 en Córdoba (UTC-3).
     - cron: '17 10 * * *'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Solo generar artefacto y evaluar cambios sin abrir ni mergear PR'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
 
 concurrency:
   group: preview-institutional-agenda
@@ -20,14 +27,37 @@ jobs:
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
-          persist-credentials: false
+          fetch-depth: 0
 
       - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:
           node-version: '22'
 
-      - name: Generate and validate agenda preview
-        run: node tools/scraper/build_agenda_snapshot.mjs
+      - name: Save previous snapshot and build new agenda snapshot
+        run: |
+          cp agenda/institucional.json /tmp/agenda-prev.json
+          node tools/scraper/build_agenda_snapshot.mjs
+
+      - name: Run agenda unit tests
+        run: >
+          node --test
+          tools/scraper/tests/scrape_agenda.test.mjs
+          tools/scraper/tests/build_agenda_snapshot.test.mjs
+          tools/scraper/tests/evaluate_agenda_update.test.mjs
+
+      - name: Evaluate agenda diff and decision
+        id: evaluate
+        run: |
+          triggered_by="${{ github.actor || 'cron automático' }}"
+          if [ "${{ github.event_name }}" = "schedule" ]; then triggered_by="cron automático"; fi
+          report=$(node tools/scraper/evaluate_agenda_update.mjs \
+            --prev=/tmp/agenda-prev.json \
+            --next=agenda/institucional.json \
+            --triggered-by="$triggered_by" \
+            --body-out=/tmp/agenda_pr_body.md)
+          echo "$report"
+          decision=$(printf '%s' "$report" | jq -r '.decision')
+          echo "decision=$decision" >> "$GITHUB_OUTPUT"
 
       - name: Upload preview for review
         uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
@@ -36,3 +66,60 @@ jobs:
           path: agenda/institucional.json
           if-no-files-found: error
           retention-days: 3
+
+      - name: Open PR and auto-merge if low risk
+        if: inputs.dry_run != true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          branch="kb-sync/agenda-institucional"
+          decision="${{ steps.evaluate.outputs.decision }}"
+
+          git config user.name 'sophia-kb-bot'
+          git config user.email 'bot@fce.unl.edu.ar'
+          git checkout -B "$branch"
+          git add agenda/institucional.json
+
+          if git diff --cached --quiet; then
+            echo "No diff in agenda/institucional.json"
+            exit 0
+          fi
+
+          if [ "$decision" = "requires_review" ]; then
+            title="KB sync: agenda institucional — requiere revisión humana"
+            label="needs-review"
+          else
+            title="KB sync: agenda institucional — update automático"
+            label="auto-update"
+          fi
+
+          git commit -m "chore(agenda): refresh institutional agenda snapshot ($decision)"
+          git push -f origin "$branch"
+
+          gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
+          gh label create auto-update --color 2563EB --description "Cambio KB de bajo riesgo propuesto por sync automático" || true
+
+          gh pr create \
+            --base main \
+            --head "$branch" \
+            --title "$title" \
+            --label "$label" \
+            --body-file /tmp/agenda_pr_body.md || \
+          gh pr edit "$branch" \
+            --title "$title" \
+            --body-file /tmp/agenda_pr_body.md
+
+          if [ "$decision" = "auto_merge" ]; then
+            echo "Validando repositorio antes del auto-merge..."
+            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
+              gh pr merge "$branch" --squash --delete-branch \
+                || gh pr merge "$branch" --auto --squash --delete-branch \
+                || echo "::warning::Validación OK pero no se pudo auto-mergear; queda para merge manual."
+            else
+              echo "::warning::Validación falló: NO se auto-mergea. El PR queda para revisión humana."
+              gh pr edit "$branch" --add-label needs-review --remove-label auto-update || true
+            fi
+          else
+            echo "::warning::Se detectó anomalía en la agenda; el PR queda abierto con etiqueta needs-review."
+          fi
