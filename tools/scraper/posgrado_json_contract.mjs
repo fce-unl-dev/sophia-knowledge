@@ -31,6 +31,12 @@ function text(value, label) {
   return value;
 }
 
+function optionalText(value, label) {
+  if (value === null) return '';
+  if (typeof value !== 'string') fail('invalid_field', label);
+  return value;
+}
+
 function positiveId(value, label) {
   if (!Number.isSafeInteger(value) || value <= 0) fail('invalid_id', label);
   return value;
@@ -97,7 +103,7 @@ function validateRecord(kind, record, index, now, generatedAtMs) {
   if (kind === 'carreras') text(record.subtipo, `${label}.subtipo`);
   else if (record.subtipo !== null && typeof record.subtipo !== 'string') fail('invalid_field', `${label}.subtipo`);
   text(record.nombre, `${label}.nombre`);
-  text(record.respuesta_frecuente, `${label}.respuesta_frecuente`);
+  optionalText(record.respuesta_frecuente, `${label}.respuesta_frecuente`);
   const url = text(record.url_sitio_web, `${label}.url_sitio_web`);
   try {
     const parsed = new URL(url);

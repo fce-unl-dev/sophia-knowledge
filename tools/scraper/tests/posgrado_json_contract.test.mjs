@@ -142,3 +142,17 @@ test('quarantines disappearance, timestamp rollback and same-revision content ch
   routine.cursos[0].respuesta_frecuente = 'Costo ARS 456';
   assert.deepEqual(compareFeedSnapshots(previous, parse('cursos', routine)), []);
 });
+
+test('allows empty or null respuesta_frecuente while still rejecting non-string values', () => {
+  for (const emptyValue of ['', '   ', null]) {
+    const emptyFaq = item('carreras');
+    emptyFaq.respuesta_frecuente = emptyValue;
+    assert.equal(parse('carreras', feed('carreras', [emptyFaq])).records[0].data.respuesta_frecuente, emptyValue);
+  }
+  const invalidFaq = item('carreras');
+  invalidFaq.respuesta_frecuente = 123;
+  rejects('carreras', feed('carreras', [invalidFaq]), 'invalid_field');
+  const missingFaq = item('carreras');
+  delete missingFaq.respuesta_frecuente;
+  rejects('carreras', feed('carreras', [missingFaq]), 'invalid_field');
+});
