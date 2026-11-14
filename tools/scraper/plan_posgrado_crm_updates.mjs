@@ -55,9 +55,12 @@ function render(record) {
     ? `- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=${item.id_posgrado}\n`
     : '';
   const historical = open ? '' : '\n> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.\n';
+  const faqText = typeof item.respuesta_frecuente === 'string' ? item.respuesta_frecuente.trim() : '';
   const faq = CURATED_ACADEMIC_FAQ.has(record.id)
     ? '\nLas aclaraciones académicas y de admisión se mantienen en la ficha curada, según la confirmación de la facultad. La respuesta libre del CRM no se reproduce porque omite esas salvedades.\n'
-    : `${historical}\n**Respuesta frecuente oficial (dato del CRM):**\n\n${quoteData(item.respuesta_frecuente)}\n`;
+    : !faqText
+      ? '\nSin respuesta frecuente automática cargada en el CRM.\n'
+      : `${historical}\n**Respuesta frecuente oficial (dato del CRM):**\n\n${quoteData(item.respuesta_frecuente)}\n`;
   return `${BEGIN}\n<!-- posgrado-crm:id ${record.id} -->\n` +
     `### Información oficial del CRM — ${markdownData(item.nombre).trim()}\n\n` +
     `- **ID de propuesta:** ${item.id_posgrado}\n` +
