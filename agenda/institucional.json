@@ -1,22 +1,7 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-11-13T17:43:55.925Z",
+  "refreshedAt": "2026-11-14T16:36:18.636Z",
   "events": [
-    {
-      "date": "2026-11-13",
-      "title": "XXVII Jornadas Nacionales de Docentes e Investigadores en Recursos Humanos y XVIII Jornadas del Cono Sur 2026",
-      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=955"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Conferencia Inaugural. Panel: Impacto de las nuevas tecnologías en el mundo del trabajo. Perspectivas para un escenario en transformación.",
-      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=996"
-    },
-    {
-      "date": "2026-11-13",
-      "title": "Conferencia: Sistema Integrado de Protección de la Salud Laboral (SIPSAL)",
-      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=997"
-    },
     {
       "date": "2026-11-18",
       "title": "Conferencia: Sostenibilidad contra todo pronóstico: el caso de los Juegos Suramericanos Santa Fe 2026",
@@ -31,6 +16,11 @@
       "date": "2026-11-19",
       "title": "Mujeres en acción. Segundo encuentro.",
       "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=993"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "Programa Internacional de Simulación de Negocios - 8° Edición",
+      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1001"
     },
     {
       "date": "2026-12-11",
