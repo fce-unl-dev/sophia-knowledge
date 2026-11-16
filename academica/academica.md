@@ -25,7 +25,7 @@
 Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó su contenido al documento.
 
 - **Documentos (PDF / planillas / ofimática)** — link-only, pueden contener datos personales:
-  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-701-Calendario-Acad%C3%A9mico-2025-grado.pdf
+  - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Res-801-Aprueba-Calendario-Acad%C3%A9mico-Grado-2027.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/FCE_Relevamiento-versi%C3%B3n-final-12.08.26.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/NUEVO_PLAN_powerCharla-3_organized.pdf
   - https://www.fce.unl.edu.ar/academica/wp-content/uploads/sites/6/2018/09/Comisi%C3%B3n.pdf
@@ -136,5 +136,5 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
 
 ---
 
-**Última revisión automática**: 2026-11-12 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-16 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

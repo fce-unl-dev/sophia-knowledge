@@ -9,6 +9,29 @@
 
 - Académica » Calendario Académico » Calendario Académico
 - Calendario Académico
+- CALENDARIO ACADÉMICO 2027
+- Res. CD. 801/26
+- Turnos de exámenes:
+- Primer Turno: 03 al 07 de mayo de 2027
+- Segundo Turno: 28 de junio al 02 de julio de 2027
+- Tercer Turno: 26 al 30 julio de 2027
+- Cuarto Turno: 04 al 08 de octubre de 2027
+- Quinto Turno: 29 de noviembre al 03 de diciembre de 2027
+- Sexto Turno: 13 al 17 de diciembre de 2027
+- Séptimo Turno: 07 al 11 de febrero de 2028
+- Octavo Turno: 21 al 25 de febrero de 2028
+- 1° Período Reinscripción anual: del 25 de enero al 01 de abril de 2027
+- 2° Período Reinscripción anual: del 19 de julio al 27 de agosto de 2027
+- Preinscripciones al cursado:
+- 1º cuatrimestre: 22 al 26 de febrero de 2027
+- 2º cuatrimestre: 26 de julio al 30 de julio de 2027
+- Inscripciones al cursado:
+- 1º cuatrimestre: 09, 10 y 11 de marzo de 2027
+- 2º cuatrimestre: 10, 11 y 12 de agosto de 2027
+- Periodos de Cursado:
+- 1º cuatrimestre: 15 de marzo al 25 de junio de 2027
+- 2º cuatrimestre: 17 de agosto al 26 de noviembre de 2027
+- Receso Invernal: 05 al 16 de julio de 2027 (estimado)
 - CALENDARIO ACADÉMICO 2026
 - Res. CD. 839/25
 - Turnos de exámenes:
@@ -32,30 +55,6 @@
 - 1º cuatrimestre: 16 de marzo al 26 de junio de 2026
 - 2º cuatrimestre: 18 de agosto al 27 de noviembre de 2026
 - Receso Invernal: 06 al 17 de julio de 2026 (estimado)
-- CALENDARIO ACADÉMICO 2025
-- Res. CD 701/24
-- Res. CD 678/25
-- Turnos de exámenes:
-- Primer Turno: 05 al 09 de mayo de 2025
-- Segundo Turno: 30 de junio al 04 de julio de 2025
-- Tercer Turno: 28 de julio al 01 de agosto 2025
-- Cuarto Turno: 06 al 13 de octubre de 2025
-- Quinto Turno: 01 al 05 de diciembre de 2025
-- Sexto Turno: 15 al 19 de diciembre de 2025
-- Séptimo Turno: 09 al 13 de febrero de 2026
-- Octavo Turno: 23 al 27 de febrero de 2026
-- 1º Período Reinscripción anual: del 27 de enero al 04 de abril de 2025
-- 2º Período Reinscripción anual: del 15 de julio al 23 de agosto de 2025
-- Preinscripciones al cursado:
-- 1º cuatrimestre: 17 al 28 de febrero de 2025
-- 2º cuatrimestre: 21 de julio al 01 de agosto de 2025
-- Inscripciones al cursado:
-- 1º cuatrimestre: 11, 12 y 13 de marzo de 2025
-- 2º cuatrimestre: 12 y 13 de agosto de 2025
-- Periodos de Cursado:
-- 1º cuatrimestre: 17 de marzo al 27 de junio de 2025
-- 2º cuatrimestre: 18 de agosto al 28 de noviembre de 2025
-- Receso Invernal: 07 al 18 de julio de 2025
 
 ## Advertencias para Luca
 
@@ -68,5 +67,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-12 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-16 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
