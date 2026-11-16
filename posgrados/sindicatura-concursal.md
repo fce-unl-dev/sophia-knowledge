@@ -10,7 +10,7 @@ La Especialización en Sindicatura Concursal de la FCE-UNL brinda al Contador P�
 -   **Código corto / sigla**: ESC
 -   **Tipo**: Especialización
 -   **Título que otorga**: Especialista en Sindicatura Concursal
--   **Acreditación CONEAU**: Aprobada y acreditada por CONEAU con **categoría A**
+-   **Acreditación CONEAU**: Aprobada y acreditada por CONEAU con **categoría A** (modalidad presencial; para consultar el estado de acreditación CONEAU de la modalidad a distancia, escribir a posgrado@fce.unl.edu.ar)
 -   **Unidad académica**: FCE-UNL
 -   **Carreras compartidas con otras unidades**: No aplica
 
@@ -220,7 +220,7 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 -   **Director/a académico/a**: Esp. Lucila Prono (Contadora, Especialista en Sindicatura Concursal; Titular por concurso de la Cátedra de Concursos y Quiebras FCE UNL; Jefe de trabajos prácticos por concurso en Cátedra de Sociedades FCE UNL; Profesora del Postgrado de Especialización en Sindicatura Concursal FCE UNL; Profesora en Diplomatura de Estudios Avanzados en Reestructuración de Pasivos y de Empresas en Crisis UNR)
 -   **Coordinador Académico**: Mg. Mariano Prono (Miembro del Comité Académico; Docente de las materias Derecho Concursal I y Derecho Concursal II; Abogado, Magíster en asesoramiento jurídico de empresas, autor de varias obras)
 -   **Coordinadora Técnica**: Esp. Georgina Benzo (Miembro del Comité Académico; Docente de las materias Derecho Concursal I y II, Práctica Concursal I y II; Contadora Pública, Abogada, Especialista en Sindicatura Concursal, Especialista en Magistratura, Doctoranda en Derecho)
--   **Email del programa**: especsindicatura@fce.unl.edu.ar
+-   **Email de contacto**: posgrado@fce.unl.edu.ar
 -   **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
 -   **WhatsApp Posgrado**: +54 9 342 449 1939
 -   **Teléfono específico del programa**: (0342) 4571245, 4571180 int. 142
