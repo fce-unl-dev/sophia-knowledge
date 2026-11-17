@@ -22,6 +22,7 @@ import {
   discoverSectionLinks,
   normalizeSectionUrl,
   scrapeFceWordpressSection,
+  fetchHtml,
 } from '../scrape.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -565,5 +566,21 @@ describe('processWordpressPage', () => {
     assert.ok(page.text.includes('cuerpo real'));
     assert.ok(!page.text.includes('NO DEBE APARECER'));
     assert.ok(!page.text.includes('TAMPOCO'));
+  });
+});
+
+describe('fetchHtml anti-bot guard', () => {
+  test('aborts immediately without retrying when BunkerWeb challenge is returned', async () => {
+    let calls = 0;
+    const bunkerHtml = '<html><title>Bot Detection- BUNKERWEB</title><body>COMPUTING PROOF OF WORK searching nonce <a href="https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot">bw</a></body></html>';
+    const fetchImpl = async () => {
+      calls += 1;
+      return new Response(bunkerHtml, { status: 200, headers: { 'content-type': 'text/html' } });
+    };
+    await assert.rejects(
+      () => fetchHtml('https://www.fce.unl.edu.ar/estudiantes/', { fetchImpl }),
+      (err) => err.isBotChallenge === true && /BunkerWeb/i.test(err.message),
+    );
+    assert.equal(calls, 1);
   });
 });

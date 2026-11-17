@@ -29,6 +29,15 @@ const CONCURRENCY = 4;
 
 // ---------- HTTP ----------
 
+export function detectAntiBotChallenge(html) {
+  const s = String(html || '');
+  if (/bunkerweb|bwantibot|Bot Detection-\s*BUNKERWEB/i.test(s)
+      || (/COMPUTING PROOF OF WORK/i.test(s) && /searching nonce/i.test(s))) {
+    return 'BunkerWeb anti-bot proof-of-work challenge';
+  }
+  return null;
+}
+
 export async function fetchHtml(url, { fetchImpl = fetch, timeoutMs = REQUEST_TIMEOUT_MS, retries = MAX_RETRIES } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -42,9 +51,16 @@ export async function fetchHtml(url, { fetchImpl = fetch, timeoutMs = REQUEST_TI
       });
       if (!res.ok) throw new Error(`HTTP ${res.status} on ${url}`);
       const html = await res.text();
+      const challenge = detectAntiBotChallenge(html);
+      if (challenge) {
+        const err = new Error(`Blocked by ${challenge} on ${url}`);
+        err.isBotChallenge = true;
+        throw err;
+      }
       return { url: res.url || url, status: res.status, html };
     } catch (err) {
       lastErr = err;
+      if (err?.isBotChallenge) throw err;
       if (attempt < retries) await sleep(RETRY_DELAY_MS * (attempt + 1));
     } finally {
       clearTimeout(timer);
