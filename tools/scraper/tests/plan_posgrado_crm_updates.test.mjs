@@ -314,8 +314,13 @@ test('stable academic and admission information is not mistaken for a dynamic CR
   assert.equal(result.updates.length, 2);
 });
 
-test('renders fallback notice without empty quote when CRM respuesta_frecuente is empty or null', () => {
-  for (const emptyValue of ['', null]) {
+test('renders fallback notice without empty quote when CRM respuesta_frecuente is empty, null, or placeholder', () => {
+  for (const emptyValue of [
+    '',
+    null,
+    'No hay ningún texto específico adicional para esta carrera',
+    'No hay ningún texto específico adicional para este curso',
+  ]) {
     const rawFeeds = feeds({ courses: [record('cursos', 1415, { respuesta_frecuente: emptyValue })] });
     const result = plan(rawFeeds);
     assert.deepEqual(result.anomalies, []);

@@ -47,6 +47,14 @@ function quoteData(value) {
   }).join('\n');
 }
 
+const EMPTY_CRM_FAQ_RE = /^no hay ning[uú]n texto espec[ií]fico adicional para est[ae] (?:carrera|curso)\.?$/i;
+
+function normalizeFaqText(value) {
+  if (typeof value !== 'string') return '';
+  const trimmed = value.trim();
+  return EMPTY_CRM_FAQ_RE.test(trimmed) ? '' : trimmed;
+}
+
 function render(record) {
   const item = record.data;
   const open = item.inscripcion.estado === 'ABIERTA';
@@ -55,7 +63,7 @@ function render(record) {
     ? `- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=${item.id_posgrado}\n`
     : '';
   const historical = open ? '' : '\n> **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.\n';
-  const faqText = typeof item.respuesta_frecuente === 'string' ? item.respuesta_frecuente.trim() : '';
+  const faqText = normalizeFaqText(item.respuesta_frecuente);
   const faq = CURATED_ACADEMIC_FAQ.has(record.id)
     ? '\nLas aclaraciones académicas y de admisión se mantienen en la ficha curada, según la confirmación de la facultad. La respuesta libre del CRM no se reproduce porque omite esas salvedades.\n'
     : !faqText
