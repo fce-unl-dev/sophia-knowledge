@@ -10,47 +10,59 @@
 
 ### Clases de Consultas
 
-- Estudiantes » Clases de Consultas
-- Clases de Consultas
-- Todo tipo de consulta, entrega de notas, muestra de exámenes, ahora se publica en este nuevo enlace:
-- https://servicios.unl.edu.ar/bedeliamovil/NOwTk
-- ¿Qué tipo de consultas hay?
-- Consultas previas a exámenes: Deberán desarrollarse entre dos 2 (dos) y 4 (cuatro) días hábiles antes de la fecha del examen (los plazos sólo se aplican a exámenes finales, no a parciales). Pueden ser presenciales, híbridas o virtuales. (Art. 3). Son instancias destinadas a los estudiantes en las cuales los profesores responden las dudas puntuales respecto a los distintos aspectos que involucran los exámenes (temas, contenidos, modalidades, etc).
-- Muestra de Exámenes: La muestra de exámenes finales escritos se llevará a cabo en un plazo de 2 (dos) días hábiles posteriores a la entrega de calificaciones. Para exámenes parciales, el plazo no excederá los 10 (diez) días hábiles siguientes a la fecha de entrega de notas. (Art. 14). Son instancias de retroalimentación, en las cuales los estudiantes pueden aprender a partir de los errores cometidos en las evaluaciones, a través del análisis conjunto de las respuestas esperadas por los profesores.
-- Consulta permanentes: Son espacios ofrecidos por cada cátedra a lo largo del cuatrimestre (según su organización). Sirven para: resolver dudas sobre los contenidos, profundizar en temas de la materia, acompañar el proceso de aprendizaje del estudiante, etc.
+- Bot Detection- BUNKERWEB · SECURITY CHECK PROOF-OF-WORK
+- COMPUTING PROOF OF WORK
+- Your browser is solving a small puzzle. No action needed, you will be redirected.
+- > searching nonce · 0 tried_
 
 ### Consultas para exámenes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-para-examenes/
+- Bot Detection- BUNKERWEB · SECURITY CHECK PROOF-OF-WORK
+- COMPUTING PROOF OF WORK
+- Your browser is solving a small puzzle. No action needed, you will be redirected.
+- > searching nonce · 0 tried_
 
 ### Consultas permanentes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-permanentes/
+- Bot Detection- BUNKERWEB · SECURITY CHECK PROOF-OF-WORK
+- COMPUTING PROOF OF WORK
+- Your browser is solving a small puzzle. No action needed, you will be redirected.
+- > searching nonce · 0 tried_
 
 ### Parciales: entrega de notas y muestra de exámenes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/
+- Bot Detection- BUNKERWEB · SECURITY CHECK PROOF-OF-WORK
+- COMPUTING PROOF OF WORK
+- Your browser is solving a small puzzle. No action needed, you will be redirected.
+- > searching nonce · 0 tried_
 
 ### Finales: entrega de notas y muestra de exámenes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/finales-entrega-de-notas-y-muestra-de-examenes/
+- Bot Detection- BUNKERWEB · SECURITY CHECK PROOF-OF-WORK
+- COMPUTING PROOF OF WORK
+- Your browser is solving a small puzzle. No action needed, you will be redirected.
+- > searching nonce · 0 tried_
 
 ### Avisos de asignaturas
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/avisos-de-asignaturas/
+- Bot Detection- BUNKERWEB · SECURITY CHECK PROOF-OF-WORK
+- COMPUTING PROOF OF WORK
+- Your browser is solving a small puzzle. No action needed, you will be redirected.
+- > searching nonce · 0 tried_
 
 ## Enlaces y sistemas relacionados
 
-- **Sistemas externos**:
-  - https://servicios.unl.edu.ar/bedeliamovil/NOwTk: https://servicios.unl.edu.ar/bedeliamovil/NOwTk
 - **Otros enlaces**:
-  - Estudiantes: https://www.fce.unl.edu.ar/estudiantes
-  - Art. 3: https://www.fce.unl.edu.ar/academica/regimen-de-ensenanza/
+  - https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot: https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot
+  - https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot: https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot
+  - https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot: https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot
+  - https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot: https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot
+  - https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot: https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot
+  - https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot: https://www.bunkerweb.io/?utm_campaign=self&utm_source=bwantibot
 
 ## Advertencias para Luca
 
-- Requiere revisión humana: links a sistemas externos.
-- Requiere revisión humana: una o más subpáginas no pudieron descargarse.
+- No se detectaron señales automáticas de iframe, Google Sheets, sistemas externos ni datos nominales; la revisión humana sigue siendo obligatoria.
 - No responder con datos personalizados o detrás de login; derivar al sistema oficial correspondiente.
 - Si una subpágina enlaza una planilla o iframe con fechas, responder sobre esos datos solo si existe snapshot Markdown revisado.
 
@@ -65,5 +77,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-13 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-11-17 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
