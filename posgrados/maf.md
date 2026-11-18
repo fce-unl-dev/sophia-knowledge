@@ -128,25 +128,35 @@ La carrera contempla una beca del Centro Universitario Argentino-Alemán (CUAA) 
 - **ID de propuesta:** 1076
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-03 12:57:14
+- **Última actualización de este registro (Argentina):** 2026-11-17 08:51:37
 
 **Respuesta frecuente oficial (dato del CRM):**
 
-> Muchas gracias por tu interés en la Maestria en Administración y Finanzas\. Esta carrera de posgrado consiste en una Maestría de carácter interinstitucional, que se dicta en instalaciones de la Facultad de Ciencias Económicas de la UNL y en la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern \(Alemania\)\.
-> Los alumnos otendrán, mediante el cursado de un plan de estudios que incluye trayectorias académicas en las dos universidades mencionadas, una doble titulación: “Magister en Administración y Finanzas” de la UNL y Master of Arts “International Master in Management and Finance” de la FHKL\.
-> Uno de los objetivos de esta carrera, que la diferencia de los tradicionales posgrados en negocios, es desarrollar la formación global, internacional e intercultural del alumno\.
-> Ello se logra mediante una estructura curricular que incluye una estadía del maestrando de siete meses en la universidad extranjera, en la cual:
-> • deberá aprobar asignaturas específicas de administración y finanzas \(dictadas en inglés\),
-> • realizar un curso de idioma y cultura alemana, y
-> • realizar una pasantía en una empresa del país europeo\.
-> Finalmente, el alumno deberá realizar un Trabajo Final codirigido por profesores de ambas universidades\. De esta forma, el egresado logrará un perfil acorde a una maestría profesionalista, siendo la experiencia internacional un factor diferenciador para el gerenciamiento de empresas latinoamericanas o europeas\.
-> Para mas información podes accerder a https://www\.fce\.unl\.edu\.ar/maf/
-> Durante este mes de noviembre se realiza la apertura de inscripciones a carreras de posgrado para el cilclo 2027\. ingrensando en   https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
-> A partir de que te inscribas te convocaremos a una entrevista con el Director de la Carrera quien te informará sobre cuestiones académicas y ademas del valor de la matrícula\.
-> Quedamos a disposición ante cualquier otra consulta al respecto\.
-> Saludos,
-> Secretaria de Posgrado
-> FCE\-UNL
-> E\.mail: posgrado@fce\.unl\.edu\.ar
-> Whatsapp \+54 9 3424 49\-1939
+> Muchas gracias por tu interés en la Maestría en Administración y Finanzas de la FCE\-UNL\.
+>  Se trata de una carrera de posgrado de carácter interinstitucional, dictada conjuntamente entre la Facultad de Ciencias Económicas de la UNL y la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern \(Alemania\)\.
+> Doble titulación internacional
+> Mediante un plan de estudios que combina trayectorias académicas en ambas instituciones, los graduados obtienen una doble titulación:
+> Magíster en Administración y Finanzas \(otorgado por la UNL\)\.
+> Master of Arts – International Master in Management and Finance \(otorgado por la Universidad de Kaiserslautern\)\.
+> Diferenciales y experiencia en Alemania
+> A diferencia de los posgrados tradicionales en negocios, esta Maestría desarrolla una formación global, internacional e intercultural\. Su estructura curricular incluye una estadía de siete \(7\) meses en Alemania, durante la cual el/la maestrando/a:
+> Cursará asignaturas específicas de administración y finanzas \(dictadas en inglés\)\.
+> Realizará un curso de idioma y cultura alemana\.
+> Llevará a cabo una pasantía profesional en una empresa europea\.
+> Finalmente, se elabora un Trabajo Final codirigido por docentes de ambas universidades, consolidando un perfil profesionalista altamente valorado para el gerenciamiento de empresas tanto en Latinoamérica como en Europa\.
+> Más información sobre la carrera: https://www\.fce\.unl\.edu\.ar/maf/
+> Inscripciones y aranceles \(Ciclo 2027\)
+> Inscripciones abiertas: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Te enviamos adjunto el detalle de los valores de la carrera \(para residentes nacionales y extranjeros\)\. Asimismo, informamos los descuentos vigentes:
+> 25% – Recientes egresados FCE UNL \(últimos 6 meses\)
+> 25% – Docentes FCE UNL
+> 25% – Afiliados AEFIP
+> 15% – Recientes egresados FCE UNL \(hasta 5 años\)
+> 15% – Profesionales matriculados CPCE y CCGE Santa Fe
+> Quedamos a tu entera disposición ante cualquier otra consulta al respecto\.
+> Saludos cordiales,
+> Secretaría de Posgrado
+> FCE \- UNL
+> E\-mail: posgrado@fce\.unl\.edu\.ar
+> WhatsApp: \+54 9 3424 49\-1939
 <!-- posgrado-crm:end -->

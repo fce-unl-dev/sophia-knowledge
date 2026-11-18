@@ -19,13 +19,6 @@ Curso de posgrado de la Facultad de Ciencias Económicas (FCE-UNL). Información
 
 Detalle del programa no disponible en el documento al momento de la extracción. Consultá la ficha oficial o escribí a posgrado@fce.unl.edu.ar.
 
-## Aranceles e inscripción
-
-- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.
-- **Estado de inscripción (al 2026-10-09)**: Curso publicado en el catálogo oficial de cursos de posgrado. Confirmá la apertura de inscripción con la Secretaría de Posgrado.
-- **Pre-inscripción**: https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1429
-- **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).
-
 ## Contacto
 
 - **Email de Secretaría de Posgrado FCE-UNL**: posgrado@fce.unl.edu.ar
@@ -40,3 +33,16 @@ Detalle del programa no disponible en el documento al momento de la extracción.
 
 **Última revisión automática**: 2026-10-09 (candidato generado por el scraper determinístico de cursos de posgrado)
 **Revisión humana**: pendiente
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id cursos:1429 -->
+### Información oficial del CRM — Normas de revelaciones financieras de sostenibllidad  2026
+
+- **ID de propuesta:** 1429
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2026-11-27
+- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1429
+- **Última actualización de este registro (Argentina):** 2026-09-29 08:25:35
+
+Sin respuesta frecuente automática cargada en el CRM.
+<!-- posgrado-crm:end -->

@@ -41,3 +41,33 @@ test('the legacy course listing cannot remove closed CRM courses but still remov
   assert.equal(await readFile(join(root, crmPath), 'utf8'), expired);
   assert.equal(await readFile(join(root, legacyPath), 'utf8'), expired, 'dry-run does not mutate files');
 });
+
+test('new posgrado courses omit legacy dynamic claims and auto-register in CRM routes on apply', async t => {
+  const root = await mkdtemp(join(tmpdir(), 'posgrado-new-course-test-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  await mkdir(join(root, 'cursos-posgrado'));
+  const customRoutesPath = join(root, 'posgrado_crm_routes.json');
+  await writeFile(customRoutesPath, JSON.stringify(crmRoutes, null, 2));
+  await writeFile(join(root, 'indice.json'), JSON.stringify({ version: 1, items: [] }));
+
+  const html = `<div class='curso'><p><b>CURSO NUEVO CRM 2026</b></p>
+    Inicio:<b>01/12/2026</b>
+    <a href='https://fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1999'>PRE-INSCRIPCIÓN</a>
+    </div></div>`;
+  const result = await proposePosgradoCoursesUpdate({
+    kbRoot: root,
+    stateDir: join(root, 'state'),
+    crmRoutesPath: customRoutesPath,
+    today: '2026-10-06',
+    dryRun: false,
+    fetchImpl: async () => new Response(html),
+  });
+
+  assert.equal(result.decision, 'auto_merge');
+  const createdPath = 'cursos-posgrado/curso-nuevo-crm.md';
+  assert.deepEqual(result.created_docs, [createdPath]);
+  const content = await readFile(join(root, createdPath), 'utf8');
+  assert.doesNotMatch(content, /## Aranceles e inscripción/);
+  const updatedRoutes = JSON.parse(await readFile(customRoutesPath, 'utf8'));
+  assert.equal(updatedRoutes.cursos['1999'], createdPath);
+});

@@ -16,7 +16,8 @@
     "1271": ["posgrados/mcya.md", 32],
     "1337": ["diplomaturas/diplomercados.md", 34],
     "1349": ["posgrados/diplotributos.md", 35],
-    "1425": ["compartidos/mids.md", 38]
+    "1425": ["compartidos/mids.md", 38],
+    "1430": ["posgrados/sindicatura-concursal.md", 9]
   },
   "cursos": {
     "1402": "cursos-posgrado/de-los-microdatos-a-los-informes-automatizados-r-para-el-analisis-economico-aplicado.md",
@@ -27,7 +28,8 @@
     "1422": "cursos-posgrado/gobierno-corporativo-y-responsabilidad-social-organizacional.md",
     "1423": "cursos-posgrado/metodos-cuantitativos-para-los-negocios.md",
     "1424": "cursos-posgrado/costos-de-la-funcion-comercial.md",
-    "1426": "cursos-posgrado/analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible.md"
+    "1426": "cursos-posgrado/analisis-espacial-para-la-innovacion-en-el-desarrollo-sostenible.md",
+    "1429": "cursos-posgrado/normas-de-revelaciones-financieras-de-sostenibllidad.md"
   },
   "quarantined": {}
 }

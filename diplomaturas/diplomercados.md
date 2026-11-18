@@ -133,17 +133,30 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - **ID de propuesta:** 1337
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-03 12:56:25
+- **Última actualización de este registro (Argentina):** 2026-11-17 08:24:50
 
 **Respuesta frecuente oficial (dato del CRM):**
 
-> Muchas gracias por tu contacto\. La Diplomatura Universitaria Superior Operatoria y Análisis de Mercados Financieros tiene un cursado clases mediante sistema de videoconferencia institucional \(zoom\)\.
-> El cursado será los viernes por la tarde \(de 17 a 21 hs\) y sábados por la mañana \(de 9 a 12\.30 hs\)\. Tiene una duración entre 7 y 9 meses\. El requisito inicial para inscribirse en dicha Diplomatura es poseer TITULO DE GRADO\.
-> Tiene como objetivo brindar a profesionales de diferentes carreras, especialmente provenientes de las ciencias económicas, una primera incursión especializada en mercados financieros, a fin de que no solo puedan tener un mejor desempeño en sus tareas si trabajan en el sector, sino que también cuenten con una base que les permita realizar estudios de posgrados relacionados con la especialidad\. La idea es realizar una aproximación al mundo de los mercados financieros, para poder comprender cómo funcionan en la actualidad, qué cambios ha generado el avance de la tecnología de la información, qué activos financieros se negocian, cómo se analizan, quiénes invierten, y cuáles son las estrategias de los distintos tipos de inversores\.
-> Para conocer mas de la carrera podes ingresar a https://fce\.unl\.edu\.ar/diplomercados/
-> Durante este mes de noviembre, abriremos inscripciones para el ciclo 2027\. Los valores estaran disponibles cuando abran dichas inscripciones\.
-> Quedamos a disposición ante cualquier otra consulta o aclaración\.
-> Saludos,
+> Muchas gracias por tu contacto e interés en la Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros\.
+>  Esta propuesta tiene como objetivo brindar a profesionales de diversas carreras —especialmente de Ciencias Económicas— una primera incursión especializada en el mundo de los mercados financieros\. Busca que los participantes comprendan su funcionamiento actual, el impacto de las tecnologías de la información, los activos que se negocian, sus métodos de análisis y las estrategias de los distintos tipos de inversores\. De este modo, podrán optimizar su desempeño laboral en el sector y contar con una base sólida para futuros estudios de posgrado\.
+> Datos clave de la Diplomatura
+> Requisito de admisión: poseer título de grado\.
+> Modalidad: virtual sincrónica \(clases en vivo mediante videoconferencia institucional por Zoom\)\.
+> Días y horarios: viernes de 17:00 a 21:00 hs y sábados de 9:00 a 12:30 hs\.
+> Duración: 8 meses\.
+> Aranceles y descuentos
+> Adjuntamos el detalle con los valores correspondientes\. Asimismo, te informamos los descuentos vigentes:
+> 25% – Recientes egresados FCE UNL \(últimos 6 meses\)
+> 15% – Egresados FCE UNL \(hasta 5 años de graduación\)
+> 25% – Docentes FCE UNL
+> 25% – Afiliados AEFIP
+> 15% – Profesionales matriculados en CPCE y CCGE Santa Fe
+> Enlaces de interés
+> Más información sobre la carrera: https://fce\.unl\.edu\.ar/diplomercados/
+> Inscripciones abiertas \(edición 2027\): www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Quedamos a tu entera disposición ante cualquier otra consulta o aclaración\.
+> Saludos cordiales,
+>  Saludos,
 >
 > Secretaria de Posgrado
 > FCE\-UNL

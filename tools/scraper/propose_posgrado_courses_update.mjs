@@ -27,11 +27,11 @@ import crmRoutes from './posgrado_crm_routes.json' with { type: 'json' };
 const CATEGORY = 'Curso de posgrado';
 const KB_FOLDER = 'cursos-posgrado';
 const DEFAULT_STATE_DIR = 'state/cursos-posgrado';
-const CRM_COURSE_PATHS = new Set(Object.values(crmRoutes.cursos));
 
 export async function proposePosgradoCoursesUpdate({
   kbRoot,
   stateDir,
+  crmRoutesPath: customCrmRoutesPath = null,
   force = false,
   dryRun = false,
   today = todayIsoDate(),
@@ -62,6 +62,14 @@ export async function proposePosgradoCoursesUpdate({
   const sourcesPath = join(here, 'sources.json');
   const sourcesData = existsSync(sourcesPath) ? JSON.parse(await readFile(sourcesPath, 'utf8')) : {};
   const sensitiveSections = sourcesData.sensitive_sections || [];
+
+  const crmRoutesPath = customCrmRoutesPath || join(here, 'posgrado_crm_routes.json');
+  const writeCrmRoutes = customCrmRoutesPath !== null || resolve(kbRoot) === resolve(here, '../..');
+  const routesData = existsSync(crmRoutesPath)
+    ? JSON.parse(await readFile(crmRoutesPath, 'utf8'))
+    : structuredClone(crmRoutes);
+  const crmCoursePaths = new Set(Object.values(routesData.cursos || {}));
+  let crmRoutesChanged = false;
 
   const createdDocs = [];
   const addedIndexEntries = [];
@@ -105,6 +113,12 @@ export async function proposePosgradoCoursesUpdate({
       canonicalUrl: 'https://www.fce.unl.edu.ar/academica/categorias/propuesta/cursos-de-posgrado-propuesta/',
     });
     existingPaths.add(relPath);
+    if (course.id && /^[1-9]\d*$/.test(String(course.id)) && !routesData.cursos?.[String(course.id)]) {
+      routesData.cursos = routesData.cursos || {};
+      routesData.cursos[String(course.id)] = relPath;
+      crmCoursePaths.add(relPath);
+      crmRoutesChanged = true;
+    }
   }
 
   // El listado muestra inscripciones abiertas, no el catálogo histórico. Una
@@ -114,7 +128,7 @@ export async function proposePosgradoCoursesUpdate({
   const activePaths = new Set(scraper.courses.map((c) => c.kb_path));
   const missingFromSource = (index.items || [])
     .filter((i) => i.path.startsWith(`${KB_FOLDER}/`) &&
-      !CRM_COURSE_PATHS.has(i.path) && !activePaths.has(i.path))
+      !crmCoursePaths.has(i.path) && !activePaths.has(i.path))
     .map((i) => ({ path: i.path, title: i.title }));
   // Regla vieja: las bajas superan a los cursos activos. Solo dispara cuando se
   // cae más de la mitad del catálogo, así que deja pasar degradaciones grandes.
@@ -123,7 +137,7 @@ export async function proposePosgradoCoursesUpdate({
   // las compensan. Se quedan las dos: la guarda solo puede endurecer.
   const removalAnomaly = checkRemovalRatio({
     inventory: (index.items || []).filter((i) =>
-      String(i.path || '').startsWith(`${KB_FOLDER}/`) && !CRM_COURSE_PATHS.has(i.path)).length,
+      String(i.path || '').startsWith(`${KB_FOLDER}/`) && !crmCoursePaths.has(i.path)).length,
     removals: missingFromSource.length,
     additions: createdDocs.length,
     label: 'los cursos de posgrado',
@@ -163,10 +177,15 @@ export async function proposePosgradoCoursesUpdate({
     index.lastUpdated = today;
     if (Number.isInteger(index.version)) index.version += 1;
     await writeFile(indexPath, JSON.stringify(index, null, 2) + '\n', 'utf8');
-    try {
-      execSync(`node "${join(here, 'generate_routing_metadata.mjs')}"`, { stdio: 'inherit' });
-    } catch (err) {
-      console.error('Error al regenerar routing_metadata.json:', err.message);
+    if (crmRoutesChanged && writeCrmRoutes) {
+      await writeFile(crmRoutesPath, JSON.stringify(routesData, null, 2) + '\n', 'utf8');
+    }
+    if (resolve(kbRoot) === resolve(here, '../..')) {
+      try {
+        execSync(`node "${join(here, 'generate_routing_metadata.mjs')}"`, { stdio: 'inherit' });
+      } catch (err) {
+        console.error('Error al regenerar routing_metadata.json:', err.message);
+      }
     }
   }
 

@@ -160,6 +160,14 @@ export function parsePosgradoFeed(kind, input, { now = Date.now() } = {}) {
   return { kind, generatedAt: feed.fecha_generacion, generatedAtMs, records: parsed };
 }
 
+function isSyntheticNullFaqFallback(candidate) {
+  const rec = candidate.data;
+  if (!rec || rec.respuesta_frecuente !== null || !rec.inscripcion?.fecha_limite) return false;
+  const [y, m, d] = rec.inscripcion.fecha_limite.split('-').map(Number);
+  const nextDayIso = new Date(Date.UTC(y, m - 1, d + 1)).toISOString().slice(0, 10);
+  return candidate.updatedAt === `${nextDayIso} 00:00:00`;
+}
+
 // Issues are quarantine signals for the caller, never permission to delete or publish.
 export function compareFeedSnapshots(previous, current) {
   if (previous.kind !== current.kind) fail('kind_mismatch', `${previous.kind}/${current.kind}`);
@@ -168,8 +176,9 @@ export function compareFeedSnapshots(previous, current) {
   for (const record of previous.records) {
     const candidate = next.get(record.id);
     if (!candidate) issues.push({ code: 'missing_record', id: record.id });
-    else if (candidate.updatedAtMs < record.updatedAtMs) issues.push({ code: 'timestamp_regression', id: record.id });
-    else if (candidate.updatedAtMs === record.updatedAtMs && candidate.contentHash !== record.contentHash) {
+    else if (candidate.updatedAtMs < record.updatedAtMs && !isSyntheticNullFaqFallback(candidate)) {
+      issues.push({ code: 'timestamp_regression', id: record.id });
+    } else if (candidate.updatedAtMs === record.updatedAtMs && candidate.contentHash !== record.contentHash) {
       issues.push({ code: 'content_changed_without_revision', id: record.id });
     }
   }

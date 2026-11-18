@@ -141,6 +141,13 @@ test('quarantines disappearance, timestamp rollback and same-revision content ch
   routine.cursos[0].fecha_actualizacion = '2026-10-06 10:00:00';
   routine.cursos[0].respuesta_frecuente = 'Costo ARS 456';
   assert.deepEqual(compareFeedSnapshots(previous, parse('cursos', routine)), []);
+  const syntheticNullFallback = feed('cursos');
+  syntheticNullFallback.cursos[0].inscripcion = {
+    estado: 'CERRADA', esta_abierta: false, fecha_limite: '2026-10-03',
+  };
+  syntheticNullFallback.cursos[0].respuesta_frecuente = null;
+  syntheticNullFallback.cursos[0].fecha_actualizacion = '2026-10-04 00:00:00';
+  assert.deepEqual(compareFeedSnapshots(previous, parse('cursos', syntheticNullFallback)), []);
 });
 
 test('allows empty or null respuesta_frecuente while still rejecting non-string values', () => {

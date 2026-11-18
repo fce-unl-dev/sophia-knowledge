@@ -141,18 +141,32 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 - **ID de propuesta:** 1077
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-03 13:01:15
+- **Última actualización de este registro (Argentina):** 2026-11-17 08:03:36
 
 **Respuesta frecuente oficial (dato del CRM):**
 
-> Muchas gracias por tu intereses en la Especialización en Tributación\. Dicha carrera tienen como objetivo profundizar la formación del profesional en ciencias económicas, en el área tributaria a través de un entrenamiento intensivo que brinda herramientas teóricas y prácticas tanto para el asesoramiento a los contribuyentes como para la actuación del profesional ante o en los organismos públicos, formando graduados capaces de contribuir al desarrollo de la región y del país en este ámbito disciplinario\.
-> El cursado es quincenal, viernes por la tarde y sabados por la mañana bajo la modalidad HIBRIDA, pudiendo el alumno optar por el cursado en forma presencial en la FCE UNL \(Moreno 2557\- Santa Fe\) o por zoom \(MODALIDAD HIBRIDA\)\.
-> Para mas información podés acceder a : www\.fce\.unl\.edu\.ar/tributacion
-> La apertura de inscripciones  sera durante este mes de noviembre para el ciclo 2027\. Los valores de matricula se informan a partir de la apertura de inscripciones
-> Quedamos a disposición\.
-> Saludos,
+> Muchas gracias por tu interés en la Especialización en Tributación\.
+>
+> Esta carrera tiene como objetivo profundizar la formación del profesional en Ciencias Económicas en el área tributaria\. A través de un entrenamiento intensivo, brinda herramientas teóricas y prácticas tanto para el asesoramiento a contribuyentes como para el desempeño ante o dentro de organismos públicos, formando graduados capaces de contribuir al desarrollo de la región y del país\.
+> Más información sobre la carrera: www\.fce\.unl\.edu\.ar/tributacion
+> Inscripciones abiertas: www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Inicio y cursado
+> Las clases comenzarían en abril de 2027, con cursado los viernes por la tarde y sábados por la mañana\.
+> Adjuntamos el detalle de los valores de la matrícula, disponibles bajo dos modalidades a elección:
+> Modalidad 1 \(Presencial\): asistencia a clases en la Facultad \(Moreno 2557, Santa Fe\)\.
+> Modalidad 2 \(Virtual sincrónica\): asistencia a clases a través de Zoom\.
+> Descuentos vigentes
+> 25% – Recientes egresados FCE UNL \(últimos 6 meses\)
+> 25% – Docentes FCE UNL
+> 25% – Afiliados AEFIP
+> 15% – Egresados FCE UNL \(hasta 5 años de graduación\)
+> 15% – Profesionales matriculados en CPCE y CCGE Santa Fe
+> Quedamos a tu entera disposición ante cualquier duda o consulta adicional\.
+> Saludos cordiales,
 > Secretaria de Posgrado
-> FCE\-UNL
-> Email: posgrado@fce\.unl\.edu\.ar
-> Whatsapp \+54 9 3424 49\-1939
+> Facultad de Ciencias Económicas
+> Universidad Nacional del Litoral
+> posgrado@fce\.unl\.edu\.ar / \+54 9 3425 19\-1199
+> Moreno 2557
+> Santa Fe \- Argentina
 <!-- posgrado-crm:end -->

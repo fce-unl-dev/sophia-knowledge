@@ -139,7 +139,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1103
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-04-12
-- **Última actualización de este registro (Argentina):** 2026-11-03 13:03:21
+- **Última actualización de este registro (Argentina):** 2026-11-17 09:38:53
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
@@ -150,8 +150,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 > a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
 > b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
 > c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
-> Actualmente se dicta baja la modalidad a distancia \(100% vitual con actividades asincronicas\)\. La apertura de inscripciones será durante este mes de noviembre para el ciclo 2027\.
-> Los valores de matricula se informan a partir de la apertura de inscripciones\.
+> Actualmente se dicta baja la modalidad a distancia \(100% vitual con actividades asincronicas\)\. Las inscripciones a dicha modalidad se encuentran abiertas ingresando en : www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
 > Quedamos a disposición ante cualquier consulta al respecto\.
 > Saludos,
 > Secretaria de Posgrado
@@ -167,19 +166,35 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1254
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-03 13:01:57
+- **Última actualización de este registro (Argentina):** 2026-11-17 09:56:56
 
 **Respuesta frecuente oficial (dato del CRM):**
 
-> Muchas gracias por tu contacto\. La carrera de Especialización en Costos y Gestión Empresarial es una oferta académica de excelente nivel en respuesta a esta demanda\. Esta es una propuesta que se desarrolla en un marco de colaboración con el Instituto Argentino de Profesores Universitarios de Costos \(IAPUCO\), entidad que, desde hace más de cuarenta años, nuclea a profesores universitarios de la disciplina de todo el país\. Para más información ingrese a https://www\.fce\.unl\.edu\.ar/ecyge
-> El dictado virtual se realiza de forma tal que el estudiante podrá administrar sus propios tiempos de lectura, análisis de material multimedia y realización de actividades propuestas, complementado con encuentros sincrónicos con los docentes para profundizar algunos temas y atender consultas\.Los horarios de dichos encuentros no estan establecidos, sino que los define cada docente en cada asignatura\. Se trabaja con la plataforma Moodle y se utiliza diversas herramientas tecnológicas para el desarrollo de los contenidos\. La evaluación también se realiza de forma on line, no requiriendo la presencia física del estudiante en ninguna instancia\.
+> Muchas gracias por tu contacto e interés en la Especialización en Costos y Gestión Empresarial de la FCE\-UNL\.
+>
+> Esta carrera constituye una propuesta académica de excelencia, desarrollada en colaboración con el Instituto Argentino de Profesores Universitarios de Costos \(IAPUCO\), entidad que desde hace más de cuarenta años nuclea a docentes universitarios de la disciplina en todo el país\.
+> Modalidad de cursado 100% a distancia\.
+> Dinámica flexible: el dictado virtual permite que cada estudiante administre sus propios tiempos de lectura, análisis de material multimedia y realización de actividades a través de la plataforma Moodle y diversas herramientas tecnológicas\.
+> Encuentros sincrónicos: se complementa con instancias en vivo junto a los docentes para profundizar temas y atender consultas \(los horarios son definidos por cada cátedra en cada asignatura\)\.
+> Evaluación: se realiza íntegramente online, sin requerir asistencia presencial en ninguna instancia\.
+> Requisitos de admisión
 > Podrán ser admitidos:
-> a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
-> b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
-> c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
-> La apertura de inscripciones a carreras de posgrados seran durante este mes de noviembre para el ciclo 2027\. Los valores de matricula se informan a partir de la apertura de inscripciones\.
-> Quedamos a disposición\.
-> Saludos,
+> a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración o Economía\.
+> b\) Graduados universitarios en las distintas áreas de la Ingeniería, cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión considere suficientes\.
+> c\) Graduados universitarios en otras áreas \(en carreras de al menos 4 años de duración\), previa aprobación de una prueba de suficiencia\.
+> Más información sobre la carrera: https://www\.fce\.unl\.edu\.ar/ecyge
+> Inscripciones y aranceles \(Ciclo 2027\)
+> Inscripciones abiertas: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Te enviamos adjunto el detalle de los valores de la matrícula\. Asimismo, informamos los descuentos vigentes:
+> 25% – Recientes egresados FCE UNL \(últimos 6 meses\)
+> 25% – Docentes FCE UNL
+> 25% – Afiliados AEFIP
+> 15% – Egresados FCE UNL \(hasta 5 años de graduación\)
+> 15% – Profesionales matriculados en CPCE y CCGE Santa Fe
+> Quedamos a tu entera disposición ante cualquier consulta o aclaración adicional\.
+> Saludos cordiales,
+>
+>
 > Secretaria de Posgrado
 > FCE\-UNL
 > Email posgrado@fce\.unl\.edu\.ar

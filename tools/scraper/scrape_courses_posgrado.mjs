@@ -189,13 +189,6 @@ export function buildCourseMarkdown(course, pdfText, { today = todayIsoDate() } 
     L.push('Detalle del programa no disponible en el documento al momento de la extracción. Consultá la ficha oficial o escribí a ' + CONTACT_EMAIL + '.');
   }
   L.push('');
-  L.push('## Aranceles e inscripción');
-  L.push('');
-  L.push('- **Aranceles**: A consultar con la Secretaría de Posgrado FCE-UNL.');
-  L.push(`- **Estado de inscripción (al ${today})**: Curso publicado en el catálogo oficial de cursos de posgrado. Confirmá la apertura de inscripción con la Secretaría de Posgrado.`);
-  if (course.preinscripcion_url) L.push(`- **Pre-inscripción**: ${course.preinscripcion_url}`);
-  L.push('- **Sistema de inscripción**: Preinscripción en línea en el sistema de Posgrado (https://www.fce.unl.edu.ar/posgrados).');
-  L.push('');
   L.push('## Contacto');
   L.push('');
   L.push(`- **Email de Secretaría de Posgrado FCE-UNL**: ${CONTACT_EMAIL}`);

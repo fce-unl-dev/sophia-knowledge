@@ -199,24 +199,33 @@ La facultad confirmó noviembre de 2026 como mes previsto de apertura para el ci
 - **ID de propuesta:** 1074
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-03 13:00:45
+- **Última actualización de este registro (Argentina):** 2026-11-17 10:40:35
 
 **Respuesta frecuente oficial (dato del CRM):**
 
-> La Maestría en Administración de Empresas ofrece estudios de posgrado de alto nivel académico a profesionales que buscan un desarrollo integral en management para actuar en un entorno globalizado\.  La carrera se crea en 1999 y, hasta el presente, se han formado más de trescientos \(300\) profesionales que se desenvuelven en empresas e instituciones de la región y del país\. Su objetivo fundamental es profundizar en la formación académico \- profesional de sus participantes y sus características distintivas son:
-> \- Carrera de tipo profesional orientada al entrenamiento de las habilidades propias de los cargos de Alta Dirección\.
-> \- Aplicación de metodologías orientadas al trabajo en equipo, el análisis de casos y la investigación aplicada\.
-> \- Fuerte vinculación con el medio empresario de la región y del país\.
-> \- Estructura curricular flexible basada en un sistema de créditos académicos y la elección de asignaturas optativas conforme al perfil de los/as estudiantes\.
-> \- Cuerpo de docentes de alto nivel académico y profesional\.
-> \- Internacionalización creciente a través de la creación de carreras de doble titulación que implican el intercambio de estudiantes y docentes\.
-> En especial, ofrece dos menciones: Dirección de Negocios y Finanzas de Empresas\.
-> La modalidad de dictado es presencial, viernes por la tarde y sabado por la mañana, en forma semanal en la FCE UNL \(Moreno 2557\- Santa Fe\), previendo el dictado de algunas clases por zoom\.
-> Para mas información podes acceder a: www\.fce\.unl\.edu\.ar/mba
-> Si estas interesado/a, se abrirá nueva inscripción durante este mes de noviembre para el ciclo 2027, la cual verás publicada ingresando a: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
-> Los valores de matricula se informan a partir de la apertura de inscripciones\.
-> Gracias por tu interes, quedamos a disposición\.
-> Saludos,
+> Muchas gracias por tu interés en la Maestría en Administración de Empresas \(MBA\) de la FCE\-UNL\.
+>  Nuestra Maestría ofrece estudios de posgrado de alto nivel académico para profesionales que buscan un desarrollo integral en management y liderazgo en entornos globalizados\. Creada en 1999, cuenta con más de 300 graduados que hoy se desempeñan en empresas e instituciones líderes de la región y del país\.
+> Características distintivas del programa
+> Enfoque ejecutivo: orientada al entrenamiento de habilidades propias de cargos de Alta Dirección\.
+> Metodología práctica: trabajo en equipo, análisis de casos e investigación aplicada, con fuerte vinculación con el medio empresario\.
+> Estructura flexible: sistema de créditos académicos con asignaturas optativas según el perfil de cada estudiante\.
+> Excelencia e internacionalización: cuerpo docente de reconocido prestigio y convenios de doble titulación con intercambio de estudiantes y profesores\.
+> Dos menciones a elección: Dirección de Negocios o Finanzas de Empresas\.
+> Modalidad y cursado
+> Modalidad: presencial en la sede de la FCE\-UNL \(Moreno 2557, Santa Fe\), con algunas instancias virtuales a través de Zoom\.
+> Frecuencia: semanal, los viernes por la tarde y sábados por la mañana\.
+> Más información sobre el MBA: www\.fce\.unl\.edu\.ar/mba
+> Inscripciones y aranceles \(Ciclo 2027\)
+> Inscripciones abiertas: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Te enviamos adjunto el detalle de los valores de la matrícula\. Asimismo, informamos los descuentos vigentes:
+> 25% – Recientes egresados FCE UNL \(últimos 6 meses\)
+> 25% – Docentes FCE UNL
+> 25% – Afiliados AEFIP
+> 15% – Egresados FCE UNL \(hasta 5 años de graduación\)
+> 15% – Profesionales matriculados en CPCE y CCGE Santa Fe
+> Quedamos a tu entera disposición ante cualquier consulta o aclaración adicional\.
+> Saludos cordiales,
+>  Saludos,
 > Secretaria de Posgrado
 > FCE\-UNL
 > E\.mail: posgrado@fce\.unl\.edu\.ar

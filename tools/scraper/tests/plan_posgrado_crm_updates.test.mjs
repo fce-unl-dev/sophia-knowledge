@@ -51,9 +51,9 @@ function plan(rawFeeds = feeds(), documents = {
   return planPosgradoCrmUpdates({ rawFeeds, documents, routes: customRoutes, index: customIndex, now });
 }
 
-test('checked-in manifest has 15 career and 9 course IDs with exact indexed targets', async () => {
-  assert.equal(Object.keys(routesDefault.carreras).length, 15);
-  assert.equal(Object.keys(routesDefault.cursos).length, 9);
+test('checked-in manifest has 16 career and 10 course IDs with exact indexed targets', async () => {
+  assert.equal(Object.keys(routesDefault.carreras).length, 16);
+  assert.equal(Object.keys(routesDefault.cursos).length, 10);
   const liveIndex = JSON.parse(await readFile(join(root, 'indice.json'), 'utf8'));
   const indexed = new Set(liveIndex.items.map(item => item.path));
   const paths = [...Object.values(routesDefault.carreras).map(route => route[0]),

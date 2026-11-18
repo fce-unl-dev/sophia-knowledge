@@ -61,12 +61,14 @@ function validateSnapshot(snapshot) {
   return snapshot;
 }
 
-function compareSnapshots(previous, current) {
+function compareSnapshots(previous, current, parsed, routes) {
   if (!previous) return [];
+  const mappedCourses = new Set(Object.keys(routes?.cursos ?? {}).map(id => `cursos:${id}`));
   return KINDS.flatMap(kind => compareFeedSnapshots(
     { kind, records: previous.records.filter(record => record.kind === kind) },
-    { kind, records: current.records.filter(record => record.kind === kind) },
-  ));
+    parsed[kind],
+  )).filter(issue => !(issue.code === 'missing_record' &&
+    issue.id.startsWith('cursos:') && !mappedCourses.has(issue.id)));
 }
 
 async function commitFiles(root, changes) {
@@ -113,7 +115,7 @@ export async function syncPosgradoCrm({ root, apply = false, fetchImpl = fetch, 
     try { oldSnapshotText = await readFile(join(root, snapshotPath), 'utf8'); }
     catch (error) { if (error.code !== 'ENOENT') throw error; }
     const oldSnapshot = oldSnapshotText === null ? null : validateSnapshot(JSON.parse(oldSnapshotText));
-    report.anomalies.push(...compareSnapshots(oldSnapshot, nextSnapshot));
+    report.anomalies.push(...compareSnapshots(oldSnapshot, nextSnapshot, parsed, routes));
     const index = JSON.parse(await readFile(join(root, 'indice.json'), 'utf8'));
     const paths = new Set([...Object.values(routes.carreras ?? {}).map(target => target?.[0]),
       ...Object.values(routes.cursos ?? {})]);

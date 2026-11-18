@@ -271,19 +271,65 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 - **ID de propuesta:** 1080
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-03 13:04:26
+- **Última actualización de este registro (Argentina):** 2026-11-17 10:39:10
 
 **Respuesta frecuente oficial (dato del CRM):**
 
-> La Especialización en Sindicatura Concursal tienen como propósito brindar a los Contadores una capacitación integral relacionada con las problemáticas que se pueden presentar en  las empresas en crisis, la intervención de los contadores en las soluciones preventivas planteadas por nuestro ordenamiento legal; y la actuación de los síndicos\.
-> La carrera tiene una duración de 2 años\. Para más información de la carrera \-plan de estudio, materias, docentes\-, consultar en  fce\.unl\.edu\.ar/sindicatura/\.
-> Es posible la apertura de una nueva edición en Abril 2027 \(modalidad presencial y virtual\)\.
-> Las inscripciones abriran durante este mes de noviembre verás la información publicada en la web de la facultad ingresando en www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
-> Los valores de matricula se informan a partir de la apertura de inscripciones\.
-> A disposición para consultas o cualquier aclaración al respecto\.
-> Saludos,
-> Secretaria de Posgrado
-> FCE\-UNL
-> Email posgrado@fce\.unl\.edu\.ar
-> Whatsapp \+54 9 3424 49\-1939
+> Muchas gracias por tu contacto e interés en la Especialización en Sindicatura Concursal de la FCE\-UNL\.
+> Esta carrera de posgrado tiene como objetivo capacitar al contador público en los conocimientos relacionados con el Derecho de las crisis e insolvencias patrimoniales, en sus aspectos jurídicos y económicos sustanciales y formales, teóricos y prácticos, para el ejercicio de una actividad profesional que es de su exclusiva incumbencia: la sindicatura en los concursos preventivos y en las quiebras\.
+> Podrán ser admitidos en la Carrera los graduados que posean título universitario de grado de Contador Público,
+> Inicio y modalidades de cursado \(Ciclo 2027\)
+> El inicio de clases está previsto para abril de 2027, bajo dos modalidades a elección de los/as estudiantes:
+> Modalidad 1 \(Presencial\): asistencia a clases en la sede de la Facultad \(Moreno 2557, Santa Fe\)\.
+> Modalidad 2 \(A distancia – 100% sincrónica\): asistencia a clases en vivo a través de plataforma de videoconferencia institucional \(Zoom\)\.
+> Más información sobre la carrera: https://www\.fce\.unl\.edu\.ar/sindicatura
+> Inscripciones y aranceles
+> Inscripciones abiertas: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Te enviamos adjunto el detalle de los valores de la matrícula para cada modalidad\. Asimismo, informamos los descuentos vigentes sobre dichos montos:
+> 25% – Recientes egresados FCE UNL \(últimos 6 meses\)
+> 25% – Docentes FCE UNL
+> 25% – Afiliados AEFIP
+> 15% – Recientes egresados FCE UNL \(hasta 5 años\)
+> 15% – Profesionales matriculados CPCE y CCGE Santa Fe
+> Quedamos a tu entera disposición ante cualquier duda o consulta adicional\.
+> Saludos cordiales,
+> Secretaría de Posgrado
+> FCE \- UNL
+> E\-mail: posgrado@fce\.unl\.edu\.ar
+> WhatsApp: \+54 9 3424 49\-1939
+<!-- posgrado-crm:end -->
+
+<!-- posgrado-crm:begin -->
+<!-- posgrado-crm:id carreras:1430 -->
+### Información oficial del CRM — Especialización en Sindicatura Concursal \- a distancia
+
+- **ID de propuesta:** 1430
+- **Inscripción:** Abierta
+- **Fecha límite de inscripción:** 2027-03-31
+- **Última actualización de este registro (Argentina):** 2026-11-17 10:52:42
+
+**Respuesta frecuente oficial (dato del CRM):**
+
+> Muchas gracias por tu contacto e interés en la Especialización en Sindicatura Concursal de la FCE\-UNL\.
+> Esta carrera de posgrado tiene como objetivo capacitar al contador público en los conocimientos relacionados con el Derecho de las crisis e insolvencias patrimoniales, en sus aspectos jurídicos y económicos sustanciales y formales, teóricos y prácticos, para el ejercicio de una actividad profesional que es de su exclusiva incumbencia: la sindicatura en los concursos preventivos y en las quiebras\.
+> Podrán ser admitidos en la Carrera los graduados que posean título universitario de grado de Contador Público,
+> Inicio y modalidades de cursado \(Ciclo 2027\)
+> El inicio de clases está previsto para abril de 2027, bajo dos modalidades a elección de los/as estudiantes:
+> Modalidad 1 \(Presencial\): asistencia a clases en la sede de la Facultad \(Moreno 2557, Santa Fe\)\.
+> Modalidad 2 \(A distancia – 100% sincrónica\): asistencia a clases en vivo a través de plataforma de videoconferencia institucional \(Zoom\)\.
+> Más información sobre la carrera: https://www\.fce\.unl\.edu\.ar/sindicatura
+> Inscripciones y aranceles
+> Inscripciones abiertas: https://www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/
+> Te enviamos adjunto el detalle de los valores de la matrícula para cada modalidad\. Asimismo, informamos los descuentos vigentes sobre dichos montos:
+> 25% – Recientes egresados FCE UNL \(últimos 6 meses\)
+> 25% – Docentes FCE UNL
+> 25% – Afiliados AEFIP
+> 15% – Recientes egresados FCE UNL \(hasta 5 años\)
+> 15% – Profesionales matriculados CPCE y CCGE Santa Fe
+> Quedamos a tu entera disposición ante cualquier duda o consulta adicional\.
+> Saludos cordiales,
+> Secretaría de Posgrado
+> FCE \- UNL
+> E\-mail: posgrado@fce\.unl\.edu\.ar
+> WhatsApp: \+54 9 3424 49\-1939
 <!-- posgrado-crm:end -->
