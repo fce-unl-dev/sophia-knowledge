@@ -6,7 +6,7 @@ Este documento complementario detalla el Régimen de Correlatividades para cursa
 
 ## Contenido
 
-> **Régimen en conformación (actualizado a octubre de 2026).** Este régimen de correlatividades es nuevo y algunas correlatividades todavía no están definidas: pueden completarse o modificarse en las próximas semanas. Una celda vacía o con guion no significa que la asignatura no tenga correlatividades, sino que no figura en esta versión. Ante una consulta concreta, sugerir confirmar con Bedelía.
+> **Nota sobre celdas vacías (Secretaría Académica):** En este régimen de correlatividades, una celda vacía o con guion (`—`) significa **sin correlatividades**. Ante cualquier consulta particular sobre su aplicación o flexibilizaciones de transición, consultar con Secretaría Académica (`academica@fce.unl.edu.ar`) o Dirección de Alumnado (`alumnado@fce.unl.edu.ar`).
 
 ### Resolución CS n.º 482
 
