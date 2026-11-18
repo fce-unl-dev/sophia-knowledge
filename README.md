@@ -90,7 +90,7 @@ El agente de producción (`agente-sophia-v2`) consume este repositorio de manera
 
 | Workflow | Frecuencia / Disparo | Comportamiento y Regla de Publicación |
 |---|---|---|
-| `sync-posgrado-crm-kb.yml` | Cada 6 h + manual | Sincroniza estados de inscripción y FAQs desde el CRM (`/posgrado/tapir/propuestas/` y `/cursos/`). Publica directo en `main` si pasa las validaciones de contrato (`posgrado_crm_routes.json`); falla cerrado ante propuestas desconocidas o errores de red/WAF. |
+| `sync-posgrado-crm-kb.yml` | Cada 6 h + manual | Sincroniza estados de inscripción y FAQs desde el CRM (`/posgradosCRM/index.php?act=DatosParaCrawler.*`). Publica directo en `main` si pasa las validaciones de contrato (`posgrado_crm_routes.json`); falla cerrado ante propuestas desconocidas o errores de red/WAF. |
 | `ingest-drive.yml` | Diario (06:00 ART) + manual | Ingiere documentos y planillas de la carpeta institucional de Google Drive hacia `complementos/`. **Siempre abre un PR con etiqueta `needs-review`** (nunca auto-mergea). |
 | `propose-posgrado-courses-kb.yml` | Semanal / manual | Detecta cursos nuevos de posgrado en la web oficial, genera su ficha `.md`, los registra en `posgrado_crm_routes.json` y propone el alta por PR (o auto-mergea si no tiene señales de revisión). |
 | `propose-courses-kb.yml`, `propose-students-kb.yml`, `propose-sections-kb.yml` | Programado / manual | Detectan cambios en páginas oficiales de cursos, estudiantes y secciones institucionales. Publican cambios mecánicos limpios o abren PR `needs-review` si detectan anomalías o pérdidas de datos. |
