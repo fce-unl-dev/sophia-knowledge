@@ -34,6 +34,11 @@ legítima, esa regla está mal.
 6. **Si la realidad del código no coincide con lo que te pedí, pará y avisá.** No improvises.
 7. **Un fallo silencioso es peor que un fallo ruidoso.** Si encontrás algo que se rompe sin avisar,
    marcalo aunque no sea parte de la tarea.
+8. **Nunca cites URLs, endpoints, paths, variables ni comandos de memoria.** Antes de incluirlos en
+   una respuesta, documentación o nota para terceros, verificá el string literal contra el código o
+   archivo real en la misma sesión (por ejemplo con `grep` o lectura directa). Si no está
+   verificado, decí explícitamente *"no lo tengo verificado, lo chequeo"* antes de inventar o
+   suponer.
 
 ## Alcance
 
