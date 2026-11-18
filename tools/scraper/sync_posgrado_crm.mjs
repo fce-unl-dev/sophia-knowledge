@@ -10,6 +10,7 @@ import { planPosgradoCrmUpdates } from './plan_posgrado_crm_updates.mjs';
 const KINDS = ['basicos', 'carreras', 'cursos'];
 const ENDPOINT = 'https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.';
 const ACTION = { basicos: 'doMostrarBasicos', carreras: 'doMostrarCarreras', cursos: 'doMostrarCursos' };
+const USER_AGENT = 'sophia-kb-scraper/0.1 (+https://github.com/fce-unl-dev/sophia-knowledge)';
 const SNAPSHOT = 'tools/scraper/posgrado_crm_snapshot.json';
 const MAX_BYTES = 4 * 1024 * 1024;
 
@@ -21,7 +22,8 @@ function fail(code, detail) {
 
 async function fetchRaw(kind, fetchImpl) {
   const response = await fetchImpl(`${ENDPOINT}${ACTION[kind]}`, {
-    signal: AbortSignal.timeout(10000), headers: { accept: 'application/json' },
+    signal: AbortSignal.timeout(10000),
+    headers: { accept: 'application/json', 'user-agent': USER_AGENT },
   });
   if (!response.ok || !response.body) fail('feed_unavailable', `${kind}: HTTP ${response.status}`);
   const reader = response.body.getReader();
@@ -106,8 +108,10 @@ export async function syncPosgradoCrm({ root, apply = false, fetchImpl = fetch, 
   const report = { status: 'error', applied: false, updates: [], quarantined: [], skipped: [],
     deferred: [], anomalies: [], errors: [], snapshotChanged: false, snapshotOnly: false };
   try {
-    const rawFeeds = Object.fromEntries(await Promise.all(KINDS.map(async kind => [kind,
-      await fetchRaw(kind, fetchImpl)])));
+    const rawFeeds = {};
+    for (const kind of KINDS) {
+      rawFeeds[kind] = await fetchRaw(kind, fetchImpl);
+    }
     const parsed = Object.fromEntries(KINDS.map(kind => [kind,
       parsePosgradoFeed(kind, rawFeeds[kind], { now })]));
     const nextSnapshot = snapshotOf(parsed);
