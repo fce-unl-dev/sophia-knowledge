@@ -15,16 +15,24 @@ Si sos coordinador, administrativo o responsable de un área en la FCE y necesit
 ### ¿Cómo funciona la base de conocimiento?
 A diferencia de otros sistemas que leen directamente la web (lo que a veces genera que Luca responda con información vieja o confusa de años anteriores), Luca lee **exclusivamente** los archivos de este repositorio. Si la información no está escrita aquí de forma clara, Luca dirá honestamente que no la sabe y derivará la consulta a un operador humano.
 
-### ¿Cómo actualizar la información?
-El proceso de actualización sigue un flujo de control de calidad institucional simple:
-1. **Propuesta de Cambio**: Creás una propuesta con el cambio (por ejemplo, editando un archivo de texto directamente en la web de GitHub o solicitando la modificación desde el panel administrativo de Luca).
-2. **Revisión**: El equipo técnico o el administrador del sistema revisa que el archivo esté bien formateado y que no rompa las reglas de Luca.
-3. **Aprobación y Publicación**: Se aprueba la propuesta y los cambios se guardan en el sistema.
-4. **Publicación en Producción**: Luca descarga la información actualizada y comienza a usarla para responder en su próximo ciclo de actualización automática (o inmediatamente si se fuerza la actualización desde el panel).
+### ¿Cómo se mantiene actualizada la información? (3 vías)
 
-### Guía Completa de Edición
-Para ver el paso a paso detallado, cómo dar de alta nuevos cursos, cómo usar plantillas y explicaciones sencillas de todos los términos, consulta la:
-👉 **[Guía de Operación y Redacción para Editores](docs/GUIA_EDITORES.md)**
+La base de conocimiento de Luca se actualiza combinando **sincronización automática** y **control humano**, según el origen de cada dato:
+
+1. **Sincronización automática con el CRM de Posgrado (cada 6 horas):**
+   - El sistema consulta automáticamente los endpoints oficiales del CRM (`propuestas` y `cursos`).
+   - Actualiza directamente en los archivos de `posgrados/`, `diplomaturas/`, `compartidos/` y `cursos-posgrado/` el estado de inscripción (*Abierta* / *Cerrada*), la fecha límite y la respuesta frecuente oficial (FAQ) cargada en el CRM.
+   - Si en el CRM se da de alta una carrera o curso nuevo que todavía no tiene archivo o ruta asignada en Luca, el sistema frena preventivamente y avisa al equipo técnico para vincularlo.
+
+2. **Carpeta institucional de Google Drive (1 vez por día, con revisión humana):**
+   - Las áreas de la facultad suben o actualizan documentos y planillas (por ejemplo, la planilla `Info costos carrera para la IA` con los aranceles de posgrado, reglamentos o resoluciones de planes de estudio) en la carpeta compartida de Google Drive.
+   - Todos los días el sistema lee Drive, transcribe las novedades a la carpeta `complementos/` y abre una **Propuesta de Cambio (Pull Request)** con la etiqueta `needs-review`.
+   - **Importante:** Por seguridad institucional, los cambios de Drive **nunca se publican solos**. Requieren que un responsable apruebe la propuesta (desde el panel `/admin/` de Luca o desde GitHub). Para saber cómo subir o actualizar archivos en Drive sin errores, consultá la 👉 **[Guía de Carga en Google Drive](docs/GUIA_CARGA_DRIVE.md)**.
+
+3. **Edición directa de páginas y fichas (con revisión según impacto):**
+   - Los scrapers del sitio web oficial (`fce.unl.edu.ar`) detectan cambios en páginas de carreras, cursos o estudiantes y proponen la actualización automáticamente.
+   - Si sos responsable de un área y querés editar un texto directamente en GitHub o desde el panel `/admin/`, seguí la 👉 **[Guía de Operación y Redacción para Editores](docs/GUIA_EDITORES.md)**.
+   - Una vez aprobado cualquier cambio en la rama principal (`main`), Luca actualiza su memoria automáticamente en menos de **1 hora** (o en el acto si se fuerza el refresco desde el panel).
 
 ---
 
@@ -33,42 +41,57 @@ Para ver el paso a paso detallado, cómo dar de alta nuevos cursos, cómo usar p
 Esta sección describe la arquitectura de la base de conocimiento, su integración con el agente y los mecanismos de validación automatizados.
 
 ### Consumo en Runtime
-El agente de producción (arquitectura consolidada: KB completa inyectada en el contexto del modelo, sin RAG) consume este repositorio de manera dinámica:
-1. Al iniciar o expirar el TTL de la caché, el agente descarga [indice.json](indice.json).
-2. El archivo `indice.json` actúa como el manifiesto de la base de conocimiento, mapeando los archivos Markdown (`.md`) permitidos, sus categorías y descripciones.
-3. El agente realiza peticiones HTTP a `raw.githubusercontent.com` para descargar cada uno de los archivos declarados en el índice.
-4. Los archivos se concatenan y se inyectan en el contexto del LLM (Gemini) en la sección `BASE DE CONOCIMIENTO`.
+El agente de producción (`agente-sophia-v2`) consume este repositorio de manera dinámica mediante **enrutamiento por sectores** (`KB_ROUTING_ENABLED=true`):
+1. Al iniciar o expirar el TTL de la caché (1 hora por defecto), el agente descarga [indice.json](indice.json) y [routing_metadata.json](routing_metadata.json).
+2. `indice.json` actúa como el manifiesto canónico de la base de conocimiento, listando los archivos Markdown (`.md`) habilitados, su categoría y descripción.
+3. `routing_metadata.json` agrupa los documentos por sectores temáticos (`grado`, `posgrado`, `cursos`, `institucional`, etc.) y define el núcleo común que viaja siempre.
+4. Para cada consulta, el agente selecciona los sectores pertinentes (o hace *fallback* a la base completa en Vertex AI si la clasificación es ambigua; en LUX aplica un presupuesto estricto de bytes protegiendo las planillas críticas) e inyecta los archivos Markdown en el contexto del modelo.
 
 ### Estructura de Directorios
 
 ```
-├── README.md               # Este archivo de bienvenida y referencia rápida.
-├── indice.json             # Manifiesto/Índice dinámico de archivos consumidos por Luca.
-├── routing_metadata.json   # Reglas de enrutamiento y derivación a operadores humanos.
-├── template.md             # Plantilla canónica que deben seguir los documentos académicos.
-├── freshness.md            # Registro de frescura y última revisión humana general.
-├── docs/                   # Documentación operativa de automatización e inventarios.
-│   ├── GUIA_EDITORES.md    # Guía detallada para usuarios no técnicos de la FCE.
-│   └── automation/         # Contratos y explicaciones de los pipelines de scraping.
-├── posgrados/              # Carreras de posgrado de la FCE (maestrías, especializaciones, etc.).
+├── README.md               # Bienvenida, guía para áreas de la FCE y referencia técnica.
+├── indice.json             # Manifiesto dinámico de todos los archivos consumidos por Luca.
+├── routing_metadata.json   # Metadatos de sectores temáticos y derivación por área.
+├── template.md             # Plantilla canónica para documentos académicos.
+├── freshness.md            # Registro automático de frescura por archivo.
+├── docs/                   # Documentación para personal de la FCE y contratos técnicos.
+│   ├── GUIA_EDITORES.md    # Guía paso a paso para editores no técnicos (con glosario).
+│   ├── GUIA_CARGA_DRIVE.md # Reglas para subir/actualizar planillas y documentos en Drive.
+│   └── automation/         # Contratos y diseño de los pipelines de sincronización.
+├── academica/              # Carreras de grado, planes de estudio 2027, correlatividades y cátedras.
+├── agenda/                 # Agenda institucional de eventos y actividades de la FCE.
+├── ciencia/                # Investigación, proyectos CAI+D, institutos y publicaciones.
+├── compartidos/            # Posgrados interinstitucionales / compartidos con otras unidades.
+├── complementos/           # Transcripciones automáticas de documentos y planillas de Google Drive.
+├── cursos/                 # Cursos de formación profesional y capacitación (1 .md por curso).
+├── cursos-posgrado/        # Cursos de posgrado y seminarios (sincronizados con CRM).
 ├── diplomaturas/           # Diplomaturas universitarias de la FCE.
-├── compartidos/            # Posgrados compartidos con otras facultades.
-├── cursos/                 # Cursos de formación profesional (1 archivo .md por curso).
-├── estudiantes/            # Información de bedelía, trámites y vida estudiantil de grado.
-├── operativos/             # Aulas virtuales, régimen de enseñanza y datos generales.
-├── posgrado-general/       # Guías y normativas transversales de posgrado.
-└── tools/                  # Scripts y herramientas de automatización de soporte.
-    └── scraper/            # Pipeline de scraping y detección automática de diferencias.
+├── docentes/               # Plantel docente, horarios de consulta y asignaciones por comisión.
+├── estudiantes/            # Trámites de bedelía, calendario académico, becas y bienestar.
+├── extension/              # Programas, proyectos y actividades de extensión universitaria.
+├── institucional/          # Autoridades, historia, sedes, biblioteca y contactos generales.
+├── internacionales/        # Movilidad estudiantil, convenios e intercambios.
+├── operativos/             # Aulas virtuales (e-fich), SIU Guaraní y guías operativas.
+├── posgrado-general/       # Normativa, admisión e información transversal de posgrado.
+├── posgrados/              # Carreras de posgrado (maestrías, especializaciones y doctorados).
+└── tools/                  # Scripts, scrapers, sincronizador CRM y validadores de CI.
+    └── scraper/            # Pipelines de ingesta, tests unitarios y contratos JSON/MD.
 ```
 
 ### Reglas Críticas del Repositorio
 
-- **Cursos de Formación Profesional**: Debe mantenerse estrictamente **un archivo Markdown por curso** dentro de la carpeta `cursos/`. No se deben crear resúmenes agrupados (como `cursos-activos.md`), ya que provocan redundancia y contradicciones en el contexto del LLM.
-- **Declaración de Fuentes**: Al final de cada archivo Markdown se deben declarar obligatoriamente las fuentes oficiales (enlaces web oficiales de la FCE o carpetas de Drive institucionales), la fecha de la última revisión humana y el responsable de la revisión.
-- **Formato Estricto**: Todos los nombres de archivos deben ser en minúsculas, separados por guiones medios (ej. `maestria-en-administracion.md`). No se deben usar caracteres especiales ni espacios.
+- **Un archivo por curso**: Tanto en `cursos/` (formación) como en `cursos-posgrado/`, debe mantenerse estrictamente **un archivo Markdown por curso**. No se deben crear resúmenes agrupados con aranceles o fechas duplicadas.
+- **Bloques sincronizados por CRM (`<!-- posgrado-crm:begin -->`)**: En las fichas de `posgrados/`, `diplomaturas/`, `compartidos/` y `cursos-posgrado/`, el estado de inscripción y la FAQ oficial se inyectan automáticamente desde el CRM entre marcadores `posgrado-crm`. No editar manualmente el interior de esos bloques ni agregar secciones estáticas de aranceles en los cursos de posgrado.
+- **Declaración de Fuentes**: Todo documento curado debe declarar sus fuentes oficiales (URLs de `fce.unl.edu.ar` o documento de Drive) y la fecha de última revisión.
+- **Formato de nombres**: Todos los archivos `.md` de contenido deben ir en minúsculas y separados por guiones medios (`kebab-case`, sin tildes ni espacios).
 
-### Automatización y Pipelines Seguro
-Las herramientas en `tools/scraper/` automatizan la detección de cambios en el sitio oficial de la FCE y en planillas de Drive, y pueden proponer cambios automáticamente abriendo Pull Requests (PRs).
-- **Merge Humano Obligatorio**: Ningún pipeline tiene permitido realizar merge automático ni escribir directamente a la rama `main`.
-- **Datos Sensibles**: Cualquier cambio en fechas de inscripción, cuotas, aranceles, contactos o requisitos se clasifica como de alto riesgo y se marca en el PR requiriendo revisión humana explícita.
-- Para más información sobre el comportamiento del pipeline, ver [docs/automation/pipeline-contract.md](docs/automation/pipeline-contract.md).
+### Automatización y Pipelines (GitHub Actions)
+
+| Workflow | Frecuencia / Disparo | Comportamiento y Regla de Publicación |
+|---|---|---|
+| `sync-posgrado-crm-kb.yml` | Cada 6 h + manual | Sincroniza estados de inscripción y FAQs desde el CRM (`/posgrado/tapir/propuestas/` y `/cursos/`). Publica directo en `main` si pasa las validaciones de contrato (`posgrado_crm_routes.json`); falla cerrado ante propuestas desconocidas o errores de red/WAF. |
+| `ingest-drive.yml` | Diario (06:00 ART) + manual | Ingiere documentos y planillas de la carpeta institucional de Google Drive hacia `complementos/`. **Siempre abre un PR con etiqueta `needs-review`** (nunca auto-mergea). |
+| `propose-posgrado-courses-kb.yml` | Semanal / manual | Detecta cursos nuevos de posgrado en la web oficial, genera su ficha `.md`, los registra en `posgrado_crm_routes.json` y propone el alta por PR (o auto-mergea si no tiene señales de revisión). |
+| `propose-courses-kb.yml`, `propose-students-kb.yml`, `propose-sections-kb.yml` | Programado / manual | Detectan cambios en páginas oficiales de cursos, estudiantes y secciones institucionales. Publican cambios mecánicos limpios o abren PR `needs-review` si detectan anomalías o pérdidas de datos. |
+| `validate-kb.yml` | En cada push y PR | Valida integridad de `indice.json`, `routing_metadata.json`, enlaces, formato y suite de tests (`npm test`). |
