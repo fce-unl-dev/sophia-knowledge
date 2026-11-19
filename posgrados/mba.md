@@ -199,12 +199,12 @@ La facultad confirmó noviembre de 2026 como mes previsto de apertura para el ci
 - **ID de propuesta:** 1074
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-17 10:40:35
+- **Última actualización de este registro (Argentina):** 2026-11-18 16:53:20
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > Muchas gracias por tu interés en la Maestría en Administración de Empresas \(MBA\) de la FCE\-UNL\.
->  Nuestra Maestría ofrece estudios de posgrado de alto nivel académico para profesionales que buscan un desarrollo integral en management y liderazgo en entornos globalizados\. Creada en 1999, cuenta con más de 300 graduados que hoy se desempeñan en empresas e instituciones líderes de la región y del país\.
+> Nuestra Maestría ofrece estudios de posgrado de alto nivel académico para profesionales que buscan un desarrollo integral en management y liderazgo en entornos globalizados\. Creada en 1999, cuenta con más de 300 graduados que hoy se desempeñan en empresas e instituciones líderes de la región y del país\.
 > Características distintivas del programa
 > Enfoque ejecutivo: orientada al entrenamiento de habilidades propias de cargos de Alta Dirección\.
 > Metodología práctica: trabajo en equipo, análisis de casos e investigación aplicada, con fuerte vinculación con el medio empresario\.

@@ -128,12 +128,12 @@ La carrera contempla una beca del Centro Universitario Argentino-Alemán (CUAA) 
 - **ID de propuesta:** 1076
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-17 08:51:37
+- **Última actualización de este registro (Argentina):** 2026-11-18 16:47:44
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > Muchas gracias por tu interés en la Maestría en Administración y Finanzas de la FCE\-UNL\.
->  Se trata de una carrera de posgrado de carácter interinstitucional, dictada conjuntamente entre la Facultad de Ciencias Económicas de la UNL y la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern \(Alemania\)\.
+> Se trata de una carrera de posgrado de carácter interinstitucional, dictada conjuntamente entre la Facultad de Ciencias Económicas de la UNL y la Facultad de Ciencias Empresariales de la Universidad de Kaiserslautern \(Alemania\)\.
 > Doble titulación internacional
 > Mediante un plan de estudios que combina trayectorias académicas en ambas instituciones, los graduados obtienen una doble titulación:
 > Magíster en Administración y Finanzas \(otorgado por la UNL\)\.

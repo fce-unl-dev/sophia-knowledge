@@ -141,12 +141,11 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 - **ID de propuesta:** 1077
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-17 08:03:36
+- **Última actualización de este registro (Argentina):** 2026-11-18 16:53:59
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > Muchas gracias por tu interés en la Especialización en Tributación\.
->
 > Esta carrera tiene como objetivo profundizar la formación del profesional en Ciencias Económicas en el área tributaria\. A través de un entrenamiento intensivo, brinda herramientas teóricas y prácticas tanto para el asesoramiento a contribuyentes como para el desempeño ante o dentro de organismos públicos, formando graduados capaces de contribuir al desarrollo de la región y del país\.
 > Más información sobre la carrera: www\.fce\.unl\.edu\.ar/tributacion
 > Inscripciones abiertas: www\.fce\.unl\.edu\.ar/posgrado/categorias/inscripciones\-carreras/

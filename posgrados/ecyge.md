@@ -139,14 +139,14 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1103
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-04-12
-- **Última actualización de este registro (Argentina):** 2026-11-17 09:38:53
+- **Última actualización de este registro (Argentina):** 2026-11-18 16:54:13
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > Muchas gracias por tu contacto\. La carrera de Especialización en Costos y Gestión Empresarial es una oferta académica de excelente nivel en respuesta a esta demanda\. Esta es una propuesta que se desarrolla en un marco de colaboración con el Instituto Argentino de Profesores Universitarios de Costos \(IAPUCO\), entidad que, desde hace más de cuarenta años, nuclea a profesores universitarios de la disciplina de todo el país\. Para más información ingrese a https://www\.fce\.unl\.edu\.ar/ecyge
->  Podrán ser admitidos:
+> Podrán ser admitidos:
 > a\) Graduados universitarios con titulación en las áreas de Contabilidad, Administración y Economía\.
 > b\) Graduados universitarios en las distintas áreas de la Ingeniería cuando su plan de estudios incluya contenidos de Contabilidad, Administración o Economía que el Comité de Admisión juzgue suficientes\.
 > c\) Graduados universitarios en otras áreas, en carreras de no menos de 4 \(cuatro\) años de duración, previa superación de una prueba de suficiencia\.
@@ -166,12 +166,11 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1254
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-17 09:56:56
+- **Última actualización de este registro (Argentina):** 2026-11-18 16:54:07
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > Muchas gracias por tu contacto e interés en la Especialización en Costos y Gestión Empresarial de la FCE\-UNL\.
->
 > Esta carrera constituye una propuesta académica de excelencia, desarrollada en colaboración con el Instituto Argentino de Profesores Universitarios de Costos \(IAPUCO\), entidad que desde hace más de cuarenta años nuclea a docentes universitarios de la disciplina en todo el país\.
 > Modalidad de cursado 100% a distancia\.
 > Dinámica flexible: el dictado virtual permite que cada estudiante administre sus propios tiempos de lectura, análisis de material multimedia y realización de actividades a través de la plataforma Moodle y diversas herramientas tecnológicas\.
