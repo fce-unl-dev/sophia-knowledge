@@ -6,6 +6,7 @@ import { AGENDA_URL, parseAgendaHtml } from './scrape_agenda.mjs';
 const REPOSITORY_ROOT = fileURLToPath(new URL('../../', import.meta.url));
 const MAX_HTML_BYTES = 1024 * 1024;
 const FETCH_TIMEOUT_MS = 8_000;
+const USER_AGENT = 'sophia-kb-scraper/0.1 (+https://github.com/fce-unl-dev/sophia-knowledge)';
 const localDate = new Intl.DateTimeFormat('en', {
   timeZone: 'America/Argentina/Cordoba', year: 'numeric', month: '2-digit', day: '2-digit',
 });
@@ -20,7 +21,7 @@ async function fetchAgendaHtml(fetchImpl) {
     method: 'GET',
     redirect: 'error',
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-    headers: { accept: 'text/html' },
+    headers: { accept: 'text/html', 'user-agent': USER_AGENT },
   });
   if (response.status !== 200 || response.redirected || (response.url && response.url !== AGENDA_URL) ||
       !/^text\/html(?:\s*;|$)/i.test(response.headers.get('content-type') ?? '')) {
