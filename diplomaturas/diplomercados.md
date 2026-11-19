@@ -133,12 +133,12 @@ Para obtener el Diploma de aprobación de la Diplomatura, los alumnos deben cump
 - **ID de propuesta:** 1337
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-17 08:24:50
+- **Última actualización de este registro (Argentina):** 2026-11-18 16:52:34
 
 **Respuesta frecuente oficial (dato del CRM):**
 
 > Muchas gracias por tu contacto e interés en la Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros\.
->  Esta propuesta tiene como objetivo brindar a profesionales de diversas carreras —especialmente de Ciencias Económicas— una primera incursión especializada en el mundo de los mercados financieros\. Busca que los participantes comprendan su funcionamiento actual, el impacto de las tecnologías de la información, los activos que se negocian, sus métodos de análisis y las estrategias de los distintos tipos de inversores\. De este modo, podrán optimizar su desempeño laboral en el sector y contar con una base sólida para futuros estudios de posgrado\.
+> Esta propuesta tiene como objetivo brindar a profesionales de diversas carreras —especialmente de Ciencias Económicas— una primera incursión especializada en el mundo de los mercados financieros\. Busca que los participantes comprendan su funcionamiento actual, el impacto de las tecnologías de la información, los activos que se negocian, sus métodos de análisis y las estrategias de los distintos tipos de inversores\. De este modo, podrán optimizar su desempeño laboral en el sector y contar con una base sólida para futuros estudios de posgrado\.
 > Datos clave de la Diplomatura
 > Requisito de admisión: poseer título de grado\.
 > Modalidad: virtual sincrónica \(clases en vivo mediante videoconferencia institucional por Zoom\)\.

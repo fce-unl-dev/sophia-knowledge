@@ -149,13 +149,13 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 - **ID de propuesta:** 1269
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2025-08-21
-- **Última actualización de este registro (Argentina):** 2026-10-02 18:36:10
+- **Última actualización de este registro (Argentina):** 2026-11-18 16:54:46
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
 **Respuesta frecuente oficial (dato del CRM):**
 
-> La Maestría en Responsabilidad Social Organizacional brinda una formación de posgrado orientada a desarrollar conocimientos y habilidades para el diagnóstico, planificación, gestión y medición de la responsabilidad social en las organizaciones\. Su modalidad es 100%, con actividades asincronicas, es decir, no hay dias y horarios de cursado establecidos \. Se sube material y actividades al aula virtual\.
+> La Maestría en Responsabilidad Social Organizacional brinda una formación de posgrado orientada a desarrollar conocimientos y habilidades para el diagnóstico, planificación, gestión y medición de la responsabilidad social en las organizaciones\. Su modalidad es 100%, con actividades asincronicas, es decir, no hay dias y horarios de cursado establecidos\. Se sube material y actividades al aula virtual\.
 >  Mas info de la carrera la encontras ingresando en:  www\.fce\.unl\.edu\.ar/mrso\.
 > Las inscripciones estan cerradas\. No hay fecha defina de comienzo de una nueva edición\.
 > Podes conocer nuestra ofertas de posgrados ingresando en :
