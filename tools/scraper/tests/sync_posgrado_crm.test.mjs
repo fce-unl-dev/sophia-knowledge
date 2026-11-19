@@ -203,3 +203,20 @@ test('staging failure cannot partially modify documents or snapshot', async t =>
   assert.equal((await readFile(join(root, CAREER), 'utf8')).includes('posgrado-crm:begin'), false);
   assert.deepEqual((await readdir(join(root, 'cursos-posgrado'))).filter(name => name.startsWith('.crm-sync-')), []);
 });
+
+test('HTML challenge response reports unexpected_content_type with title and uses exact user-agent', async t => {
+  const root = await setup(t);
+  const seenUa = [];
+  const fetchImpl = async (_url, opts) => {
+    seenUa.push(opts?.headers?.['user-agent']);
+    return new Response('<html><head><title>BunkerWeb Challenge</title></head><body>wait</body></html>', {
+      status: 200,
+      headers: { 'content-type': 'text/html; charset=UTF-8' },
+    });
+  };
+  const result = await syncPosgradoCrm({ root, apply: false, fetchImpl });
+  assert.equal(result.status, 'error');
+  assert.equal(result.errors[0].code, 'unexpected_content_type');
+  assert.match(result.errors[0].message, /BunkerWeb Challenge/);
+  assert.equal(seenUa[0], 'sophia-kb-scraper/0.1');
+});

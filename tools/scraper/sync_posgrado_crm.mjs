@@ -10,7 +10,7 @@ import { planPosgradoCrmUpdates } from './plan_posgrado_crm_updates.mjs';
 const KINDS = ['basicos', 'carreras', 'cursos'];
 const ENDPOINT = 'https://fce.unl.edu.ar/posgradosCRM/index.php?act=DatosParaCrawler.';
 const ACTION = { basicos: 'doMostrarBasicos', carreras: 'doMostrarCarreras', cursos: 'doMostrarCursos' };
-const USER_AGENT = 'sophia-kb-scraper/0.1 (+https://github.com/fce-unl-dev/sophia-knowledge)';
+const USER_AGENT = 'sophia-kb-scraper/0.1';
 const SNAPSHOT = 'tools/scraper/posgrado_crm_snapshot.json';
 const MAX_BYTES = 4 * 1024 * 1024;
 
@@ -38,7 +38,15 @@ async function fetchRaw(kind, fetchImpl) {
       chunks.push(value);
     }
   } finally { await reader.cancel().catch(() => {}); }
-  return new TextDecoder('utf-8', { fatal: true }).decode(Buffer.concat(chunks));
+  const text = new TextDecoder('utf-8', { fatal: true }).decode(Buffer.concat(chunks));
+  const contentType = response.headers?.get?.('content-type') || '';
+  if (/text\/html/i.test(contentType) || /^\s*</.test(text)) {
+    const titleMatch = text.match(/<title[^>]*>([^<]{1,120})<\/title>/i);
+    const title = titleMatch ? titleMatch[1].replace(/\s+/g, ' ').trim() : '';
+    const detail = `${kind}: HTTP ${response.status}, content-type=${contentType || 'none'}${title ? `, title=${title}` : ''}`;
+    fail('unexpected_content_type', detail);
+  }
+  return text;
 }
 
 function snapshotOf(parsed) {

@@ -21,7 +21,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { parseArgs } from 'node:util';
 
-const USER_AGENT = 'sophia-kb-scraper/0.1 (+https://github.com/fce-unl-dev/sophia-knowledge)';
+const USER_AGENT = 'sophia-kb-scraper/0.1';
 const REQUEST_TIMEOUT_MS = 30_000;
 const MAX_RETRIES = 2;
 const RETRY_DELAY_MS = 1500;
