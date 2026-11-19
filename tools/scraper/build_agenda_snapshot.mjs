@@ -25,8 +25,14 @@ async function fetchAgendaHtml(fetchImpl) {
   });
   if (response.status !== 200 || response.redirected || (response.url && response.url !== AGENDA_URL) ||
       !/^text\/html(?:\s*;|$)/i.test(response.headers.get('content-type') ?? '')) {
-    await response.body?.cancel();
-    throw new Error('The official agenda did not return an HTML listing.');
+    const ct = response.headers.get('content-type') ?? 'none';
+    const loc = response.headers.get('location') ?? '';
+    const srv = response.headers.get('server') ?? '';
+    let snippet = '';
+    try { snippet = (await response.text()).replace(/\s+/g, ' ').trim().slice(0, 150); } catch { await response.body?.cancel(); }
+    throw new Error(
+      `The official agenda did not return an HTML listing (status=${response.status}, redirected=${response.redirected}, content-type=${ct}${loc ? `, location=${loc}` : ''}${srv ? `, server=${srv}` : ''}${snippet ? `, snippet=${snippet}` : ''}).`,
+    );
   }
   const length = response.headers.get('content-length');
   if (length && (!/^\d+$/.test(length) || Number(length) > MAX_HTML_BYTES)) {
@@ -106,6 +112,7 @@ if (process.argv[1] && pathToFileURL(process.argv[1]).href === import.meta.url) 
       console.log(`Updated agenda/institucional.json with ${events.length} events.`);
     } catch (error) {
       console.error(error.message);
+      if (error.cause?.message) console.error(`Detail: ${error.cause.message}`);
       process.exitCode = 1;
     }
   }

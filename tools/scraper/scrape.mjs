@@ -49,11 +49,18 @@ export async function fetchHtml(url, { fetchImpl = fetch, timeoutMs = REQUEST_TI
         redirect: 'follow',
         headers: { 'User-Agent': USER_AGENT, 'Accept': 'text/html,application/xhtml+xml' },
       });
-      if (!res.ok) throw new Error(`HTTP ${res.status} on ${url}`);
+      if (!res.ok) {
+        const ct = res.headers?.get?.('content-type') ?? 'none';
+        const srv = res.headers?.get?.('server') ?? '';
+        let snippet = '';
+        try { snippet = (await res.text()).replace(/\s+/g, ' ').trim().slice(0, 150); } catch {}
+        throw new Error(`HTTP ${res.status} on ${url} (content-type=${ct}${srv ? `, server=${srv}` : ''}${snippet ? `, snippet=${snippet}` : ''})`);
+      }
       const html = await res.text();
       const challenge = detectAntiBotChallenge(html);
       if (challenge) {
-        const err = new Error(`Blocked by ${challenge} on ${url}`);
+        const snippet = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 150);
+        const err = new Error(`Blocked by ${challenge} on ${url} (status=${res.status}, snippet=${snippet})`);
         err.isBotChallenge = true;
         throw err;
       }
