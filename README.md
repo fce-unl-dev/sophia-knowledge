@@ -15,7 +15,7 @@ Si sos coordinador, administrativo o responsable de un área en la FCE y necesit
 ### ¿Cómo funciona la base de conocimiento?
 A diferencia de otros sistemas que leen directamente la web (lo que a veces genera que Luca responda con información vieja o confusa de años anteriores), Luca lee **exclusivamente** los archivos de este repositorio. Si la información no está escrita aquí de forma clara, Luca dirá honestamente que no la sabe y derivará la consulta a un operador humano.
 
-### ¿Cómo se mantiene actualizada la información? (3 vías)
+### ¿Cómo se mantiene actualizada la información? (4 vías)
 
 La base de conocimiento de Luca se actualiza combinando **sincronización automática** y **control humano**, según el origen de cada dato:
 
@@ -24,15 +24,18 @@ La base de conocimiento de Luca se actualiza combinando **sincronización autom�
    - Actualiza directamente en los archivos de `posgrados/`, `diplomaturas/`, `compartidos/` y `cursos-posgrado/` el estado de inscripción (*Abierta* / *Cerrada*), la fecha límite y la respuesta frecuente oficial (FAQ) cargada en el CRM.
    - Si en el CRM se da de alta una carrera o curso nuevo que todavía no tiene archivo o ruta asignada en Luca, el sistema frena preventivamente y avisa al equipo técnico para vincularlo.
 
-2. **Carpeta institucional de Google Drive (1 vez por día, con revisión humana):**
+2. **Agenda Institucional diaria (todos los días a las 07:17):**
+   - El sistema lee la agenda oficial de la FCE y actualiza `agenda/institucional.json` de forma automática cuando los cambios son normales (altas, actualizaciones o eventos que ya pasaron). Si detecta algo extraño (por ejemplo, que la agenda quedó vacía de golpe), frena y pide revisión humana.
+
+3. **Carpeta institucional de Google Drive (1 vez por día, con revisión humana):**
    - Las áreas de la facultad suben o actualizan documentos y planillas (por ejemplo, la planilla `Info costos carrera para la IA` con los aranceles de posgrado, reglamentos o resoluciones de planes de estudio) en la carpeta compartida de Google Drive.
    - Todos los días el sistema lee Drive, transcribe las novedades a la carpeta `complementos/` y abre una **Propuesta de Cambio (Pull Request)** con la etiqueta `needs-review`.
-   - **Importante:** Por seguridad institucional, los cambios de Drive **nunca se publican solos**. Requieren que un responsable apruebe la propuesta (desde el panel `/admin/` de Luca o desde GitHub). Para saber cómo subir o actualizar archivos en Drive sin errores, consultá la 👉 **[Guía de Carga en Google Drive](docs/GUIA_CARGA_DRIVE.md)**.
+   - **Importante:** Por seguridad institucional, los cambios de Drive **nunca se publican solos**. Requieren que un responsable apruebe la propuesta (desde el panel `/admin/` de Luca en la pestaña *Inicio y Pendientes*, o desde GitHub). Para saber cómo subir o actualizar archivos en Drive sin errores, consultá la 👉 **[Guía de Carga en Google Drive](docs/GUIA_CARGA_DRIVE.md)**.
 
-3. **Edición directa de páginas y fichas (con revisión según impacto):**
+4. **Edición directa de páginas y fichas (con revisión según impacto):**
    - Los scrapers del sitio web oficial (`fce.unl.edu.ar`) detectan cambios en páginas de carreras, cursos o estudiantes y proponen la actualización automáticamente.
-   - Si sos responsable de un área y querés editar un texto directamente en GitHub o desde el panel `/admin/`, seguí la 👉 **[Guía de Operación y Redacción para Editores](docs/GUIA_EDITORES.md)**.
-   - Una vez aprobado cualquier cambio en la rama principal (`main`), Luca actualiza su memoria automáticamente en menos de **1 hora** (o en el acto si se fuerza el refresco desde el panel).
+   - Si sos responsable de un área y querés editar un texto directamente en GitHub, o ver qué preguntas no pudo responder Luca en el portal **`/operador/`** (*Qué le falta saber*), seguí la 👉 **[Guía de Operación y Redacción para Editores](docs/GUIA_EDITORES.md)**.
+   - Una vez aprobado cualquier cambio en la rama principal (`main`), Luca actualiza su memoria automáticamente en menos de **1 hora** (o en el acto si se fuerza el refresco desde `/admin/`).
 
 ---
 
@@ -91,6 +94,7 @@ El agente de producción (`agente-sophia-v2`) consume este repositorio de manera
 | Workflow | Frecuencia / Disparo | Comportamiento y Regla de Publicación |
 |---|---|---|
 | `sync-posgrado-crm-kb.yml` | Cada 6 h + manual | Sincroniza estados de inscripción y FAQs desde el CRM (`/posgradosCRM/index.php?act=DatosParaCrawler.*`). Publica directo en `main` si pasa las validaciones de contrato (`posgrado_crm_routes.json`); falla cerrado ante propuestas desconocidas o errores de red/WAF. |
+| `preview-agenda-kb.yml` | Diario (07:17 ART) + manual | Actualiza `agenda/institucional.json` desde la agenda oficial de la FCE. Auto-mergea si pasa la evaluación de anomalías (`auto-update`), o deja PR `needs-review` ante vaciamientos o bajas de eventos futuros. |
 | `ingest-drive.yml` | Diario (06:00 ART) + manual | Ingiere documentos y planillas de la carpeta institucional de Google Drive hacia `complementos/`. **Siempre abre un PR con etiqueta `needs-review`** (nunca auto-mergea). |
 | `propose-posgrado-courses-kb.yml` | Semanal / manual | Detecta cursos nuevos de posgrado en la web oficial, genera su ficha `.md`, los registra en `posgrado_crm_routes.json` y propone el alta por PR (o auto-mergea si no tiene señales de revisión). |
 | `propose-courses-kb.yml`, `propose-students-kb.yml`, `propose-sections-kb.yml` | Programado / manual | Detectan cambios en páginas oficiales de cursos, estudiantes y secciones institucionales. Publican cambios mecánicos limpios o abren PR `needs-review` si detectan anomalías o pérdidas de datos. |

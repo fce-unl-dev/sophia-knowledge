@@ -2,8 +2,8 @@
 
 Pipeline de automatización del KB de Luca. Disparable manualmente desde:
 
-1. **UI de GitHub Actions** → workflow "Sync KB" → "Run workflow".
-2. **Dashboard admin del agente Luca** (pendiente) → llama al workflow vía GitHub API.
+1. **UI de GitHub Actions** → workflow correspondiente (`Sync KB`, `Ingest Drive`, `Propose Courses KB`, etc.) → "Run workflow".
+2. **Dashboard admin del agente Luca (`/admin/`)** → pestaña *Actualizar contenidos* → llama al workflow vía GitHub API.
 3. **Local** (para debug o smoke test) → ver sección "Correr local".
 
 ## Componentes
@@ -33,6 +33,9 @@ Pipeline de automatización del KB de Luca. Disparable manualmente desde:
 | `.github/workflows/propose-courses-kb.yml` | Workflow manual "Propose Courses KB": corre `propose_courses_update.mjs` y abre PR de cursos. Ver `docs/automation/course-proposals.md`. | vigente (B.5) |
 | `.github/workflows/propose-students-kb.yml` | Workflow manual: corre `propose_students_update.mjs` y abre PR de `/estudiantes/`. | vigente |
 | `.github/workflows/propose-sections-kb.yml` | Workflow manual: corre `propose_sections_update.mjs` y abre PR de las ramas WordPress del sitio. | vigente |
+| `.github/workflows/ingest-drive.yml` | Workflow diario (06:00 ART) y manual: ingiere Drive hacia `complementos/` y abre PR `needs-review`. | vigente |
+| `.github/workflows/sync-posgrado-crm-kb.yml` | Workflow cada 6 h y manual: sincroniza estados de inscripción y FAQs desde el CRM de Posgrado. | vigente |
+| `.github/workflows/preview-agenda-kb.yml` | Workflow diario (07:17 ART) y manual: actualiza `agenda/institucional.json` con evaluación de anomalías. | vigente |
 | `.github/workflows/mark-as-reviewed.yml` | Workflow de soporte: marca documentos como revisados por humano (actualiza metadatos de freshness). | vigente |
 | `.github/workflows/validate-kb.yml` | Workflow automático de validación en PRs/push a main. | B.4 |
 
@@ -330,7 +333,6 @@ state/
 
 ## Limitaciones conocidas
 
-- `scrape_courses.mjs` no corre por el workflow genérico `Sync KB`, sino por su propio workflow **Propose Courses KB** (`propose-courses-kb.yml`) vía `propose_courses_update.mjs`. Mismo criterio para estudiantes y secciones (workflows `propose-students-kb.yml` y `propose-sections-kb.yml`).
+- `scrape_courses.mjs` no corre por el workflow genérico `Sync KB`, sino por su propio workflow **Propose Courses KB** (`propose-courses-kb.yml`) vía `propose_courses_update.mjs`. Mismo criterio para estudiantes (`propose-students-kb.yml`), secciones (`propose-sections-kb.yml`), Drive (`ingest-drive.yml`), CRM de Posgrado (`sync-posgrado-crm-kb.yml`) y Agenda (`preview-agenda-kb.yml`).
 - Ningún proponente da de baja contenido automáticamente: los cursos/páginas que dejan de aparecer en la fuente se reportan en el cuerpo del PR para decisión humana.
 - Las páginas operativas pueden requerir `template_override` porque el template académico no siempre aplica.
-- La ingesta de Drive/Google Sheets (`scrape_drive.mjs`, `scrape_sheets.mjs`) se corre manualmente/local; todavía no tiene workflow propio en GitHub Actions.
