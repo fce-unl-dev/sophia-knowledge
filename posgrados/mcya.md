@@ -87,7 +87,7 @@ Para obtener el título de Magíster en Contabilidad y Auditoría, el estudiante
 
 ## Información complementaria
 
-La facultad confirmó el horario de sábados de 9 a 13 para la consulta sobre el ciclo 2027–2028. Los detalles de pago y becas no están confirmados en el material consultado: consultar con mcya@fce.unl.edu.ar. El inicio previsto es marzo de 2027.
+La Secretaría de Posgrado confirmó que el horario de cursado de los días sábados es de **9 a 13 hs** (vigente para el ciclo 2027–2028; el horario de 8:30 a 12:30 publicado anteriormente en la web no aplica). Los detalles de pago y becas no están confirmados en el material consultado: consultar con mcya@fce.unl.edu.ar. El inicio previsto es marzo de 2027.
 
 ## Contacto
 
@@ -124,6 +124,7 @@ La facultad confirmó el horario de sábados de 9 a 13 para la consulta sobre el
 
 ## Fuentes consultadas
 
+- Confirmación oficial de Secretaría de Posgrado FCE-UNL (Soledad Regali / Marcela Martín, 20/11/2026): horario de sábados de 9 a 13 hs.
 - Respuestas de la facultad a las consultas sobre posgrados, incorporadas el 23/10/2026: https://docs.google.com/document/d/1Ej4GRWCx5sAbfWIHOjGf5s4jwXT1a3AexFnPXqsbafU/edit
 
 -   https://www.fce.unl.edu.ar/mcya/ (Información general)
@@ -143,7 +144,7 @@ La facultad confirmó el horario de sábados de 9 a 13 para la consulta sobre el
 
 ---
 
-**Última revisión humana**: 2026-10-24
+**Última revisión humana**: 2026-11-20
 
 <!-- posgrado-crm:begin -->
 <!-- posgrado-crm:id carreras:1271 -->

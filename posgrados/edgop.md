@@ -177,7 +177,9 @@ Trabajo Final Integrador individual basado en el análisis de una Organización 
 
 ## Información complementaria
 
-La facultad confirmó que las actividades actualmente son asincrónicas, pero podrían realizarse encuentros sincrónicos. No garantizar una modalidad totalmente asincrónica ni ausencia de horarios de encuentro. También confirmó noviembre de 2026 como mes previsto de apertura para el ciclo 2027, en lugar de diciembre. Para la disponibilidad y el plazo actuales, consultar el bloque del CRM al final de esta ficha. El inicio de clases de 2027 está por confirmar. Los detalles de pago no están confirmados en el material consultado: consultar con edgop@fce.unl.edu.ar.
+**Estado de inscripción para 2027:** la Secretaría de Posgrado confirmó (20/11/2026) que **EDGOP no abre inscripción en 2027**. Para consultas sobre próximas cohortes o novedades, escribir a edgop@fce.unl.edu.ar o posgrado@fce.unl.edu.ar.
+
+Sobre la modalidad de cursado, la facultad confirmó que las actividades actualmente son asincrónicas, pero podrían realizarse encuentros sincrónicos. No garantizar una modalidad totalmente asincrónica ni ausencia de horarios de encuentro. Los detalles de pago no están confirmados en el material consultado: consultar con edgop@fce.unl.edu.ar.
 
 **Convenio UPCN:** el Convenio Específico de colaboración entre la Universidad Nacional del Litoral y la Unión del Personal Civil de la Nación-Seccional Santa Fe contempla un descuento del 20% sobre el costo total de la carrera para profesionales que la entidad gremial informe a las autoridades de EDGOP y de la FCE-UNL. Consultar las condiciones aplicables con la carrera; este convenio no determina un arancel vigente.
 
@@ -225,6 +227,7 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ## Fuentes consultadas
 
+- Confirmación oficial de Secretaría de Posgrado FCE-UNL (Soledad Regali / Marcela Martín, 20/11/2026): EDGOP no abre inscripción en 2027.
 - Respuestas de la facultad a las consultas sobre posgrados, incorporadas el 23/10/2026: https://docs.google.com/document/d/1Ej4GRWCx5sAbfWIHOjGf5s4jwXT1a3AexFnPXqsbafU/edit
 
 - https://fce.unl.edu.ar/edgop/ (Información de interés)
@@ -244,7 +247,7 @@ La Carrera de Especialización en Dirección y Gestión de Organizaciones Públi
 
 ---
 
-**Última revisión humana**: 2026-10-14
+**Última revisión humana**: 2026-11-20
 
 <!-- posgrado-crm:begin -->
 <!-- posgrado-crm:id carreras:1078 -->
