@@ -141,7 +141,7 @@ El [portal general de carreras de posgrado](https://www.fce.unl.edu.ar/posgrado/
 - **ID de propuesta:** 1077
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-18 16:53:59
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:55:28
 
 **Respuesta frecuente oficial (dato del CRM):**
 

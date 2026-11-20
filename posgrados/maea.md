@@ -152,7 +152,7 @@ Para obtener el título de Magíster, el alumno debe elaborar y aprobar un Traba
 - **ID de propuesta:** 1185
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2022-08-01
-- **Última actualización de este registro (Argentina):** 2026-09-29 18:44:10
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:56:34
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 

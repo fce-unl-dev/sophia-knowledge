@@ -128,7 +128,7 @@ La carrera contempla una beca del Centro Universitario Argentino-Alemán (CUAA) 
 - **ID de propuesta:** 1076
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-18 16:47:44
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:52:49
 
 **Respuesta frecuente oficial (dato del CRM):**
 

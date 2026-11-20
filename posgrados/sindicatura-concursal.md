@@ -274,7 +274,7 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 - **ID de propuesta:** 1080
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-17 10:39:10
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:56:45
 
 **Respuesta frecuente oficial (dato del CRM):**
 
@@ -309,7 +309,7 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 - **ID de propuesta:** 1430
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-18 18:26:09
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:48:51
 
 **Respuesta frecuente oficial (dato del CRM):**
 
