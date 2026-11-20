@@ -1,6 +1,6 @@
 # Especialización en Sindicatura Concursal
 
-La Especialización en Sindicatura Concursal de la FCE-UNL brinda al Contador Público una capacitación integral relacionada con las empresas en crisis y la actuación del síndico concursal en los procesos previstos en la Ley 24.522 (concurso preventivo y quiebra). Está acreditada con categoría máxima A por CONEAU.
+La Especialización en Sindicatura Concursal de la FCE-UNL brinda al Contador Público una capacitación integral relacionada con las empresas en crisis y la actuación del síndico concursal en los procesos previstos en la Ley 24.522 (concurso preventivo y quiebra). En modalidad presencial está acreditada con categoría máxima A por CONEAU, y en modalidad a distancia cuenta con dictamen favorable de CONEAU para reconocimiento oficial del título.
 
 ---
 
@@ -10,7 +10,9 @@ La Especialización en Sindicatura Concursal de la FCE-UNL brinda al Contador P�
 -   **Código corto / sigla**: ESC
 -   **Tipo**: Especialización
 -   **Título que otorga**: Especialista en Sindicatura Concursal
--   **Acreditación CONEAU**: Aprobada y acreditada por CONEAU con **categoría A** (modalidad presencial; para consultar el estado de acreditación CONEAU de la modalidad a distancia, escribir a posgrado@fce.unl.edu.ar)
+-   **Acreditación CONEAU**:
+    -   **Modalidad presencial**: Acreditada y categorizada **A** por CONEAU (RESFC-2025-314-APN-CONEAU#MCH). Reconocimiento oficial y validez nacional del título (Res. ME 4342/17).
+    -   **Modalidad a distancia**: Dictamen favorable CONEAU para reconocimiento oficial del título — Sesión Nº 647, Acta Nº 647/26.
 -   **Unidad académica**: FCE-UNL
 -   **Carreras compartidas con otras unidades**: No aplica
 
@@ -246,6 +248,7 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 
 ## Fuentes consultadas
 
+-   Confirmación oficial de Secretaría de Posgrado FCE-UNL (Soledad Regali / Marcela Martín, 20/11/2026) sobre acreditación CONEAU y reconocimiento oficial del título en modalidad presencial y a distancia.
 -   https://fce.unl.edu.ar/sindicatura/ (Información de interés, sigla)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=174 (Presentación de la carrera, objetivos, marco normativo)
 -   https://www.fce.unl.edu.ar/sindicatura/index.php?act=showSubcategoria&id=154 (Duración de la carrera, trabajo final)
@@ -262,7 +265,7 @@ La [nota institucional de la carrera](https://www.fce.unl.edu.ar/sindicatura/ind
 
 ---
 
-**Última revisión humana**: 2026-09-10
+**Última revisión humana**: 2026-11-20
 
 <!-- posgrado-crm:begin -->
 <!-- posgrado-crm:id carreras:1080 -->
