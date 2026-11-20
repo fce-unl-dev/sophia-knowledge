@@ -38,6 +38,18 @@ export function detectAntiBotChallenge(html) {
   return null;
 }
 
+function unlAuthHeaders(url) {
+  const token = (process.env.SOPHIA_SCRAPER_TOKEN || '').trim();
+  if (!token) return {};
+  try {
+    const { hostname } = new URL(url);
+    if (hostname === 'unl.edu.ar' || hostname.endsWith('.unl.edu.ar')) {
+      return { 'X-Sophia-Token': token };
+    }
+  } catch {}
+  return {};
+}
+
 export async function fetchHtml(url, { fetchImpl = fetch, timeoutMs = REQUEST_TIMEOUT_MS, retries = MAX_RETRIES } = {}) {
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {
@@ -47,7 +59,7 @@ export async function fetchHtml(url, { fetchImpl = fetch, timeoutMs = REQUEST_TI
       const res = await fetchImpl(url, {
         signal: controller.signal,
         redirect: 'follow',
-        headers: { 'User-Agent': USER_AGENT, 'Accept': 'text/html,application/xhtml+xml' },
+        headers: { 'User-Agent': USER_AGENT, 'Accept': 'text/html,application/xhtml+xml', ...unlAuthHeaders(url) },
       });
       if (!res.ok) {
         const ct = res.headers?.get?.('content-type') ?? 'none';

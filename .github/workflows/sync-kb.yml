@@ -108,6 +108,7 @@ jobs:
         id: pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SOPHIA_SCRAPER_TOKEN: ${{ secrets.SOPHIA_SCRAPER_TOKEN }}
         working-directory: tools/scraper
         run: |
           set +e

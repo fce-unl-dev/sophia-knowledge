@@ -17,11 +17,14 @@ function cordobaDay(now) {
 }
 
 async function fetchAgendaHtml(fetchImpl) {
+  const token = (process.env.SOPHIA_SCRAPER_TOKEN || '').trim();
+  const headers = { accept: 'text/html', 'user-agent': USER_AGENT };
+  if (token) headers['X-Sophia-Token'] = token;
   const response = await fetchImpl(AGENDA_URL, {
     method: 'GET',
     redirect: 'error',
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
-    headers: { accept: 'text/html', 'user-agent': USER_AGENT },
+    headers,
   });
   if (response.status !== 200 || response.redirected || (response.url && response.url !== AGENDA_URL) ||
       !/^text\/html(?:\s*;|$)/i.test(response.headers.get('content-type') ?? '')) {

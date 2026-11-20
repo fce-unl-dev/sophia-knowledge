@@ -59,6 +59,7 @@ jobs:
         working-directory: tools/scraper
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SOPHIA_SCRAPER_TOKEN: ${{ secrets.SOPHIA_SCRAPER_TOKEN }}
         run: |
           set -e
           extra_args=""

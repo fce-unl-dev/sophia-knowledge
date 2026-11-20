@@ -34,6 +34,8 @@ jobs:
           node-version: '22'
 
       - name: Save previous snapshot and build new agenda snapshot
+        env:
+          SOPHIA_SCRAPER_TOKEN: ${{ secrets.SOPHIA_SCRAPER_TOKEN }}
         run: |
           cp agenda/institucional.json /tmp/agenda-prev.json
           node tools/scraper/build_agenda_snapshot.mjs
