@@ -21,23 +21,23 @@
 
 ### Consultas para exámenes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-para-examenes/
+- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-para-examenes/ (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont)
 
 ### Consultas permanentes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-permanentes/
+- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/categorias/consultas/consultas-permanentes/ (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont)
 
 ### Parciales: entrega de notas y muestra de exámenes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/
+- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/parciales-entrega-de-notas-y-muestra-de-examenes/ (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont)
 
 ### Finales: entrega de notas y muestra de exámenes
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/finales-entrega-de-notas-y-muestra-de-examenes/
+- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/finales-entrega-de-notas-y-muestra-de-examenes/ (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont)
 
 ### Avisos de asignaturas
 
-- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/avisos-de-asignaturas/
+- No se pudo descargar esta subpágina durante la revisión automática: HTTP 404 on https://www.fce.unl.edu.ar/estudiantes/avisos-de-asignaturas/ (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont)
 
 ## Enlaces y sistemas relacionados
 
@@ -65,5 +65,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-13 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-11-20 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
