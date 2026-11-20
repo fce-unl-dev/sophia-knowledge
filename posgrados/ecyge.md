@@ -139,7 +139,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1103
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-04-12
-- **Última actualización de este registro (Argentina):** 2026-11-18 16:54:13
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:55:43
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
@@ -166,7 +166,7 @@ Trabajo Final Integrador individual (60 hs). Plazo máximo: 3 años desde la ins
 - **ID de propuesta:** 1254
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2027-03-31
-- **Última actualización de este registro (Argentina):** 2026-11-18 16:54:07
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:55:37
 
 **Respuesta frecuente oficial (dato del CRM):**
 

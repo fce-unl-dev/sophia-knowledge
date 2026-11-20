@@ -149,7 +149,7 @@ Trabajo Final como Proyecto de Intervención Profesional. Plazo máximo: 4 años
 - **ID de propuesta:** 1269
 - **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2025-08-21
-- **Última actualización de este registro (Argentina):** 2026-11-18 16:54:46
+- **Última actualización de este registro (Argentina):** 2026-11-20 17:56:13
 
 > **Aviso:** inscripción cerrada. Si la respuesta menciona aranceles, corresponden a una cohorte anterior; no presentarlos como precios vigentes. Los enlaces e indicaciones de inscripción de esa respuesta corresponden a la cohorte cerrada; no ofrecerlos como vías de inscripción actualmente habilitadas.
 
