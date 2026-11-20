@@ -59,7 +59,7 @@
 
 ## Cronograma de Exámenes Finales (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-11-13
+**Última actualización de planilla**: 2026-11-20
 
 ### Primer turno 2026
 
@@ -430,7 +430,7 @@
 | 2/12/2026 | Miércoles | 5285 | Gestión de la Innovación | 09:00 Hs | Desde el 25/11/2026 al 30/11/2026 |
 | 2/12/2026 | Miércoles | 3125 | Administración II | 09:00 Hs | Desde el 25/11/2026 al 30/11/2026 |
 | 2/12/2026 | Miércoles | 2190 | Taller de Práctica Integradora I | 09:00 Hs | Desde el 25/11/2026 al 30/11/2026 |
-| 2/12/2026 | Miércoles | 4340 | Economía Laboral | 09:00 Hs | Desde el 25/11/2026 al 30/11/2026 |
+| 2/12/2026 | Miércoles | 4340 | Economía Laboral | 09:30 Hs | Desde el 25/11/2026 al 30/11/2026 |
 | 2/12/2026 | Miércoles | 2060 | Cálculo para Ciencias Económicas | 13:00 Hs | Desde el 25/11/2026 al 30/11/2026 |
 | 2/12/2026 | Miércoles | 1055 | Introducción a la Economía | 19:00 Hs. | Desde el 25/11/2026 al 30/11/2026 |
 | 2/12/2026 | Miércoles | 2035 | Contabilidad II | 16:00 Hs | Desde el 25/11/2026 al 30/11/2026 |
@@ -513,7 +513,7 @@
 | 16/12/2026 | Miércoles | 5285 | Gestión de la Innovación | 09:00 Hs | Desde el 9/12/2026 al 14/12/2026 |
 | 16/12/2026 | Miércoles | 3125 | Administración II | 09:00 Hs | Desde el 9/12/2026 al 14/12/2026 |
 | 16/12/2026 | Miércoles | 2190 | Taller de Práctica Integradora I | 09:00 Hs | Desde el 9/12/2026 al 14/12/2026 |
-| 16/12/2026 | Miércoles | 4340 | Economía Laboral | 09:00 Hs | Desde el 9/12/2026 al 14/12/2026 |
+| 16/12/2026 | Miércoles | 4340 | Economía Laboral | 09:30 Hs | Desde el 9/12/2026 al 14/12/2026 |
 | 16/12/2026 | Miércoles | 2060 | Cálculo para Ciencias Económicas | 13:00 Hs | Desde el 9/12/2026 al 14/12/2026 |
 | 16/12/2026 | Miércoles | 1055 | Introducción a la Economía | 19:00 Hs. | Desde el 9/12/2026 al 14/12/2026 |
 | 16/12/2026 | Miércoles | 2035 | Contabilidad II | 16:00 Hs | Desde el 9/12/2026 al 14/12/2026 |
@@ -767,5 +767,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-13 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-11-20 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente

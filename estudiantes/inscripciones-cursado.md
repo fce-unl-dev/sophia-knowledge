@@ -43,7 +43,7 @@
 
 ## Distribución de Comisiones y Horarios (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-11-13
+**Última actualización de planilla**: 2026-11-20
 
 ### Ingresantes
 
@@ -844,5 +844,5 @@ horario a confirmar | Dra. PACIFICO, Andrea<br>Mg. LOPEZ CUESTA, Soledad<br>Mg. 
 
 ---
 
-**Última revisión automática**: 2026-11-13 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-11-20 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
