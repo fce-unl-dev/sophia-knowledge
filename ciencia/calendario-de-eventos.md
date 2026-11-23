@@ -52,5 +52,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-16 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-23 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
