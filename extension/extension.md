@@ -31,7 +31,7 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
   - https://www.fce.unl.edu.ar/extension/categorias/actividades/wp-content/uploads/sites/8/2019/12/UNL_Res.-C.S.-N%C2%BA-16-del-28-03-19-Reglamento-SIPPE.pdf
   - https://www.fce.unl.edu.ar/extension/wp-content/uploads/sites/8/2019/12/UNL_Res.-C.S.-N%C2%BA-16-del-28-03-19-Reglamento-SIPPE.pdf
 - **Subpáginas que no se pudieron descargar** durante la revisión automática:
-  - https://www.fce.unl.edu.ar/extension/categorias/cursos-de-formacion (HTTP 404 on https://www.fce.unl.edu.ar/extension/categorias/cursos-de-formacion)
+  - https://www.fce.unl.edu.ar/extension/categorias/cursos-de-formacion (HTTP 404 on https://www.fce.unl.edu.ar/extension/categorias/cursos-de-formacion (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
 
 ## Advertencias para Luca
 
@@ -44,5 +44,5 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
 
 ---
 
-**Última revisión automática**: 2026-11-16 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-23 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

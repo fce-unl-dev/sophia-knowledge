@@ -34,15 +34,15 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
   - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/ReportGcp2023.pdf
   - https://www.fce.unl.edu.ar/internacionales/wp-content/uploads/sites/10/2018/11/2022-Report-GCP-11th-Edition.pdf
 - **Subpáginas que no se pudieron descargar** durante la revisión automática:
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2020-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2020-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2019-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2019-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2018-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2018-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2017-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2017-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2016-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2016-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2015-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2015-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2014-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2014-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2013-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2013-edition)
-  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2012-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2012-edition)
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2020-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2020-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2019-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2019-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2018-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2018-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2017-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2017-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2016-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2016-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2015-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2015-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2014-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2014-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2013-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2013-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
+  - https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2012-edition (HTTP 404 on https://www.fce.unl.edu.ar/internacionales/categorias/gcpymes/previous-editions/2012-edition (content-type=text/html; charset=utf-8, snippet=<!doctype html><html lang="en"><meta charset="UTF-8"><meta content="nofollow,noarchive,noindex" name="robots"><title>404 | Not Found</title><meta cont))
 
 ## Advertencias para Luca
 
@@ -55,5 +55,5 @@ Luca debe entregar estos enlaces para que el usuario los abra; no se incorporó 
 
 ---
 
-**Última revisión automática**: 2026-11-16 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-23 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente
