@@ -9,10 +9,10 @@
 ## Canales principales
 
 - **Posgrado** (Maestrías, Especializaciones, Doctorados, Diplomaturas): posgrado@fce.unl.edu.ar — WhatsApp **+54 9 342 449 1939**
-- **Difusión / Ingreso / Comunicación**: difusion@fce.unl.edu.ar
-- **Bedelía / Reservas / Trámites generales de alumnos**: bedelia@fce.unl.edu.ar
+- **Secretaría Académica** (grado, ingreso, inscripciones, planes de estudio): academica@fce.unl.edu.ar (interno 113)
+- **Dirección de Alumnado** (trámites de alumnos, legajos, certificados): alumnado@fce.unl.edu.ar
+- **Comunicación y Difusión Institucional** (prensa, redes, comunicación): difusion@fce.unl.edu.ar
 - **Tesorería** (pagos, cuotas, facturas): tesoreria@fce.unl.edu.ar — Tel. (0342) 4571179 interno 145
-- **Secretaría Académica**: academica@fce.unl.edu.ar
 - **Relaciones Internacionales**: internacional@fce.unl.edu.ar
 
 ## Advertencias para Luca
