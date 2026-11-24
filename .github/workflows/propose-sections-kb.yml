@@ -127,6 +127,32 @@ jobs:
           fi
 
           git commit -m "chore(kb): propose sections update ($decision)"
+
+          if [ "$decision" = "auto_merge" ]; then
+            echo "Gate de validación previo a actualizar main…"
+            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ) && node tools/scraper/check_freshness_report.mjs --kb-root=.; then
+              for attempt in 1 2 3 4 5; do
+                if git push origin HEAD:main; then
+                  echo "Secciones web actualizadas directamente en main."
+                  exit 0
+                fi
+                git fetch origin main
+                git rebase origin/main
+                node tools/scraper/check_freshness_report.mjs --kb-root=. --write
+                if ! git diff --quiet -- freshness.md; then
+                  git add freshness.md
+                  git commit --amend --no-edit
+                fi
+                sleep 2
+              done
+              echo "::warning::No se pudo pushear directo a main; se abre PR como respaldo."
+            else
+              echo "::warning::Validación falló: NO se actualiza main. El PR queda para revisión humana."
+              title="KB sync: secciones web — requiere revisión humana"
+              label="needs-review"
+            fi
+          fi
+
           git push -f origin "$branch"
 
           gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
@@ -141,18 +167,6 @@ jobs:
           gh pr edit "$branch" \
             --title "$title" \
             --body-file /tmp/sections-pr-body.md
-
-          if [ "$decision" = "auto_merge" ]; then
-            echo "Gate de validación previo al auto-merge…"
-            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
-              gh pr merge "$branch" --squash --delete-branch \
-                || gh pr merge "$branch" --auto --squash --delete-branch \
-                || echo "::warning::Validación OK pero no se pudo auto-mergear; queda para merge manual."
-            else
-              echo "::warning::Validación falló: NO se auto-mergea. El PR queda para revisión humana."
-              gh pr edit "$branch" --add-label needs-review --remove-label auto-update || true
-            fi
-          fi
 
       - name: Report rejected
         if: steps.proposal.outputs.decision == 'rejected'

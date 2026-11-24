@@ -164,29 +164,40 @@ jobs:
             git add -- "$path"
           done
           git diff --cached --check
-          branch="kb-crm/official-json-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git config user.name 'sophia-kb-bot'
           git config user.email 'bot@fce.unl.edu.ar'
-          git switch -c "$branch"
           git commit -m 'chore(kb): sync official postgraduate CRM JSON'
-          git push origin "$branch"
+
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            if git push origin HEAD:main; then
+              pushed=true
+              break
+            fi
+            git fetch origin main
+            git rebase origin/main
+            reference_date=$(sed -n 's/^\*\*Generado el:\*\* \([0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]\)$/\1/p' freshness.md)
+            if [ -n "$reference_date" ]; then
+              node tools/scraper/freshness_report.mjs --kb-root=../.. --format=md --reference-date="$reference_date" --out=freshness.md
+              if ! git diff --quiet -- freshness.md; then
+                git add freshness.md
+                git commit --amend --no-edit
+              fi
+            fi
+            sleep 2
+          done
+
+          if [ "$pushed" != true ]; then
+            echo "Could not push official postgraduate CRM sync directly to main after 5 attempts." >&2
+            exit 1
+          fi
 
           updates=$(jq '.updates | length' "$report")
           quarantined=$(jq '.quarantined | length' "$report")
           snapshot_only=$(jq -r '.snapshotOnly' "$report")
-          cat > "$RUNNER_TEMP/posgrado-crm-pr.md" <<EOF
-          Routine update from the three official postgraduate CRM JSON feeds. All local KB gates passed before this PR was opened.
-
-          - Updated KB files: $updates
-          - Snapshot-only update: $snapshot_only
-          - Quarantined known records (not published): $quarantined
-          - General/Basicos content remains deferred; curated operational guidance is unchanged.
-          - No record is deleted because it disappeared from a feed.
-
-          This PR uses a unique branch and is eligible for automatic merge only after the checks above pass.
-          EOF
-          pr=$(gh pr create --base main --head "$branch" \
-            --title 'chore(kb): sync official postgraduate CRM JSON' \
-            --body-file "$RUNNER_TEMP/posgrado-crm-pr.md")
-          echo "PR: $pr" >> "$GITHUB_STEP_SUMMARY"
-          gh pr merge "$pr" --squash --delete-branch
+          {
+            echo "### Official postgraduate CRM sync pushed to \`main\`"
+            echo "- Updated KB files: $updates"
+            echo "- Snapshot-only update: $snapshot_only"
+            echo "- Quarantined known records (not published): $quarantined"
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -97,6 +97,27 @@ jobs:
           fi
 
           git commit -m "chore(agenda): refresh institutional agenda snapshot ($decision)"
+
+          if [ "$decision" = "auto_merge" ]; then
+            echo "Validando repositorio antes de actualizar main..."
+            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
+              for attempt in 1 2 3 4 5; do
+                if git push origin HEAD:main; then
+                  echo "Agenda institucional actualizada directamente en main."
+                  exit 0
+                fi
+                git fetch origin main
+                git rebase origin/main
+                sleep 2
+              done
+              echo "::warning::No se pudo pushear directo a main; se abre PR como respaldo."
+            else
+              echo "::warning::Validación falló: NO se actualiza main. El PR queda para revisión humana."
+              title="KB sync: agenda institucional — requiere revisión humana"
+              label="needs-review"
+            fi
+          fi
+
           git push -f origin "$branch"
 
           gh label create needs-review --color D97706 --description "Requiere revisión humana antes de mergear" || true
@@ -112,16 +133,6 @@ jobs:
             --title "$title" \
             --body-file /tmp/agenda_pr_body.md
 
-          if [ "$decision" = "auto_merge" ]; then
-            echo "Validando repositorio antes del auto-merge..."
-            if ( cd tools/scraper && node validate_index.mjs --kb-root=../.. --json && node validate_links.mjs --kb-root=../.. --json ); then
-              gh pr merge "$branch" --squash --delete-branch \
-                || gh pr merge "$branch" --auto --squash --delete-branch \
-                || echo "::warning::Validación OK pero no se pudo auto-mergear; queda para merge manual."
-            else
-              echo "::warning::Validación falló: NO se auto-mergea. El PR queda para revisión humana."
-              gh pr edit "$branch" --add-label needs-review --remove-label auto-update || true
-            fi
-          else
+          if [ "$decision" != "auto_merge" ]; then
             echo "::warning::Se detectó anomalía en la agenda; el PR queda abierto con etiqueta needs-review."
           fi
