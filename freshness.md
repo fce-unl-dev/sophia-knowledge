@@ -156,9 +156,7 @@
 | `estudiantes/sica.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-11-20) |
 | `estudiantes/siu-guarani.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-11-20) |
 | `estudiantes/tramites-internos.md` | Pendiente / N/D | 🔴 N/D | 🟢 -1 d (2026-11-20) |
-| `posgrado-general/datos-para-crawler.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 N/D |
 | `posgrado-general/becas-docentes.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
-| `posgrado-general/beneficios-graduados.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/carreras-otras-unidades-overview.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/cursos-overview.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/diplomaturas-overview.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
@@ -193,4 +191,6 @@
 | `posgrados/sindicatura-concursal.md` | Revisado | 🟢 0 d (2026-11-20) | 🔴 70 d (2026-09-10) |
 | `posgrados/edgop.md` | Revisado | 🟢 0 d (2026-11-20) | 🔴 66 d (2026-09-14) |
 | `posgrados/mcya.md` | Revisado | 🟢 0 d (2026-11-20) | 🔴 35 d (2026-10-15) |
-| `posgrado-general/inscripciones-en-carreras.md` | Revisado | 🟢 -3 d (2026-11-23) | 🔴 185 d (2026-05-18) |
+| `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 -4 d (2026-11-24) | 🔴 N/D |
+| `posgrado-general/beneficios-graduados.md` | Revisado | 🟢 -4 d (2026-11-24) | 🔴 185 d (2026-05-18) |
+| `posgrado-general/inscripciones-en-carreras.md` | Revisado | 🟢 -4 d (2026-11-24) | 🔴 185 d (2026-05-18) |

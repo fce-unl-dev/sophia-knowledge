@@ -43,6 +43,7 @@ Si un estudiante pregunta cómo subir el comprobante de la transferencia de insc
 1. **Primera cuota**: El/la estudiante debe esperar el mail de Tesorería con el alta y el enlace al sistema Mercurio. No puede ingresar antes de ese alta.
 2. **Cuotas posteriores**: Ingresar a https://servicios.unl.edu.ar/mdcobro/ y tipear el DNI.
 - Solo funciona después del alta en Mercurio por parte de Tesorería.
+- **Alcance de descuentos**: Los descuentos vigentes de posgrado (por ejemplo, el 15 % para recientes graduados o matriculados habilitados) aplican sobre **inscripción más cuotas, según el plan de pago elegido** (confirmación Secretaría de Posgrado, 24/11/2026).
 
 ---
 
@@ -90,5 +91,5 @@ Si un estudiante pregunta cómo subir el comprobante de la transferencia de insc
 
 ---
 
-**Última revisión humana**: 2026-05-21
+**Última revisión humana**: 2026-11-24
 **Revisado por**: Pipeline automatizado + verificación manual equipo Sophia

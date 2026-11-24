@@ -8,6 +8,7 @@
 - **Portal oficial de inscripciones a carreras de posgrado FCE-UNL:** https://www.fce.unl.edu.ar/posgrado/categorias/inscripciones-carreras/
 - **Catálogo general de posgrados UNL:** https://www.unl.edu.ar/propuesta-academica/?f=posgrado
 - **Consultas e inscripciones (Secretaría de Posgrado FCE-UNL):** `posgrado@fce.unl.edu.ar` (interno 142).
+- **Alcance de descuentos en aranceles:** Los descuentos vigentes de posgrado (por ejemplo, el 15 % para recientes graduados FCE-UNL o matriculados CPCE/CCGE cuando corresponda) se aplican sobre **inscripción más cuotas, según el plan de pago elegido** (confirmación Secretaría de Posgrado, 24/11/2026).
 
 ## Regla para Luca
 
@@ -20,4 +21,4 @@
 
 ---
 
-**Última revisión humana**: 2026-11-23
+**Última revisión humana**: 2026-11-24

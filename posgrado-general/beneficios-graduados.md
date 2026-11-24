@@ -51,6 +51,7 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 - **Cuotas**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Modalidad de pago**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 - **Becas disponibles**: Sí, beneficios exclusivos para recientes graduados de la FCE-UNL en programas de posgrado.
+- **Alcance de descuentos**: Los descuentos vigentes de posgrado (incluyendo el descuento del 15 % para recientes graduados FCE-UNL hasta 5 años de graduación, según cada programa) se aplican sobre **todo el esquema arancelario: inscripción más cuotas, según el plan de pago elegido** (confirmación Secretaría de Posgrado FCE-UNL, 24/11/2026).
 - **Estado actual de inscripción**: Abierta — consultar al contacto para más detalles sobre los beneficios.
 - **Link de pre-inscripción**: No publicado en fuentes oficiales — consultar con posgrado@fce.unl.edu.ar
 
@@ -71,7 +72,7 @@ Nómina docente no publicada en fuentes oficiales; consultar a posgrado@fce.unl.
 
 ## Información adicional relevante
 
-Beneficios exclusivos para recientes graduados de la FCE-UNL que deseen cursar un posgrado en la Facultad.
+Beneficios exclusivos para recientes graduados de la FCE-UNL que deseen cursar un posgrado en la Facultad. Por confirmación de la Secretaría de Posgrado FCE-UNL (24/11/2026), los descuentos vigentes aplican tanto sobre la inscripción como sobre las cuotas, según el plan de pago elegido.
 
 ## Fuentes consultadas
 
@@ -79,4 +80,4 @@ Beneficios exclusivos para recientes graduados de la FCE-UNL que deseen cursar u
 
 ---
 
-**Última revisión humana**: 2026-05-21
+**Última revisión humana**: 2026-11-24
