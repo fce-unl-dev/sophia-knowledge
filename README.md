@@ -19,7 +19,7 @@ A diferencia de otros sistemas que leen directamente la web (lo que a veces gene
 
 La base de conocimiento de Luca se actualiza combinando **sincronización automática** y **control humano**, según el origen de cada dato:
 
-1. **Sincronización automática con el CRM de Posgrado (cada 6 horas):**
+1. **Sincronización automática con el CRM de Posgrado (cada 15 minutos):**
    - El sistema consulta automáticamente los endpoints oficiales del CRM (`propuestas` y `cursos`).
    - Actualiza directamente en los archivos de `posgrados/`, `diplomaturas/`, `compartidos/` y `cursos-posgrado/` el estado de inscripción (*Abierta* / *Cerrada*), la fecha límite y la respuesta frecuente oficial (FAQ) cargada en el CRM.
    - Si en el CRM se da de alta una carrera o curso nuevo que todavía no tiene archivo o ruta asignada en Luca, el sistema frena preventivamente y avisa al equipo técnico para vincularlo.
