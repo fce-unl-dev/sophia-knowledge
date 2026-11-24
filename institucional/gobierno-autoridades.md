@@ -43,7 +43,7 @@ Fuente oficial: https://www.fce.unl.edu.ar/institucional/gobierno/consejo-direct
 
 ## Advertencias para Luca
 
-- El Mg. Darío Mejías es **Vicedecano y, a la vez, Secretario de Investigación y Vinculación Tecnológica**.
+- El Mg. Darío Mejías es **Vicedecano y, a la vez, Secretario de Investigación y Vinculación Tecnológica**. Además, se desempeña como **docente de grado** en la asignatura *3170 - Administración Pública* (Com. N° 1) y es **Director Académico** de la Especialización en Dirección y Gestión de Organizaciones Públicas (EDGOP).
 - CPN **Claudia Amherdt** es **Secretaria de Administración Presupuestaria y Calidad** (ya NO es Directora del Departamento de Contabilidad e Impuestos; el Director actual es **Waldo Raúl Finos**).
 - Esp. **Emir Espinoza** es **Secretario de Coordinación General** (además de docente de Contabilidad IV y Consejero Directivo por Profesores Adjuntos).
 - No brindes teléfonos celulares ni correos personales de las autoridades ni consejeros (R12). Los correos de área listados arriba SÍ son institucionales y públicos.

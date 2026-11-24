@@ -5,6 +5,19 @@
 - Documento del sector **Académica** generado automáticamente desde la web institucional FCE-UNL.
 - Es un candidato automático: debe pasar por revisión humana antes de mergearse a `indice.json`.
 
+## Resumen rápido (duración vigente, pregrado y planes de estudio)
+
+- **Duración oficial vigente de las carreras de grado (Planes 2027):** **4 años** para Contador Público (Res. C.S. 481/26), Licenciatura en Administración (Res. C.S. 483/26) y Licenciatura en Economía (Res. C.S. 485/26). *(Nota: los planes anteriores 2018/2019 tenían una duración planificada de 5 años.)*
+- **Carreras de Pregrado de la FCE-UNL:**
+  - Tecnicatura en Administración y Gestión Pública (modalidad a distancia): https://www.fce.unl.edu.ar/academica/tecnicatura-en-administracion-y-gestion-publica/
+  - Tecnicatura Universitaria en Control y Auditoría Gubernamental (modalidad a distancia): https://www.fce.unl.edu.ar/academica/tecnicatura-universitaria-en-control-y-auditoria-gubernamental/
+  - Diplomaturas Universitarias de pregrado (modalidad mixta): Diplomatura Universitaria en Gestión Financiera del Sector Público y Diplomatura Universitaria en Gestión para el Trabajo en Organizaciones.
+- **Enlaces oficiales a los planes de estudio de grado (Planes 2027 y 2019):**
+  - Contador Público: https://www.fce.unl.edu.ar/academica/contador-publico-nacional/
+  - Licenciatura en Administración: https://www.fce.unl.edu.ar/academica/licenciado-en-administracion/
+  - Licenciatura en Economía: https://www.fce.unl.edu.ar/academica/licenciado-en-economia/
+  - Proceso de Cambio de Planes de Estudio 2026/2027: https://www.fce.unl.edu.ar/academica/cambio-2026-de-planes-de-estudio/
+
 ## Información publicada
 
 - Académica » Propuesta Académica » Propuesta Académica
