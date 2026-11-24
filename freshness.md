@@ -164,7 +164,6 @@
 | `posgrado-general/diplomaturas-overview.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/doctorados-overview.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/especializaciones-overview.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
-| `posgrado-general/inscripciones-en-carreras.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/maestrias-overview.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/regimen-credito-fiscal.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 185 d (2026-05-18) |
 | `operativos/aulas-virtuales.md` | Revisado | 🔴 183 d (2026-05-21) | 🔴 183 d (2026-05-20) |
@@ -194,3 +193,4 @@
 | `posgrados/sindicatura-concursal.md` | Revisado | 🟢 0 d (2026-11-20) | 🔴 70 d (2026-09-10) |
 | `posgrados/edgop.md` | Revisado | 🟢 0 d (2026-11-20) | 🔴 66 d (2026-09-14) |
 | `posgrados/mcya.md` | Revisado | 🟢 0 d (2026-11-20) | 🔴 35 d (2026-10-15) |
+| `posgrado-general/inscripciones-en-carreras.md` | Revisado | 🟢 -3 d (2026-11-23) | 🔴 185 d (2026-05-18) |
