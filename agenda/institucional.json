@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-11-23T22:02:31.953Z",
+  "refreshedAt": "2026-11-24T20:39:35.156Z",
   "events": [
     {
       "date": "2026-11-24",
@@ -28,11 +28,6 @@
       "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1008"
     },
     {
-      "date": "2026-11-25",
-      "title": "El cuidado como acto de conciencia. Chicas Pink y la comunidad de FCE",
-      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1011"
-    },
-    {
       "date": "2026-12-01",
       "title": "Trabajo libre de violencias: herramientas para promover el bienestar en las organizaciones laborales",
       "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1009"
@@ -46,6 +41,11 @@
       "date": "2026-12-04",
       "title": "Programa Internacional de Simulación de Negocios - 8° Edición",
       "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1001"
+    },
+    {
+      "date": "2026-12-04",
+      "title": "El cuidado como acto de conciencia. Chicas Pink y la comunidad de FCE",
+      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1011"
     },
     {
       "date": "2026-12-11",
