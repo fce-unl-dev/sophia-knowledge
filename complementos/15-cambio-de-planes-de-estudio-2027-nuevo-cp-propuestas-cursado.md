@@ -1,70 +1,54 @@
 # Propuesta de Cursado 2027 para Contador Público
 
-Este documento detalla la propuesta de cursado para el año 2027 de las asignaturas del nuevo Plan de Estudios de Contador Público, indicando las modalidades de dictado y las equivalencias o complementos para el Plan 2019.
+Este documento detalla la propuesta de cursado para el año 2027 de las asignaturas de Contador Público, incluyendo modalidades de dictado, complementos, propuestas integrales, exámenes y modificaciones de correlatividades y régimen de cursado vigentes.
 
 ---
 
 ## Contenido
 
-### 1º Año
+### Propuesta de Cursado 2027 (Plan Nuevo 481/26 y Transición Plan Anterior 502/18)
 
-| Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 1 | Fundamentos de Contabilidad | Dictado exclusivo para ingresantes 2027 | Propuestas para plan 2019 |
-| 2 | Administración General | Dictado exclusivo para ingresantes 2027 | Propuestas para plan 2019 |
-| 3 | Matemática Básica | Dictado exclusivo para ingresantes 2027 - Evaluación: promoción | Propuestas para plan 2019 - Evaluación: promoción |
-| 4 | Economía Básica | Propuesta para plan 2019 | Dictado exclusivo para ingresantes 2027 |
-| 5 | Sistemas Contables | Propuesta para plan 2019 | Dictado exclusivo para ingresantes 2027 |
-| 6 | Administración Aplicada | Administración IV ofrece un complemento. Administración II y IV ofrecen una propuesta integral para aquellos estudiantes que no tienen ninguna de las dos aprobadas. | Exclusivo cohorte 2027 |
-| 7 | Instituciones del Derecho | Derecho II ofrece complemento. Derecho II ofrece exámenes. Juntas ofrecerán una propuesta que integre las dos materias. | Dictado exclusivo para ingresantes 2027 |
+| Asignaturas del nuevo Plan de Estudios | Propuestas 2027 (1.° C / detalle) | Propuestas 2027 (2.° C / detalle) |
+|---|---|---|
+| Fundamentos de Contabilidad | Dictado exclusivo para plan 2027 | Propuestas de recursado para plan anterior |
+| Administración General | Dictado exclusivo para plan 2027 | Propuestas de recursado para plan anterior |
+| Matemática Básica | Dictado exclusivo para ingresantes 2027 — Evaluación: promoción | Propuestas de recursado para plan anterior — Evaluación: promoción |
+| Economía Básica | Propuesta para plan anterior | Dictado exclusivo para plan 2027 |
+| Sistemas Contables | Propuesta para plan anterior | Dictado exclusivo para plan 2027 |
+| Administración Aplicada | Administración IV ofrece un complemento. Administración II y IV ofrecen una propuesta integral para quienes no tienen ninguna de las dos aprobadas. | Dictado exclusivo para plan 2027 |
+| Instituciones del Derecho | Instituciones de Derecho II ofrece complemento. Ambos derechos ofrecerán una propuesta integral para quienes no tengan ninguna aprobada. | Dictado exclusivo para plan 2027 |
+| Matemática Aplicada | Propuestas para el plan anterior. Se modifica la correlativa de MCL–Cálculo. | Propuestas para el plan anterior |
+| Economía Aplicada | Microeconomía y Macroeconomía dan complementos y ensayan propuesta del nuevo plan para quienes no tienen ninguna de las materias. | Microeconomía y Macroeconomía dan complementos y ensayan propuesta del nuevo plan para quienes no tienen ninguna de las materias. |
+| Administración y Finanzas Públicas | Propuestas complementarias tanto para Finanzas Públicas como para Administración Pública. Ensayo de nueva materia para estudiantes del plan anterior que no tienen ninguna de las dos aprobadas. | Propuestas complementarias y ensayo de nueva materia para quienes no tienen ninguna aprobada. |
+| Taller de Práctica Integradora I | Propuesta para plan anterior. | Propuesta para plan anterior. Se analizará la posibilidad de levantar algunas correlatividades en el segundo cuatrimestre. |
+| Informes Contables | Propuesta integral de Informes Contables (Contabilidad IV y Contabilidad V) para quienes no tengan ninguna de las asignaturas y dictado de complemento para Contabilidad V. | Propuesta integral de Informes Contables y dictado de complemento para Contabilidad V. |
+| Tecnologías de la Información | Informática para plan anterior adaptada a la nueva asignatura. | Informática para plan anterior adaptada a la nueva asignatura. |
+| Contabilidad de Gestión y Costos | Costos II dicta complemento "en vistas al nuevo plan". Costos I propone exámenes para quienes la tengan pendiente (sin cursado ni propuesta integral). | Costos II dicta complemento "en vistas al nuevo plan". Costos I propone exámenes para quienes la tengan pendiente. |
+| Teoría y Técnica Impositiva I (Consumo) | Se levanta hasta 2030 la correlatividad de la actual Teoría y Técnica Impositiva I (Ganancias) para cursar TTI II (Consumo). | — |
+| Auditoría | Cuatrimestral desde 2027. Se levanta la correlatividad de Taller II y de Teoría y Técnica Impositiva I (Ganancias). Promoción por parciales (1.er parcial en turno mayo y octubre; recuperatorio del 2.° parcial en el primer turno de junio y noviembre). | Cuatrimestral desde 2027. |
+| Teoría y Técnica Impositiva II (Ganancias) | Se cuatrimestraliza el cursado a partir de 2027. | Se cuatrimestraliza el cursado a partir de 2027. |
+| Taller de Práctica Integradora II | — | Se analizará levantar correlatividades para el segundo cuatrimestre: Administración II y Macroeconomía. |
 
-### 2º Año
+*Nota: «—» indica que no figura detalle específico adicional para esa celda en la propuesta oficial.*
 
-| Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 8 | Medición Contable | Propuesta para plan 2019 | Propuesta para plan 2019 |
-| 9 | Matemática Aplicada (*) | Propuestas para plan 2019. Se levanta la correlativa de Matemática - Cálculo. Evaluación: promoción. | Evaluación: promoción |
-| 10 | Derecho Laboral y Seguridad Social | Propuesta para plan 2019 | Propuesta para plan 2019 |
-| 11 | Matemática Financiera | Propuesta para plan 2019 | Propuesta para plan 2019 |
-| 12 | Economía Aplicada | — | — |
-| 13 | Administración y Finanzas Públicas | — | — |
-| 14 | Taller de Práctica Integradora I | Propuesta para plan 2019 | Propuesta para plan 2019 con algún levantamiento de correlatividades. |
+### Precisiones operativas vigentes para 2027 (Secretaría Académica, 25/11/2026)
 
-(*) Nota: 7 comisiones para CP.
-
-### 3º Año
-
-| Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 15 | Informes Contables | — | — |
-| 16 | Finanzas de Empresas | Dictado de Administración III para plan 2019 | Dictado de Administración III para plan 2019 |
-| 17 | Tecnologías de la Información | Informática para plan 2019 adaptada a la nueva asignatura | Informática para plan 2019 adaptada a la nueva asignatura |
-| 18 | Historia Social y Económica | Historia Social y Económica Argentina | — |
-| 19 | Contabilidad de Gestión y Costos | Costos I y Costos II | — |
-| 20 | Organización Jurídica de la Empresa | Sociedades | — |
-
-### 4º Año
-
-| Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 21 | Teoría y Técnica Impositiva I (Consumo) | Teoría y Técnica Impositiva II | — |
-| 22 | Procesos de Insolvencia | Concursos y Títulos Valores | — |
-| 23 | Auditoría | Auditoría | — |
-| 24 | Teoría y Técnica Impositiva II (Ganancias) | Teoría y Técnica Impositiva I | — |
-| 25 | Taller de Práctica Integradora II | Taller de Práctica Integradora II | — |
-| 26 | Práctica Profesional Supervisada | Práctica Profesional Supervisada | — |
-
-*Nota: «—» indica que la celda está vacía en el documento oficial de origen.*
+- **Costos I y Costos II (*Contabilidad de Gestión y Costos*):** en 2027 **no hay cursado de Costos I ni propuesta integral**; Costos I ofrece únicamente mesas de examen para quienes la tengan pendiente. Costos II dicta complemento en el 2.° cuatrimestre "en vistas al nuevo plan". Quien adeude ambas asignaturas puede rendir libre Costos I y cursar Costos II en el 2.° cuatrimestre, o esperar a 2028 para cursar la materia con la modalidad del nuevo plan.
+- **Correlativas para propuestas integrales:** solo se puede cursar una propuesta integral cumpliendo las correlativas correspondientes del plan anterior:
+  - En fusiones con materias **correlativas entre sí** (*Administración Aplicada*, *Instituciones del Derecho*, *Informes Contables*): se exige tener aprobada la correlativa de la primera asignatura.
+  - En fusiones de materias **no correlativas entre sí** (*Economía Aplicada*, *Administración y Finanzas Públicas*): se exigen las correlativas de ambas asignaturas.
+- **Cuatrimestralización:** a partir de 2027, **Teoría y Técnica Impositiva I** y **Auditoría** dejan de ser anuales y pasan a dictarse de forma cuatrimestral.
 
 ---
 
 ## Metadatos del Documento
 
-- **Origen**: Google Drive (`CP - propuestas cursado.docx`)
+- **Origen**: Google Drive (`CP - propuestas cursado.docx`) y actualización oficial Secretaría Académica FCE-UNL (`25/11/2026`)
 - **ID de Archivo**: `1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07`
-- **Fecha de Modificación en Drive**: `2026-10-30T12:45:07.927Z`
+- **Fecha de Actualización**: `2026-11-25`
 - **Categoría**: Complemento Institucional
 
 ## Fuentes consultadas
 
 - [CP - propuestas cursado.docx](https://docs.google.com/document/d/1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true)
+- Propuesta de Cursado 2027 para CP (actualización Secretaría Académica FCE-UNL, 25/11/2026)

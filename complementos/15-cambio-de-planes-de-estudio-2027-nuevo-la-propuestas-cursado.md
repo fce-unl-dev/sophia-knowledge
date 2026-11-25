@@ -1,73 +1,31 @@
 # Propuesta de Cursado 2027 para la Licenciatura en Administración
 
-Este documento detalla la propuesta de cursado para el año 2027 de la Licenciatura en Administración, incluyendo la implementación del nuevo plan de estudios para la cohorte 2027 y las equivalencias con el plan de estudios anterior (Res. C.S. N° 631/19). También se presenta un cronograma general de implementación.
+Este documento detalla la propuesta de cursado para el año 2027 de la Licenciatura en Administración, incluyendo las modalidades de dictado para la cohorte 2027 y para estudiantes del plan anterior (Res. C.S. N° 631/19), los complementos, propuestas integrales y el cronograma general de implementación.
 
 ---
 
 ## Contenido
 
-### 1. Introducción a la Licenciatura en Administración
+### 1. Propuesta de Cursado 2027 (Plan Nuevo 483/26 y Transición Plan Anterior 631/19)
 
-La Licenciatura en Administración es una carrera universitaria que forma profesionales capaces de gestionar organizaciones de diversa índole, tanto públicas como privadas, con o sin fines de lucro. El administrador se encarga de planificar, organizar, dirigir y controlar los recursos de una empresa para alcanzar sus objetivos de manera eficiente y eficaz.
-
-### 2. Plan de Estudios (Cohorte 2027)
-
-El plan de estudios para la cohorte 2027 ha sido diseñado para ofrecer una formación integral y actualizada, adaptada a las demandas del mercado laboral actual. A continuación, se presenta la estructura por año:
-
-#### 1º Año
-
-| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 1 | Matemática para Administradores | Exclusivo cohorte 2027 - Evaluación: promoción | Propuestas para plan 2019 - Evaluación: promoción |
-| 2 | Introducción a la Economía | Exclusivo cohorte 2027 - Evaluación: examen final | Propuestas para plan 2019 (4 comisiones de seguimiento: LE 1LA 1 y 2 para CP) - Evaluación: examen final |
-| 3 | Fundamentos de Administración | Exclusivo cohorte 2027. Propuestas para plan 2019 - Evaluación: promoción | Propuestas para plan 2019 (materia diferente por carrera) - Evaluación: promoción |
-| 4 | Instituciones del Derecho | Derecho II ofrece complemento. Derecho II ofrece exámenes. Juntas ofrecerán una propuesta que integre las dos materias. | Exclusivo cohorte 2027 |
-| 5 | Tecnologías de la Información | Exclusivo cohorte 2027 | — |
-| 6 | Planeamiento y Control Organizacional | Propuestas para plan 2019 (2 cuatrimestres de 3 comisiones c/u) | Exclusivo cohorte 2027 |
-| 7 | Optativa I | Exclusivo cohorte 2027 | — |
-
-#### 2º Año
-
-| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 8 | Estadística para Administradores (*) | Levantar correlatividad de cálculo | — |
-| 9 | Metodología de la Investigación en Administración | — | — |
-| 10 | Derecho de las organizaciones | — | — |
-| 11 | Economía para la Administración | — | — |
-| 11 | Matemática Financiera | — | — |
-| 12 | Contabilidad y Tributación para Administradores | — | — |
-| 13 | Estado y Gestión Pública | — | — |
-|  | Optativa II | — | — |
-
-(*): 4 comisiones para Administración.
-
-#### 3º Año
-
-| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 14 | Gestión de Sistemas Administrativos | Gestión de Sistemas Administrativos | — |
-| 15 | Gestión de Recursos Humanos | Administración de Recursos Humanos | — |
-| 16 | Costos para la Gestión | Costos y Gestión | — |
-| 17 | Marketing | Comercialización | — |
-| 18 | Administración de Operaciones | Administración de Operaciones | — |
-| 19 | Sociología de las Organizaciones | Sociología de las Organizaciones | — |
-
-#### 4º Año
-
-| Nº | Asignaturas del Nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| 20 | Análisis de Datos para la Toma de Decisiones | Inteligencia de Mercados | — |
-| 21 | Gestión de la Innovación | Gestión de la Innovación | — |
-
-| Nº | Asignaturas del Nuevo Plan de Estudios | Equivalencias con asignaturas del Plan C.S. N° 631/19 |
+| Asignaturas del nuevo Plan de Estudios | Propuestas 2027 (1.° C / detalle) | Propuestas 2027 (2.° C / detalle) |
 |---|---|---|
-| 22 | Sistemas de Gestión de la Información | Sistemas de Información Gerencial |
-| 23 | Gestión Financiera y Mercados | Finanzas y Mercado de Capitales |
-| 24 | Dirección Estratégica | Dirección Estratégica |
-| 25 | Gestión de las Relaciones Económicas Internacionales | Negocios Internacionales |
-| 26 | Trabajo Final Integrador | Seminario de Práctica Profesional – Plan de Negocios |
+| Matemática para Administradores | Exclusivo cohorte 2027 | Propuestas para plan anterior |
+| Introducción a la Economía | Exclusivo cohorte 2027 | Propuestas para plan anterior |
+| Fundamentos de Administración | Exclusivo cohorte 2027 | Propuestas para plan anterior |
+| Instituciones del Derecho | Instituciones de Derecho II ofrece complemento. Instituciones de Derecho I ofrece exámenes. Ambos derechos ofrecerán una propuesta integral para quienes no tengan ninguna aprobada. | Exclusivo cohorte 2027 |
+| Tecnologías de la Información | Propuestas para plan anterior | Exclusivo cohorte 2027 |
+| Planeamiento y Control Organizacional | Propuestas para plan anterior | Exclusivo cohorte 2027 |
+| Estadística para Administradores | Propuestas para el plan anterior. Se modifica la correlativa de MCL–Cálculo. | Propuestas para el plan anterior |
+| Economía para la Administración | Dictado de complementos de Microeconomía y Macroeconomía, y ensayo de propuesta de "Economía para Administradores" para estudiantes del plan anterior. | Dictado de complementos y ensayo de propuesta integral para el plan anterior |
+| Contabilidad y Tributación para Administradores | Ensayo de propuesta del nuevo plan y dictado de complementos de ambas asignaturas. | Ensayo de propuesta del nuevo plan y dictado de complementos de ambas asignaturas. |
+| Trabajo Final Integrador (Plan de negocios, Tesina o Práctica Profesional Supervisada) | Dictado anual de mayo a noviembre (en lugar de marzo). Articulación con Metodología y Gestión; división de grupos según cursado previo de Gestión de la Innovación. | Dictado anual de mayo a noviembre. |
 
-*Nota: «—» indica que la celda está vacía en el documento oficial de origen.*
+### 2. Precisiones operativas vigentes para 2027 (Secretaría Académica, 25/11/2026)
+
+- **Seminario de Práctica Profesional – Plan de Negocios:** mantiene dictado **anual** en 2027, con inicio en **mayo** (en vez de marzo) hasta noviembre.
+- **Correlativas para propuestas integrales:** solo se puede cursar una propuesta integral cumpliendo las correlativas correspondientes del plan anterior (en *Instituciones del Derecho*, donde Derecho II es correlativa de Derecho I, alcanza con la correlativa de la primera; en *Economía para la Administración* y *Contabilidad y Tributación para Administradores*, cuyas asignaturas de origen no son correlativas entre sí, se exigen las correlativas de ambas).
+- **Estadística para Administradores:** se modifica la correlativa de Matemática como Lenguaje–Cálculo.
 
 ### 3. Cronograma General de Implementación (ANEXO II)
 
@@ -91,11 +49,12 @@ El cronograma detalla las principales medidas para la implementación del nuevo 
 
 ## Metadatos del Documento
 
-- **Origen**: Google Drive (`LA - propuestas cursado.docx`)
+- **Origen**: Google Drive (`LA - propuestas cursado.docx`) y actualización oficial Secretaría Académica FCE-UNL (`25/11/2026`)
 - **ID de Archivo**: `18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG`
-- **Fecha de Modificación en Drive**: `2026-10-30T12:44:55.073Z`
+- **Fecha de Actualización**: `2026-11-25`
 - **Categoría**: Complemento Institucional
 
 ## Fuentes consultadas
 
 - [LA - propuestas cursado.docx](https://docs.google.com/document/d/18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true)
+- Propuesta de Cursado 2027 para LA (actualización Secretaría Académica FCE-UNL, 25/11/2026)

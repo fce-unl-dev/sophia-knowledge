@@ -1,51 +1,33 @@
 # Propuesta de Cursado 2027 para la Licenciatura en Economía (LE)
 
-Este documento detalla la propuesta de cursado para el año 2027 de la Licenciatura en Economía, presentando la distribución de asignaturas del nuevo Plan de Estudios por cuatrimestre y un cronograma general de implementación.
+Este documento detalla la propuesta de cursado para el año 2027 de la Licenciatura en Economía, indicando las modalidades de dictado para el plan nuevo (Res. C.S. N° 485/26) y el plan anterior (Res. C.S. N° 632/19), junto con las precisiones operativas y el cronograma general de implementación.
 
 ---
 
 ## Contenido
 
-### Propuesta de Cursado 2027
+### 1. Propuesta de Cursado 2027
 
-La siguiente tabla presenta la distribución de las asignaturas del nuevo Plan de Estudios para la Licenciatura en Economía, organizadas por año y cuatrimestre.
+| Asignaturas del nuevo Plan de Estudios | Propuestas 2027 (1.° C) | Propuestas 2027 (2.° C) |
+|---|---|---|
+| Matemática I | Dictado para plan 2027 | Recursado para plan anterior |
+| Introducción a la Economía | Dictado para plan 2027 | Recursado para plan anterior |
+| Derecho para Economistas | Dictado para plan 2027 | Recursado para plan anterior |
+| Contabilidad para Economistas | Recursado para plan anterior | Dictado para plan 2027 |
+| Matemática II | Dictado para plan anterior | Dictado para plan 2027 |
+| Historia del Pensamiento Económico | Dictado para plan anterior | Dictado para plan 2027 |
+| Microeconomía II | Dictado de Microeconomía II y complemento de Organización Industrial | Dictado de Microeconomía II y complemento de Organización Industrial |
+| Econometría I y II | Cursado anual 2027 (plan anterior) | En 2028, inicia en segundo cuatrimestre el cursado de Econometría I |
+| Seminario de Tesina/Acreditación | Cursado de Metodología de la Investigación en 2027 para quienes no la tengan aprobada (criterio operativo de recomendación en definición docente) | Baja el requisito de cantidad de materias a **22** para presentar Tesina |
 
-| Nº | Asignaturas del nuevo Plan de Estudios | Cursado 1ºC | Cursado 2ºC |
-|---|---|---|---|
-| **1º AÑO** | | | |
-| 1 | Matemática I | — | — |
-| 2 | Introducción a la Economía | — | — |
-| 3 | Derecho para Economistas | — | — |
-| 4 | Contabilidad para Economistas | — | — |
-| 5 | Matemática II | — | — |
-| 6 | Historia del Pensamiento Económico | — | — |
-| **2º AÑO** | | | |
-| 7 | Microeconomía I | — | — |
-| 8 | Matemática III | — | — |
-| 9 | Sociología Económica | — | — |
-| 10 | Estadística I | — | — |
-| 11 | Estadística II | — | — |
-| 12 | Finanzas Públicas | — | — |
-| 13 | Macroeconomía I | — | — |
-| **3º AÑO** | | | |
-| 14 | Microeconomía II | Organización Industrial | — |
-| 15 | Historia y Estructura Económica Argentina | Historia y Estructura Económica Argentina | — |
-| 16 | Evaluación de Proyectos | Evaluación de Proyectos | — |
-| 17 | Econometría I | Econometría | — |
-| 18 | Economía Internacional | Economía Internacional | — |
-| 19 | Macroeconomía II | Macroeconomía II | — |
-| **4º AÑO** | | | |
-| 20 | Econometría II | Econometría | — |
-| 21 | Economía Laboral | Economía Laboral | — |
-| 22 | Política Económica Argentina | Política Económica Argentina | — |
-| 23 | Desarrollo Económico | Desarrollo Económico | — |
-| 24 | Finanzas y Mercados de Capitales | Riesgo, Incertidumbre y Mercados Financieros | — |
-| 25 | Economía Monetaria y Financiera | Economía Monetaria | — |
-| 26 | Seminario de Tesina/Acreditación | Metodología de la Investigación | — |
+### 2. Precisiones operativas vigentes para 2027 (Secretaría Académica, 25/11/2026)
 
-*Nota: «—» indica que la celda está vacía en el documento oficial de origen.*
+- **Econometría:** en 2027 continúa dictándose de forma **anual** en el plan actual. En el plan nuevo se divide en Econometría I y Econometría II (ambas cuatrimestrales), y en 2028 Econometría I inicia en el segundo cuatrimestre.
+- **Matemática para economistas:** continúa siendo **anual** en el plan actual (Secretaría Académica trabaja para su eventual cuatrimestralización, aún no confirmada).
+- **Microeconomía II:** tanto Microeconomía II como el complemento de Organización Industrial cuentan con dictado en ambos cuatrimestres de 2027.
+- **Metodología de la Investigación:** su esquema definitivo de recomendación para 2027 continúa en definición por los equipos docentes. En el nuevo plan, el requisito para presentar Tesina baja a **22 materias**.
 
-### ANEXO II: Cronograma General de Implementación
+### 3. ANEXO II: Cronograma General de Implementación
 
 | Período | Medidas principales |
 |---|---|
@@ -57,11 +39,12 @@ La siguiente tabla presenta la distribución de las asignaturas del nuevo Plan d
 
 ## Metadatos del Documento
 
-- **Origen**: Google Drive (`LE - propuestas cursado.docx`)
+- **Origen**: Google Drive (`LE - propuestas cursado.docx`) y actualización oficial Secretaría Académica FCE-UNL (`25/11/2026`)
 - **ID de Archivo**: `1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun`
-- **Fecha de Modificación en Drive**: `2026-10-30T12:44:42.039Z`
+- **Fecha de Actualización**: `2026-11-25`
 - **Categoría**: Complemento Institucional
 
 ## Fuentes consultadas
 
 - [LE - propuestas cursado.docx](https://docs.google.com/document/d/1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true)
+- Propuesta de Cursado 2027 para LE (actualización Secretaría Académica FCE-UNL, 25/11/2026)
