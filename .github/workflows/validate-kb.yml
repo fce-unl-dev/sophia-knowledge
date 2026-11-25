@@ -28,6 +28,12 @@ jobs:
         with:
           node-version: '22'
 
+      - name: Install scraper dependencies
+        run: npm ci --prefix tools/scraper
+
+      - name: Run scraper & workflow test suite
+        run: npm test --prefix tools/scraper
+
       - name: Syntax check scraper scripts
         run: |
           set -e

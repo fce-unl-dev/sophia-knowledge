@@ -83,7 +83,7 @@ test('official CRM workflow schedules frequent serial runs and supports a safe p
   assert.match(workflow, /Unexpected CRM sync status '\$status' for mode '\$MODE'.*GITHUB_STEP_SUMMARY/);
 });
 
-test('official CRM workflow fails closed before publishing and never reuses a sync branch', () => {
+test('official CRM workflow fails closed before publishing and pushes validated updates directly to main', () => {
   const gates = ['npm test --prefix tools/scraper', 'node --check "$file"',
     'validate_index.mjs', 'validate_links.mjs', 'check_freshness_report.mjs',
     'git diff --check'];
@@ -92,11 +92,11 @@ test('official CRM workflow fails closed before publishing and never reuses a sy
   for (const gate of gates) assert.ok(workflow.indexOf(gate) < publish, `${gate} must precede commit`);
   assert.match(workflow, /\[ "\$exit_code" -ne 0 \] \|\| \[ "\$status" = error \] \|\| \[ "\$status" = needs_review \]/);
   assert.match(workflow, /if: steps\.sync\.outputs\.status == 'updated'/);
-  assert.match(workflow, /startsWith\("kb-crm\/official-json-"\)/i);
   assert.match(workflow, /git diff --name-only -z; git ls-files --others --exclude-standard -z/);
   assert.match(workflow, /git add -- "\$path"/);
-  assert.match(workflow, /kb-crm\/official-json-\$\{GITHUB_RUN_ID\}-\$\{GITHUB_RUN_ATTEMPT\}/);
+  assert.match(workflow, /git push origin HEAD:main/);
+  assert.match(workflow, /git fetch origin main/);
+  assert.match(workflow, /git rebase origin\/main/);
   assert.doesNotMatch(workflow, /git push -f|git push --force|kb-sync\//);
   assert.doesNotMatch(workflow, /needs-review|mark-as-reviewed|\|\| echo/);
-  assert.match(workflow, /gh pr merge "\$pr" --squash --delete-branch/);
 });
