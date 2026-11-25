@@ -134,7 +134,7 @@ Nómina docente completa no publicada en fuentes oficiales; consultar con Secret
 - **ID de propuesta:** 1425
 - **Inscripción:** Abierta
 - **Fecha límite de inscripción:** 2026-12-31
-- **Última actualización de este registro (Argentina):** 2026-11-20 17:51:45
+- **Última actualización de este registro (Argentina):** 2026-11-24 12:25:25
 
 **Respuesta frecuente oficial (dato del CRM):**
 
