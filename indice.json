@@ -1,6 +1,6 @@
 {
-  "version": 79,
-  "lastUpdated": "2026-11-23",
+  "version": 80,
+  "lastUpdated": "2026-11-25",
   "description": "Índice de archivos MD que componen la base de conocimiento de Sophia. Cada entry tiene path relativo al raíz del repo, descripción corta para el agente, categoría y código de programa si aplica. Los cursos de formación se indexan como un MD por curso para evitar duplicación con documentos agregados.",
   "items": [
     {
@@ -1058,27 +1058,6 @@
       "canonicalUrl": "https://fce.unl.edu.ar/tributacion/"
     },
     {
-      "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado.md",
-      "title": "Propuesta de Cursado 2027 para Contador Público",
-      "category": "Complementario",
-      "sector": "academica",
-      "canonicalUrl": "https://docs.google.com/document/d/1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
-      "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-propuestas-cursado.md",
-      "title": "Propuesta de Cursado 2027 para la Licenciatura en Administración",
-      "category": "Complementario",
-      "sector": "academica",
-      "canonicalUrl": "https://docs.google.com/document/d/18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
-      "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-propuestas-cursado.md",
-      "title": "Propuesta de Cursado 2027 para la Licenciatura en Economía (LE)",
-      "category": "Complementario",
-      "sector": "academica",
-      "canonicalUrl": "https://docs.google.com/document/d/1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true"
-    },
-    {
       "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-transicion-rdcd-fce-1305429-26-779.md",
       "title": "Plan de Transición de la Licenciatura en Economía (Resolución C.D. N° 779/26)",
       "category": "Complementario",
@@ -1189,6 +1168,20 @@
       "category": "Complementario",
       "sector": "academica",
       "canonicalUrl": "https://drive.google.com/file/d/1nXq6P5uWg1kLpoeTwj5L9h-74Zp-eA8Z/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-le-docx.md",
+      "title": "Propuesta de Cursado 2027 para LE",
+      "category": "Complementario",
+      "sector": "academica",
+      "canonicalUrl": "https://drive.google.com/file/d/1BDEo7TiQR64nmZD2SgKvTsENJmNgQuRK/view?usp=drivesdk"
+    },
+    {
+      "path": "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-cp-docx.md",
+      "title": "PROPUESTA DE CURSADO 2027 PARA CP",
+      "category": "Complementario",
+      "sector": "academica",
+      "canonicalUrl": "https://drive.google.com/file/d/1jt7XSy1iKL0UHQwSkwz-iDKB89FAaOrF/view?usp=drivesdk"
     }
   ]
 }

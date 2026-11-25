@@ -1,44 +1,44 @@
 {
-  "lastSynced": "2026-11-18T14:58:13.792Z",
+  "lastSynced": "2026-11-25T19:01:42.644Z",
   "files": {
-    "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07": {
-      "id": "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07",
-      "name": "CP - propuestas cursado.docx",
-      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "modifiedTime": "2026-10-30T12:45:07.927Z",
-      "path": "15-Cambio de Planes de Estudio 2027/nuevo/CP - propuestas cursado.docx",
-      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado",
-      "sector": "academica",
-      "status": "synchronized",
-      "hash": "b12e8c5dfe82db08e3215d73482f8879ca16109e9438b75de43417b293fe3f5b",
-      "webViewLink": "https://docs.google.com/document/d/1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true",
-      "lastProcessed": "2026-10-30T23:53:04.795Z"
+    "1HAKZJYHV-WqXKUyyyaUsTXnMBHf5w3Gn": {
+      "id": "1HAKZJYHV-WqXKUyyyaUsTXnMBHf5w3Gn",
+      "name": "Propuesta de cursado 2027 LA.docx.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-11-25T14:24:45.466Z",
+      "path": "15-Cambio de Planes de Estudio 2027/nuevo/Propuesta de cursado 2027 LA.docx.pdf",
+      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-la-docx",
+      "status": "error",
+      "error": "el scrape de el documento \"15-Cambio de Planes de Estudio 2027/nuevo/Propuesta de cursado 2027 LA.docx.pdf\" trajo 127 caracteres útiles, por debajo del mínimo de 200. No se generó contenido: con tan poco texto el modelo lo completaría inventando. Revisá si el PDF es una imagen escaneada sin texto embebido o si la descarga vino truncada.",
+      "lastProcessed": "2026-11-25T18:58:00.722Z"
     },
-    "18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG": {
-      "id": "18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG",
-      "name": "LA - propuestas cursado.docx",
-      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "modifiedTime": "2026-10-30T12:44:55.073Z",
-      "path": "15-Cambio de Planes de Estudio 2027/nuevo/LA - propuestas cursado.docx",
-      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-la-propuestas-cursado",
+    "1BDEo7TiQR64nmZD2SgKvTsENJmNgQuRK": {
+      "id": "1BDEo7TiQR64nmZD2SgKvTsENJmNgQuRK",
+      "name": "Propuesta de cursado 2027 LE.docx.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-11-25T14:24:41.338Z",
+      "path": "15-Cambio de Planes de Estudio 2027/nuevo/Propuesta de cursado 2027 LE.docx.pdf",
+      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-le-docx",
       "sector": "academica",
+      "provisional": false,
       "status": "synchronized",
-      "hash": "7f9703a3fe49d0fdb838c4b0dbb7189001b9bc19819e06c66bf08e5bc93fa2ec",
-      "webViewLink": "https://docs.google.com/document/d/18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true",
-      "lastProcessed": "2026-10-30T23:53:04.796Z"
+      "hash": "0e5cecb7ead161a87ad260cf35e02da3420566872534f14324259218b09cbfae",
+      "webViewLink": "https://drive.google.com/file/d/1BDEo7TiQR64nmZD2SgKvTsENJmNgQuRK/view?usp=drivesdk",
+      "lastProcessed": "2026-11-25T19:01:42.598Z"
     },
-    "1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun": {
-      "id": "1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun",
-      "name": "LE - propuestas cursado.docx",
-      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "modifiedTime": "2026-10-30T12:44:42.039Z",
-      "path": "15-Cambio de Planes de Estudio 2027/nuevo/LE - propuestas cursado.docx",
-      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-le-propuestas-cursado",
+    "1jt7XSy1iKL0UHQwSkwz-iDKB89FAaOrF": {
+      "id": "1jt7XSy1iKL0UHQwSkwz-iDKB89FAaOrF",
+      "name": "Propuesta de cursado 2027 CP.docx.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-11-25T14:24:37.116Z",
+      "path": "15-Cambio de Planes de Estudio 2027/nuevo/Propuesta de cursado 2027 CP.docx.pdf",
+      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-cp-docx",
       "sector": "academica",
+      "provisional": false,
       "status": "synchronized",
-      "hash": "a38305e06e664cdcfc5e9fe9c8592cb9e0778d945dda9e9d65a9bb01426ea463",
-      "webViewLink": "https://docs.google.com/document/d/1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true",
-      "lastProcessed": "2026-10-30T23:53:04.797Z"
+      "hash": "25da78774f190138e2f0052a66154228d59294c18a10d847a7655f30d44c229b",
+      "webViewLink": "https://drive.google.com/file/d/1jt7XSy1iKL0UHQwSkwz-iDKB89FAaOrF/view?usp=drivesdk",
+      "lastProcessed": "2026-11-25T19:01:42.599Z"
     },
     "1ulaKpbQjPxZxPK014dxwsYD-dBxpljXB": {
       "id": "1ulaKpbQjPxZxPK014dxwsYD-dBxpljXB",

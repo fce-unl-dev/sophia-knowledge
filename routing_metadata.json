@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-23",
+  "lastUpdated": "2026-11-25",
   "description": "Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.",
   "stats": {
-    "academica": 32,
+    "academica": 31,
     "institucional": 24,
     "ciencia": 22,
     "extension": 6,
@@ -1044,24 +1044,6 @@
       "title": "Especialización en Tributación",
       "category": "Especialización"
     },
-    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado.md": {
-      "sector": "academica",
-      "displayName": "Académica",
-      "title": "Propuesta de Cursado 2027 para Contador Público",
-      "category": "Complementario"
-    },
-    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-la-propuestas-cursado.md": {
-      "sector": "academica",
-      "displayName": "Académica",
-      "title": "Propuesta de Cursado 2027 para la Licenciatura en Administración",
-      "category": "Complementario"
-    },
-    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-propuestas-cursado.md": {
-      "sector": "academica",
-      "displayName": "Académica",
-      "title": "Propuesta de Cursado 2027 para la Licenciatura en Economía (LE)",
-      "category": "Complementario"
-    },
     "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-le-transicion-rdcd-fce-1305429-26-779.md": {
       "sector": "academica",
       "displayName": "Académica",
@@ -1156,6 +1138,18 @@
       "sector": "academica",
       "displayName": "Académica",
       "title": "Régimen de Correlatividades de la carrera de Contador Público (Resolución CS n.º 482/26)",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-le-docx.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "Propuesta de Cursado 2027 para LE",
+      "category": "Complementario"
+    },
+    "complementos/15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-cp-docx.md": {
+      "sector": "academica",
+      "displayName": "Académica",
+      "title": "PROPUESTA DE CURSADO 2027 PARA CP",
       "category": "Complementario"
     }
   }
