@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-23",
+  "lastUpdated": "2026-11-25",
   "description": "Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.",
   "stats": {
     "academica": 32,
@@ -1157,6 +1157,12 @@
       "displayName": "Académica",
       "title": "Régimen de Correlatividades de la carrera de Contador Público (Resolución CS n.º 482/26)",
       "category": "Complementario"
+    },
+    "diplomaturas/diploconcursos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomatura Universitaria Superior en Empresas en Crisis y Procesos de Insolvencia (DIPCRISIS)",
+      "category": "Diplomatura universitaria superior"
     }
   }
 }

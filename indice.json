@@ -511,6 +511,13 @@
       "category": "Curso de formación profesional"
     },
     {
+      "path": "diplomaturas/diploconcursos.md",
+      "title": "Diplomatura Universitaria Superior en Empresas en Crisis y Procesos de Insolvencia (DIPCRISIS)",
+      "category": "Diplomatura universitaria superior",
+      "programCode": "DIPCRISIS",
+      "canonicalUrl": "https://www.fce.unl.edu.ar/diploconcursos/"
+    },
+    {
       "path": "diplomaturas/diplomercados.md",
       "title": "Diplomatura Universitaria Superior en Operatoria y Análisis de Mercados Financieros (DIPMERC)",
       "category": "Diplomatura universitaria superior",
