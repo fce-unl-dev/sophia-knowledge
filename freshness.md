@@ -194,3 +194,4 @@
 | `posgrado-general/datos-para-crawler.md` | Revisado | 🟢 -4 d (2026-11-24) | 🔴 N/D |
 | `posgrado-general/beneficios-graduados.md` | Revisado | 🟢 -4 d (2026-11-24) | 🔴 185 d (2026-05-18) |
 | `posgrado-general/inscripciones-en-carreras.md` | Revisado | 🟢 -4 d (2026-11-24) | 🔴 185 d (2026-05-18) |
+| `diplomaturas/diploconcursos.md` | Revisado | 🟢 -5 d (2026-11-25) | 🔴 N/D |
