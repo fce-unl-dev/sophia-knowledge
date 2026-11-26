@@ -9,11 +9,7 @@
 
 - Académica » Cambio 2026 de Planes de Estudio » Cambio 2026 de Planes de Estudio
 - Cambio 2026 de Planes de Estudio
-- Elección de Carrera
-- Desde el 19 de octubre y hasta el 30 de octubre, los y las estudiantes del Bachiller Universitario en Ciencias Económicas deberán elegir la carrera que querrán seguir: Contador/a Pública, Licenciatura en Administración o Licenciatura en Economía.
-- Esta elección es OBLIGATORIA para todos/as los/as estudiantes que no hayan elegido carrera. Se deja sin efecto el requisito de “5 materias de primer año aprobadas” para realizar el trámite.
-- Formulario para elección de carrera en el siguiente link:
-- COMPLETÁ EL FORMULARIO ONLINE
+- Consultá todas tus dudas sobre el nuevo plan de estudio usando el Simulador que provee Luca, nuestro asistente virtual.
 - Presentación de Resultados de las Encuestas
 - En el marco del proceso de revisión y evaluación curricular de las carreras de Contador Público, Licenciatura en Administración y Licenciatura en Economía, se puso a disposición de la Comisión de Evaluación Curricular del Consejo Directivo la presentación elaborada por la Socióloga Virginia Trevignani y su equipo.
 - Esta presentación muestra los resultados del relevamiento realizado a docentes y estudiantes, constituyendo un insumo fundamental para el análisis y las propuestas de mejora de nuestra comunidad académica.
@@ -49,5 +45,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-23 (candidato generado por el scraper de secciones WordPress)
+**Última revisión automática**: 2026-11-26 (candidato generado por el scraper de secciones WordPress)
 **Revisión humana**: pendiente

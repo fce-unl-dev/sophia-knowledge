@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-11-25",
+  "lastUpdated": "2026-11-26",
   "description": "Metadatos de ruteo estático para derivar consultas de Luca según sector de contenido.",
   "stats": {
     "academica": 32,
@@ -9,7 +9,7 @@
     "extension": 6,
     "internacionales": 8,
     "docentes": 4,
-    "posgrados_graduados": 34,
+    "posgrados_graduados": 35,
     "posgrados_cursos_sin_titulo": 28,
     "grado": 12,
     "tramites_bedelia": 7,
@@ -519,6 +519,12 @@
       "displayName": "Oferta sin título de grado (cursos, diplomaturas y tecnicaturas)",
       "title": "Trading Profesional Basado en Evidencia",
       "category": "Curso de formación profesional"
+    },
+    "diplomaturas/diploconcursos.md": {
+      "sector": "posgrados_graduados",
+      "displayName": "Posgrados (Graduados)",
+      "title": "Diplomatura Universitaria Superior en Empresas en Crisis y Procesos de Insolvencia (DIPCRISIS)",
+      "category": "Diplomatura universitaria superior"
     },
     "diplomaturas/diplomercados.md": {
       "sector": "posgrados_graduados",
@@ -1157,12 +1163,6 @@
       "displayName": "Académica",
       "title": "Régimen de Correlatividades de la carrera de Contador Público (Resolución CS n.º 482/26)",
       "category": "Complementario"
-    },
-    "diplomaturas/diploconcursos.md": {
-      "sector": "posgrados_graduados",
-      "displayName": "Posgrados (Graduados)",
-      "title": "Diplomatura Universitaria Superior en Empresas en Crisis y Procesos de Insolvencia (DIPCRISIS)",
-      "category": "Diplomatura universitaria superior"
     }
   }
 }
