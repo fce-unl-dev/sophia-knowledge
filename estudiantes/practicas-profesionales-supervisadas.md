@@ -48,5 +48,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-20 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-11-27 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente

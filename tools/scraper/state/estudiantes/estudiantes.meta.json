@@ -1,13 +1,13 @@
 {
   "slug": "estudiantes",
   "strategy": "fce-students-menu-topics",
-  "content_hash": "50c75481f15d44001cf87ab9c2d4dc7250f22cfe610b05dbb4b6c82ca766609c",
-  "previous_hash": "29a0bf07b6c73f60f3c5f521dbc12d18b201ac74a50f7ec9f5617cbd9014155e",
+  "content_hash": "05877c2c4ce6e8f6a528ef1d69a7794be66fd92290952200cd681c93f2a2e7c1",
+  "previous_hash": "50c75481f15d44001cf87ab9c2d4dc7250f22cfe610b05dbb4b6c82ca766609c",
   "status": "changed",
   "topics_count": 14,
   "candidates_count": 14,
   "excluded_count": 1,
   "warnings_count": 8,
-  "scraped_at": "2026-11-20T16:54:13.965Z",
-  "last_checked_at": "2026-11-20T16:54:13.965Z"
+  "scraped_at": "2026-11-27T18:02:58.481Z",
+  "last_checked_at": "2026-11-27T18:02:58.481Z"
 }
