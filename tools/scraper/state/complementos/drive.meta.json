@@ -1,44 +1,47 @@
 {
-  "lastSynced": "2026-11-18T14:58:13.792Z",
+  "lastSynced": "2026-11-26T18:54:37.656Z",
   "files": {
-    "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07": {
-      "id": "1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07",
-      "name": "CP - propuestas cursado.docx",
-      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "modifiedTime": "2026-10-30T12:45:07.927Z",
-      "path": "15-Cambio de Planes de Estudio 2027/nuevo/CP - propuestas cursado.docx",
-      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-cp-propuestas-cursado",
+    "1HAKZJYHV-WqXKUyyyaUsTXnMBHf5w3Gn": {
+      "id": "1HAKZJYHV-WqXKUyyyaUsTXnMBHf5w3Gn",
+      "name": "Propuesta de cursado 2027 LA.docx.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-11-25T14:24:45.466Z",
+      "path": "15-Cambio de Planes de Estudio 2027/nuevo/Propuesta de cursado 2027 LA.docx.pdf",
+      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-la-docx",
       "sector": "academica",
+      "provisional": false,
       "status": "synchronized",
-      "hash": "b12e8c5dfe82db08e3215d73482f8879ca16109e9438b75de43417b293fe3f5b",
-      "webViewLink": "https://docs.google.com/document/d/1Rks5nW21-ToK7mbGi8bm7aa7bc7jiB07/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true",
-      "lastProcessed": "2026-10-30T23:53:04.795Z"
+      "hash": "ec9df574185ae5a426bcb1bb4b7c535c13880d257564f3cde6aa09c301080311",
+      "webViewLink": "https://drive.google.com/file/d/1HAKZJYHV-WqXKUyyyaUsTXnMBHf5w3Gn/view?usp=drivesdk",
+      "lastProcessed": "2026-11-26T18:54:37.619Z"
     },
-    "18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG": {
-      "id": "18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG",
-      "name": "LA - propuestas cursado.docx",
-      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "modifiedTime": "2026-10-30T12:44:55.073Z",
-      "path": "15-Cambio de Planes de Estudio 2027/nuevo/LA - propuestas cursado.docx",
-      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-la-propuestas-cursado",
+    "1BDEo7TiQR64nmZD2SgKvTsENJmNgQuRK": {
+      "id": "1BDEo7TiQR64nmZD2SgKvTsENJmNgQuRK",
+      "name": "Propuesta de cursado 2027 LE.docx.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-11-25T14:24:41.338Z",
+      "path": "15-Cambio de Planes de Estudio 2027/nuevo/Propuesta de cursado 2027 LE.docx.pdf",
+      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-le-docx",
       "sector": "academica",
+      "provisional": false,
       "status": "synchronized",
-      "hash": "7f9703a3fe49d0fdb838c4b0dbb7189001b9bc19819e06c66bf08e5bc93fa2ec",
-      "webViewLink": "https://docs.google.com/document/d/18HuoFJOtGyShGCD_kqVQfSAxkdHlznbG/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true",
-      "lastProcessed": "2026-10-30T23:53:04.796Z"
+      "hash": "6bcfd979df0dfe6c29e91a3ec7122aea750290d92540418bc25e148479c1fd62",
+      "webViewLink": "https://drive.google.com/file/d/1BDEo7TiQR64nmZD2SgKvTsENJmNgQuRK/view?usp=drivesdk",
+      "lastProcessed": "2026-11-26T18:54:37.620Z"
     },
-    "1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun": {
-      "id": "1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun",
-      "name": "LE - propuestas cursado.docx",
-      "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "modifiedTime": "2026-10-30T12:44:42.039Z",
-      "path": "15-Cambio de Planes de Estudio 2027/nuevo/LE - propuestas cursado.docx",
-      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-le-propuestas-cursado",
+    "1jt7XSy1iKL0UHQwSkwz-iDKB89FAaOrF": {
+      "id": "1jt7XSy1iKL0UHQwSkwz-iDKB89FAaOrF",
+      "name": "Propuesta de cursado 2027 CP.docx.pdf",
+      "mimeType": "application/pdf",
+      "modifiedTime": "2026-11-25T14:24:37.116Z",
+      "path": "15-Cambio de Planes de Estudio 2027/nuevo/Propuesta de cursado 2027 CP.docx.pdf",
+      "slug": "15-cambio-de-planes-de-estudio-2027-nuevo-propuesta-de-cursado-2027-cp-docx",
       "sector": "academica",
+      "provisional": false,
       "status": "synchronized",
-      "hash": "a38305e06e664cdcfc5e9fe9c8592cb9e0778d945dda9e9d65a9bb01426ea463",
-      "webViewLink": "https://docs.google.com/document/d/1QAaezloM7G-ww6bbsZnsf9GsIBmVfKun/edit?usp=drivesdk&ouid=100797842743075400935&rtpof=true&sd=true",
-      "lastProcessed": "2026-10-30T23:53:04.797Z"
+      "hash": "c1e4b9caa22c856285d69e67da84c429ad448ac98a705a84580361690dccbf80",
+      "webViewLink": "https://drive.google.com/file/d/1jt7XSy1iKL0UHQwSkwz-iDKB89FAaOrF/view?usp=drivesdk",
+      "lastProcessed": "2026-11-26T18:54:37.620Z"
     },
     "1ulaKpbQjPxZxPK014dxwsYD-dBxpljXB": {
       "id": "1ulaKpbQjPxZxPK014dxwsYD-dBxpljXB",
