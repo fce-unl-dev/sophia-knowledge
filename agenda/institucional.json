@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "refreshedAt": "2026-11-26T19:37:01.751Z",
+  "refreshedAt": "2026-11-27T19:28:23.768Z",
   "events": [
     {
       "date": "2026-12-01",
@@ -8,9 +8,19 @@
       "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1009"
     },
     {
+      "date": "2026-12-01",
+      "title": "Charla abierta y presentación académica de la Diplomatura Universitaria en Criptomonedas y Blockchain",
+      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1014"
+    },
+    {
       "date": "2026-12-03",
       "title": "Cómo regular la respuesta al sobreendeudamiento",
       "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1007"
+    },
+    {
+      "date": "2026-12-03",
+      "title": "MAPeando la Tesis",
+      "url": "https://www.fce.unl.edu.ar/eventos/index.php?idEvento=1012"
     },
     {
       "date": "2026-12-04",
