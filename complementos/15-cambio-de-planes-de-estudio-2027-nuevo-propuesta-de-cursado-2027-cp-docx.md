@@ -38,6 +38,7 @@ Este documento detalla la propuesta de cursado para el año 2027 de las asignatu
   - En fusiones con materias **correlativas entre sí** (*Administración Aplicada*, *Instituciones del Derecho*, *Informes Contables*): se exige tener aprobada la correlativa de la primera asignatura.
   - En fusiones de materias **no correlativas entre sí** (*Economía Aplicada*, *Administración y Finanzas Públicas*): se exigen las correlativas de ambas asignaturas.
 - **Cuatrimestralización:** a partir de 2027, **Teoría y Técnica Impositiva I** y **Auditoría** dejan de ser anuales y pasan a dictarse de forma cuatrimestral.
+- **Correlativa de Cálculo para Estadística y Microeconomía en 2027 (Secretaría Académica, 27/11/2026):** para cursar en 2027 se levanta la correlativa de *Cálculo para Ciencias Económicas* tanto en **Estadística** (alcanza y es necesario tener aprobada *Matemática como Lenguaje*) como en **Microeconomía** (en principio se levanta la correlativa). En ambos casos la garantía de cursado queda sujeta a la **capacidad edilicia**.
 
 ---
 

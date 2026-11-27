@@ -23,8 +23,9 @@ Este documento detalla la propuesta de cursado para el año 2027 de la Licenciat
 ### 2. Precisiones operativas vigentes para 2027 (Secretaría Académica, 25/11/2026)
 
 - **Econometría:** en 2027 continúa dictándose de forma **anual** en el plan actual. En el plan nuevo se divide en Econometría I y Econometría II (ambas cuatrimestrales), y en 2028 Econometría I inicia en el segundo cuatrimestre.
-- **Matemática para economistas:** continúa siendo **anual** en el plan actual (Secretaría Académica trabaja para su eventual cuatrimestralización, aún no confirmada).
-- **Microeconomía II:** tanto Microeconomía II como el complemento de Organización Industrial cuentan con dictado en ambos cuatrimestres de 2027.
+- **Matemática para economistas:** a partir de 2027 deja de ser anual y pasa a dictarse de forma **cuatrimestral** para estudiantes del plan actual (confirmado por Secretaría Académica, 27/11/2026).
+- **Microeconomía II y materias de 3.° y 4.° año:** en principio mantienen su cuatrimestre habitual del plan de estudios actual en 2027; se abrirán comisiones en el cuatrimestre no habitual siempre que se alcance el mínimo de **20 estudiantes** (confirmado por Secretaría Académica, 27/11/2026).
+- **Instituciones de Derecho II:** aprobada cuenta como **optativa** en el plan nuevo (confirmado por Secretaría Académica, 27/11/2026).
 - **Metodología de la Investigación:** su esquema definitivo de recomendación para 2027 continúa en definición por los equipos docentes. En el nuevo plan, el requisito para presentar Tesina baja a **22 materias**.
 
 ### 3. ANEXO II: Cronograma General de Implementación
