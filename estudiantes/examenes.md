@@ -59,7 +59,7 @@
 
 ## Cronograma de Exámenes Finales (Snapshot Oficial)
 
-**Última actualización de planilla**: 2026-11-20
+**Última actualización de planilla**: 2026-11-27
 
 ### Primer turno 2026
 
@@ -466,7 +466,7 @@
 | 4/12/2026 | Viernes | 3360 | Historia y Estructura Económica Argentina | 09:00 Hs | Desde el 27/11/2026 al 2/12/2026 |
 | 4/12/2026 | Viernes | 5070 | Historia Social y Económica Argentina | 09:00 Hs | Desde el 27/11/2026 al 2/12/2026 |
 | 4/12/2026 | Viernes | 1045 | Contabilidad I | 09:00 Hs | Desde el 27/11/2026 al 2/12/2026 |
-| 4/12/2026 | Viernes | 2025 | Informática | 14:00 Hs. | Desde el 27/11/2026 al 2/12/2026 |
+| 4/12/2026 | Viernes | 2025 | Informática | 15:00 Hs. | Desde el 27/11/2026 al 2/12/2026 |
 | 4/12/2026 | Viernes | 3015 | Microeconomía | 15:00 Hs. | Desde el 27/11/2026 al 2/12/2026 |
 | 4/12/2026 | Viernes | 3130 | Derecho del Trabajo e Instituciones de la Seguridad Social | 15:00 Hs. | Desde el 27/11/2026 al 2/12/2026 |
 | 4/12/2026 | Viernes | 4355 | Microeconomía II | 15:00 Hs. | Desde el 27/11/2026 al 2/12/2026 |
@@ -482,7 +482,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 9/12/2026 | Miércoles | 3160 | Habilitante de Sociedades | 09:00 Hs | Desde el 2/12/2026 al 7/12/2026 |
 | 9/12/2026 | Miércoles | 5135 | Habilitante de Concursos y Titulos Valores | 09:00 Hs | Desde el 2/12/2026 al 7/12/2026 |
-| 10/12/2026 | Jueves | 3130 | Habilitante de Derecho del Trabajo e Instituciones de la Seguridad Social | 18:00 Hs | Desde el 2/12/2026 al 7/12/2026 |
+| 9/12/2026 | Miércoles | 3130 | Habilitante de Derecho del Trabajo e Instituciones de la Seguridad Social | 18:00 Hs | Desde el 2/12/2026 al 7/12/2026 |
 | 14/12/2026 | Lunes | 2265 | Psicología Organizacional y del Trabajo | 09:00 Hs | Desde el 7/12/2026 al 10/12/2026 |
 | 14/12/2026 | Lunes | 1015 | Matemática Como Lenguaje | 09:00 Hs | Desde el 7/12/2026 al 10/12/2026 |
 | 14/12/2026 | Lunes | 5145 | Administración III | 09:00 Hs | Desde el 7/12/2026 al 10/12/2026 |
@@ -549,7 +549,7 @@
 | 18/12/2026 | Viernes | 3360 | Historia y Estructura Económica Argentina | 09:00 Hs | Desde el 11/12/2026 al 16/12/2026 |
 | 18/12/2026 | Viernes | 5070 | Historia Social y Económica Argentina | 09:00 Hs | Desde el 11/12/2026 al 16/12/2026 |
 | 18/12/2026 | Viernes | 1045 | Contabilidad I | 09:00 Hs | Desde el 11/12/2026 al 16/12/2026 |
-| 18/12/2026 | Viernes | 2025 | Informática | 14:00 Hs. | Desde el 11/12/2026 al 16/12/2026 |
+| 18/12/2026 | Viernes | 2025 | Informática | 15:00 Hs. | Desde el 11/12/2026 al 16/12/2026 |
 | 18/12/2026 | Viernes | 3015 | Microeconomía | 15:00 Hs. | Desde el 11/12/2026 al 16/12/2026 |
 | 18/12/2026 | Viernes | 3130 | Derecho del Trabajo e Instituciones de la Seguridad Social | 15:00 Hs. | Desde el 11/12/2026 al 16/12/2026 |
 | 18/12/2026 | Viernes | 4355 | Microeconomía II | 15:00 Hs. | Desde el 11/12/2026 al 16/12/2026 |
@@ -767,5 +767,5 @@
 
 ---
 
-**Última revisión automática**: 2026-11-20 (candidato generado por scraper determinístico de estudiantes)
+**Última revisión automática**: 2026-11-27 (candidato generado por scraper determinístico de estudiantes)
 **Revisión humana**: pendiente
