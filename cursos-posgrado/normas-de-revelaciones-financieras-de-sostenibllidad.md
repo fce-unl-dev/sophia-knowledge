@@ -39,10 +39,9 @@ Detalle del programa no disponible en el documento al momento de la extracción.
 ### Información oficial del CRM — Normas de revelaciones financieras de sostenibllidad  2026
 
 - **ID de propuesta:** 1429
-- **Inscripción:** Abierta
+- **Inscripción:** Cerrada
 - **Fecha límite de inscripción:** 2026-11-27
-- **Preinscripción directa:** https://www.fce.unl.edu.ar/posgrados/index.php?act=showLogin&id_posgrado=1429
-- **Última actualización de este registro (Argentina):** 2026-09-29 08:25:35
+- **Última actualización de este registro (Argentina):** 2026-11-28 00:00:00
 
 Sin respuesta frecuente automática cargada en el CRM.
 <!-- posgrado-crm:end -->
